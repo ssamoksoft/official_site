@@ -98,14 +98,15 @@ a { color: inherit; text-decoration: none; }
 }
 .lang[aria-expanded="true"] .lang__menu { display: block; }
 .lang__item {
-  display: flex; align-items: center; justify-content: space-between; gap: 10px;
-  width: 100%; text-align: left; padding: 9px 12px; border-radius: 9px;
+  display: flex; align-items: center; gap: 10px;
+  width: 100%; text-align: start; padding: 9px 12px; border-radius: 9px;
   background: transparent; border: 0; color: var(--text-dim); font: inherit; font-size: 14px; cursor: pointer;
 }
+.lang__item::before { content: ""; flex: 0 0 auto; width: 7px; height: 7px; border-radius: 50%; background: transparent; }
 .lang__item:hover { background: var(--surface); color: var(--text); }
 .lang__item[aria-current="true"] { color: var(--text); }
-.lang__item[aria-current="true"]::after { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
-.lang__code { color: var(--text-mute); font-size: 12px; }
+.lang__item[aria-current="true"]::before { background: var(--accent); }
+.lang__code { margin-inline-start: auto; color: var(--text-mute); font-size: 12px; }
 
 /* ---------- Hero ---------- */
 .hero { padding: 92px 0 72px; }
