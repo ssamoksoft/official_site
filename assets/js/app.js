@@ -53,11 +53,13 @@ function isRTL() { return false; } // none of the 15 supported languages are RTL
 
 /* ---------- i18n apply ---------- */
 function applyI18n() {
+  const year = new Date().getFullYear();
+  const withVars = (s) => String(s).replace(/\{year\}/g, year);
   document.querySelectorAll("[data-i18n]").forEach((el) => {
-    el.textContent = t(el.getAttribute("data-i18n"));
+    el.textContent = withVars(t(el.getAttribute("data-i18n")));
   });
   document.querySelectorAll("[data-i18n-html]").forEach((el) => {
-    el.innerHTML = t(el.getAttribute("data-i18n-html"));
+    el.innerHTML = withVars(t(el.getAttribute("data-i18n-html")));
   });
   document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
     el.getAttribute("data-i18n-attr").split(";").forEach((pair) => {
@@ -73,6 +75,20 @@ function applyI18n() {
 }
 
 /* ---------- apps ---------- */
+function preferredStore() {
+  const ua = navigator.userAgent || "";
+  if (/iPhone|iPad|iPod/i.test(ua)) return "appstore";
+  if (/Android/i.test(ua)) return "play";
+  return "desktop";
+}
+function smartLink(links) {
+  // Hybrid: whole-card click resolves to the store matching the visitor's device,
+  // falling back to whichever store link exists. null = no links => card not clickable.
+  if (!links) return null;
+  const order = preferredStore() === "appstore" ? ["appstore", "play"] : ["play", "appstore"];
+  for (const k of order) if (links[k]) return links[k];
+  return null;
+}
 function renderApps() {
   const grid = document.getElementById("apps-grid");
   if (!grid) return;
@@ -91,8 +107,11 @@ function renderApps() {
       ? `<span class="app-icon"><img src="${app.icon}" alt="" /></span>`
       : `<span class="app-icon">${(name || "?").trim().charAt(0).toUpperCase()}</span>`;
     const links = renderLinks(app.links);
+    const href = smartLink(app.links);
+    const cls = `app-card${soon ? " is-soon" : ""}${href ? " is-linked" : ""}`;
+    const linkAttrs = href ? ` data-href="${escapeHTML(href)}" role="link" tabindex="0" aria-label="${escapeHTML(name)}"` : "";
     return `
-      <article class="app-card ${soon ? "is-soon" : ""}" style="--card-accent:${accent}">
+      <article class="${cls}" style="--card-accent:${accent}"${linkAttrs}>
         <div class="app-card__top">
           ${icon}
           <span class="app-cat">${catLabel}</span>
@@ -112,6 +131,41 @@ function renderLinks(links) {
 }
 function escapeHTML(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+/* ---------- privacy page ---------- */
+function renderPrivacy() {
+  const root = document.getElementById("privacy-root");
+  if (!root) return; // only present on privacy pages
+  const appId = document.body.getAttribute("data-privacy-app");
+  const app = appId ? (appsData.apps || []).find((a) => a.id === appId) : null;
+  const appName = app ? localize(app.name) : "";
+  const applies = app ? t("privacy.applies_app").replace("{app}", appName) : t("privacy.applies_common");
+  document.title = (app ? appName + " — " : "") + t("privacy.title");
+
+  let summary = "";
+  if (app && app.privacy) {
+    const p = app.privacy;
+    const items = [
+      t("privacy.sum_backend_" + p.backend),
+      p.account ? t("privacy.sum_account_yes") : t("privacy.sum_account_no"),
+      p.ads ? t("privacy.sum_ads_yes") : t("privacy.sum_ads_no"),
+      p.iap ? t("privacy.sum_iap_yes") : t("privacy.sum_iap_no"),
+    ];
+    summary = `<div class="privacy-summary"><h2>${escapeHTML(t("privacy.summary_title"))}</h2><ul>${items.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul></div>`;
+  }
+
+  const sections = ["collect", "purpose", "iap", "thirdparty", "ads", "retention", "storage", "rights", "children", "contact", "changes"];
+  const body = sections.map((s) => `<h2>${escapeHTML(t("privacy.s_" + s + "_title"))}</h2><p>${escapeHTML(t("privacy.s_" + s + "_body"))}</p>`).join("");
+
+  root.innerHTML =
+    `<h1>${escapeHTML(t("privacy.title"))}</h1>` +
+    `<p class="updated">${escapeHTML(t("privacy.updated"))}</p>` +
+    `<p class="applies">${escapeHTML(applies)}</p>` +
+    `<p class="intro">${escapeHTML(t("privacy.intro"))}</p>` +
+    summary +
+    body +
+    `<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
 }
 
 /* ---------- language chips ---------- */
@@ -179,6 +233,7 @@ async function setLang(code) {
   document.documentElement.setAttribute("dir", isRTL() ? "rtl" : "ltr");
   applyI18n();
   renderApps();
+  renderPrivacy();
   updateLangButton();
 }
 
@@ -201,6 +256,21 @@ async function init() {
     if (langEl && !langEl.contains(e.target)) closeLangMenu();
   });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLangMenu(); });
+
+  // app card: whole-card click / Enter opens the device-matched store (badges keep their own links)
+  const grid = document.getElementById("apps-grid");
+  if (grid) {
+    grid.addEventListener("click", (e) => {
+      if (e.target.closest("a")) return; // let store badge links handle themselves
+      const card = e.target.closest(".app-card.is-linked");
+      if (card && card.dataset.href) window.open(card.dataset.href, "_blank", "noopener");
+    });
+    grid.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      const card = e.target.closest && e.target.closest(".app-card.is-linked");
+      if (card && card.dataset.href) { e.preventDefault(); window.open(card.dataset.href, "_blank", "noopener"); }
+    });
+  }
 }
 
 if (document.readyState === "loading") {

@@ -3,54 +3,74 @@
   "languages": ["en", "ko", "ja", "zh", "zh_Hant", "es", "pt", "de", "fr", "hi", "id", "ru", "vi", "tr", "it"],
   "apps": [
     {
-      "id": "focus",
+      "id": "stopwatcha",
       "category": "productivity",
-      "accent": "#6E56F8",
+      "accent": "#8A93A6",
       "status": "released",
-      "icon": null,
-      "links": { "play": "", "appstore": "" },
-      "name": { "en": "Focus", "ko": "포커스" },
-      "tagline": { "en": "Stay in flow with distraction-free sessions.", "ko": "방해 없는 집중 세션으로 몰입을 지켜요." }
+      "icon": "/assets/apps/stopwatcha.png",
+      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/stopwatcha-stopwatch-for-pro/id1510884418" },
+      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
+      "name": { "en": "StopWatchA" },
+      "tagline": {
+        "en": "A pro stopwatch and timer with buttons you build yourself.",
+        "ko": "원하는 버튼을 직접 만드는 프로용 스톱워치·타이머."
+      }
     },
     {
-      "id": "notes-plus",
-      "category": "productivity",
-      "accent": "#3B82F6",
+      "id": "about-my-time",
+      "category": "lifestyle",
+      "accent": "#CDA349",
       "status": "released",
-      "icon": null,
-      "links": { "play": "", "appstore": "" },
-      "name": { "en": "Notes+", "ko": "노트플러스" },
-      "tagline": { "en": "Fast, organized notes that sync everywhere.", "ko": "어디서나 동기화되는 빠르고 정돈된 메모." }
+      "icon": "/assets/apps/about-my-time.png",
+      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/about-my-time-cloud-diary/id1509449464" },
+      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
+      "name": { "en": "About My Time" },
+      "tagline": {
+        "en": "A simple, secure cloud diary for your everyday.",
+        "ko": "하루를 안전하게 담는 간편한 클라우드 일기."
+      }
     },
     {
-      "id": "habit",
+      "id": "m17",
       "category": "productivity",
-      "accent": "#14B8A6",
+      "accent": "#E27D3A",
       "status": "released",
-      "icon": null,
-      "links": { "play": "", "appstore": "" },
-      "name": { "en": "Habit", "ko": "해빗" },
-      "tagline": { "en": "Build routines and track streaks that stick.", "ko": "꾸준한 루틴을 만들고 연속 기록을 관리해요." }
+      "icon": "/assets/apps/m17.png",
+      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/m17-review-evaluation-rankings/id1507718575" },
+      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
+      "name": { "en": "M17" },
+      "tagline": {
+        "en": "Rate and rank the things you buy and love.",
+        "ko": "사본 것, 좋아한 것을 기록하고 순위를 매기세요."
+      }
     },
     {
-      "id": "timer",
-      "category": "productivity",
-      "accent": "#8B5CF6",
+      "id": "about-couples",
+      "category": "lifestyle",
+      "accent": "#5C6BC0",
       "status": "released",
-      "icon": null,
-      "links": { "play": "", "appstore": "" },
-      "name": { "en": "Timer", "ko": "타이머" },
-      "tagline": { "en": "Simple, beautiful timers for work and rest.", "ko": "일과 휴식을 위한 단순하고 아름다운 타이머." }
+      "icon": "/assets/apps/about-couples.png",
+      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/about-couples-d-day-event/id1460188851" },
+      "privacy": { "backend": "local", "account": false, "ads": true, "iap": false },
+      "name": { "en": "About Couples" },
+      "tagline": {
+        "en": "Track anniversaries and D-days with the one you love.",
+        "ko": "처음 만난 날부터, 연인과의 기념일과 디데이 관리."
+      }
     },
     {
-      "id": "budget",
-      "category": "productivity",
-      "accent": "#0EA5E9",
+      "id": "imincloud",
+      "category": "utility",
+      "accent": "#2E6BD6",
       "status": "released",
-      "icon": null,
-      "links": { "play": "", "appstore": "" },
-      "name": { "en": "Budget", "ko": "버짓" },
-      "tagline": { "en": "Track spending and reach your goals faster.", "ko": "지출을 관리하고 목표에 더 빨리 도달해요." }
+      "icon": "/assets/apps/imincloud.png",
+      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/imincloud/id1495740913" },
+      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
+      "name": { "en": "Imin Cloud" },
+      "tagline": {
+        "en": "Subscriptions, logins, and private notes — safe in one place.",
+        "ko": "구독·로그인·비밀 메모를 안전하게 한곳에."
+      }
     }
   ]
 }

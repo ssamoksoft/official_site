@@ -131,6 +131,7 @@ a { color: inherit; text-decoration: none; }
 .section { padding: 72px 0; }
 .section__head { margin-bottom: 40px; }
 .section__head h2 { font-size: clamp(26px, 3.4vw, 36px); }
+.section__head h2.caps { letter-spacing: 0.06em; }
 .section__head p { color: var(--text-dim); margin: 10px 0 0; }
 
 /* ---------- Apps grid ---------- */
@@ -143,6 +144,8 @@ a { color: inherit; text-decoration: none; }
 }
 .app-card::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: var(--card-accent, var(--accent)); opacity: .9; }
 .app-card:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--card-accent, var(--accent)) 55%, var(--border)); }
+.app-card.is-linked { cursor: pointer; }
+.app-card.is-linked:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .app-card__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
 .app-icon {
   width: 46px; height: 46px; border-radius: 13px; display: grid; place-items: center;
@@ -157,9 +160,16 @@ a { color: inherit; text-decoration: none; }
 .app-card.is-soon .app-cat { color: var(--card-accent, var(--accent)); border-color: color-mix(in srgb, var(--card-accent) 45%, var(--border)); }
 .app-name { font-size: 19px; margin-bottom: 6px; }
 .app-tagline { color: var(--text-dim); font-size: 14.5px; margin: 0 0 16px; min-height: 2.6em; }
-.app-links { display: flex; gap: 10px; }
-.app-links a { font-size: 13px; color: var(--text-dim); display: inline-flex; align-items: center; gap: 6px; }
-.app-links a:hover { color: var(--accent-2); }
+.app-links { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+.app-links a {
+  flex: 1 1 auto; min-height: 44px; padding: 10px 16px; border-radius: 12px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-size: 14px; font-weight: 500; color: var(--text);
+  background: var(--surface-2); border: 1px solid var(--border);
+  transition: background .2s ease, border-color .2s ease, color .2s ease;
+}
+.app-links a i { font-size: 19px; }
+.app-links a:hover { background: #23212f; color: #fff; border-color: color-mix(in srgb, var(--card-accent, var(--accent)) 55%, var(--border)); }
 .apps-empty { color: var(--text-mute); border: 1px dashed var(--border); border-radius: var(--radius); padding: 40px; text-align: center; grid-column: 1 / -1; }
 
 /* ---------- Languages strip ---------- */
@@ -174,6 +184,20 @@ a { color: inherit; text-decoration: none; }
 .contact { text-align: center; }
 .contact h2 { font-size: clamp(28px, 4vw, 44px); }
 .contact p { color: var(--text-dim); max-width: 52ch; margin: 14px auto 28px; }
+
+/* ---------- Legal / privacy ---------- */
+.legal { max-width: 760px; padding: 56px 0 80px; }
+.legal h1 { font-size: clamp(30px, 5vw, 44px); margin-bottom: 8px; }
+.legal .updated { color: var(--text-mute); font-size: 14px; margin-bottom: 6px; }
+.legal .applies { color: var(--text); font-weight: 500; margin: 0 0 18px; }
+.legal .intro { color: var(--text-dim); font-size: 17px; }
+.legal h2 { font-size: 20px; margin: 30px 0 8px; }
+.legal p { color: var(--text-dim); }
+.legal .back { display: inline-flex; align-items: center; gap: 8px; margin-top: 34px; color: var(--accent-2); }
+.privacy-summary { margin: 22px 0 8px; padding: 20px 22px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.privacy-summary h2 { font-size: 17px; margin: 0 0 10px; }
+.privacy-summary ul { margin: 0; padding-left: 18px; color: var(--text-dim); }
+.privacy-summary li { margin: 5px 0; }
 
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--border-soft); padding: 34px 0; }
