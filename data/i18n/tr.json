@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "SSAMOK SOFT",
+    "description": "SSAMOK SOFT — a studio crafting productivity apps, available in 15 languages."
+  },
+  "nav": {
+    "apps": "Apps",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "lang_aria": "Change language"
+  },
+  "hero": {
+    "badge": "A software studio",
+    "title": "Tools you'll <span class=\"accent\">actually keep using.</span>",
+    "body": "A dedicated studio crafting calm, focused productivity apps to help you do your best work — built for clarity, localized for the world.",
+    "cta_primary": "Explore apps",
+    "cta_secondary": "Get in touch"
+  },
+  "apps": {
+    "title": "Our apps",
+    "subtitle": "Designed for focus, localized for the world.",
+    "empty": "New apps are on the way — check back soon.",
+    "coming_soon": "Coming soon",
+    "category": {
+      "productivity": "Productivity",
+      "utility": "Utility"
+    },
+    "links": {
+      "play": "Google Play",
+      "appstore": "App Store"
+    }
+  },
+  "lang": {
+    "title": "Available in 15 languages"
+  },
+  "contact": {
+    "title": "Ready to work together?",
+    "body": "Have a question about our apps, or want to discuss a partnership? We're always glad to hear from you."
+  },
+  "footer": {
+    "rights": "© 2026 SSAMOK SOFT. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "contact": "Contact"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: July 1, 2026",
+    "intro": "This Privacy Policy explains how SSAMOK SOFT (\"we\", \"us\") collects, uses, and protects information across our apps and this website. It applies to all SSAMOK SOFT applications unless a specific app provides its own notice.",
+    "s1_title": "1. Information we collect",
+    "s1_body": "Our apps are designed to work with as little personal data as possible. Depending on the app, we may process: basic device information and identifiers, app usage and diagnostics, and advertising identifiers used to serve ads. We do not sell your personal information.",
+    "s2_title": "2. Advertising",
+    "s2_body": "Some apps display ads through Google AdMob. Ad providers may use device and advertising identifiers to deliver and measure ads. You can reset or limit ad tracking in your device settings.",
+    "s3_title": "3. How we use information",
+    "s3_body": "We use collected information to operate and improve our apps, provide support, keep our services secure, and — where applicable — show relevant advertising.",
+    "s4_title": "4. Data retention & your rights",
+    "s4_body": "We keep information only as long as needed for the purposes above. You may request access to, or deletion of, your data by contacting us. Store platforms (Google Play, App Store) also provide their own privacy controls.",
+    "s5_title": "5. Children",
+    "s5_body": "Our apps are not directed to children under the age required by local law, and we do not knowingly collect their personal information.",
+    "s6_title": "6. Contact",
+    "s6_body": "For any privacy question or request, contact us at ssamoksoft@gmail.com.",
+    "back": "Back to home",
+    "draft_note": "Draft template — review with legal counsel before publishing."
+  }
+}

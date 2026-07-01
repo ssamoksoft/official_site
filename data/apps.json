@@ -1,0 +1,56 @@
+{
+  "defaultLang": "en",
+  "languages": ["en", "ko", "ja", "zh", "zh_Hant", "es", "pt", "de", "fr", "hi", "id", "ru", "vi", "tr", "it"],
+  "apps": [
+    {
+      "id": "focus",
+      "category": "productivity",
+      "accent": "#6E56F8",
+      "status": "released",
+      "icon": null,
+      "links": { "play": "", "appstore": "" },
+      "name": { "en": "Focus", "ko": "포커스" },
+      "tagline": { "en": "Stay in flow with distraction-free sessions.", "ko": "방해 없는 집중 세션으로 몰입을 지켜요." }
+    },
+    {
+      "id": "notes-plus",
+      "category": "productivity",
+      "accent": "#3B82F6",
+      "status": "released",
+      "icon": null,
+      "links": { "play": "", "appstore": "" },
+      "name": { "en": "Notes+", "ko": "노트플러스" },
+      "tagline": { "en": "Fast, organized notes that sync everywhere.", "ko": "어디서나 동기화되는 빠르고 정돈된 메모." }
+    },
+    {
+      "id": "habit",
+      "category": "productivity",
+      "accent": "#14B8A6",
+      "status": "released",
+      "icon": null,
+      "links": { "play": "", "appstore": "" },
+      "name": { "en": "Habit", "ko": "해빗" },
+      "tagline": { "en": "Build routines and track streaks that stick.", "ko": "꾸준한 루틴을 만들고 연속 기록을 관리해요." }
+    },
+    {
+      "id": "timer",
+      "category": "productivity",
+      "accent": "#8B5CF6",
+      "status": "released",
+      "icon": null,
+      "links": { "play": "", "appstore": "" },
+      "name": { "en": "Timer", "ko": "타이머" },
+      "tagline": { "en": "Simple, beautiful timers for work and rest.", "ko": "일과 휴식을 위한 단순하고 아름다운 타이머." }
+    },
+    {
+      "id": "budget",
+      "category": "productivity",
+      "accent": "#0EA5E9",
+      "status": "released",
+      "icon": null,
+      "links": { "play": "", "appstore": "" },
+      "name": { "en": "Budget", "ko": "버짓" },
+      "tagline": { "en": "Track spending and reach your goals faster.", "ko": "지출을 관리하고 목표에 더 빨리 도달해요." }
+    }
+  ]
+}

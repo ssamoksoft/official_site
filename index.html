@@ -1,9 +1,120 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="UTF-8"><title>SSAMOK SOFT</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSAMOK SOFT</title>
+  <meta name="description" id="meta-description" content="SSAMOK SOFT — a studio crafting productivity apps, available in 15 languages." />
+  <meta property="og:title" content="SSAMOK SOFT" />
+  <meta property="og:description" content="A studio crafting productivity apps people actually keep using." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ssamoksoft.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
 <body>
-    <h1>SSAMOK SOFT 개발자 웹사이트</h1>
-    <p>문의 사항이 있으시면 아래 이메일로 연락 바랍니다.</p>
-    <p>Email: <a href="mailto:ssamoksoft@gmail.com">ssamoksoft@gmail.com</a></p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/" aria-label="SSAMOK SOFT home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span>SSAMOK SOFT</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="#apps" data-i18n="nav.apps">Apps</a>
+        <a class="nav__link" href="privacy/" data-i18n="nav.privacy">Privacy</a>
+        <a class="nav__link" href="#contact" data-i18n="nav.contact">Contact</a>
+        <div class="lang" id="lang" aria-expanded="false">
+          <button class="lang__toggle" id="lang-toggle" aria-haspopup="listbox"
+                  data-i18n-attr="aria-label:nav.lang_aria">
+            <i class="ti ti-world" aria-hidden="true"></i>
+            <span id="lang-current">English</span>
+            <i class="ti ti-chevron-down lang__chevron" aria-hidden="true"></i>
+          </button>
+          <ul class="lang__menu" id="lang-menu" role="listbox"></ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <span class="badge">
+            <i class="ti ti-sparkles" aria-hidden="true"></i>
+            <span data-i18n="hero.badge">A software studio</span>
+          </span>
+          <h1 data-i18n-html="hero.title">Tools you'll <span class="accent">actually keep using.</span></h1>
+          <p class="hero__body" data-i18n="hero.body">
+            A dedicated studio crafting calm, focused productivity apps to help you do your best work — built for clarity, localized for the world.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#apps" data-i18n="hero.cta_primary">Explore apps</a>
+            <a class="btn btn--ghost" href="#contact" data-i18n="hero.cta_secondary">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <span class="glow"></span>
+          <span class="orb o1"><i class="ti ti-circle-check"></i></span>
+          <span class="orb o2"><i class="ti ti-layout-grid"></i></span>
+          <span class="orb o3"><i class="ti ti-clock"></i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apps -->
+    <section class="section" id="apps">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="apps.title">Our apps</h2>
+          <p data-i18n="apps.subtitle">Designed for focus, localized for the world.</p>
+        </div>
+        <div class="apps-grid" id="apps-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="langs-strip" aria-label="Supported languages">
+      <div class="container langs-strip__inner">
+        <span class="langs-strip__label">
+          <i class="ti ti-world" aria-hidden="true"></i>
+          <span data-i18n="lang.title">Available in 15 languages</span>
+        </span>
+        <div class="chips" id="lang-chips"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 data-i18n="contact.title">Ready to work together?</h2>
+        <p data-i18n="contact.body">Have a question about our apps, or want to discuss a partnership? We're always glad to hear from you.</p>
+        <a class="btn btn--primary" href="mailto:ssamoksoft@gmail.com">
+          <i class="ti ti-mail" aria-hidden="true"></i>
+          <span>ssamoksoft@gmail.com</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__row">
+      <div class="footer__links">
+        <a href="privacy/" data-i18n="footer.links.privacy">Privacy Policy</a>
+        <a href="#contact" data-i18n="footer.links.contact">Contact</a>
+      </div>
+      <p class="footer__meta">
+        <span data-i18n="footer.rights">© 2026 SSAMOK SOFT. All rights reserved.</span>
+        &nbsp;·&nbsp;
+        <a href="https://www.ssamoksoft.com">www.ssamoksoft.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
 </body>
 </html>
