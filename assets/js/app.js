@@ -259,6 +259,26 @@ async function init() {
   });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLangMenu(); });
 
+  // in-page nav: smooth-scroll without exposing "#section" in the address bar
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    const id = decodeURIComponent(a.getAttribute("href").slice(1));
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  // arrived with a hash (e.g. from another page via /#contact) → scroll, then clean the URL
+  if (location.hash.length > 1) {
+    const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (target) {
+      history.replaceState(null, "", location.pathname + location.search);
+      requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
+    }
+  }
+
   // app card: whole-card click / Enter opens the device-matched store (badges keep their own links)
   const grid = document.getElementById("apps-grid");
   if (grid) {

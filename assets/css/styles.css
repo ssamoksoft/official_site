@@ -130,6 +130,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Section shell ---------- */
 .section { padding: 72px 0; }
+.section[id] { scroll-margin-top: 84px; }
 .section__head { margin-bottom: 40px; }
 .section__head h2 { font-size: clamp(26px, 3.4vw, 36px); }
 .section__head h2.caps { letter-spacing: 0.06em; }
