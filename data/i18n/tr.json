@@ -1,30 +1,30 @@
 {
   "meta": {
     "title": "SSAMOK SOFT",
-    "description": "We record your moments — SSAMOK SOFT builds practical apps for everyday life."
+    "description": "Anlarınızı kaydediyoruz — SSAMOK SOFT, günlük yaşam için pratik uygulamalar geliştirir."
   },
   "nav": {
-    "apps": "Apps",
-    "privacy": "Privacy",
-    "contact": "Contact",
-    "lang_aria": "Change language"
+    "apps": "Uygulamalar",
+    "privacy": "Gizlilik",
+    "contact": "İletişim",
+    "lang_aria": "Dili değiştir"
   },
   "hero": {
-    "badge": "App studio",
-    "title": "We record <span class=\"accent\">your moments.</span>",
-    "body": "Little apps you reach for daily, that fit right into your day — thoughtfully engineered, to last.",
-    "cta_primary": "Explore apps",
-    "cta_secondary": "Get in touch"
+    "badge": "Uygulama stüdyosu",
+    "title": "<span class=\"accent\">Anlarınızı</span> kaydediyoruz.",
+    "body": "Her gün açtığınız ve gününüze doğal biçimde uyan küçük uygulamalar — uzun süre kullanılsın diye özenle tasarlandı.",
+    "cta_primary": "Uygulamaları keşfet",
+    "cta_secondary": "İletişime geç"
   },
   "apps": {
-    "title": "Products",
-    "subtitle": "Practical apps to record and manage your everyday moments.",
-    "empty": "New apps are on the way — check back soon.",
-    "coming_soon": "Coming soon",
+    "title": "Ürünler",
+    "subtitle": "Günlük anlarınızı kaydetmek ve yönetmek için pratik uygulamalar.",
+    "empty": "Yeni uygulamalar yolda — yakında tekrar uğrayın.",
+    "coming_soon": "Yakında",
     "category": {
-      "productivity": "Productivity",
-      "lifestyle": "Lifestyle",
-      "utility": "Utility"
+      "productivity": "Verimlilik",
+      "lifestyle": "Yaşam tarzı",
+      "utility": "Araçlar"
     },
     "links": {
       "play": "Google Play",
@@ -32,57 +32,57 @@
     }
   },
   "lang": {
-    "title": "Available in 15 languages"
+    "title": "15 dilde mevcut"
   },
   "contact": {
-    "title": "Contact us",
-    "body": "For bug reports, feature requests, or other questions, please email us."
+    "title": "İletişime geç",
+    "body": "Hata bildirimi, özellik önerisi veya diğer sorular için lütfen bize e-posta gönderin."
   },
   "footer": {
     "rights": "© {year} SSAMOK SOFT. All rights reserved.",
     "links": {
-      "privacy": "Privacy Policy",
-      "contact": "Contact"
+      "privacy": "Gizlilik Politikası",
+      "contact": "İletişim"
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "updated": "Effective date: July 1, 2026",
-    "applies_common": "This policy applies to all SSAMOK SOFT apps and this website.",
-    "applies_app": "This policy applies to {app}.",
-    "intro": "SSAMOK SOFT (\"we\", \"us\") explains how we handle information across our apps and this website. Because our apps differ, each app's page includes a data-processing summary specific to that app.",
-    "summary_title": "Data processing summary",
-    "sum_backend_firebase": "Stores data in the Google Firebase cloud.",
-    "sum_backend_supabase": "Stores data in the Supabase cloud.",
-    "sum_backend_local": "Stores data only on your device (SQLite); nothing is sent to a server.",
-    "sum_account_yes": "Signs you in with an account (email).",
-    "sum_account_no": "Does not collect any account or email.",
-    "sum_ads_yes": "Shows Google AdMob ads; an advertising identifier may be used.",
-    "sum_ads_no": "Shows no ads.",
-    "sum_iap_yes": "Offers in-app purchases via the App Store and Google Play.",
-    "sum_iap_no": "Has no in-app purchases.",
-    "s_collect_title": "1. Information we collect",
-    "s_collect_body": "Depending on the app, we collect: an email address (for apps with an account), an advertising identifier (for apps that show ads), and purchase records, receipts, and transaction identifiers (for apps with in-app purchases). Some apps store data only on your device and collect no personal information on a server. We do not collect payment card information.",
-    "s_purpose_title": "2. How we use information",
-    "s_purpose_body": "We use collected information to manage accounts and verify users, operate and provide our services, handle in-app purchases and purchase history, respond to inquiries, improve our services, and deliver advertising.",
-    "s_iap_title": "3. In-app purchases",
-    "s_iap_body": "Some apps offer in-app purchases through the App Store and Google Play. Payments are handled by each store; we do not collect or store payment card information. We may process purchase-related information such as receipts and transaction identifiers for purchase validation and support.",
-    "s_thirdparty_title": "4. Third-party services",
-    "s_thirdparty_body": "Depending on the app, we use: Google Firebase (authentication, database, usage analytics, crash analysis), Supabase (backend for upcoming apps), Google AdMob (ad delivery and measurement), and the App Store and Google Play (in-app purchase processing). Apps that store data only on your device do not transmit it to a server. The services each app actually uses are listed in that app's data-processing summary.",
-    "s_ads_title": "5. Advertising",
-    "s_ads_body": "Some apps may show ads through Google AdMob. An advertising identifier and similar data may be used to deliver and measure ads. You can reset your advertising identifier or limit ad personalization in your device settings.",
-    "s_retention_title": "6. Data retention & deletion",
-    "s_retention_body": "We retain personal information while your account remains active. You may request deletion of your account and data at any time by emailing ssamoksoft@gmail.com, and we will delete it within 30 days of verifying your request, except where the law requires longer retention. For apps that store data only on your device, the data is removed when you delete the app.",
-    "s_storage_title": "7. Storage & security",
-    "s_storage_body": "Depending on the app, data is stored in the Google Firebase or Supabase cloud, or only on your device. For cloud-stored data, passwords and sensitive information are encrypted, and we maintain quarterly self-audits, access controls, access logs kept for at least six months, and intrusion prevention and detection systems.",
-    "s_rights_title": "8. Your rights",
-    "s_rights_body": "You may request to access, correct, delete, or suspend the processing of your personal information, and you can also use the privacy controls provided by the App Store and Google Play.",
-    "s_children_title": "9. Children",
-    "s_children_body": "Our apps are not directed to children under the age required by applicable law, and we do not knowingly collect their personal information.",
-    "s_contact_title": "10. Privacy officer & contact",
-    "s_contact_body": "Privacy officer: Dae-hoon Kang. For any privacy question or request, contact us at ssamoksoft@gmail.com.",
-    "s_changes_title": "11. Changes to this policy",
-    "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
-    "back": "Back to home"
+    "title": "Gizlilik Politikası",
+    "updated": "Yürürlük tarihi: 1 Temmuz 2026",
+    "applies_common": "Bu politika, tüm SSAMOK SOFT uygulamaları ve bu web sitesi için geçerlidir.",
+    "applies_app": "Bu politika {app} için geçerlidir.",
+    "intro": "SSAMOK SOFT (\"biz\"), uygulamalarımızda ve bu web sitesinde bilgileri nasıl işlediğimizi açıklar. Uygulamalarımız farklılık gösterdiğinden, her uygulamanın sayfasında o uygulamaya özgü bir veri işleme özeti bulunur.",
+    "summary_title": "Veri işleme özeti",
+    "sum_backend_firebase": "Verileri Google Firebase bulutunda saklar.",
+    "sum_backend_supabase": "Verileri Supabase bulutunda saklar.",
+    "sum_backend_local": "Verileri yalnızca cihazınızda (SQLite) saklar; hiçbir şey sunucuya gönderilmez.",
+    "sum_account_yes": "Bir hesapla (e-posta) oturum açar.",
+    "sum_account_no": "Herhangi bir hesap veya e-posta toplamaz.",
+    "sum_ads_yes": "Google AdMob reklamları gösterir; bir reklam tanımlayıcısı kullanılabilir.",
+    "sum_ads_no": "Reklam göstermez.",
+    "sum_iap_yes": "App Store ve Google Play üzerinden uygulama içi satın alma sunar.",
+    "sum_iap_no": "Uygulama içi satın alma yoktur.",
+    "s_collect_title": "1. Topladığımız bilgiler",
+    "s_collect_body": "Uygulamaya bağlı olarak şunları toplarız: bir e-posta adresi (hesap içeren uygulamalarda), bir reklam tanımlayıcısı (reklam gösteren uygulamalarda) ile satın alma kayıtları, makbuzlar ve işlem tanımlayıcıları (uygulama içi satın alma içeren uygulamalarda). Bazı uygulamalar verileri yalnızca cihazınızda saklar ve sunucuda hiçbir kişisel bilgi toplamaz. Ödeme kartı bilgilerini toplamayız.",
+    "s_purpose_title": "2. Bilgileri nasıl kullanırız",
+    "s_purpose_body": "Topladığımız bilgileri; hesapları yönetmek ve kullanıcıları doğrulamak, hizmetlerimizi işletmek ve sunmak, uygulama içi satın almaları ve satın alma geçmişini yönetmek, sorulara yanıt vermek, hizmetlerimizi geliştirmek ve reklam sunmak için kullanırız.",
+    "s_iap_title": "3. Uygulama içi satın almalar",
+    "s_iap_body": "Bazı uygulamalar App Store ve Google Play üzerinden uygulama içi satın alma sunar. Ödemeler her mağaza tarafından işlenir; ödeme kartı bilgilerini toplamaz veya saklamayız. Satın almayı doğrulamak ve destek sağlamak amacıyla makbuzlar ve işlem tanımlayıcıları gibi satın almayla ilgili bilgileri işleyebiliriz.",
+    "s_thirdparty_title": "4. Üçüncü taraf hizmetleri",
+    "s_thirdparty_body": "Uygulamaya bağlı olarak şunları kullanırız: Google Firebase (kimlik doğrulama, veritabanı, kullanım analizi ve çökme analizi), Supabase (gelecek uygulamalar için arka uç), Google AdMob (reklam yayınlama ve ölçüm) ile App Store ve Google Play (uygulama içi satın alma işleme). Verileri yalnızca cihazınızda saklayan uygulamalar bunları bir sunucuya iletmez. Her uygulamanın gerçekte kullandığı hizmetler, o uygulamanın politikasındaki \"veri işleme özeti\" bölümünde listelenir.",
+    "s_ads_title": "5. Reklam",
+    "s_ads_body": "Bazı uygulamalar Google AdMob aracılığıyla reklam gösterebilir. Reklamları yayınlamak ve ölçmek için bir reklam tanımlayıcısı ve benzeri veriler kullanılabilir. Cihaz ayarlarınızdan reklam tanımlayıcınızı sıfırlayabilir veya reklam kişiselleştirmesini sınırlayabilirsiniz.",
+    "s_retention_title": "6. Verilerin saklanması ve silinmesi",
+    "s_retention_body": "Kişisel bilgileri, hesabınız etkin olduğu sürece saklarız. Hesabınızın ve verilerinizin silinmesini istediğiniz zaman ssamoksoft@gmail.com adresine e-posta göndererek talep edebilirsiniz; talebinizi doğruladıktan sonra, yasa daha uzun bir saklama gerektirmedikçe 30 gün içinde sileriz. Verileri yalnızca cihazınızda saklayan uygulamalarda, uygulamayı sildiğinizde veriler de kaldırılır.",
+    "s_storage_title": "7. Depolama ve güvenlik",
+    "s_storage_body": "Uygulamaya bağlı olarak veriler Google Firebase veya Supabase bulutunda ya da yalnızca cihazınızda saklanır. Bulutta saklanan veriler için parolalar ve hassas bilgiler şifrelenir; üç ayda bir iç denetimler, erişim kontrolleri, en az altı ay saklanan erişim günlükleri ve saldırı önleme ile tespit sistemleri yürütürüz.",
+    "s_rights_title": "8. Haklarınız",
+    "s_rights_body": "Kişisel bilgilerinize erişim, düzeltme, silme veya işlenmesinin durdurulmasını talep edebilir; ayrıca App Store ve Google Play tarafından sunulan gizlilik denetimlerini kullanabilirsiniz.",
+    "s_children_title": "9. Çocuklar",
+    "s_children_body": "Uygulamalarımız, geçerli yasanın gerektirdiği yaşın altındaki çocuklara yönelik değildir ve onların kişisel bilgilerini bilerek toplamayız.",
+    "s_contact_title": "10. Gizlilik sorumlusu ve iletişim",
+    "s_contact_body": "Gizlilik sorumlusu: Dae-hoon Kang. Gizlilikle ilgili her türlü soru veya talep için bize ssamoksoft@gmail.com adresinden ulaşın.",
+    "s_changes_title": "11. Bu politikadaki değişiklikler",
+    "s_changes_body": "Bu politika değişirse, güncellemeyi bu sayfada yayımlarız ve gözden geçirilmiş politika yayımlandığı anda yürürlüğe girer.",
+    "back": "Ana sayfaya dön"
   }
 }

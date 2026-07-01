@@ -1,30 +1,30 @@
 {
   "meta": {
     "title": "SSAMOK SOFT",
-    "description": "We record your moments — SSAMOK SOFT builds practical apps for everyday life."
+    "description": "Kami merekam momen Anda — SSAMOK SOFT membuat aplikasi praktis untuk kehidupan sehari-hari."
   },
   "nav": {
-    "apps": "Apps",
-    "privacy": "Privacy",
-    "contact": "Contact",
-    "lang_aria": "Change language"
+    "apps": "Aplikasi",
+    "privacy": "Privasi",
+    "contact": "Kontak",
+    "lang_aria": "Ubah bahasa"
   },
   "hero": {
-    "badge": "App studio",
-    "title": "We record <span class=\"accent\">your moments.</span>",
-    "body": "Little apps you reach for daily, that fit right into your day — thoughtfully engineered, to last.",
-    "cta_primary": "Explore apps",
-    "cta_secondary": "Get in touch"
+    "badge": "Studio aplikasi",
+    "title": "Kami merekam <span class=\"accent\">momen Anda.</span>",
+    "body": "Aplikasi kecil yang Anda buka setiap hari dan menyatu dengan rutinitas Anda — dirancang dengan cermat agar awet.",
+    "cta_primary": "Lihat aplikasi",
+    "cta_secondary": "Hubungi kami"
   },
   "apps": {
-    "title": "Products",
-    "subtitle": "Practical apps to record and manage your everyday moments.",
-    "empty": "New apps are on the way — check back soon.",
-    "coming_soon": "Coming soon",
+    "title": "Produk",
+    "subtitle": "Aplikasi praktis untuk merekam dan mengelola momen sehari-hari Anda.",
+    "empty": "Aplikasi baru segera hadir — kunjungi lagi nanti.",
+    "coming_soon": "Segera hadir",
     "category": {
-      "productivity": "Productivity",
-      "lifestyle": "Lifestyle",
-      "utility": "Utility"
+      "productivity": "Produktivitas",
+      "lifestyle": "Gaya hidup",
+      "utility": "Utilitas"
     },
     "links": {
       "play": "Google Play",
@@ -32,57 +32,57 @@
     }
   },
   "lang": {
-    "title": "Available in 15 languages"
+    "title": "Tersedia dalam 15 bahasa"
   },
   "contact": {
-    "title": "Contact us",
-    "body": "For bug reports, feature requests, or other questions, please email us."
+    "title": "Hubungi kami",
+    "body": "Untuk laporan bug, saran fitur, atau pertanyaan lainnya, kirimkan email kepada kami."
   },
   "footer": {
     "rights": "© {year} SSAMOK SOFT. All rights reserved.",
     "links": {
-      "privacy": "Privacy Policy",
-      "contact": "Contact"
+      "privacy": "Kebijakan Privasi",
+      "contact": "Kontak"
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "updated": "Effective date: July 1, 2026",
-    "applies_common": "This policy applies to all SSAMOK SOFT apps and this website.",
-    "applies_app": "This policy applies to {app}.",
-    "intro": "SSAMOK SOFT (\"we\", \"us\") explains how we handle information across our apps and this website. Because our apps differ, each app's page includes a data-processing summary specific to that app.",
-    "summary_title": "Data processing summary",
-    "sum_backend_firebase": "Stores data in the Google Firebase cloud.",
-    "sum_backend_supabase": "Stores data in the Supabase cloud.",
-    "sum_backend_local": "Stores data only on your device (SQLite); nothing is sent to a server.",
-    "sum_account_yes": "Signs you in with an account (email).",
-    "sum_account_no": "Does not collect any account or email.",
-    "sum_ads_yes": "Shows Google AdMob ads; an advertising identifier may be used.",
-    "sum_ads_no": "Shows no ads.",
-    "sum_iap_yes": "Offers in-app purchases via the App Store and Google Play.",
-    "sum_iap_no": "Has no in-app purchases.",
-    "s_collect_title": "1. Information we collect",
-    "s_collect_body": "Depending on the app, we collect: an email address (for apps with an account), an advertising identifier (for apps that show ads), and purchase records, receipts, and transaction identifiers (for apps with in-app purchases). Some apps store data only on your device and collect no personal information on a server. We do not collect payment card information.",
-    "s_purpose_title": "2. How we use information",
-    "s_purpose_body": "We use collected information to manage accounts and verify users, operate and provide our services, handle in-app purchases and purchase history, respond to inquiries, improve our services, and deliver advertising.",
-    "s_iap_title": "3. In-app purchases",
-    "s_iap_body": "Some apps offer in-app purchases through the App Store and Google Play. Payments are handled by each store; we do not collect or store payment card information. We may process purchase-related information such as receipts and transaction identifiers for purchase validation and support.",
-    "s_thirdparty_title": "4. Third-party services",
-    "s_thirdparty_body": "Depending on the app, we use: Google Firebase (authentication, database, usage analytics, crash analysis), Supabase (backend for upcoming apps), Google AdMob (ad delivery and measurement), and the App Store and Google Play (in-app purchase processing). Apps that store data only on your device do not transmit it to a server. The services each app actually uses are listed in that app's data-processing summary.",
-    "s_ads_title": "5. Advertising",
-    "s_ads_body": "Some apps may show ads through Google AdMob. An advertising identifier and similar data may be used to deliver and measure ads. You can reset your advertising identifier or limit ad personalization in your device settings.",
-    "s_retention_title": "6. Data retention & deletion",
-    "s_retention_body": "We retain personal information while your account remains active. You may request deletion of your account and data at any time by emailing ssamoksoft@gmail.com, and we will delete it within 30 days of verifying your request, except where the law requires longer retention. For apps that store data only on your device, the data is removed when you delete the app.",
-    "s_storage_title": "7. Storage & security",
-    "s_storage_body": "Depending on the app, data is stored in the Google Firebase or Supabase cloud, or only on your device. For cloud-stored data, passwords and sensitive information are encrypted, and we maintain quarterly self-audits, access controls, access logs kept for at least six months, and intrusion prevention and detection systems.",
-    "s_rights_title": "8. Your rights",
-    "s_rights_body": "You may request to access, correct, delete, or suspend the processing of your personal information, and you can also use the privacy controls provided by the App Store and Google Play.",
-    "s_children_title": "9. Children",
-    "s_children_body": "Our apps are not directed to children under the age required by applicable law, and we do not knowingly collect their personal information.",
-    "s_contact_title": "10. Privacy officer & contact",
-    "s_contact_body": "Privacy officer: Dae-hoon Kang. For any privacy question or request, contact us at ssamoksoft@gmail.com.",
-    "s_changes_title": "11. Changes to this policy",
-    "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
-    "back": "Back to home"
+    "title": "Kebijakan Privasi",
+    "updated": "Tanggal berlaku: 1 Juli 2026",
+    "applies_common": "Kebijakan ini berlaku untuk semua aplikasi SSAMOK SOFT dan situs web ini.",
+    "applies_app": "Kebijakan ini berlaku untuk {app}.",
+    "intro": "SSAMOK SOFT (\"kami\") menjelaskan cara kami menangani informasi di aplikasi kami dan situs web ini. Karena aplikasi kami berbeda-beda, halaman setiap aplikasi menyertakan ringkasan pemrosesan data yang spesifik untuk aplikasi tersebut.",
+    "summary_title": "Ringkasan pemrosesan data",
+    "sum_backend_firebase": "Menyimpan data di cloud Google Firebase.",
+    "sum_backend_supabase": "Menyimpan data di cloud Supabase.",
+    "sum_backend_local": "Menyimpan data hanya di perangkat Anda (SQLite); tidak ada yang dikirim ke server.",
+    "sum_account_yes": "Masuk dengan akun (email).",
+    "sum_account_no": "Tidak mengumpulkan akun atau email apa pun.",
+    "sum_ads_yes": "Menampilkan iklan Google AdMob; pengidentifikasi iklan mungkin digunakan.",
+    "sum_ads_no": "Tidak menampilkan iklan.",
+    "sum_iap_yes": "Menawarkan pembelian dalam aplikasi melalui App Store dan Google Play.",
+    "sum_iap_no": "Tidak ada pembelian dalam aplikasi.",
+    "s_collect_title": "1. Informasi yang kami kumpulkan",
+    "s_collect_body": "Bergantung pada aplikasinya, kami mengumpulkan: alamat email (untuk aplikasi dengan akun), pengidentifikasi iklan (untuk aplikasi yang menampilkan iklan), serta catatan pembelian, tanda terima, dan pengidentifikasi transaksi (untuk aplikasi dengan pembelian dalam aplikasi). Beberapa aplikasi menyimpan data hanya di perangkat Anda dan tidak mengumpulkan informasi pribadi di server. Kami tidak mengumpulkan informasi kartu pembayaran.",
+    "s_purpose_title": "2. Cara kami menggunakan informasi",
+    "s_purpose_body": "Kami menggunakan informasi yang dikumpulkan untuk mengelola akun dan memverifikasi pengguna, mengoperasikan dan menyediakan layanan kami, mengelola pembelian dalam aplikasi dan riwayat pembelian, menanggapi pertanyaan, meningkatkan layanan kami, dan menayangkan iklan.",
+    "s_iap_title": "3. Pembelian dalam aplikasi",
+    "s_iap_body": "Beberapa aplikasi menawarkan pembelian dalam aplikasi melalui App Store dan Google Play. Pembayaran ditangani oleh masing-masing toko; kami tidak mengumpulkan atau menyimpan informasi kartu pembayaran. Kami dapat memproses informasi terkait pembelian seperti tanda terima dan pengidentifikasi transaksi untuk validasi pembelian dan dukungan.",
+    "s_thirdparty_title": "4. Layanan pihak ketiga",
+    "s_thirdparty_body": "Bergantung pada aplikasinya, kami menggunakan: Google Firebase (autentikasi, basis data, analitik penggunaan, dan analisis kerusakan), Supabase (backend untuk aplikasi mendatang), Google AdMob (penayangan dan pengukuran iklan), serta App Store dan Google Play (pemrosesan pembelian dalam aplikasi). Aplikasi yang menyimpan data hanya di perangkat Anda tidak mengirimkannya ke server. Layanan yang benar-benar digunakan setiap aplikasi tercantum dalam ringkasan pemrosesan data aplikasi tersebut.",
+    "s_ads_title": "5. Iklan",
+    "s_ads_body": "Beberapa aplikasi mungkin menampilkan iklan melalui Google AdMob. Pengidentifikasi iklan dan data serupa mungkin digunakan untuk menayangkan dan mengukur iklan. Anda dapat menyetel ulang pengidentifikasi iklan atau membatasi personalisasi iklan di pengaturan perangkat Anda.",
+    "s_retention_title": "6. Penyimpanan dan penghapusan data",
+    "s_retention_body": "Kami menyimpan informasi pribadi selama akun Anda aktif. Anda dapat meminta penghapusan akun dan data Anda kapan saja dengan mengirim email ke ssamoksoft@gmail.com, dan kami akan menghapusnya dalam waktu 30 hari setelah memverifikasi permintaan Anda, kecuali jika hukum mewajibkan penyimpanan lebih lama. Untuk aplikasi yang menyimpan data hanya di perangkat Anda, data akan terhapus saat Anda menghapus aplikasi.",
+    "s_storage_title": "7. Penyimpanan dan keamanan",
+    "s_storage_body": "Bergantung pada aplikasinya, data disimpan di cloud Google Firebase atau Supabase, atau hanya di perangkat Anda. Untuk data yang disimpan di cloud, kata sandi dan informasi sensitif dienkripsi, dan kami menjalankan audit mandiri triwulanan, kontrol akses, log akses yang disimpan selama minimal enam bulan, serta sistem pencegahan dan deteksi intrusi.",
+    "s_rights_title": "8. Hak Anda",
+    "s_rights_body": "Anda dapat meminta akses, koreksi, penghapusan, atau penangguhan pemrosesan informasi pribadi Anda, dan Anda juga dapat menggunakan kontrol privasi yang disediakan oleh App Store dan Google Play.",
+    "s_children_title": "9. Anak-anak",
+    "s_children_body": "Aplikasi kami tidak ditujukan untuk anak-anak di bawah usia yang diwajibkan oleh hukum yang berlaku, dan kami tidak dengan sengaja mengumpulkan informasi pribadi mereka.",
+    "s_contact_title": "10. Petugas privasi dan kontak",
+    "s_contact_body": "Petugas privasi: Dae-hoon Kang. Untuk pertanyaan atau permintaan terkait privasi, hubungi kami di ssamoksoft@gmail.com.",
+    "s_changes_title": "11. Perubahan kebijakan ini",
+    "s_changes_body": "Jika kebijakan ini berubah, kami akan memublikasikan pembaruannya di halaman ini, dan kebijakan yang direvisi berlaku sejak dipublikasikan.",
+    "back": "Kembali ke beranda"
   }
 }

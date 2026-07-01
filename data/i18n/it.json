@@ -1,30 +1,30 @@
 {
   "meta": {
     "title": "SSAMOK SOFT",
-    "description": "We record your moments — SSAMOK SOFT builds practical apps for everyday life."
+    "description": "Registriamo i tuoi momenti — SSAMOK SOFT crea app pratiche per la vita di tutti i giorni."
   },
   "nav": {
-    "apps": "Apps",
+    "apps": "App",
     "privacy": "Privacy",
-    "contact": "Contact",
-    "lang_aria": "Change language"
+    "contact": "Contatti",
+    "lang_aria": "Cambia lingua"
   },
   "hero": {
-    "badge": "App studio",
-    "title": "We record <span class=\"accent\">your moments.</span>",
-    "body": "Little apps you reach for daily, that fit right into your day — thoughtfully engineered, to last.",
-    "cta_primary": "Explore apps",
-    "cta_secondary": "Get in touch"
+    "badge": "Studio di app",
+    "title": "Registriamo i tuoi <span class=\"accent\">momenti.</span>",
+    "body": "Piccole app che usi ogni giorno e che si integrano nella tua routine, progettate con cura per durare.",
+    "cta_primary": "Scopri le app",
+    "cta_secondary": "Contattaci"
   },
   "apps": {
-    "title": "Products",
-    "subtitle": "Practical apps to record and manage your everyday moments.",
-    "empty": "New apps are on the way — check back soon.",
-    "coming_soon": "Coming soon",
+    "title": "Prodotti",
+    "subtitle": "App pratiche per registrare e gestire i tuoi momenti quotidiani.",
+    "empty": "Nuove app in arrivo — torna presto a trovarci.",
+    "coming_soon": "In arrivo",
     "category": {
-      "productivity": "Productivity",
+      "productivity": "Produttività",
       "lifestyle": "Lifestyle",
-      "utility": "Utility"
+      "utility": "Utilità"
     },
     "links": {
       "play": "Google Play",
@@ -32,57 +32,57 @@
     }
   },
   "lang": {
-    "title": "Available in 15 languages"
+    "title": "Disponibile in 15 lingue"
   },
   "contact": {
-    "title": "Contact us",
-    "body": "For bug reports, feature requests, or other questions, please email us."
+    "title": "Contattaci",
+    "body": "Per segnalare bug, suggerire funzionalità o altre domande, scrivici via e-mail."
   },
   "footer": {
     "rights": "© {year} SSAMOK SOFT. All rights reserved.",
     "links": {
-      "privacy": "Privacy Policy",
-      "contact": "Contact"
+      "privacy": "Informativa sulla privacy",
+      "contact": "Contatti"
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "updated": "Effective date: July 1, 2026",
-    "applies_common": "This policy applies to all SSAMOK SOFT apps and this website.",
-    "applies_app": "This policy applies to {app}.",
-    "intro": "SSAMOK SOFT (\"we\", \"us\") explains how we handle information across our apps and this website. Because our apps differ, each app's page includes a data-processing summary specific to that app.",
-    "summary_title": "Data processing summary",
-    "sum_backend_firebase": "Stores data in the Google Firebase cloud.",
-    "sum_backend_supabase": "Stores data in the Supabase cloud.",
-    "sum_backend_local": "Stores data only on your device (SQLite); nothing is sent to a server.",
-    "sum_account_yes": "Signs you in with an account (email).",
-    "sum_account_no": "Does not collect any account or email.",
-    "sum_ads_yes": "Shows Google AdMob ads; an advertising identifier may be used.",
-    "sum_ads_no": "Shows no ads.",
-    "sum_iap_yes": "Offers in-app purchases via the App Store and Google Play.",
-    "sum_iap_no": "Has no in-app purchases.",
-    "s_collect_title": "1. Information we collect",
-    "s_collect_body": "Depending on the app, we collect: an email address (for apps with an account), an advertising identifier (for apps that show ads), and purchase records, receipts, and transaction identifiers (for apps with in-app purchases). Some apps store data only on your device and collect no personal information on a server. We do not collect payment card information.",
-    "s_purpose_title": "2. How we use information",
-    "s_purpose_body": "We use collected information to manage accounts and verify users, operate and provide our services, handle in-app purchases and purchase history, respond to inquiries, improve our services, and deliver advertising.",
-    "s_iap_title": "3. In-app purchases",
-    "s_iap_body": "Some apps offer in-app purchases through the App Store and Google Play. Payments are handled by each store; we do not collect or store payment card information. We may process purchase-related information such as receipts and transaction identifiers for purchase validation and support.",
-    "s_thirdparty_title": "4. Third-party services",
-    "s_thirdparty_body": "Depending on the app, we use: Google Firebase (authentication, database, usage analytics, crash analysis), Supabase (backend for upcoming apps), Google AdMob (ad delivery and measurement), and the App Store and Google Play (in-app purchase processing). Apps that store data only on your device do not transmit it to a server. The services each app actually uses are listed in that app's data-processing summary.",
-    "s_ads_title": "5. Advertising",
-    "s_ads_body": "Some apps may show ads through Google AdMob. An advertising identifier and similar data may be used to deliver and measure ads. You can reset your advertising identifier or limit ad personalization in your device settings.",
-    "s_retention_title": "6. Data retention & deletion",
-    "s_retention_body": "We retain personal information while your account remains active. You may request deletion of your account and data at any time by emailing ssamoksoft@gmail.com, and we will delete it within 30 days of verifying your request, except where the law requires longer retention. For apps that store data only on your device, the data is removed when you delete the app.",
-    "s_storage_title": "7. Storage & security",
-    "s_storage_body": "Depending on the app, data is stored in the Google Firebase or Supabase cloud, or only on your device. For cloud-stored data, passwords and sensitive information are encrypted, and we maintain quarterly self-audits, access controls, access logs kept for at least six months, and intrusion prevention and detection systems.",
-    "s_rights_title": "8. Your rights",
-    "s_rights_body": "You may request to access, correct, delete, or suspend the processing of your personal information, and you can also use the privacy controls provided by the App Store and Google Play.",
-    "s_children_title": "9. Children",
-    "s_children_body": "Our apps are not directed to children under the age required by applicable law, and we do not knowingly collect their personal information.",
-    "s_contact_title": "10. Privacy officer & contact",
-    "s_contact_body": "Privacy officer: Dae-hoon Kang. For any privacy question or request, contact us at ssamoksoft@gmail.com.",
-    "s_changes_title": "11. Changes to this policy",
-    "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
-    "back": "Back to home"
+    "title": "Informativa sulla privacy",
+    "updated": "Data di entrata in vigore: 1 luglio 2026",
+    "applies_common": "La presente informativa si applica a tutte le app di SSAMOK SOFT e a questo sito web.",
+    "applies_app": "La presente informativa si applica a {app}.",
+    "intro": "SSAMOK SOFT (\"noi\") spiega come trattiamo le informazioni nelle nostre app e in questo sito web. Poiché le nostre app sono diverse, la pagina di ogni app include un riepilogo del trattamento dei dati specifico per quell'app.",
+    "summary_title": "Riepilogo del trattamento dei dati",
+    "sum_backend_firebase": "Archivia i dati nel cloud di Google Firebase.",
+    "sum_backend_supabase": "Archivia i dati nel cloud di Supabase.",
+    "sum_backend_local": "Archivia i dati solo sul tuo dispositivo (SQLite); nulla viene inviato a un server.",
+    "sum_account_yes": "Accedi con un account (e-mail).",
+    "sum_account_no": "Non raccoglie alcun account o e-mail.",
+    "sum_ads_yes": "Mostra annunci Google AdMob; può essere usato un identificatore pubblicitario.",
+    "sum_ads_no": "Non mostra annunci.",
+    "sum_iap_yes": "Offre acquisti in-app tramite App Store e Google Play.",
+    "sum_iap_no": "Non prevede acquisti in-app.",
+    "s_collect_title": "1. Informazioni che raccogliamo",
+    "s_collect_body": "A seconda dell'app, raccogliamo: un indirizzo e-mail (per le app con account), un identificatore pubblicitario (per le app che mostrano annunci) e cronologia degli acquisti, ricevute e identificatori di transazione (per le app con acquisti in-app). Alcune app archiviano i dati solo sul tuo dispositivo e non raccolgono informazioni personali su un server. Non raccogliamo informazioni sulle carte di pagamento.",
+    "s_purpose_title": "2. Come utilizziamo le informazioni",
+    "s_purpose_body": "Utilizziamo le informazioni raccolte per gestire gli account e verificare gli utenti, gestire e fornire i nostri servizi, gestire gli acquisti in-app e la cronologia degli acquisti, rispondere alle richieste, migliorare i nostri servizi e mostrare pubblicità.",
+    "s_iap_title": "3. Acquisti in-app",
+    "s_iap_body": "Alcune app offrono acquisti in-app tramite App Store e Google Play. I pagamenti sono gestiti da ciascuno store; non raccogliamo né archiviamo informazioni sulle carte di pagamento. Possiamo trattare informazioni relative all'acquisto, come ricevute e identificatori di transazione, ai fini della convalida degli acquisti e dell'assistenza.",
+    "s_thirdparty_title": "4. Servizi di terze parti",
+    "s_thirdparty_body": "A seconda dell'app, utilizziamo: Google Firebase (autenticazione, database, analisi dell'utilizzo e analisi degli arresti anomali), Supabase (backend per le app future), Google AdMob (pubblicazione e misurazione degli annunci) e App Store e Google Play (elaborazione degli acquisti in-app). Le app che archiviano i dati solo sul tuo dispositivo non li trasmettono a un server. I servizi effettivamente utilizzati da ciascuna app sono elencati nel riepilogo del trattamento dei dati di quell'app.",
+    "s_ads_title": "5. Pubblicità",
+    "s_ads_body": "Alcune app possono mostrare annunci tramite Google AdMob. Un identificatore pubblicitario e dati simili possono essere usati per pubblicare e misurare gli annunci. Puoi reimpostare il tuo identificatore pubblicitario o limitare la personalizzazione degli annunci nelle impostazioni del dispositivo.",
+    "s_retention_title": "6. Conservazione ed eliminazione dei dati",
+    "s_retention_body": "Conserviamo le informazioni personali finché il tuo account è attivo. Puoi richiedere l'eliminazione del tuo account e dei tuoi dati in qualsiasi momento scrivendo a ssamoksoft@gmail.com, e li elimineremo entro 30 giorni dalla verifica della richiesta, salvo quando la legge richieda una conservazione più lunga. Per le app che archiviano i dati solo sul dispositivo, i dati vengono rimossi quando disinstalli l'app.",
+    "s_storage_title": "7. Archiviazione e sicurezza",
+    "s_storage_body": "A seconda dell'app, i dati sono archiviati nel cloud di Google Firebase o Supabase, oppure solo sul tuo dispositivo. Per i dati archiviati nel cloud, le password e le informazioni sensibili sono crittografate, e manteniamo audit interni trimestrali, controlli degli accessi, registri degli accessi conservati per almeno sei mesi e sistemi di prevenzione e rilevamento delle intrusioni.",
+    "s_rights_title": "8. I tuoi diritti",
+    "s_rights_body": "Puoi richiedere l'accesso, la rettifica, l'eliminazione o la limitazione del trattamento delle tue informazioni personali, e puoi anche utilizzare i controlli sulla privacy offerti da App Store e Google Play.",
+    "s_children_title": "9. Minori",
+    "s_children_body": "Le nostre app non sono destinate ai minori al di sotto dell'età richiesta dalla legge applicabile e non raccogliamo consapevolmente le loro informazioni personali.",
+    "s_contact_title": "10. Responsabile della privacy e contatti",
+    "s_contact_body": "Responsabile della privacy: Dae-hoon Kang. Per qualsiasi domanda o richiesta relativa alla privacy, contattaci all'indirizzo ssamoksoft@gmail.com.",
+    "s_changes_title": "11. Modifiche alla presente informativa",
+    "s_changes_body": "In caso di modifiche alla presente informativa, pubblicheremo l'aggiornamento in questa pagina, e l'informativa rivista entra in vigore al momento della pubblicazione.",
+    "back": "Torna alla home"
   }
 }

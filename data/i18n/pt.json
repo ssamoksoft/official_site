@@ -1,30 +1,30 @@
 {
   "meta": {
     "title": "SSAMOK SOFT",
-    "description": "We record your moments — SSAMOK SOFT builds practical apps for everyday life."
+    "description": "Registramos os seus momentos: a SSAMOK SOFT cria aplicativos práticos para o dia a dia."
   },
   "nav": {
     "apps": "Apps",
-    "privacy": "Privacy",
-    "contact": "Contact",
-    "lang_aria": "Change language"
+    "privacy": "Privacidade",
+    "contact": "Contato",
+    "lang_aria": "Alterar idioma"
   },
   "hero": {
-    "badge": "App studio",
-    "title": "We record <span class=\"accent\">your moments.</span>",
-    "body": "Little apps you reach for daily, that fit right into your day — thoughtfully engineered, to last.",
-    "cta_primary": "Explore apps",
-    "cta_secondary": "Get in touch"
+    "badge": "Estúdio de apps",
+    "title": "Registramos os seus <span class=\"accent\">momentos.</span>",
+    "body": "Pequenos apps que você usa todos os dias e que se encaixam na sua rotina, feitos com cuidado para durar.",
+    "cta_primary": "Ver apps",
+    "cta_secondary": "Fale conosco"
   },
   "apps": {
-    "title": "Products",
-    "subtitle": "Practical apps to record and manage your everyday moments.",
-    "empty": "New apps are on the way — check back soon.",
-    "coming_soon": "Coming soon",
+    "title": "Produtos",
+    "subtitle": "Apps práticos para registrar e organizar os seus momentos do dia a dia.",
+    "empty": "Novos apps estão a caminho — volte em breve.",
+    "coming_soon": "Em breve",
     "category": {
-      "productivity": "Productivity",
-      "lifestyle": "Lifestyle",
-      "utility": "Utility"
+      "productivity": "Produtividade",
+      "lifestyle": "Estilo de vida",
+      "utility": "Utilitários"
     },
     "links": {
       "play": "Google Play",
@@ -32,57 +32,57 @@
     }
   },
   "lang": {
-    "title": "Available in 15 languages"
+    "title": "Disponível em 15 idiomas"
   },
   "contact": {
-    "title": "Contact us",
-    "body": "For bug reports, feature requests, or other questions, please email us."
+    "title": "Fale conosco",
+    "body": "Para relatar erros, sugerir recursos ou outras dúvidas, envie-nos um e-mail."
   },
   "footer": {
     "rights": "© {year} SSAMOK SOFT. All rights reserved.",
     "links": {
-      "privacy": "Privacy Policy",
-      "contact": "Contact"
+      "privacy": "Política de Privacidade",
+      "contact": "Contato"
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "updated": "Effective date: July 1, 2026",
-    "applies_common": "This policy applies to all SSAMOK SOFT apps and this website.",
-    "applies_app": "This policy applies to {app}.",
-    "intro": "SSAMOK SOFT (\"we\", \"us\") explains how we handle information across our apps and this website. Because our apps differ, each app's page includes a data-processing summary specific to that app.",
-    "summary_title": "Data processing summary",
-    "sum_backend_firebase": "Stores data in the Google Firebase cloud.",
-    "sum_backend_supabase": "Stores data in the Supabase cloud.",
-    "sum_backend_local": "Stores data only on your device (SQLite); nothing is sent to a server.",
-    "sum_account_yes": "Signs you in with an account (email).",
-    "sum_account_no": "Does not collect any account or email.",
-    "sum_ads_yes": "Shows Google AdMob ads; an advertising identifier may be used.",
-    "sum_ads_no": "Shows no ads.",
-    "sum_iap_yes": "Offers in-app purchases via the App Store and Google Play.",
-    "sum_iap_no": "Has no in-app purchases.",
-    "s_collect_title": "1. Information we collect",
-    "s_collect_body": "Depending on the app, we collect: an email address (for apps with an account), an advertising identifier (for apps that show ads), and purchase records, receipts, and transaction identifiers (for apps with in-app purchases). Some apps store data only on your device and collect no personal information on a server. We do not collect payment card information.",
-    "s_purpose_title": "2. How we use information",
-    "s_purpose_body": "We use collected information to manage accounts and verify users, operate and provide our services, handle in-app purchases and purchase history, respond to inquiries, improve our services, and deliver advertising.",
-    "s_iap_title": "3. In-app purchases",
-    "s_iap_body": "Some apps offer in-app purchases through the App Store and Google Play. Payments are handled by each store; we do not collect or store payment card information. We may process purchase-related information such as receipts and transaction identifiers for purchase validation and support.",
-    "s_thirdparty_title": "4. Third-party services",
-    "s_thirdparty_body": "Depending on the app, we use: Google Firebase (authentication, database, usage analytics, crash analysis), Supabase (backend for upcoming apps), Google AdMob (ad delivery and measurement), and the App Store and Google Play (in-app purchase processing). Apps that store data only on your device do not transmit it to a server. The services each app actually uses are listed in that app's data-processing summary.",
-    "s_ads_title": "5. Advertising",
-    "s_ads_body": "Some apps may show ads through Google AdMob. An advertising identifier and similar data may be used to deliver and measure ads. You can reset your advertising identifier or limit ad personalization in your device settings.",
-    "s_retention_title": "6. Data retention & deletion",
-    "s_retention_body": "We retain personal information while your account remains active. You may request deletion of your account and data at any time by emailing ssamoksoft@gmail.com, and we will delete it within 30 days of verifying your request, except where the law requires longer retention. For apps that store data only on your device, the data is removed when you delete the app.",
-    "s_storage_title": "7. Storage & security",
-    "s_storage_body": "Depending on the app, data is stored in the Google Firebase or Supabase cloud, or only on your device. For cloud-stored data, passwords and sensitive information are encrypted, and we maintain quarterly self-audits, access controls, access logs kept for at least six months, and intrusion prevention and detection systems.",
-    "s_rights_title": "8. Your rights",
-    "s_rights_body": "You may request to access, correct, delete, or suspend the processing of your personal information, and you can also use the privacy controls provided by the App Store and Google Play.",
-    "s_children_title": "9. Children",
-    "s_children_body": "Our apps are not directed to children under the age required by applicable law, and we do not knowingly collect their personal information.",
-    "s_contact_title": "10. Privacy officer & contact",
-    "s_contact_body": "Privacy officer: Dae-hoon Kang. For any privacy question or request, contact us at ssamoksoft@gmail.com.",
-    "s_changes_title": "11. Changes to this policy",
-    "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
-    "back": "Back to home"
+    "title": "Política de Privacidade",
+    "updated": "Data de vigência: 1 de julho de 2026",
+    "applies_common": "Esta política se aplica a todos os apps da SSAMOK SOFT e a este site.",
+    "applies_app": "Esta política se aplica a {app}.",
+    "intro": "A SSAMOK SOFT (\"nós\") explica como tratamos as informações em nossos apps e neste site. Como nossos apps são diferentes, a página de cada app inclui um resumo de tratamento de dados específico daquele app.",
+    "summary_title": "Resumo do tratamento de dados",
+    "sum_backend_firebase": "Armazena os dados na nuvem do Google Firebase.",
+    "sum_backend_supabase": "Armazena os dados na nuvem do Supabase.",
+    "sum_backend_local": "Armazena os dados apenas no seu dispositivo (SQLite); nada é enviado a um servidor.",
+    "sum_account_yes": "Faz login com uma conta (e-mail).",
+    "sum_account_no": "Não coleta nenhuma conta ou e-mail.",
+    "sum_ads_yes": "Exibe anúncios do Google AdMob; um identificador de publicidade pode ser usado.",
+    "sum_ads_no": "Não exibe anúncios.",
+    "sum_iap_yes": "Oferece compras no app pela App Store e Google Play.",
+    "sum_iap_no": "Não tem compras no app.",
+    "s_collect_title": "1. Informações que coletamos",
+    "s_collect_body": "Dependendo do app, coletamos: um endereço de e-mail (em apps com conta), um identificador de publicidade (em apps que exibem anúncios) e registros de compra, recibos e identificadores de transação (em apps com compras no app). Alguns apps armazenam os dados apenas no seu dispositivo e não coletam informações pessoais em um servidor. Não coletamos informações de cartão de pagamento.",
+    "s_purpose_title": "2. Como usamos as informações",
+    "s_purpose_body": "Usamos as informações coletadas para gerenciar contas e verificar usuários, operar e fornecer nossos serviços, gerenciar compras no app e o histórico de compras, responder a dúvidas, melhorar nossos serviços e exibir publicidade.",
+    "s_iap_title": "3. Compras no app",
+    "s_iap_body": "Alguns apps oferecem compras no app pela App Store e Google Play. Os pagamentos são processados por cada loja; não coletamos nem armazenamos informações de cartão de pagamento. Podemos tratar informações relacionadas à compra, como recibos e identificadores de transação, para validação de compra e suporte.",
+    "s_thirdparty_title": "4. Serviços de terceiros",
+    "s_thirdparty_body": "Dependendo do app, usamos: Google Firebase (autenticação, banco de dados, análise de uso e análise de falhas), Supabase (backend para apps futuros), Google AdMob (veiculação e mensuração de anúncios) e App Store e Google Play (processamento de compras no app). Os apps que armazenam dados apenas no seu dispositivo não os transmitem a um servidor. Os serviços que cada app realmente usa estão listados no resumo de tratamento de dados daquele app.",
+    "s_ads_title": "5. Publicidade",
+    "s_ads_body": "Alguns apps podem exibir anúncios por meio do Google AdMob. Um identificador de publicidade e dados semelhantes podem ser usados para veicular e medir anúncios. Você pode redefinir o seu identificador de publicidade ou limitar a personalização de anúncios nas configurações do dispositivo.",
+    "s_retention_title": "6. Retenção e exclusão de dados",
+    "s_retention_body": "Mantemos as informações pessoais enquanto a sua conta estiver ativa. Você pode solicitar a exclusão da sua conta e dos seus dados a qualquer momento pelo e-mail ssamoksoft@gmail.com, e faremos a exclusão em até 30 dias após a verificação da solicitação, exceto quando a lei exigir retenção por prazo maior. Nos apps que armazenam dados apenas no dispositivo, os dados são removidos ao desinstalar o app.",
+    "s_storage_title": "7. Armazenamento e segurança",
+    "s_storage_body": "Dependendo do app, os dados são armazenados na nuvem do Google Firebase ou Supabase, ou apenas no seu dispositivo. Para dados armazenados na nuvem, senhas e informações sensíveis são criptografadas, e mantemos auditorias internas trimestrais, controles de acesso, registros de acesso mantidos por pelo menos seis meses e sistemas de prevenção e detecção de intrusões.",
+    "s_rights_title": "8. Seus direitos",
+    "s_rights_body": "Você pode solicitar acesso, correção, exclusão ou suspensão do tratamento das suas informações pessoais, e também pode usar os controles de privacidade oferecidos pela App Store e Google Play.",
+    "s_children_title": "9. Crianças",
+    "s_children_body": "Nossos apps não se destinam a crianças abaixo da idade exigida pela legislação aplicável, e não coletamos intencionalmente as suas informações pessoais.",
+    "s_contact_title": "10. Encarregado de privacidade e contato",
+    "s_contact_body": "Encarregado de privacidade: Dae-hoon Kang. Para qualquer dúvida ou solicitação sobre privacidade, entre em contato pelo e-mail ssamoksoft@gmail.com.",
+    "s_changes_title": "11. Alterações nesta política",
+    "s_changes_body": "Se esta política mudar, publicaremos a atualização nesta página, e a política revisada entra em vigor no momento da publicação.",
+    "back": "Voltar ao início"
   }
 }
