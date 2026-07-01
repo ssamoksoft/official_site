@@ -13,7 +13,20 @@
       "name": { "en": "StopWatchA" },
       "tagline": {
         "en": "A pro stopwatch and timer with buttons you build yourself.",
-        "ko": "원하는 버튼을 직접 만드는 프로용 스톱워치·타이머."
+        "ko": "원하는 버튼을 직접 만드는 프로용 스톱워치·타이머.",
+        "ja": "自分でボタンを作れる、プロ仕様のストップウォッチとタイマー。",
+        "zh": "可自定义按钮的专业秒表和计时器。",
+        "zh_Hant": "可自訂按鈕的專業碼錶與計時器。",
+        "es": "Un cronómetro y temporizador profesional con botones que tú creas.",
+        "pt": "Um cronômetro e timer profissional com botões que você mesmo cria.",
+        "de": "Eine Profi-Stoppuhr und ein Timer mit Tasten, die du selbst erstellst.",
+        "fr": "Un chronomètre et minuteur pro avec des boutons que vous créez vous-même.",
+        "hi": "अपने खुद के बटन बनाने वाला प्रो स्टॉपवॉच और टाइमर।",
+        "id": "Stopwatch dan timer pro dengan tombol yang Anda buat sendiri.",
+        "ru": "Профессиональный секундомер и таймер с кнопками, которые вы создаёте сами.",
+        "vi": "Đồng hồ bấm giờ và hẹn giờ chuyên nghiệp với các nút do bạn tự tạo.",
+        "tr": "Kendi düğmelerinizi oluşturabileceğiniz profesyonel bir kronometre ve zamanlayıcı.",
+        "it": "Un cronometro e timer professionale con pulsanti che crei tu."
       }
     },
     {
@@ -27,7 +40,20 @@
       "name": { "en": "About My Time" },
       "tagline": {
         "en": "A simple, secure cloud diary for your everyday.",
-        "ko": "하루를 안전하게 담는 간편한 클라우드 일기."
+        "ko": "하루를 안전하게 담는 간편한 클라우드 일기.",
+        "ja": "毎日を安全に残す、シンプルなクラウド日記。",
+        "zh": "简单又安全的云端日记，记录你的每一天。",
+        "zh_Hant": "簡單又安全的雲端日記，記錄你的每一天。",
+        "es": "Un diario en la nube sencillo y seguro para tu día a día.",
+        "pt": "Um diário na nuvem simples e seguro para o seu dia a dia.",
+        "de": "Ein einfaches, sicheres Cloud-Tagebuch für deinen Alltag.",
+        "fr": "Un journal dans le cloud simple et sécurisé pour votre quotidien.",
+        "hi": "आपके रोज़मर्रा के लिए एक सरल, सुरक्षित क्लाउड डायरी।",
+        "id": "Buku harian cloud yang sederhana dan aman untuk keseharian Anda.",
+        "ru": "Простой и безопасный облачный дневник на каждый день.",
+        "vi": "Nhật ký đám mây đơn giản và an toàn cho mỗi ngày của bạn.",
+        "tr": "Günlük yaşamınız için basit ve güvenli bir bulut günlüğü.",
+        "it": "Un diario nel cloud semplice e sicuro per la tua quotidianità."
       }
     },
     {
@@ -41,7 +67,20 @@
       "name": { "en": "M17" },
       "tagline": {
         "en": "Rate and rank the things you buy and love.",
-        "ko": "사본 것, 좋아한 것을 기록하고 순위를 매기세요."
+        "ko": "사본 것, 좋아한 것을 기록하고 순위를 매기세요.",
+        "ja": "買ったもの、好きなものを評価してランキングに。",
+        "zh": "为你购买和喜爱的事物评分和排名。",
+        "zh_Hant": "為你購買和喜愛的事物評分與排名。",
+        "es": "Puntúa y clasifica las cosas que compras y que te gustan.",
+        "pt": "Avalie e classifique as coisas que você compra e ama.",
+        "de": "Bewerte und ranke die Dinge, die du kaufst und liebst.",
+        "fr": "Notez et classez les choses que vous achetez et que vous aimez.",
+        "hi": "जो चीज़ें आप खरीदते और पसंद करते हैं, उन्हें रेट और रैंक करें।",
+        "id": "Beri nilai dan peringkat untuk hal-hal yang Anda beli dan sukai.",
+        "ru": "Оценивайте и ранжируйте вещи, которые покупаете и любите.",
+        "vi": "Đánh giá và xếp hạng những thứ bạn mua và yêu thích.",
+        "tr": "Satın aldığınız ve sevdiğiniz şeyleri puanlayın ve sıralayın.",
+        "it": "Valuta e classifica le cose che compri e che ami."
       }
     },
     {
@@ -55,7 +94,20 @@
       "name": { "en": "About Couples" },
       "tagline": {
         "en": "Track anniversaries and D-days with the one you love.",
-        "ko": "처음 만난 날부터, 연인과의 기념일과 디데이 관리."
+        "ko": "처음 만난 날부터, 연인과의 기념일과 디데이 관리.",
+        "ja": "大切な人との記念日やカウントダウンを管理。",
+        "zh": "和你爱的人一起记录纪念日和倒数日。",
+        "zh_Hant": "和你愛的人一起記錄紀念日和倒數日。",
+        "es": "Lleva la cuenta de aniversarios y días especiales con quien amas.",
+        "pt": "Acompanhe aniversários e contagens regressivas com quem você ama.",
+        "de": "Behalte Jahrestage und wichtige Tage mit deinem Liebsten im Blick.",
+        "fr": "Suivez anniversaires et jours J avec la personne que vous aimez.",
+        "hi": "अपने प्रियजन के साथ सालगिरह और खास दिनों का हिसाब रखें।",
+        "id": "Lacak hari jadi dan hitung mundur bersama orang yang Anda cintai.",
+        "ru": "Отслеживайте годовщины и важные даты с любимым человеком.",
+        "vi": "Theo dõi ngày kỷ niệm và ngày đáng nhớ cùng người bạn yêu.",
+        "tr": "Sevdiğinizle yıl dönümlerini ve özel günleri takip edin.",
+        "it": "Tieni traccia di anniversari e date speciali con chi ami."
       }
     },
     {
@@ -69,7 +121,20 @@
       "name": { "en": "Imin Cloud" },
       "tagline": {
         "en": "Subscriptions, logins, and private notes — safe in one place.",
-        "ko": "구독·로그인·비밀 메모를 안전하게 한곳에."
+        "ko": "구독·로그인·비밀 메모를 안전하게 한곳에.",
+        "ja": "サブスク・ログイン・秘密のメモを、安全に一か所で。",
+        "zh": "订阅、登录信息和私密笔记，安全地集中管理。",
+        "zh_Hant": "訂閱、登入資訊和私密筆記，安全地集中管理。",
+        "es": "Suscripciones, accesos y notas privadas, a salvo en un solo lugar.",
+        "pt": "Assinaturas, logins e notas privadas — seguros em um só lugar.",
+        "de": "Abos, Logins und private Notizen – sicher an einem Ort.",
+        "fr": "Abonnements, identifiants et notes privées, à l'abri au même endroit.",
+        "hi": "सदस्यताएँ, लॉगिन और निजी नोट्स — सब एक ही जगह सुरक्षित।",
+        "id": "Langganan, info login, dan catatan pribadi — aman di satu tempat.",
+        "ru": "Подписки, логины и личные заметки — надёжно в одном месте.",
+        "vi": "Đăng ký, thông tin đăng nhập và ghi chú riêng tư — an toàn ở một nơi.",
+        "tr": "Abonelikler, giriş bilgileri ve özel notlar — tek yerde güvende.",
+        "it": "Abbonamenti, accessi e note private, al sicuro in un unico posto."
       }
     }
   ]
