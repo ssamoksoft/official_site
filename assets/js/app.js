@@ -19,6 +19,7 @@ const LANGUAGES = [
   { code: "vi",      label: "Tiếng Việt" },
   { code: "tr",      label: "Türkçe" },
   { code: "it",      label: "Italiano" },
+  { code: "ar",      label: "العربية" },
 ];
 const DEFAULT_LANG = "en";
 const STORAGE_KEY = "ssamok.lang";
@@ -49,7 +50,7 @@ async function loadJSON(url) {
   if (!res.ok) throw new Error(`Failed to load ${url} (${res.status})`);
   return res.json();
 }
-function isRTL() { return false; } // none of the 15 supported languages are RTL
+function isRTL() { return currentLang === "ar"; } // Arabic is right-to-left
 
 /* ---------- i18n apply ---------- */
 function applyI18n() {

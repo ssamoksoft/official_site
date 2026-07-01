@@ -1,6 +1,6 @@
 {
   "defaultLang": "en",
-  "languages": ["en", "ko", "ja", "zh", "zh_Hant", "es", "pt", "de", "fr", "hi", "id", "ru", "vi", "tr", "it"],
+  "languages": ["en", "ko", "ja", "zh", "zh_Hant", "es", "pt", "de", "fr", "hi", "id", "ru", "vi", "tr", "it", "ar"],
   "apps": [
     {
       "id": "stopwatcha",
@@ -26,7 +26,8 @@
         "ru": "Профессиональный секундомер и таймер с кнопками, которые вы создаёте сами.",
         "vi": "Đồng hồ bấm giờ và hẹn giờ chuyên nghiệp với các nút do bạn tự tạo.",
         "tr": "Kendi düğmelerinizi oluşturabileceğiniz profesyonel bir kronometre ve zamanlayıcı.",
-        "it": "Un cronometro e timer professionale con pulsanti che crei tu."
+        "it": "Un cronometro e timer professionale con pulsanti che crei tu.",
+        "ar": "ساعة إيقاف ومؤقّت احترافيان بأزرار تصنعها بنفسك."
       }
     },
     {
@@ -53,7 +54,8 @@
         "ru": "Простой и безопасный облачный дневник на каждый день.",
         "vi": "Nhật ký đám mây đơn giản và an toàn cho mỗi ngày của bạn.",
         "tr": "Günlük yaşamınız için basit ve güvenli bir bulut günlüğü.",
-        "it": "Un diario nel cloud semplice e sicuro per la tua quotidianità."
+        "it": "Un diario nel cloud semplice e sicuro per la tua quotidianità.",
+        "ar": "مفكّرة سحابية بسيطة وآمنة ليومك."
       }
     },
     {
@@ -80,7 +82,8 @@
         "ru": "Оценивайте и ранжируйте вещи, которые покупаете и любите.",
         "vi": "Đánh giá và xếp hạng những thứ bạn mua và yêu thích.",
         "tr": "Satın aldığınız ve sevdiğiniz şeyleri puanlayın ve sıralayın.",
-        "it": "Valuta e classifica le cose che compri e che ami."
+        "it": "Valuta e classifica le cose che compri e che ami.",
+        "ar": "قيّم ورتّب الأشياء التي تشتريها وتحبّها."
       }
     },
     {
@@ -107,7 +110,8 @@
         "ru": "Отслеживайте годовщины и важные даты с любимым человеком.",
         "vi": "Theo dõi ngày kỷ niệm và ngày đáng nhớ cùng người bạn yêu.",
         "tr": "Sevdiğinizle yıl dönümlerini ve özel günleri takip edin.",
-        "it": "Tieni traccia di anniversari e date speciali con chi ami."
+        "it": "Tieni traccia di anniversari e date speciali con chi ami.",
+        "ar": "تابِع الذكرى السنوية والأيام المهمة مع من تحب."
       }
     },
     {
@@ -134,7 +138,8 @@
         "ru": "Подписки, логины и личные заметки — надёжно в одном месте.",
         "vi": "Đăng ký, thông tin đăng nhập và ghi chú riêng tư — an toàn ở một nơi.",
         "tr": "Abonelikler, giriş bilgileri ve özel notlar — tek yerde güvende.",
-        "it": "Abbonamenti, accessi e note private, al sicuro in un unico posto."
+        "it": "Abbonamenti, accessi e note private, al sicuro in un unico posto.",
+        "ar": "الاشتراكات وبيانات الدخول والملاحظات الخاصة — بأمان في مكان واحد."
       }
     }
   ]
