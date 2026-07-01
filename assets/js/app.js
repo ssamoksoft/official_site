@@ -119,6 +119,7 @@ function renderApps() {
         <h3 class="app-name">${escapeHTML(name)}</h3>
         <p class="app-tagline">${escapeHTML(tagline)}</p>
         ${links}
+        <a class="app-privacy" href="/privacy/${app.id}/">${escapeHTML(t("footer.links.privacy"))}</a>
       </article>`;
   }).join("");
 }
