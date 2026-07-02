@@ -198,6 +198,11 @@ a { color: inherit; text-decoration: none; }
 .legal h2 { font-size: 20px; margin: 30px 0 8px; }
 .legal p { color: var(--text-dim); }
 .legal .back { display: inline-flex; align-items: center; gap: 8px; margin-top: 34px; color: var(--accent-2); }
+.legal ul { color: var(--text-dim); padding-left: 20px; }
+.legal li { margin: 5px 0; }
+.legal a { color: var(--accent-2); }
+.legal hr.lang-split { border: 0; border-top: 1px solid var(--border); margin: 52px 0; }
+.legal .doc-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 26px; }
 .privacy-summary { margin: 22px 0 8px; padding: 20px 22px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
 .privacy-summary h2 { font-size: 17px; margin: 0 0 10px; }
 .privacy-summary ul { margin: 0; padding-left: 18px; color: var(--text-dim); }

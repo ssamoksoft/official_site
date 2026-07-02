@@ -154,11 +154,20 @@ function renderPrivacy() {
       p.ads ? t("privacy.sum_ads_yes") : t("privacy.sum_ads_no"),
       p.iap ? t("privacy.sum_iap_yes") : t("privacy.sum_iap_no"),
     ];
+    (p.extras || []).forEach((k) => items.push(t("privacy.sum_extra_" + k)));
     summary = `<div class="privacy-summary"><h2>${escapeHTML(t("privacy.summary_title"))}</h2><ul>${items.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul></div>`;
   }
 
   const sections = ["collect", "purpose", "iap", "thirdparty", "ads", "retention", "storage", "rights", "children", "contact", "changes"];
   const body = sections.map((s) => `<h2>${escapeHTML(t("privacy.s_" + s + "_title"))}</h2><p>${escapeHTML(t("privacy.s_" + s + "_body"))}</p>`).join("");
+
+  let docLinks = "";
+  if (app && Array.isArray(app.docs) && app.docs.length) {
+    const parts = [];
+    if (app.docs.includes("terms")) parts.push(`<a href="/privacy/${app.id}/terms/">${escapeHTML(t("privacy.link_terms"))}</a>`);
+    if (app.docs.includes("delete")) parts.push(`<a href="/privacy/${app.id}/delete-account/">${escapeHTML(t("privacy.link_delete"))}</a>`);
+    docLinks = `<div class="doc-links">${parts.join("")}</div>`;
+  }
 
   root.innerHTML =
     `<h1>${escapeHTML(t("privacy.title"))}</h1>` +
@@ -167,6 +176,34 @@ function renderPrivacy() {
     `<p class="intro">${escapeHTML(t("privacy.intro"))}</p>` +
     summary +
     body +
+    docLinks +
+    `<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
+}
+
+/* ---------- generic legal document page (terms, account deletion, ...) ---------- */
+function renderLegalDoc() {
+  const root = document.getElementById("legal-root");
+  if (!root) return; // only present on legal-doc pages
+  const docId = document.body.getAttribute("data-legal-doc");
+  const d = t("docs." + docId);
+  if (!d || typeof d !== "object") return;
+  document.title = d.title + " — SSAMOK SOFT";
+
+  // cross-links to the app's other documents (docId format: "<appId>_<doc>")
+  const appId = docId.slice(0, docId.lastIndexOf("_"));
+  const app = (appsData.apps || []).find((a) => a.id === appId);
+  const parts = [`<a href="/privacy/${appId}/">${escapeHTML(t("privacy.title"))}</a>`];
+  if (app && Array.isArray(app.docs)) {
+    if (app.docs.includes("terms") && docId !== appId + "_terms") parts.push(`<a href="/privacy/${appId}/terms/">${escapeHTML(t("privacy.link_terms"))}</a>`);
+    if (app.docs.includes("delete") && docId !== appId + "_delete") parts.push(`<a href="/privacy/${appId}/delete-account/">${escapeHTML(t("privacy.link_delete"))}</a>`);
+  }
+
+  root.innerHTML =
+    `<h1>${escapeHTML(d.title)}</h1>` +
+    `<p class="updated">${escapeHTML(d.updated)}</p>` +
+    `<p class="applies">${escapeHTML(d.applies)}</p>` +
+    (d.sections || []).map((s) => `<h2>${escapeHTML(s.t)}</h2><p>${escapeHTML(s.b)}</p>`).join("") +
+    `<div class="doc-links">${parts.join("")}</div>` +
     `<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
 }
 
@@ -236,6 +273,7 @@ async function setLang(code) {
   applyI18n();
   renderApps();
   renderPrivacy();
+  renderLegalDoc();
   updateLangButton();
 }
 

@@ -83,6 +83,43 @@
     "s_contact_body": "Responsabile della privacy: Dae-hoon Kang. Per qualsiasi domanda o richiesta relativa alla privacy, contattaci all'indirizzo ssamoksoft@gmail.com.",
     "s_changes_title": "11. Modifiche alla presente informativa",
     "s_changes_body": "In caso di modifiche alla presente informativa, pubblicheremo l'aggiornamento in questa pagina, e l'informativa rivista entra in vigore al momento della pubblicazione.",
-    "back": "Torna alla home"
+    "back": "Torna alla home",
+    "link_terms": "Termini di servizio",
+    "link_delete": "Elimina il tuo account",
+    "sum_extra_social": "Accesso con Google o Apple (raccoglie e-mail, nome visualizzato e nickname).",
+    "sum_extra_fcm": "Usa un token di dispositivo FCM per inviare le notifiche push.",
+    "sum_extra_revenuecat": "Le informazioni su abbonamenti e acquisti sono elaborate tramite RevenueCat.",
+    "sum_extra_inapp_delete": "Puoi eliminare il tuo account immediatamente da Impostazioni → Elimina account nell'app; i tuoi record nelle stanze condivise vengono anonimizzati."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Elimina il tuo account Kairotique",
+      "updated": "Ultimo aggiornamento: 2 luglio 2026",
+      "applies": "Questa pagina spiega come eliminare il tuo account e i tuoi dati per l'app “Kairotique” di SSAMOK SOFT. Puoi richiedere l'eliminazione senza reinstallare l'app.",
+      "sections": [
+        { "t": "Opzione 1 — Elimina nell'app (consigliato, immediato)", "b": "Nell'app Kairotique, vai su Impostazioni → Elimina account. Il tuo account e i tuoi dati vengono eliminati immediatamente." },
+        { "t": "Opzione 2 — Richiedi via e-mail (senza l'app)", "b": "Dall'indirizzo e-mail usato per la registrazione, invia un messaggio a ssamoksoft@gmail.com con oggetto “Richiesta di eliminazione account Kairotique”. Dopo la verifica dell'identità, la richiesta viene elaborata entro 7 giorni." },
+        { "t": "Cosa viene eliminato", "b": "Vengono eliminati le informazioni del tuo account (e-mail e nickname) e tutte le stanze e i record che hai creato. I record lasciati in altre stanze a cui partecipavi vengono anonimizzati, con la rimozione delle informazioni sull'autore." },
+        { "t": "Informazioni sugli abbonamenti", "b": "Gli abbonamenti (premium) sono indipendenti dall'eliminazione dell'account. Se hai un abbonamento attivo, annullalo direttamente su Google Play o sull'App Store: eliminare l'account non lo annulla automaticamente." },
+        { "t": "Contatti", "b": "Per domande sull'eliminazione, scrivi a ssamoksoft@gmail.com." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Termini di servizio di Kairotique",
+      "updated": "Data di entrata in vigore: 2 luglio 2026",
+      "applies": "I presenti termini regolano l'uso dell'app mobile “Kairotique” (il “Servizio”) fornita da SSAMOK SOFT (la “Società”). Utilizzando il Servizio accetti questi termini.",
+      "sections": [
+        { "t": "1. Il Servizio", "b": "Kairotique è una piattaforma di registri e timer condivisi in cui crei stanze e usi timer e registrazioni insieme ad altri. La Società può migliorare o modificare le funzionalità del Servizio nel tempo." },
+        { "t": "2. Account", "b": "Usi il Servizio accedendo con un account Google o Apple. Sei responsabile dell'attività sul tuo account e devi informare tempestivamente la Società di qualsiasi uso non autorizzato. Puoi eliminare il tuo account in qualsiasi momento da Impostazioni → Elimina account nell'app." },
+        { "t": "3. Abbonamenti e pagamenti", "b": "Il Servizio offre funzionalità premium tramite abbonamento e i pagamenti sono elaborati tramite l'App Store o Google Play. Gli abbonamenti possono rinnovarsi automaticamente secondo la politica di ciascuno store, e cancellazioni e rimborsi seguono le politiche e le procedure di ciascuno store. La Società non raccoglie né archivia informazioni sulle carte di pagamento, e l'eliminazione dell'account non annulla un abbonamento." },
+        { "t": "4. Contenuti dell'utente", "b": "Mantieni i tuoi diritti sui contenuti che crei nel Servizio, come stanze, registrazioni e note. La Società può utilizzare tali contenuti nella misura necessaria a fornire il Servizio, inclusi archiviazione, sincronizzazione e visualizzazione ai partecipanti delle stanze condivise; i contenuti pubblicati in una stanza condivisa sono visibili agli altri partecipanti di quella stanza." },
+        { "t": "5. Comportamenti vietati", "b": "Sono vietati: violare la legge o i diritti altrui, pubblicare contenuti offensivi o osceni, ostacolare il Servizio o accedere ai sistemi senza autorizzazione, impersonare altri o usare l'account di un altro utente, nonché reverse engineering, scraping o abuso del Servizio con mezzi automatizzati. In caso di violazione, la Società può rimuovere contenuti, limitare l'uso o sospendere gli account." },
+        { "t": "6. Modifiche o interruzione del Servizio", "b": "La Società può modificare o interrompere in tutto o in parte il Servizio per motivi operativi o tecnici, con preavviso in caso di modifiche rilevanti." },
+        { "t": "7. Limitazione di responsabilità", "b": "Il Servizio è fornito “così com'è”. Nella misura consentita dalla legge, la Società non è responsabile di danni indiretti o incidentali derivanti dall'uso del Servizio, salvo i danni causati da dolo o colpa grave della Società." },
+        { "t": "8. Modifiche ai presenti termini", "b": "La Società può aggiornare questi termini e pubblicherà le modifiche in questa pagina. I termini aggiornati hanno effetto dalla pubblicazione e l'uso continuato del Servizio ne costituisce accettazione." },
+        { "t": "9. Legge applicabile e foro competente", "b": "I presenti termini sono regolati dalle leggi della Repubblica di Corea e le controversie sono soggette alla giurisdizione dei tribunali della Repubblica di Corea." },
+        { "t": "10. Contatti", "b": "Per domande su questi termini, scrivi a ssamoksoft@gmail.com." }
+      ]
+    }
   }
 }

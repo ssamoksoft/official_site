@@ -83,6 +83,43 @@
     "s_contact_body": "Privacy officer: Dae-hoon Kang. For any privacy question or request, contact us at ssamoksoft@gmail.com.",
     "s_changes_title": "11. Changes to this policy",
     "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
-    "back": "Back to home"
+    "back": "Back to home",
+    "link_terms": "Terms of Service",
+    "link_delete": "Delete your account",
+    "sum_extra_social": "Signs you in with Google or Apple (collects email, display name, and nickname).",
+    "sum_extra_fcm": "Uses an FCM device token to deliver push notifications.",
+    "sum_extra_revenuecat": "Processes subscription and purchase information via RevenueCat.",
+    "sum_extra_inapp_delete": "You can delete your account immediately via Settings → Delete account in the app; your records in shared rooms are anonymized."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Delete your Kairotique account",
+      "updated": "Last updated: July 2, 2026",
+      "applies": "This page explains how to delete your account and data for the app “Kairotique” by SSAMOK SOFT. You can request deletion without reinstalling the app.",
+      "sections": [
+        { "t": "Option 1 — Delete in the app (recommended, immediate)", "b": "In the Kairotique app, go to Settings → Delete account. Your account and data are deleted immediately." },
+        { "t": "Option 2 — Request by email (no app required)", "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Kairotique account deletion request”. After identity verification, your request is processed within 7 days." },
+        { "t": "What gets deleted", "b": "Your account information (email and nickname) and all rooms and records you created are deleted. Records you left in other rooms you participated in are anonymized, with author information removed." },
+        { "t": "About subscriptions", "b": "Subscriptions (premium) are separate from account deletion. If you have an active subscription, cancel it directly in Google Play or the App Store — deleting your account does not cancel it automatically." },
+        { "t": "Contact", "b": "For questions about deletion, contact ssamoksoft@gmail.com." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Kairotique Terms of Service",
+      "updated": "Effective date: July 2, 2026",
+      "applies": "These terms govern your use of the mobile app “Kairotique” (the “Service”) provided by SSAMOK SOFT (the “Company”). By using the Service, you agree to these terms.",
+      "sections": [
+        { "t": "1. The Service", "b": "Kairotique is a shared log and timer platform where you create rooms and use timers and records together. The Company may improve or change the Service's features over time." },
+        { "t": "2. Accounts", "b": "You use the Service by signing in with a Google or Apple account. You are responsible for activity on your account and must notify the Company promptly of any unauthorized use. You can delete your account at any time via Settings → Delete account in the app." },
+        { "t": "3. Subscriptions & payments", "b": "The Service offers premium features via subscription, and payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Company does not collect or store payment card information, and deleting your account does not cancel a subscription." },
+        { "t": "4. User content", "b": "You retain your rights to the content you create in the Service, such as rooms, records, and notes. The Company may use that content to the extent needed to provide the Service, including storage, syncing, and display to participants of shared rooms; content posted in a shared room is visible to that room's other participants." },
+        { "t": "5. Prohibited conduct", "b": "Violating the law or infringing others' rights, posting abusive or obscene content, disrupting the Service or accessing systems without authorization, impersonating others or using another user's account, and reverse engineering, scraping, or abusing the Service with automated means are prohibited. The Company may remove content, restrict use, or suspend accounts for violations." },
+        { "t": "6. Changes to or discontinuation of the Service", "b": "The Company may change or discontinue all or part of the Service for operational or technical reasons, with prior notice for material changes." },
+        { "t": "7. Limitation of liability", "b": "The Service is provided “as is.” To the extent permitted by law, the Company is not liable for indirect or incidental damages arising from use of the Service, except for damages caused by the Company's willful misconduct or gross negligence." },
+        { "t": "8. Changes to these terms", "b": "The Company may update these terms and will post changes on this page. Updated terms take effect when posted, and continued use of the Service constitutes acceptance." },
+        { "t": "9. Governing law & jurisdiction", "b": "These terms are governed by the laws of the Republic of Korea, and disputes are subject to the jurisdiction of the courts of the Republic of Korea." },
+        { "t": "10. Contact", "b": "For questions about these terms, contact ssamoksoft@gmail.com." }
+      ]
+    }
   }
 }

@@ -83,6 +83,43 @@
     "s_contact_body": "Responsable de privacidad: Dae-hoon Kang. Para cualquier consulta o solicitud sobre privacidad, escríbenos a ssamoksoft@gmail.com.",
     "s_changes_title": "11. Cambios en esta política",
     "s_changes_body": "Si esta política cambia, publicaremos la actualización en esta página, y la política revisada entrará en vigor en el momento de su publicación.",
-    "back": "Volver al inicio"
+    "back": "Volver al inicio",
+    "link_terms": "Términos del servicio",
+    "link_delete": "Eliminar tu cuenta",
+    "sum_extra_social": "Inicia sesión con Google o Apple (recopila correo electrónico, nombre visible y apodo).",
+    "sum_extra_fcm": "Usa un token de dispositivo FCM para enviar notificaciones push.",
+    "sum_extra_revenuecat": "La información de suscripciones y compras se procesa a través de RevenueCat.",
+    "sum_extra_inapp_delete": "Puedes eliminar tu cuenta al instante desde Ajustes → Eliminar cuenta en la app; tus registros en salas compartidas se anonimizan."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Eliminar tu cuenta de Kairotique",
+      "updated": "Última actualización: 2 de julio de 2026",
+      "applies": "Esta página explica cómo eliminar tu cuenta y tus datos de la app «Kairotique» de SSAMOK SOFT. Puedes solicitar la eliminación sin reinstalar la app.",
+      "sections": [
+        { "t": "Opción 1 — Eliminar desde la app (recomendado, inmediato)", "b": "En la app Kairotique, ve a Ajustes → Eliminar cuenta. Tu cuenta y tus datos se eliminan de inmediato." },
+        { "t": "Opción 2 — Solicitarlo por correo (sin la app)", "b": "Desde la dirección de correo con la que te registraste, envía un mensaje a ssamoksoft@gmail.com con el asunto «Solicitud de eliminación de cuenta de Kairotique». Tras verificar tu identidad, la solicitud se procesa en un plazo de 7 días." },
+        { "t": "Qué se elimina", "b": "Se eliminan tu información de cuenta (correo y apodo) y todas las salas y registros que creaste. Los registros que dejaste en otras salas en las que participabas se anonimizan, eliminando la información del autor." },
+        { "t": "Sobre las suscripciones", "b": "Las suscripciones (premium) son independientes de la eliminación de la cuenta. Si tienes una suscripción activa, cancélala directamente en Google Play o el App Store: eliminar la cuenta no la cancela automáticamente." },
+        { "t": "Contacto", "b": "Para preguntas sobre la eliminación, escribe a ssamoksoft@gmail.com." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Términos del servicio de Kairotique",
+      "updated": "Fecha de entrada en vigor: 2 de julio de 2026",
+      "applies": "Estos términos rigen el uso de la app móvil «Kairotique» (el «Servicio») proporcionada por SSAMOK SOFT (la «Compañía»). Al usar el Servicio, aceptas estos términos.",
+      "sections": [
+        { "t": "1. El Servicio", "b": "Kairotique es una plataforma de registros y temporizadores compartidos donde creas salas y usas temporizadores y registros junto a otras personas. La Compañía puede mejorar o cambiar las funciones del Servicio con el tiempo." },
+        { "t": "2. Cuentas", "b": "Usas el Servicio iniciando sesión con una cuenta de Google o Apple. Eres responsable de la actividad de tu cuenta y debes notificar a la Compañía de inmediato cualquier uso no autorizado. Puedes eliminar tu cuenta en cualquier momento desde Ajustes → Eliminar cuenta en la app." },
+        { "t": "3. Suscripciones y pagos", "b": "El Servicio ofrece funciones premium mediante suscripción, y los pagos se procesan a través del App Store o Google Play. Las suscripciones pueden renovarse automáticamente según la política de cada tienda, y las cancelaciones y reembolsos siguen las políticas y procedimientos de cada tienda. La Compañía no recopila ni almacena información de tarjetas de pago, y eliminar la cuenta no cancela una suscripción." },
+        { "t": "4. Contenido del usuario", "b": "Conservas tus derechos sobre el contenido que creas en el Servicio, como salas, registros y notas. La Compañía puede usar ese contenido en la medida necesaria para prestar el Servicio, incluidos el almacenamiento, la sincronización y la visualización para los participantes de salas compartidas; el contenido publicado en una sala compartida es visible para los demás participantes de esa sala." },
+        { "t": "5. Conductas prohibidas", "b": "Está prohibido infringir la ley o los derechos de terceros, publicar contenido abusivo u obsceno, interrumpir el Servicio o acceder a los sistemas sin autorización, suplantar a otras personas o usar la cuenta de otro usuario, y realizar ingeniería inversa, extraer datos o abusar del Servicio con medios automatizados. La Compañía puede eliminar contenido, restringir el uso o suspender cuentas por infracciones." },
+        { "t": "6. Cambios o interrupción del Servicio", "b": "La Compañía puede cambiar o interrumpir total o parcialmente el Servicio por motivos operativos o técnicos, con aviso previo en caso de cambios importantes." },
+        { "t": "7. Limitación de responsabilidad", "b": "El Servicio se ofrece «tal cual». En la medida permitida por la ley, la Compañía no responde por daños indirectos o incidentales derivados del uso del Servicio, salvo los causados por dolo o negligencia grave de la Compañía." },
+        { "t": "8. Cambios en estos términos", "b": "La Compañía puede actualizar estos términos y publicará los cambios en esta página. Los términos actualizados entran en vigor al publicarse, y el uso continuado del Servicio constituye su aceptación." },
+        { "t": "9. Ley aplicable y jurisdicción", "b": "Estos términos se rigen por las leyes de la República de Corea, y las disputas quedan sujetas a la jurisdicción de los tribunales de la República de Corea." },
+        { "t": "10. Contacto", "b": "Para preguntas sobre estos términos, escribe a ssamoksoft@gmail.com." }
+      ]
+    }
   }
 }

@@ -83,6 +83,43 @@
     "s_contact_body": "Người phụ trách quyền riêng tư: Dae-hoon Kang. Đối với mọi câu hỏi hoặc yêu cầu về quyền riêng tư, hãy liên hệ với chúng tôi tại ssamoksoft@gmail.com.",
     "s_changes_title": "11. Thay đổi chính sách này",
     "s_changes_body": "Nếu chính sách này thay đổi, chúng tôi sẽ đăng bản cập nhật trên trang này, và chính sách sửa đổi có hiệu lực kể từ khi được đăng.",
-    "back": "Về trang chủ"
+    "back": "Về trang chủ",
+    "link_terms": "Điều khoản dịch vụ",
+    "link_delete": "Xóa tài khoản của bạn",
+    "sum_extra_social": "Đăng nhập bằng Google hoặc Apple (thu thập email, tên hiển thị và biệt danh).",
+    "sum_extra_fcm": "Sử dụng mã thông báo thiết bị FCM để gửi thông báo đẩy.",
+    "sum_extra_revenuecat": "Thông tin đăng ký và mua hàng được xử lý qua RevenueCat.",
+    "sum_extra_inapp_delete": "Bạn có thể xóa tài khoản ngay lập tức qua Cài đặt → Xóa tài khoản trong ứng dụng; bản ghi của bạn trong các phòng chia sẻ sẽ được ẩn danh."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Xóa tài khoản Kairotique của bạn",
+      "updated": "Cập nhật lần cuối: 2 tháng 7 năm 2026",
+      "applies": "Trang này giải thích cách xóa tài khoản và dữ liệu của ứng dụng “Kairotique” do SSAMOK SOFT cung cấp. Bạn có thể yêu cầu xóa mà không cần cài đặt lại ứng dụng.",
+      "sections": [
+        { "t": "Cách 1 — Xóa trong ứng dụng (khuyến nghị, ngay lập tức)", "b": "Trong ứng dụng Kairotique, vào Cài đặt → Xóa tài khoản. Tài khoản và dữ liệu của bạn được xóa ngay lập tức." },
+        { "t": "Cách 2 — Yêu cầu qua email (không cần ứng dụng)", "b": "Từ địa chỉ email bạn dùng để đăng ký, gửi thư đến ssamoksoft@gmail.com với tiêu đề “Yêu cầu xóa tài khoản Kairotique”. Sau khi xác minh danh tính, yêu cầu được xử lý trong vòng 7 ngày." },
+        { "t": "Dữ liệu bị xóa", "b": "Thông tin tài khoản của bạn (email và biệt danh) cùng tất cả các phòng và bản ghi bạn đã tạo sẽ bị xóa. Các bản ghi bạn để lại trong những phòng khác mà bạn tham gia sẽ được ẩn danh, thông tin tác giả bị gỡ bỏ." },
+        { "t": "Về gói đăng ký", "b": "Gói đăng ký (premium) tách biệt với việc xóa tài khoản. Nếu bạn có gói đăng ký đang hoạt động, hãy hủy trực tiếp trong Google Play hoặc App Store — xóa tài khoản không tự động hủy gói đăng ký." },
+        { "t": "Liên hệ", "b": "Nếu có câu hỏi về việc xóa, hãy liên hệ ssamoksoft@gmail.com." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Điều khoản dịch vụ Kairotique",
+      "updated": "Ngày có hiệu lực: 2 tháng 7 năm 2026",
+      "applies": "Các điều khoản này điều chỉnh việc bạn sử dụng ứng dụng di động “Kairotique” (“Dịch vụ”) do SSAMOK SOFT (“Công ty”) cung cấp. Bằng việc sử dụng Dịch vụ, bạn đồng ý với các điều khoản này.",
+      "sections": [
+        { "t": "1. Dịch vụ", "b": "Kairotique là nền tảng nhật ký và bộ đếm giờ chia sẻ, nơi bạn tạo phòng và cùng người khác sử dụng bộ đếm giờ và bản ghi. Công ty có thể cải tiến hoặc thay đổi các tính năng của Dịch vụ theo thời gian." },
+        { "t": "2. Tài khoản", "b": "Bạn sử dụng Dịch vụ bằng cách đăng nhập với tài khoản Google hoặc Apple. Bạn chịu trách nhiệm về hoạt động trên tài khoản của mình và phải thông báo ngay cho Công ty về mọi hành vi sử dụng trái phép. Bạn có thể xóa tài khoản bất cứ lúc nào qua Cài đặt → Xóa tài khoản trong ứng dụng." },
+        { "t": "3. Đăng ký và thanh toán", "b": "Dịch vụ cung cấp các tính năng cao cấp qua hình thức đăng ký, và thanh toán được xử lý qua App Store hoặc Google Play. Gói đăng ký có thể tự động gia hạn theo chính sách của từng cửa hàng; việc hủy và hoàn tiền tuân theo chính sách và quy trình của từng cửa hàng. Công ty không thu thập hoặc lưu trữ thông tin thẻ thanh toán, và xóa tài khoản không hủy gói đăng ký." },
+        { "t": "4. Nội dung người dùng", "b": "Bạn giữ quyền đối với nội dung bạn tạo trong Dịch vụ, như phòng, bản ghi và ghi chú. Công ty có thể sử dụng nội dung đó trong phạm vi cần thiết để cung cấp Dịch vụ, bao gồm lưu trữ, đồng bộ và hiển thị cho những người tham gia phòng chia sẻ; nội dung đăng trong phòng chia sẻ sẽ hiển thị với những người tham gia khác của phòng đó." },
+        { "t": "5. Hành vi bị cấm", "b": "Nghiêm cấm vi phạm pháp luật hoặc xâm phạm quyền của người khác, đăng nội dung lăng mạ hoặc khiêu dâm, gây rối Dịch vụ hoặc truy cập hệ thống trái phép, mạo danh người khác hoặc sử dụng tài khoản của người dùng khác, cũng như dịch ngược, thu thập dữ liệu tự động hoặc lạm dụng Dịch vụ bằng phương tiện tự động. Khi có vi phạm, Công ty có thể gỡ nội dung, hạn chế sử dụng hoặc đình chỉ tài khoản." },
+        { "t": "6. Thay đổi hoặc ngừng Dịch vụ", "b": "Công ty có thể thay đổi hoặc ngừng toàn bộ hay một phần Dịch vụ vì lý do vận hành hoặc kỹ thuật, và sẽ thông báo trước đối với các thay đổi quan trọng." },
+        { "t": "7. Giới hạn trách nhiệm", "b": "Dịch vụ được cung cấp “nguyên trạng”. Trong phạm vi pháp luật cho phép, Công ty không chịu trách nhiệm về các thiệt hại gián tiếp hoặc phát sinh từ việc sử dụng Dịch vụ, trừ thiệt hại do lỗi cố ý hoặc sơ suất nghiêm trọng của Công ty." },
+        { "t": "8. Thay đổi điều khoản", "b": "Công ty có thể cập nhật các điều khoản này và sẽ đăng thay đổi trên trang này. Điều khoản cập nhật có hiệu lực khi được đăng, và việc tiếp tục sử dụng Dịch vụ được xem là chấp nhận." },
+        { "t": "9. Luật áp dụng và thẩm quyền", "b": "Các điều khoản này được điều chỉnh bởi pháp luật Đại Hàn Dân Quốc, và tranh chấp thuộc thẩm quyền của tòa án Đại Hàn Dân Quốc." },
+        { "t": "10. Liên hệ", "b": "Nếu có câu hỏi về các điều khoản này, hãy liên hệ ssamoksoft@gmail.com." }
+      ]
+    }
   }
 }

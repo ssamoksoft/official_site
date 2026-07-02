@@ -83,6 +83,43 @@
     "s_contact_body": "Petugas privasi: Dae-hoon Kang. Untuk pertanyaan atau permintaan terkait privasi, hubungi kami di ssamoksoft@gmail.com.",
     "s_changes_title": "11. Perubahan kebijakan ini",
     "s_changes_body": "Jika kebijakan ini berubah, kami akan memublikasikan pembaruannya di halaman ini, dan kebijakan yang direvisi berlaku sejak dipublikasikan.",
-    "back": "Kembali ke beranda"
+    "back": "Kembali ke beranda",
+    "link_terms": "Ketentuan Layanan",
+    "link_delete": "Hapus akun Anda",
+    "sum_extra_social": "Masuk dengan Google atau Apple (mengumpulkan email, nama tampilan, dan nama panggilan).",
+    "sum_extra_fcm": "Menggunakan token perangkat FCM untuk mengirim notifikasi push.",
+    "sum_extra_revenuecat": "Informasi langganan dan pembelian diproses melalui RevenueCat.",
+    "sum_extra_inapp_delete": "Anda dapat menghapus akun secara langsung melalui Pengaturan → Hapus akun di aplikasi; catatan Anda di ruang bersama akan dianonimkan."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Hapus akun Kairotique Anda",
+      "updated": "Terakhir diperbarui: 2 Juli 2026",
+      "applies": "Halaman ini menjelaskan cara menghapus akun dan data Anda untuk aplikasi “Kairotique” dari SSAMOK SOFT. Anda dapat mengajukan penghapusan tanpa memasang ulang aplikasi.",
+      "sections": [
+        { "t": "Cara 1 — Hapus di aplikasi (disarankan, langsung)", "b": "Di aplikasi Kairotique, buka Pengaturan → Hapus akun. Akun dan data Anda langsung dihapus." },
+        { "t": "Cara 2 — Ajukan lewat email (tanpa aplikasi)", "b": "Dari alamat email yang Anda gunakan saat mendaftar, kirim pesan ke ssamoksoft@gmail.com dengan subjek “Permintaan penghapusan akun Kairotique”. Setelah verifikasi identitas, permintaan diproses dalam waktu 7 hari." },
+        { "t": "Apa yang dihapus", "b": "Informasi akun Anda (email dan nama panggilan) serta semua ruang dan catatan yang Anda buat akan dihapus. Catatan yang Anda tinggalkan di ruang lain yang Anda ikuti akan dianonimkan, dengan informasi penulis dihapus." },
+        { "t": "Tentang langganan", "b": "Langganan (premium) terpisah dari penghapusan akun. Jika Anda memiliki langganan aktif, batalkan langsung di Google Play atau App Store — menghapus akun tidak otomatis membatalkan langganan." },
+        { "t": "Kontak", "b": "Untuk pertanyaan tentang penghapusan, hubungi ssamoksoft@gmail.com." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Ketentuan Layanan Kairotique",
+      "updated": "Tanggal berlaku: 2 Juli 2026",
+      "applies": "Ketentuan ini mengatur penggunaan aplikasi seluler “Kairotique” (“Layanan”) yang disediakan oleh SSAMOK SOFT (“Perusahaan”). Dengan menggunakan Layanan, Anda menyetujui ketentuan ini.",
+      "sections": [
+        { "t": "1. Layanan", "b": "Kairotique adalah platform log dan timer bersama tempat Anda membuat ruang serta menggunakan timer dan catatan bersama orang lain. Perusahaan dapat meningkatkan atau mengubah fitur Layanan dari waktu ke waktu." },
+        { "t": "2. Akun", "b": "Anda menggunakan Layanan dengan masuk melalui akun Google atau Apple. Anda bertanggung jawab atas aktivitas pada akun Anda dan harus segera memberi tahu Perusahaan jika ada penggunaan tanpa izin. Anda dapat menghapus akun kapan saja melalui Pengaturan → Hapus akun di aplikasi." },
+        { "t": "3. Langganan dan pembayaran", "b": "Layanan menawarkan fitur premium melalui langganan, dan pembayaran diproses melalui App Store atau Google Play. Langganan dapat diperpanjang otomatis sesuai kebijakan masing-masing toko, dan pembatalan serta pengembalian dana mengikuti kebijakan dan prosedur masing-masing toko. Perusahaan tidak mengumpulkan atau menyimpan informasi kartu pembayaran, dan menghapus akun tidak membatalkan langganan." },
+        { "t": "4. Konten pengguna", "b": "Anda tetap memiliki hak atas konten yang Anda buat di Layanan, seperti ruang, catatan, dan memo. Perusahaan dapat menggunakan konten tersebut sejauh diperlukan untuk menyediakan Layanan, termasuk penyimpanan, sinkronisasi, dan penampilan kepada peserta ruang bersama; konten yang diposting di ruang bersama terlihat oleh peserta lain di ruang tersebut." },
+        { "t": "5. Perilaku yang dilarang", "b": "Dilarang melanggar hukum atau hak orang lain, memposting konten kasar atau cabul, mengganggu Layanan atau mengakses sistem tanpa izin, menyamar sebagai orang lain atau menggunakan akun pengguna lain, serta melakukan rekayasa balik, scraping, atau menyalahgunakan Layanan dengan sarana otomatis. Untuk pelanggaran, Perusahaan dapat menghapus konten, membatasi penggunaan, atau menangguhkan akun." },
+        { "t": "6. Perubahan atau penghentian Layanan", "b": "Perusahaan dapat mengubah atau menghentikan seluruh atau sebagian Layanan karena alasan operasional atau teknis, dengan pemberitahuan sebelumnya untuk perubahan besar." },
+        { "t": "7. Batasan tanggung jawab", "b": "Layanan disediakan “sebagaimana adanya”. Sejauh diizinkan hukum, Perusahaan tidak bertanggung jawab atas kerugian tidak langsung atau insidental yang timbul dari penggunaan Layanan, kecuali kerugian akibat kesengajaan atau kelalaian berat Perusahaan." },
+        { "t": "8. Perubahan ketentuan ini", "b": "Perusahaan dapat memperbarui ketentuan ini dan akan memublikasikan perubahannya di halaman ini. Ketentuan yang diperbarui berlaku sejak dipublikasikan, dan penggunaan Layanan yang berkelanjutan dianggap sebagai persetujuan." },
+        { "t": "9. Hukum yang berlaku dan yurisdiksi", "b": "Ketentuan ini diatur oleh hukum Republik Korea, dan sengketa tunduk pada yurisdiksi pengadilan Republik Korea." },
+        { "t": "10. Kontak", "b": "Untuk pertanyaan tentang ketentuan ini, hubungi ssamoksoft@gmail.com." }
+      ]
+    }
   }
 }

@@ -83,6 +83,43 @@
     "s_contact_body": "Gizlilik sorumlusu: Dae-hoon Kang. Gizlilikle ilgili her türlü soru veya talep için bize ssamoksoft@gmail.com adresinden ulaşın.",
     "s_changes_title": "11. Bu politikadaki değişiklikler",
     "s_changes_body": "Bu politika değişirse, güncellemeyi bu sayfada yayımlarız ve gözden geçirilmiş politika yayımlandığı anda yürürlüğe girer.",
-    "back": "Ana sayfaya dön"
+    "back": "Ana sayfaya dön",
+    "link_terms": "Hizmet Şartları",
+    "link_delete": "Hesabınızı silin",
+    "sum_extra_social": "Google veya Apple ile oturum açar (e-posta, görünen ad ve takma ad toplar).",
+    "sum_extra_fcm": "Anlık bildirimler için bir FCM cihaz belirteci kullanır.",
+    "sum_extra_revenuecat": "Abonelik ve satın alma bilgileri RevenueCat aracılığıyla işlenir.",
+    "sum_extra_inapp_delete": "Uygulamada Ayarlar → Hesabı sil ile hesabınızı anında silebilirsiniz; paylaşılan odalardaki kayıtlarınız anonimleştirilir."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Kairotique hesabınızı silin",
+      "updated": "Son güncelleme: 2 Temmuz 2026",
+      "applies": "Bu sayfa, SSAMOK SOFT tarafından sunulan “Kairotique” uygulamasında hesabınızı ve verilerinizi nasıl sileceğinizi açıklar. Uygulamayı yeniden yüklemeden silme talebinde bulunabilirsiniz.",
+      "sections": [
+        { "t": "Yöntem 1 — Uygulamada silin (önerilen, anında)", "b": "Kairotique uygulamasında Ayarlar → Hesabı sil bölümüne gidin. Hesabınız ve verileriniz anında silinir." },
+        { "t": "Yöntem 2 — E-posta ile talep edin (uygulama gerekmez)", "b": "Kayıt olurken kullandığınız e-posta adresinden, “Kairotique hesap silme talebi” konusuyla ssamoksoft@gmail.com adresine bir e-posta gönderin. Kimlik doğrulamasının ardından talebiniz 7 gün içinde işleme alınır." },
+        { "t": "Silinen veriler", "b": "Hesap bilgileriniz (e-posta ve takma ad) ile oluşturduğunuz tüm odalar ve kayıtlar silinir. Katıldığınız diğer odalarda bıraktığınız kayıtlar anonimleştirilir ve yazar bilgileri kaldırılır." },
+        { "t": "Abonelikler hakkında", "b": "Abonelikler (premium) hesap silme işleminden ayrıdır. Etkin bir aboneliğiniz varsa doğrudan Google Play veya App Store üzerinden iptal edin — hesabı silmek aboneliği otomatik olarak iptal etmez." },
+        { "t": "İletişim", "b": "Silme ile ilgili sorular için ssamoksoft@gmail.com adresine yazın." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Kairotique Hizmet Şartları",
+      "updated": "Yürürlük tarihi: 2 Temmuz 2026",
+      "applies": "Bu şartlar, SSAMOK SOFT (“Şirket”) tarafından sunulan “Kairotique” mobil uygulamasını (“Hizmet”) kullanımınızı düzenler. Hizmeti kullanarak bu şartları kabul etmiş olursunuz.",
+      "sections": [
+        { "t": "1. Hizmet", "b": "Kairotique, odalar oluşturup zamanlayıcıları ve kayıtları başkalarıyla birlikte kullandığınız paylaşımlı bir kayıt ve zamanlayıcı platformudur. Şirket, Hizmetin özelliklerini zaman içinde geliştirebilir veya değiştirebilir." },
+        { "t": "2. Hesaplar", "b": "Hizmeti, Google veya Apple hesabıyla oturum açarak kullanırsınız. Hesabınızdaki etkinliklerden siz sorumlusunuz ve yetkisiz kullanım durumunda Şirketi derhâl bilgilendirmelisiniz. Hesabınızı istediğiniz zaman uygulamada Ayarlar → Hesabı sil ile silebilirsiniz." },
+        { "t": "3. Abonelikler ve ödemeler", "b": "Hizmet, abonelik yoluyla premium özellikler sunar ve ödemeler App Store veya Google Play üzerinden işlenir. Abonelikler her mağazanın politikasına göre otomatik yenilenebilir; iptal ve iadeler her mağazanın politika ve prosedürlerine tabidir. Şirket ödeme kartı bilgilerini toplamaz veya saklamaz ve hesabı silmek aboneliği iptal etmez." },
+        { "t": "4. Kullanıcı içeriği", "b": "Hizmette oluşturduğunuz odalar, kayıtlar ve notlar gibi içerikler üzerindeki haklarınız size aittir. Şirket bu içeriği, depolama, eşitleme ve paylaşılan oda katılımcılarına gösterme dahil olmak üzere Hizmeti sunmak için gerekli ölçüde kullanabilir; paylaşılan bir odaya gönderilen içerik, o odanın diğer katılımcıları tarafından görülebilir." },
+        { "t": "5. Yasaklı davranışlar", "b": "Yasaları ihlal etmek veya başkalarının haklarını çiğnemek, hakaret içeren veya müstehcen içerik paylaşmak, Hizmeti aksatmak veya sistemlere yetkisiz erişmek, başkalarının kimliğine bürünmek veya başka bir kullanıcının hesabını kullanmak ile tersine mühendislik, veri kazıma veya otomatik araçlarla Hizmeti kötüye kullanmak yasaktır. İhlal durumunda Şirket içerik kaldırabilir, kullanımı kısıtlayabilir veya hesapları askıya alabilir." },
+        { "t": "6. Hizmetin değiştirilmesi veya sonlandırılması", "b": "Şirket, operasyonel veya teknik nedenlerle Hizmetin tamamını veya bir kısmını değiştirebilir ya da sonlandırabilir; önemli değişiklikler önceden duyurulur." },
+        { "t": "7. Sorumluluğun sınırlandırılması", "b": "Hizmet “olduğu gibi” sunulur. Yasaların izin verdiği ölçüde Şirket, Hizmetin kullanımından doğan dolaylı veya arızi zararlardan sorumlu değildir; ancak Şirketin kastı veya ağır ihmalinden kaynaklanan zararlar bu kapsamın dışındadır." },
+        { "t": "8. Şartlarda değişiklik", "b": "Şirket bu şartları güncelleyebilir ve değişiklikleri bu sayfada yayımlar. Güncellenen şartlar yayımlandığı anda yürürlüğe girer ve Hizmeti kullanmaya devam etmek kabul anlamına gelir." },
+        { "t": "9. Geçerli hukuk ve yetki", "b": "Bu şartlar Kore Cumhuriyeti yasalarına tabidir ve uyuşmazlıklar Kore Cumhuriyeti mahkemelerinin yetkisindedir." },
+        { "t": "10. İletişim", "b": "Bu şartlarla ilgili sorular için ssamoksoft@gmail.com adresine yazın." }
+      ]
+    }
   }
 }

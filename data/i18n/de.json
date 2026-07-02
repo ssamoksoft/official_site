@@ -83,6 +83,43 @@
     "s_contact_body": "Datenschutzbeauftragter: Dae-hoon Kang. Bei Fragen oder Anliegen zum Datenschutz kontaktiere uns unter ssamoksoft@gmail.com.",
     "s_changes_title": "11. Änderungen dieser Richtlinie",
     "s_changes_body": "Wenn sich diese Richtlinie ändert, veröffentlichen wir die Aktualisierung auf dieser Seite; die überarbeitete Richtlinie gilt ab dem Zeitpunkt der Veröffentlichung.",
-    "back": "Zurück zur Startseite"
+    "back": "Zurück zur Startseite",
+    "link_terms": "Nutzungsbedingungen",
+    "link_delete": "Konto löschen",
+    "sum_extra_social": "Anmeldung mit Google oder Apple (erhebt E-Mail, Anzeigename und Nickname).",
+    "sum_extra_fcm": "Verwendet ein FCM-Gerätetoken für Push-Benachrichtigungen.",
+    "sum_extra_revenuecat": "Abo- und Kaufinformationen werden über RevenueCat verarbeitet.",
+    "sum_extra_inapp_delete": "Du kannst dein Konto sofort über Einstellungen → Konto löschen in der App löschen; deine Einträge in geteilten Räumen werden anonymisiert."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Dein Kairotique-Konto löschen",
+      "updated": "Zuletzt aktualisiert: 2. Juli 2026",
+      "applies": "Diese Seite erklärt, wie du dein Konto und deine Daten für die App „Kairotique“ von SSAMOK SOFT löschst. Du kannst die Löschung beantragen, ohne die App neu zu installieren.",
+      "sections": [
+        { "t": "Option 1 — In der App löschen (empfohlen, sofort)", "b": "Gehe in der Kairotique-App zu Einstellungen → Konto löschen. Dein Konto und deine Daten werden sofort gelöscht." },
+        { "t": "Option 2 — Per E-Mail beantragen (ohne App)", "b": "Sende von der E-Mail-Adresse, mit der du dich registriert hast, eine Nachricht an ssamoksoft@gmail.com mit dem Betreff „Kairotique-Konto: Löschantrag“. Nach der Identitätsprüfung wird dein Antrag innerhalb von 7 Tagen bearbeitet." },
+        { "t": "Was gelöscht wird", "b": "Deine Kontodaten (E-Mail und Nickname) sowie alle von dir erstellten Räume und Einträge werden gelöscht. Einträge, die du in anderen Räumen hinterlassen hast, an denen du teilgenommen hast, werden anonymisiert; die Autoreninformationen werden entfernt." },
+        { "t": "Hinweis zu Abos", "b": "Abos (Premium) sind von der Kontolöschung unabhängig. Wenn du ein aktives Abo hast, kündige es direkt bei Google Play oder im App Store — das Löschen des Kontos kündigt es nicht automatisch." },
+        { "t": "Kontakt", "b": "Bei Fragen zur Löschung wende dich an ssamoksoft@gmail.com." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Kairotique Nutzungsbedingungen",
+      "updated": "Gültig ab: 2. Juli 2026",
+      "applies": "Diese Bedingungen regeln die Nutzung der mobilen App „Kairotique“ (der „Dienst“) von SSAMOK SOFT (das „Unternehmen“). Mit der Nutzung des Dienstes stimmst du diesen Bedingungen zu.",
+      "sections": [
+        { "t": "1. Der Dienst", "b": "Kairotique ist eine Plattform für geteilte Logs und Timer, auf der du Räume erstellst und Timer und Einträge gemeinsam mit anderen nutzt. Das Unternehmen kann die Funktionen des Dienstes im Laufe der Zeit verbessern oder ändern." },
+        { "t": "2. Konten", "b": "Du nutzt den Dienst, indem du dich mit einem Google- oder Apple-Konto anmeldest. Du bist für die Aktivitäten deines Kontos verantwortlich und musst das Unternehmen umgehend über jede unbefugte Nutzung informieren. Du kannst dein Konto jederzeit über Einstellungen → Konto löschen in der App löschen." },
+        { "t": "3. Abos und Zahlungen", "b": "Der Dienst bietet Premium-Funktionen per Abo an; Zahlungen werden über den App Store oder Google Play abgewickelt. Abos können sich gemäß den Richtlinien des jeweiligen Stores automatisch verlängern; Kündigungen und Erstattungen richten sich nach den Richtlinien und Verfahren des jeweiligen Stores. Das Unternehmen erhebt und speichert keine Zahlungskartendaten, und das Löschen des Kontos kündigt kein Abo." },
+        { "t": "4. Nutzerinhalte", "b": "Du behältst deine Rechte an den Inhalten, die du im Dienst erstellst, etwa Räume, Einträge und Notizen. Das Unternehmen darf diese Inhalte in dem Umfang nutzen, der für die Bereitstellung des Dienstes erforderlich ist, einschließlich Speicherung, Synchronisierung und Anzeige für Teilnehmer geteilter Räume; Inhalte in einem geteilten Raum sind für dessen andere Teilnehmer sichtbar." },
+        { "t": "5. Verbotenes Verhalten", "b": "Verboten sind Rechtsverstöße oder die Verletzung von Rechten Dritter, das Veröffentlichen beleidigender oder obszöner Inhalte, die Störung des Dienstes oder der unbefugte Zugriff auf Systeme, das Ausgeben als andere Person oder die Nutzung fremder Konten sowie Reverse Engineering, Scraping oder der Missbrauch des Dienstes mit automatisierten Mitteln. Bei Verstößen kann das Unternehmen Inhalte entfernen, die Nutzung einschränken oder Konten sperren." },
+        { "t": "6. Änderung oder Einstellung des Dienstes", "b": "Das Unternehmen kann den Dienst aus betrieblichen oder technischen Gründen ganz oder teilweise ändern oder einstellen; wesentliche Änderungen werden vorab angekündigt." },
+        { "t": "7. Haftungsbeschränkung", "b": "Der Dienst wird „wie besehen“ bereitgestellt. Soweit gesetzlich zulässig, haftet das Unternehmen nicht für indirekte oder Folgeschäden aus der Nutzung des Dienstes, ausgenommen Schäden durch Vorsatz oder grobe Fahrlässigkeit des Unternehmens." },
+        { "t": "8. Änderungen dieser Bedingungen", "b": "Das Unternehmen kann diese Bedingungen aktualisieren und veröffentlicht Änderungen auf dieser Seite. Aktualisierte Bedingungen gelten ab Veröffentlichung; die weitere Nutzung des Dienstes gilt als Zustimmung." },
+        { "t": "9. Anwendbares Recht und Gerichtsstand", "b": "Diese Bedingungen unterliegen dem Recht der Republik Korea; für Streitigkeiten sind die Gerichte der Republik Korea zuständig." },
+        { "t": "10. Kontakt", "b": "Bei Fragen zu diesen Bedingungen wende dich an ssamoksoft@gmail.com." }
+      ]
+    }
   }
 }

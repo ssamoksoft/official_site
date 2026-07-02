@@ -83,6 +83,43 @@
     "s_contact_body": "Responsable de la confidentialité : Dae-hoon Kang. Pour toute question ou demande relative à la confidentialité, contactez-nous à ssamoksoft@gmail.com.",
     "s_changes_title": "11. Modifications de la présente politique",
     "s_changes_body": "Si la présente politique change, nous publierons la mise à jour sur cette page, et la politique révisée prend effet dès sa publication.",
-    "back": "Retour à l'accueil"
+    "back": "Retour à l'accueil",
+    "link_terms": "Conditions d'utilisation",
+    "link_delete": "Supprimer votre compte",
+    "sum_extra_social": "Connexion avec Google ou Apple (collecte l'e-mail, le nom affiché et le pseudo).",
+    "sum_extra_fcm": "Utilise un jeton d'appareil FCM pour envoyer des notifications push.",
+    "sum_extra_revenuecat": "Les informations d'abonnement et d'achat sont traitées via RevenueCat.",
+    "sum_extra_inapp_delete": "Vous pouvez supprimer votre compte immédiatement via Réglages → Supprimer le compte dans l'appli ; vos entrées dans les salles partagées sont anonymisées."
+  },
+  "docs": {
+    "kairotique_delete": {
+      "title": "Supprimer votre compte Kairotique",
+      "updated": "Dernière mise à jour : 2 juillet 2026",
+      "applies": "Cette page explique comment supprimer votre compte et vos données pour l'appli « Kairotique » de SSAMOK SOFT. Vous pouvez demander la suppression sans réinstaller l'appli.",
+      "sections": [
+        { "t": "Option 1 — Supprimer dans l'appli (recommandé, immédiat)", "b": "Dans l'appli Kairotique, allez dans Réglages → Supprimer le compte. Votre compte et vos données sont supprimés immédiatement." },
+        { "t": "Option 2 — Demander par e-mail (sans l'appli)", "b": "Depuis l'adresse e-mail utilisée à l'inscription, envoyez un message à ssamoksoft@gmail.com avec l'objet « Demande de suppression de compte Kairotique ». Après vérification d'identité, la demande est traitée sous 7 jours." },
+        { "t": "Ce qui est supprimé", "b": "Vos informations de compte (e-mail et pseudo) ainsi que toutes les salles et entrées que vous avez créées sont supprimées. Les entrées laissées dans d'autres salles auxquelles vous participiez sont anonymisées, les informations d'auteur étant retirées." },
+        { "t": "À propos des abonnements", "b": "Les abonnements (premium) sont indépendants de la suppression du compte. Si vous avez un abonnement actif, résiliez-le directement dans Google Play ou l'App Store — supprimer le compte ne le résilie pas automatiquement." },
+        { "t": "Contact", "b": "Pour toute question sur la suppression, contactez ssamoksoft@gmail.com." }
+      ]
+    },
+    "kairotique_terms": {
+      "title": "Conditions d'utilisation de Kairotique",
+      "updated": "Date d'entrée en vigueur : 2 juillet 2026",
+      "applies": "Les présentes conditions régissent votre utilisation de l'appli mobile « Kairotique » (le « Service ») fournie par SSAMOK SOFT (la « Société »). En utilisant le Service, vous acceptez ces conditions.",
+      "sections": [
+        { "t": "1. Le Service", "b": "Kairotique est une plateforme de journaux et de minuteurs partagés où vous créez des salles et utilisez minuteurs et enregistrements avec d'autres. La Société peut améliorer ou modifier les fonctionnalités du Service au fil du temps." },
+        { "t": "2. Comptes", "b": "Vous utilisez le Service en vous connectant avec un compte Google ou Apple. Vous êtes responsable de l'activité de votre compte et devez informer rapidement la Société de toute utilisation non autorisée. Vous pouvez supprimer votre compte à tout moment via Réglages → Supprimer le compte dans l'appli." },
+        { "t": "3. Abonnements et paiements", "b": "Le Service propose des fonctionnalités premium par abonnement, et les paiements sont traités via l'App Store ou Google Play. Les abonnements peuvent se renouveler automatiquement selon la politique de chaque boutique, et les résiliations et remboursements suivent les politiques et procédures de chaque boutique. La Société ne collecte ni ne stocke d'informations de carte de paiement, et supprimer le compte ne résilie pas un abonnement." },
+        { "t": "4. Contenu utilisateur", "b": "Vous conservez vos droits sur le contenu que vous créez dans le Service, comme les salles, les enregistrements et les notes. La Société peut utiliser ce contenu dans la mesure nécessaire pour fournir le Service, y compris le stockage, la synchronisation et l'affichage aux participants des salles partagées ; le contenu publié dans une salle partagée est visible par les autres participants de cette salle." },
+        { "t": "5. Comportements interdits", "b": "Sont interdits : enfreindre la loi ou porter atteinte aux droits d'autrui, publier des contenus injurieux ou obscènes, perturber le Service ou accéder aux systèmes sans autorisation, usurper l'identité d'autrui ou utiliser le compte d'un autre utilisateur, ainsi que la rétro-ingénierie, l'extraction de données ou l'abus du Service par des moyens automatisés. En cas de violation, la Société peut retirer des contenus, restreindre l'utilisation ou suspendre des comptes." },
+        { "t": "6. Modification ou arrêt du Service", "b": "La Société peut modifier ou interrompre tout ou partie du Service pour des raisons opérationnelles ou techniques, avec un préavis en cas de changement important." },
+        { "t": "7. Limitation de responsabilité", "b": "Le Service est fourni « en l'état ». Dans la mesure permise par la loi, la Société n'est pas responsable des dommages indirects ou accessoires résultant de l'utilisation du Service, sauf en cas de faute intentionnelle ou de négligence grave de la Société." },
+        { "t": "8. Modification des présentes conditions", "b": "La Société peut mettre à jour ces conditions et publiera les changements sur cette page. Les conditions mises à jour prennent effet dès leur publication, et la poursuite de l'utilisation du Service vaut acceptation." },
+        { "t": "9. Droit applicable et juridiction", "b": "Les présentes conditions sont régies par le droit de la République de Corée, et les litiges relèvent de la compétence des tribunaux de la République de Corée." },
+        { "t": "10. Contact", "b": "Pour toute question sur ces conditions, contactez ssamoksoft@gmail.com." }
+      ]
+    }
   }
 }

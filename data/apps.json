@@ -3,6 +3,35 @@
   "languages": ["en", "ko", "ja", "zh", "zh_Hant", "es", "pt", "de", "fr", "hi", "id", "ru", "vi", "tr", "it", "ar"],
   "apps": [
     {
+      "id": "kairotique",
+      "category": "productivity",
+      "accent": "#8B5CF6",
+      "status": "coming_soon",
+      "icon": null,
+      "links": { "play": "", "appstore": "" },
+      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true, "extras": ["social", "fcm", "revenuecat", "inapp_delete"] },
+      "docs": ["terms", "delete"],
+      "name": { "en": "Kairotique" },
+      "tagline": {
+        "en": "Shared timers and logs — record together in real time.",
+        "ko": "함께 기록하는 공유 타이머·로그.",
+        "ja": "みんなで記録する共有タイマーとログ。",
+        "zh": "与他人共享的计时器和记录。",
+        "zh_Hant": "與他人共享的計時器和記錄。",
+        "es": "Temporizadores y registros compartidos para hacerlo juntos.",
+        "pt": "Timers e registros compartilhados para fazer juntos.",
+        "de": "Gemeinsame Timer und Logs – zusammen festhalten.",
+        "fr": "Minuteurs et journaux partagés, pour enregistrer ensemble.",
+        "hi": "साझा टाइमर और लॉग — साथ मिलकर रिकॉर्ड करें।",
+        "id": "Timer dan log bersama — mencatat bersama-sama.",
+        "ru": "Общие таймеры и журналы — записывайте вместе.",
+        "vi": "Bộ đếm giờ và nhật ký chia sẻ — cùng nhau ghi lại.",
+        "tr": "Paylaşılan zamanlayıcılar ve kayıtlar — birlikte kaydedin.",
+        "it": "Timer e registri condivisi, per registrare insieme.",
+        "ar": "مؤقّتات وسجلات مشتركة — سجّلوا معًا."
+      }
+    },
+    {
       "id": "stopwatcha",
       "category": "productivity",
       "accent": "#8A93A6",
