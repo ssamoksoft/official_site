@@ -32,6 +32,35 @@
       }
     },
     {
+      "id": "stelleaf",
+      "category": "lifestyle",
+      "accent": "#14B8A6",
+      "status": "coming_soon",
+      "icon": null,
+      "links": { "play": "", "appstore": "" },
+      "privacy": { "backend": "supabase", "account": true, "ads": false, "iap": true },
+      "docs": ["terms", "delete"],
+      "name": { "en": "Stelleaf", "ko": "별갈피" },
+      "tagline": {
+        "en": "Rate and archive the places, books, and things you try.",
+        "ko": "가본 곳, 읽은 책, 써본 것을 별점으로 기록하세요.",
+        "ja": "行った場所、読んだ本、使ったものを星で記録。",
+        "zh": "用星级记录你去过的地方、读过的书和用过的东西。",
+        "zh_Hant": "用星級記錄你去過的地方、讀過的書和用過的東西。",
+        "es": "Puntúa y archiva los lugares, libros y cosas que pruebas.",
+        "pt": "Avalie e arquive os lugares, livros e coisas que você experimenta.",
+        "de": "Bewerte und archiviere Orte, Bücher und Dinge, die du ausprobierst.",
+        "fr": "Notez et archivez les lieux, livres et objets que vous essayez.",
+        "hi": "जिन जगहों, किताबों और चीज़ों को आप आज़माते हैं, उन्हें स्टार से दर्ज करें।",
+        "id": "Beri bintang dan arsipkan tempat, buku, dan hal yang Anda coba.",
+        "ru": "Оценивайте и архивируйте места, книги и вещи, которые вы пробуете.",
+        "vi": "Đánh giá và lưu lại những nơi, cuốn sách và món bạn đã thử.",
+        "tr": "Denediğiniz yerleri, kitapları ve şeyleri yıldızlayıp arşivleyin.",
+        "it": "Valuta e archivia luoghi, libri e cose che provi.",
+        "ar": "قيّم وأرشِف الأماكن والكتب والأشياء التي تجرّبها."
+      }
+    },
+    {
       "id": "stopwatcha",
       "category": "productivity",
       "accent": "#8A93A6",

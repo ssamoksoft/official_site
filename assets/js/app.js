@@ -191,18 +191,27 @@ function renderLegalDoc() {
 
   // cross-links to the app's other documents (docId format: "<appId>_<doc>")
   const appId = docId.slice(0, docId.lastIndexOf("_"));
+  const cur = docId.slice(docId.lastIndexOf("_") + 1);
+  const declared = (document.body.getAttribute("data-doc-links") || "").split(",").map((s) => s.trim()).filter(Boolean);
   const app = (appsData.apps || []).find((a) => a.id === appId);
-  const parts = [`<a href="/privacy/${appId}/">${escapeHTML(t("privacy.title"))}</a>`];
-  if (app && Array.isArray(app.docs)) {
-    if (app.docs.includes("terms") && docId !== appId + "_terms") parts.push(`<a href="/privacy/${appId}/terms/">${escapeHTML(t("privacy.link_terms"))}</a>`);
-    if (app.docs.includes("delete") && docId !== appId + "_delete") parts.push(`<a href="/privacy/${appId}/delete-account/">${escapeHTML(t("privacy.link_delete"))}</a>`);
-  }
+  const available = declared.length ? declared : ["privacy"].concat(app && Array.isArray(app.docs) ? app.docs : []);
+  const linkDefs = {
+    privacy: [`/privacy/${appId}/`, t("privacy.title")],
+    terms: [`/privacy/${appId}/terms/`, t("privacy.link_terms")],
+    delete: [`/privacy/${appId}/delete-account/`, t("privacy.link_delete")],
+  };
+  const parts = available.filter((k) => k !== cur && linkDefs[k]).map((k) => `<a href="${linkDefs[k][0]}">${escapeHTML(linkDefs[k][1])}</a>`);
+
+  const sectionHTML = (s) =>
+    `<h2>${escapeHTML(s.t)}</h2>` +
+    (s.b ? `<p>${escapeHTML(s.b)}</p>` : "") +
+    (Array.isArray(s.l) ? `<ul>${s.l.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul>` : "");
 
   root.innerHTML =
     `<h1>${escapeHTML(d.title)}</h1>` +
     `<p class="updated">${escapeHTML(d.updated)}</p>` +
     `<p class="applies">${escapeHTML(d.applies)}</p>` +
-    (d.sections || []).map((s) => `<h2>${escapeHTML(s.t)}</h2><p>${escapeHTML(s.b)}</p>`).join("") +
+    (d.sections || []).map(sectionHTML).join("") +
     `<div class="doc-links">${parts.join("")}</div>` +
     `<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
 }
