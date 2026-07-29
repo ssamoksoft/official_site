@@ -224,26 +224,35 @@ function renderChips() {
 }
 
 /* ---------- language switcher ---------- */
+// On the home page every language has its own URL, so the menu is built from real links:
+// crawlers can follow them, and they can be opened in a new tab. Elsewhere there is nothing
+// to link to, so the menu stays a set of buttons that swap the text in place.
+// tools/build_lang_pages.py pre-renders this same markup so the links exist without JavaScript.
+function langMenuHTML() {
+  const isHome = document.body.hasAttribute("data-home");
+  return LANGUAGES.map((l) => {
+    const cur = l.code === currentLang ? ' aria-current="true"' : "";
+    const inner = `<span>${l.label}</span><span class="lang__code">${langSlug(l.code)}</span>`;
+    const item = isHome
+      ? `<a class="lang__item" href="${langHref(l.code)}" hreflang="${langBcp(l.code)}" data-lang="${l.code}"${cur}>${inner}</a>`
+      : `<button class="lang__item" data-lang="${l.code}"${cur}>${inner}</button>`;
+    return `<li role="option">${item}</li>`;
+  }).join("");
+}
 function buildLangMenu() {
   const menu = document.getElementById("lang-menu");
   if (!menu) return;
-  menu.innerHTML = LANGUAGES.map((l) => `
-    <li role="option">
-      <button class="lang__item" data-lang="${l.code}" ${l.code === currentLang ? 'aria-current="true"' : ""}>
-        <span>${l.label}</span>
-        <span class="lang__code">${l.code.replace("_", "-")}</span>
-      </button>
-    </li>`).join("");
-  menu.querySelectorAll("[data-lang]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const code = btn.getAttribute("data-lang");
+  menu.innerHTML = langMenuHTML();
+  menu.querySelectorAll("[data-lang]").forEach((el) => {
+    el.addEventListener("click", (e) => {
+      const code = el.getAttribute("data-lang");
       closeLangMenu();
-      // On the home page each language has its own indexable URL, so switch by navigating.
       if (document.body.hasAttribute("data-home")) {
-        try { localStorage.setItem(STORAGE_KEY, code); } catch (e) {}
-        if (code !== currentLang) window.location.href = langHref(code);
-        return;
+        if (code === currentLang) { e.preventDefault(); return; } // already here
+        try { localStorage.setItem(STORAGE_KEY, code); } catch (err) {}
+        return; // the <a> navigates on its own
       }
+      e.preventDefault();
       setLang(code);
     });
   });
@@ -266,6 +275,7 @@ function toggleLangMenu() {
 
 /* ---------- language selection ---------- */
 function langSlug(code) { return code.replace("_", "-"); }
+function langBcp(code) { return code === "zh" ? "zh-Hans" : langSlug(code); }
 function langHref(code) { return code === DEFAULT_LANG ? "/" : "/" + langSlug(code) + "/"; }
 // Pre-rendered language pages (/ko/, /ja/, …) declare their language; the URL wins over any saved choice.
 function pageLang() {

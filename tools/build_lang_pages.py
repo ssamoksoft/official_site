@@ -144,6 +144,35 @@ def render_apps(apps_data, lang, s):
     return "".join(out)
 
 
+def lang_menu_html(current):
+    """Mirror of langMenuHTML() in app.js for the home page (real links, not buttons).
+
+    Baking these into the HTML gives every language page an inbound link that crawlers can
+    follow without running JavaScript — otherwise the only way in is the sitemap, and Google
+    leaves such URLs sitting in "discovered, not indexed".
+    """
+    items = []
+    for code, slug, bcp, label in LANGS:
+        href = "/" if not slug else f"/{slug}/"
+        cur = ' aria-current="true"' if code == current else ""
+        inner = f'<span>{esc(label)}</span><span class="lang__code">{esc(code.replace("_", "-"))}</span>'
+        items.append(
+            f'<li role="option"><a class="lang__item" href="{href}" hreflang="{bcp}" '
+            f'data-lang="{code}"{cur}>{inner}</a></li>'
+        )
+    return "".join(items)
+
+
+def with_lang_menu(doc, current):
+    return re.sub(
+        r'(<ul class="lang__menu" id="lang-menu" role="listbox">).*?(</ul>)',
+        lambda m: m.group(1) + lang_menu_html(current) + m.group(2),
+        doc,
+        count=1,
+        flags=re.S,
+    )
+
+
 def build_page(template, lang, slug, bcp, label, s, apps_data):
     page_url = f"{SITE}/" if not slug else f"{SITE}/{slug}/"
     doc = template
@@ -188,6 +217,8 @@ def build_page(template, lang, slug, bcp, label, s, apps_data):
         1,
     )
 
+    doc = with_lang_menu(doc, lang)
+
     # app.js expands {year} at runtime; bake it in so the token never shows without JS.
     doc = doc.replace("{year}", str(datetime.date.today().year))
     return doc
@@ -213,6 +244,12 @@ def main():
 
     base = load(f"data/i18n/{DEFAULT_LANG}.json")
     apps_data = load("data/apps.json")
+
+    # The root page is English, but it still needs the crawlable links to every other language.
+    template = with_lang_menu(template, DEFAULT_LANG)
+    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
+        f.write(template)
+    print("  index.html            English (language links refreshed)")
 
     written = 0
     for lang, slug, bcp, label in LANGS:
