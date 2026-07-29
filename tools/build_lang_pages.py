@@ -89,8 +89,13 @@ def localize(field, lang, default_lang):
 
 
 def render_apps(apps_data, lang, s):
-    """Server-side equivalent of renderApps() in app.js."""
-    apps = apps_data.get("apps", [])
+    """Server-side equivalent of renderApps() in app.js.
+
+    Unreleased apps are left out on purpose: these pages exist to be crawled, and we
+    do not want unannounced app names showing up in search results before launch.
+    app.js still renders them for visitors once the page loads.
+    """
+    apps = [a for a in apps_data.get("apps", []) if a.get("status") != "coming_soon"]
     if not apps:
         return f'<div class="apps-empty">{esc(s.get("apps.empty"))}</div>'
 
