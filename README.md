@@ -81,6 +81,11 @@ Custom per-app documents (`privacy.*`, `docs.*` keys in the i18n files) are rend
 shells that carry `data-privacy-app` or `data-legal-doc`. **Their URLs are referenced from
 app store listings and inside the apps — never change or remove them.**
 
+They are intentionally left out of `sitemap.xml` and have no pre-rendered language variants:
+they must stay reachable, but they name apps that have not launched yet, so there is no reason
+to invite indexing. For the same reason the generator skips `status: "coming_soon"` apps when
+pre-rendering the product grid — `app.js` still shows those cards to visitors.
+
 ## Local preview
 
 Serve from the repo root (paths are root-absolute):

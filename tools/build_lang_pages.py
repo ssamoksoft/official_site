@@ -194,13 +194,13 @@ def build_page(template, lang, slug, bcp, label, s, apps_data):
 
 
 def build_sitemap():
+    """Home pages only.
+
+    The /privacy/** documents are deliberately left out. They must stay reachable —
+    app store listings and shipped apps link straight to them — but listing them here
+    would actively invite indexing of pages naming apps that have not launched yet.
+    """
     urls = [f"{SITE}/"] + [f"{SITE}/{slug}/" for _, slug, _, _ in LANGS if slug]
-    legal = []
-    for dirpath, dirnames, filenames in os.walk(os.path.join(ROOT, "privacy")):
-        if "index.html" in filenames:
-            rel = os.path.relpath(dirpath, ROOT).replace(os.sep, "/")
-            legal.append(f"{SITE}/{rel}/")
-    urls += sorted(legal)
     body = "\n".join(f"  <url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
 
