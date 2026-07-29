@@ -235,7 +235,17 @@ function buildLangMenu() {
       </button>
     </li>`).join("");
   menu.querySelectorAll("[data-lang]").forEach((btn) => {
-    btn.addEventListener("click", () => { setLang(btn.getAttribute("data-lang")); closeLangMenu(); });
+    btn.addEventListener("click", () => {
+      const code = btn.getAttribute("data-lang");
+      closeLangMenu();
+      // On the home page each language has its own indexable URL, so switch by navigating.
+      if (document.body.hasAttribute("data-home")) {
+        try { localStorage.setItem(STORAGE_KEY, code); } catch (e) {}
+        if (code !== currentLang) window.location.href = langHref(code);
+        return;
+      }
+      setLang(code);
+    });
   });
 }
 function updateLangButton() {
@@ -255,7 +265,16 @@ function toggleLangMenu() {
 }
 
 /* ---------- language selection ---------- */
+function langSlug(code) { return code.replace("_", "-"); }
+function langHref(code) { return code === DEFAULT_LANG ? "/" : "/" + langSlug(code) + "/"; }
+// Pre-rendered language pages (/ko/, /ja/, …) declare their language; the URL wins over any saved choice.
+function pageLang() {
+  const c = document.body.getAttribute("data-lang");
+  return c && LANGUAGES.some((l) => l.code === c) ? c : null;
+}
 function detectLang() {
+  const fixed = pageLang();
+  if (fixed) return fixed;
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved && LANGUAGES.some((l) => l.code === saved)) return saved;
   const navLangs = navigator.languages || [navigator.language || DEFAULT_LANG];
