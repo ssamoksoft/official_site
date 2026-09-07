@@ -158,7 +158,7 @@ function renderPrivacy() {
     summary = `<div class="privacy-summary"><h2>${escapeHTML(t("privacy.summary_title"))}</h2><ul>${items.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul></div>`;
   }
 
-  const sections = ["collect", "purpose", "iap", "thirdparty", "ads", "retention", "storage", "rights", "children", "contact", "changes"];
+  const sections = ["collect", "purpose", "iap", "thirdparty", "ads", "retention", "storage", "rights", "children", "contact", "representative", "changes"];
   const body = sections.map((s) => `<h2>${escapeHTML(t("privacy.s_" + s + "_title"))}</h2><p>${escapeHTML(t("privacy.s_" + s + "_body"))}</p>`).join("");
 
   let docLinks = "";
