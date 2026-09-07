@@ -158,8 +158,17 @@ function renderPrivacy() {
     summary = `<div class="privacy-summary"><h2>${escapeHTML(t("privacy.summary_title"))}</h2><ul>${items.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul></div>`;
   }
 
-  const sections = ["collect", "purpose", "iap", "thirdparty", "ads", "retention", "storage", "rights", "children", "contact", "representative", "changes"];
-  const body = sections.map((s) => `<h2>${escapeHTML(t("privacy.s_" + s + "_title"))}</h2><p>${escapeHTML(t("privacy.s_" + s + "_body"))}</p>`).join("");
+  const sections = ["collect", "purpose", "iap", "thirdparty", "ads", "retention", "storage", "rights", "children", "contact", "representative", "changes", "business"];
+  // 섹션은 본문 문단(s_*_body)이나 라벨 목록(s_*_items 배열) 어느 쪽이든 가질 수 있다.
+  // t()는 키가 없으면 키 문자열을 그대로 돌려주므로 그 경우 해당 표현을 생략한다(사업자 정보는 목록만 있음).
+  const body = sections.map((s) => {
+    const bodyKey = "privacy.s_" + s + "_body";
+    const bodyVal = t(bodyKey);
+    const para = bodyVal === bodyKey ? "" : `<p>${escapeHTML(bodyVal)}</p>`;
+    const items = t("privacy.s_" + s + "_items");
+    const list = Array.isArray(items) ? `<ul>${items.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul>` : "";
+    return `<h2>${escapeHTML(t("privacy.s_" + s + "_title"))}</h2>${para}${list}`;
+  }).join("");
 
   let docLinks = "";
   if (app && Array.isArray(app.docs) && app.docs.length) {

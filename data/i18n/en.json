@@ -72,7 +72,7 @@
     "s_ads_title": "5. Advertising",
     "s_ads_body": "Some apps may show ads through Google AdMob. An advertising identifier and similar data may be used to deliver and measure ads. You can reset your advertising identifier or limit ad personalization in your device settings.",
     "s_retention_title": "6. Data retention & deletion",
-    "s_retention_body": "We retain personal information while your account remains active. You may request deletion of your account and data at any time by emailing ssamoksoft@gmail.com, and we will delete it within 30 days of verifying your request, except where the law requires longer retention. For apps that store data only on your device, the data is removed when you delete the app.",
+    "s_retention_body": "We retain your personal information while your account remains active. Account deletion requested inside an app takes effect immediately; deletion requests received by email (ssamoksoft@gmail.com) are processed within 30 days after identity verification, and we reply with the result. Information that must be kept under applicable law is retained for the required period. In some apps, report records are kept for 90 days from receipt with the identities removed and are then deleted automatically; copies in disaster-recovery backups expire with the backup retention cycle. App data stored only on your device is deleted when you delete the app.",
     "s_storage_title": "7. Storage & security",
     "s_storage_body": "Depending on the app, data is stored in the Google Firebase or Supabase cloud, or only on your device. For cloud-stored data, passwords and sensitive information are encrypted, and we maintain quarterly self-audits, access controls, access logs kept for at least six months, and intrusion prevention and detection systems.",
     "s_rights_title": "8. Your rights",
@@ -85,6 +85,8 @@
     "s_representative_body": "For users in the EU/EEA and the United Kingdom, we have appointed representatives pursuant to Article 27 of the EU GDPR and Article 27 of the UK GDPR. EU representative: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. UK representative: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. You can contact our representatives and exercise your rights via https://app.prighter.com/portal/19708232400.",
     "s_changes_title": "12. Changes to this policy",
     "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
+    "s_business_title": "Business information",
+    "s_business_items": ["Trade name: SSAMOK SOFT (싸목소프트)", "Representative: Dae hoon Kang", "Business address: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Email: ssamoksoft@gmail.com", "Business registration number: 160-75-00256", "E-commerce business filing number: 2019-충북청주-1930", "Data protection officer: Dae hoon Kang (ssamoksoft@gmail.com)", "Hosting provider: Google LLC (Firebase) · GitHub, Inc.", "Business registration details can be verified at the Korean National Tax Service Hometax (www.hometax.go.kr) using the business registration number above."],
     "back": "Back to home",
     "link_terms": "Terms of Service",
     "link_delete": "Delete your account",
@@ -96,31 +98,33 @@
   "docs": {
     "kairotique_delete": {
       "title": "Delete your Kairotique account",
-      "updated": "Last updated: July 2, 2026",
+      "updated": "Last updated: September 7, 2026",
       "applies": "This page explains how to delete your account and data for the app “Kairotique” by SSAMOK SOFT. You can request deletion without reinstalling the app.",
       "sections": [
         { "t": "Option 1 — Delete in the app (recommended, immediate)", "b": "In the Kairotique app, go to Settings → Delete account. Your account and data are deleted immediately." },
-        { "t": "Option 2 — Request by email (no app required)", "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Kairotique account deletion request”. After identity verification, your request is processed within 7 days." },
-        { "t": "What gets deleted", "b": "Your account information (email and nickname) and all rooms and records you created are deleted. Records you left in other rooms you participated in are anonymized, with author information removed." },
+        { "t": "Option 2 — Request by email (no app required)", "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Kairotique account deletion request”. After identity verification, we will process your request within 30 days and reply with the result." },
+        { "t": "What gets deleted", "b": "Your account information (email, nickname, app settings) and every room you created, including all of its records, are deleted immediately. Records you left in rooms created by others are kept as part of that room's history: the content remains, but the author label changes to “(Deleted user)” and your stored display name is removed. If you want a specific record hidden from other participants, contact ssamoksoft@gmail.com." },
+        { "t": "What is retained, and for how long", "b": "Report records are kept for 90 days from receipt with the reporter's and subject's identities removed, then deleted automatically. Copies in disaster-recovery backups expire with the backup retention cycle. We also ask RevenueCat, the service we use to manage subscription status, to delete your customer record when your account is deleted." },
         { "t": "About subscriptions", "b": "Subscriptions (premium) are separate from account deletion. If you have an active subscription, cancel it directly in Google Play or the App Store — deleting your account does not cancel it automatically." },
         { "t": "Contact", "b": "For questions about deletion, contact ssamoksoft@gmail.com." }
       ]
     },
     "kairotique_terms": {
       "title": "Kairotique Terms of Service",
-      "updated": "Effective date: July 2, 2026",
+      "updated": "Effective date: September 7, 2026",
       "applies": "These terms govern your use of the mobile app “Kairotique” (the “Service”) provided by SSAMOK SOFT (the “Company”). By using the Service, you agree to these terms.",
       "sections": [
         { "t": "1. The Service", "b": "Kairotique is a shared log and timer platform where you create rooms and use timers and records together. The Company may improve or change the Service's features over time." },
         { "t": "2. Accounts", "b": "You use the Service by signing in with a Google or Apple account. You are responsible for activity on your account and must notify the Company promptly of any unauthorized use. You can delete your account at any time via Settings → Delete account in the app." },
         { "t": "3. Subscriptions & payments", "b": "The Service offers premium features via subscription, and payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Company does not collect or store payment card information, and deleting your account does not cancel a subscription." },
         { "t": "4. User content", "b": "You retain your rights to the content you create in the Service, such as rooms, records, and notes. The Company may use that content to the extent needed to provide the Service, including storage, syncing, and display to participants of shared rooms; content posted in a shared room is visible to that room's other participants." },
-        { "t": "5. Prohibited conduct", "b": "Violating the law or infringing others' rights, posting abusive or obscene content, disrupting the Service or accessing systems without authorization, impersonating others or using another user's account, and reverse engineering, scraping, or abusing the Service with automated means are prohibited. The Company may remove content, restrict use, or suspend accounts for violations." },
+        { "t": "5. Prohibited conduct and enforcement", "b": "You may not include any of the following in content visible to other users (room titles, preset names, log memos, nicknames): harassment, threats, or hate speech; obscene or violent material; spam or flooding; other people's personal information; or anything that violates applicable law. Disrupting the service, unauthorized access, using another person's account, and reverse engineering, scraping, or automated abuse are also prohibited. When we become aware of a violation through a report or our own review, we remove or hide the content within 24 hours, and for repeated or serious violations we may restrict participation in the room or suspend the account. If your use is restricted, renewal and refunds of paid subscriptions follow the policies of the app stores (App Store, Google Play). You can report inappropriate content with the in-app report feature, hide a specific user's content with the in-app block feature, or send reports to ssamoksoft@gmail.com." },
         { "t": "6. Changes to or discontinuation of the Service", "b": "The Company may change or discontinue all or part of the Service for operational or technical reasons, with prior notice for material changes." },
         { "t": "7. Limitation of liability", "b": "The Service is provided “as is.” To the extent permitted by law, the Company is not liable for indirect or incidental damages arising from use of the Service, except for damages caused by the Company's willful misconduct or gross negligence." },
         { "t": "8. Changes to these terms", "b": "The Company may update these terms and will post changes on this page. Updated terms take effect when posted, and continued use of the Service constitutes acceptance." },
         { "t": "9. Governing law & jurisdiction", "b": "These terms are governed by the laws of the Republic of Korea, and disputes are subject to the jurisdiction of the courts of the Republic of Korea." },
-        { "t": "10. Contact", "b": "For questions about these terms, contact ssamoksoft@gmail.com." }
+        { "t": "10. Contact", "b": "For questions about these terms, contact ssamoksoft@gmail.com." },
+        { "t": "Business information", "l": ["Trade name: SSAMOK SOFT (싸목소프트)", "Representative: Dae hoon Kang", "Business address: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Email: ssamoksoft@gmail.com", "Business registration number: 160-75-00256", "E-commerce business filing number: 2019-충북청주-1930", "Data protection officer: Dae hoon Kang (ssamoksoft@gmail.com)", "Hosting provider: Google LLC (Firebase) · GitHub, Inc.", "Business registration details can be verified at the Korean National Tax Service Hometax (www.hometax.go.kr) using the business registration number above."] }
       ]
     },
     "stelleaf_privacy": {

@@ -217,6 +217,7 @@ a { color: inherit; text-decoration: none; }
 .footer__meta { color: var(--text-mute); font-size: 13px; }
 .footer__alt::before { content: "·"; margin: 0 7px; }
 .footer__meta a:hover { color: var(--text-dim); }
+.footer__legal { color: var(--text-mute); font-size: 12px; line-height: 1.7; margin-top: 14px; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {

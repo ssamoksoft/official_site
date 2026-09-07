@@ -72,7 +72,7 @@
     "s_ads_title": "5. Quảng cáo",
     "s_ads_body": "Một số ứng dụng có thể hiển thị quảng cáo qua Google AdMob. Mã nhận dạng quảng cáo và dữ liệu tương tự có thể được sử dụng để phân phối và đo lường quảng cáo. Bạn có thể đặt lại mã nhận dạng quảng cáo hoặc giới hạn cá nhân hóa quảng cáo trong cài đặt thiết bị.",
     "s_retention_title": "6. Lưu giữ và xóa dữ liệu",
-    "s_retention_body": "Chúng tôi lưu giữ thông tin cá nhân trong thời gian tài khoản của bạn còn hoạt động. Bạn có thể yêu cầu xóa tài khoản và dữ liệu của mình bất cứ lúc nào bằng cách gửi email tới ssamoksoft@gmail.com, và chúng tôi sẽ xóa trong vòng 30 ngày sau khi xác minh yêu cầu, trừ khi pháp luật yêu cầu lưu giữ lâu hơn. Đối với các ứng dụng chỉ lưu trữ dữ liệu trên thiết bị, dữ liệu sẽ bị xóa khi bạn gỡ cài đặt ứng dụng.",
+    "s_retention_body": "Chúng tôi lưu giữ thông tin cá nhân trong thời gian tài khoản của bạn còn hoạt động. Yêu cầu xóa tài khoản được thực hiện trong ứng dụng có hiệu lực ngay lập tức; yêu cầu xóa gửi qua email (ssamoksoft@gmail.com) được xử lý trong vòng 30 ngày sau khi xác minh danh tính, và chúng tôi sẽ phản hồi kết quả. Thông tin bắt buộc phải lưu giữ theo pháp luật hiện hành sẽ được lưu trong thời hạn luật định. Ở một số ứng dụng, hồ sơ báo cáo được lưu 90 ngày kể từ khi tiếp nhận với thông tin danh tính đã được gỡ bỏ, sau đó tự động bị xóa; các bản sao trong bản sao lưu khôi phục sau thảm họa sẽ hết hạn theo chu kỳ lưu giữ bản sao lưu. Dữ liệu ứng dụng chỉ lưu trên thiết bị của bạn sẽ bị xóa khi bạn gỡ cài đặt ứng dụng.",
     "s_storage_title": "7. Lưu trữ và bảo mật",
     "s_storage_body": "Tùy theo ứng dụng, dữ liệu được lưu trữ trên đám mây Google Firebase hoặc Supabase, hoặc chỉ trên thiết bị của bạn. Đối với dữ liệu lưu trên đám mây, mật khẩu và thông tin nhạy cảm được mã hóa, và chúng tôi duy trì kiểm tra nội bộ hằng quý, kiểm soát truy cập, lưu nhật ký truy cập ít nhất sáu tháng, cùng các hệ thống ngăn chặn và phát hiện xâm nhập.",
     "s_rights_title": "8. Quyền của bạn",
@@ -85,6 +85,8 @@
     "s_representative_body": "Đối với người dùng tại EU/EEA và Vương quốc Anh, chúng tôi đã chỉ định đại diện theo Điều 27 GDPR của EU và Điều 27 GDPR của Vương quốc Anh. Đại diện tại EU: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Đại diện tại Vương quốc Anh: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Bạn có thể liên hệ với đại diện của chúng tôi và thực hiện các quyền của mình qua https://app.prighter.com/portal/19708232400.",
     "s_changes_title": "12. Thay đổi chính sách này",
     "s_changes_body": "Nếu chính sách này thay đổi, chúng tôi sẽ đăng bản cập nhật trên trang này, và chính sách sửa đổi có hiệu lực kể từ khi được đăng.",
+    "s_business_title": "Thông tin doanh nghiệp",
+    "s_business_items": ["Tên cơ sở: SSAMOK SOFT (싸목소프트)", "Người đại diện: Dae hoon Kang", "Địa chỉ kinh doanh: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Email: ssamoksoft@gmail.com", "Số đăng ký kinh doanh: 160-75-00256", "Số đăng ký kinh doanh thương mại điện tử: 2019-충북청주-1930", "Người phụ trách quyền riêng tư: Dae hoon Kang (ssamoksoft@gmail.com)", "Nhà cung cấp hosting: Google LLC (Firebase) · GitHub, Inc.", "Có thể tra cứu thông tin đăng ký kinh doanh tại Hometax của Tổng cục Thuế Hàn Quốc (www.hometax.go.kr) bằng số đăng ký kinh doanh nêu trên."],
     "back": "Về trang chủ",
     "link_terms": "Điều khoản dịch vụ",
     "link_delete": "Xóa tài khoản của bạn",
@@ -96,31 +98,33 @@
   "docs": {
     "kairotique_delete": {
       "title": "Xóa tài khoản Kairotique của bạn",
-      "updated": "Cập nhật lần cuối: 2 tháng 7 năm 2026",
+      "updated": "Cập nhật lần cuối: 7 tháng 9 năm 2026",
       "applies": "Trang này giải thích cách xóa tài khoản và dữ liệu của ứng dụng “Kairotique” do SSAMOK SOFT cung cấp. Bạn có thể yêu cầu xóa mà không cần cài đặt lại ứng dụng.",
       "sections": [
         { "t": "Cách 1 — Xóa trong ứng dụng (khuyến nghị, ngay lập tức)", "b": "Trong ứng dụng Kairotique, vào Cài đặt → Xóa tài khoản. Tài khoản và dữ liệu của bạn được xóa ngay lập tức." },
-        { "t": "Cách 2 — Yêu cầu qua email (không cần ứng dụng)", "b": "Từ địa chỉ email bạn dùng để đăng ký, gửi thư đến ssamoksoft@gmail.com với tiêu đề “Yêu cầu xóa tài khoản Kairotique”. Sau khi xác minh danh tính, yêu cầu được xử lý trong vòng 7 ngày." },
-        { "t": "Dữ liệu bị xóa", "b": "Thông tin tài khoản của bạn (email và biệt danh) cùng tất cả các phòng và bản ghi bạn đã tạo sẽ bị xóa. Các bản ghi bạn để lại trong những phòng khác mà bạn tham gia sẽ được ẩn danh, thông tin tác giả bị gỡ bỏ." },
+        { "t": "Cách 2 — Yêu cầu qua email (không cần ứng dụng)", "b": "Từ địa chỉ email bạn dùng để đăng ký, gửi thư đến ssamoksoft@gmail.com với tiêu đề “Yêu cầu xóa tài khoản Kairotique”. Sau khi xác minh danh tính, chúng tôi sẽ xử lý trong vòng 30 ngày và phản hồi kết quả." },
+        { "t": "Dữ liệu bị xóa", "b": "Thông tin tài khoản của bạn (email, biệt danh, cài đặt ứng dụng) cùng mọi phòng do bạn tạo, bao gồm toàn bộ bản ghi trong đó, sẽ bị xóa ngay lập tức. Các bản ghi bạn để lại trong phòng do người khác tạo được giữ lại như một phần lịch sử của phòng đó: nội dung vẫn còn, nhưng nhãn tác giả sẽ đổi thành “(Người dùng đã xóa)” và tên hiển thị đã lưu của bạn sẽ bị gỡ bỏ. Nếu bạn muốn ẩn một bản ghi cụ thể khỏi những người tham gia khác, hãy liên hệ ssamoksoft@gmail.com." },
+        { "t": "Dữ liệu được lưu giữ và thời hạn", "b": "Hồ sơ báo cáo được lưu 90 ngày kể từ khi tiếp nhận, với thông tin danh tính của người báo cáo và người bị báo cáo đã được gỡ bỏ, sau đó tự động bị xóa. Các bản sao trong bản sao lưu khôi phục sau thảm họa sẽ hết hạn theo chu kỳ lưu giữ bản sao lưu. Chúng tôi cũng yêu cầu RevenueCat — dịch vụ chúng tôi dùng để quản lý trạng thái gói đăng ký — xóa hồ sơ khách hàng của bạn khi tài khoản của bạn bị xóa." },
         { "t": "Về gói đăng ký", "b": "Gói đăng ký (premium) tách biệt với việc xóa tài khoản. Nếu bạn có gói đăng ký đang hoạt động, hãy hủy trực tiếp trong Google Play hoặc App Store — xóa tài khoản không tự động hủy gói đăng ký." },
         { "t": "Liên hệ", "b": "Nếu có câu hỏi về việc xóa, hãy liên hệ ssamoksoft@gmail.com." }
       ]
     },
     "kairotique_terms": {
       "title": "Điều khoản dịch vụ Kairotique",
-      "updated": "Ngày có hiệu lực: 2 tháng 7 năm 2026",
+      "updated": "Ngày có hiệu lực: 7 tháng 9 năm 2026",
       "applies": "Các điều khoản này điều chỉnh việc bạn sử dụng ứng dụng di động “Kairotique” (“Dịch vụ”) do SSAMOK SOFT (“Công ty”) cung cấp. Bằng việc sử dụng Dịch vụ, bạn đồng ý với các điều khoản này.",
       "sections": [
         { "t": "1. Dịch vụ", "b": "Kairotique là nền tảng nhật ký và bộ đếm giờ chia sẻ, nơi bạn tạo phòng và cùng người khác sử dụng bộ đếm giờ và bản ghi. Công ty có thể cải tiến hoặc thay đổi các tính năng của Dịch vụ theo thời gian." },
         { "t": "2. Tài khoản", "b": "Bạn sử dụng Dịch vụ bằng cách đăng nhập với tài khoản Google hoặc Apple. Bạn chịu trách nhiệm về hoạt động trên tài khoản của mình và phải thông báo ngay cho Công ty về mọi hành vi sử dụng trái phép. Bạn có thể xóa tài khoản bất cứ lúc nào qua Cài đặt → Xóa tài khoản trong ứng dụng." },
         { "t": "3. Đăng ký và thanh toán", "b": "Dịch vụ cung cấp các tính năng cao cấp qua hình thức đăng ký, và thanh toán được xử lý qua App Store hoặc Google Play. Gói đăng ký có thể tự động gia hạn theo chính sách của từng cửa hàng; việc hủy và hoàn tiền tuân theo chính sách và quy trình của từng cửa hàng. Công ty không thu thập hoặc lưu trữ thông tin thẻ thanh toán, và xóa tài khoản không hủy gói đăng ký." },
         { "t": "4. Nội dung người dùng", "b": "Bạn giữ quyền đối với nội dung bạn tạo trong Dịch vụ, như phòng, bản ghi và ghi chú. Công ty có thể sử dụng nội dung đó trong phạm vi cần thiết để cung cấp Dịch vụ, bao gồm lưu trữ, đồng bộ và hiển thị cho những người tham gia phòng chia sẻ; nội dung đăng trong phòng chia sẻ sẽ hiển thị với những người tham gia khác của phòng đó." },
-        { "t": "5. Hành vi bị cấm", "b": "Nghiêm cấm vi phạm pháp luật hoặc xâm phạm quyền của người khác, đăng nội dung lăng mạ hoặc khiêu dâm, gây rối Dịch vụ hoặc truy cập hệ thống trái phép, mạo danh người khác hoặc sử dụng tài khoản của người dùng khác, cũng như dịch ngược, thu thập dữ liệu tự động hoặc lạm dụng Dịch vụ bằng phương tiện tự động. Khi có vi phạm, Công ty có thể gỡ nội dung, hạn chế sử dụng hoặc đình chỉ tài khoản." },
+        { "t": "5. Hành vi bị cấm và biện pháp xử lý", "b": "Bạn không được đưa bất kỳ nội dung nào sau đây vào phần nội dung mà người dùng khác nhìn thấy (tên phòng, tên cài đặt sẵn, ghi chú của bản ghi, biệt danh): quấy rối, đe dọa hoặc phát ngôn thù ghét; nội dung khiêu dâm hoặc bạo lực; spam hoặc đăng dồn dập; thông tin cá nhân của người khác; hoặc bất kỳ nội dung nào vi phạm pháp luật hiện hành. Gây rối Dịch vụ, truy cập hệ thống trái phép, sử dụng tài khoản của người khác, cũng như dịch ngược, thu thập dữ liệu tự động hoặc lạm dụng Dịch vụ bằng phương tiện tự động cũng đều bị cấm. Khi biết về vi phạm qua báo cáo hoặc qua việc tự rà soát, Công ty sẽ gỡ bỏ hoặc ẩn nội dung trong vòng 24 giờ; với vi phạm lặp lại hoặc nghiêm trọng, Công ty có thể hạn chế việc tham gia phòng hoặc đình chỉ tài khoản. Nếu việc sử dụng của bạn bị hạn chế, việc gia hạn và hoàn tiền của gói đăng ký trả phí tuân theo chính sách của các cửa hàng ứng dụng (App Store, Google Play). Bạn có thể báo cáo nội dung không phù hợp bằng tính năng báo cáo trong ứng dụng, ẩn nội dung của một người dùng cụ thể bằng tính năng chặn trong ứng dụng, hoặc gửi báo cáo tới ssamoksoft@gmail.com." },
         { "t": "6. Thay đổi hoặc ngừng Dịch vụ", "b": "Công ty có thể thay đổi hoặc ngừng toàn bộ hay một phần Dịch vụ vì lý do vận hành hoặc kỹ thuật, và sẽ thông báo trước đối với các thay đổi quan trọng." },
         { "t": "7. Giới hạn trách nhiệm", "b": "Dịch vụ được cung cấp “nguyên trạng”. Trong phạm vi pháp luật cho phép, Công ty không chịu trách nhiệm về các thiệt hại gián tiếp hoặc phát sinh từ việc sử dụng Dịch vụ, trừ thiệt hại do lỗi cố ý hoặc sơ suất nghiêm trọng của Công ty." },
         { "t": "8. Thay đổi điều khoản", "b": "Công ty có thể cập nhật các điều khoản này và sẽ đăng thay đổi trên trang này. Điều khoản cập nhật có hiệu lực khi được đăng, và việc tiếp tục sử dụng Dịch vụ được xem là chấp nhận." },
         { "t": "9. Luật áp dụng và thẩm quyền", "b": "Các điều khoản này được điều chỉnh bởi pháp luật Đại Hàn Dân Quốc, và tranh chấp thuộc thẩm quyền của tòa án Đại Hàn Dân Quốc." },
-        { "t": "10. Liên hệ", "b": "Nếu có câu hỏi về các điều khoản này, hãy liên hệ ssamoksoft@gmail.com." }
+        { "t": "10. Liên hệ", "b": "Nếu có câu hỏi về các điều khoản này, hãy liên hệ ssamoksoft@gmail.com." },
+        { "t": "Thông tin doanh nghiệp", "l": ["Tên cơ sở: SSAMOK SOFT (싸목소프트)", "Người đại diện: Dae hoon Kang", "Địa chỉ kinh doanh: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Email: ssamoksoft@gmail.com", "Số đăng ký kinh doanh: 160-75-00256", "Số đăng ký kinh doanh thương mại điện tử: 2019-충북청주-1930", "Người phụ trách quyền riêng tư: Dae hoon Kang (ssamoksoft@gmail.com)", "Nhà cung cấp hosting: Google LLC (Firebase) · GitHub, Inc.", "Có thể tra cứu thông tin đăng ký kinh doanh tại Hometax của Tổng cục Thuế Hàn Quốc (www.hometax.go.kr) bằng số đăng ký kinh doanh nêu trên."] }
       ]
     },
     "stelleaf_privacy": {
