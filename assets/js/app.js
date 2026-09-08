@@ -134,6 +134,17 @@ function renderLinks(links) {
 function escapeHTML(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
+// [대리인 고지 도달성] 방침 본문의 URL 을 실제 앵커로 만든다. 평문으로 두면 정보주체가 46자짜리
+// 주소를 손으로 긁어 복사해야 하는데, 9개 로케일에서 URL 바로 뒤에 문장 끝 마침표가 붙어 있어
+// 점까지 딸려가기 쉽다. Prighter 는 인식 못 하는 ID 에도 200 을 돌려주므로 그렇게 어긋난 주소는
+// 오류로 드러나지 않고 "대리인이 아니다" 라는 안내 페이지를 띄운다 — 후행 구두점을 href 에서
+// 잘라내는 것이 이 방어선의 핵심이다. 이스케이프를 먼저 하므로 주입 경로는 열리지 않는다.
+function escapeAndLink(s) {
+  return escapeHTML(s).replace(/https?:\/\/[^\s<]+/g, (m) => {
+    const href = m.replace(/[.,;:!?)\]}]+$/, "");
+    return `<a href="${href}" target="_blank" rel="noopener">${href}</a>` + m.slice(href.length);
+  });
+}
 
 /* ---------- privacy page ---------- */
 function renderPrivacy() {
@@ -164,9 +175,9 @@ function renderPrivacy() {
   const body = sections.map((s) => {
     const bodyKey = "privacy.s_" + s + "_body";
     const bodyVal = t(bodyKey);
-    const para = bodyVal === bodyKey ? "" : `<p>${escapeHTML(bodyVal)}</p>`;
+    const para = bodyVal === bodyKey ? "" : `<p>${escapeAndLink(bodyVal)}</p>`;
     const items = t("privacy.s_" + s + "_items");
-    const list = Array.isArray(items) ? `<ul>${items.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul>` : "";
+    const list = Array.isArray(items) ? `<ul>${items.map((x) => `<li>${escapeAndLink(x)}</li>`).join("")}</ul>` : "";
     return `<h2>${escapeHTML(t("privacy.s_" + s + "_title"))}</h2>${para}${list}`;
   }).join("");
 
@@ -213,8 +224,8 @@ function renderLegalDoc() {
 
   const sectionHTML = (s) =>
     `<h2>${escapeHTML(s.t)}</h2>` +
-    (s.b ? `<p>${escapeHTML(s.b)}</p>` : "") +
-    (Array.isArray(s.l) ? `<ul>${s.l.map((x) => `<li>${escapeHTML(x)}</li>`).join("")}</ul>` : "");
+    (s.b ? `<p>${escapeAndLink(s.b)}</p>` : "") +
+    (Array.isArray(s.l) ? `<ul>${s.l.map((x) => `<li>${escapeAndLink(x)}</li>`).join("")}</ul>` : "");
 
   root.innerHTML =
     `<h1>${escapeHTML(d.title)}</h1>` +
