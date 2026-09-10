@@ -51,6 +51,11 @@ async function loadJSON(url) {
   return res.json();
 }
 function isRTL() { return currentLang === "ar"; } // Arabic is right-to-left
+function supportLinkLabel(appId) {
+  const key = `docs.${appId}_support.title`;
+  const title = t(key);
+  return typeof title === "string" && title !== key ? title : t("footer.links.contact");
+}
 
 /* ---------- i18n apply ---------- */
 function applyI18n() {
@@ -107,8 +112,8 @@ function renderApps() {
     const icon = app.icon
       ? `<span class="app-icon"><img src="${app.icon}" alt="" /></span>`
       : `<span class="app-icon">${(name || "?").trim().charAt(0).toUpperCase()}</span>`;
-    const links = renderLinks(app.links);
-    const href = smartLink(app.links);
+    const links = soon ? "" : renderLinks(app.links);
+    const href = soon ? null : smartLink(app.links);
     const cls = `app-card${soon ? " is-soon" : ""}${href ? " is-linked" : ""}`;
     const linkAttrs = href ? ` data-href="${escapeHTML(href)}" role="link" tabindex="0" aria-label="${escapeHTML(name)}"` : "";
     return `
@@ -142,7 +147,13 @@ function escapeHTML(s) {
 function escapeAndLink(s) {
   return escapeHTML(s).replace(/https?:\/\/[^\s<]+/g, (m) => {
     const href = m.replace(/[.,;:!?)\]}]+$/, "");
-    return `<a href="${href}" target="_blank" rel="noopener">${href}</a>` + m.slice(href.length);
+    let fixedLang = "";
+    try {
+      // href is already HTML-escaped; recover query separators for URL parsing only.
+      const lang = new URL(href.replace(/&amp;/g, "&")).searchParams.get("lang");
+      if (supportedLang(lang)) fixedLang = ' data-fixed-lang="true"';
+    } catch (e) {}
+    return `<a href="${href}"${fixedLang} target="_blank" rel="noopener">${href}</a>` + m.slice(href.length);
   });
 }
 
@@ -186,6 +197,7 @@ function renderPrivacy() {
     const parts = [];
     if (app.docs.includes("terms")) parts.push(`<a href="/privacy/${app.id}/terms/">${escapeHTML(t("privacy.link_terms"))}</a>`);
     if (app.docs.includes("delete")) parts.push(`<a href="/privacy/${app.id}/delete-account/">${escapeHTML(t("privacy.link_delete"))}</a>`);
+    if (app.docs.includes("support")) parts.push(`<a href="/privacy/${app.id}/support/">${escapeHTML(supportLinkLabel(app.id))}</a>`);
     docLinks = `<div class="doc-links">${parts.join("")}</div>`;
   }
 
@@ -212,6 +224,15 @@ function renderLegalDoc() {
   // cross-links to the app's other documents (docId format: "<appId>_<doc>")
   const appId = docId.slice(0, docId.lastIndexOf("_"));
   const cur = docId.slice(docId.lastIndexOf("_") + 1);
+  let navigationAttrs = "";
+  if (appId === "snuumo") {
+    const documentLang = strings === fallback || getPath(strings, "docs." + docId) === undefined
+      ? DEFAULT_LANG : currentLang;
+    root.setAttribute("lang", langBcp(documentLang));
+    root.setAttribute("dir", documentLang === "ar" ? "rtl" : "ltr");
+    // Navigation still follows the selected UI language, even when the document is English.
+    navigationAttrs = ` lang="${langBcp(currentLang)}" dir="${isRTL() ? "rtl" : "ltr"}"`;
+  }
   const declared = (document.body.getAttribute("data-doc-links") || "").split(",").map((s) => s.trim()).filter(Boolean);
   const app = (appsData.apps || []).find((a) => a.id === appId);
   const available = declared.length ? declared : ["privacy"].concat(app && Array.isArray(app.docs) ? app.docs : []);
@@ -219,6 +240,8 @@ function renderLegalDoc() {
     privacy: [`/privacy/${appId}/`, t("privacy.title")],
     terms: [`/privacy/${appId}/terms/`, t("privacy.link_terms")],
     delete: [`/privacy/${appId}/delete-account/`, t("privacy.link_delete")],
+    support: [`/privacy/${appId}/support/`, supportLinkLabel(appId)],
+    impressum: [`/privacy/${appId}/impressum/`, "Impressum"],
   };
   const parts = available.filter((k) => k !== cur && linkDefs[k]).map((k) => `<a href="${linkDefs[k][0]}">${escapeHTML(linkDefs[k][1])}</a>`);
 
@@ -230,10 +253,10 @@ function renderLegalDoc() {
   root.innerHTML =
     `<h1>${escapeHTML(d.title)}</h1>` +
     `<p class="updated">${escapeHTML(d.updated)}</p>` +
-    `<p class="applies">${escapeHTML(d.applies)}</p>` +
+    `<p class="applies">${escapeAndLink(d.applies)}</p>` +
     (d.sections || []).map(sectionHTML).join("") +
-    `<div class="doc-links">${parts.join("")}</div>` +
-    `<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
+    `<div class="doc-links"${navigationAttrs}>${parts.join("")}</div>` +
+    `<a class="back" href="/"${navigationAttrs}><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
 }
 
 /* ---------- language chips ---------- */
@@ -297,12 +320,55 @@ function toggleLangMenu() {
 function langSlug(code) { return code.replace("_", "-"); }
 function langBcp(code) { return code === "zh" ? "zh-Hans" : langSlug(code); }
 function langHref(code) { return code === DEFAULT_LANG ? "/" : "/" + langSlug(code) + "/"; }
+function supportedLang(raw) {
+  if (!raw) return null;
+  const normalized = raw.replace("-", "_").toLowerCase();
+  const match = LANGUAGES.find((l) => l.code.toLowerCase() === normalized);
+  return match ? match.code : null;
+}
+function urlLang() {
+  return supportedLang(new URLSearchParams(location.search).get("lang"));
+}
+// Keep one-off document language choices across internal links without changing
+// the visitor's saved preference. Store/external URLs and in-page anchors stay intact.
+function languageLink(href, code = currentLang) {
+  if (!href || href.startsWith("#") || !LANGUAGES.some((l) => l.code === code)) return href;
+  let url;
+  try { url = new URL(href, location.href); } catch (e) { return href; }
+  if (url.origin !== location.origin) return href;
+  const home = LANGUAGES.some((l) => url.pathname === langHref(l.code));
+  const legal = url.pathname === "/privacy" || url.pathname.startsWith("/privacy/");
+  if (!home && !legal) return href;
+  if (home) url.pathname = langHref(code);
+  url.searchParams.set("lang", code);
+  return url.pathname + url.search + url.hash;
+}
+function preserveLinkLanguage() {
+  const docId = document.body.getAttribute("data-legal-doc") || "";
+  if (docId.startsWith("snuumo_") || document.body.getAttribute("data-privacy-app") === "snuumo") {
+    document.querySelectorAll('a[data-i18n="footer.links.privacy"]').forEach((a) => {
+      a.setAttribute("href", "/privacy/snuumo/");
+    });
+    document.querySelectorAll('a[data-i18n="nav.contact"], a[data-i18n="footer.links.contact"]').forEach((a) => {
+      a.setAttribute("href", "mailto:support@ssamoksoft.com");
+    });
+  }
+  document.querySelectorAll("a[href]").forEach((a) => {
+    // Language-menu choices and explicitly linked translations keep their destination language.
+    if (a.hasAttribute("data-lang") || a.hasAttribute("data-fixed-lang")) return;
+    const href = a.getAttribute("href");
+    const localized = languageLink(href);
+    if (localized !== href) a.setAttribute("href", localized);
+  });
+}
 // Pre-rendered language pages (/ko/, /ja/, …) declare their language; the URL wins over any saved choice.
 function pageLang() {
   const c = document.body.getAttribute("data-lang");
   return c && LANGUAGES.some((l) => l.code === c) ? c : null;
 }
 function detectLang() {
+  const explicit = urlLang();
+  if (explicit) return explicit;
   const fixed = pageLang();
   if (fixed) return fixed;
   const saved = localStorage.getItem(STORAGE_KEY);
@@ -317,7 +383,7 @@ function detectLang() {
   }
   return DEFAULT_LANG;
 }
-async function setLang(code) {
+async function setLang(code, { persist = true } = {}) {
   currentLang = LANGUAGES.some((l) => l.code === code) ? code : DEFAULT_LANG;
   try {
     strings = await loadJSON(`/data/i18n/${currentLang}.json`);
@@ -325,13 +391,22 @@ async function setLang(code) {
     console.warn("i18n load failed, falling back to English:", e);
     strings = fallback;
   }
-  localStorage.setItem(STORAGE_KEY, currentLang);
+  if (persist) {
+    localStorage.setItem(STORAGE_KEY, currentLang);
+    // A manual switch supersedes the incoming query too, so reload keeps it.
+    if (urlLang() !== null) {
+      const url = new URL(location.href);
+      url.searchParams.set("lang", currentLang);
+      history.replaceState(null, "", url.pathname + url.search + url.hash);
+    }
+  }
   document.documentElement.setAttribute("lang", currentLang.replace("_", "-"));
   document.documentElement.setAttribute("dir", isRTL() ? "rtl" : "ltr");
   applyI18n();
   renderApps();
   renderPrivacy();
   renderLegalDoc();
+  preserveLinkLanguage();
   updateLangButton();
 }
 
@@ -343,8 +418,9 @@ async function init() {
 
   renderChips();
   currentLang = detectLang();
+  const forcedByUrl = urlLang() !== null;
   buildLangMenu();
-  await setLang(currentLang);
+  await setLang(currentLang, { persist: !forcedByUrl });
 
   // switcher interactions
   const toggle = document.getElementById("lang-toggle");

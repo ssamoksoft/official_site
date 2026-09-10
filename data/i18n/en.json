@@ -86,7 +86,17 @@
     "s_changes_title": "12. Changes to this policy",
     "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
     "s_business_title": "Business information",
-    "s_business_items": ["Trade name: SSAMOK SOFT (싸목소프트)", "Representative: Dae hoon Kang", "Business address: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Email: ssamoksoft@gmail.com", "Business registration number: 160-75-00256", "E-commerce business filing number: 2019-충북청주-1930", "Data protection officer: Dae hoon Kang (ssamoksoft@gmail.com)", "Hosting provider: Google LLC (Firebase) · GitHub, Inc.", "Business registration details can be verified at the Korean National Tax Service Hometax (www.hometax.go.kr) using the business registration number above."],
+    "s_business_items": [
+      "Trade name: SSAMOK SOFT (싸목소프트)",
+      "Representative: Dae hoon Kang",
+      "Business address: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+      "Email: ssamoksoft@gmail.com",
+      "Business registration number: 160-75-00256",
+      "E-commerce business filing number: 2019-충북청주-1930",
+      "Data protection officer: Dae hoon Kang (ssamoksoft@gmail.com)",
+      "Hosting provider: Google LLC (Firebase) · GitHub, Inc.",
+      "Business registration details can be verified at the Korean National Tax Service Hometax (www.hometax.go.kr) using the business registration number above."
+    ],
     "back": "Back to home",
     "link_terms": "Terms of Service",
     "link_delete": "Delete your account",
@@ -101,12 +111,30 @@
       "updated": "Last updated: September 7, 2026",
       "applies": "This page explains how to delete your account and data for the app “Kairotique” by SSAMOK SOFT. You can request deletion without reinstalling the app.",
       "sections": [
-        { "t": "Option 1 — Delete in the app (recommended, immediate)", "b": "In the Kairotique app, go to Settings → Delete account. Your account and data are deleted immediately." },
-        { "t": "Option 2 — Request by email (no app required)", "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Kairotique account deletion request”. After identity verification, we will process your request within 30 days and reply with the result." },
-        { "t": "What gets deleted", "b": "Your account information (email, nickname, app settings) and every room you created, including all of its records, are deleted immediately. Records you left in rooms created by others are kept as part of that room's history: the content remains, but the author label changes to “(Deleted user)” and your stored display name is removed. If you want a specific record hidden from other participants, contact ssamoksoft@gmail.com." },
-        { "t": "What is retained, and for how long", "b": "Report records are deleted automatically 90 days after receipt; the reporter's and subject's identities are removed earlier if the account concerned is deleted. Copies in disaster-recovery backups expire with the backup retention cycle. We also ask RevenueCat, the service we use to manage subscription status, to delete your customer record when your account is deleted." },
-        { "t": "About subscriptions", "b": "Subscriptions (premium) are separate from account deletion. If you have an active subscription, cancel it directly in Google Play or the App Store — deleting your account does not cancel it automatically." },
-        { "t": "Contact", "b": "For questions about deletion, contact ssamoksoft@gmail.com." }
+        {
+          "t": "Option 1 — Delete in the app (recommended, immediate)",
+          "b": "In the Kairotique app, go to Settings → Delete account. Your account and data are deleted immediately."
+        },
+        {
+          "t": "Option 2 — Request by email (no app required)",
+          "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Kairotique account deletion request”. After identity verification, we will process your request within 30 days and reply with the result."
+        },
+        {
+          "t": "What gets deleted",
+          "b": "Your account information (email, nickname, app settings) and every room you created, including all of its records, are deleted immediately. Records you left in rooms created by others are kept as part of that room's history: the content remains, but the author label changes to “(Deleted user)” and your stored display name is removed. If you want a specific record hidden from other participants, contact ssamoksoft@gmail.com."
+        },
+        {
+          "t": "What is retained, and for how long",
+          "b": "Report records are deleted automatically 90 days after receipt; the reporter's and subject's identities are removed earlier if the account concerned is deleted. Copies in disaster-recovery backups expire with the backup retention cycle. We also ask RevenueCat, the service we use to manage subscription status, to delete your customer record when your account is deleted."
+        },
+        {
+          "t": "About subscriptions",
+          "b": "Subscriptions (premium) are separate from account deletion. If you have an active subscription, cancel it directly in Google Play or the App Store — deleting your account does not cancel it automatically."
+        },
+        {
+          "t": "Contact",
+          "b": "For questions about deletion, contact ssamoksoft@gmail.com."
+        }
       ]
     },
     "kairotique_terms": {
@@ -114,17 +142,60 @@
       "updated": "Effective date: September 7, 2026",
       "applies": "These terms govern your use of the mobile app “Kairotique” (the “Service”) provided by SSAMOK SOFT (the “Company”). By using the Service, you agree to these terms.",
       "sections": [
-        { "t": "1. The Service", "b": "Kairotique is a shared log and timer platform where you create rooms and use timers and records together. The Company may improve or change the Service's features over time." },
-        { "t": "2. Accounts", "b": "You use the Service by signing in with a Google or Apple account. You are responsible for activity on your account and must notify the Company promptly of any unauthorized use. You can delete your account at any time via Settings → Delete account in the app." },
-        { "t": "3. Subscriptions & payments", "b": "The Service offers premium features via subscription, and payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Company does not collect or store payment card information, and deleting your account does not cancel a subscription." },
-        { "t": "4. User content", "b": "You retain your rights to the content you create in the Service, such as rooms, records, and notes. The Company may use that content to the extent needed to provide the Service, including storage, syncing, and display to participants of shared rooms; content posted in a shared room is visible to that room's other participants." },
-        { "t": "5. Prohibited conduct and enforcement", "b": "You may not include any of the following in content visible to other users (room titles, preset names, log memos, nicknames): harassment, threats, or hate speech; obscene or violent material; spam or flooding; other people's personal information; or anything that violates applicable law. Disrupting the service, unauthorized access, using another person's account, and reverse engineering, scraping, or automated abuse are also prohibited. When we become aware of a violation through a report or our own review, we remove or hide the content within 24 hours, and for repeated or serious violations we may restrict participation in the room or suspend the account. If your use is restricted, renewal and refunds of paid subscriptions follow the policies of the app stores (App Store, Google Play). You can report inappropriate content with the in-app report feature, hide a specific user's content with the in-app block feature, or send reports to ssamoksoft@gmail.com." },
-        { "t": "6. Changes to or discontinuation of the Service", "b": "The Company may change or discontinue all or part of the Service for operational or technical reasons, with prior notice for material changes." },
-        { "t": "7. Limitation of liability", "b": "The Service is provided “as is.” To the extent permitted by law, the Company is not liable for indirect or incidental damages arising from use of the Service, except for damages caused by the Company's willful misconduct or gross negligence." },
-        { "t": "8. Changes to these terms", "b": "The Company may update these terms and will post changes on this page. Updated terms take effect when posted, and continued use of the Service constitutes acceptance." },
-        { "t": "9. Governing law & jurisdiction", "b": "These terms are governed by the laws of the Republic of Korea, and disputes are subject to the jurisdiction of the courts of the Republic of Korea." },
-        { "t": "10. Contact", "b": "For questions about these terms, contact ssamoksoft@gmail.com." },
-        { "t": "Business information", "l": ["Trade name: SSAMOK SOFT (싸목소프트)", "Representative: Dae hoon Kang", "Business address: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Email: ssamoksoft@gmail.com", "Business registration number: 160-75-00256", "E-commerce business filing number: 2019-충북청주-1930", "Data protection officer: Dae hoon Kang (ssamoksoft@gmail.com)", "Hosting provider: Google LLC (Firebase) · GitHub, Inc.", "Business registration details can be verified at the Korean National Tax Service Hometax (www.hometax.go.kr) using the business registration number above."] }
+        {
+          "t": "1. The Service",
+          "b": "Kairotique is a shared log and timer platform where you create rooms and use timers and records together. The Company may improve or change the Service's features over time."
+        },
+        {
+          "t": "2. Accounts",
+          "b": "You use the Service by signing in with a Google or Apple account. You are responsible for activity on your account and must notify the Company promptly of any unauthorized use. You can delete your account at any time via Settings → Delete account in the app."
+        },
+        {
+          "t": "3. Subscriptions & payments",
+          "b": "The Service offers premium features via subscription, and payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Company does not collect or store payment card information, and deleting your account does not cancel a subscription."
+        },
+        {
+          "t": "4. User content",
+          "b": "You retain your rights to the content you create in the Service, such as rooms, records, and notes. The Company may use that content to the extent needed to provide the Service, including storage, syncing, and display to participants of shared rooms; content posted in a shared room is visible to that room's other participants."
+        },
+        {
+          "t": "5. Prohibited conduct and enforcement",
+          "b": "You may not include any of the following in content visible to other users (room titles, preset names, log memos, nicknames): harassment, threats, or hate speech; obscene or violent material; spam or flooding; other people's personal information; or anything that violates applicable law. Disrupting the service, unauthorized access, using another person's account, and reverse engineering, scraping, or automated abuse are also prohibited. When we become aware of a violation through a report or our own review, we remove or hide the content within 24 hours, and for repeated or serious violations we may restrict participation in the room or suspend the account. If your use is restricted, renewal and refunds of paid subscriptions follow the policies of the app stores (App Store, Google Play). You can report inappropriate content with the in-app report feature, hide a specific user's content with the in-app block feature, or send reports to ssamoksoft@gmail.com."
+        },
+        {
+          "t": "6. Changes to or discontinuation of the Service",
+          "b": "The Company may change or discontinue all or part of the Service for operational or technical reasons, with prior notice for material changes."
+        },
+        {
+          "t": "7. Limitation of liability",
+          "b": "The Service is provided “as is.” To the extent permitted by law, the Company is not liable for indirect or incidental damages arising from use of the Service, except for damages caused by the Company's willful misconduct or gross negligence."
+        },
+        {
+          "t": "8. Changes to these terms",
+          "b": "The Company may update these terms and will post changes on this page. Updated terms take effect when posted, and continued use of the Service constitutes acceptance."
+        },
+        {
+          "t": "9. Governing law & jurisdiction",
+          "b": "These terms are governed by the laws of the Republic of Korea, and disputes are subject to the jurisdiction of the courts of the Republic of Korea."
+        },
+        {
+          "t": "10. Contact",
+          "b": "For questions about these terms, contact ssamoksoft@gmail.com."
+        },
+        {
+          "t": "Business information",
+          "l": [
+            "Trade name: SSAMOK SOFT (싸목소프트)",
+            "Representative: Dae hoon Kang",
+            "Business address: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Email: ssamoksoft@gmail.com",
+            "Business registration number: 160-75-00256",
+            "E-commerce business filing number: 2019-충북청주-1930",
+            "Data protection officer: Dae hoon Kang (ssamoksoft@gmail.com)",
+            "Hosting provider: Google LLC (Firebase) · GitHub, Inc.",
+            "Business registration details can be verified at the Korean National Tax Service Hometax (www.hometax.go.kr) using the business registration number above."
+          ]
+        }
       ]
     },
     "stelleaf_privacy": {
@@ -132,20 +203,115 @@
       "updated": "Effective date: September 10, 2026",
       "applies": "This policy applies to the mobile app “Stelleaf” (별갈피) provided by the sole proprietorship SSAMOK SOFT (the “Operator”). Stelleaf is a local-first app: unless you sign in, all of your data stays on your device only and is never sent to a server.",
       "sections": [
-        { "t": "1. Controller information", "b": "The following sole proprietorship processes personal data as the controller (within the meaning of the GDPR).", "l": [ "Business name: SSAMOK SOFT", "Owner: Dae-hoon Kang", "Privacy officer: Dae-hoon Kang", "Contact: ssamoksoft@gmail.com" ] },
-        { "t": "2. Local-first design", "b": "If you use the app without signing in, all data including your records and photos is stored only on your device and nothing is sent to a server. Signing in is optional, and backup and cross-device sync operate only when you are signed in." },
-        { "t": "3. Data we collect", "b": "Only when you sign in to use backup and sync, the following data is stored on our server (Supabase, Seoul, Republic of Korea region).", "l": [ "Account: email address, internal user ID, and sign-in provider identifier — you choose one of email+password, Google sign-in, or Apple sign-in (authentication infrastructure: Supabase Auth)", "Content: categories, items (name, notes, product barcode, and place coordinates you explicitly confirmed by dropping a pin on the map), rating records (stars, notes, date, detailed scores, situation tags), item tags, ranking boards, taste-analysis settings, photos, and creation/modification timestamps", "Payments: a pseudonymous app user ID, purchase receipts, and device information (processed by RevenueCat) — we never receive payment card details", "Maps: the moment you open a map view, the Naver Maps SDK (Korea) or Google Maps SDK (elsewhere) sends a device identifier and approximate location to Naver/Google. Location permission is used only for the “move to my location” feature", "Search: only the search query, coordinates, barcode, or ISBN is transmitted. Place search (Naver Cloud), book search (Kakao), and food-barcode lookup (Korean Ministry of Food and Drug Safety) go through the Operator's server proxy, and requests contain no personally identifiable information. Public databases (Open Food Facts / Open Beauty Facts, OpenLibrary) are called directly by the app with only the barcode or ISBN" ] },
-        { "t": "4. Photos and location data", "b": "Photos are re-encoded on your device the moment they are attached, and only a copy with EXIF metadata (including GPS) removed is stored and uploaded. The original photo's GPS is read momentarily on-device only to suggest a location, and is never stored or transmitted. The only coordinates saved to the server are the ones you explicitly confirmed on the map. Cloud photo backup is limited to 200 photos on the free plan and unlimited on Pro; local storage is unlimited on both." },
-        { "t": "5. Purposes and legal bases", "b": "The purposes and legal bases (GDPR Article 6) for each processing activity are:", "l": [ "Account management, backup, and cross-device sync — performance of a contract (GDPR 6(1)(b))", "Payment and management of the paid subscription — performance of a contract (GDPR 6(1)(b))", "Compliance with legal obligations (e.g. retention of payment records) — legal obligation (GDPR 6(1)(c))", "There is currently no processing based on separate consent" ] },
-        { "t": "6. Processors and recipients", "b": "We use the following processors and recipients to provide the service.", "l": [ "Supabase — database, authentication, file storage, and server functions (Seoul, Republic of Korea; AWS ap-northeast-2 region)", "Naver Cloud — maps and place search (Republic of Korea)", "Kakao — book ISBN/title search (Republic of Korea, via server proxy)", "Korean Ministry of Food and Drug Safety — food barcode lookup (Republic of Korea, via server proxy)", "RevenueCat — subscription management (United States)", "Apple — sign-in and payments (United States)", "Google — sign-in, payments, and maps (United States)", "Open Food Facts / Open Beauty Facts, OpenLibrary — public databases (only the barcode or ISBN is sent; no personal data)" ] },
-        { "t": "7. International transfers", "b": "The primary data store (Supabase) is in the Seoul, Republic of Korea region, so your records, photos, and account data are stored domestically and are not transferred abroad. International transfers occur only to the US processors below, on the basis of transfers necessary for the performance of the contract, disclosed in this policy (Article 28-8 of the Korean Personal Information Protection Act). Under the GDPR, transfers from the EEA to Korea rely on the EU adequacy decision for Korea; transfers to the US rely on the EU-US Data Privacy Framework (DPF) certification for Google, and on data processing agreements incorporating Standard Contractual Clauses (SCCs) for Apple and RevenueCat.", "l": [ "RevenueCat (US) — data: pseudonymous app user ID, purchase receipts, device information / purpose: subscription status management / retention: as long as needed to manage subscriptions", "Apple (US) — data: sign-in identifiers, payment processing data / purpose: Apple sign-in and in-app purchases / retention: per Apple's policies", "Google (US) — data: sign-in identifiers, payment processing data, and device identifier and approximate location when using maps / purpose: Google sign-in, payments, and maps / retention: per Google's policies" ] },
-        { "t": "8. Retention and deletion", "b": "We retain and delete personal data as follows.", "l": [ "Account and server data: when you delete your account, all server data (every record, photo file, and the account itself) is deleted immediately and atomically", "Deleting individual items, records, or photos: to keep cross-device sync consistent, deleted data is kept in a soft-deleted state for 30 days and then permanently erased", "Statutory retention: under the Korean e-commerce act and related laws, records of contracts and withdrawals are kept 5 years, payment and supply records 5 years, and consumer complaint/dispute records 3 years, then destroyed" ] },
-        { "t": "9. Your rights", "b": "You may exercise your rights of access, rectification, erasure, restriction of processing, and data portability. Portability is available directly in the app — Settings > Data > Export records downloads all of your records and photos as a single ZIP file, which the app can also restore from. For any other request, write to ssamoksoft@gmail.com; we respond within one month of receipt (GDPR Art. 12(3)). Where a request is complex we may extend this by two further months and will tell you why within the first month. Users in the EU/EEA and the UK may also exercise their rights through the representative listed in section 10.", "l": [ "The export contains: categories, items, rating entries, tags, ranking boards, taste-analysis settings, photos, and the created/updated timestamps of each record", "It also contains records that are marked for deletion but not yet purged (within 30 days of deletion)", "A file exported while signed in records your account identifier (UUID)", "The export file is not encrypted — take care not to share it with others", "Complaints: EU residents may lodge a complaint with their national supervisory authority; in Korea, with the Privacy Infringement Report Centre (privacy.kr, 118)" ] },
-        { "t": "10. EU & UK representative", "b": "For users in the EU/EEA and the United Kingdom, we have appointed representatives pursuant to Article 27 of the EU GDPR and Article 27 of the UK GDPR. EU representative: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. UK representative: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. You can contact our representatives and exercise your rights via https://app.prighter.com/portal/19708232400." },
-        { "t": "11. Children", "b": "Stelleaf may only be used by people aged 14 or older (in some EU countries, the applicable consent age of up to 16). We do not knowingly collect personal data from children below these ages, and we delete such data without delay if we become aware of it." },
-        { "t": "12. What we do not do", "b": "Stelleaf does not do any of the following.", "l": [ "No ads, and no collection of advertising identifiers", "No selling of personal data", "No profiling or automated decision-making", "No marketing messages", "No intentional collection of data from children under 14" ] },
-        { "t": "13. Security", "b": "We apply reasonable safeguards including encryption in transit (HTTPS/TLS), access controls and least privilege, storage in a domestic (Seoul) region, and data minimization. Search API keys are kept only on the server and are never exposed to the client." },
-        { "t": "14. Changes to this policy", "b": "If this policy changes, we will post the update on this page, and material changes will also be announced in the app. The revised policy takes effect when posted." }
+        {
+          "t": "1. Controller information",
+          "b": "The following sole proprietorship processes personal data as the controller (within the meaning of the GDPR).",
+          "l": [
+            "Business name: SSAMOK SOFT",
+            "Owner: Dae-hoon Kang",
+            "Privacy officer: Dae-hoon Kang",
+            "Contact: ssamoksoft@gmail.com"
+          ]
+        },
+        {
+          "t": "2. Local-first design",
+          "b": "If you use the app without signing in, all data including your records and photos is stored only on your device and nothing is sent to a server. Signing in is optional, and backup and cross-device sync operate only when you are signed in."
+        },
+        {
+          "t": "3. Data we collect",
+          "b": "Only when you sign in to use backup and sync, the following data is stored on our server (Supabase, Seoul, Republic of Korea region).",
+          "l": [
+            "Account: email address, internal user ID, and sign-in provider identifier — you choose one of email+password, Google sign-in, or Apple sign-in (authentication infrastructure: Supabase Auth)",
+            "Content: categories, items (name, notes, product barcode, and place coordinates you explicitly confirmed by dropping a pin on the map), rating records (stars, notes, date, detailed scores, situation tags), item tags, ranking boards, taste-analysis settings, photos, and creation/modification timestamps",
+            "Payments: a pseudonymous app user ID, purchase receipts, and device information (processed by RevenueCat) — we never receive payment card details",
+            "Maps: the moment you open a map view, the Naver Maps SDK (Korea) or Google Maps SDK (elsewhere) sends a device identifier and approximate location to Naver/Google. Location permission is used only for the “move to my location” feature",
+            "Search: only the search query, coordinates, barcode, or ISBN is transmitted. Place search (Naver Cloud), book search (Kakao), and food-barcode lookup (Korean Ministry of Food and Drug Safety) go through the Operator's server proxy, and requests contain no personally identifiable information. Public databases (Open Food Facts / Open Beauty Facts, OpenLibrary) are called directly by the app with only the barcode or ISBN"
+          ]
+        },
+        {
+          "t": "4. Photos and location data",
+          "b": "Photos are re-encoded on your device the moment they are attached, and only a copy with EXIF metadata (including GPS) removed is stored and uploaded. The original photo's GPS is read momentarily on-device only to suggest a location, and is never stored or transmitted. The only coordinates saved to the server are the ones you explicitly confirmed on the map. Cloud photo backup is limited to 200 photos on the free plan and unlimited on Pro; local storage is unlimited on both."
+        },
+        {
+          "t": "5. Purposes and legal bases",
+          "b": "The purposes and legal bases (GDPR Article 6) for each processing activity are:",
+          "l": [
+            "Account management, backup, and cross-device sync — performance of a contract (GDPR 6(1)(b))",
+            "Payment and management of the paid subscription — performance of a contract (GDPR 6(1)(b))",
+            "Compliance with legal obligations (e.g. retention of payment records) — legal obligation (GDPR 6(1)(c))",
+            "There is currently no processing based on separate consent"
+          ]
+        },
+        {
+          "t": "6. Processors and recipients",
+          "b": "We use the following processors and recipients to provide the service.",
+          "l": [
+            "Supabase — database, authentication, file storage, and server functions (Seoul, Republic of Korea; AWS ap-northeast-2 region)",
+            "Naver Cloud — maps and place search (Republic of Korea)",
+            "Kakao — book ISBN/title search (Republic of Korea, via server proxy)",
+            "Korean Ministry of Food and Drug Safety — food barcode lookup (Republic of Korea, via server proxy)",
+            "RevenueCat — subscription management (United States)",
+            "Apple — sign-in and payments (United States)",
+            "Google — sign-in, payments, and maps (United States)",
+            "Open Food Facts / Open Beauty Facts, OpenLibrary — public databases (only the barcode or ISBN is sent; no personal data)"
+          ]
+        },
+        {
+          "t": "7. International transfers",
+          "b": "The primary data store (Supabase) is in the Seoul, Republic of Korea region, so your records, photos, and account data are stored domestically and are not transferred abroad. International transfers occur only to the US processors below, on the basis of transfers necessary for the performance of the contract, disclosed in this policy (Article 28-8 of the Korean Personal Information Protection Act). Under the GDPR, transfers from the EEA to Korea rely on the EU adequacy decision for Korea; transfers to the US rely on the EU-US Data Privacy Framework (DPF) certification for Google, and on data processing agreements incorporating Standard Contractual Clauses (SCCs) for Apple and RevenueCat.",
+          "l": [
+            "RevenueCat (US) — data: pseudonymous app user ID, purchase receipts, device information / purpose: subscription status management / retention: as long as needed to manage subscriptions",
+            "Apple (US) — data: sign-in identifiers, payment processing data / purpose: Apple sign-in and in-app purchases / retention: per Apple's policies",
+            "Google (US) — data: sign-in identifiers, payment processing data, and device identifier and approximate location when using maps / purpose: Google sign-in, payments, and maps / retention: per Google's policies"
+          ]
+        },
+        {
+          "t": "8. Retention and deletion",
+          "b": "We retain and delete personal data as follows.",
+          "l": [
+            "Account and server data: when you delete your account, all server data (every record, photo file, and the account itself) is deleted immediately and atomically",
+            "Deleting individual items, records, or photos: to keep cross-device sync consistent, deleted data is kept in a soft-deleted state for 30 days and then permanently erased",
+            "Statutory retention: under the Korean e-commerce act and related laws, records of contracts and withdrawals are kept 5 years, payment and supply records 5 years, and consumer complaint/dispute records 3 years, then destroyed"
+          ]
+        },
+        {
+          "t": "9. Your rights",
+          "b": "You may exercise your rights of access, rectification, erasure, restriction of processing, and data portability. Portability is available directly in the app — Settings > Data > Export records downloads all of your records and photos as a single ZIP file, which the app can also restore from. For any other request, write to ssamoksoft@gmail.com; we respond within one month of receipt (GDPR Art. 12(3)). Where a request is complex we may extend this by two further months and will tell you why within the first month. Users in the EU/EEA and the UK may also exercise their rights through the representative listed in section 10.",
+          "l": [
+            "The export contains: categories, items, rating entries, tags, ranking boards, taste-analysis settings, photos, and the created/updated timestamps of each record",
+            "It also contains records that are marked for deletion but not yet purged (within 30 days of deletion)",
+            "A file exported while signed in records your account identifier (UUID)",
+            "The export file is not encrypted — take care not to share it with others",
+            "Complaints: EU residents may lodge a complaint with their national supervisory authority; in Korea, with the Privacy Infringement Report Centre (privacy.kr, 118)"
+          ]
+        },
+        {
+          "t": "10. EU & UK representative",
+          "b": "For users in the EU/EEA and the United Kingdom, we have appointed representatives pursuant to Article 27 of the EU GDPR and Article 27 of the UK GDPR. EU representative: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. UK representative: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. You can contact our representatives and exercise your rights via https://app.prighter.com/portal/19708232400."
+        },
+        {
+          "t": "11. Children",
+          "b": "Stelleaf may only be used by people aged 14 or older (in some EU countries, the applicable consent age of up to 16). We do not knowingly collect personal data from children below these ages, and we delete such data without delay if we become aware of it."
+        },
+        {
+          "t": "12. What we do not do",
+          "b": "Stelleaf does not do any of the following.",
+          "l": [
+            "No ads, and no collection of advertising identifiers",
+            "No selling of personal data",
+            "No profiling or automated decision-making",
+            "No marketing messages",
+            "No intentional collection of data from children under 14"
+          ]
+        },
+        {
+          "t": "13. Security",
+          "b": "We apply reasonable safeguards including encryption in transit (HTTPS/TLS), access controls and least privilege, storage in a domestic (Seoul) region, and data minimization. Search API keys are kept only on the server and are never exposed to the client."
+        },
+        {
+          "t": "14. Changes to this policy",
+          "b": "If this policy changes, we will post the update on this page, and material changes will also be announced in the app. The revised policy takes effect when posted."
+        }
       ]
     },
     "stelleaf_terms": {
@@ -153,17 +319,50 @@
       "updated": "Effective date: July 25, 2026",
       "applies": "These terms govern your use of the mobile app “Stelleaf” (별갈피, the “Service”) provided by the sole proprietorship SSAMOK SOFT (the “Operator”). By using the Service, you agree to these terms.",
       "sections": [
-        { "t": "Article 1 (The Service)", "b": "Stelleaf is a personal archiving service for recording restaurants, books, products, and more with star ratings and notes. It is local-first: you can use its core features without signing in, and backup and cross-device sync are provided only when signed in. The Operator may improve or change the Service's features over time." },
-        { "t": "Article 2 (Accounts and age requirement)", "b": "The Service may only be used by people aged 14 or older; residents of some EU countries must meet their country's digital consent age (up to 16). You may sign in with email+password, Google, or Apple. You are responsible for your account's activity and security and must notify the Operator promptly of any unauthorized use. You can delete your account at any time in the app's settings." },
-        { "t": "Article 3 (Paid subscription)", "b": "The Service offers a premium (Pro) subscription; payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Operator does not collect or store payment card information. Deleting your account does not cancel a subscription — cancel it directly in the store. Specific subscription benefits (e.g. unlimited cloud photo backup) are described in the app." },
-        { "t": "Article 4 (Ownership of content)", "b": "The content you record in the Service — ratings, notes, photos, and more — belongs to you. The Operator processes it only to the extent needed to provide the Service, such as backup and sync, and does not use it for any other purpose." },
-        { "t": "Article 5 (User obligations and prohibited conduct)", "b": "Violating the law or infringing others' rights, disrupting the Service or accessing systems without authorization, and reverse engineering, scraping, or abusing the Service with automated means are prohibited. The Operator may restrict use in the event of violations." },
-        { "t": "Article 6 (Backups and responsibility for data)", "b": "If you use the app locally without signing in, your data exists only on your device, so it cannot be recovered if the device is lost or broken or the app is deleted. If you need a backup, we recommend signing in and using sync." },
-        { "t": "Article 7 (Changes to or discontinuation of the Service)", "b": "The Operator may change or discontinue all or part of the Service for operational or technical reasons, with prior notice for material changes. Even if the Service ends, local data remains on your device." },
-        { "t": "Article 8 (Limitation of liability)", "b": "The Service is provided “as is.” To the extent permitted by law, the Operator is not liable for indirect or incidental damages arising from use of the Service, except for damages caused by the Operator's willful misconduct or gross negligence. Your statutory consumer rights are not limited by this article." },
-        { "t": "Article 9 (Changes to these terms)", "b": "The Operator may update these terms; changes will be posted on this page and material changes will also be announced in the app. Updated terms take effect when posted, and continued use of the Service constitutes acceptance." },
-        { "t": "Article 10 (Governing law and jurisdiction)", "b": "These terms are governed by the laws of the Republic of Korea, and disputes are brought before the competent court under the Korean Civil Procedure Act. Mandatory consumer protections of your country of residence are not affected." },
-        { "t": "Article 11 (Contact)", "b": "For questions about these terms, contact ssamoksoft@gmail.com." }
+        {
+          "t": "Article 1 (The Service)",
+          "b": "Stelleaf is a personal archiving service for recording restaurants, books, products, and more with star ratings and notes. It is local-first: you can use its core features without signing in, and backup and cross-device sync are provided only when signed in. The Operator may improve or change the Service's features over time."
+        },
+        {
+          "t": "Article 2 (Accounts and age requirement)",
+          "b": "The Service may only be used by people aged 14 or older; residents of some EU countries must meet their country's digital consent age (up to 16). You may sign in with email+password, Google, or Apple. You are responsible for your account's activity and security and must notify the Operator promptly of any unauthorized use. You can delete your account at any time in the app's settings."
+        },
+        {
+          "t": "Article 3 (Paid subscription)",
+          "b": "The Service offers a premium (Pro) subscription; payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Operator does not collect or store payment card information. Deleting your account does not cancel a subscription — cancel it directly in the store. Specific subscription benefits (e.g. unlimited cloud photo backup) are described in the app."
+        },
+        {
+          "t": "Article 4 (Ownership of content)",
+          "b": "The content you record in the Service — ratings, notes, photos, and more — belongs to you. The Operator processes it only to the extent needed to provide the Service, such as backup and sync, and does not use it for any other purpose."
+        },
+        {
+          "t": "Article 5 (User obligations and prohibited conduct)",
+          "b": "Violating the law or infringing others' rights, disrupting the Service or accessing systems without authorization, and reverse engineering, scraping, or abusing the Service with automated means are prohibited. The Operator may restrict use in the event of violations."
+        },
+        {
+          "t": "Article 6 (Backups and responsibility for data)",
+          "b": "If you use the app locally without signing in, your data exists only on your device, so it cannot be recovered if the device is lost or broken or the app is deleted. If you need a backup, we recommend signing in and using sync."
+        },
+        {
+          "t": "Article 7 (Changes to or discontinuation of the Service)",
+          "b": "The Operator may change or discontinue all or part of the Service for operational or technical reasons, with prior notice for material changes. Even if the Service ends, local data remains on your device."
+        },
+        {
+          "t": "Article 8 (Limitation of liability)",
+          "b": "The Service is provided “as is.” To the extent permitted by law, the Operator is not liable for indirect or incidental damages arising from use of the Service, except for damages caused by the Operator's willful misconduct or gross negligence. Your statutory consumer rights are not limited by this article."
+        },
+        {
+          "t": "Article 9 (Changes to these terms)",
+          "b": "The Operator may update these terms; changes will be posted on this page and material changes will also be announced in the app. Updated terms take effect when posted, and continued use of the Service constitutes acceptance."
+        },
+        {
+          "t": "Article 10 (Governing law and jurisdiction)",
+          "b": "These terms are governed by the laws of the Republic of Korea, and disputes are brought before the competent court under the Korean Civil Procedure Act. Mandatory consumer protections of your country of residence are not affected."
+        },
+        {
+          "t": "Article 11 (Contact)",
+          "b": "For questions about these terms, contact ssamoksoft@gmail.com."
+        }
       ]
     },
     "stelleaf_delete": {
@@ -171,13 +370,393 @@
       "updated": "Last updated: July 25, 2026",
       "applies": "This page explains how to delete your account and data for the app “Stelleaf” (별갈피) by SSAMOK SOFT. You can request deletion by email even if you have not installed the app or can no longer access it.",
       "sections": [
-        { "t": "Option 1 — Delete in the app (recommended, immediate)", "b": "In the Stelleaf app, go to Settings → Delete account. All server data (every record, photo file, and the account itself) is deleted immediately and atomically. When deleting, you can choose between “delete server data only” and “delete both server and this device's data.”" },
-        { "t": "Option 2 — Request by email (no app required)", "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Stelleaf account deletion request”. After identity verification, your request is processed within 7 days." },
-        { "t": "What gets deleted", "b": "Your account information (email and sign-in provider identifier) and all records, categories, tags, ranking boards, settings, and photos stored on the server are deleted. Local data on your device is kept or deleted according to your choice at deletion time, and deleting the app also removes local data." },
-        { "t": "Individual deletions and permanent erasure", "b": "When you delete individual items, records, or photos, they are kept in a soft-deleted state for 30 days to keep cross-device sync consistent, and are then permanently erased." },
-        { "t": "About subscriptions", "b": "Subscriptions (Pro) are separate from account deletion. If you have an active subscription, cancel it directly in the App Store or Google Play — deleting your account does not cancel it automatically." },
-        { "t": "Statutory retention", "b": "Payment-related records that must be retained under the Korean e-commerce act and related laws are kept for the statutory period and then destroyed." },
-        { "t": "Contact", "b": "For questions about deletion, contact ssamoksoft@gmail.com." }
+        {
+          "t": "Option 1 — Delete in the app (recommended, immediate)",
+          "b": "In the Stelleaf app, go to Settings → Delete account. All server data (every record, photo file, and the account itself) is deleted immediately and atomically. When deleting, you can choose between “delete server data only” and “delete both server and this device's data.”"
+        },
+        {
+          "t": "Option 2 — Request by email (no app required)",
+          "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Stelleaf account deletion request”. After identity verification, your request is processed within 7 days."
+        },
+        {
+          "t": "What gets deleted",
+          "b": "Your account information (email and sign-in provider identifier) and all records, categories, tags, ranking boards, settings, and photos stored on the server are deleted. Local data on your device is kept or deleted according to your choice at deletion time, and deleting the app also removes local data."
+        },
+        {
+          "t": "Individual deletions and permanent erasure",
+          "b": "When you delete individual items, records, or photos, they are kept in a soft-deleted state for 30 days to keep cross-device sync consistent, and are then permanently erased."
+        },
+        {
+          "t": "About subscriptions",
+          "b": "Subscriptions (Pro) are separate from account deletion. If you have an active subscription, cancel it directly in the App Store or Google Play — deleting your account does not cancel it automatically."
+        },
+        {
+          "t": "Statutory retention",
+          "b": "Payment-related records that must be retained under the Korean e-commerce act and related laws are kept for the statutory period and then destroyed."
+        },
+        {
+          "t": "Contact",
+          "b": "For questions about deletion, contact ssamoksoft@gmail.com."
+        }
+      ]
+    },
+    "snuumo_privacy": {
+      "title": "Snuumo Privacy Policy",
+      "updated": "Announced: 2026-09-11 · Effective: 2026-10-11",
+      "applies": "The effective date was set 30 days after the announcement date in order to observe the prior-notice period in section 10. The previous policy (effective 2026-07-25) applies until 2026-10-10.\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
+      "sections": [
+        {
+          "t": "1. Personal information collected and how it is collected",
+          "l": [
+            "Category | Items | Method",
+            "Account (required) | Email address and password (stored encrypted), or social login identifier (Google · Apple account identifier, email) | On sign-up",
+            "Content | Memo content (text and checklists), attached photos (compressed copies; for Pro, including originals), text recognised in photos (OCR), recognised dictation text that you save, link preview information, reminder times | When the user creates or attaches them (stored on the server for sync and backup purposes)",
+            "Location information | The coordinates and place name at the time a memo is written (where the location permission is granted), and the capture location of attached photos (only coordinates are extracted from EXIF — metadata such as location is removed from photo files stored on the server) | Only where the user has granted the location permission. Collection can be stopped at any time by turning off [Settings → Record memo location] in the app",
+            "Subscription information | Subscription plan and status, store transaction identifier | On Pro subscription or restore (payment means such as credit card details are handled by the store, such as Apple, and are not collected by the Company)",
+            "The Company does not collect information unnecessary for providing the Service, such as advertising identifiers, behavioural analytics information or contacts.",
+            "Dictation uses the operating system's speech recognition. Depending on your device, language and settings, audio may be sent to and processed on servers operated by Apple, Google or the speech service provider configured on your device. The Company does not upload or store original dictation audio on its servers. When you save the recognised text as a memo, it is stored on your device and stored and synchronised on the Company servers like other memo text. The provider's processing and retention of audio depend on its policies and your settings. You can type text directly without using dictation.",
+            "Text recognition in photos (OCR) is processed on the device.",
+            "If a user enters a web address (URL) in a memo, the app connects directly to that website in order to generate a preview (in the course of which the user's IP address is transmitted to that website).",
+            "The app accesses the device calendar and reminders only when you export a memo to them. Exported content is passed to the device app and is not sent to or stored on the Company server. The Company does not read your existing events or reminders (on Android, it only checks calendar identifiers so you can select a destination calendar).",
+            "The Android app is configured to exclude all app data from Android automatic cloud backups and device-to-device transfers. Snuumo account sync, Pro original photo storage and manual export are separate features. Before erasing your device or reinstalling the app, check the sync status and keep a separate copy of anything not yet synced using [Settings → Export my data]."
+          ]
+        },
+        {
+          "t": "2. Purposes of use",
+          "l": [
+            "Creating, authenticating and managing accounts",
+            "Providing sync across devices, cloud backup (including Pro original backup) and the memo sharing feature",
+            "Location-based search (finding your memos by place name) and map display — location information is not used for any purpose other than this (Terms of Service, Article 10, Location-Based Services)",
+            "Verifying subscription status and providing paid features",
+            "Responding to enquiries and giving service notices"
+          ]
+        },
+        {
+          "t": "3. Retention periods and destruction",
+          "l": [
+            "Data | Retention period",
+            "All account data and content (memos, photos, profile, share snapshots) | Deleted without delay upon withdrawal of membership ([Settings → Delete account] in the app). If the volume of data is large, the server's clean-up work continues afterwards; once completed, the data cannot be recovered",
+            "Memos in the trash | Permanently deleted 30 days after being moved there",
+            "Share link snapshots | Expire and are deleted 30 days after creation (location information is not included in snapshots, and a snapshot can be deleted at any time before expiry from [Settings → Links I have shared] in the app)",
+            "Pro original backups (on subscription cancellation) | Retained for 90 days from the subscription expiry date (viewable and restorable), then deleted",
+            "Withdrawal-verification identifier (account identifier and withdrawal time) | Deleted 180 days after withdrawal. Used only to clean up the local data of another device that was still logged in but switched off, when that device connects again",
+            "Deletion job records (account identifier, share token, paths of files to be deleted) | Deleted 30 days after deletion is completed. Used only to check for missed deletions and to retry them",
+            "Records the Company is legally required to preserve | The period set by the relevant law (for example, 5 years for records of contracts and withdrawal of subscription under the Act on Consumer Protection in Electronic Commerce (전자상거래 등에서의 소비자보호에 관한 법률))",
+            "Upon withdrawal, the local data on the device from which account deletion was carried out is also deleted, without a separate choice, and the local data on other devices logged in to the same account is deleted automatically the next time each such device connects.",
+            "In other words, what withdrawal erases is the account, memos, photos, profile, share snapshots and the devices' local data, and what remains is only the withdrawal-verification identifier (180 days) and the deletion job records (30 days) in the table above, together with records the Company is legally required to preserve. The remaining records contain no memo content, photos or location information.",
+            "Destruction is carried out by an unrecoverable method (permanent deletion from the database and storage)."
+          ]
+        },
+        {
+          "t": "4. External services and overseas transfer",
+          "l": [
+            "To provide the Service, the Company uses the external services below, and some information is transmitted to their providers.",
+            "External provider | Provider location / data location | Purpose | Information transmitted",
+            "Supabase, Inc. | US company / data storage: Republic of Korea (AWS Seoul region) | Database, storage and authentication hosting | Account, content, location and subscription information in section 1 (excluding original dictation audio)",
+            "Cloudflare, Inc. | United States | Website (snuumo.com) and share page hosting / CDN | Access information such as the IP address when a page is accessed",
+            "GitHub, Inc. | Processing locations are governed by GitHub's Privacy Statement | GitHub Pages hosting for the Company website (ssamoksoft.com) | GitHub records and stores visitor IP addresses for security regardless of whether the visitor is signed in (GitHub Pages documentation ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection ) ). Request information such as request times and pages, and browser/device information, may also be processed. Processing locations and retention periods are governed by GitHub's Privacy Statement ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement )",
+            "RevenueCat, Inc. | United States | Subscription status management | Account identifier, store transaction information",
+            "Apple Inc. / Google LLC | United States | Payment processing / social login | As set out in each company's terms",
+            "Apple Inc. / Google LLC | United States | Coordinate-to-place-name conversion (reverse geocoding): when a location tag is created, the coordinates are sent to the geocoding service of the device platform | The coordinates of the point where the memo was written. The Company stores the memo's coordinates and place name with the memo; the provider's handling and retention of request information are governed by its policies",
+            "Google LLC | United States | Map display (Google Maps SDK) | Information such as the coordinates of the viewed area and the IP address at the time of map display. The SDK is subject to the Google Maps Platform Terms of Service, and Google processes data under its Privacy Policy (https://policies.google.com/privacy)",
+            "Information is transmitted over the network when the relevant service or website is used. Section 3 describes the retention periods for information held by the Company. The processing locations and retention periods for access, request and transaction information handled independently by external providers are governed by their policies and applicable contracts; they are not guaranteed to be the same as the Company's memo retention periods. Users may refuse the overseas transfer, in which case the use of the sync and subscription features is restricted.",
+            "If you choose dictation, the audio described in section 1 may be sent to the operating system's speech service provider. The actual provider, processing locations and retention periods depend on your device, language, settings and the provider's policies. The Company's memo retention periods do not set the provider's audio retention periods. If you do not want this processing, you can type text directly instead of using dictation."
+          ]
+        },
+        {
+          "t": "5. Provision to third parties",
+          "l": [
+            "The Company does not provide personal information to third parties without the user's consent, except where there is a lawful request based on applicable law."
+          ]
+        },
+        {
+          "t": "6. Users' rights",
+          "l": [
+            "Users may at any time request access to, correction, deletion, suspension of processing or portability of their personal information, or withdraw their consent. Viewing, editing and deleting memos, and deleting the account, can be done directly in the app. Users can export the account's memos, notes and folders stored on this device and available attached photos as JSON and images in a ZIP through [Settings → Export my data] in the app. Some content may be missing if recent changes from another device have not yet synced or photos cannot be retrieved. Original photos are included only when you select the option to include originals and the files can be retrieved. Check the completion notice and snuumo_export.json inside the ZIP for the included photo counts (included) and the omission details (omitted). Separate snapshots created for share links are not included in the export. Other requests are handled if sent to the contact address below.",
+            "Response deadline: the Company informs the user of the outcome within one month of receiving the request. Where the request is complex or there are many requests so that it cannot be handled within that period, the period may be extended by up to two further months; in that case the Company informs the user of the extension and the reasons for it within one month of receiving the request (GDPR Article 12(3)).",
+            "The Service is not intended for persons under the age of 14 (including persons below a higher minimum age where the law of the user's country or region sets one)."
+          ]
+        },
+        {
+          "t": "7. Security measures",
+          "l": [
+            "Encryption in transit (TLS) and one-way encrypted storage of passwords",
+            "Per-account access control (a server policy under which only the user's own data is accessible, RLS)",
+            "The principle of minimal collection — no analytics or advertising tools are used",
+            "Minimisation of access privileges to personal information"
+          ]
+        },
+        {
+          "t": "8. Personal information protection officer and business information",
+          "l": [
+            "Personal information protection officer / location information manager: Daehoon Kang (강대훈) (Representative)",
+            "Contact: support@ssamoksoft.com",
+            "Trade name | SSAMOK SOFT (싸목소프트)",
+            "Representative | Daehoon Kang (강대훈)",
+            "Business address | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Email | support@ssamoksoft.com",
+            "Business registration number | 160-75-00256",
+            "Mail-order business report number | 2019-충북청주-1930",
+            "Reporting and counselling on infringement of personal information (Republic of Korea): Privacy Infringement Report Center (개인정보침해신고센터, privacy.kisa.or.kr, 118), Personal Information Dispute Mediation Committee (개인정보분쟁조정위원회, kopico.go.kr, 1833-6972)"
+          ]
+        },
+        {
+          "t": "9. EU and UK representatives (GDPR Article 27)",
+          "l": [
+            "The Company has appointed representatives pursuant to Article 27 of the EU GDPR and Article 27 of the UK GDPR.",
+            "Region | Representative | Address | Contact",
+            "EU | Prighter EU Rep GmbH | Schellinggasse 3/10, 1010 Vienna, Austria | https://app.prighter.com/portal/19708232400",
+            "United Kingdom | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
+            "Users in the EU/EEA and the United Kingdom can contact the representatives and exercise their rights through this portal, or contact the Company directly. They have the right to lodge a complaint with the supervisory authority in their country of residence."
+          ]
+        },
+        {
+          "t": "10. Changes to this policy",
+          "l": [
+            "Where this policy is changed, the change is announced in an in-app notice or posted on the website from 7 days before it takes effect (30 days before, for material changes).",
+            "Addenda",
+            "This policy takes effect on 2026-10-11. The previous policy (effective 2026-07-25) applies until 2026-10-10.",
+            "Revision history 2026-07-25: first published 2026-10-11 (to take effect; announced 2026-09-11): added descriptions of the map service provider (Google Maps) and Company website hosting (GitHub Pages); disclosed the records that remain after withdrawal (withdrawal-verification identifier, 180 days; deletion job records, 30 days) and the deletion of local data on devices; specified the response deadline for users' rights requests (one month, extendable by up to two further months); added the EU/UK representative item (section 9) and the business information (section 8); and described possible platform-server dictation processing, Android system backup exclusion, external-provider processing and how to check export omissions"
+          ]
+        },
+        {
+          "t": "Previous policy",
+          "b": "Previous Korean policy, marked effective July 25, 2026: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+        }
+      ]
+    },
+    "snuumo_terms": {
+      "title": "Snuumo Terms of Service",
+      "updated": "Announced: 2026-09-11 · Effective: 2026-10-11",
+      "applies": "The previous Terms ( https://www.ssamoksoft.com/privacy/snuumo/archive/terms-2026-08-12/ ) (effective 2026-08-12) apply until 2026-10-10.\n\nThese Terms were originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/terms/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content. Where a mandatory rule of the user's country of habitual residence provides greater protection, that rule prevails (Article 13).",
+      "sections": [
+        {
+          "t": "Article 1 (Purpose)",
+          "l": [
+            "These Terms set out the conditions for using the memo application \"Snuumo\" and its related services (the \"Service\") provided by SSAMOK SOFT (싸목소프트) (the \"Company\"), and the rights and obligations of the Company and the user. Business information of the Company, such as its trade name, representative and contact details, is set out in Article 14."
+          ]
+        },
+        {
+          "t": "Article 2 (Definitions)",
+          "l": [
+            "\"Service\": the Snuumo app together with all of its sync, backup and sharing features.",
+            "\"Account\": the unit identifying a user, created with an email address or social login (Google · Apple).",
+            "\"Free plan\": the plan provided by default. All features may be used without restriction, except that syncing of compressed copies of photos is limited to 100 photos.",
+            "\"Pro\": the paid subscription plan. The sync volume limit is lifted and original photos are automatically backed up to the cloud."
+          ]
+        },
+        {
+          "t": "Article 3 (Posting and Amendment of the Terms)",
+          "l": [
+            "The Company posts these Terms on the Service website (snuumo.com) and in the app so that they can be reviewed.",
+            "The Company may amend these Terms to the extent that doing so does not violate applicable law. The Company gives notice of an amendment through an in-app notice or by email from 7 days before the effective date (30 days before, for changes unfavourable to users). If a user continues to use the Service after such notice, the user is deemed to have agreed to the amended Terms."
+          ]
+        },
+        {
+          "t": "Article 4 (Account)",
+          "l": [
+            "An account is required to use the Service. Users must register with their own accurate information and may not share or transfer their account to another person.",
+            "Users may withdraw at any time through [Settings → Delete account] in the app. Upon withdrawal, the user's data stored on the server is deleted without delay; the minimal records that remain after deletion and their retention periods are governed by Article 9 and the Privacy Policy.",
+            "The Service may be joined and used only by persons aged 14 or older. Where the law of the user's country or region sets a higher minimum age (for example, up to 16 in some countries), the user must be at least that age."
+          ]
+        },
+        {
+          "t": "Article 5 (Subscription Products, Payment and Withdrawal of Subscription)",
+          "l": [
+            "Pro is an auto-renewing subscription offered on a monthly and an annual basis. The annual subscription's 7-day free trial is available only to eligible new subscribers as determined by the store. On the App Store it is limited to once per subscription group, and previous trials or subscriptions may make a user ineligible. Applicable trials and prices can be checked on the purchase screen and in the relevant store; prices are displayed in local currency.",
+            "Payment, renewal and cancellation are processed through the user's app store account (Apple App Store, etc.). A subscription renews automatically unless it is cancelled at least 24 hours before the end of the current period. Cancellation is made on the store's subscription management screen on the device.",
+            "Refunds follow the refund policy and procedures of the relevant app store operator (the Apple Media Services Terms and Conditions, etc.). The Company does not directly receive or refund store payments.",
+            "No charge is made if the subscription is cancelled during the free trial. At the end of the trial the subscription converts automatically to a paid subscription.",
+            "Where the Company changes the subscription price, it gives notice at least 30 days in advance, for example by an in-app notice, and users may cancel before the change takes effect. Price increases follow the procedure set by the store (prior notice or user consent); if a user does not consent to an increase that requires consent, the subscription expires at the end of the current billing period.",
+            "How to request withdrawal of subscription or a refund: because subscription fees are received by the store, a withdrawal of subscription or a refund is requested from the store where the payment was made (Apple App Store, Google Play) in accordance with that store's procedure. The Company does not directly receive or refund such fees, but will provide guidance on what a user needs in order to follow the store's procedure if contacted at support@ssamoksoft.com. Where applicable law grants the user a right of withdrawal, that right is not restricted by these Terms.",
+            "Payments by minors: where a minor has made a payment without the consent of their legal representative, the minor or the legal representative may cancel that payment under the Civil Act (민법). Cancellation and refund are requested through the procedure of the store where the payment was made, as in paragraph 6; the Company supports verification and guidance for enquiries received at support@ssamoksoft.com. Minors must obtain the consent of their legal representative before making a payment."
+          ]
+        },
+        {
+          "t": "Article 6 (Treatment of Data after Cancellation — the \"Freeze\" Principle)",
+          "l": [
+            "Even after a Pro subscription expires, the user's data is not deleted:",
+            "Memos and photos stored on the device are retained as they are, regardless of the subscription.",
+            "Compressed copies that have already been synced are preserved on the server even if they exceed 100 photos; only the syncing of new photos is limited to the free plan level.",
+            "Original photo backups are retained and remain viewable for 90 days from the subscription expiry date, after which they are deleted from the server. If the user re-subscribes within that grace period, they are restored as they were. The Company gives notice of the scheduled deletion date through an in-app notice before expiry."
+          ]
+        },
+        {
+          "t": "Article 7 (Fair Use)",
+          "l": [
+            "The \"unlimited original backup\" of Pro presupposes ordinary personal memo use. If any of the following is confirmed, the Company may, after prior notice, limit sync speed or restrict the backup feature:",
+            "Bulk storage of files unrelated to memos (such as use as a substitute for a cloud drive)",
+            "Bulk uploading using automated tools",
+            "Account sharing, resale, or other use outside the normal scope of the Service"
+          ]
+        },
+        {
+          "t": "Article 8 (User Content and Intellectual Property)",
+          "l": [
+            "Rights in the content a user creates or attaches, such as memos and photos, belong to the user. The Company stores and transmits such content only to the extent necessary to provide the Service, such as for sync, backup and sharing.",
+            "Rights in the Service itself (the app, trademarks and design) belong to the Company.",
+            "Users must not store or share content on the Service that infringes the rights of others or violates applicable law.",
+            "Where content made public through a share link is considered to infringe rights or violate the law, anyone may report it to support@ssamoksoft.com, and the Company will take the necessary measures after review, such as blocking the share link (deleting the snapshot)."
+          ]
+        },
+        {
+          "t": "Article 9 (Retention and Deletion of Data)",
+          "l": [
+            "Memos moved to the trash are permanently deleted after 30 days (immediate permanent deletion is also possible).",
+            "Snapshots created by a share link expire and are deleted 30 days after they are created.",
+            "Upon account deletion, all user data on the server (memos, photos, profile and share snapshots) is deleted without delay and cannot be recovered. Where the volume of data is large, the server's clean-up work continues afterwards.",
+            "Local data on the device from which account deletion was carried out is deleted together with it, without a separate choice. Local data on other devices that were logged in to the same account is also deleted automatically the next time each such device connects.",
+            "Notwithstanding paragraphs 3 and 4, the minimal records needed to clean up other devices and to verify and retry the deletion (the account identifier and deletion time; deletion job records), and records the Company is required by law to preserve, remain for the periods set out in the Privacy Policy.",
+            "Users can export the account's memos, notes and folders stored on this device and available attached photos as JSON and images in a ZIP through [Settings → Export my data] in the app. Some content may be missing if recent changes from another device have not yet synced or photos cannot be retrieved. Original photos are included only when you select the option to include originals and the files can be retrieved. Check the completion notice and snuumo_export.json inside the ZIP for the included photo counts (included) and the omission details (omitted). Separate snapshots created for share links are not included in the export."
+          ]
+        },
+        {
+          "t": "Article 10 (Location-Based Services)",
+          "l": [
+            "In accordance with the Act on the Protection and Use of Location Information (위치정보의 보호 및 이용 등에 관한 법률; the \"Location Information Act\"), the Company specifies in these Terms the matters concerning the use of personal location information as set out below, and uses personal location information only where the user has granted the location permission in the app.",
+            "Purpose of collection and use: to automatically record the place where the user wrote a memo, and to use that record solely to let the user search for that memo by place name and view it on a map. It is not used for any other purpose (such as advertising or profiling).",
+            "Method of collection: the device's location (GPS, etc.) and the capture location of photos attached by the user (EXIF coordinates) are used. Coordinates are converted into place names by the geocoding function of the device operating system (Apple · Google) and stored with the relevant memo; the Google Maps SDK is used for map display. Metadata such as location is removed from photo files stored on the server.",
+            "Retention and use period: personal location information is deleted together with the memo in which it was recorded when that memo is deleted, or when the account is deleted. The Company does not accumulate or retain any separate movement history separated from memos.",
+            "Provision to third parties: the Company does not provide personal location information to third parties. Where provision is necessary, the Company informs the user in advance of the recipient and the purpose of provision and obtains consent, and notifies the user on each occasion of provision.",
+            "User rights and how to exercise them Withdrawal of consent: collection stops immediately if the user turns off [Settings → Record memo location] in the app or revokes the location permission in the device settings. This withdrawal procedure is available at any time. Access, correction and deletion: places recorded in a memo can be viewed and edited directly in the app, and are deleted together with the memo when it is deleted. Access to, and notification of, the data confirming the use and provision of personal location information may be requested at the contact address in Article 14, and the Company will comply unless there is a legitimate reason not to. Disputes concerning location information may be referred for mediation to the Korea Communications Commission (방송통신위원회, kcc.go.kr) or the Personal Information Dispute Mediation Committee (개인정보분쟁조정위원회, kopico.go.kr, 1833-6972).",
+            "Protection of children aged 8 or under and similar persons: because the Service may be used only by persons aged 14 or older, the Company does not provide the location-verification service for guardians of children aged 8 or under and similar persons.",
+            "Restrictions on use of the Service: if the location permission is not granted, or [Record memo location] is turned off, only automatic place recording and place-based search and map display are restricted; other features such as writing and syncing memos remain fully available.",
+            "Business information and location information manager: business information such as the trade name, address and contact details is as set out in Article 14, and the location information manager is Daehoon Kang (강대훈) (Representative, support@ssamoksoft.com)."
+          ]
+        },
+        {
+          "t": "Article 11 (Change and Suspension of the Service)",
+          "l": [
+            "The Company may change the content of the Service as necessary for operational or technical reasons.",
+            "If the Company terminates the Service, it gives notice at least 30 days in advance and provides a means for users to download their data. For any remaining subscription period, the Company provides guidance on the refund procedure under the store's policy."
+          ]
+        },
+        {
+          "t": "Article 12 (Limitation of Liability)",
+          "l": [
+            "The Company is not liable for damage caused by force majeure such as natural disasters or communication failures.",
+            "The Service is designed to be local-first, so the original data is preserved on the user's device; nevertheless, users are advised to also maintain a separate backup of important data. The Android app is configured to exclude all app data from Android automatic cloud backups and device-to-device transfers. Snuumo account sync, Pro original photo storage and manual export are separate features. Before erasing your device or reinstalling the app, check the sync status and keep a separate copy of anything not yet synced using [Settings → Export my data].",
+            "To the extent permitted by applicable law, the Company's liability for damages is limited to the subscription amount actually paid by the user during the preceding 12 months. This limitation does not apply to damage caused by the Company's intent or gross negligence."
+          ]
+        },
+        {
+          "t": "Article 13 (Governing Law and Jurisdiction)",
+          "l": [
+            "These Terms are governed by the laws of the Republic of Korea. However, where the country in which the user has their habitual residence as a consumer has mandatory provisions protecting the user, these Terms do not exclude that protection.",
+            "Disputes relating to use of the Service are brought before the court having jurisdiction under the Civil Procedure Act (민사소송법); a user who is a consumer may also bring an action before the court of their place of habitual residence."
+          ]
+        },
+        {
+          "t": "Article 14 (Business Information)",
+          "l": [
+            "Trade name | SSAMOK SOFT (싸목소프트)",
+            "Representative | Daehoon Kang (강대훈)",
+            "Business address | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Email | support@ssamoksoft.com",
+            "Business registration number | 160-75-00256",
+            "Mail-order business report number | 2019-충북청주-1930",
+            "Personal information protection officer / location information manager | Daehoon Kang (강대훈) (Representative), support@ssamoksoft.com",
+            "Addenda",
+            "These Terms take effect on 2026-10-11. The previous Terms ( https://www.ssamoksoft.com/privacy/snuumo/archive/terms-2026-08-12/ ) (effective 2026-08-12) apply until 2026-10-10.",
+            "Revision history 2026-07-25: first published 2026-08-12: the free plan limit was restated from storage volume to a number of photos 2026-10-11 (to take effect; announced 2026-09-11): new location-based service clause (Article 10) and business information (Article 14); added clauses on withdrawal of subscription and payments by minors (Article 5(6) and (7)); corrected the wording on the treatment of local data upon account deletion to match actual behaviour (Article 4(2) and Article 9); and described trial eligibility, how to check export omissions and Android system backup exclusion",
+            "Contact: support@ssamoksoft.com"
+          ]
+        }
+      ]
+    },
+    "snuumo_delete": {
+      "title": "Deleting your Snuumo account",
+      "updated": "How to delete your account and data completely",
+      "applies": "",
+      "sections": [
+        {
+          "t": "Delete it in the app (recommended)",
+          "l": [
+            "Open the Snuumo app and go to Settings.",
+            "Tap Delete account at the bottom and confirm as prompted.",
+            "As soon as you confirm, deletion of your server data (memos, photos, account) begins, and the local data on this device is deleted together with it, without a separate choice. Local data on other devices that are logged in is deleted automatically the next time each such device connects."
+          ]
+        },
+        {
+          "t": "If you cannot use the app",
+          "l": [
+            "Please send a request to delete your account to support@ssamoksoft.com from the email address you signed up with. We process it without delay after verifying you (by the request being sent from the sign-up email address)."
+          ]
+        },
+        {
+          "t": "Data that is deleted",
+          "l": [
+            "Account, memos, photos and profile: permanently deleted (unrecoverable). If the volume of data is large, the server's clean-up work continues afterwards; once completed, the data cannot be recovered.",
+            "Share links you created and their attachments: deleted together with the account",
+            "Local data stored on devices: immediately on the device where deletion was carried out, and on other logged-in devices the next time each connects"
+          ]
+        },
+        {
+          "t": "What remains after deletion",
+          "l": [
+            "The records below contain no memo content, photos or location information.",
+            "Record that remains | Retention period | Reason",
+            "Withdrawal-verification identifier (account identifier and withdrawal time) | 180 days from withdrawal | To clean up the local data of another device that was still logged in but switched off, when that device connects again",
+            "Deletion job records (account identifier, share token, paths of files to be deleted) | 30 days after deletion is completed | To check for missed deletions and to retry them",
+            "Records the Company is legally required to preserve | The period set by the relevant law (for example, 5 years for records of contracts and withdrawal of subscription under the Act on Consumer Protection in Electronic Commerce (전자상거래 등에서의 소비자보호에 관한 법률)) | Legal obligation",
+            "For details, see section 3 (Retention periods and destruction) of the Privacy Policy."
+          ]
+        }
+      ]
+    },
+    "snuumo_support": {
+      "title": "Snuumo Support",
+      "updated": "",
+      "applies": "Contact support@ssamoksoft.com for help. Do not send passwords or payment card information.",
+      "sections": [
+        {
+          "t": "Sync problems",
+          "b": "Check your internet connection and signed-in account, then retry. If the issue continues, include your device model, OS and app version, and when it occurred."
+        },
+        {
+          "t": "Purchases and subscriptions",
+          "b": "Use Restore purchases in app settings. Manage cancellations and refund requests in the App Store or Google Play used for payment. Deleting your account does not cancel a subscription."
+        },
+        {
+          "t": "Account and data deletion",
+          "b": "Delete your account in app settings. If you cannot access the app, contact us from the registered email address. https://www.ssamoksoft.com/privacy/snuumo/delete-account/"
+        },
+        {
+          "t": "Report a security issue",
+          "b": "Send a description, reproduction steps and impact to the same email address. Do not include another user’s personal data or secret keys."
+        }
+      ]
+    },
+    "snuumo_impressum": {
+      "title": "Impressum",
+      "updated": "",
+      "applies": "Provider information and public contact details for Snuumo.",
+      "sections": [
+        {
+          "t": "Business and contact information",
+          "l": [
+            "Trade name | SSAMOK SOFT (싸목소프트)",
+            "Representative | Daehoon Kang (강대훈)",
+            "Business address | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Email | support@ssamoksoft.com",
+            "Business registration number | 160-75-00256",
+            "Mail-order business report number | 2019-충북청주-1930"
+          ]
+        },
+        {
+          "t": "Privacy enquiries",
+          "b": "Contact support@ssamoksoft.com for privacy enquiries and rights requests."
+        },
+        {
+          "t": "EU and UK representatives",
+          "l": [
+            "The Company has appointed representatives pursuant to Article 27 of the EU GDPR and Article 27 of the UK GDPR.",
+            "Region | Representative | Address | Contact",
+            "EU | Prighter EU Rep GmbH | Schellinggasse 3/10, 1010 Vienna, Austria | https://app.prighter.com/portal/19708232400",
+            "United Kingdom | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
+            "Users in the EU/EEA and the United Kingdom can contact the representatives and exercise their rights through this portal, or contact the Company directly. They have the right to lodge a complaint with the supervisory authority in their country of residence."
+          ]
+        }
       ]
     }
   }

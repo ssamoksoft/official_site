@@ -58,7 +58,7 @@ Edit **`data/apps.json`** only, then regenerate. Add a block to `apps`:
 ```
 
 - `icon`: path to an image, or `null` to auto-generate a lettered tile from the name.
-- `status`: `"released"` or `"coming_soon"` (shows a badge; cards without store links are not clickable).
+- `status`: `"released"` or `"coming_soon"` (shows a badge and disables store links until release).
 - `privacy`: drives the auto-generated data-processing summary on `/privacy/<id>/`.
   `backend` is `firebase` / `supabase` / `local`; add `extras` for app-specific lines.
 - `docs`: which extra legal pages exist, so the privacy page cross-links them.
@@ -67,13 +67,17 @@ Edit **`data/apps.json`** only, then regenerate. Add a block to `apps`:
 ## Localization (16 languages)
 
 `en, ko, ja, zh, zh_Hant, es, pt, de, fr, hi, id, ru, vi, tr, it, ar` — default `en`,
-Arabic renders right-to-left. All 16 are fully translated, including the legal documents.
+Arabic renders right-to-left. Existing app documents retain their translations.
+Snuumo legal, deletion, support, and Impressum pages are available in Korean and English;
+other language choices display the English document with left-to-right text.
 
 - Copy lives in `data/i18n/<lang>.json`; any missing key falls back to `en.json`.
 - English is served by `/`; every other language also has a static page at `/<lang>/`
   (`/zh-Hant/` for `zh_Hant`), linked by `hreflang` and listed in `sitemap.xml`.
 - On the home page the switcher navigates between those URLs. Elsewhere it swaps text in
-  place. A static page declares `data-lang`, which overrides the saved preference.
+  place. A supported `?lang=` query takes precedence without replacing a saved preference;
+  otherwise a static page declares `data-lang`, which overrides the saved preference.
+  Internal document links preserve the current language.
 
 ## Legal pages
 
@@ -85,6 +89,13 @@ They are intentionally left out of `sitemap.xml` and have no pre-rendered langua
 they must stay reachable, but they name apps that have not launched yet, so there is no reason
 to invite indexing. For the same reason the generator skips `status: "coming_soon"` apps when
 pre-rendering the product grid — `app.js` still shows those cards to visitors.
+
+## Snuumo pages
+
+Snuumo is listed as coming soon. Its public documents are under `/privacy/snuumo/`:
+`terms/`, `delete-account/`, `support/`, `impressum/`, and the preserved policy
+`archive/2026-07-25/` and terms `archive/terms-2026-08-12/`. Support contact: **support@ssamoksoft.com**.
+The Snuumo document shells use same-origin assets and system fonts.
 
 ## Local preview
 

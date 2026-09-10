@@ -1,6 +1,23 @@
 {
   "defaultLang": "en",
-  "languages": ["en", "ko", "ja", "zh", "zh_Hant", "es", "pt", "de", "fr", "hi", "id", "ru", "vi", "tr", "it", "ar"],
+  "languages": [
+    "en",
+    "ko",
+    "ja",
+    "zh",
+    "zh_Hant",
+    "es",
+    "pt",
+    "de",
+    "fr",
+    "hi",
+    "id",
+    "ru",
+    "vi",
+    "tr",
+    "it",
+    "ar"
+  ],
   "apps": [
     {
       "id": "kairotique",
@@ -8,10 +25,29 @@
       "accent": "#8B5CF6",
       "status": "coming_soon",
       "icon": "/assets/apps/kairotique.png",
-      "links": { "play": "https://play.google.com/store/apps/details?id=com.ssamoksoft.kairotique", "appstore": "https://apps.apple.com/app/id6803899471" },
-      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true, "extras": ["social", "fcm", "revenuecat", "inapp_delete"] },
-      "docs": ["terms", "delete"],
-      "name": { "en": "Kairotique" },
+      "links": {
+        "play": "https://play.google.com/store/apps/details?id=com.ssamoksoft.kairotique",
+        "appstore": "https://apps.apple.com/app/id6803899471"
+      },
+      "privacy": {
+        "backend": "firebase",
+        "account": true,
+        "ads": true,
+        "iap": true,
+        "extras": [
+          "social",
+          "fcm",
+          "revenuecat",
+          "inapp_delete"
+        ]
+      },
+      "docs": [
+        "terms",
+        "delete"
+      ],
+      "name": {
+        "en": "Kairotique"
+      },
       "tagline": {
         "en": "Shared timers and logs — record together in real time.",
         "ko": "함께 기록하는 공유 타이머·로그.",
@@ -37,10 +73,24 @@
       "accent": "#14B8A6",
       "status": "coming_soon",
       "icon": null,
-      "links": { "play": "", "appstore": "" },
-      "privacy": { "backend": "supabase", "account": true, "ads": false, "iap": true },
-      "docs": ["terms", "delete"],
-      "name": { "en": "Stelleaf", "ko": "별갈피" },
+      "links": {
+        "play": "",
+        "appstore": ""
+      },
+      "privacy": {
+        "backend": "supabase",
+        "account": true,
+        "ads": false,
+        "iap": true
+      },
+      "docs": [
+        "terms",
+        "delete"
+      ],
+      "name": {
+        "en": "Stelleaf",
+        "ko": "별갈피"
+      },
       "tagline": {
         "en": "Rate and archive the places, books, and things you try.",
         "ko": "가본 곳, 읽은 책, 써본 것을 별점으로 기록하세요.",
@@ -66,9 +116,19 @@
       "accent": "#8A93A6",
       "status": "released",
       "icon": "/assets/apps/stopwatcha.png",
-      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/stopwatcha-stopwatch-for-pro/id1510884418" },
-      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
-      "name": { "en": "StopWatchA" },
+      "links": {
+        "play": "",
+        "appstore": "https://apps.apple.com/us/app/stopwatcha-stopwatch-for-pro/id1510884418"
+      },
+      "privacy": {
+        "backend": "firebase",
+        "account": true,
+        "ads": true,
+        "iap": true
+      },
+      "name": {
+        "en": "StopWatchA"
+      },
       "tagline": {
         "en": "A pro stopwatch and timer with buttons you build yourself.",
         "ko": "원하는 버튼을 직접 만드는 프로용 스톱워치·타이머.",
@@ -94,9 +154,19 @@
       "accent": "#CDA349",
       "status": "released",
       "icon": "/assets/apps/about-my-time.png",
-      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/about-my-time-cloud-diary/id1509449464" },
-      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
-      "name": { "en": "About My Time" },
+      "links": {
+        "play": "",
+        "appstore": "https://apps.apple.com/us/app/about-my-time-cloud-diary/id1509449464"
+      },
+      "privacy": {
+        "backend": "firebase",
+        "account": true,
+        "ads": true,
+        "iap": true
+      },
+      "name": {
+        "en": "About My Time"
+      },
       "tagline": {
         "en": "A simple, secure cloud diary for your everyday.",
         "ko": "하루를 안전하게 담는 간편한 클라우드 일기.",
@@ -122,9 +192,19 @@
       "accent": "#E27D3A",
       "status": "released",
       "icon": "/assets/apps/m17.png",
-      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/m17-review-evaluation-rankings/id1507718575" },
-      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
-      "name": { "en": "M17" },
+      "links": {
+        "play": "",
+        "appstore": "https://apps.apple.com/us/app/m17-review-evaluation-rankings/id1507718575"
+      },
+      "privacy": {
+        "backend": "firebase",
+        "account": true,
+        "ads": true,
+        "iap": true
+      },
+      "name": {
+        "en": "M17"
+      },
       "tagline": {
         "en": "Rate and rank the things you buy and love.",
         "ko": "사본 것, 좋아한 것을 기록하고 순위를 매기세요.",
@@ -150,9 +230,19 @@
       "accent": "#5C6BC0",
       "status": "released",
       "icon": "/assets/apps/about-couples.png",
-      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/about-couples-d-day-event/id1460188851" },
-      "privacy": { "backend": "local", "account": false, "ads": true, "iap": false },
-      "name": { "en": "About Couples" },
+      "links": {
+        "play": "",
+        "appstore": "https://apps.apple.com/us/app/about-couples-d-day-event/id1460188851"
+      },
+      "privacy": {
+        "backend": "local",
+        "account": false,
+        "ads": true,
+        "iap": false
+      },
+      "name": {
+        "en": "About Couples"
+      },
       "tagline": {
         "en": "Track anniversaries and D-days with the one you love.",
         "ko": "처음 만난 날부터, 연인과의 기념일과 디데이 관리.",
@@ -178,9 +268,19 @@
       "accent": "#2E6BD6",
       "status": "released",
       "icon": "/assets/apps/imincloud.png",
-      "links": { "play": "", "appstore": "https://apps.apple.com/us/app/imincloud/id1495740913" },
-      "privacy": { "backend": "firebase", "account": true, "ads": true, "iap": true },
-      "name": { "en": "Imin Cloud" },
+      "links": {
+        "play": "",
+        "appstore": "https://apps.apple.com/us/app/imincloud/id1495740913"
+      },
+      "privacy": {
+        "backend": "firebase",
+        "account": true,
+        "ads": true,
+        "iap": true
+      },
+      "name": {
+        "en": "Imin Cloud"
+      },
       "tagline": {
         "en": "Subscriptions, logins, and private notes — safe in one place.",
         "ko": "구독·로그인·비밀 메모를 안전하게 한곳에.",
@@ -198,6 +298,40 @@
         "tr": "Abonelikler, giriş bilgileri ve özel notlar — tek yerde güvende.",
         "it": "Abbonamenti, accessi e note private, al sicuro in un unico posto.",
         "ar": "الاشتراكات وبيانات الدخول والملاحظات الخاصة — بأمان في مكان واحد."
+      }
+    },
+    {
+      "id": "snuumo",
+      "category": "productivity",
+      "accent": "#7D9B76",
+      "status": "coming_soon",
+      "icon": null,
+      "links": {},
+      "privacy": {
+        "backend": "supabase",
+        "account": true,
+        "ads": false,
+        "iap": true,
+        "extras": [
+          "social",
+          "revenuecat",
+          "inapp_delete"
+        ]
+      },
+      "docs": [
+        "terms",
+        "delete",
+        "support",
+        "impressum"
+      ],
+      "name": {
+        "en": "Snuumo",
+        "ko": "스누모",
+        "ja": "スヌーモ"
+      },
+      "tagline": {
+        "en": "Write it down, sort it later.",
+        "ko": "적고, 정리하고, 나누는 메모."
       }
     }
   ]
