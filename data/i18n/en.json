@@ -402,8 +402,8 @@
     },
     "snuumo_privacy": {
       "title": "Snuumo Privacy Policy",
-      "updated": "Announced: 2026-09-11 · Effective: 2026-10-11",
-      "applies": "The effective date was set 30 days after the announcement date in order to observe the prior-notice period in section 10. The previous policy (effective 2026-07-25) applies until 2026-10-10.\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
+      "updated": "Announced: 2026-09-12 · Effective: 2026-09-12",
+      "applies": "The Service has only been tested before release and has not been provided to general users. These documents are effective from September 12, 2026 and apply to Service users from public launch. Earlier preparation documents are retained as history.\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
       "sections": [
         {
           "t": "1. Personal information collected and how it is collected",
@@ -515,20 +515,24 @@
           "l": [
             "Where this policy is changed, the change is announced in an in-app notice or posted on the website from 7 days before it takes effect (30 days before, for material changes).",
             "Addenda",
-            "This policy takes effect on 2026-10-11. The previous policy (effective 2026-07-25) applies until 2026-10-10.",
-            "Revision history 2026-07-25: first published 2026-10-11 (to take effect; announced 2026-09-11): added descriptions of the map service provider (Google Maps) and Company website hosting (GitHub Pages); disclosed the records that remain after withdrawal (withdrawal-verification identifier, 180 days; deletion job records, 30 days) and the deletion of local data on devices; specified the response deadline for users' rights requests (one month, extendable by up to two further months); added the EU/UK representative item (section 9) and the business information (section 8); and described possible platform-server dictation processing, Android system backup exclusion, external-provider processing and how to check export omissions"
+            "This policy takes effect on 2026-09-12 and applies to Service users from public launch.",
+            "Revision history 2026-07-25: first published 2026-09-11 (pre-release publication): added descriptions of the map service provider (Google Maps) and Company website hosting (GitHub Pages); disclosed the records that remain after withdrawal (withdrawal-verification identifier, 180 days; deletion job records, 30 days) and the deletion of local data on devices; specified the response deadline for users' rights requests (one month, extendable by up to two further months); added the EU/UK representative item (section 9) and the business information (section 8); and described possible platform-server dictation processing, Android system backup exclusion, external-provider processing and how to check export omissions 2026-09-12: finalised the pre-release documents before providing the Service to general users; aligned announcement and effective dates and preserved earlier preparation documents"
           ]
         },
         {
-          "t": "Previous policy",
-          "b": "Previous Korean policy, marked effective July 25, 2026: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+          "t": "Earlier preparation document",
+          "b": "Archived Korean preparation document, marked effective July 25, 2026: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+        },
+        {
+          "t": "September 11 pre-release document",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/2026-09-11/"
         }
       ]
     },
     "snuumo_terms": {
       "title": "Snuumo Terms of Service",
-      "updated": "Announced: 2026-09-11 · Effective: 2026-10-11",
-      "applies": "The previous Terms ( https://www.ssamoksoft.com/privacy/snuumo/archive/terms-2026-08-12/ ) (effective 2026-08-12) apply until 2026-10-10.\n\nThese Terms were originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/terms/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content. Where a mandatory rule of the user's country of habitual residence provides greater protection, that rule prevails (Article 13).",
+      "updated": "Announced: 2026-09-12 · Effective: 2026-09-12",
+      "applies": "The Service has only been tested before release and has not been provided to general users. These documents are effective from September 12, 2026 and apply to Service users from public launch. Earlier preparation documents are retained as history.\n\nThese Terms were originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/terms/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content. Where a mandatory rule of the user's country of habitual residence provides greater protection, that rule prevails (Article 13).",
       "sections": [
         {
           "t": "Article 1 (Purpose)",
@@ -657,10 +661,18 @@
             "Mail-order business report number | 2019-충북청주-1930",
             "Personal information protection officer / location information manager | Daehoon Kang (강대훈) (Representative), support@ssamoksoft.com",
             "Addenda",
-            "These Terms take effect on 2026-10-11. The previous Terms ( https://www.ssamoksoft.com/privacy/snuumo/archive/terms-2026-08-12/ ) (effective 2026-08-12) apply until 2026-10-10.",
-            "Revision history 2026-07-25: first published 2026-08-12: the free plan limit was restated from storage volume to a number of photos 2026-10-11 (to take effect; announced 2026-09-11): new location-based service clause (Article 10) and business information (Article 14); added clauses on withdrawal of subscription and payments by minors (Article 5(6) and (7)); corrected the wording on the treatment of local data upon account deletion to match actual behaviour (Article 4(2) and Article 9); and described trial eligibility, how to check export omissions and Android system backup exclusion",
+            "These Terms take effect on 2026-09-12 and apply to Service users from public launch.",
+            "Revision history 2026-07-25: first published 2026-08-12: the free plan limit was restated from storage volume to a number of photos 2026-09-11 (pre-release publication): new location-based service clause (Article 10) and business information (Article 14); added clauses on withdrawal of subscription and payments by minors (Article 5(6) and (7)); corrected the wording on the treatment of local data upon account deletion to match actual behaviour (Article 4(2) and Article 9); and described trial eligibility, how to check export omissions and Android system backup exclusion 2026-09-12: finalised the pre-release documents before providing the Service to general users; aligned announcement and effective dates and preserved earlier preparation documents",
             "Contact: support@ssamoksoft.com"
           ]
+        },
+        {
+          "t": "Earlier preparation document",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/terms-2026-08-12/"
+        },
+        {
+          "t": "September 11 pre-release document",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/terms-2026-09-11/"
         }
       ]
     },
