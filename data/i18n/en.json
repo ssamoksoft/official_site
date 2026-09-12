@@ -490,7 +490,7 @@
         {
           "t": "7. Security measures",
           "l": [
-            "Encryption in transit (TLS) and one-way encrypted storage of passwords",
+            "Encryption in transit (TLS) to Company authentication/sync servers and one-way encrypted storage of passwords",
             "Per-account access control (a server policy under which only the user's own data is accessible, RLS)",
             "No advertising tracking or advertising identifier collection; management of data needed to provide features",
             "Minimisation of access privileges to personal information"
