@@ -1,0 +1,103 @@
+{
+  "retrieved": "2026-09-12",
+  "files": [
+    {
+      "file": "google-fonts.css",
+      "source": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap",
+      "bytes": 1398,
+      "sha256": "fc09b00369aa679ab0b7eae9c887b8af4314d8c346ef5f2ac5b4c9b76301df55",
+      "local_sha256": "ff6a86015a508225e1e80ba430fb66e17eef0f89b42365d656dccab8f941744b"
+    },
+    {
+      "file": "font-00.ttf",
+      "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+      "bytes": 326048,
+      "sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7",
+      "local_sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7"
+    },
+    {
+      "file": "font-01.ttf",
+      "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+      "bytes": 325304,
+      "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63",
+      "local_sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63"
+    },
+    {
+      "file": "font-02.ttf",
+      "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+      "bytes": 324820,
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba",
+      "local_sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+      "file": "font-03.ttf",
+      "source": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42Vksj.ttf",
+      "bytes": 69356,
+      "sha256": "6c0346b8d297ebdc225832833e03e884a26ad99d265ecd3924d46e1ba285ea87",
+      "local_sha256": "6c0346b8d297ebdc225832833e03e884a26ad99d265ecd3924d46e1ba285ea87"
+    },
+    {
+      "file": "font-04.ttf",
+      "source": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksj.ttf",
+      "bytes": 69308,
+      "sha256": "3e756954468ff1cb302dae0414262e72f76a67d87bef3fa1f3226cd0fb9b2d85",
+      "local_sha256": "3e756954468ff1cb302dae0414262e72f76a67d87bef3fa1f3226cd0fb9b2d85"
+    },
+    {
+      "file": "font-05.ttf",
+      "source": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsj.ttf",
+      "bytes": 69416,
+      "sha256": "3e699ead1876244fa392243054ddefe7cf631b488438828a8a100731a22ab995",
+      "local_sha256": "3e699ead1876244fa392243054ddefe7cf631b488438828a8a100731a22ab995"
+    },
+    {
+      "file": "tabler-icons.min.css",
+      "source": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css",
+      "bytes": 222497,
+      "sha256": "7d0270b9bde5fb7976c0db14629fdbd7ab1eb212cc097c04b6d02253e83d291b",
+      "local_sha256": "ae6f479afa60da5896ce2316b726f5231194da1fb3cc3ead7acd4e0f8e02ab79"
+    },
+    {
+      "file": "tabler-icons.ttf",
+      "source": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/fonts/tabler-icons.ttf?v3.7.0",
+      "bytes": 2315672,
+      "sha256": "cc458f9472874a47e36a32f16d8e1aa3ac88aa95939d44707827a1d9642ff3d8",
+      "local_sha256": "cc458f9472874a47e36a32f16d8e1aa3ac88aa95939d44707827a1d9642ff3d8"
+    },
+    {
+      "file": "tabler-icons.woff2",
+      "source": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/fonts/tabler-icons.woff2?v3.7.0",
+      "bytes": 825116,
+      "sha256": "8b10186607747b05e09d4b6564dc3a9de88fc235f4b8f862764ff6bac534b2b9",
+      "local_sha256": "8b10186607747b05e09d4b6564dc3a9de88fc235f4b8f862764ff6bac534b2b9"
+    },
+    {
+      "file": "tabler-icons.woff",
+      "source": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/fonts/tabler-icons.woff?",
+      "bytes": 1166196,
+      "sha256": "541cdf91b678839eb7c7b53b49d6c8ef88d8cfcd23ea1a1edd4ccfcc4ae06493",
+      "local_sha256": "541cdf91b678839eb7c7b53b49d6c8ef88d8cfcd23ea1a1edd4ccfcc4ae06493"
+    },
+    {
+      "file": "Inter-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "local_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "file": "SpaceGrotesk-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "local_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "file": "Tabler-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/v3.7.0/LICENSE",
+      "bytes": 1073,
+      "sha256": "d5a3f948ae5cb95bfc4d2f767ef2bf6a778815b0ddb2d1c48037744cf636518e",
+      "local_sha256": "d5a3f948ae5cb95bfc4d2f767ef2bf6a778815b0ddb2d1c48037744cf636518e"
+    }
+  ]
+}
