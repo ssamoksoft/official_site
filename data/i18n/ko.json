@@ -455,23 +455,26 @@
         {
           "t": "4. 외부 서비스 이용과 국외 이전",
           "l": [
-            "서비스 제공을 위해 아래 외부 서비스를 이용하며, 일부 정보가 해당 사업자에게 전달됩니다.",
-            "외부 사업자 | 사업자 소재/데이터 위치 | 이용 목적 | 전달 항목",
-            "Supabase, Inc. | 미국 법인 / 데이터 저장: 대한민국(AWS 서울 리전) | 데이터베이스·스토리지·인증 호스팅 | 1항의 계정·콘텐츠·위치·위치 이용사실 확인자료·동의 상태·구독 정보(받아쓰기 원본 음성 제외)",
-            "Cloudflare, Inc. | 미국 | 웹사이트(snuumo.com)·공유 페이지 호스팅/CDN | 페이지 접속 시 IP 주소 등 접속 정보",
-            "GitHub, Inc. | 처리 위치는 GitHub 개인정보처리방침에 따름 | 회사 웹사이트(ssamoksoft.com)의 GitHub Pages 호스팅 | GitHub 로그인 여부와 관계없이 보안을 위해 방문자의 IP 주소를 기록·보관함(GitHub Pages 안내 ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection ) ). 요청 시각·페이지 등 요청 정보, 브라우저·기기 정보도 처리될 수 있음. 처리 위치와 보유 기간 등은 GitHub 개인정보처리방침 ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ) 에 따름",
-            "RevenueCat, Inc. | 미국 | 구독 상태 관리 | 계정 식별자, 스토어 거래 정보",
-            "Apple Inc. / Google LLC | 미국 | 결제 처리 / 소셜 로그인 | 각 사 약관에 따름",
-            "Apple Inc. / Google LLC | 미국 | 좌표→지명 변환(역지오코딩): 위치 태그 생성 시 좌표가 기기 플랫폼의 지오코딩 서비스로 전송 | 메모 작성 지점의 좌표. 회사는 메모의 좌표·지명을 메모와 함께 보관하며, 제공자의 요청 정보 처리·보유는 해당 제공자의 정책에 따름",
-            "Google LLC | 미국 | 지도 표시(Google Maps SDK) | 지도 표시 시 조회 영역 좌표·IP 등. SDK 는 Google Maps Platform 약관을 따르며, 구글의 처리 내용은 구글 개인정보처리방침 ( https://policies.google.com/privacy ) 에 따릅니다",
-            "정보는 해당 서비스나 웹사이트를 이용하는 시점에 네트워크를 통해 전달됩니다. 회사가 보유하는 정보의 기간은 3항과 같습니다. 외부 사업자가 자체적으로 처리하는 접속·요청·거래 정보 등의 처리 위치와 보유 기간은 해당 사업자의 정책과 적용되는 계약에 따르며, 회사의 메모 보유 기간과 같다고 보장하지 않습니다. 이용자는 국외 이전을 거부할 수 있으나 이 경우 동기화·구독 기능 이용이 제한됩니다.",
-            "받아쓰기를 선택하면 1항에서 설명한 음성이 운영체제의 음성 인식 서비스 제공자에게 전달될 수 있습니다. 실제 제공자·처리 위치·보유 기간은 기기·언어·설정과 해당 제공자의 정책에 따라 달라지며, 회사 서버의 메모 보유 기간을 해당 제공자의 음성 보유 기간으로 적용하지 않습니다. 이 처리를 원하지 않으면 받아쓰기 대신 직접 텍스트를 입력할 수 있습니다."
+            "회사는 인증·동기화·구독 관리와 웹 호스팅을 위해 아래 서비스를 이용합니다. Supabase·RevenueCat은 회사의 지시에 따라 이용자 정보를 처리하는 수탁자이며, Cloudflare도 호스팅을 위해 처리하는 고객 데이터에 관해 수탁자로 이용합니다. 각 서비스의 표준 약관에 개인정보 처리계약(DPA)이 포함됩니다. 플랫폼의 로그인·결제·지도 서비스와 웹사이트 방문 정보에 대한 독립적인 처리는 각 제공자의 약관·개인정보처리방침도 적용됩니다.",
+            "외부 사업자 | 사업자 소재/데이터 위치 | 이용 목적·역할 | 전달 항목",
+            "Supabase Pte. Ltd. | 싱가포르 법인 / 주 데이터 저장: 대한민국(AWS 서울 ap-northeast-2). 지원·운영 및 재위탁 처리는 다른 국가에서 이루어질 수 있음 | 인증·데이터베이스·사진 저장의 처리위탁 | 1항의 계정·콘텐츠·위치·위치 이용사실 확인자료·동의 상태·구독 정보, 접속·요청 정보. 받아쓰기 원본 음성 제외",
+            "Cloudflare, Inc. | 미국 법인 / 글로벌 네트워크 | snuumo.com과 공유 링크 진입 페이지의 호스팅·CDN·보안 처리위탁 | 접속 IP, 요청 URL(공유 링크의 토큰 포함), 요청 시각, 브라우저·기기 정보. 회사의 메모 데이터베이스를 Cloudflare에 복제하지 않음",
+            "RevenueCat, Inc. | 미국 / 처리 위치는 적용 DPA와 재위탁 목록에 따름 | 구독 확인·복원·상태 관리의 처리위탁 | Snuumo 계정 식별자, 상품·구매·영수증 또는 구매 토큰·구독 상태, 앱·OS·기기 정보, 최근 접속과 국가 정보. 회사는 메모·사진·음성이나 이메일을 RevenueCat에 설정해 보내지 않음",
+            "Apple Inc. / Google LLC 및 해당 지역 플랫폼 법인 | 미국 등 각 플랫폼 정책에 따른 국가 | 이용자가 선택한 소셜 로그인·스토어 결제의 플랫폼 자체 처리 | 인증 요청·앱 식별 정보·IP 및 기기 정보, 결제 시 상품과 거래 정보. 회사가 받는 것은 로그인 식별자·이메일·인증 토큰과 구독 확인 정보이며, 플랫폼 비밀번호나 카드번호를 받지 않음",
+            "Apple / Google 또는 기기에 설정된 지오코딩 제공자 | 기기 플랫폼과 제공자 정책에 따른 국가 | 위치 태그를 위한 좌표→지명 변환 | 위치 동의 후 메모 작성 지점의 좌표·요청 정보. 회사는 반환된 지명과 좌표를 메모와 함께 보관",
+            "Google LLC 및 해당 Google Maps 계약 법인 | 미국 등 Google 정책에 따른 국가 | 지도 표시. Google Maps 계약상 양측은 각각 독립적인 개인정보처리자 | 지도 조회 영역·좌표·IP 및 SDK 요청 정보. Google Maps Platform 약관과 Google 개인정보처리방침 적용",
+            "GitHub, Inc. 및 해당 지역 법인 | 미국 등 GitHub 정책에 따른 국가 | ssamoksoft.com의 GitHub Pages 호스팅. GitHub는 방문 보안 정보 등을 자체 정책에 따라 처리 | 로그인 여부와 관계없이 방문자 IP를 기록·보관하며 요청 시각·페이지·브라우저·기기 정보도 처리될 수 있음. 이용자 메모·사진은 회사 사이트에 업로드하지 않음",
+            "Supabase DPA ( https://supabase.com/legal/customer-resources/data-processing-addendum ) · RevenueCat DPA ( https://www.revenuecat.com/dpa ) · Cloudflare DPA ( https://www.cloudflare.com/cloudflare-customer-dpa/ ) · Apple Privacy ( https://www.apple.com/legal/privacy/ ) · Google Privacy ( https://policies.google.com/privacy ) · Google Maps Terms ( https://cloud.google.com/maps-platform/terms ) · GitHub Privacy ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ) · GitHub Pages ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection )",
+            "정보는 로그인·동기화·구독 확인 또는 해당 기능·웹사이트를 이용하는 시점에 네트워크를 통해 전달됩니다. 회사가 보유하는 정보의 기간은 3항과 같습니다. 외부 제공자의 운영·접속·거래 기록은 해당 계약과 정책에 따라 처리되며 회사의 메모 보유 기간과 같다고 보장하지 않습니다. 스토어의 구독 해지와 Snuumo 계정 삭제는 별개입니다.",
+            "이전 및 외부 처리를 거부하거나 삭제를 요청하려면 support@ssamoksoft.com으로 연락할 수 있습니다. 필수 인증·서버 동기화 처리를 거부하면 계정 서비스 이용이 제한됩니다. 선택 기능은 사용하지 않을 수 있으며, 위치 처리는 설정에서 동의를 철회하고 기존 위치를 삭제할 수 있습니다.",
+            "받아쓰기를 선택하면 1항에서 설명한 음성이 Apple·Google 또는 기기에 설정된 음성 인식 제공자의 서버로 전달될 수 있습니다. 제공자·처리 국가·보유 기간은 기기·언어·설정과 제공자 정책에 따라 다릅니다. 이 처리를 원하지 않으면 직접 텍스트를 입력할 수 있습니다.",
+            "링크 미리보기는 기기에서 해당 웹사이트와 미리보기 이미지 서버에 접속하므로 IP와 요청 URL이 각 운영자에게 전달됩니다. 해당 운영자의 정책이 적용됩니다."
           ]
         },
         {
           "t": "5. 제3자 제공",
           "l": [
-            "회사는 이용자의 동의 없이 개인정보를 제3자에게 제공하지 않습니다. 단, 법령에 근거한 적법한 요청이 있는 경우는 예외로 합니다."
+            "회사는 개인정보를 판매하거나 광고 목적으로 제공하지 않습니다. 4항의 처리위탁과 이용자가 선택한 외부 플랫폼 기능을 구분하여 안내하며, 그 밖의 제3자 제공은 필요한 동의를 받거나 법령상 근거가 있는 경우에만 진행합니다."
           ]
         },
         {
