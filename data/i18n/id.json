@@ -179,6 +179,159 @@
         { "t": "Retensi menurut hukum", "b": "Catatan terkait pembayaran yang wajib disimpan menurut undang-undang e-commerce Korea dan peraturan terkait disimpan selama periode wajib lalu dimusnahkan." },
         { "t": "Kontak", "b": "Untuk pertanyaan tentang penghapusan, hubungi ssamoksoft@gmail.com." }
       ]
+    },
+    "snuumo_privacy": {
+      "title": "Kebijakan Privasi Snuumo",
+      "updated": "Diumumkan: 2026-09-12 · Berlaku: 2026-09-12",
+      "applies": "Layanan baru menjalani pengujian sebelum peluncuran dan belum disediakan kepada pengguna umum. Dokumen ini berlaku sejak 12 September 2026 dan diterapkan kepada pengguna Layanan mulai peluncuran publik. Dokumen persiapan sebelumnya disimpan sebagai riwayat.\n\nKebijakan Privasi ini awalnya disusun dalam bahasa Korea. Teks bahasa Indonesia ini merupakan terjemahan dari naskah asli bahasa Korea di https://www.ssamoksoft.com/privacy/snuumo/?lang=ko agar pengguna dan peninjau yang tidak membaca bahasa Korea dapat memahami isi yang sama.\n\nSSAMOK SOFT (싸목소프트) (\"Perusahaan\") menyediakan aplikasi memo \"Snuumo\" (\"Layanan\") serta melindungi dan memproses informasi pribadi pengguna sebagaimana dijelaskan di bawah ini, sesuai dengan Undang-Undang Perlindungan Informasi Pribadi Korea (개인정보 보호법, \"PIPA\") dan peraturan perundang-undangan lain yang berlaku.",
+      "sections": [
+        {
+          "t": "1. Informasi pribadi yang dikumpulkan dan cara pengumpulannya",
+          "l": [
+            "Kategori | Jenis informasi | Metode",
+            "Akun (wajib) | Alamat email dan kata sandi (disimpan terenkripsi), atau pengenal login sosial (pengenal akun Google · Apple, email, nama dan URL foto profil yang diberikan penyedia) | Saat mendaftar",
+            "Konten | Isi memo (teks dan daftar periksa), foto terlampir (salinan terkompresi; termasuk foto asli untuk Pro), teks yang dikenali dalam foto (OCR), teks hasil dikte yang Anda simpan, informasi pratinjau tautan, waktu pengingat | Saat pengguna membuat atau melampirkannya (disimpan di server untuk sinkronisasi dan pencadangan)",
+            "Informasi lokasi | Koordinat dan nama tempat lokasi memo serta koordinat EXIF foto terlampir di iOS. Metadata lokasi dihapus dari berkas foto sebelum diunggah | Hanya setelah memberikan persetujuan terpisah yang bersifat opsional untuk layanan lokasi dan mengaktifkan Rekam lokasi memo. Lokasi perangkat juga memerlukan izin OS; EXIF foto iOS terpisah dari izin lokasi OS. Perekaman dapat dijeda dan persetujuan dapat ditarik melalui pengaturan",
+            "Catatan penggunaan lokasi | Pengenal akun, waktu penggunaan, sumber, operasi, dan pengenal memo terkait; tanpa koordinat sebenarnya, nama tempat, teks, atau foto | Dicatat secara otomatis selama pemrosesan lokasi berdasarkan Pasal 16(2) Undang-Undang Informasi Lokasi",
+            "Status persetujuan lokasi | Status persetujuan saat ini, versi pemberitahuan, waktu keputusan, dan pengenal permintaan | Memproses persetujuan dan penarikannya serta mencegah pengulangan permintaan lama dari perangkat lain",
+            "Informasi langganan | Paket, status, dan masa berlaku di server Perusahaan; riwayat pembelian dan tanda terima/token pembelian diverifikasi dan dikelola oleh RevenueCat | Saat memeriksa langganan setelah login, berlangganan Pro, atau memulihkan pembelian (informasi metode pembayaran seperti kartu kredit ditangani oleh toko, seperti Apple, dan tidak dikumpulkan oleh Perusahaan)",
+            "Kami tidak melacak pengguna untuk iklan atau mengumpulkan kontak. SDK Google Sign-In, Maps, dan ML Kit dapat secara otomatis memproses informasi aplikasi/OS/perangkat, pengenal instalasi atau SDK, peristiwa penggunaan fitur, kesalahan, crash, serta informasi kinerja/penggunaan. RevenueCat memproses analitik langganan dan negara yang diperkirakan dari alamat IP. Pemrosesan ini dijelaskan dalam bagian layanan eksternal di bawah. Teks memo dan isi foto tidak digunakan untuk iklan atau analisis perilaku.",
+            "Dikte memproses audio hanya di perangkat Anda apabila didukung oleh perangkat dan bahasa yang sedang digunakan. Hanya ketika pengenalan di perangkat tidak tersedia, Anda dapat memilih alternatif setelah membaca pemberitahuan di aplikasi; alternatif ini dapat memproses audio di server yang dioperasikan oleh Apple, Google, atau penyedia layanan suara yang dikonfigurasi pada perangkat Anda. Perusahaan tidak mengunggah atau menyimpan audio dikte asli di servernya. Ketika teks yang dikenali disimpan sebagai memo, teks tersebut disimpan di perangkat Anda serta disimpan dan disinkronkan di server Perusahaan seperti teks memo lainnya. Pemrosesan dan penyimpanan audio oleh penyedia bergantung pada kebijakannya dan pengaturan Anda. Anda dapat mengetik langsung tanpa menggunakan dikte.",
+            "Pengenalan teks dalam foto (OCR) diproses di perangkat. ML Kit dapat mengirim metadata kepada Google, seperti format/resolusi gambar, waktu peristiwa, latensi, dan kesalahan, untuk diagnostik dan statistik penggunaan. Foto OCR atau isi teks yang dikenali tidak dikirim melalui statistik ini.",
+            "Jika pengguna memasukkan alamat web (URL) dalam memo, aplikasi terhubung langsung ke situs web tersebut untuk membuat pratinjau (dalam proses ini, alamat IP pengguna dikirim ke situs web tersebut).",
+            "Aplikasi mengakses kalender dan pengingat perangkat hanya ketika Anda mengekspor memo ke sana. Konten yang diekspor diteruskan ke aplikasi pada perangkat dan tidak dikirim ke atau disimpan di server Perusahaan. Perusahaan tidak membaca acara atau pengingat Anda yang sudah ada (di Android, aplikasi hanya memeriksa pengenal kalender agar Anda dapat memilih kalender tujuan).",
+            "Aplikasi Android dikonfigurasi untuk mengecualikan seluruh data aplikasi dari pencadangan cloud otomatis Android dan transfer antarperangkat. Sinkronisasi akun Snuumo, penyimpanan foto asli Pro, dan ekspor manual merupakan fitur terpisah. Sebelum menghapus isi perangkat atau memasang ulang aplikasi, periksa status sinkronisasi dan simpan salinan terpisah atas konten yang belum tersinkron melalui [Pengaturan → Ekspor data saya]."
+          ]
+        },
+        {
+          "t": "2. Tujuan penggunaan",
+          "l": [
+            "Membuat, mengautentikasi, dan mengelola akun",
+            "Menyediakan sinkronisasi antarperangkat, pencadangan cloud (termasuk pencadangan foto asli Pro), dan fitur berbagi memo",
+            "Pencarian berbasis lokasi (menemukan memo Anda berdasarkan nama tempat) dan tampilan peta — lokasi yang direkam bersama memo tidak digunakan untuk tujuan lain (Ketentuan Layanan, https://www.ssamoksoft.com/privacy/snuumo/terms/ , Pasal 10, Layanan Berbasis Lokasi)",
+            "Memverifikasi status langganan, menyediakan fitur berbayar, dan meninjau analitik langganan",
+            "Menanggapi pertanyaan, memberikan pemberitahuan layanan, serta memelihara dan meningkatkan layanan menggunakan diagnostik SDK, statistik kinerja, dan statistik penggunaan"
+          ]
+        },
+        {
+          "t": "3. Masa penyimpanan dan pemusnahan",
+          "l": [
+            "Data | Masa penyimpanan",
+            "Seluruh data akun dan konten (memo, foto, profil, salinan konten berbagi) | Dihapus tanpa penundaan saat pengguna menutup akun ([Pengaturan → Hapus akun] di aplikasi). Jika volume data besar, pekerjaan pembersihan server berlanjut setelahnya; setelah selesai, data tidak dapat dipulihkan",
+            "Informasi lokasi memo | Dihapus saat memo dihapus permanen, akun dihapus, atau persetujuan lokasi ditarik. Menjeda perekaman saja tidak menghapus lokasi yang sudah ada",
+            "Catatan penggunaan lokasi | Disimpan selama enam bulan sejak peristiwa di perangkat dan setidaknya enam bulan sejak diterima/dicatat di server, lalu dibersihkan setelah kedaluwarsa. Penarikan persetujuan menghapus catatan terkait tanpa penundaan berdasarkan Pasal 24(4); penghapusan akun juga menghapusnya",
+            "Status persetujuan lokasi dan pengenal permintaan | Disimpan selama akun masih ada untuk menerapkan persetujuan dan mencegah pengulangan permintaan lama dari perangkat; dihapus bersama akun. Tanpa koordinat, nama tempat, atau teks memo",
+            "Memo di tempat sampah | Dihapus permanen 30 hari setelah dipindahkan ke sana",
+            "Salinan konten tautan berbagi | Kedaluwarsa dan dihapus 30 hari setelah dibuat (informasi lokasi tidak disertakan dalam salinan ini, dan salinan dapat dihapus kapan saja sebelum kedaluwarsa melalui [Pengaturan → Tautan yang saya bagikan] di aplikasi)",
+            "Cadangan foto asli Pro (saat langganan dibatalkan) | Disimpan selama 90 hari sejak tanggal berakhirnya langganan (dapat dilihat dan dipulihkan), lalu dihapus",
+            "Pengenal verifikasi penutupan akun (pengenal akun dan waktu penutupan) | Dihapus 180 hari setelah penutupan akun. Hanya digunakan untuk membersihkan data lokal perangkat lain yang masih login tetapi dalam keadaan mati, ketika perangkat tersebut terhubung kembali",
+            "Catatan pekerjaan penghapusan (pengenal akun, token berbagi, jalur berkas yang akan dihapus) | Dihapus 30 hari setelah penghapusan selesai. Hanya digunakan untuk memeriksa penghapusan yang terlewat dan mencobanya kembali",
+            "Catatan yang wajib disimpan oleh Perusahaan berdasarkan hukum | Selama jangka waktu yang ditentukan hukum terkait (misalnya, 5 tahun untuk catatan kontrak dan penarikan pesanan berdasarkan Undang-Undang Perlindungan Konsumen dalam Perdagangan Elektronik (전자상거래 등에서의 소비자보호에 관한 법률))",
+            "Saat akun ditutup, data lokal pada perangkat yang digunakan untuk menghapus akun juga dihapus tanpa pilihan terpisah, dan data lokal pada perangkat lain yang login ke akun yang sama dihapus secara otomatis ketika masing-masing perangkat tersebut terhubung kembali.",
+            "Dengan demikian, penutupan akun menghapus akun, memo, foto, profil, salinan konten berbagi, dan data lokal perangkat. Catatan yang tetap disimpan dalam penyimpanan akun dan memo kami adalah pengenal verifikasi penutupan akun (180 hari), catatan pekerjaan penghapusan (30 hari), serta catatan yang wajib disimpan berdasarkan hukum sebagaimana tercantum pada tabel di atas. Catatan langganan, koneksi, dan pertanyaan pada layanan eksternal ditangani secara terpisah sebagaimana dijelaskan dalam bagian 4. Catatan verifikasi penutupan akun dan pekerjaan penghapusan yang disimpan tidak memuat isi memo, foto, atau informasi lokasi.",
+            "Pemusnahan dilakukan dengan metode yang tidak memungkinkan pemulihan (penghapusan permanen dari basis data dan penyimpanan)."
+          ]
+        },
+        {
+          "t": "4. Layanan eksternal dan transfer internasional",
+          "l": [
+            "Kami menggunakan layanan di bawah untuk autentikasi, sinkronisasi, langganan, dan hosting. Supabase dan RevenueCat memproses data pengguna akhir atas instruksi kami. Kami juga menggunakan Cloudflare sebagai pemroses data pelanggan yang ditangani untuk hosting. Ketentuan layanan standar mereka mencakup adendum pemrosesan data (DPA). Platform login, pembayaran, dan peta, serta penyedia yang menangani informasi pengunjung situs web secara mandiri, juga menerapkan ketentuan dan kebijakan privasi mereka sendiri.",
+            "Penyedia | Entitas / lokasi pemrosesan | Tujuan dan peran | Data terkait",
+            "Supabase Pte. Ltd. | Entitas Singapura; penyimpanan data utama di Korea Selatan (AWS Seoul ap-northeast-2). Dukungan, operasi, dan subpemroses dapat melibatkan negara lain | Pemroses untuk autentikasi, basis data, dan penyimpanan foto | Data akun, konten, lokasi, catatan penggunaan lokasi, status persetujuan, dan langganan pada bagian 1, serta informasi koneksi/permintaan. Tidak termasuk audio dikte asli",
+            "Cloudflare, Inc. | Entitas Amerika Serikat; jaringan global | Pemroses untuk hosting snuumo.com dan halaman tujuan tautan berbagi, CDN, serta keamanan | Alamat IP, URL permintaan (termasuk token berbagi), waktu, informasi peramban dan perangkat. Basis data memo kami tidak direplikasi ke Cloudflare",
+            "RevenueCat, Inc. | Pusat data AWS di Amerika Serikat. DPA mencantumkan subpemroses layanan di Amerika Serikat dan penyedia dukungan pelanggan di Korea, sesuai dengan layanan yang digunakan | Pemroses untuk verifikasi, pemulihan, status, dan analitik langganan | Pengenal akun Snuumo, produk, pembelian, tanda terima atau token pembelian, status langganan, informasi aplikasi/OS/perangkat, waktu terakhir terlihat, dan informasi negara. Kami tidak menetapkan atau mengirim isi memo, foto, audio, atau alamat email ke RevenueCat",
+            "Apple Inc. / Google LLC dan entitas platform regional yang terkait | Amerika Serikat dan negara lain sesuai kebijakan platform | Pemrosesan oleh platform untuk login sosial atau pembelian di toko yang Anda pilih | Permintaan autentikasi, pengenal aplikasi, informasi IP/perangkat, informasi diagnostik/penggunaan SDK Google Sign-In, dan informasi produk/transaksi. Kami menerima pengenal login, email, token autentikasi, nama/URL foto profil yang diberikan penyedia, dan data verifikasi langganan, bukan kata sandi platform atau nomor kartu",
+            "Apple, Google, atau penyedia geocoding yang dikonfigurasi pada perangkat | Negara bergantung pada platform dan kebijakan penyedia | Mengonversi koordinat menjadi nama tempat untuk tag lokasi | Koordinat lokasi memo dan informasi permintaan setelah persetujuan lokasi. Kami menyimpan nama tempat dan koordinat yang dikembalikan bersama memo",
+            "Google LLC dan entitas pihak dalam kontrak Google Maps yang terkait | Amerika Serikat dan negara lain sesuai kebijakan Google | Tampilan peta; kontrak Maps menetapkan para pihak sebagai pengendali data yang terpisah dan independen | Area peta, koordinat, alamat IP, pengenal khusus SDK, informasi aplikasi/perangkat, peristiwa geser/perbesar/perkecil, dan informasi kesalahan/crash/kinerja. Ketentuan Google Maps Platform dan Kebijakan Privasi Google berlaku",
+            "Google LLC (ML Kit) | Amerika Serikat dan negara lain sesuai kebijakan Google | Pengenalan teks foto di perangkat; pemrosesan diagnostik SDK, statistik kinerja, dan statistik penggunaan oleh Google | Pengenal per instalasi, informasi aplikasi/perangkat/OS, latensi, kesalahan, peristiwa API, dan metadata seperti format/resolusi masukan. Foto OCR atau isi teks yang dikenali tidak dikirim melalui statistik ini",
+            "GitHub, Inc. dan entitas regional yang terkait | Amerika Serikat dan negara lain sesuai kebijakan GitHub | Hosting GitHub Pages untuk ssamoksoft.com; penanganan mandiri atas informasi keamanan pengunjung berdasarkan kebijakan GitHub | Alamat IP pengunjung dicatat dan disimpan meski tanpa login. Waktu, halaman, informasi peramban, dan informasi perangkat juga dapat diproses. Memo dan foto pengguna tidak diunggah ke situs web Perusahaan",
+            "Daum Co., Ltd. (Daum Smartwork) | Entitas Korea Selatan yang menyediakan sistem email pertanyaan dan pengaturan ulang kata sandi; lokasi entitas tidak menjamin seluruh lokasi pemrosesan | Penerimaan dan penyimpanan pertanyaan yang dikirim ke support@ssamoksoft.com serta pengiriman email pengaturan ulang kata sandi dari alamat tersebut | Pertanyaan: alamat/nama pengirim, pesan, dan lampiran. Pengaturan ulang kata sandi: alamat email penerima, subjek, isi, dan tautan pemulihan sekali pakai. Keduanya: informasi pengiriman email. Kata sandi baru tidak dikirim melalui email, dan kami tidak mereplikasi basis data memo/foto ke kotak surat dukungan kami",
+            "Kontak, waktu transfer, dan penyimpanan",
+            "Penyedia dan kontak | Waktu dan metode | Masa penyimpanan atau kriterianya",
+            "Supabase — privacy@supabase.com | Melalui jaringan saat mendaftar, login, menyinkronkan, berbagi, menghapus, atau menggunakan fungsi server lainnya | Akun/konten yang dikelola Perusahaan mengikuti bagian 3. Catatan operasional/dukungan diproses sesuai kebutuhan untuk menyediakan layanan dan memenuhi kewajiban hukum. Jika perjanjian kami dengan Supabase berakhir, DPA memberikan masa ekspor 30 hari yang diikuti penghapusan; ini bukan penundaan 30 hari untuk penghapusan akun perorangan",
+            "RevenueCat — compliance@revenuecat.com | Melalui jaringan untuk pemeriksaan langganan setelah login, pembelian, pemulihan, perpanjangan, dan peristiwa transaksi lainnya | Sesuai kebutuhan pengelolaan langganan, dengan mengikuti instruksi kami untuk penghapusan data pelanggan. Saat perjanjian berakhir, DPA mensyaratkan permintaan pengembalian/penghapusan dalam 30 hari, dengan pengecualian untuk cadangan dan penyimpanan wajib secara hukum. Membatalkan langganan di toko saja tidak menghapus catatan pelanggan RevenueCat",
+            "Cloudflare — privacyquestions@cloudflare.com / permintaan pelaksanaan hak sar@cloudflare.com | Melalui jaringan saat mengunjungi snuumo.com atau halaman tujuan tautan berbagi | Sesuai kebutuhan hosting, pengiriman, keamanan, dan kewajiban hukum. DPA mengatur pengembalian/penghapusan saat layanan pemrosesan berakhir, dengan tunduk pada kewajiban penyimpanan berdasarkan hukum. Masa penyimpanan log dapat berbeda dari periode yang terlihat di dasbor",
+            "Apple — https://www.apple.com/legal/privacy/contact/ | Melalui jaringan saat menggunakan fitur login, pembelian, geocoding, atau dikte server yang dipilih | Sesuai kebutuhan fitur terkait, transaksi, keamanan, dan kewajiban hukum. Audio memiliki pemberitahuan khusus fitur dan pengaturan perangkat yang terpisah. Permintaan akses dan penghapusan dapat diajukan melalui saluran privasi Apple",
+            "Google — googlekrsupport@google.com | Melalui jaringan saat menggunakan SDK login, Maps, atau OCR serta fitur pembelian, geocoding, atau dikte server yang dipilih | Selama periode yang ditentukan oleh fitur Google terkait, pengaturan, dan kebijakan penyimpanannya. Pengaturan penghapusan otomatis untuk aktivitas akun belum tentu berlaku bagi setiap catatan diagnostik SDK",
+            "GitHub — dpo@github.com | Melalui jaringan saat mengunjungi situs Perusahaan atau halaman dokumen hukum kami | Sesuai kebutuhan layanan/keamanan, kewajiban hukum, sengketa, dan penegakan perjanjian. Kebijakan GitHub juga mengatur catatan akses Pages oleh pengunjung tanpa akun GitHub",
+            "Penyedia geocoding/suara lain di perangkat serta operator tautan yang dimasukkan pengguna | Melalui jaringan saat menggunakan fitur opsional atau meminta halaman/gambar pratinjau yang ditautkan | Berbeda menurut penyedia dan tautan. Lihat informasi penyedia dalam pengaturan perangkat atau halaman privasi/kontak situs web yang ditautkan",
+            "Daum — https://cs.daum.net/ (Daum Co., Ltd.) | Melalui sistem email saat Anda mengirim pertanyaan ke support@ssamoksoft.com atau meminta email pengaturan ulang kata sandi Snuumo | Sesuai kebutuhan untuk menangani pertanyaan, mengirim email pengaturan ulang kata sandi, dan memenuhi persyaratan penyimpanan berdasarkan hukum. Penghapusan dari kotak masuk kami terpisah dari catatan cadangan/keamanan penyedia; ketentuan dan kebijakan Daum berlaku",
+            "Untuk penyerahan pemrosesan/penyimpanan ke luar negeri yang diperlukan guna membuat atau melaksanakan kontrak layanan kami, kami menggunakan pengungkapan dalam kebijakan ini sebagai dasar berdasarkan Pasal 28-8(1)(3)(a) Undang-Undang Perlindungan Informasi Pribadi Korea. Dasar ini bukan dasar menyeluruh bagi pengungkapan mandiri kepada pihak ketiga atau analitik penyedia sendiri. Pemrosesan oleh platform memiliki pemberitahuan fitur, persetujuan, dan dasar hukum yang berlaku tersendiri. Jika perlindungan transfer tambahan diwajibkan untuk Uni Eropa, Britania Raya, atau wilayah lain, kami menggunakan perlindungan yang berlaku, seperti klausul kontrak standar dalam DPA terkait; perlindungan tersebut terpisah dari dasar transfer menurut hukum Korea.",
+            "Basis data utama dan penyimpanan foto Supabase berada di Seoul. Bergantung pada lokasi pemanggilan, Edge Functions dapat dijalankan di Korea Selatan, Jepang, India, Singapura, Australia, Kanada, Amerika Serikat, Jerman, Swiss, Irlandia, Britania Raya, Prancis, atau Brasil. Dukungan dan subpemrosesan tidak terbatas di Seoul. Cloudflare memproses permintaan melalui jaringan globalnya sesuai lokasi pengunjung, perutean, dan konfigurasi layanan. Daftar resmi wilayah/jaringan/subpemroses di bawah menjelaskan cakupan pemrosesan yang mungkin terjadi; daftar ini tidak berarti setiap permintaan dikirim ke setiap negara.",
+            "Situs web Perusahaan menyediakan font dan ikonnya dari situs yang sama, tanpa permintaan font/ikon langsung ke Google Fonts atau jsDelivr.",
+            "Supabase DPA ( https://supabase.com/legal/customer-resources/data-processing-addendum ) · RevenueCat DPA ( https://www.revenuecat.com/dpa ) · Cloudflare DPA ( https://www.cloudflare.com/cloudflare-customer-dpa/ ) · Apple Privacy ( https://www.apple.com/legal/privacy/ ) · Google Privacy ( https://policies.google.com/privacy ) · ML Kit Terms ( https://developers.google.com/ml-kit/terms ) · Google Maps Terms ( https://cloud.google.com/maps-platform/terms ) · GitHub Privacy ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ) · GitHub Pages ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection ) · Supabase regions ( https://supabase.com/docs/guides/functions/regional-invocation ) · Supabase subprocessors ( https://supabase.com/legal/customer-resources/subprocessor-list ) · Cloudflare network ( https://www.cloudflare.com/network/ ) · Cloudflare subprocessors ( https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/ ) · Cloudflare Korea addendum ( https://www.cloudflare.com/privacypolicy/southkorea-addendum/ ) · Google retention ( https://policies.google.com/technologies/retention ) · Daum Privacy ( https://policy.daum.net/policy/privacy )",
+            "Data dikirim melalui jaringan ketika Anda login, menyinkronkan, memeriksa langganan, atau menggunakan fitur atau situs web terkait. Bagian 3 menjelaskan masa penyimpanan kami. Catatan operasional, koneksi, dan transaksi penyedia mengikuti kontrak dan kebijakan mereka; masa penyimpanannya tidak dijamin sama dengan masa penyimpanan memo kami. Membatalkan langganan di toko dan menghapus akun Snuumo merupakan tindakan terpisah.",
+            "Untuk menolak transfer atau pemrosesan eksternal, atau meminta penghapusan, hubungi support@ssamoksoft.com. Menolak pemrosesan autentikasi atau sinkronisasi server yang esensial akan membatasi layanan akun. Anda dapat tidak menggunakan fitur opsional, serta menarik persetujuan lokasi dan menghapus lokasi yang sudah ada melalui pengaturan.",
+            "Jika dikte di perangkat tidak tersedia dan Anda memilih alternatif setelah membaca pemberitahuan di aplikasi, audio yang dijelaskan dalam bagian 1 dapat dikirim ke Apple, Google, atau penyedia pengenalan suara yang dikonfigurasi pada perangkat Anda. Penyedia, negara pemrosesan, dan masa penyimpanan bergantung pada perangkat, bahasa, pengaturan, dan kebijakan penyedia. Anda dapat memilih untuk mengetik.",
+            "Pratinjau tautan menghubungkan perangkat Anda ke situs web yang ditautkan dan server gambar pratinjau, sehingga IP dan URL permintaan Anda diteruskan kepada operator tersebut. Kebijakan mereka berlaku."
+          ]
+        },
+        {
+          "t": "5. Pemberian data kepada pihak ketiga",
+          "l": [
+            "Kami tidak menjual data pribadi atau memberikannya untuk iklan. Bagian 4 membedakan pemrosesan atas nama kami dari fitur platform eksternal yang Anda pilih. Pengungkapan lain kepada pihak ketiga memerlukan persetujuan yang diperlukan atau dasar hukum."
+          ]
+        },
+        {
+          "t": "6. Hak pengguna",
+          "l": [
+            "Pengguna dapat setiap saat meminta akses, koreksi, penghapusan, penghentian pemrosesan, atau portabilitas informasi pribadi mereka, atau menarik persetujuan. Melihat, mengedit, dan menghapus memo, serta menghapus akun, dapat dilakukan langsung di aplikasi. Pengguna dapat mengekspor memo, catatan, dan folder akun yang tersimpan di perangkat ini beserta foto terlampir yang tersedia sebagai JSON dan gambar dalam berkas ZIP melalui [Pengaturan → Ekspor data saya] di aplikasi. Sebagian konten mungkin tidak disertakan jika perubahan terbaru dari perangkat lain belum tersinkron atau foto tidak dapat diambil. Foto asli hanya disertakan apabila Anda memilih opsi untuk menyertakan foto asli dan berkasnya dapat diambil. Periksa pemberitahuan penyelesaian dan snuumo_export.json di dalam ZIP untuk mengetahui jumlah foto yang disertakan (included) dan rincian yang tidak disertakan (omitted). Salinan terpisah yang dibuat untuk tautan berbagi tidak disertakan dalam ekspor. Permintaan lain akan ditangani jika dikirim ke alamat kontak di bawah.",
+            "Batas waktu tanggapan: Perusahaan memberi tahu pengguna tentang hasilnya dalam satu bulan sejak menerima permintaan. Jika permintaan rumit atau jumlahnya banyak sehingga tidak dapat ditangani dalam periode tersebut, periode dapat diperpanjang hingga dua bulan lagi; dalam hal ini Perusahaan memberi tahu pengguna tentang perpanjangan beserta alasannya dalam satu bulan sejak menerima permintaan (Pasal 12(3) GDPR).",
+            "Layanan tidak ditujukan bagi orang berusia di bawah 14 tahun (termasuk orang yang belum mencapai batas usia minimum yang lebih tinggi apabila hukum negara atau wilayah pengguna menetapkannya).",
+            "Penggunaan lokasi memerlukan persetujuan terpisah yang bersifat opsional. Menonaktifkan [Pengaturan → Rekam lokasi memo] hanya menjeda perekaman baru pada perangkat ini. [Pengaturan → Tarik persetujuan dan hapus lokasi] menghapus lokasi yang tersimpan, termasuk yang berada di tempat sampah, beserta catatan penggunaan terkait, sambil mempertahankan teks memo, foto, tugas, dan pengingat. Perangkat ini langsung menerapkan perubahan; server dan perangkat lain menerapkannya ketika terhubung dan tersinkron. Aplikasi menampilkan status tertunda saat offline. Ekspor data saya menyertakan catatan penggunaan lokasi yang tersedia dari perangkat dan server; kegagalan koneksi server dicantumkan dalam rincian yang tidak disertakan pada ZIP. Akses, koreksi, dan pemberitahuan juga dapat diminta melalui support@ssamoksoft.com."
+          ]
+        },
+        {
+          "t": "7. Langkah keamanan",
+          "l": [
+            "Enkripsi saat pengiriman (TLS) ke server autentikasi/sinkronisasi Perusahaan serta penyimpanan kata sandi dengan enkripsi satu arah",
+            "Kontrol akses per akun (kebijakan server yang hanya mengizinkan akses ke data milik pengguna sendiri, RLS)",
+            "Tanpa pelacakan iklan atau pengumpulan pengenal iklan; pengelolaan data yang diperlukan untuk menyediakan fitur",
+            "Pembatasan hak akses ke informasi pribadi seminimal mungkin"
+          ]
+        },
+        {
+          "t": "8. Penanggung jawab perlindungan informasi pribadi dan informasi usaha",
+          "l": [
+            "Penanggung jawab perlindungan informasi pribadi / pengelola informasi lokasi: Daehoon Kang (강대훈) (Perwakilan)",
+            "Kontak: support@ssamoksoft.com",
+            "Nama usaha | SSAMOK SOFT (싸목소프트)",
+            "Perwakilan | Daehoon Kang (강대훈)",
+            "Alamat usaha | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Surel | support@ssamoksoft.com",
+            "Nomor pendaftaran usaha | 160-75-00256",
+            "Nomor pelaporan usaha penjualan jarak jauh | 2019-충북청주-1930",
+            "Pelaporan dan konsultasi tentang pelanggaran informasi pribadi (Republik Korea): Pusat Pelaporan Pelanggaran Privasi (개인정보침해신고센터, privacy.kisa.or.kr, 118), Komite Mediasi Sengketa Informasi Pribadi (개인정보분쟁조정위원회, kopico.go.kr, 1833-6972)"
+          ]
+        },
+        {
+          "t": "9. Perwakilan Uni Eropa dan Britania Raya (Pasal 27 GDPR)",
+          "l": [
+            "Perusahaan telah menunjuk perwakilan berdasarkan Pasal 27 GDPR Uni Eropa dan Pasal 27 GDPR Britania Raya.",
+            "Wilayah | Perwakilan | Alamat | Kontak",
+            "EU | Prighter EU Rep GmbH | Schellinggasse 3/10, 1010 Vienna, Austria | https://app.prighter.com/portal/19708232400",
+            "Britania Raya | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
+            "Pengguna di Uni Eropa/Wilayah Ekonomi Eropa (EU/EEA) dan Britania Raya dapat menghubungi perwakilan dan menggunakan hak mereka melalui portal ini, atau menghubungi Perusahaan secara langsung. Mereka berhak mengajukan pengaduan kepada otoritas pengawas di negara tempat tinggal mereka."
+          ]
+        },
+        {
+          "t": "10. Perubahan kebijakan ini",
+          "l": [
+            "Jika kebijakan ini diubah, perubahan diumumkan melalui pemberitahuan dalam aplikasi atau dipublikasikan di situs web mulai 7 hari sebelum berlaku (30 hari sebelumnya untuk perubahan penting).",
+            "Ketentuan tambahan",
+            "Kebijakan ini berlaku sejak 2026-09-12 dan diterapkan kepada pengguna Layanan mulai peluncuran publik.",
+            "Riwayat revisi 2026-07-25: publikasi pertama. 2026-09-11 (publikasi sebelum peluncuran): menambahkan penjelasan tentang penyedia layanan peta (Google Maps) dan hosting situs web Perusahaan (GitHub Pages); mengungkapkan catatan yang tetap disimpan setelah penutupan akun (pengenal verifikasi penutupan akun, 180 hari; catatan pekerjaan penghapusan, 30 hari) serta penghapusan data lokal perangkat; menetapkan batas waktu tanggapan atas permintaan hak pengguna (satu bulan, dapat diperpanjang hingga dua bulan lagi); menambahkan bagian perwakilan Uni Eropa/Britania Raya (bagian 9) dan informasi usaha (bagian 8); serta menjelaskan kemungkinan pemrosesan dikte di server platform, pengecualian dari pencadangan sistem Android, pemrosesan penyedia eksternal, dan cara memeriksa konten ekspor yang tidak disertakan. 2026-09-12: menyelesaikan dokumen sebelum peluncuran, sebelum menyediakan Layanan kepada pengguna umum; menyelaraskan tanggal pengumuman dan tanggal berlaku serta menyimpan dokumen persiapan sebelumnya. 2026-09-13: menjelaskan pengiriman email pengaturan ulang kata sandi dan data terkait melalui layanan Daum Smartwork yang sudah kami gunakan"
+          ]
+        },
+        {
+          "t": "Dokumen persiapan sebelumnya",
+          "b": "Arsip dokumen persiapan bahasa Korea yang ditandai berlaku pada 25 Juli 2026: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+        },
+        {
+          "t": "Dokumen sebelum peluncuran tanggal 11 September",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/2026-09-11/"
+        }
+      ]
     }
   }
 }

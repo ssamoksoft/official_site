@@ -179,6 +179,159 @@
         { "t": "Lưu giữ theo luật", "b": "Các hồ sơ liên quan đến thanh toán phải lưu giữ theo luật thương mại điện tử Hàn Quốc và các quy định liên quan sẽ được giữ trong thời hạn luật định rồi tiêu hủy." },
         { "t": "Liên hệ", "b": "Nếu có câu hỏi về việc xóa, hãy liên hệ ssamoksoft@gmail.com." }
       ]
+    },
+    "snuumo_privacy": {
+      "title": "Chính sách quyền riêng tư của Snuumo",
+      "updated": "Công bố: 2026-09-12 · Có hiệu lực: 2026-09-12",
+      "applies": "Dịch vụ mới chỉ được thử nghiệm trước khi phát hành và chưa được cung cấp cho người dùng đại chúng. Các tài liệu này có hiệu lực từ ngày 12 tháng 9 năm 2026 và áp dụng cho người dùng Dịch vụ kể từ khi phát hành công khai. Các tài liệu chuẩn bị trước đây được lưu lại trong lịch sử.\n\nChính sách quyền riêng tư này được soạn thảo bằng tiếng Hàn. Văn bản tiếng Việt này là bản dịch của bản gốc tiếng Hàn tại https://www.ssamoksoft.com/privacy/snuumo/?lang=ko , nhằm giúp người dùng và người đánh giá không đọc tiếng Hàn hiểu được cùng nội dung.\n\nSSAMOK SOFT (싸목소프트) (\"Công ty\") cung cấp ứng dụng ghi chú \"Snuumo\" (\"Dịch vụ\"), bảo vệ và xử lý thông tin cá nhân của người dùng theo nội dung dưới đây, phù hợp với Luật Bảo vệ thông tin cá nhân của Hàn Quốc (개인정보 보호법, \"PIPA\") và các quy định pháp luật khác có liên quan.",
+      "sections": [
+        {
+          "t": "1. Thông tin cá nhân được thu thập và cách thu thập",
+          "l": [
+            "Loại | Thông tin | Cách thu thập",
+            "Tài khoản (bắt buộc) | Địa chỉ email và mật khẩu (được lưu dưới dạng mã hóa), hoặc mã định danh đăng nhập mạng xã hội (mã định danh tài khoản Google · Apple, email, tên và URL ảnh hồ sơ do nhà cung cấp cung cấp) | Khi đăng ký",
+            "Nội dung | Nội dung ghi chú (văn bản và danh sách kiểm tra), ảnh đính kèm (bản nén; bao gồm bản gốc đối với Pro), văn bản được nhận dạng trong ảnh (OCR), văn bản nhận dạng từ giọng nói mà bạn lưu lại, thông tin xem trước liên kết, thời gian nhắc nhở | Khi người dùng tạo hoặc đính kèm (được lưu trên máy chủ để đồng bộ và sao lưu)",
+            "Thông tin vị trí | Tọa độ và tên địa điểm của ghi chú, cùng tọa độ EXIF của ảnh đính kèm trên iOS. Siêu dữ liệu vị trí được xóa khỏi tệp ảnh trước khi tải lên | Chỉ sau khi người dùng đưa ra sự đồng ý riêng, không bắt buộc, đối với dịch vụ vị trí và bật Ghi lại vị trí ghi chú. Vị trí thiết bị còn cần quyền của hệ điều hành; EXIF của ảnh iOS tách biệt với quyền vị trí của hệ điều hành. Có thể tạm dừng ghi vị trí và rút lại sự đồng ý trong phần cài đặt",
+            "Bản ghi sử dụng vị trí | Mã định danh tài khoản, thời gian sử dụng, nguồn, thao tác và mã định danh ghi chú liên quan; không có tọa độ thực tế, tên địa điểm, văn bản hay ảnh | Tự động ghi lại khi xử lý vị trí theo Điều 16(2) của Luật Thông tin vị trí",
+            "Trạng thái đồng ý về vị trí | Trạng thái đồng ý hiện tại, phiên bản thông báo, thời điểm quyết định và mã định danh yêu cầu | Xử lý sự đồng ý và việc rút lại sự đồng ý, đồng thời ngăn thực thi lại yêu cầu đã cũ từ thiết bị khác",
+            "Thông tin gói đăng ký | Gói, trạng thái và thời điểm hết hạn trên máy chủ Công ty; lịch sử mua hàng và biên lai/mã thông báo mua hàng được RevenueCat xác minh và quản lý | Khi kiểm tra gói đăng ký sau khi đăng nhập, đăng ký Pro hoặc khôi phục giao dịch mua (thông tin phương tiện thanh toán như thẻ tín dụng do cửa hàng, chẳng hạn Apple, xử lý và Công ty không thu thập)",
+            "Chúng tôi không theo dõi người dùng để quảng cáo hoặc thu thập danh bạ. Các SDK Google Sign-In, Maps và ML Kit có thể tự động xử lý thông tin ứng dụng/hệ điều hành/thiết bị, mã định danh cài đặt hoặc SDK, sự kiện sử dụng tính năng, lỗi, sự cố và thông tin hiệu suất/mức sử dụng. RevenueCat xử lý dữ liệu phân tích gói đăng ký và quốc gia được suy ra từ địa chỉ IP. Phần dịch vụ bên ngoài dưới đây giải thích hoạt động xử lý này. Nội dung văn bản ghi chú và ảnh không được sử dụng cho quảng cáo hoặc phân tích hành vi.",
+            "Tính năng nhập liệu bằng giọng nói chỉ xử lý âm thanh trên thiết bị của bạn khi thiết bị và ngôn ngữ hiện tại hỗ trợ. Chỉ khi nhận dạng trên thiết bị không khả dụng, bạn mới có thể chọn phương án thay thế sau khi đọc thông báo trong ứng dụng; phương án này có thể xử lý âm thanh trên máy chủ do Apple, Google hoặc nhà cung cấp dịch vụ giọng nói được cấu hình trên thiết bị của bạn vận hành. Công ty không tải lên hoặc lưu âm thanh gốc của tính năng nhập liệu bằng giọng nói trên máy chủ của mình. Khi bạn lưu văn bản đã nhận dạng thành ghi chú, văn bản được lưu trên thiết bị, đồng thời được lưu và đồng bộ trên máy chủ Công ty như văn bản ghi chú khác. Việc nhà cung cấp xử lý và lưu giữ âm thanh phụ thuộc vào chính sách của họ và cài đặt của bạn. Bạn có thể nhập văn bản trực tiếp mà không sử dụng giọng nói.",
+            "Nhận dạng văn bản trong ảnh (OCR) được xử lý trên thiết bị. ML Kit có thể gửi cho Google siêu dữ liệu như định dạng/độ phân giải ảnh, thời điểm sự kiện, độ trễ và lỗi để chẩn đoán và thống kê sử dụng. Các dữ liệu thống kê này không gửi ảnh OCR hoặc nội dung văn bản đã nhận dạng.",
+            "Nếu người dùng nhập địa chỉ web (URL) vào ghi chú, ứng dụng sẽ kết nối trực tiếp tới trang web đó để tạo bản xem trước (trong quá trình này, địa chỉ IP của người dùng được truyền tới trang web đó).",
+            "Ứng dụng chỉ truy cập lịch và lời nhắc trên thiết bị khi bạn xuất ghi chú sang các ứng dụng đó. Nội dung đã xuất được chuyển cho ứng dụng trên thiết bị và không được gửi tới hoặc lưu trên máy chủ Công ty. Công ty không đọc các sự kiện hay lời nhắc hiện có của bạn (trên Android, ứng dụng chỉ kiểm tra mã định danh lịch để bạn có thể chọn lịch đích).",
+            "Ứng dụng Android được cấu hình để loại trừ toàn bộ dữ liệu ứng dụng khỏi sao lưu đám mây tự động và truyền dữ liệu giữa các thiết bị của Android. Đồng bộ tài khoản Snuumo, lưu trữ ảnh gốc Pro và xuất thủ công là những tính năng riêng biệt. Trước khi xóa dữ liệu thiết bị hoặc cài đặt lại ứng dụng, hãy kiểm tra trạng thái đồng bộ và lưu một bản sao riêng của mọi nội dung chưa được đồng bộ bằng [Cài đặt → Xuất dữ liệu của tôi]."
+          ]
+        },
+        {
+          "t": "2. Mục đích sử dụng",
+          "l": [
+            "Tạo, xác thực và quản lý tài khoản",
+            "Cung cấp đồng bộ giữa các thiết bị, sao lưu đám mây (bao gồm sao lưu ảnh gốc Pro) và tính năng chia sẻ ghi chú",
+            "Tìm kiếm theo vị trí (tìm ghi chú của bạn bằng tên địa điểm) và hiển thị bản đồ — vị trí được ghi cùng ghi chú không được sử dụng cho mục đích nào khác (Điều khoản Dịch vụ, https://www.ssamoksoft.com/privacy/snuumo/terms/ , Điều 10, Dịch vụ dựa trên vị trí)",
+            "Xác minh trạng thái gói đăng ký, cung cấp tính năng trả phí và xem xét dữ liệu phân tích gói đăng ký",
+            "Trả lời yêu cầu hỗ trợ, cung cấp thông báo dịch vụ, đồng thời duy trì và cải thiện dịch vụ bằng dữ liệu chẩn đoán SDK, thống kê hiệu suất và sử dụng"
+          ]
+        },
+        {
+          "t": "3. Thời gian lưu giữ và hủy dữ liệu",
+          "l": [
+            "Dữ liệu | Thời gian lưu giữ",
+            "Toàn bộ dữ liệu tài khoản và nội dung (ghi chú, ảnh, hồ sơ, bản chụp nội dung chia sẻ) | Xóa không chậm trễ khi chấm dứt tư cách thành viên ([Cài đặt → Xóa tài khoản] trong ứng dụng). Nếu lượng dữ liệu lớn, máy chủ tiếp tục công việc dọn dẹp sau đó; khi hoàn tất, dữ liệu không thể được khôi phục",
+            "Thông tin vị trí ghi chú | Xóa khi ghi chú bị xóa vĩnh viễn, tài khoản bị xóa hoặc sự đồng ý về vị trí được rút lại. Chỉ tạm dừng ghi vị trí không xóa những vị trí đã có",
+            "Bản ghi sử dụng vị trí | Lưu trên thiết bị trong sáu tháng kể từ khi phát sinh sự kiện và trên máy chủ trong ít nhất sáu tháng kể từ khi nhận/ghi lại, sau đó được dọn dẹp khi hết hạn. Khi rút lại sự đồng ý, các bản ghi liên quan được xóa không chậm trễ theo Điều 24(4); khi xóa tài khoản, các bản ghi này cũng bị xóa",
+            "Trạng thái đồng ý về vị trí và mã định danh yêu cầu | Lưu trong thời gian tài khoản tồn tại để thực thi sự đồng ý và ngăn yêu cầu cũ từ thiết bị được thực thi lại; xóa cùng tài khoản. Không có tọa độ, tên địa điểm hoặc văn bản ghi chú",
+            "Ghi chú trong thùng rác | Xóa vĩnh viễn sau 30 ngày kể từ khi chuyển vào thùng rác",
+            "Bản chụp nội dung của liên kết chia sẻ | Hết hạn và bị xóa sau 30 ngày kể từ khi tạo (thông tin vị trí không có trong bản chụp và có thể xóa bản chụp bất kỳ lúc nào trước khi hết hạn tại [Cài đặt → Liên kết tôi đã chia sẻ] trong ứng dụng)",
+            "Bản sao lưu ảnh gốc Pro (khi hủy gói đăng ký) | Lưu trong 90 ngày kể từ ngày gói đăng ký hết hạn (có thể xem và khôi phục), sau đó xóa",
+            "Mã định danh xác minh việc chấm dứt tài khoản (mã định danh tài khoản và thời điểm chấm dứt) | Xóa sau 180 ngày kể từ khi chấm dứt tài khoản. Chỉ sử dụng để dọn dữ liệu cục bộ trên thiết bị khác vẫn đăng nhập nhưng đã tắt, khi thiết bị đó kết nối trở lại",
+            "Bản ghi công việc xóa (mã định danh tài khoản, mã thông báo chia sẻ, đường dẫn của tệp cần xóa) | Xóa sau 30 ngày kể từ khi hoàn tất việc xóa. Chỉ sử dụng để kiểm tra dữ liệu bị sót khi xóa và thử xóa lại",
+            "Hồ sơ Công ty có nghĩa vụ lưu giữ theo pháp luật | Trong thời gian pháp luật liên quan quy định (ví dụ: 5 năm đối với hồ sơ hợp đồng và rút lại giao kết theo Luật Bảo vệ người tiêu dùng trong thương mại điện tử (전자상거래 등에서의 소비자보호에 관한 법률))",
+            "Khi chấm dứt tài khoản, dữ liệu cục bộ trên thiết bị thực hiện xóa tài khoản cũng bị xóa mà không có lựa chọn riêng. Dữ liệu cục bộ trên những thiết bị khác đang đăng nhập cùng tài khoản sẽ tự động bị xóa vào lần tiếp theo từng thiết bị kết nối.",
+            "Nói cách khác, việc chấm dứt tài khoản xóa tài khoản, ghi chú, ảnh, hồ sơ, bản chụp nội dung chia sẻ và dữ liệu cục bộ của thiết bị. Những bản ghi còn được lưu trong kho lưu trữ tài khoản và ghi chú của chúng tôi là mã định danh xác minh việc chấm dứt tài khoản (180 ngày), bản ghi công việc xóa (30 ngày) và hồ sơ phải lưu theo pháp luật trong bảng trên. Bản ghi gói đăng ký, kết nối và yêu cầu hỗ trợ của dịch vụ bên ngoài được xử lý riêng như mô tả tại mục 4. Các bản ghi xác minh việc chấm dứt tài khoản và công việc xóa được lưu lại không chứa nội dung ghi chú, ảnh hoặc thông tin vị trí.",
+            "Dữ liệu được hủy bằng phương pháp không thể khôi phục (xóa vĩnh viễn khỏi cơ sở dữ liệu và kho lưu trữ)."
+          ]
+        },
+        {
+          "t": "4. Dịch vụ bên ngoài và chuyển dữ liệu ra nước ngoài",
+          "l": [
+            "Chúng tôi sử dụng các dịch vụ dưới đây để xác thực, đồng bộ, quản lý gói đăng ký và lưu trữ web. Supabase và RevenueCat xử lý dữ liệu người dùng cuối theo chỉ dẫn của chúng tôi. Chúng tôi cũng sử dụng Cloudflare làm bên xử lý đối với dữ liệu khách hàng được xử lý để lưu trữ web. Điều khoản dịch vụ tiêu chuẩn của các nhà cung cấp này bao gồm phụ lục xử lý dữ liệu (DPA). Các nền tảng đăng nhập, thanh toán và bản đồ, cùng nhà cung cấp độc lập xử lý thông tin khách truy cập trang web, cũng áp dụng điều khoản và chính sách quyền riêng tư của riêng họ.",
+            "Nhà cung cấp | Pháp nhân / địa điểm xử lý | Mục đích và vai trò | Dữ liệu liên quan",
+            "Supabase Pte. Ltd. | Pháp nhân Singapore; dữ liệu chính lưu ở Hàn Quốc (AWS Seoul ap-northeast-2). Hỗ trợ, vận hành và các bên xử lý phụ có thể liên quan đến những quốc gia khác | Bên xử lý cho xác thực, cơ sở dữ liệu và lưu trữ ảnh | Dữ liệu tài khoản, nội dung, vị trí, bản ghi sử dụng vị trí, trạng thái đồng ý và gói đăng ký tại mục 1, cùng thông tin kết nối/yêu cầu. Không bao gồm âm thanh gốc của tính năng nhập liệu bằng giọng nói",
+            "Cloudflare, Inc. | Pháp nhân Hoa Kỳ; mạng lưới toàn cầu | Bên xử lý cho lưu trữ snuumo.com và trang đích của liên kết chia sẻ, CDN và bảo mật | Địa chỉ IP, URL yêu cầu (bao gồm mã thông báo chia sẻ), thời gian, thông tin trình duyệt và thiết bị. Cơ sở dữ liệu ghi chú của chúng tôi không được sao chép sang Cloudflare",
+            "RevenueCat, Inc. | Các trung tâm dữ liệu AWS tại Hoa Kỳ. DPA liệt kê các bên xử lý phụ cung cấp dịch vụ tại Hoa Kỳ và một nhà cung cấp hỗ trợ khách hàng tại Hàn Quốc, tùy theo dịch vụ được sử dụng | Bên xử lý cho xác minh, khôi phục, trạng thái và phân tích gói đăng ký | Mã định danh tài khoản Snuumo, sản phẩm, giao dịch mua, biên lai hoặc mã thông báo mua hàng, trạng thái gói đăng ký, thông tin ứng dụng/hệ điều hành/thiết bị, lần truy cập gần nhất và thông tin quốc gia. Chúng tôi không thiết lập hoặc gửi nội dung ghi chú, ảnh, âm thanh hay địa chỉ email tới RevenueCat",
+            "Apple Inc. / Google LLC và các pháp nhân nền tảng tại khu vực có liên quan | Hoa Kỳ và các quốc gia khác theo chính sách nền tảng | Hoạt động xử lý của nền tảng cho đăng nhập mạng xã hội hoặc giao dịch mua qua cửa hàng mà bạn chọn | Yêu cầu xác thực, mã định danh ứng dụng, thông tin IP/thiết bị, thông tin chẩn đoán/sử dụng SDK Google Sign-In và thông tin sản phẩm/giao dịch. Chúng tôi nhận mã định danh đăng nhập, email, mã thông báo xác thực, tên/URL ảnh hồ sơ do nhà cung cấp cung cấp và dữ liệu xác minh gói đăng ký, không nhận mật khẩu nền tảng hay số thẻ",
+            "Apple, Google hoặc nhà cung cấp mã hóa địa lý được cấu hình trên thiết bị | Quốc gia phụ thuộc vào nền tảng và chính sách nhà cung cấp | Chuyển tọa độ thành tên địa điểm cho thẻ vị trí | Tọa độ vị trí ghi chú và thông tin yêu cầu sau khi đồng ý về vị trí. Chúng tôi lưu tên địa điểm và tọa độ được trả về cùng ghi chú",
+            "Google LLC và pháp nhân ký kết hợp đồng Google Maps có liên quan | Hoa Kỳ và các quốc gia khác theo chính sách Google | Hiển thị bản đồ; hợp đồng Maps xác định mỗi bên là bên kiểm soát dữ liệu riêng biệt, độc lập | Khu vực bản đồ, tọa độ, địa chỉ IP, mã định danh riêng của SDK, thông tin ứng dụng/thiết bị, sự kiện di chuyển/thu phóng và thông tin lỗi/sự cố/hiệu suất. Áp dụng Điều khoản Google Maps Platform và Chính sách quyền riêng tư của Google",
+            "Google LLC (ML Kit) | Hoa Kỳ và các quốc gia khác theo chính sách Google | Nhận dạng văn bản trong ảnh trên thiết bị; Google xử lý dữ liệu chẩn đoán SDK, thống kê hiệu suất và sử dụng | Mã định danh theo từng lượt cài đặt, thông tin ứng dụng/thiết bị/hệ điều hành, độ trễ, lỗi, sự kiện API và siêu dữ liệu như định dạng/độ phân giải đầu vào. Các dữ liệu thống kê này không gửi ảnh OCR hoặc nội dung văn bản đã nhận dạng",
+            "GitHub, Inc. và các pháp nhân khu vực có liên quan | Hoa Kỳ và các quốc gia khác theo chính sách GitHub | Lưu trữ ssamoksoft.com trên GitHub Pages; xử lý độc lập thông tin bảo mật của khách truy cập theo chính sách GitHub | Địa chỉ IP của khách truy cập được ghi và lưu ngay cả khi không đăng nhập. Thời gian, trang, thông tin trình duyệt và thiết bị cũng có thể được xử lý. Ghi chú và ảnh của người dùng không được tải lên trang web Công ty",
+            "Daum Co., Ltd. (Daum Smartwork) | Pháp nhân Hàn Quốc cung cấp hệ thống email tiếp nhận yêu cầu hỗ trợ và đặt lại mật khẩu; địa điểm của pháp nhân không bảo đảm mọi địa điểm xử lý đều ở đó | Tiếp nhận và lưu yêu cầu hỗ trợ gửi tới support@ssamoksoft.com, đồng thời gửi email đặt lại mật khẩu từ địa chỉ đó | Yêu cầu hỗ trợ: địa chỉ/tên người gửi, nội dung và tệp đính kèm. Đặt lại mật khẩu: địa chỉ email người nhận, tiêu đề, nội dung và liên kết khôi phục dùng một lần. Cả hai: thông tin truyền email. Mật khẩu mới không được gửi qua email và chúng tôi không sao chép cơ sở dữ liệu ghi chú/ảnh vào hộp thư hỗ trợ",
+            "Liên hệ, thời điểm chuyển và lưu giữ",
+            "Nhà cung cấp và liên hệ | Thời điểm và phương thức | Thời gian hoặc tiêu chí lưu giữ",
+            "Supabase — privacy@supabase.com | Qua mạng khi đăng ký, đăng nhập, đồng bộ, chia sẻ, xóa hoặc sử dụng chức năng máy chủ khác | Tài khoản/nội dung do Công ty quản lý tuân theo mục 3. Bản ghi vận hành/hỗ trợ được xử lý theo nhu cầu cung cấp dịch vụ và đáp ứng nghĩa vụ pháp lý. Nếu hợp đồng giữa chúng tôi và Supabase chấm dứt, DPA quy định thời gian xuất dữ liệu 30 ngày rồi xóa; đây không phải là việc trì hoãn 30 ngày khi xóa tài khoản của từng người dùng",
+            "RevenueCat — compliance@revenuecat.com | Qua mạng để kiểm tra gói đăng ký sau khi đăng nhập, khi mua, khôi phục, gia hạn và phát sinh sự kiện giao dịch khác | Theo nhu cầu quản lý gói đăng ký và tuân theo chỉ dẫn của chúng tôi về xóa dữ liệu khách hàng. Khi hợp đồng chấm dứt, DPA yêu cầu gửi yêu cầu hoàn trả/xóa trong vòng 30 ngày, với ngoại lệ về sao lưu và lưu giữ theo pháp luật. Chỉ hủy gói đăng ký trên cửa hàng không xóa bản ghi khách hàng RevenueCat",
+            "Cloudflare — privacyquestions@cloudflare.com / yêu cầu thực hiện quyền sar@cloudflare.com | Qua mạng khi truy cập snuumo.com hoặc trang đích của liên kết chia sẻ | Theo nhu cầu lưu trữ web, phân phối, bảo mật và nghĩa vụ pháp lý. DPA quy định việc hoàn trả/xóa khi dịch vụ xử lý chấm dứt, với ngoại lệ về lưu giữ theo pháp luật. Thời gian lưu nhật ký có thể khác với khoảng thời gian xem được trên bảng điều khiển",
+            "Apple — https://www.apple.com/legal/privacy/contact/ | Qua mạng khi sử dụng tính năng đăng nhập, mua hàng, mã hóa địa lý hoặc nhập liệu bằng giọng nói qua máy chủ mà bạn chọn | Theo nhu cầu của tính năng liên quan, giao dịch, bảo mật và nghĩa vụ pháp lý. Âm thanh có thông báo riêng theo tính năng và cài đặt thiết bị. Có thể yêu cầu truy cập và xóa qua các kênh quyền riêng tư của Apple",
+            "Google — googlekrsupport@google.com | Qua mạng khi sử dụng SDK đăng nhập, Maps hoặc OCR và tính năng mua hàng, mã hóa địa lý hoặc nhập liệu bằng giọng nói qua máy chủ mà bạn chọn | Trong khoảng thời gian do tính năng Google liên quan, cài đặt và chính sách lưu giữ quy định. Cài đặt tự động xóa hoạt động tài khoản không nhất thiết áp dụng cho mọi bản ghi chẩn đoán SDK",
+            "GitHub — dpo@github.com | Qua mạng khi truy cập trang web Công ty hoặc các trang pháp lý của chúng tôi | Theo nhu cầu cung cấp dịch vụ/bảo mật, nghĩa vụ pháp lý, giải quyết tranh chấp và thực thi hợp đồng. Chính sách GitHub cũng áp dụng cho bản ghi truy cập Pages của khách không có tài khoản GitHub",
+            "Các nhà cung cấp mã hóa địa lý/giọng nói khác trên thiết bị và bên vận hành liên kết do người dùng nhập | Qua mạng khi sử dụng tính năng tùy chọn hoặc yêu cầu trang/ảnh xem trước được liên kết | Khác nhau theo nhà cung cấp và liên kết. Xem thông tin nhà cung cấp trong cài đặt thiết bị hoặc trang quyền riêng tư/liên hệ của trang web được liên kết",
+            "Daum — https://cs.daum.net/ (Daum Co., Ltd.) | Qua hệ thống email khi bạn gửi yêu cầu hỗ trợ tới support@ssamoksoft.com hoặc yêu cầu email đặt lại mật khẩu Snuumo | Theo nhu cầu xử lý yêu cầu hỗ trợ, gửi email đặt lại mật khẩu và đáp ứng yêu cầu lưu giữ theo pháp luật. Việc xóa khỏi hộp thư đến của chúng tôi tách biệt với bản ghi sao lưu/bảo mật của nhà cung cấp; áp dụng điều khoản và chính sách Daum",
+            "Đối với việc ủy thác xử lý/lưu trữ ở nước ngoài cần thiết để giao kết hoặc thực hiện hợp đồng dịch vụ, chúng tôi dựa trên việc công bố trong chính sách này theo Điều 28-8(1)(3)(a) của Luật Bảo vệ thông tin cá nhân Hàn Quốc. Đây không phải là căn cứ chung cho việc tiết lộ độc lập cho bên thứ ba hoặc hoạt động phân tích riêng của nhà cung cấp. Việc xử lý của nền tảng có thông báo tính năng, sự đồng ý và căn cứ pháp lý áp dụng riêng. Khi EU, Vương quốc Anh hoặc khu vực khác yêu cầu biện pháp bảo vệ bổ sung cho chuyển dữ liệu, chúng tôi sử dụng biện pháp phù hợp như điều khoản hợp đồng tiêu chuẩn trong DPA liên quan; các biện pháp này tách biệt với căn cứ chuyển dữ liệu theo pháp luật Hàn Quốc.",
+            "Cơ sở dữ liệu chính và kho lưu trữ ảnh Supabase đặt tại Seoul. Tùy vị trí gọi, Edge Functions có thể chạy tại Hàn Quốc, Nhật Bản, Ấn Độ, Singapore, Úc, Canada, Hoa Kỳ, Đức, Thụy Sĩ, Ireland, Vương quốc Anh, Pháp hoặc Brazil. Hỗ trợ và xử lý phụ không giới hạn ở Seoul. Cloudflare xử lý yêu cầu trên mạng lưới toàn cầu theo vị trí khách truy cập, định tuyến và cấu hình dịch vụ. Các danh sách chính thức về khu vực/mạng lưới/bên xử lý phụ dưới đây mô tả phạm vi xử lý có thể xảy ra; chúng không có nghĩa là mỗi yêu cầu đều được gửi tới mọi quốc gia.",
+            "Trang web Công ty cung cấp phông chữ và biểu tượng từ chính trang web đó, không gửi yêu cầu tải phông chữ/biểu tượng trực tiếp tới Google Fonts hoặc jsDelivr.",
+            "Supabase DPA ( https://supabase.com/legal/customer-resources/data-processing-addendum ) · RevenueCat DPA ( https://www.revenuecat.com/dpa ) · Cloudflare DPA ( https://www.cloudflare.com/cloudflare-customer-dpa/ ) · Apple Privacy ( https://www.apple.com/legal/privacy/ ) · Google Privacy ( https://policies.google.com/privacy ) · ML Kit Terms ( https://developers.google.com/ml-kit/terms ) · Google Maps Terms ( https://cloud.google.com/maps-platform/terms ) · GitHub Privacy ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ) · GitHub Pages ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection ) · Supabase regions ( https://supabase.com/docs/guides/functions/regional-invocation ) · Supabase subprocessors ( https://supabase.com/legal/customer-resources/subprocessor-list ) · Cloudflare network ( https://www.cloudflare.com/network/ ) · Cloudflare subprocessors ( https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/ ) · Cloudflare Korea addendum ( https://www.cloudflare.com/privacypolicy/southkorea-addendum/ ) · Google retention ( https://policies.google.com/technologies/retention ) · Daum Privacy ( https://policy.daum.net/policy/privacy )",
+            "Dữ liệu được truyền qua mạng khi bạn đăng nhập, đồng bộ, kiểm tra gói đăng ký hoặc sử dụng tính năng hay trang web liên quan. Mục 3 mô tả thời gian lưu giữ của chúng tôi. Bản ghi vận hành, kết nối và giao dịch của nhà cung cấp tuân theo hợp đồng và chính sách của họ; thời gian lưu giữ không được bảo đảm giống với thời gian lưu ghi chú của chúng tôi. Hủy gói đăng ký trên cửa hàng và xóa tài khoản Snuumo là hai thao tác riêng biệt.",
+            "Để phản đối việc chuyển dữ liệu hoặc xử lý bên ngoài, hoặc yêu cầu xóa, hãy liên hệ support@ssamoksoft.com. Việc từ chối xử lý xác thực hoặc đồng bộ máy chủ thiết yếu sẽ hạn chế dịch vụ tài khoản. Bạn có thể không sử dụng tính năng tùy chọn, đồng thời rút lại sự đồng ý về vị trí và xóa các vị trí đã có trong phần cài đặt.",
+            "Nếu nhập liệu bằng giọng nói trên thiết bị không khả dụng và bạn chọn phương án thay thế sau khi đọc thông báo trong ứng dụng, âm thanh được mô tả tại mục 1 có thể được gửi tới Apple, Google hoặc nhà cung cấp nhận dạng giọng nói được cấu hình trên thiết bị của bạn. Nhà cung cấp, quốc gia xử lý và thời gian lưu giữ phụ thuộc vào thiết bị, ngôn ngữ, cài đặt và chính sách nhà cung cấp. Bạn có thể nhập văn bản thay thế.",
+            "Bản xem trước liên kết kết nối từ thiết bị của bạn tới trang web được liên kết và máy chủ ảnh xem trước, qua đó chuyển IP và URL yêu cầu của bạn tới các bên vận hành đó. Áp dụng chính sách của họ."
+          ]
+        },
+        {
+          "t": "5. Cung cấp cho bên thứ ba",
+          "l": [
+            "Chúng tôi không bán dữ liệu cá nhân hoặc cung cấp dữ liệu để quảng cáo. Mục 4 phân biệt hoạt động xử lý thay mặt chúng tôi với các tính năng nền tảng bên ngoài mà bạn chọn. Việc tiết lộ khác cho bên thứ ba phải có sự đồng ý cần thiết hoặc căn cứ pháp lý."
+          ]
+        },
+        {
+          "t": "6. Quyền của người dùng",
+          "l": [
+            "Người dùng có thể bất kỳ lúc nào yêu cầu truy cập, sửa, xóa, tạm ngừng xử lý hoặc chuyển thông tin cá nhân của mình, hoặc rút lại sự đồng ý. Bạn có thể xem, chỉnh sửa, xóa ghi chú và xóa tài khoản trực tiếp trong ứng dụng. Người dùng có thể xuất ghi chú, sổ ghi chú và thông tin thư mục của tài khoản được lưu trên thiết bị này cùng các ảnh đính kèm có thể lấy được thành JSON và ảnh trong một tệp ZIP qua [Cài đặt → Xuất dữ liệu của tôi] trong ứng dụng. Có thể thiếu một số nội dung nếu thay đổi mới nhất từ thiết bị khác chưa được đồng bộ hoặc không lấy được ảnh. Ảnh gốc chỉ được đưa vào khi bạn chọn tùy chọn bao gồm bản gốc và có thể lấy được tệp. Hãy kiểm tra thông báo hoàn tất và snuumo_export.json bên trong ZIP để biết số ảnh được đưa vào (included) và chi tiết nội dung bị thiếu (omitted). Các bản chụp riêng được tạo cho liên kết chia sẻ không nằm trong dữ liệu xuất. Yêu cầu khác sẽ được xử lý nếu gửi tới địa chỉ liên hệ bên dưới.",
+            "Thời hạn phản hồi: Công ty thông báo kết quả cho người dùng trong vòng một tháng kể từ khi nhận yêu cầu. Nếu yêu cầu phức tạp hoặc có nhiều yêu cầu nên không thể xử lý trong thời hạn đó, thời hạn có thể được kéo dài thêm tối đa hai tháng; trong trường hợp này, Công ty thông báo cho người dùng về việc gia hạn và lý do trong vòng một tháng kể từ khi nhận yêu cầu (Điều 12(3) GDPR).",
+            "Dịch vụ không dành cho người dưới 14 tuổi (bao gồm người chưa đạt độ tuổi tối thiểu cao hơn nếu pháp luật của quốc gia hoặc khu vực của người dùng quy định).",
+            "Việc sử dụng vị trí cần có sự đồng ý riêng và không bắt buộc. Tắt [Cài đặt → Ghi lại vị trí ghi chú] chỉ tạm dừng ghi vị trí mới trên thiết bị này. [Cài đặt → Rút lại sự đồng ý và xóa vị trí] xóa các vị trí đã lưu, kể cả trong thùng rác, cùng các bản ghi sử dụng liên quan, đồng thời giữ nguyên văn bản ghi chú, ảnh, việc cần làm và lời nhắc. Thiết bị này áp dụng thay đổi ngay lập tức; máy chủ và các thiết bị khác áp dụng khi kết nối và đồng bộ. Ứng dụng hiển thị trạng thái chờ khi ngoại tuyến. Xuất dữ liệu của tôi bao gồm các bản ghi sử dụng vị trí có thể lấy từ thiết bị và máy chủ; lỗi kết nối máy chủ được liệt kê trong chi tiết nội dung bị thiếu của ZIP. Bạn cũng có thể yêu cầu truy cập, sửa và thông báo tại support@ssamoksoft.com."
+          ]
+        },
+        {
+          "t": "7. Biện pháp bảo mật",
+          "l": [
+            "Mã hóa khi truyền (TLS) tới máy chủ xác thực/đồng bộ của Công ty và lưu mật khẩu bằng mã hóa một chiều",
+            "Kiểm soát truy cập theo tài khoản (chính sách máy chủ chỉ cho phép truy cập dữ liệu của chính người dùng, RLS)",
+            "Không theo dõi quảng cáo hoặc thu thập mã định danh quảng cáo; quản lý dữ liệu cần thiết để cung cấp tính năng",
+            "Giảm thiểu quyền truy cập thông tin cá nhân"
+          ]
+        },
+        {
+          "t": "8. Người phụ trách bảo vệ thông tin cá nhân và thông tin doanh nghiệp",
+          "l": [
+            "Người phụ trách bảo vệ thông tin cá nhân / người quản lý thông tin vị trí: Daehoon Kang (강대훈) (Người đại diện)",
+            "Liên hệ: support@ssamoksoft.com",
+            "Tên thương mại | SSAMOK SOFT (싸목소프트)",
+            "Người đại diện | Daehoon Kang (강대훈)",
+            "Địa chỉ doanh nghiệp | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Thư điện tử | support@ssamoksoft.com",
+            "Số đăng ký kinh doanh | 160-75-00256",
+            "Số khai báo kinh doanh bán hàng từ xa | 2019-충북청주-1930",
+            "Báo cáo và tư vấn về xâm phạm thông tin cá nhân (Đại Hàn Dân Quốc): Trung tâm Tiếp nhận báo cáo xâm phạm quyền riêng tư (개인정보침해신고센터, privacy.kisa.or.kr, 118), Ủy ban Hòa giải tranh chấp thông tin cá nhân (개인정보분쟁조정위원회, kopico.go.kr, 1833-6972)"
+          ]
+        },
+        {
+          "t": "9. Đại diện tại EU và Vương quốc Anh (Điều 27 GDPR)",
+          "l": [
+            "Công ty đã chỉ định đại diện theo Điều 27 GDPR của EU và Điều 27 GDPR của Vương quốc Anh.",
+            "Khu vực | Đại diện | Địa chỉ | Liên hệ",
+            "EU | Prighter EU Rep GmbH | Schellinggasse 3/10, 1010 Vienna, Austria | https://app.prighter.com/portal/19708232400",
+            "Vương quốc Anh | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
+            "Người dùng tại EU/EEA và Vương quốc Anh có thể liên hệ đại diện và thực hiện quyền của mình qua cổng này, hoặc liên hệ trực tiếp với Công ty. Họ có quyền khiếu nại tới cơ quan giám sát tại quốc gia cư trú."
+          ]
+        },
+        {
+          "t": "10. Thay đổi chính sách này",
+          "l": [
+            "Khi thay đổi chính sách này, thay đổi được thông báo trong ứng dụng hoặc đăng trên trang web từ 7 ngày trước khi có hiệu lực (30 ngày đối với thay đổi quan trọng).",
+            "Điều khoản bổ sung",
+            "Chính sách này có hiệu lực từ 2026-09-12 và áp dụng cho người dùng Dịch vụ kể từ khi phát hành công khai.",
+            "Lịch sử sửa đổi 2026-07-25: công bố lần đầu. 2026-09-11 (công bố trước khi phát hành): bổ sung mô tả về nhà cung cấp dịch vụ bản đồ (Google Maps) và dịch vụ lưu trữ trang web Công ty (GitHub Pages); công bố các bản ghi còn lưu sau khi chấm dứt tài khoản (mã định danh xác minh việc chấm dứt tài khoản, 180 ngày; bản ghi công việc xóa, 30 ngày) và việc xóa dữ liệu cục bộ trên thiết bị; quy định thời hạn phản hồi yêu cầu thực hiện quyền của người dùng (một tháng, có thể kéo dài thêm tối đa hai tháng); bổ sung mục đại diện EU/Vương quốc Anh (mục 9) và thông tin doanh nghiệp (mục 8); mô tả khả năng xử lý nhập liệu bằng giọng nói trên máy chủ nền tảng, việc loại trừ khỏi sao lưu hệ thống Android, hoạt động xử lý của nhà cung cấp bên ngoài và cách kiểm tra nội dung bị thiếu khi xuất. 2026-09-12: hoàn thiện tài liệu trước khi phát hành, trước khi cung cấp Dịch vụ cho người dùng đại chúng; thống nhất ngày công bố và ngày có hiệu lực, đồng thời lưu tài liệu chuẩn bị trước đây. 2026-09-13: mô tả việc gửi email đặt lại mật khẩu và dữ liệu liên quan qua dịch vụ Daum Smartwork mà chúng tôi đang sử dụng"
+          ]
+        },
+        {
+          "t": "Tài liệu chuẩn bị trước đây",
+          "b": "Bản lưu tài liệu chuẩn bị bằng tiếng Hàn, ghi ngày có hiệu lực là 25 tháng 7 năm 2026: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+        },
+        {
+          "t": "Tài liệu trước khi phát hành ngày 11 tháng 9",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/2026-09-11/"
+        }
+      ]
     }
   }
 }

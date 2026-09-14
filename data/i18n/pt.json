@@ -179,6 +179,159 @@
         { "t": "Retenção legal", "b": "Registros relacionados a pagamento que devem ser retidos conforme a lei coreana de comércio eletrônico e normas relacionadas são mantidos pelo prazo legal e depois destruídos." },
         { "t": "Contato", "b": "Para dúvidas sobre a exclusão, escreva para ssamoksoft@gmail.com." }
       ]
+    },
+    "snuumo_privacy": {
+      "title": "Política de Privacidade do Snuumo",
+      "updated": "Publicação: 2026-09-12 · Vigência: 2026-09-12",
+      "applies": "O Serviço passou apenas por testes antes do lançamento e ainda não foi oferecido ao público. Estes documentos entram em vigor em 12 de setembro de 2026 e se aplicam aos usuários a partir do lançamento público. Os documentos preparatórios anteriores são mantidos no histórico.\n\nEsta política foi redigida em coreano. A tradução portuguesa do original https://www.ssamoksoft.com/privacy/snuumo/?lang=ko permite que usuários e revisores que não leem coreano compreendam o mesmo conteúdo.\n\nA SSAMOK SOFT (싸목소프트, a «Empresa») oferece o aplicativo de notas «Snuumo» (o «Serviço») e protege e trata dados pessoais conforme abaixo, segundo a Lei coreana de Proteção de Informações Pessoais (개인정보 보호법, PIPA) e demais leis aplicáveis.",
+      "sections": [
+        {
+          "t": "1. Dados coletados e métodos",
+          "l": [
+            "Categoria | Dados | Método",
+            "Conta (obrigatória) | E-mail e senha (armazenada criptografada), ou identificador de acesso social (conta Google/Apple, e-mail, nome e URL da foto de perfil fornecidos pela plataforma) | No cadastro",
+            "Conteúdo | Notas (texto e listas), fotos anexas (compactadas e, no Pro, originais), texto reconhecido em fotos (OCR), texto ditado e salvo, prévias de links e horários de lembretes | Na criação ou anexação pelo usuário, com armazenamento no servidor para sincronização e backup",
+            "Localização | Coordenadas e nomes dos locais das notas e coordenadas EXIF de fotos anexadas no iOS. Metadados de localização são removidos das fotos antes do envio | Só após consentimento separado e opcional e ativação de Registrar localização das notas. A posição do dispositivo também exige permissão do sistema; EXIF de fotos iOS é separado dessa permissão. É possível pausar o registro e retirar consentimento nas configurações",
+            "Registros de uso de localização | Identificador da conta, hora, origem, operação e identificador da nota; sem coordenadas reais, nomes de locais, texto ou fotos | Automaticamente durante o tratamento, conforme artigo 16(2) da Lei de Informações de Localização",
+            "Estado do consentimento de localização | Estado atual, versão do aviso, hora da decisão e identificadores de solicitação | Gerir consentimento/retirada e impedir reaplicação de solicitações antigas de outros dispositivos",
+            "Assinatura | Plano, estado e vencimento no servidor; RevenueCat verifica e gerencia compras, recibos e tokens | Na verificação após login, assinatura Pro ou restauração de compras. Cartões e outros meios de pagamento são tratados pela loja, como Apple, e não coletados pela Empresa",
+            "Não rastreamos usuários para publicidade nem coletamos contatos. SDKs Google Sign-In, Maps e ML Kit podem tratar automaticamente dados de aplicativo/sistema/dispositivo, identificadores de instalação ou SDK, eventos, erros, falhas e informações de desempenho/uso. RevenueCat trata análises de assinatura e o país inferido do IP. Os serviços externos abaixo detalham isso. Textos e fotos das notas não são usados para publicidade ou análise comportamental.",
+            "O ditado processa áudio somente no dispositivo quando ele e o idioma atual oferecem suporte. Apenas quando o reconhecimento local não estiver disponível você poderá escolher outra forma após o aviso no aplicativo; ela poderá tratar áudio em servidores da Apple, Google ou do serviço de voz configurado. A Empresa não envia nem armazena áudio original de ditado nos próprios servidores. O texto reconhecido salvo como nota é armazenado e sincronizado no dispositivo e nos servidores como qualquer texto de nota. O tratamento e a retenção do áudio pelo fornecedor dependem das políticas dele e de suas configurações. Também é possível digitar sem usar ditado.",
+            "O OCR de fotos ocorre no dispositivo. ML Kit pode enviar ao Google metadados para diagnóstico e estatísticas: formato/resolução, horários de eventos, latência e erros. Essas estatísticas não enviam a foto OCR nem o texto reconhecido.",
+            "Ao inserir um endereço web (URL) na nota, o aplicativo conecta diretamente ao site para gerar a prévia, transmitindo o endereço IP do usuário ao site.",
+            "Calendário e lembretes são acessados apenas ao exportar uma nota para eles. O conteúdo vai para o aplicativo do dispositivo, sem envio ou armazenamento nos nossos servidores. Não lemos eventos/lembretes existentes; no Android, consultamos apenas identificadores dos calendários para selecionar o destino.",
+            "O aplicativo Android exclui todos os seus dados de backups automáticos em nuvem e transferências entre dispositivos do Android. Sincronização Snuumo, armazenamento Pro de originais e exportação manual são distintos. Antes de apagar o dispositivo ou reinstalar, confira a sincronização e guarde separadamente o que ainda não foi sincronizado em [Configurações → Exportar meus dados]."
+          ]
+        },
+        {
+          "t": "2. Finalidades",
+          "l": [
+            "Criar, autenticar e gerenciar contas",
+            "Sincronizar dispositivos, fornecer backup em nuvem (incluindo originais Pro) e compartilhar notas",
+            "Buscar suas notas pelo nome do local e exibi-las no mapa; as localizações não são usadas para outra finalidade (Termos, artigo 10, Serviços de localização) https://www.ssamoksoft.com/privacy/snuumo/terms/",
+            "Verificar assinaturas, fornecer recursos pagos e consultar análises de assinatura",
+            "Responder consultas, divulgar avisos e manter/melhorar serviços usando diagnóstico e estatísticas de desempenho/uso dos SDKs"
+          ]
+        },
+        {
+          "t": "3. Retenção e destruição",
+          "l": [
+            "Dados | Prazo",
+            "Conta e conteúdo (notas, fotos, perfil, instantâneos compartilhados) | Excluídos sem demora ao encerrar a conta ([Configurações → Excluir conta]). Em grandes volumes, a limpeza continua no servidor; após concluída, não há recuperação",
+            "Localização das notas | Excluída ao apagar definitivamente a nota, excluir conta ou retirar consentimento. Pausar o registro não apaga locais existentes",
+            "Registros de uso de localização | Seis meses desde o evento no dispositivo e pelo menos seis meses desde recebimento/registro no servidor, depois limpeza por vencimento. A retirada de consentimento exclui registros associados sem demora conforme artigo 24(4); a exclusão da conta também",
+            "Consentimento de localização e identificadores de solicitação | Enquanto existir a conta, para aplicar consentimento e impedir solicitações antigas; excluídos com a conta. Sem coordenadas, locais ou texto",
+            "Notas na lixeira | Excluídas definitivamente 30 dias após a movimentação",
+            "Instantâneos de links compartilhados | Expiram e são excluídos 30 dias após criação; não contêm localização e podem ser apagados antes em [Configurações → Meus links compartilhados]",
+            "Backups Pro de originais após cancelamento | Retidos por 90 dias desde o vencimento da assinatura, disponíveis para consulta/restauração, depois excluídos",
+            "Identificador de verificação de encerramento (conta e momento) | Excluído 180 dias após o encerramento da conta; apenas para limpar dados locais de outro dispositivo que permaneceu autenticado mas desligado quando ele reconectar",
+            "Registros de tarefas de exclusão (conta, token compartilhado, caminhos dos arquivos) | Excluídos 30 dias após conclusão; somente para verificar omissões e tentar novamente",
+            "Registros de retenção obrigatória | Prazo legal pertinente, por exemplo 5 anos para contratos e desistências segundo a lei coreana de proteção ao consumidor no comércio eletrônico (전자상거래 등에서의 소비자보호에 관한 법률)",
+            "Encerrar a conta também apaga os dados locais do dispositivo utilizado, sem escolha separada. Outros dispositivos conectados à mesma conta apagam automaticamente os dados locais na próxima conexão.",
+            "São excluídos conta, notas, fotos, perfil, instantâneos e dados locais. No nosso armazenamento de contas/notas permanecem apenas verificação de encerramento (180 dias), tarefas de exclusão (30 dias) e registros legais acima. Registros externos de assinatura, conexão e consultas seguem separadamente a seção 4. Os registros retidos de verificação/exclusão não contêm texto, fotos ou localização.",
+            "A destruição é irreversível, por exclusão definitiva do banco e armazenamento."
+          ]
+        },
+        {
+          "t": "4. Serviços externos e transferências internacionais",
+          "l": [
+            "Usamos os serviços abaixo para autenticação, sincronização, assinaturas e hospedagem. Supabase e RevenueCat tratam dados dos usuários seguindo nossas instruções. Cloudflare também atua como operador dos dados de clientes relacionados à hospedagem. Seus termos padrão incorporam aditivos de tratamento (DPA). Plataformas de login, pagamento e mapas e fornecedores que tratam dados de visitantes de forma independente também aplicam seus próprios termos e políticas.",
+            "Fornecedor | Entidade / local | Finalidade e papel | Dados",
+            "Supabase Pte. Ltd. | Entidade de Singapura; armazenamento principal na Coreia do Sul (AWS Seoul ap-northeast-2). Suporte, operações e suboperadores podem envolver outros países | Operador para autenticação, banco e fotos | Conta, conteúdo, localização, registros de localização, consentimento e assinatura da seção 1, mais conexão/solicitações. Exclui áudio original do ditado",
+            "Cloudflare, Inc. | Entidade dos EUA; rede global | Operador de hospedagem de snuumo.com e páginas de entrada de links compartilhados, CDN e segurança | IP, URL solicitada com token de compartilhamento, hora, navegador e dispositivo. O banco de notas não é replicado na Cloudflare",
+            "RevenueCat, Inc. | Centros AWS nos EUA; DPA lista suboperadores americanos e suporte coreano conforme serviços usados | Operador para verificação, restauração, estado e análise de assinaturas | Identificador Snuumo, produto, compra, recibo/token, assinatura, aplicativo/sistema/dispositivo, última atividade e país. Não configuramos nem enviamos notas, fotos, áudio ou e-mails à RevenueCat",
+            "Apple Inc. / Google LLC e entidades regionais pertinentes | EUA e outros países conforme plataformas | Login social ou compra escolhidos | Solicitações de autenticação, identificadores do aplicativo, IP/dispositivo, diagnóstico/uso Google Sign-In, produtos/transações. Recebemos identificadores de login, e-mail, tokens, nomes/URLs das fotos de perfil fornecidos pela plataforma e verificação de assinatura, não senhas das plataformas ou números de cartão",
+            "Apple, Google ou fornecedor de geocodificação configurado | Países segundo plataforma e fornecedor | Converter coordenadas em nomes para etiquetas de localização | Coordenadas das notas e solicitações após consentimento; guardamos local retornado e coordenadas com a nota",
+            "Google LLC e entidade contratante do Google Maps aplicável | EUA e outros países conforme Google | Mapas; contrato Maps considera as partes controladores independentes | Áreas, coordenadas, IP, identificadores SDK, aplicativo/dispositivo, deslocamentos/zoom, erros/falhas/desempenho. Aplicam-se termos Google Maps Platform e política Google",
+            "Google LLC (ML Kit) | EUA e outros países conforme Google | OCR local; Google trata diagnóstico e estatísticas de desempenho/uso do SDK | Identificadores por instalação, aplicativo/dispositivo/sistema, latência, erros, eventos API e formato/resolução. Estatísticas não enviam fotos OCR ou texto reconhecido",
+            "GitHub, Inc. e entidades regionais pertinentes | EUA e outros países conforme GitHub | GitHub Pages de ssamoksoft.com; tratamento independente da segurança dos visitantes | IP registrado e retido mesmo sem login; hora, página, navegador e dispositivo também podem ser tratados. Notas e fotos de usuários não são enviadas ao site da Empresa",
+            "Daum Co., Ltd. (Daum Smartwork) | Entidade coreana do sistema de consultas e redefinição de senha; a sede não garante todos os locais de tratamento | Recebimento/armazenamento de consultas a support@ssamoksoft.com e envio de redefinições por esse endereço | Consultas: endereço/nome do remetente, mensagem, anexos. Redefinição: destinatário, assunto, texto, link de uso único. Ambos: informações de transmissão. Novas senhas não são enviadas por e-mail, e notas/fotos não são replicadas no correio de suporte",
+            "Contatos, momentos e retenção",
+            "Fornecedor e contato | Momento e método | Prazo ou critério",
+            "Supabase — privacy@supabase.com | Pela rede no cadastro, login, sincronização, compartilhamento, exclusão e demais funções servidor | Contas/conteúdos da Empresa: seção 3. Registros operacionais/suporte conforme serviço e obrigações legais. Encerrado nosso contrato, DPA prevê 30 dias para exportar, depois excluir; não é atraso de 30 dias na exclusão individual",
+            "RevenueCat — compliance@revenuecat.com | Pela rede em verificações após login, compras, restaurações, renovações e transações | Conforme gestão de assinaturas e nossas instruções de exclusão. Após fim contratual, pedido de devolução/exclusão em 30 dias pelo DPA, ressalvados backups e retenção legal. Cancelar na loja não exclui o cliente RevenueCat",
+            "Cloudflare — privacyquestions@cloudflare.com / direitos: sar@cloudflare.com | Pela rede em visitas a snuumo.com ou páginas de entrada compartilhadas | Conforme hospedagem, distribuição, segurança e lei. Devolução/exclusão ao fim do tratamento segundo DPA, ressalvada retenção legal. Prazo dos logs pode diferir do período visível no painel",
+            "Apple — https://www.apple.com/legal/privacy/contact/ | Pela rede no login, compra, geocodificação ou ditado servidor escolhidos | Necessidades da função, transações, segurança e lei. Áudio segue avisos específicos e configurações do dispositivo. Acesso/exclusão pelos canais de privacidade Apple",
+            "Google — googlekrsupport@google.com | Pela rede com login, SDKs Maps/OCR e compra, geocodificação ou ditado servidor escolhidos | Segundo função, configurações e política Google. Exclusão automática de atividade da conta não necessariamente abrange toda a telemetria diagnóstica dos SDKs",
+            "GitHub — dpo@github.com | Pela rede ao visitar site empresarial ou páginas legais | Conforme serviço/segurança, obrigações legais, disputas e execução contratual. Políticas GitHub também regem acessos Pages de quem não possui conta",
+            "Outros fornecedores de geocodificação/voz e operadores de links inseridos | Pela rede ao usar função opcional ou solicitar página/imagem de prévia | Varia conforme fornecedor/link; consulte configurações do dispositivo ou página de privacidade/contato do site",
+            "Daum — https://cs.daum.net/ (Daum Co., Ltd.) | Por sistemas de e-mail em consultas a support@ssamoksoft.com ou pedidos de redefinição Snuumo | Conforme atendimento, envio de redefinição e retenção legal. Exclusão do nosso correio é distinta de backups/registros de segurança do fornecedor; termos e políticas Daum aplicáveis",
+            "Para tratamento delegado/armazenamento internacional necessário à celebração ou execução do contrato de serviço, adotamos a publicação nesta política segundo o artigo 28-8(1)(3)(a) da PIPA coreana. Isso não autoriza genericamente divulgações independentes ou análises próprias de fornecedores. Plataformas têm avisos, consentimentos e bases legais específicos. Quando UE, Reino Unido ou outras regiões exigirem salvaguardas adicionais, aplicamos medidas como cláusulas contratuais padrão do DPA pertinente, separadas da base coreana.",
+            "Banco principal e fotos Supabase ficam em Seul. Conforme local de invocação, Edge Functions podem executar na Coreia do Sul, Japão, Índia, Singapura, Austrália, Canadá, EUA, Alemanha, Suíça, Irlanda, Reino Unido, França ou Brasil. Suporte e subtratamento não se limitam a Seul. Cloudflare opera globalmente conforme visitante, roteamento e configuração. As listas oficiais abaixo mostram escopo possível, não envio de cada solicitação a todos os países.",
+            "Fontes e ícones do site empresarial são servidos no próprio site, sem pedidos diretos ao Google Fonts ou jsDelivr.",
+            "Supabase DPA ( https://supabase.com/legal/customer-resources/data-processing-addendum ) · RevenueCat DPA ( https://www.revenuecat.com/dpa ) · Cloudflare DPA ( https://www.cloudflare.com/cloudflare-customer-dpa/ ) · Apple Privacy ( https://www.apple.com/legal/privacy/ ) · Google Privacy ( https://policies.google.com/privacy ) · ML Kit Terms ( https://developers.google.com/ml-kit/terms ) · Google Maps Terms ( https://cloud.google.com/maps-platform/terms ) · GitHub Privacy ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ) · GitHub Pages ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection ) · Supabase regions ( https://supabase.com/docs/guides/functions/regional-invocation ) · Supabase subprocessors ( https://supabase.com/legal/customer-resources/subprocessor-list ) · Cloudflare network ( https://www.cloudflare.com/network/ ) · Cloudflare subprocessors ( https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/ ) · Cloudflare Korea addendum ( https://www.cloudflare.com/privacypolicy/southkorea-addendum/ ) · Google retention ( https://policies.google.com/technologies/retention ) · Daum Privacy ( https://policy.daum.net/policy/privacy )",
+            "Dados trafegam ao fazer login, sincronizar, verificar assinaturas ou usar funções/sites pertinentes. Nossa retenção está na seção 3. Registros operacionais, de conexão e transações dos fornecedores seguem seus contratos/políticas, sem garantia de coincidir com os prazos das notas. Cancelamento da loja e exclusão Snuumo são distintos.",
+            "Para oposição a transferências/tratamento externo ou exclusão, contate support@ssamoksoft.com. Recusar autenticação ou sincronização servidor essenciais limita os serviços da conta. É possível evitar funções opcionais e retirar consentimento e apagar locais nas configurações.",
+            "Se o ditado local não estiver disponível e escolher alternativa após o aviso, o áudio da seção 1 poderá ir aos servidores Apple, Google ou do fornecedor de voz configurado. Fornecedor, países e prazos dependem do dispositivo, idioma, ajustes e política. Você pode digitar em vez disso.",
+            "Prévias conectam o dispositivo ao site e servidor de imagem do link, revelando IP e URL solicitada aos operadores. Valem suas políticas."
+          ]
+        },
+        {
+          "t": "5. Fornecimento a terceiros",
+          "l": [
+            "Não vendemos dados nem os fornecemos para publicidade. A seção 4 distingue operadores em nosso nome de funções externas escolhidas. Outras divulgações exigem consentimento necessário ou base legal."
+          ]
+        },
+        {
+          "t": "6. Direitos dos usuários",
+          "l": [
+            "É possível solicitar acesso, correção, exclusão, suspensão, portabilidade ou retirar consentimento a qualquer momento. As notas podem ser vistas, editadas ou excluídas, e a conta pode ser excluída no aplicativo. [Configurações → Exportar meus dados] exporta memos, notas, pastas da conta neste dispositivo e fotos acessíveis como JSON e imagens em ZIP. Alterações ainda não sincronizadas de outros dispositivos ou fotos indisponíveis podem faltar. Originais só são incluídos se a opção for escolhida e os arquivos acessíveis. Confira aviso final e snuumo_export.json para quantidade de fotos (included) e omissões (omitted). Instantâneos de links não são exportados. Outras solicitações pelo contato abaixo.",
+            "Informamos o resultado em um mês após o recebimento. Se a complexidade ou o número de pedidos impedir o atendimento nesse prazo, ele poderá ser prorrogado por até dois meses adicionais; informamos a prorrogação e os motivos em um mês após o recebimento (GDPR artigo 12(3)).",
+            "O Serviço não se destina a menores de 14 anos ou de idade mínima superior exigida no país/região do usuário.",
+            "Localização exige consentimento opcional separado. Desligar [Configurações → Registrar localização das notas] pausa apenas novos registros neste dispositivo. [Configurações → Retirar consentimento e excluir locais] apaga locais salvos, inclusive lixeira, e registros associados, mantendo texto, fotos, tarefas e lembretes. Efeito imediato aqui; servidor e outros dispositivos após conexão/sincronização, com espera offline indicada. Exportação inclui registros de localização disponíveis no dispositivo/servidor; falhas de conexão constam das omissões ZIP. Acesso, correção e informação também em support@ssamoksoft.com."
+          ]
+        },
+        {
+          "t": "7. Medidas de segurança",
+          "l": [
+            "Criptografia em trânsito (TLS) aos servidores de autenticação/sincronização e senhas armazenadas com hash unidirecional",
+            "Controle por conta: política servidor RLS permite acesso somente aos próprios dados",
+            "Sem rastreamento ou identificadores publicitários; gestão dos dados necessários às funções",
+            "Mínimos privilégios de acesso a dados pessoais"
+          ]
+        },
+        {
+          "t": "8. Responsável pela privacidade e informações empresariais",
+          "l": [
+            "Responsável pela proteção de dados / localização: Daehoon Kang (강대훈), representante",
+            "Contato: support@ssamoksoft.com",
+            "Nome comercial | SSAMOK SOFT (싸목소프트)",
+            "Representante | Daehoon Kang (강대훈)",
+            "Endereço empresarial | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Correio eletrônico | support@ssamoksoft.com",
+            "Registro empresarial | 160-75-00256",
+            "Declaração de comércio à distância | 2019-충북청주-1930",
+            "Denúncias e orientação sobre privacidade na Coreia: centro de denúncias (개인정보침해신고센터, privacy.kisa.or.kr, 118), comissão de mediação (개인정보분쟁조정위원회, kopico.go.kr, 1833-6972)."
+          ]
+        },
+        {
+          "t": "9. Representantes UE e Reino Unido (GDPR artigo 27)",
+          "l": [
+            "A Empresa designou representantes segundo o artigo 27 do GDPR da UE e o artigo 27 do UK GDPR.",
+            "Região | Representante | Endereço | Contato",
+            "UE | Prighter EU Rep GmbH | Schellinggasse 3/10, 1010 Vienna, Austria | https://app.prighter.com/portal/19708232400",
+            "Reino Unido | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
+            "Usuários UE/EEE e Reino Unido podem contatar representantes e exercer direitos pelo portal ou diretamente com a Empresa. Podem reclamar à autoridade supervisora do país de residência."
+          ]
+        },
+        {
+          "t": "10. Alterações",
+          "l": [
+            "Alterações anunciadas no aplicativo ou site 7 dias antes da vigência, 30 dias para alterações relevantes.",
+            "Disposições finais",
+            "Vigente desde 2026-09-12, aplicável aos usuários desde o lançamento público.",
+            "Histórico: 2026-07-25 primeira publicação. 2026-09-11 antes do lançamento: Google Maps/GitHub Pages, registros pós-encerramento (verificação 180 dias, tarefas 30 dias), exclusão local, resposta a direitos em um mês prorrogável por dois, representantes UE/Reino Unido (seção 9), informações empresariais (seção 8), possível ditado servidor, exclusão backup Android, tratamento externo e omissões de exportação. 2026-09-12: finalização antes do público, datas alinhadas e versões anteriores arquivadas. 2026-09-13: e-mails de redefinição e dados pelo Daum Smartwork existente."
+          ]
+        },
+        {
+          "t": "Documento preparatório anterior",
+          "b": "Arquivo coreano com vigência indicada em 25 de julho de 2026: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+        },
+        {
+          "t": "Documento pré-lançamento de 11 de setembro de 2026",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/2026-09-11/"
+        }
+      ]
     }
   }
 }

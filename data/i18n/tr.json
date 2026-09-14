@@ -179,6 +179,159 @@
         { "t": "Yasal saklama", "b": "Kore e-ticaret kanunu ve ilgili mevzuat uyarınca saklanması gereken ödemeye ilişkin kayıtlar, yasal süre boyunca saklanır ve ardından yok edilir." },
         { "t": "İletişim", "b": "Silme ile ilgili sorular için ssamoksoft@gmail.com adresine yazın." }
       ]
+    },
+    "snuumo_privacy": {
+      "title": "Snuumo Gizlilik Politikası",
+      "updated": "Duyuru tarihi: 2026-09-12 · Yürürlük tarihi: 2026-09-12",
+      "applies": "Hizmet, yayımlanmadan önce yalnızca test edilmiş ve genel kullanıcılara sunulmamıştır. Bu belgeler 12 Eylül 2026 tarihinden itibaren geçerlidir ve Hizmetin herkese açık olarak sunulduğu tarihten itibaren Hizmet kullanıcılarına uygulanır. Önceki hazırlık belgeleri geçmiş kayıt olarak saklanır.\n\nBu Gizlilik Politikası başlangıçta Korece hazırlanmıştır. Bu Türkçe metin, Korece bilmeyen kullanıcıların ve inceleyenlerin aynı içeriği anlayabilmesi için https://www.ssamoksoft.com/privacy/snuumo/?lang=ko adresindeki Korece aslından çevrilmiştir.\n\nSSAMOK SOFT (싸목소프트) (\"Şirket\"), \"Snuumo\" not uygulamasını (\"Hizmet\") sunar ve Kişisel Bilgilerin Korunması Kanunu (개인정보 보호법, \"PIPA\") ile diğer geçerli mevzuata uygun olarak kullanıcıların kişisel verilerini aşağıda açıklandığı şekilde korur ve işler.",
+      "sections": [
+        {
+          "t": "1. Toplanan kişisel veriler ve toplama yöntemleri",
+          "l": [
+            "Kategori | Veriler | Yöntem",
+            "Hesap (zorunlu) | E-posta adresi ve parola (şifrelenerek saklanır) veya sosyal giriş tanımlayıcısı (Google · Apple hesap tanımlayıcısı, e-posta, sağlayıcının ilettiği ad ve profil fotoğrafı URL'si) | Kayıt sırasında",
+            "İçerik | Not içeriği (metin ve kontrol listeleri), ekli fotoğraflar (sıkıştırılmış kopyalar; Pro için orijinaller dahil), fotoğraflardan tanınan metin (OCR), kaydettiğiniz dikte yoluyla tanınan metin, bağlantı önizleme bilgileri, hatırlatma zamanları | Kullanıcı oluşturduğunda veya eklediğinde (eşitleme ve yedekleme amacıyla sunucuda saklanır)",
+            "Konum bilgileri | Notların oluşturulduğu yerlerin koordinatları ve adları ile iOS'ta eklenen fotoğrafların EXIF koordinatları. Fotoğraf dosyalarındaki konum meta verileri yüklemeden önce kaldırılır | Yalnızca konum hizmetleri için ayrı ve isteğe bağlı onay verilip Not konumunu kaydet etkinleştirildikten sonra. Cihaz konumu için ayrıca işletim sistemi izni gerekir; iOS fotoğraf EXIF bilgileri, işletim sisteminin konum izninden ayrıdır. Kayıt duraklatılabilir ve onay ayarlardan geri çekilebilir",
+            "Konum kullanım kayıtları | Hesap tanımlayıcısı, kullanım zamanı, kaynak, işlem türü ve ilgili not tanımlayıcısı; gerçek koordinatları, yer adlarını, metni veya fotoğrafları içermez | Konum Bilgileri Kanunu'nun 16(2). maddesi uyarınca konum işlenirken otomatik kaydedilir",
+            "Konum onayı durumu | Güncel onay durumu, bildirim sürümü, karar zamanı ve istek tanımlayıcıları | Onayı ve geri çekilmesini işlemek ve diğer cihazlardaki eski isteklerin yeniden yürütülmesini önlemek için",
+            "Abonelik bilgileri | Şirket sunucusunda plan, durum ve sona erme zamanı; RevenueCat tarafından doğrulanan ve yönetilen satın alma geçmişi ve makbuzlar/satın alma jetonları | Giriş sonrası abonelik kontrolünde, Pro aboneliğinde veya satın almaları geri yüklerken (kredi kartı bilgileri gibi ödeme aracı bilgilerini Apple gibi mağazalar işler; Şirket bunları toplamaz)",
+            "Kullanıcıları reklam amacıyla takip etmiyor ve kişileri toplamıyoruz. Google Sign-In, Maps ve ML Kit SDK'ları uygulama/işletim sistemi/cihaz bilgilerini, kurulum veya SDK tanımlayıcılarını, özellik kullanım olaylarını, hataları, çökmeleri, performans ve kullanım bilgilerini otomatik işleyebilir. RevenueCat, abonelik istatistiklerini ve IP adresinden tahmin edilen ülke bilgisini işler. Bu işlemler aşağıdaki harici hizmetler bölümünde açıklanmıştır. Not metinleri ve fotoğraf içerikleri reklam veya davranış analizi için kullanılmaz.",
+            "Dikte, cihaz ve mevcut dil desteklediğinde sesi yalnızca cihazınızda işler. Yalnızca cihaz üzerinde tanıma kullanılamıyorsa, uygulama içi bildirimin ardından Apple, Google veya cihazınızda ayarlı konuşma hizmeti sağlayıcısının sunucularında ses işleyebilen bir alternatif seçebilirsiniz. Şirket, orijinal dikte sesini kendi sunucularına yüklemez veya bu sunucularda saklamaz. Tanınan metni not olarak kaydettiğinizde metin, diğer not metinleri gibi cihazınızda ve Şirket sunucularında saklanır ve eşitlenir. Sağlayıcının sesi işlemesi ve saklaması kendi politikalarına ve ayarlarınıza bağlıdır. Dikte kullanmadan metni doğrudan yazabilirsiniz.",
+            "Fotoğraflardaki metin tanıma (OCR) cihaz üzerinde yapılır. ML Kit, tanılama ve kullanım istatistikleri için görüntü biçimi/çözünürlüğü, olay zamanı, gecikme ve hata gibi meta verileri Google'a gönderebilir. Bu istatistiklerle OCR fotoğrafı veya tanınan metnin içeriği gönderilmez.",
+            "Kullanıcı bir nota web adresi (URL) girerse, uygulama önizleme oluşturmak için doğrudan o web sitesine bağlanır (bu sırada kullanıcının IP adresi o siteye iletilir).",
+            "Uygulama, cihazın takvimine ve hatırlatıcılarına yalnızca bir notu bunlara dışa aktardığınızda erişir. Dışa aktarılan içerik cihazdaki uygulamaya iletilir; Şirket sunucusuna gönderilmez veya orada saklanmaz. Şirket mevcut etkinliklerinizi veya hatırlatıcılarınızı okumaz (Android'de, hedef takvimi seçebilmeniz için yalnızca takvim tanımlayıcılarını kontrol eder).",
+            "Android uygulaması, tüm uygulama verilerini Android otomatik bulut yedeklemelerinden ve cihazlar arası aktarımlardan hariç tutacak şekilde yapılandırılmıştır. Snuumo hesap eşitlemesi, Pro orijinal fotoğraf saklama ve elle dışa aktarma ayrı özelliklerdir. Cihazınızı silmeden veya uygulamayı yeniden yüklemeden önce eşitleme durumunu kontrol edin ve henüz eşitlenmemiş verilerin ayrı bir kopyasını [Ayarlar → Verilerimi dışa aktar] ile saklayın."
+          ]
+        },
+        {
+          "t": "2. Kullanım amaçları",
+          "l": [
+            "Hesap oluşturma, kimlik doğrulama ve hesap yönetimi",
+            "Cihazlar arası eşitleme, bulut yedekleme (Pro orijinal yedeklemesi dahil) ve not paylaşımı sağlama",
+            "Konuma dayalı arama (notlarınızı yer adına göre bulma) ve haritada gösterme. Notlarla kaydedilen konumlar başka amaçla kullanılmaz (Hizmet Koşulları, 10. madde, Konuma Dayalı Hizmetler: https://www.ssamoksoft.com/privacy/snuumo/terms/ )",
+            "Abonelik durumunu doğrulama, ücretli özellikleri sunma ve abonelik istatistiklerini inceleme",
+            "Başvuruları yanıtlama, hizmet duyuruları yapma ve SDK tanılama, performans ve kullanım istatistikleriyle hizmetleri sürdürme/iyileştirme"
+          ]
+        },
+        {
+          "t": "3. Saklama süreleri ve imha",
+          "l": [
+            "Veriler | Saklama süresi",
+            "Tüm hesap verileri ve içerik (notlar, fotoğraflar, profil, paylaşım anlık görüntüleri) | Üyelik sonlandırıldığında gecikmeksizin silinir (uygulamada [Ayarlar → Hesabı sil]). Veri miktarı büyükse sunucudaki temizleme işlemleri devam eder; tamamlandığında veriler kurtarılamaz",
+            "Not konum bilgileri | Not kalıcı olarak silindiğinde, hesap silindiğinde veya konum onayı geri çekildiğinde silinir. Yalnızca kaydı duraklatmak mevcut konumları silmez",
+            "Konum kullanım kayıtları | Cihazda olay tarihinden itibaren altı ay, sunucuda alınma/kayıt tarihinden itibaren en az altı ay saklanır; ardından süresi dolan kayıtlar temizlenir. Onay geri çekildiğinde ilgili kayıtlar 24(4). madde uyarınca gecikmeksizin silinir; hesap silindiğinde de silinir",
+            "Konum onayı durumu ve istek tanımlayıcıları | Onayı uygulamak ve eski cihaz isteklerinin yeniden yürütülmesini önlemek için hesap var olduğu sürece saklanır; hesapla birlikte silinir. Koordinat, yer adı veya not metni içermez",
+            "Çöp kutusundaki notlar | Çöp kutusuna taşındıktan 30 gün sonra kalıcı olarak silinir",
+            "Paylaşım bağlantısı anlık görüntüleri | Oluşturulduktan 30 gün sonra geçerliliğini yitirir ve silinir (konum bilgisi içermez; süresi dolmadan önce uygulamadaki [Ayarlar → Paylaştığım bağlantılar] bölümünden her zaman silinebilir)",
+            "Pro orijinal yedekleri (abonelik iptalinde) | Aboneliğin sona erdiği tarihten itibaren 90 gün saklanır (görüntülenebilir ve geri yüklenebilir), ardından silinir",
+            "Üyelik sonlandırma doğrulama bilgisi (hesap tanımlayıcısı ve sonlandırma zamanı) | Üyeliğin sonlandırılmasından 180 gün sonra silinir. Yalnızca oturumu açık kalmış ancak kapalı olan başka bir cihaz yeniden bağlandığında o cihazın yerel verilerini temizlemek için kullanılır",
+            "Silme işi kayıtları (hesap tanımlayıcısı, paylaşım jetonu, silinecek dosya yolları) | Silme tamamlandıktan 30 gün sonra silinir. Yalnızca atlanan silmeleri kontrol etmek ve yeniden denemek için kullanılır",
+            "Şirketin kanunen saklamak zorunda olduğu kayıtlar | İlgili kanunun belirlediği süre (örneğin Elektronik Ticarette Tüketicinin Korunması Kanunu [전자상거래 등에서의 소비자보호에 관한 법률] uyarınca sözleşme ve cayma kayıtları için 5 yıl)",
+            "Üyelik sonlandırıldığında hesap silme işleminin yapıldığı cihazdaki yerel veriler de ayrıca bir seçim yapılmadan silinir. Aynı hesapla oturum açmış diğer cihazların yerel verileri de her cihaz bir sonraki kez bağlandığında otomatik olarak silinir.",
+            "Dolayısıyla üyelik sonlandırıldığında hesap, notlar, fotoğraflar, profil, paylaşım anlık görüntüleri ve cihazların yerel verileri silinir. Hesap ve not depolama alanlarımızda kalan kayıtlar, yukarıdaki tabloda belirtilen üyelik sonlandırma doğrulama bilgisi (180 gün), silme işi kayıtları (30 gün) ve kanunen saklanması gereken kayıtlardır. Harici hizmetlerin abonelik, bağlantı ve başvuru kayıtları 4. bölümde açıklandığı şekilde ayrı işlenir. Saklanan üyelik sonlandırma doğrulama ve silme işi kayıtları not içeriği, fotoğraf veya konum bilgisi içermez.",
+            "İmha, kurtarılması mümkün olmayan bir yöntemle yapılır (veritabanından ve depolama alanından kalıcı silme)."
+          ]
+        },
+        {
+          "t": "4. Harici hizmetler ve uluslararası aktarımlar",
+          "l": [
+            "Kimlik doğrulama, eşitleme, abonelik ve barındırma için aşağıdaki hizmetleri kullanıyoruz. Supabase ve RevenueCat son kullanıcı verilerini talimatlarımıza göre işler. Barındırma için işlenen müşteri verileri bakımından Cloudflare'ı da veri işleyen olarak kullanıyoruz. Bu hizmetlerin standart koşulları veri işleme eklerini (DPA) içerir. Giriş, ödeme ve harita platformları ile web sitesi ziyaretçi bilgilerini bağımsız işleyen sağlayıcıların kendi koşulları ve gizlilik politikaları da geçerlidir.",
+            "Sağlayıcı | Tüzel kişi / işleme yeri | Amaç ve rol | İlgili veriler",
+            "Supabase Pte. Ltd. | Singapur tüzel kişisi; ana veri depolama yeri Güney Kore (AWS Seoul ap-northeast-2). Destek, operasyonlar ve alt veri işleyenler başka ülkeleri içerebilir | Kimlik doğrulama, veritabanı ve fotoğraf depolama için veri işleyen | 1. bölümdeki hesap, içerik, konum, konum kullanım kayıtları, onay durumu ve abonelik verileri ile bağlantı/istek bilgileri. Orijinal dikte sesi hariç",
+            "Cloudflare, Inc. | ABD tüzel kişisi; küresel ağ | snuumo.com ve paylaşım bağlantısı açılış sayfası barındırma, CDN ve güvenlik için veri işleyen | IP adresi, istek URL'si (paylaşım jetonu dahil), zaman, tarayıcı ve cihaz bilgileri. Not veritabanımız Cloudflare'a kopyalanmaz",
+            "RevenueCat, Inc. | ABD'deki AWS veri merkezleri. DPA, kullanılan hizmetlere göre geçerli olmak üzere ABD'deki hizmet alt veri işleyenlerini ve Kore'deki bir müşteri destek sağlayıcısını listeler | Abonelik doğrulama, geri yükleme, durum yönetimi ve abonelik istatistikleri için veri işleyen | Snuumo hesap tanımlayıcısı, ürün, satın alma, makbuz veya satın alma jetonu, abonelik durumu, uygulama/işletim sistemi/cihaz bilgileri, son görülme ve ülke bilgileri. RevenueCat'e not içeriği, fotoğraf, ses veya e-posta adresi tanımlayıp göndermiyoruz",
+            "Apple Inc. / Google LLC ve ilgili bölgesel platform tüzel kişileri | Platform politikalarına göre ABD ve diğer ülkeler | Seçtiğiniz sosyal giriş veya mağaza satın almasının platform tarafından işlenmesi | Kimlik doğrulama istekleri, uygulama tanımlayıcıları, IP/cihaz bilgileri, Google Sign-In SDK tanılama/kullanım bilgileri ve ürün/işlem bilgileri. Giriş tanımlayıcıları, e-posta, kimlik doğrulama jetonları, sağlayıcının ilettiği adlar/profil fotoğrafı URL'leri ve abonelik doğrulama verilerini alırız; platform parolalarını veya kart numaralarını almayız",
+            "Apple, Google veya cihazda ayarlı coğrafi kodlama sağlayıcısı | Ülkeler platforma ve sağlayıcının politikasına bağlıdır | Konum etiketleri için koordinatları yer adlarına dönüştürme | Konum onayından sonra not konumu koordinatları ve istek bilgileri. Döndürülen yer adı ve koordinatları notla birlikte saklarız",
+            "Google LLC ve ilgili Google Maps sözleşme tarafı tüzel kişi | Google politikalarına göre ABD ve diğer ülkeler | Harita gösterimi; Maps sözleşmesi tarafları ayrı ve bağımsız veri sorumluları olarak kabul eder | Harita alanları, koordinatlar, IP adresi, SDK'ya özgü tanımlayıcılar, uygulama/cihaz bilgileri, kaydırma/yakınlaştırma olayları ve hata/çökme/performans bilgileri. Google Maps Platform koşulları ve Google Gizlilik Politikası geçerlidir",
+            "Google LLC (ML Kit) | Google politikalarına göre ABD ve diğer ülkeler | Cihaz üzerinde fotoğraftan metin tanıma; SDK tanılama, performans ve kullanım istatistiklerinin Google tarafından işlenmesi | Kuruluma özgü tanımlayıcılar, uygulama/cihaz/işletim sistemi bilgileri, gecikme, hatalar, API olayları ve girdi biçimi/çözünürlüğü gibi meta veriler. Bu istatistiklerle OCR fotoğrafı veya tanınan metnin içeriği gönderilmez",
+            "GitHub, Inc. ve ilgili bölgesel tüzel kişiler | GitHub politikalarına göre ABD ve diğer ülkeler | ssamoksoft.com için GitHub Pages barındırması; ziyaretçi güvenlik bilgilerinin GitHub politikaları kapsamında bağımsız işlenmesi | Oturum açılmasa bile ziyaretçilerin IP adresleri kaydedilir ve saklanır. Zaman, sayfa, tarayıcı ve cihaz bilgileri de işlenebilir. Kullanıcı notları ve fotoğrafları Şirket web sitesine yüklenmez",
+            "Daum Co., Ltd. (Daum Smartwork) | Başvuru ve parola sıfırlama e-posta sistemini sağlayan Güney Kore tüzel kişisi; tüzel kişinin konumu tüm işleme konumlarını garanti etmez | support@ssamoksoft.com adresine gönderilen başvuruların alınması ve saklanması; aynı adresten parola sıfırlama e-postalarının iletilmesi | Başvurular: gönderen adresi/adı, mesaj ve ekler. Parola sıfırlama: alıcının e-posta adresi, konu, gövde ve tek kullanımlık kurtarma bağlantısı. Her ikisi: e-posta iletim bilgileri. Yeni parolalar e-postayla gönderilmez; not/fotoğraf veritabanımız destek posta kutumuza kopyalanmaz",
+            "İletişim, aktarım zamanı ve saklama",
+            "Sağlayıcı ve iletişim | Zaman ve yöntem | Saklama süresi veya ölçütleri",
+            "Supabase — privacy@supabase.com | Kayıt, giriş, eşitleme, paylaşma, silme veya diğer sunucu işlevlerinin kullanımı sırasında ağ üzerinden | Şirketin yönettiği hesap/içerik için 3. bölüm geçerlidir. Operasyon/destek kayıtları hizmet sunmak ve yasal yükümlülükleri yerine getirmek için gereken süre boyunca işlenir. Supabase sözleşmemiz sona ererse DPA, 30 günlük dışa aktarma süresi ve ardından silme öngörür; bu, tekil hesap silmenin 30 gün ertelenmesi anlamına gelmez",
+            "RevenueCat — compliance@revenuecat.com | Giriş sonrası abonelik kontrolleri, satın almalar, geri yükleme, yenilemeler ve diğer işlem olaylarında ağ üzerinden | Müşteri silme talimatlarımıza tabi olarak abonelik yönetimi için gereken süre boyunca. Sözleşme sona erdiğinde DPA, yedekleme ve yasal saklama istisnaları saklı kalmak üzere 30 gün içinde iade/silme talebi gerektirir. Yalnızca mağaza aboneliğini iptal etmek RevenueCat müşteri kaydını silmez",
+            "Cloudflare — privacyquestions@cloudflare.com / hak talepleri: sar@cloudflare.com | snuumo.com veya paylaşım bağlantısı açılış sayfası ziyaret edildiğinde ağ üzerinden | Barındırma, iletim, güvenlik ve yasal yükümlülükler için gereken süre boyunca. DPA, işleme hizmetleri sona erdiğinde yasal saklama istisnalarıyla iade/silme öngörür. Günlük saklama süresi, kontrol panelinde görünen dönemden farklı olabilir",
+            "Apple — https://www.apple.com/legal/privacy/contact/ | Seçilen giriş, satın alma, coğrafi kodlama veya sunucuda dikte özellikleri kullanılırken ağ üzerinden | İlgili özellik, işlemler, güvenlik ve yasal yükümlülükler için gereken süre boyunca. Ses için özelliğe özgü ayrı bildirimler ve cihaz ayarları geçerlidir. Erişim ve silme talepleri Apple'ın gizlilik kanallarından iletilebilir",
+            "Google — googlekrsupport@google.com | Giriş, Maps veya OCR SDK'ları ile seçilen satın alma, coğrafi kodlama veya sunucuda dikte özellikleri kullanılırken ağ üzerinden | İlgili Google özelliğinin, ayarlarının ve saklama politikasının belirlediği süreler boyunca. Hesap etkinliğinin otomatik silme ayarları her SDK tanılama kaydına mutlaka uygulanmaz",
+            "GitHub — dpo@github.com | Şirket sitemiz veya yasal belge sayfaları ziyaret edildiğinde ağ üzerinden | Hizmet/güvenlik, yasal yükümlülükler, uyuşmazlıklar ve sözleşmenin uygulanması için gereken süre boyunca. GitHub politikaları, GitHub hesabı olmayan ziyaretçilerin Pages erişim kayıtları için de geçerlidir",
+            "Cihazın diğer coğrafi kodlama/konuşma sağlayıcıları ve kullanıcıların girdiği bağlantıların işletmecileri | İsteğe bağlı özellik kullanıldığında veya bağlantılı sayfa/önizleme görüntüsü istendiğinde ağ üzerinden | Sağlayıcıya ve bağlantıya göre değişir. Cihaz ayarlarındaki sağlayıcı bilgilerine veya bağlantılı sitenin gizlilik/iletişim sayfasına bakın",
+            "Daum — https://cs.daum.net/ (Daum Co., Ltd.) | support@ssamoksoft.com adresine başvuru gönderdiğinizde veya Snuumo parola sıfırlama e-postası istediğinizde e-posta sistemleri üzerinden | Başvuruları işlemek, parola sıfırlama e-postalarını iletmek ve yasal saklama gerekliliklerini karşılamak için gereken süre boyunca. Posta kutumuzdan silme, sağlayıcının yedekleme/güvenlik kayıtlarından ayrıdır; Daum koşulları ve politikaları geçerlidir",
+            "Hizmet sözleşmemizin kurulması veya yerine getirilmesi için gerekli olan yurt dışında işleme hizmeti alımı ve saklama bakımından, Kore Kişisel Bilgilerin Korunması Kanunu'nun 28-8(1)(3)(a) maddesi uyarınca bu politikada yayımlama esasına dayanırız. Bu dayanak, bağımsız üçüncü taraflara açıklama veya sağlayıcının kendi analizleri için genel bir dayanak değildir. Platformların işlemesine özelliğe özgü bildirimler, onaylar ve geçerli hukuki dayanaklar uygulanır. AB, Birleşik Krallık veya diğer bölgeler için ek aktarım güvenceleri gerekiyorsa ilgili DPA'daki standart sözleşme maddeleri gibi uygun güvenceleri kullanırız; bunlar Kore'deki aktarım dayanağından ayrıdır.",
+            "Supabase'in ana veritabanı ve fotoğraf depolama alanı Seul'dedir. Çağrının yapıldığı konuma göre Edge Functions; Güney Kore, Japonya, Hindistan, Singapur, Avustralya, Kanada, Amerika Birleşik Devletleri, Almanya, İsviçre, İrlanda, Birleşik Krallık, Fransa veya Brezilya'da çalışabilir. Destek ve alt veri işleme Seul ile sınırlı değildir. Cloudflare, ziyaretçi konumu, yönlendirme ve hizmet yapılandırmasına göre küresel ağı boyunca istekleri işler. Aşağıdaki resmî bölge/ağ/alt veri işleyen listeleri olası işleme kapsamını açıklar; her isteğin her ülkeye gönderildiği anlamına gelmez.",
+            "Şirket web sitemizin yazı tipleri ve simgeleri aynı siteden sunulur; Google Fonts veya jsDelivr'a doğrudan yazı tipi/simge isteği yapılmaz.",
+            "Supabase DPA ( https://supabase.com/legal/customer-resources/data-processing-addendum ) · RevenueCat DPA ( https://www.revenuecat.com/dpa ) · Cloudflare DPA ( https://www.cloudflare.com/cloudflare-customer-dpa/ ) · Apple Privacy ( https://www.apple.com/legal/privacy/ ) · Google Privacy ( https://policies.google.com/privacy ) · ML Kit Terms ( https://developers.google.com/ml-kit/terms ) · Google Maps Terms ( https://cloud.google.com/maps-platform/terms ) · GitHub Privacy ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ) · GitHub Pages ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection ) · Supabase regions ( https://supabase.com/docs/guides/functions/regional-invocation ) · Supabase subprocessors ( https://supabase.com/legal/customer-resources/subprocessor-list ) · Cloudflare network ( https://www.cloudflare.com/network/ ) · Cloudflare subprocessors ( https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/ ) · Cloudflare Korea addendum ( https://www.cloudflare.com/privacypolicy/southkorea-addendum/ ) · Google retention ( https://policies.google.com/technologies/retention ) · Daum Privacy ( https://policy.daum.net/policy/privacy )",
+            "Giriş yaptığınızda, eşitlediğinizde, abonelikleri kontrol ettiğinizde veya ilgili özelliği ya da web sitesini kullandığınızda veriler ağ üzerinden gönderilir. Saklama sürelerimiz 3. bölümde açıklanmıştır. Sağlayıcıların operasyon, bağlantı ve işlem kayıtları kendi sözleşmelerine ve politikalarına tabidir; saklama sürelerinin not saklama süremizle aynı olacağı garanti edilmez. Mağaza aboneliğini iptal etmek ve Snuumo hesabını silmek ayrı işlemlerdir.",
+            "Aktarıma veya harici işlemeye itiraz etmek ya da silme talep etmek için support@ssamoksoft.com ile iletişime geçin. Temel kimlik doğrulama veya sunucu eşitleme işlemesini reddetmek hesap hizmetlerini kısıtlar. İsteğe bağlı özellikleri kullanmayabilir, ayarlardan konum onayını geri çekip mevcut konumları silebilirsiniz.",
+            "Cihaz üzerinde dikte kullanılamıyorsa ve uygulama içi bildirimin ardından alternatif yöntemi seçerseniz, 1. bölümde açıklanan ses Apple, Google veya cihazınızda ayarlı konuşma tanıma sağlayıcısının sunucularına gönderilebilir. Sağlayıcı, işleme ülkeleri ve saklama süresi cihaza, dile, ayarlara ve sağlayıcının politikasına bağlıdır. Bunun yerine metni yazabilirsiniz.",
+            "Bağlantı önizlemeleri, cihazınızdan bağlantılı web sitesine ve önizleme görüntüsü sunucusuna bağlanarak IP adresinizi ve istek URL'sini bu işletmecilere iletir. Bu işletmecilerin politikaları geçerlidir."
+          ]
+        },
+        {
+          "t": "5. Üçüncü taraflara aktarım",
+          "l": [
+            "Kişisel verileri satmıyor veya reklam amacıyla vermiyoruz. 4. bölüm, adımıza yapılan işleme ile seçtiğiniz harici platform özelliklerini birbirinden ayırır. Diğer üçüncü taraf açıklamaları için gerekli onay veya hukuki dayanak gerekir."
+          ]
+        },
+        {
+          "t": "6. Kullanıcıların hakları",
+          "l": [
+            "Kullanıcılar kişisel verilerine erişim, düzeltme, silme, işlemenin durdurulması veya taşınabilirlik talep edebilir ya da onaylarını her zaman geri çekebilir. Notları görüntüleme, düzenleme ve silme ile hesabı silme doğrudan uygulamada yapılabilir. Uygulamadaki [Ayarlar → Verilerimi dışa aktar] üzerinden hesabın bu cihazda saklanan notları, not defterleri ve klasörleri ile alınabilen ekli fotoğraflar, JSON ve görüntüleri içeren bir ZIP olarak dışa aktarılabilir. Başka bir cihazdaki son değişiklikler henüz eşitlenmemişse veya fotoğraflar alınamıyorsa bazı içerikler eksik olabilir. Orijinal fotoğraflar, yalnızca orijinalleri dahil etme seçeneğini seçtiğinizde ve dosyalar alınabildiğinde dahil edilir. Dahil edilen fotoğraf sayılarını (included) ve eksik öğe ayrıntılarını (omitted) tamamlanma bildiriminden ve ZIP içindeki snuumo_export.json dosyasından kontrol edin. Paylaşım bağlantıları için oluşturulan ayrı anlık görüntüler dışa aktarmaya dahil edilmez. Diğer talepler aşağıdaki iletişim adresine iletildiğinde işleme alınır.",
+            "Yanıt süresi: Şirket, talebin alınmasından itibaren bir ay içinde sonucu kullanıcıya bildirir. Talebin karmaşıklığı veya talep sayısının fazlalığı nedeniyle bu süre içinde işlem tamamlanamıyorsa, süre en fazla iki ay daha uzatılabilir; bu durumda Şirket, talebin alınmasından itibaren bir ay içinde uzatmayı ve gerekçelerini kullanıcıya bildirir (GDPR madde 12(3)).",
+            "Hizmet, 14 yaşından küçüklere yönelik değildir (kullanıcının yaşadığı ülke veya bölgenin kanunu daha yüksek bir asgari yaş belirliyorsa o yaşın altındakiler de dahildir).",
+            "Konum kullanımı için ayrı ve isteğe bağlı onay gerekir. [Ayarlar → Not konumunu kaydet] seçeneğini kapatmak yalnızca bu cihazdaki yeni kayıtları duraklatır. [Ayarlar → Onayı geri çek ve konumları sil], not metinlerini, fotoğrafları, görevleri ve hatırlatıcıları koruyarak çöp kutusundakiler dahil kayıtlı konumları ve ilgili kullanım kayıtlarını siler. Değişiklik bu cihazda hemen; sunucuda ve diğer cihazlarda bağlantı ve eşitleme sağlandığında uygulanır. Uygulama, çevrimdışı bekleme durumunu gösterir. Verilerimi dışa aktar, cihazdan ve sunucudan alınabilen konum kullanım kayıtlarını da içerir; sunucu bağlantı hataları ZIP içindeki eksik öğe ayrıntılarında belirtilir. Erişim, düzeltme ve bildirim talepleri support@ssamoksoft.com adresinden de iletilebilir."
+          ]
+        },
+        {
+          "t": "7. Güvenlik önlemleri",
+          "l": [
+            "Şirketin kimlik doğrulama/eşitleme sunucularına aktarımda şifreleme (TLS) ve parolaların tek yönlü şifrelenerek saklanması",
+            "Hesap bazında erişim kontrolü (yalnızca kullanıcının kendi verilerine erişilebilen sunucu politikası, RLS)",
+            "Reklam takibi veya reklam tanımlayıcısı toplama yapılmaması; özellikleri sunmak için gerekli verilerin yönetimi",
+            "Kişisel verilere erişim yetkilerinin en aza indirilmesi"
+          ]
+        },
+        {
+          "t": "8. Kişisel verilerin korunmasından sorumlu kişi ve işletme bilgileri",
+          "l": [
+            "Kişisel verilerin korunmasından sorumlu kişi / konum bilgileri yöneticisi: Daehoon Kang (강대훈) (Şirket yetkilisi)",
+            "İletişim: support@ssamoksoft.com",
+            "Ticaret unvanı | SSAMOK SOFT (싸목소프트)",
+            "Şirket yetkilisi | Daehoon Kang (강대훈)",
+            "İşletme adresi | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "E-posta | support@ssamoksoft.com",
+            "İşletme kayıt numarası | 160-75-00256",
+            "Mesafeli satış işletmesi bildirim numarası | 2019-충북청주-1930",
+            "Kişisel veri ihlallerinin bildirilmesi ve danışmanlık (Kore Cumhuriyeti): Gizlilik İhlali Bildirim Merkezi (개인정보침해신고센터, privacy.kisa.or.kr, 118), Kişisel Veriler Uyuşmazlık Arabuluculuk Komitesi (개인정보분쟁조정위원회, kopico.go.kr, 1833-6972)"
+          ]
+        },
+        {
+          "t": "9. AB ve Birleşik Krallık temsilcileri (GDPR madde 27)",
+          "l": [
+            "Şirket, AB GDPR'nin 27. maddesi ve Birleşik Krallık GDPR'nin 27. maddesi uyarınca temsilciler atamıştır.",
+            "Bölge | Temsilci | Adres | İletişim",
+            "AB | Prighter EU Rep GmbH | Schellinggasse 3/10, 1010 Vienna, Austria | https://app.prighter.com/portal/19708232400",
+            "Birleşik Krallık | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
+            "AB/AEA ve Birleşik Krallık'taki kullanıcılar bu portal üzerinden temsilcilerle iletişime geçip haklarını kullanabilir veya doğrudan Şirkete başvurabilir. İkamet ettikleri ülkedeki denetim makamına şikâyette bulunma hakları vardır."
+          ]
+        },
+        {
+          "t": "10. Bu politikadaki değişiklikler",
+          "l": [
+            "Bu politika değiştirildiğinde, değişiklik yürürlüğe girmeden 7 gün önce (önemli değişikliklerde 30 gün önce) uygulama içi bildirimle duyurulur veya web sitesinde yayımlanır.",
+            "Ek hükümler",
+            "Bu politika 2026-09-12 tarihinde yürürlüğe girer ve Hizmetin herkese açık olarak sunulduğu tarihten itibaren Hizmet kullanıcılarına uygulanır.",
+            "Değişiklik geçmişi. 2026-07-25: ilk yayım. 2026-09-11 (yayımlama öncesi duyuru): harita hizmeti sağlayıcısı (Google Maps) ve Şirket web sitesi barındırması (GitHub Pages) açıklamaları eklendi; üyelik sonlandırıldıktan sonra kalan kayıtlar (üyelik sonlandırma doğrulama bilgisi: 180 gün; silme işi kayıtları: 30 gün) ve cihazlardaki yerel verilerin silinmesi açıklandı; kullanıcı hak talepleri için yanıt süresi (bir ay, en fazla iki ay daha uzatılabilir) belirtildi; AB/Birleşik Krallık temsilcileri (9. bölüm) ve işletme bilgileri (8. bölüm) eklendi; platform sunucularında olası dikte işleme, Android sistem yedeklemesinden hariç tutma, harici sağlayıcıların işlemesi ve dışa aktarımdaki eksiklerin nasıl kontrol edileceği açıklandı. 2026-09-12: Hizmet genel kullanıcılara sunulmadan önce belgeler son hâline getirildi; duyuru ve yürürlük tarihleri eşitlendi, önceki hazırlık belgeleri korundu. 2026-09-13: mevcut Daum Smartwork hizmetimiz üzerinden parola sıfırlama e-postalarının iletilmesi ve ilgili veriler açıklandı."
+          ]
+        },
+        {
+          "t": "Önceki hazırlık belgesi",
+          "b": "Yürürlük tarihi 25 Temmuz 2026 olarak belirtilen arşivlenmiş Korece hazırlık belgesi: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+        },
+        {
+          "t": "11 Eylül yayımlama öncesi belgesi",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/2026-09-11/"
+        }
+      ]
     }
   }
 }
