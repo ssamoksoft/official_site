@@ -200,7 +200,7 @@
             "O OCR de fotos ocorre no dispositivo. ML Kit pode enviar ao Google metadados para diagnóstico e estatísticas: formato/resolução, horários de eventos, latência e erros. Essas estatísticas não enviam a foto OCR nem o texto reconhecido.",
             "Ao inserir um endereço web (URL) na nota, o aplicativo conecta diretamente ao site para gerar a prévia, transmitindo o endereço IP do usuário ao site.",
             "Calendário e lembretes são acessados apenas ao exportar uma nota para eles. O conteúdo vai para o aplicativo do dispositivo, sem envio ou armazenamento nos nossos servidores. Não lemos eventos/lembretes existentes; no Android, consultamos apenas identificadores dos calendários para selecionar o destino.",
-            "O aplicativo Android exclui todos os seus dados de backups automáticos em nuvem e transferências entre dispositivos do Android. Sincronização Snuumo, armazenamento Pro de originais e exportação manual são distintos. Antes de apagar o dispositivo ou reinstalar, confira a sincronização e guarde separadamente o que ainda não foi sincronizado em [Configurações → Exportar meus dados]."
+            "O aplicativo Android exclui todos os seus dados de backups automáticos em nuvem e transferências entre dispositivos do Android. Sincronização Snuumo, armazenamento Pro de originais e exportação manual são distintos. Antes de apagar o dispositivo ou reinstalar, confira a sincronização e guarde separadamente o que ainda não foi sincronizado em [Configurações → Dados e armazenamento → Exportar meus dados]."
           ]
         },
         {
@@ -217,12 +217,12 @@
           "t": "3. Retenção e destruição",
           "l": [
             "Dados | Prazo",
-            "Conta e conteúdo (notas, fotos, perfil, instantâneos compartilhados) | Excluídos sem demora ao encerrar a conta ([Configurações → Excluir conta]). Em grandes volumes, a limpeza continua no servidor; após concluída, não há recuperação",
+            "Conta e conteúdo (notas, fotos, perfil, instantâneos compartilhados) | Excluídos sem demora ao encerrar a conta ([Configurações → Segurança e privacidade → Excluir conta]). Em grandes volumes, a limpeza continua no servidor; após concluída, não há recuperação",
             "Localização das notas | Excluída ao apagar definitivamente a nota, excluir conta ou retirar consentimento. Pausar o registro não apaga locais existentes",
             "Registros de uso de localização | Seis meses desde o evento no dispositivo e pelo menos seis meses desde recebimento/registro no servidor, depois limpeza por vencimento. A retirada de consentimento exclui registros associados sem demora conforme artigo 24(4); a exclusão da conta também",
             "Consentimento de localização e identificadores de solicitação | Enquanto existir a conta, para aplicar consentimento e impedir solicitações antigas; excluídos com a conta. Sem coordenadas, locais ou texto",
             "Notas na lixeira | Excluídas definitivamente 30 dias após a movimentação",
-            "Instantâneos de links compartilhados | Expiram e são excluídos 30 dias após criação; não contêm localização e podem ser apagados antes em [Configurações → Meus links compartilhados]",
+            "Instantâneos de links compartilhados | Expiram e são excluídos 30 dias após criação; não contêm localização e podem ser apagados antes em [Configurações → Dados e armazenamento → Meus links compartilhados]",
             "Backups Pro de originais após cancelamento | Retidos por 90 dias desde o vencimento da assinatura, disponíveis para consulta/restauração, depois excluídos",
             "Identificador de verificação de encerramento (conta e momento) | Excluído 180 dias após o encerramento da conta; apenas para limpar dados locais de outro dispositivo que permaneceu autenticado mas desligado quando ele reconectar",
             "Registros de tarefas de exclusão (conta, token compartilhado, caminhos dos arquivos) | Excluídos 30 dias após conclusão; somente para verificar omissões e tentar novamente",
@@ -275,10 +275,10 @@
         {
           "t": "6. Direitos dos usuários",
           "l": [
-            "É possível solicitar acesso, correção, exclusão, suspensão, portabilidade ou retirar consentimento a qualquer momento. As notas podem ser vistas, editadas ou excluídas, e a conta pode ser excluída no aplicativo. [Configurações → Exportar meus dados] exporta memos, notas, pastas da conta neste dispositivo e fotos acessíveis como JSON e imagens em ZIP. Alterações ainda não sincronizadas de outros dispositivos ou fotos indisponíveis podem faltar. Originais só são incluídos se a opção for escolhida e os arquivos acessíveis. Confira aviso final e snuumo_export.json para quantidade de fotos (included) e omissões (omitted). Instantâneos de links não são exportados. Outras solicitações pelo contato abaixo.",
+            "É possível solicitar acesso, correção, exclusão, suspensão, portabilidade ou retirar consentimento a qualquer momento. As notas podem ser vistas, editadas ou excluídas, e a conta pode ser excluída no aplicativo. [Configurações → Dados e armazenamento → Exportar meus dados] exporta memos, notas, pastas da conta neste dispositivo e fotos acessíveis como JSON e imagens em ZIP. Alterações ainda não sincronizadas de outros dispositivos ou fotos indisponíveis podem faltar. Originais só são incluídos se a opção for escolhida e os arquivos acessíveis. Confira aviso final e snuumo_export.json para quantidade de fotos (included) e omissões (omitted). Instantâneos de links não são exportados. Outras solicitações pelo contato abaixo.",
             "Informamos o resultado em um mês após o recebimento. Se a complexidade ou o número de pedidos impedir o atendimento nesse prazo, ele poderá ser prorrogado por até dois meses adicionais; informamos a prorrogação e os motivos em um mês após o recebimento (GDPR artigo 12(3)).",
             "O Serviço não se destina a menores de 14 anos ou de idade mínima superior exigida no país/região do usuário.",
-            "Localização exige consentimento opcional separado. Desligar [Configurações → Registrar localização das notas] pausa apenas novos registros neste dispositivo. [Configurações → Retirar consentimento e excluir locais] apaga locais salvos, inclusive lixeira, e registros associados, mantendo texto, fotos, tarefas e lembretes. Efeito imediato aqui; servidor e outros dispositivos após conexão/sincronização, com espera offline indicada. Exportação inclui registros de localização disponíveis no dispositivo/servidor; falhas de conexão constam das omissões ZIP. Acesso, correção e informação também em support@ssamoksoft.com."
+            "Localização exige consentimento opcional separado. Desligar [Configurações → Registrar local das notas] pausa apenas novos registros neste dispositivo. [Configurações → Segurança e privacidade → Retirar consentimento e apagar localizações] apaga locais salvos, inclusive lixeira, e registros associados, mantendo texto, fotos, tarefas e lembretes. Efeito imediato aqui; servidor e outros dispositivos após conexão/sincronização, com espera offline indicada. Exportação inclui registros de localização disponíveis no dispositivo/servidor; falhas de conexão constam das omissões ZIP. Acesso, correção e informação também em support@ssamoksoft.com."
           ]
         },
         {
