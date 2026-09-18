@@ -46,7 +46,14 @@
         "delete"
       ],
       "name": {
-        "en": "Kairotique"
+        "en": "Kairotique",
+        "ko": "카이로틱",
+        "ja": "カイロティーク",
+        "zh": "凯洛蒂克",
+        "zh_Hant": "凱洛蒂克",
+        "hi": "कैरोटिक",
+        "ru": "Кайротик",
+        "ar": "كايروتيك"
       },
       "tagline": {
         "en": "Shared timers and logs — record together in real time.",
