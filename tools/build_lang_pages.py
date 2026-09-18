@@ -94,8 +94,12 @@ def render_apps(apps_data, lang, s):
     Unreleased apps are left out on purpose: these pages exist to be crawled, and we
     do not want unannounced app names showing up in search results before launch.
     app.js still renders them for visitors once the page loads.
+
+    Apps marked "hidden" (pulled from the stores) are left out everywhere; their
+    entry stays in apps.json only so /privacy/<id>/ keeps rendering.
     """
-    apps = [a for a in apps_data.get("apps", []) if a.get("status") != "coming_soon"]
+    apps = [a for a in apps_data.get("apps", [])
+            if a.get("status") != "coming_soon" and not a.get("hidden")]
     if not apps:
         return f'<div class="apps-empty">{esc(s.get("apps.empty"))}</div>'
 

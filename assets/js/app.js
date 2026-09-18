@@ -98,7 +98,8 @@ function smartLink(links) {
 function renderApps() {
   const grid = document.getElementById("apps-grid");
   if (!grid) return;
-  const apps = appsData.apps || [];
+  // hidden: pulled from the stores. The entry stays so /privacy/<id>/ keeps rendering.
+  const apps = (appsData.apps || []).filter((a) => !a.hidden);
   if (apps.length === 0) {
     grid.innerHTML = `<div class="apps-empty">${t("apps.empty")}</div>`;
     return;

@@ -59,6 +59,9 @@ Edit **`data/apps.json`** only, then regenerate. Add a block to `apps`:
 
 - `icon`: path to an image, or `null` to auto-generate a lettered tile from the name.
 - `status`: `"released"` or `"coming_soon"` (shows a badge and disables store links until release).
+- `hidden`: `true` removes the app from every listing (home page, static language pages)
+  after it is pulled from the stores. Keep the entry — `/privacy/<id>/` still renders
+  from it, and people who installed the app still need that policy.
 - `privacy`: drives the auto-generated data-processing summary on `/privacy/<id>/`.
   `backend` is `firebase` / `supabase` / `local`; add `extras` for app-specific lines.
 - `docs`: which extra legal pages exist, so the privacy page cross-links them.

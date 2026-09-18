@@ -68,6 +68,40 @@
       }
     },
     {
+      "id": "snuumo",
+      "category": "productivity",
+      "accent": "#7D9B76",
+      "status": "coming_soon",
+      "icon": null,
+      "links": {},
+      "privacy": {
+        "backend": "supabase",
+        "account": true,
+        "ads": false,
+        "iap": true,
+        "extras": [
+          "social",
+          "revenuecat",
+          "inapp_delete"
+        ]
+      },
+      "docs": [
+        "terms",
+        "delete",
+        "support",
+        "impressum"
+      ],
+      "name": {
+        "en": "Snuumo",
+        "ko": "스누모",
+        "ja": "スヌーモ"
+      },
+      "tagline": {
+        "en": "Write it down, sort it later.",
+        "ko": "적고, 정리하고, 나누는 메모."
+      }
+    },
+    {
       "id": "stelleaf",
       "category": "lifestyle",
       "accent": "#14B8A6",
@@ -191,6 +225,7 @@
       "category": "productivity",
       "accent": "#E27D3A",
       "status": "released",
+      "hidden": true,
       "icon": "/assets/apps/m17.png",
       "links": {
         "play": "",
@@ -298,40 +333,6 @@
         "tr": "Abonelikler, giriş bilgileri ve özel notlar — tek yerde güvende.",
         "it": "Abbonamenti, accessi e note private, al sicuro in un unico posto.",
         "ar": "الاشتراكات وبيانات الدخول والملاحظات الخاصة — بأمان في مكان واحد."
-      }
-    },
-    {
-      "id": "snuumo",
-      "category": "productivity",
-      "accent": "#7D9B76",
-      "status": "coming_soon",
-      "icon": null,
-      "links": {},
-      "privacy": {
-        "backend": "supabase",
-        "account": true,
-        "ads": false,
-        "iap": true,
-        "extras": [
-          "social",
-          "revenuecat",
-          "inapp_delete"
-        ]
-      },
-      "docs": [
-        "terms",
-        "delete",
-        "support",
-        "impressum"
-      ],
-      "name": {
-        "en": "Snuumo",
-        "ko": "스누모",
-        "ja": "スヌーモ"
-      },
-      "tagline": {
-        "en": "Write it down, sort it later.",
-        "ko": "적고, 정리하고, 나누는 메모."
       }
     }
   ]
