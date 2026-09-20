@@ -129,23 +129,120 @@
     },
     "stelleaf_privacy": {
       "title": "Kebijakan Privasi Stelleaf",
-      "updated": "Tanggal berlaku: 10 September 2026",
-      "applies": "Kebijakan ini berlaku untuk aplikasi seluler “Stelleaf” (별갈피) yang disediakan oleh usaha perseorangan SSAMOK SOFT (“Operator”). Stelleaf adalah aplikasi local-first: jika Anda tidak masuk, semua data Anda hanya tersimpan di perangkat Anda dan tidak pernah dikirim ke server.",
+      "updated": "20 September 2026",
+      "applies": "Stelleaf dari SSAMOK SOFT menyimpan catatan dan foto di perangkat terlebih dahulu.",
       "sections": [
-        { "t": "1. Informasi pengendali data", "b": "Usaha perseorangan berikut memproses data pribadi sebagai pengendali data (dalam pengertian GDPR).", "l": [ "Nama usaha: SSAMOK SOFT", "Pemilik: Dae-hoon Kang", "Petugas privasi: Dae-hoon Kang", "Kontak: ssamoksoft@gmail.com" ] },
-        { "t": "2. Desain local-first", "b": "Jika Anda menggunakan aplikasi tanpa masuk, semua data termasuk catatan dan foto Anda hanya disimpan di perangkat Anda dan tidak ada yang dikirim ke server. Masuk bersifat opsional, dan pencadangan serta sinkronisasi antar perangkat hanya berfungsi saat Anda masuk." },
-        { "t": "3. Data yang kami kumpulkan", "b": "Hanya ketika Anda masuk untuk menggunakan pencadangan dan sinkronisasi, data berikut disimpan di server kami (Supabase, wilayah Seoul, Republik Korea).", "l": [ "Akun: alamat email, ID pengguna internal, dan pengidentifikasi penyedia masuk — Anda memilih salah satu dari email+kata sandi, masuk dengan Google, atau masuk dengan Apple (infrastruktur autentikasi: Supabase Auth)", "Konten: kategori, item (nama, catatan, barcode produk, dan koordinat lokasi yang Anda konfirmasi sendiri dengan menempatkan pin pada peta), catatan penilaian (bintang, catatan, tanggal, skor rinci, tag situasi), tag item, papan peringkat, pengaturan analisis selera, foto, serta waktu pembuatan dan perubahan setiap data", "Pembayaran: ID pengguna aplikasi yang dipseudonimkan, tanda terima pembelian, dan informasi perangkat (diproses oleh RevenueCat) — kami tidak pernah menerima data kartu pembayaran", "Peta: saat Anda membuka tampilan peta, SDK Naver Maps (Korea) atau SDK Google Maps (wilayah lain) mengirimkan pengidentifikasi perangkat dan lokasi perkiraan ke Naver/Google. Izin lokasi hanya digunakan untuk fitur “ke lokasi saya”", "Pencarian: hanya kata kunci pencarian, koordinat, barcode, atau ISBN yang dikirim. Pencarian tempat (Naver Cloud), pencarian buku (Kakao), dan pencarian barcode makanan (Kementerian Keamanan Pangan dan Obat Korea) melalui proxy server Operator, dan permintaan tidak berisi informasi yang mengidentifikasi pribadi. Basis data publik (Open Food Facts / Open Beauty Facts, OpenLibrary) dipanggil langsung oleh aplikasi hanya dengan barcode atau ISBN" ] },
-        { "t": "4. Foto dan data lokasi", "b": "Foto dikodekan ulang di perangkat Anda saat dilampirkan, dan hanya salinan tanpa metadata EXIF (termasuk GPS) yang disimpan dan diunggah. GPS foto asli dibaca sesaat hanya di perangkat untuk menyarankan lokasi, dan tidak pernah disimpan atau dikirim. Satu-satunya koordinat yang disimpan di server adalah yang Anda konfirmasi secara eksplisit pada peta. Pencadangan foto ke cloud dibatasi 200 foto pada paket gratis dan tidak terbatas pada Pro; penyimpanan lokal tidak terbatas pada keduanya." },
-        { "t": "5. Tujuan dan dasar hukum", "b": "Tujuan dan dasar hukum (Pasal 6 GDPR) untuk setiap pemrosesan adalah:", "l": [ "Pengelolaan akun, pencadangan, dan sinkronisasi antar perangkat — pelaksanaan kontrak (GDPR 6(1)(b))", "Pembayaran dan pengelolaan langganan berbayar — pelaksanaan kontrak (GDPR 6(1)(b))", "Kepatuhan terhadap kewajiban hukum (mis. penyimpanan catatan pembayaran) — kewajiban hukum (GDPR 6(1)(c))", "Saat ini tidak ada pemrosesan berdasarkan persetujuan terpisah" ] },
-        { "t": "6. Pemroses dan penerima data", "b": "Kami menggunakan pemroses dan penerima berikut untuk menyediakan layanan.", "l": [ "Supabase — basis data, autentikasi, penyimpanan berkas, dan fungsi server (Seoul, Republik Korea; wilayah AWS ap-northeast-2)", "Naver Cloud — peta dan pencarian tempat (Republik Korea)", "Kakao — pencarian buku berdasarkan ISBN/judul (Republik Korea, melalui proxy server)", "Kementerian Keamanan Pangan dan Obat Korea — pencarian barcode makanan (Republik Korea, melalui proxy server)", "RevenueCat — pengelolaan langganan (Amerika Serikat)", "Apple — masuk dan pembayaran (Amerika Serikat)", "Google — masuk, pembayaran, dan peta (Amerika Serikat)", "Open Food Facts / Open Beauty Facts, OpenLibrary — basis data publik (hanya barcode atau ISBN yang dikirim; tanpa data pribadi)" ] },
-        { "t": "7. Transfer internasional", "b": "Penyimpanan utama (Supabase) berada di wilayah Seoul, Republik Korea, sehingga catatan, foto, dan data akun Anda disimpan di dalam negeri dan tidak ditransfer ke luar negeri. Transfer internasional hanya terjadi ke pemroses AS di bawah ini, berdasarkan transfer yang diperlukan untuk pelaksanaan kontrak dan diungkapkan dalam kebijakan ini (Pasal 28-8 Undang-Undang Perlindungan Informasi Pribadi Korea). Berdasarkan GDPR, transfer dari EEA ke Korea mengandalkan keputusan kecukupan UE untuk Korea; transfer ke AS mengandalkan sertifikasi EU-US Data Privacy Framework (DPF) untuk Google, serta perjanjian pemrosesan data yang memuat Klausul Kontraktual Standar (SCC) untuk Apple dan RevenueCat.", "l": [ "RevenueCat (AS) — data: ID pengguna aplikasi yang dipseudonimkan, tanda terima pembelian, informasi perangkat / tujuan: pengelolaan status langganan / retensi: selama diperlukan untuk mengelola langganan", "Apple (AS) — data: pengidentifikasi masuk, data pemrosesan pembayaran / tujuan: masuk dengan Apple dan pembelian dalam aplikasi / retensi: sesuai kebijakan Apple", "Google (AS) — data: pengidentifikasi masuk, data pemrosesan pembayaran, serta pengidentifikasi perangkat dan lokasi perkiraan saat menggunakan peta / tujuan: masuk dengan Google, pembayaran, dan peta / retensi: sesuai kebijakan Google" ] },
-        { "t": "8. Penyimpanan dan penghapusan", "b": "Kami menyimpan dan menghapus data pribadi sebagai berikut.", "l": [ "Akun dan data server: saat Anda menghapus akun, seluruh data di server (semua catatan, berkas foto, dan akun itu sendiri) dihapus segera dan secara atomik", "Penghapusan item, catatan, atau foto tertentu: untuk menjaga konsistensi sinkronisasi antar perangkat, data yang dihapus disimpan dalam status soft delete selama 30 hari lalu dihapus permanen", "Retensi menurut hukum: berdasarkan undang-undang e-commerce Korea dan peraturan terkait, catatan kontrak dan penarikan disimpan 5 tahun, catatan pembayaran dan penyediaan 5 tahun, serta catatan keluhan/sengketa konsumen 3 tahun, kemudian dimusnahkan" ] },
-        { "t": "9. Hak Anda", "b": "Anda dapat menggunakan hak akses, koreksi, penghapusan, pembatasan pemrosesan, dan portabilitas data. Portabilitas dapat dilakukan langsung di aplikasi — Pengaturan > Data > Ekspor catatan mengunduh semua catatan dan foto Anda sebagai satu berkas ZIP, dan aplikasi juga dapat memulihkan dari berkas yang sama. Untuk permintaan lain, kirim email ke ssamoksoft@gmail.com; kami menanggapi dalam satu bulan sejak diterima (GDPR Pasal 12(3)). Jika permintaan rumit, kami dapat memperpanjang dua bulan lagi dan memberi tahu alasannya dalam bulan pertama. Pengguna di EEA dan Inggris juga dapat menggunakan haknya melalui perwakilan yang tercantum di bagian 10.", "l": [ "Berkas ekspor berisi: kategori, item, catatan penilaian, tag, papan peringkat, pengaturan analisis selera, foto, serta waktu pembuatan dan pembaruan setiap data", "Juga berisi catatan yang ditandai untuk dihapus tetapi belum dimusnahkan sepenuhnya (dalam 30 hari sejak penghapusan)", "Berkas yang diekspor saat masuk akun mencatat pengenal akun Anda (UUID)", "Berkas ekspor tidak dienkripsi — berhati-hatilah agar tidak membagikannya kepada pihak lain", "Pengaduan: penduduk UE dapat mengadu ke otoritas pengawas negaranya; di Korea, ke Privacy Infringement Report Centre (privacy.kr, 118)" ] },
-        { "t": "10. Perwakilan UE dan Inggris Raya", "b": "Untuk pengguna di UE/EEA dan Inggris Raya, kami telah menunjuk perwakilan berdasarkan Pasal 27 GDPR UE dan Pasal 27 GDPR Inggris Raya. Perwakilan UE: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Perwakilan Inggris Raya: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Anda dapat menghubungi perwakilan kami dan menggunakan hak Anda melalui https://app.prighter.com/portal/19708232400." },
-        { "t": "11. Anak-anak", "b": "Stelleaf hanya boleh digunakan oleh orang berusia 14 tahun atau lebih (di sebagian negara UE, usia persetujuan yang berlaku hingga 16 tahun). Kami tidak dengan sengaja mengumpulkan data pribadi anak di bawah usia tersebut dan akan menghapusnya tanpa penundaan jika kami mengetahuinya." },
-        { "t": "12. Yang tidak kami lakukan", "b": "Stelleaf tidak melakukan hal-hal berikut.", "l": [ "Tidak ada iklan dan tidak ada pengumpulan pengidentifikasi iklan", "Tidak menjual data pribadi", "Tidak ada pembuatan profil atau pengambilan keputusan otomatis", "Tidak ada pesan pemasaran", "Tidak ada pengumpulan data anak di bawah 14 tahun secara sengaja" ] },
-        { "t": "13. Keamanan", "b": "Kami menerapkan pengamanan yang wajar, termasuk enkripsi saat transit (HTTPS/TLS), kontrol akses dan hak paling minim, penyimpanan di wilayah dalam negeri (Seoul), serta minimalisasi data. Kunci API pencarian hanya disimpan di server dan tidak pernah diekspos ke klien." },
-        { "t": "14. Perubahan kebijakan ini", "b": "Jika kebijakan ini berubah, kami akan memublikasikan pembaruannya di halaman ini, dan perubahan penting juga akan diumumkan di aplikasi. Kebijakan yang direvisi berlaku sejak dipublikasikan." }
+        {
+          "t": "1. Informasi pengendali data",
+          "b": "Usaha perseorangan berikut memproses data pribadi sebagai pengendali data (dalam pengertian GDPR).",
+          "l": [
+            "Nama usaha: SSAMOK SOFT",
+            "Pemilik: Dae-hoon Kang",
+            "Petugas privasi: Dae-hoon Kang",
+            "Kontak: ssamoksoft@gmail.com"
+          ]
+        },
+        {
+          "t": "2. Desain local-first",
+          "b": "Stelleaf dari SSAMOK SOFT menyimpan catatan dan foto di perangkat terlebih dahulu. Login, cadangan cloud, dan sinkronisasi bersifat opsional. Peta, pencarian, sampul, dan pemeriksaan langganan tetap dapat menghubungi layanan luar sebelum login. Mengutamakan penyimpanan lokal bukan berarti tidak ada data yang dikirim keluar."
+        },
+        {
+          "t": "3. Data yang kami kumpulkan",
+          "b": "Data berikut diproses sesuai fitur yang dipakai. Cadangan dan sinkronisasi akun yang login menggunakan penyimpanan utama Supabase di Seoul, Korea Selatan.",
+          "l": [
+            "Akun: alamat email, ID pengguna internal, dan pengidentifikasi penyedia masuk — Anda memilih salah satu dari email+kata sandi, masuk dengan Google, atau masuk dengan Apple (infrastruktur autentikasi: Supabase Auth)",
+            "Konten: kategori, nama, catatan, kode batang, koordinat pilihan, penilaian, tanggal, skor terperinci, tag konteks, tag, papan peringkat, pengaturan analisis, foto, serta waktu pembuatan/perubahan",
+            "Langganan: RevenueCat menerima ID aplikasi anonim acak sebelum login dan ID pengguna internal sesudahnya, beserta status langganan, tanda terima atau token pembelian, serta informasi aplikasi/perangkat. Kami tidak menerima nomor kartu pembayaran.",
+            "Peta: Naver diutamakan di Korea Selatan; Google Maps dipakai di tempat lain atau saat Naver tidak tersedia. Permintaan peta, area tampilan, IP, dan informasi perangkat SDK dapat diproses. Lokasi perangkat saat ini diminta ketika Anda memberi izin dan memakai fitur tersebut.",
+            "Pencarian/gambar: kata pencarian, koordinat, kode batang, dan ISBN. Pencarian tempat Naver, buku Kakao, dan pangan MFDS melalui fungsi Supabase. Aplikasi dapat langsung mengakses Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar, termasuk mengirim IP dan informasi teknis. Permintaan server saat login memuat autentikasi akun yang tidak diteruskan proksi kami kepada penyedia pencarian."
+          ]
+        },
+        {
+          "t": "4. Foto dan data lokasi",
+          "b": "Foto lampiran dikodekan ulang di perangkat; salinan tanpa EXIF, termasuk GPS, disimpan dan dicadangkan. Pada perangkat yang mendukung, GPS asli dapat dipakai sementara untuk saran lokasi. Hanya koordinat yang Anda pilih atau konfirmasi di peta yang disimpan. Akun gratis dibatasi 200 foto cloud; Stelleaf Premium tidak membatasi jumlahnya. Aplikasi tidak membatasi jumlah foto lokal."
+        },
+        {
+          "t": "5. Tujuan dan dasar hukum",
+          "b": "Tujuan dan dasar hukum (Pasal 6 GDPR) untuk setiap pemrosesan adalah:",
+          "l": [
+            "Pengelolaan akun, pencadangan, dan sinkronisasi antar perangkat — pelaksanaan kontrak (GDPR 6(1)(b))",
+            "Pembayaran dan pengelolaan langganan berbayar — pelaksanaan kontrak (GDPR 6(1)(b))",
+            "Kepatuhan terhadap kewajiban hukum (mis. penyimpanan catatan pembayaran) — kewajiban hukum (GDPR 6(1)(c))",
+            "Saat ini tidak ada pemrosesan berdasarkan persetujuan terpisah"
+          ]
+        },
+        {
+          "t": "6. Pemroses dan penerima data",
+          "b": "Kami menggunakan pemroses dan penerima berikut untuk menyediakan layanan.",
+          "l": [
+            "Supabase — penyimpanan utama akun, database, dan foto di Seoul; fungsi pencarian, penghapusan, dan langganan dapat berjalan di wilayah global dekat peminta",
+            "Naver Cloud — peta dan pencarian tempat (Republik Korea)",
+            "Kakao — pencarian buku serta email konfirmasi/pemulihan lewat Daum SMTP, memproses alamat penerima dan isi termasuk tautan verifikasi (Korea Selatan)",
+            "Kementerian Keamanan Pangan dan Obat Korea — pencarian barcode makanan (Republik Korea, melalui proxy server)",
+            "RevenueCat — pengelolaan langganan (Amerika Serikat)",
+            "Apple — masuk dan pembayaran (Amerika Serikat)",
+            "Google — masuk, pembayaran, dan peta (Amerika Serikat)",
+            "Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar — permintaan kode batang, ISBN, gambar, serta informasi koneksi seperti IP"
+          ]
+        },
+        {
+          "t": "7. Transfer internasional",
+          "b": "Penyimpanan utama di Seoul tidak membatasi seluruh pemrosesan ke Korea Selatan. Fitur online berikut mengirim informasi yang diperlukan melalui koneksi terenkripsi. Pemrosesan internasional memakai ketentuan pengolahan penyedia dan perlindungan transfer yang berlaku. Anda dapat berhenti memakai fitur terkait atau menghubungi ssamoksoft@gmail.com untuk keberatan; fitur tersebut mungkin tidak dapat digunakan.",
+          "l": [
+            "Supabase (entitas Singapura): autentikasi, pencarian, dan ID pengguna untuk penghapusan/langganan. Fungsi dapat berjalan di luar Seoul; wilayah dan subpemroses ada di tautan berikut. Retensi akun: bagian 8; log operasional: ketentuan penyedia. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
+            "RevenueCat (Amerika Serikat): ID anonim/akun, pembelian, dan perangkat untuk mengelola langganan. Saat akun dihapus, kami meminta penghapusan pelanggan terkait; penyedia memprosesnya secara asinkron. https://www.revenuecat.com/privacy",
+            "Apple dan Google (Amerika Serikat dan fasilitas global): pengenal/transaksi untuk login atau pembayaran yang dipilih, serta permintaan peta, IP, dan perangkat untuk Google Maps, selama diperlukan bagi layanan dan kewajiban hukum. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar: kode batang, ISBN, alamat gambar, dan IP dikirim langsung ke server luar negeri untuk pencarian, pengiriman konten, dan log operasional. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
+          ]
+        },
+        {
+          "t": "8. Penyimpanan dan penghapusan",
+          "b": "Kami menyimpan dan menghapus data pribadi sebagai berikut.",
+          "l": [
+            "Penghapusan akun: membersihkan foto server, meminta penghapusan pelanggan RevenueCat, lalu menghapus akun dan catatan database. Ini urutan beberapa sistem, bukan satu penghapusan atomik. Kegagalan perlu dicoba ulang. Data perangkat yang dipilih baru dibersihkan setelah konfirmasi server. RevenueCat memproses secara asinkron; langganan toko dan catatan transaksi wajib disimpan secara terpisah.",
+            "Penghapusan satuan: setelah sinkronisasi, pembersihan harian server menghapus isi (nama, catatan, skor, lokasi) lebih dari 30 hari setelah waktu penghapusan yang tercatat. Baris penanda berisi ID, relasi, dan waktu untuk sinkronisasi dibersihkan harian setelah 365 hari. Foto server dibersihkan terpisah saat sinkronisasi aplikasi; offline atau kegagalan dapat menundanya. Jangka waktu ini tidak otomatis menghapus catatan terhapus di perangkat.",
+            "Konfirmasi: ID permintaan/pengguna dan waktu untuk respons hilang atau percobaan ulang dibersihkan harian lebih dari 30 hari setelah selesai. Permintaan belum selesai tetap disimpan agar dapat dilanjutkan.",
+            "Retensi menurut hukum: berdasarkan undang-undang e-commerce Korea dan peraturan terkait, catatan kontrak dan penarikan disimpan 5 tahun, catatan pembayaran dan penyediaan 5 tahun, serta catatan keluhan/sengketa konsumen 3 tahun, kemudian dimusnahkan"
+          ]
+        },
+        {
+          "t": "9. Hak Anda",
+          "b": "Anda dapat meminta akses, perbaikan, penghapusan, pembatasan, dan portabilitas. Pengaturan > Data > Ekspor catatan membuat ZIP berisi catatan serta foto yang benar-benar ada di perangkat ini, bukan mengunduh semua foto yang hanya ada di cloud atau perangkat lain. Hubungi ssamoksoft@gmail.com. Biasanya kami menjawab dalam satu bulan; kasus rumit dapat diperpanjang dua bulan dengan alasan diberitahukan pada bulan pertama (GDPR Pasal 12(3)). Pengguna UE/Inggris juga dapat menghubungi perwakilan di bagian 10.",
+          "l": [
+            "Mencakup kategori, item, penilaian, tag, papan, pengaturan analisis dan waktu lokal, serta file foto yang belum dihapus dan benar-benar ada di perangkat.",
+            "Juga berisi catatan yang ditandai untuk dihapus tetapi belum dimusnahkan sepenuhnya — ekspor membaca data yang tersimpan di perangkat ini, sehingga catatan yang isinya sudah dimusnahkan di server tetap dapat ikut disertakan bila masih ada di perangkat ini",
+            "Berkas yang diekspor saat masuk akun mencatat pengenal akun Anda (UUID)",
+            "Berkas ekspor tidak dienkripsi — berhati-hatilah agar tidak membagikannya kepada pihak lain",
+            "Pengaduan: penduduk UE dapat mengadu ke otoritas pengawas negaranya; di Korea, ke Privacy Infringement Report Centre (privacy.kr, 118)"
+          ]
+        },
+        {
+          "t": "10. Perwakilan UE dan Inggris Raya",
+          "b": "Untuk pengguna di UE/EEA dan Inggris Raya, kami telah menunjuk perwakilan berdasarkan Pasal 27 GDPR UE dan Pasal 27 GDPR Inggris Raya. Perwakilan UE: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Perwakilan Inggris Raya: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Anda dapat menghubungi perwakilan kami dan menggunakan hak Anda melalui https://app.prighter.com/portal/19708232400."
+        },
+        {
+          "t": "11. Anak-anak",
+          "b": "Stelleaf hanya boleh digunakan oleh orang berusia 14 tahun atau lebih (di sebagian negara UE, usia persetujuan yang berlaku hingga 16 tahun). Kami tidak dengan sengaja mengumpulkan data pribadi anak di bawah usia tersebut dan akan menghapusnya tanpa penundaan jika kami mengetahuinya."
+        },
+        {
+          "t": "12. Yang tidak kami lakukan",
+          "b": "Stelleaf tidak melakukan hal-hal berikut.",
+          "l": [
+            "Tidak ada iklan dan tidak ada pengumpulan pengidentifikasi iklan",
+            "Tidak menjual data pribadi",
+            "Pembuatan profil iklan atau keputusan otomatis dengan dampak hukum atau serupa yang signifikan; statistik selera pribadi dihitung di perangkat",
+            "Tidak ada pesan pemasaran",
+            "Tidak ada pengumpulan data anak di bawah 14 tahun secara sengaja"
+          ]
+        },
+        {
+          "t": "13. Keamanan",
+          "b": "Kami memakai HTTPS/TLS, akses per akun, izin minimum, dan penyimpanan foto privat. Kunci rahasia pencarian/administrasi tetap di server. Kunci publik peta memakai perlindungan penyedia seperti pembatasan aplikasi."
+        },
+        {
+          "t": "14. Perubahan kebijakan ini",
+          "b": "Jika kebijakan ini berubah, kami akan memublikasikan pembaruannya di halaman ini, dan perubahan penting juga akan diumumkan di aplikasi. Kebijakan yang direvisi berlaku sejak dipublikasikan."
+        }
       ]
     },
     "stelleaf_terms": {
@@ -153,31 +250,85 @@
       "updated": "Tanggal berlaku: 25 Juli 2026",
       "applies": "Ketentuan ini mengatur penggunaan aplikasi seluler “Stelleaf” (별갈피, “Layanan”) yang disediakan oleh usaha perseorangan SSAMOK SOFT (“Operator”). Dengan menggunakan Layanan, Anda menyetujui ketentuan ini.",
       "sections": [
-        { "t": "Pasal 1 (Layanan)", "b": "Stelleaf adalah layanan pengarsipan pribadi untuk mencatat restoran, buku, produk, dan lainnya dengan penilaian bintang serta catatan. Layanan bersifat local-first: Anda dapat menggunakan fitur utamanya tanpa masuk, sedangkan pencadangan dan sinkronisasi antar perangkat hanya tersedia setelah masuk. Operator dapat meningkatkan atau mengubah fitur Layanan dari waktu ke waktu." },
-        { "t": "Pasal 2 (Akun dan batas usia)", "b": "Layanan hanya boleh digunakan oleh orang berusia 14 tahun atau lebih; penduduk sebagian negara UE harus memenuhi usia persetujuan digital negaranya (hingga 16 tahun). Anda dapat masuk dengan email+kata sandi, Google, atau Apple. Anda bertanggung jawab atas aktivitas dan keamanan akun Anda dan harus segera memberi tahu Operator jika ada penggunaan tanpa izin. Anda dapat menghapus akun kapan saja di pengaturan aplikasi." },
-        { "t": "Pasal 3 (Langganan berbayar)", "b": "Layanan menawarkan langganan premium (Pro); pembayaran diproses melalui App Store atau Google Play. Langganan dapat diperpanjang otomatis sesuai kebijakan masing-masing toko, dan pembatalan serta pengembalian dana mengikuti kebijakan dan prosedur masing-masing toko. Operator tidak mengumpulkan atau menyimpan informasi kartu pembayaran. Menghapus akun tidak membatalkan langganan — batalkan langsung di toko. Manfaat langganan yang spesifik (mis. pencadangan foto tanpa batas) dijelaskan di dalam aplikasi." },
-        { "t": "Pasal 4 (Kepemilikan konten)", "b": "Konten yang Anda catat di Layanan — penilaian, catatan, foto, dan lainnya — adalah milik Anda. Operator memprosesnya hanya sejauh diperlukan untuk menyediakan Layanan, seperti pencadangan dan sinkronisasi, dan tidak menggunakannya untuk tujuan lain." },
-        { "t": "Pasal 5 (Kewajiban pengguna dan perilaku yang dilarang)", "b": "Dilarang melanggar hukum atau hak orang lain, mengganggu Layanan atau mengakses sistem tanpa izin, serta melakukan rekayasa balik, scraping, atau menyalahgunakan Layanan dengan sarana otomatis. Operator dapat membatasi penggunaan jika terjadi pelanggaran." },
-        { "t": "Pasal 6 (Pencadangan dan tanggung jawab atas data)", "b": "Jika Anda menggunakan aplikasi secara lokal tanpa masuk, data Anda hanya ada di perangkat Anda sehingga tidak dapat dipulihkan jika perangkat hilang atau rusak atau aplikasi dihapus. Jika Anda memerlukan pencadangan, kami menyarankan untuk masuk dan menggunakan sinkronisasi." },
-        { "t": "Pasal 7 (Perubahan atau penghentian Layanan)", "b": "Operator dapat mengubah atau menghentikan seluruh atau sebagian Layanan karena alasan operasional atau teknis, dengan pemberitahuan sebelumnya untuk perubahan penting. Meskipun Layanan berakhir, data lokal tetap ada di perangkat Anda." },
-        { "t": "Pasal 8 (Batasan tanggung jawab)", "b": "Layanan disediakan “sebagaimana adanya”. Sejauh diizinkan hukum, Operator tidak bertanggung jawab atas kerugian tidak langsung atau insidental akibat penggunaan Layanan, kecuali kerugian karena kesengajaan atau kelalaian berat Operator. Hak konsumen Anda menurut hukum tidak dibatasi oleh pasal ini." },
-        { "t": "Pasal 9 (Perubahan ketentuan ini)", "b": "Operator dapat memperbarui ketentuan ini; perubahan akan dipublikasikan di halaman ini dan perubahan penting juga diumumkan di aplikasi. Ketentuan yang diperbarui berlaku sejak dipublikasikan, dan penggunaan Layanan yang berkelanjutan dianggap sebagai persetujuan." },
-        { "t": "Pasal 10 (Hukum yang berlaku dan yurisdiksi)", "b": "Ketentuan ini diatur oleh hukum Republik Korea, dan sengketa diajukan ke pengadilan yang berwenang menurut hukum acara perdata Korea. Perlindungan konsumen yang bersifat wajib di negara tempat Anda tinggal tidak terpengaruh." },
-        { "t": "Pasal 11 (Kontak)", "b": "Untuk pertanyaan tentang ketentuan ini, hubungi ssamoksoft@gmail.com." }
+        {
+          "t": "Pasal 1 (Layanan)",
+          "b": "Stelleaf adalah layanan pengarsipan pribadi untuk mencatat restoran, buku, produk, dan lainnya dengan penilaian bintang serta catatan. Layanan bersifat local-first: Anda dapat menggunakan fitur utamanya tanpa masuk, sedangkan pencadangan dan sinkronisasi antar perangkat hanya tersedia setelah masuk. Operator dapat meningkatkan atau mengubah fitur Layanan dari waktu ke waktu."
+        },
+        {
+          "t": "Pasal 2 (Akun dan batas usia)",
+          "b": "Layanan hanya boleh digunakan oleh orang berusia 14 tahun atau lebih; penduduk sebagian negara UE harus memenuhi usia persetujuan digital negaranya (hingga 16 tahun). Anda dapat masuk dengan email+kata sandi, Google, atau Apple. Anda bertanggung jawab atas aktivitas dan keamanan akun Anda dan harus segera memberi tahu Operator jika ada penggunaan tanpa izin. Anda dapat menghapus akun kapan saja di pengaturan aplikasi."
+        },
+        {
+          "t": "Pasal 3 (Langganan berbayar)",
+          "b": "Layanan menawarkan langganan premium (Stelleaf Premium); pembayaran diproses melalui App Store atau Google Play. Langganan dapat diperpanjang otomatis sesuai kebijakan masing-masing toko, dan pembatalan serta pengembalian dana mengikuti kebijakan dan prosedur masing-masing toko. Operator tidak mengumpulkan atau menyimpan informasi kartu pembayaran. Menghapus akun tidak membatalkan langganan — batalkan langsung di toko. Manfaat langganan yang spesifik (mis. pencadangan foto tanpa batas) dijelaskan di dalam aplikasi."
+        },
+        {
+          "t": "Pasal 4 (Kepemilikan konten)",
+          "b": "Konten yang Anda catat di Layanan — penilaian, catatan, foto, dan lainnya — adalah milik Anda. Operator memprosesnya hanya sejauh diperlukan untuk menyediakan Layanan, seperti pencadangan dan sinkronisasi, dan tidak menggunakannya untuk tujuan lain."
+        },
+        {
+          "t": "Pasal 5 (Kewajiban pengguna dan perilaku yang dilarang)",
+          "b": "Dilarang melanggar hukum atau hak orang lain, mengganggu Layanan atau mengakses sistem tanpa izin, serta melakukan rekayasa balik, scraping, atau menyalahgunakan Layanan dengan sarana otomatis. Operator dapat membatasi penggunaan jika terjadi pelanggaran."
+        },
+        {
+          "t": "Pasal 6 (Pencadangan dan tanggung jawab atas data)",
+          "b": "Jika Anda menggunakan aplikasi secara lokal tanpa masuk, data Anda hanya ada di perangkat Anda sehingga tidak dapat dipulihkan jika perangkat hilang atau rusak atau aplikasi dihapus. Jika Anda memerlukan pencadangan, kami menyarankan untuk masuk dan menggunakan sinkronisasi."
+        },
+        {
+          "t": "Pasal 7 (Perubahan atau penghentian Layanan)",
+          "b": "Operator dapat mengubah atau menghentikan seluruh atau sebagian Layanan karena alasan operasional atau teknis, dengan pemberitahuan sebelumnya untuk perubahan penting. Meskipun Layanan berakhir, data lokal tetap ada di perangkat Anda."
+        },
+        {
+          "t": "Pasal 8 (Batasan tanggung jawab)",
+          "b": "Layanan disediakan “sebagaimana adanya”. Sejauh diizinkan hukum, Operator tidak bertanggung jawab atas kerugian tidak langsung atau insidental akibat penggunaan Layanan, kecuali kerugian karena kesengajaan atau kelalaian berat Operator. Hak konsumen Anda menurut hukum tidak dibatasi oleh pasal ini."
+        },
+        {
+          "t": "Pasal 9 (Perubahan ketentuan ini)",
+          "b": "Operator dapat memperbarui ketentuan ini; perubahan akan dipublikasikan di halaman ini dan perubahan penting juga diumumkan di aplikasi. Ketentuan yang diperbarui berlaku sejak dipublikasikan, dan penggunaan Layanan yang berkelanjutan dianggap sebagai persetujuan."
+        },
+        {
+          "t": "Pasal 10 (Hukum yang berlaku dan yurisdiksi)",
+          "b": "Ketentuan ini diatur oleh hukum Republik Korea, dan sengketa diajukan ke pengadilan yang berwenang menurut hukum acara perdata Korea. Perlindungan konsumen yang bersifat wajib di negara tempat Anda tinggal tidak terpengaruh."
+        },
+        {
+          "t": "Pasal 11 (Kontak)",
+          "b": "Untuk pertanyaan tentang ketentuan ini, hubungi ssamoksoft@gmail.com."
+        }
       ]
     },
     "stelleaf_delete": {
       "title": "Hapus akun dan data Stelleaf Anda",
-      "updated": "Terakhir diperbarui: 25 Juli 2026",
+      "updated": "20 September 2026",
       "applies": "Halaman ini menjelaskan cara menghapus akun dan data Anda untuk aplikasi “Stelleaf” (별갈피) dari SSAMOK SOFT. Anda dapat mengajukan penghapusan melalui email meskipun belum memasang aplikasi atau tidak dapat lagi mengaksesnya.",
       "sections": [
-        { "t": "Cara 1 — Hapus di aplikasi (disarankan, langsung)", "b": "Di aplikasi Stelleaf, buka Pengaturan → Hapus akun. Seluruh data di server (semua catatan, berkas foto, dan akun itu sendiri) dihapus segera dan secara atomik. Saat menghapus, Anda dapat memilih antara “hapus hanya data server” dan “hapus data server dan data di perangkat ini”." },
-        { "t": "Cara 2 — Ajukan lewat email (tanpa aplikasi)", "b": "Dari alamat email yang Anda gunakan saat mendaftar, kirim pesan ke ssamoksoft@gmail.com dengan subjek “Permintaan penghapusan akun Stelleaf”. Setelah verifikasi identitas, permintaan diproses dalam waktu 7 hari." },
-        { "t": "Apa yang dihapus", "b": "Informasi akun Anda (email dan pengidentifikasi penyedia masuk) serta semua catatan, kategori, tag, papan peringkat, pengaturan, dan foto yang tersimpan di server akan dihapus. Data lokal di perangkat Anda dipertahankan atau dihapus sesuai pilihan Anda saat penghapusan, dan menghapus aplikasi juga menghilangkan data lokal." },
-        { "t": "Penghapusan per item dan penghapusan permanen", "b": "Saat Anda menghapus item, catatan, atau foto tertentu, semuanya disimpan dalam status soft delete selama 30 hari untuk menjaga konsistensi sinkronisasi antar perangkat, lalu dihapus permanen." },
-        { "t": "Tentang langganan", "b": "Langganan (Pro) terpisah dari penghapusan akun. Jika Anda memiliki langganan aktif, batalkan langsung di App Store atau Google Play — menghapus akun tidak otomatis membatalkannya." },
-        { "t": "Retensi menurut hukum", "b": "Catatan terkait pembayaran yang wajib disimpan menurut undang-undang e-commerce Korea dan peraturan terkait disimpan selama periode wajib lalu dimusnahkan." },
-        { "t": "Kontak", "b": "Untuk pertanyaan tentang penghapusan, hubungi ssamoksoft@gmail.com." }
+        {
+          "t": "Cara 1 — Hapus melalui aplikasi",
+          "b": "Di Pengaturan > Hapus akun, pilih hanya server atau sekaligus perangkat ini. Pembersihan foto, permintaan RevenueCat, dan penghapusan akun/database dilakukan berurutan. Coba lagi saat ada kesalahan jaringan atau penyedia. Data perangkat yang dipilih dibersihkan setelah konfirmasi server."
+        },
+        {
+          "t": "Cara 2 — Ajukan lewat email (tanpa aplikasi)",
+          "b": "Dari alamat email yang Anda gunakan saat mendaftar, kirim pesan ke ssamoksoft@gmail.com dengan subjek “Permintaan penghapusan akun Stelleaf”. Setelah verifikasi identitas, permintaan diproses dalam waktu 7 hari."
+        },
+        {
+          "t": "Apa yang dihapus",
+          "b": "Akun server, catatan, pengaturan, dan foto terkait dihapus, serta penghapusan pelanggan RevenueCat diminta. Anda dapat mempertahankan data perangkat. Kelola ekspor dan perangkat lain secara terpisah. Menghapus aplikasi tidak menghapus cloud atau membatalkan langganan. Konfirmasi dan catatan wajib mengikuti retensi di bawah."
+        },
+        {
+          "t": "Penghapusan per item dan penghapusan permanen",
+          "b": "Penghapusan satuan: setelah sinkronisasi, pembersihan harian server menghapus isi (nama, catatan, skor, lokasi) lebih dari 30 hari setelah waktu penghapusan yang tercatat. Baris penanda berisi ID, relasi, dan waktu untuk sinkronisasi dibersihkan harian setelah 365 hari. Foto server dibersihkan terpisah saat sinkronisasi aplikasi; offline atau kegagalan dapat menundanya. Jangka waktu ini tidak otomatis menghapus catatan terhapus di perangkat. Konfirmasi: ID permintaan/pengguna dan waktu untuk respons hilang atau percobaan ulang dibersihkan harian lebih dari 30 hari setelah selesai. Permintaan belum selesai tetap disimpan agar dapat dilanjutkan."
+        },
+        {
+          "t": "Tentang langganan",
+          "b": "Langganan (Stelleaf Premium) terpisah dari penghapusan akun. Jika Anda memiliki langganan aktif, batalkan langsung di App Store atau Google Play — menghapus akun tidak otomatis membatalkannya."
+        },
+        {
+          "t": "Retensi menurut hukum",
+          "b": "Catatan terkait pembayaran yang wajib disimpan menurut undang-undang e-commerce Korea dan peraturan terkait disimpan selama periode wajib lalu dimusnahkan."
+        },
+        {
+          "t": "Kontak",
+          "b": "Untuk pertanyaan tentang penghapusan, hubungi ssamoksoft@gmail.com."
+        }
       ]
     },
     "snuumo_privacy": {

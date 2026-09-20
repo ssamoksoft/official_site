@@ -129,23 +129,120 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Datenschutzerklärung",
-      "updated": "Gültig ab: 10. September 2026",
-      "applies": "Diese Erklärung gilt für die mobile App „Stelleaf“ (별갈피) des Einzelunternehmens SSAMOK SOFT (der „Betreiber“). Stelleaf ist eine local-first App: Wenn du dich nicht anmeldest, bleiben alle deine Daten ausschließlich auf deinem Gerät und werden nie an einen Server gesendet.",
+      "updated": "20. September 2026",
+      "applies": "Stelleaf von SSAMOK SOFT speichert Einträge und Fotos zuerst auf dem Gerät.",
       "sections": [
-        { "t": "1. Verantwortlicher", "b": "Das folgende Einzelunternehmen verarbeitet personenbezogene Daten als Verantwortlicher im Sinne der DSGVO.", "l": [ "Firmenname: SSAMOK SOFT", "Inhaber: Dae-hoon Kang", "Datenschutzbeauftragter: Dae-hoon Kang", "Kontakt: ssamoksoft@gmail.com" ] },
-        { "t": "2. Local-first-Architektur", "b": "Wenn du die App ohne Anmeldung nutzt, werden alle Daten einschließlich deiner Einträge und Fotos nur auf deinem Gerät gespeichert und nichts an einen Server gesendet. Die Anmeldung ist optional; Backup und geräteübergreifende Synchronisierung funktionieren nur im angemeldeten Zustand." },
-        { "t": "3. Welche Daten wir erheben", "b": "Nur wenn du dich anmeldest, um Backup und Synchronisierung zu nutzen, werden die folgenden Daten auf unserem Server gespeichert (Supabase, Region Seoul, Republik Korea).", "l": [ "Konto: E-Mail-Adresse, interne Nutzer-ID und Kennung des Anmeldeanbieters – du wählst zwischen E-Mail+Passwort, Google-Anmeldung oder Apple-Anmeldung (Authentifizierungsinfrastruktur: Supabase Auth)", "Inhalte: Kategorien, Einträge (Name, Notizen, Produkt-Barcode und Ortskoordinaten, die du selbst durch Setzen einer Stecknadel auf der Karte bestätigt hast), Bewertungen (Sterne, Notizen, Datum, Detailbewertungen, Situations-Tags), Eintrags-Tags, Ranglisten, Einstellungen zur Geschmacksanalyse, Fotos sowie Erstellungs- und Änderungszeitpunkte", "Zahlungen: eine pseudonyme App-Nutzer-ID, Kaufbelege und Geräteinformationen (verarbeitet von RevenueCat) – Zahlungskartendaten erhalten wir nie", "Karten: Sobald du eine Kartenansicht öffnest, sendet das Naver-Maps-SDK (Korea) bzw. das Google-Maps-SDK (übrige Regionen) eine Gerätekennung und den ungefähren Standort an Naver/Google. Die Standortberechtigung wird nur für die Funktion „zu meinem Standort springen“ genutzt", "Suche: Übertragen werden ausschließlich Suchbegriff, Koordinaten, Barcode oder ISBN. Ortssuche (Naver Cloud), Buchsuche (Kakao) und Lebensmittel-Barcode-Abfrage (koreanisches Ministerium für Lebensmittel- und Arzneimittelsicherheit) laufen über den Server-Proxy des Betreibers, und die Anfragen enthalten keine personenbezogenen Kennungen. Öffentliche Datenbanken (Open Food Facts / Open Beauty Facts, OpenLibrary) werden direkt von der App abgefragt, wobei nur Barcode oder ISBN gesendet wird" ] },
-        { "t": "4. Fotos und Standortdaten", "b": "Fotos werden im Moment des Anhängens auf deinem Gerät neu kodiert; gespeichert und hochgeladen wird nur eine Kopie ohne EXIF-Metadaten (einschließlich GPS). Das GPS des Originalfotos wird ausschließlich auf dem Gerät kurz ausgelesen, um einen Ort vorzuschlagen, und niemals gespeichert oder übertragen. Die einzigen auf dem Server gespeicherten Koordinaten sind die, die du ausdrücklich auf der Karte bestätigt hast. Das Foto-Cloud-Backup ist im kostenlosen Tarif auf 200 Fotos begrenzt und in Pro unbegrenzt; die lokale Speicherung ist in beiden Fällen unbegrenzt." },
-        { "t": "5. Zwecke und Rechtsgrundlagen", "b": "Zwecke und Rechtsgrundlagen (Art. 6 DSGVO) der einzelnen Verarbeitungen:", "l": [ "Kontoverwaltung, Backup und geräteübergreifende Synchronisierung – Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)", "Zahlung und Verwaltung des bezahlten Abos – Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)", "Erfüllung rechtlicher Pflichten (z. B. Aufbewahrung von Zahlungsbelegen) – rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO)", "Derzeit findet keine Verarbeitung auf Grundlage einer gesonderten Einwilligung statt" ] },
-        { "t": "6. Auftragsverarbeiter und Empfänger", "b": "Zur Bereitstellung des Dienstes nutzen wir die folgenden Auftragsverarbeiter und Empfänger.", "l": [ "Supabase – Datenbank, Authentifizierung, Dateispeicher und Serverfunktionen (Seoul, Republik Korea; AWS-Region ap-northeast-2)", "Naver Cloud – Karten und Ortssuche (Republik Korea)", "Kakao – Buchsuche nach ISBN/Titel (Republik Korea, über Server-Proxy)", "Koreanisches Ministerium für Lebensmittel- und Arzneimittelsicherheit – Lebensmittel-Barcode-Abfrage (Republik Korea, über Server-Proxy)", "RevenueCat – Aboverwaltung (USA)", "Apple – Anmeldung und Zahlungen (USA)", "Google – Anmeldung, Zahlungen und Karten (USA)", "Open Food Facts / Open Beauty Facts, OpenLibrary – öffentliche Datenbanken (nur Barcode oder ISBN wird gesendet, keine personenbezogenen Daten)" ] },
-        { "t": "7. Internationale Datenübermittlung", "b": "Der primäre Datenspeicher (Supabase) liegt in der Region Seoul (Republik Korea), sodass deine Einträge, Fotos und Kontodaten im Inland gespeichert und nicht ins Ausland übermittelt werden. Internationale Übermittlungen erfolgen nur an die unten genannten US-Verarbeiter, gestützt auf zur Vertragserfüllung erforderliche Übermittlungen und offengelegt in dieser Erklärung (Art. 28-8 des koreanischen Datenschutzgesetzes). Nach der DSGVO stützen sich Übermittlungen aus dem EWR nach Korea auf den EU-Angemessenheitsbeschluss für Korea; Übermittlungen in die USA stützen sich bei Google auf die Zertifizierung nach dem EU-US Data Privacy Framework (DPF) und bei Apple und RevenueCat auf Auftragsverarbeitungsverträge mit Standardvertragsklauseln (SCC).", "l": [ "RevenueCat (USA) – Daten: pseudonyme App-Nutzer-ID, Kaufbelege, Geräteinformationen / Zweck: Verwaltung des Abostatus / Speicherdauer: solange für die Aboverwaltung erforderlich", "Apple (USA) – Daten: Anmeldekennungen, Zahlungsabwicklungsdaten / Zweck: Apple-Anmeldung und In-App-Käufe / Speicherdauer: gemäß Apples Richtlinien", "Google (USA) – Daten: Anmeldekennungen, Zahlungsabwicklungsdaten sowie Gerätekennung und ungefährer Standort bei Kartennutzung / Zweck: Google-Anmeldung, Zahlungen und Karten / Speicherdauer: gemäß Googles Richtlinien" ] },
-        { "t": "8. Aufbewahrung und Löschung", "b": "Wir bewahren personenbezogene Daten wie folgt auf und löschen sie entsprechend.", "l": [ "Konto- und Serverdaten: Beim Löschen deines Kontos werden alle Serverdaten (alle Einträge, Fotodateien und das Konto selbst) unmittelbar und atomar gelöscht", "Löschen einzelner Einträge, Bewertungen oder Fotos: Zur Konsistenz der geräteübergreifenden Synchronisierung werden gelöschte Daten 30 Tage als gelöscht markiert (Soft Delete) aufbewahrt und danach endgültig vernichtet", "Gesetzliche Aufbewahrung: Nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften werden Aufzeichnungen zu Verträgen und Widerrufen 5 Jahre, zu Zahlungen und Leistungserbringung 5 Jahre und zu Verbraucherbeschwerden und Streitigkeiten 3 Jahre aufbewahrt und anschließend vernichtet" ] },
-        { "t": "9. Deine Rechte", "b": "Du kannst Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Datenübertragbarkeit verlangen. Die Datenübertragbarkeit kannst du direkt in der App ausüben — unter Einstellungen > Daten > Einträge exportieren lädst du alle Einträge und Fotos als eine einzige ZIP-Datei herunter; aus derselben Datei kann die App auch wiederherstellen. Alle anderen Anliegen richtest du an ssamoksoft@gmail.com; wir antworten innerhalb eines Monats nach Eingang (Art. 12 Abs. 3 DSGVO). Bei komplexen Anfragen können wir um zwei weitere Monate verlängern und teilen dir den Grund innerhalb des ersten Monats mit. Nutzer im EWR und im Vereinigten Königreich können ihre Rechte auch über den in Abschnitt 10 genannten Vertreter ausüben.", "l": [ "Der Export enthält: Kategorien, Einträge, Bewertungen, Tags, Ranglisten, Einstellungen der Geschmacksanalyse, Fotos sowie die Erstellungs- und Änderungszeitpunkte jedes Datensatzes", "Er enthält auch Datensätze, die zur Löschung markiert, aber noch nicht endgültig gelöscht sind (innerhalb von 30 Tagen nach der Löschung)", "Eine im angemeldeten Zustand exportierte Datei enthält deine Kontokennung (UUID)", "Die Exportdatei ist nicht verschlüsselt — gib sie nicht an Dritte weiter", "Beschwerden: Personen in der EU können sich an ihre nationale Aufsichtsbehörde wenden; in Korea an das Privacy Infringement Report Centre (privacy.kr, 118)" ] },
-        { "t": "10. Vertreter in der EU und im Vereinigten Königreich", "b": "Für Nutzer in der EU/im EWR und im Vereinigten Königreich haben wir gemäß Artikel 27 der EU-Datenschutz-Grundverordnung (DSGVO) und Artikel 27 der UK-DSGVO Vertreter benannt. EU-Vertreter: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. UK-Vertreter: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Du kannst unsere Vertreter über https://app.prighter.com/portal/19708232400 kontaktieren und dort deine Rechte ausüben." },
-        { "t": "11. Kinder", "b": "Stelleaf darf nur von Personen ab 14 Jahren genutzt werden (in einigen EU-Ländern gilt das jeweilige Einwilligungsalter von bis zu 16 Jahren). Wir erheben nicht wissentlich personenbezogene Daten von Kindern unter diesem Alter und löschen solche Daten unverzüglich, wenn wir davon Kenntnis erlangen." },
-        { "t": "12. Was wir nicht tun", "b": "Stelleaf tut Folgendes nicht.", "l": [ "Keine Werbung und keine Erhebung von Werbe-IDs", "Kein Verkauf personenbezogener Daten", "Kein Profiling und keine automatisierte Entscheidungsfindung", "Keine Marketingnachrichten", "Keine absichtliche Erhebung von Daten von Kindern unter 14 Jahren" ] },
-        { "t": "13. Sicherheit", "b": "Wir setzen angemessene Schutzmaßnahmen ein, darunter Transportverschlüsselung (HTTPS/TLS), Zugriffskontrollen und minimale Rechte, Speicherung in einer inländischen Region (Seoul) und Datenminimierung. Such-API-Schlüssel liegen ausschließlich auf dem Server und werden nie an den Client weitergegeben." },
-        { "t": "14. Änderungen dieser Erklärung", "b": "Bei Änderungen dieser Erklärung veröffentlichen wir die Aktualisierung auf dieser Seite; wesentliche Änderungen kündigen wir auch in der App an. Die geänderte Erklärung gilt ab Veröffentlichung." }
+        {
+          "t": "1. Verantwortlicher",
+          "b": "Das folgende Einzelunternehmen verarbeitet personenbezogene Daten als Verantwortlicher im Sinne der DSGVO.",
+          "l": [
+            "Firmenname: SSAMOK SOFT",
+            "Inhaber: Dae-hoon Kang",
+            "Datenschutzbeauftragter: Dae-hoon Kang",
+            "Kontakt: ssamoksoft@gmail.com"
+          ]
+        },
+        {
+          "t": "2. Local-first-Architektur",
+          "b": "Stelleaf von SSAMOK SOFT speichert Einträge und Fotos zuerst auf dem Gerät. Anmeldung, Cloud-Sicherung und Synchronisierung sind optional. Karten, Suche, Titelbilder und Abo-Prüfungen können bereits vor der Anmeldung externe Dienste kontaktieren. Vorrangige lokale Speicherung bedeutet nicht, dass keinerlei Informationen übertragen werden."
+        },
+        {
+          "t": "3. Welche Daten wir erheben",
+          "b": "Abhängig von den verwendeten Funktionen verarbeiten wir folgende Daten. Sicherungen und synchronisierte Kontodaten liegen hauptsächlich bei Supabase in Seoul, Südkorea.",
+          "l": [
+            "Konto: E-Mail-Adresse, interne Nutzer-ID und Kennung des Anmeldeanbieters – du wählst zwischen E-Mail+Passwort, Google-Anmeldung oder Apple-Anmeldung (Authentifizierungsinfrastruktur: Supabase Auth)",
+            "Inhalte: Kategorien, Namen, Notizen, Barcodes und gewählte Koordinaten, Bewertungen, Daten, Detailpunkte, Kontext-Tags, Tags, Ranglisten, Analyse-Einstellungen, Fotos sowie Erstellungs-/Änderungszeiten",
+            "Abos: RevenueCat erhält vor der Anmeldung eine zufällige anonyme App-ID, danach die interne Nutzer-ID sowie Abo-Status, Belege oder Kauf-Token und App-/Gerätedaten. Wir erhalten keine Kartennummern.",
+            "Karten: In Südkorea wird Naver bevorzugt, andernorts oder bei dessen Ausfall Google Maps. Kartenanfragen, sichtbarer Bereich, IP und SDK-Gerätedaten können verarbeitet werden. Der aktuelle Gerätestandort wird bei erteilter Berechtigung und Nutzung der Standortfunktion abgefragt.",
+            "Suche/Bilder: Suchbegriffe, Koordinaten, Barcodes und ISBN. Naver-Orts-, Kakao-Buch- und MFDS-Lebensmittelsuche laufen über Supabase-Funktionen. Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter können direkt kontaktiert werden; dabei werden auch IP und technische Daten übertragen. Angemeldete Serveranfragen enthalten Sitzungsdaten, die unser Suchproxy nicht an Suchanbieter weitergibt."
+          ]
+        },
+        {
+          "t": "4. Fotos und Standortdaten",
+          "b": "Angehängte Fotos werden auf dem Gerät neu codiert und ohne EXIF einschließlich GPS gespeichert und gesichert. Auf unterstützten Geräten kann ursprüngliches GPS vorübergehend einen Ort vorschlagen. Nur von Ihnen ausgewählte oder auf der Karte bestätigte Koordinaten werden gespeichert. Kostenlose Konten erlauben 200 Cloud-Fotos, Stelleaf Premium unbegrenzt viele. Die App begrenzt die Anzahl lokaler Fotos nicht."
+        },
+        {
+          "t": "5. Zwecke und Rechtsgrundlagen",
+          "b": "Zwecke und Rechtsgrundlagen (Art. 6 DSGVO) der einzelnen Verarbeitungen:",
+          "l": [
+            "Kontoverwaltung, Backup und geräteübergreifende Synchronisierung – Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)",
+            "Zahlung und Verwaltung des bezahlten Abos – Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)",
+            "Erfüllung rechtlicher Pflichten (z. B. Aufbewahrung von Zahlungsbelegen) – rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO)",
+            "Derzeit findet keine Verarbeitung auf Grundlage einer gesonderten Einwilligung statt"
+          ]
+        },
+        {
+          "t": "6. Auftragsverarbeiter und Empfänger",
+          "b": "Zur Bereitstellung des Dienstes nutzen wir die folgenden Auftragsverarbeiter und Empfänger.",
+          "l": [
+            "Supabase — primärer Konto-, Datenbank- und Fotospeicher in Seoul; Funktionen für Suche, Löschung und Abo-Prüfung können in globalen Regionen nahe dem Anfragenden ausgeführt werden",
+            "Naver Cloud – Karten und Ortssuche (Republik Korea)",
+            "Kakao — Buchsuche und Bestätigungs-/Wiederherstellungsmails über Daum SMTP; Empfängeradresse und Inhalte einschließlich Bestätigungslinks (Südkorea)",
+            "Koreanisches Ministerium für Lebensmittel- und Arzneimittelsicherheit – Lebensmittel-Barcode-Abfrage (Republik Korea, über Server-Proxy)",
+            "RevenueCat – Aboverwaltung (USA)",
+            "Apple – Anmeldung und Zahlungen (USA)",
+            "Google – Anmeldung, Zahlungen und Karten (USA)",
+            "Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter — Barcode-, ISBN- und Bildanfragen sowie Verbindungsdaten wie IP-Adressen"
+          ]
+        },
+        {
+          "t": "7. Internationale Datenübermittlung",
+          "b": "Der Hauptspeicher in Seoul beschränkt nicht jede Verarbeitung auf Südkorea. Die folgenden Online-Funktionen übertragen nötige Informationen verschlüsselt. Für internationale Verarbeitung gelten die Datenverarbeitungsbedingungen der Anbieter und anwendbare Übermittlungsgarantien. Sie können die betreffende Funktion nicht mehr nutzen oder sich an ssamoksoft@gmail.com wenden, um zu widersprechen; dadurch kann die Funktion entfallen.",
+          "l": [
+            "Supabase (Unternehmen in Singapur): Authentifizierung, Suchanfragen und Nutzer-IDs für Löschung/Abo-Prüfung. Funktionen können außerhalb Seouls laufen; Regionen und Unterauftragnehmer siehe Links. Kontospeicherung: Abschnitt 8; Betriebsprotokolle: Anbieterbedingungen. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
+            "RevenueCat (USA): anonyme/Konto-IDs, Kauf- und Gerätedaten für Abo-Verwaltung. Bei Kontolöschung fordern wir die Löschung des zugehörigen Kunden an; Verarbeitung erfolgt asynchron. https://www.revenuecat.com/privacy",
+            "Apple und Google (USA und globale Standorte): Kennungen/Transaktionen für gewählte Anmeldung oder Zahlung sowie Kartenanfragen, IP und Gerätedaten bei Google Maps. Verarbeitung solange für Dienste und gesetzliche Pflichten erforderlich. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter: Barcodes, ISBN, Bildadressen und IP werden bei Direktzugriff an ausländische Server für Suche, Auslieferung und Betriebsprotokolle übermittelt. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
+          ]
+        },
+        {
+          "t": "8. Aufbewahrung und Löschung",
+          "b": "Wir bewahren personenbezogene Daten wie folgt auf und löschen sie entsprechend.",
+          "l": [
+            "Kontolöschung: Serverfotos werden bereinigt, die RevenueCat-Kundenlöschung angefordert und anschließend Konto und Datenbankeinträge gelöscht. Das sind aufeinanderfolgende Schritte, keine atomare Gesamtlöschung. Fehler erfordern einen neuen Versuch. Gewählte Gerätedaten werden erst nach Serverbestätigung entfernt. RevenueCat verarbeitet die Löschung asynchron; Store-Abos und gesetzliche Transaktionsaufzeichnungen sind davon getrennt.",
+            "Einzellöschung: Nach Synchronisierung entfernt die tägliche Serverbereinigung Inhalte wie Namen, Notizen, Bewertungen und Orte mehr als 30 Tage nach dem gespeicherten Löschzeitpunkt. Löschmarkierungen mit IDs, Beziehungen und Zeitangaben für die Synchronisierung werden nach 365 Tagen täglich bereinigt. Serverfotodateien werden separat bei der App-Synchronisierung entfernt; Offline-Nutzung oder Fehler können dies verzögern. Diese Fristen löschen nicht automatisch gelöschte Datensätze auf Ihrem Gerät.",
+            "Löschbestätigung: Anfrage-/Nutzer-IDs und Zeitangaben zur Wiederholung werden bei der täglichen Bereinigung mehr als 30 Tage nach Abschluss entfernt. Unvollständige Anfragen bleiben zur Fortsetzung erhalten.",
+            "Gesetzliche Aufbewahrung: Nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften werden Aufzeichnungen zu Verträgen und Widerrufen 5 Jahre, zu Zahlungen und Leistungserbringung 5 Jahre und zu Verbraucherbeschwerden und Streitigkeiten 3 Jahre aufbewahrt und anschließend vernichtet"
+          ]
+        },
+        {
+          "t": "9. Deine Rechte",
+          "b": "Sie können Auskunft, Berichtigung, Löschung, Einschränkung und Übertragbarkeit verlangen. Einstellungen > Daten > Einträge exportieren erzeugt ein ZIP mit auf diesem Gerät vorhandenen Einträgen und Fotos; reine Cloud-Fotos oder andere Geräte werden nicht vollständig heruntergeladen. Kontakt: ssamoksoft@gmail.com. Antwort grundsätzlich binnen eines Monats; bei komplexen Anfragen sind mit Begründung im ersten Monat zwei weitere Monate möglich (DSGVO Art. 12 Abs. 3). EU-/UK-Nutzer können sich auch an die Vertretung in Abschnitt 10 wenden.",
+          "l": [
+            "Enthalten sind lokale Kategorien, Elemente, Bewertungen, Tags, Boards, Analyse-Einstellungen und Zeitangaben sowie nicht gelöschte Fotodateien, die tatsächlich auf dem Gerät liegen.",
+            "Er enthält auch Datensätze, die zur Löschung markiert, aber noch nicht endgültig gelöscht sind — der Export liest die auf diesem Gerät gespeicherten Daten, daher kann ein Datensatz enthalten sein, dessen Inhalt auf dem Server bereits gelöscht wurde, solange er auf diesem Gerät verbleibt",
+            "Eine im angemeldeten Zustand exportierte Datei enthält deine Kontokennung (UUID)",
+            "Die Exportdatei ist nicht verschlüsselt — gib sie nicht an Dritte weiter",
+            "Beschwerden: Personen in der EU können sich an ihre nationale Aufsichtsbehörde wenden; in Korea an das Privacy Infringement Report Centre (privacy.kr, 118)"
+          ]
+        },
+        {
+          "t": "10. Vertreter in der EU und im Vereinigten Königreich",
+          "b": "Für Nutzer in der EU/im EWR und im Vereinigten Königreich haben wir gemäß Artikel 27 der EU-Datenschutz-Grundverordnung (DSGVO) und Artikel 27 der UK-DSGVO Vertreter benannt. EU-Vertreter: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. UK-Vertreter: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Du kannst unsere Vertreter über https://app.prighter.com/portal/19708232400 kontaktieren und dort deine Rechte ausüben."
+        },
+        {
+          "t": "11. Kinder",
+          "b": "Stelleaf darf nur von Personen ab 14 Jahren genutzt werden (in einigen EU-Ländern gilt das jeweilige Einwilligungsalter von bis zu 16 Jahren). Wir erheben nicht wissentlich personenbezogene Daten von Kindern unter diesem Alter und löschen solche Daten unverzüglich, wenn wir davon Kenntnis erlangen."
+        },
+        {
+          "t": "12. Was wir nicht tun",
+          "b": "Stelleaf tut Folgendes nicht.",
+          "l": [
+            "Keine Werbung und keine Erhebung von Werbe-IDs",
+            "Kein Verkauf personenbezogener Daten",
+            "Werbeprofiling oder automatisierte Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung; persönliche Geschmacksstatistiken werden auf dem Gerät berechnet",
+            "Keine Marketingnachrichten",
+            "Keine absichtliche Erhebung von Daten von Kindern unter 14 Jahren"
+          ]
+        },
+        {
+          "t": "13. Sicherheit",
+          "b": "Wir nutzen HTTPS/TLS, kontobezogene Zugriffskontrolle, minimale Rechte und privaten Fotospeicher. Geheime Such- und Verwaltungsschlüssel bleiben auf dem Server. Öffentliche Kartenschlüssel werden etwa durch App-Beschränkungen des Anbieters geschützt."
+        },
+        {
+          "t": "14. Änderungen dieser Erklärung",
+          "b": "Bei Änderungen dieser Erklärung veröffentlichen wir die Aktualisierung auf dieser Seite; wesentliche Änderungen kündigen wir auch in der App an. Die geänderte Erklärung gilt ab Veröffentlichung."
+        }
       ]
     },
     "stelleaf_terms": {
@@ -153,31 +250,85 @@
       "updated": "Gültig ab: 25. Juli 2026",
       "applies": "Diese Bedingungen regeln die Nutzung der mobilen App „Stelleaf“ (별갈피, der „Dienst“) des Einzelunternehmens SSAMOK SOFT (der „Betreiber“). Mit der Nutzung des Dienstes stimmst du diesen Bedingungen zu.",
       "sections": [
-        { "t": "§ 1 (Der Dienst)", "b": "Stelleaf ist ein persönlicher Archivdienst, um Restaurants, Bücher, Produkte und mehr mit Sternebewertungen und Notizen festzuhalten. Er ist local-first: Die Kernfunktionen kannst du ohne Anmeldung nutzen, Backup und geräteübergreifende Synchronisierung nur im angemeldeten Zustand. Der Betreiber kann die Funktionen des Dienstes im Laufe der Zeit verbessern oder ändern." },
-        { "t": "§ 2 (Konten und Altersanforderung)", "b": "Der Dienst darf nur von Personen ab 14 Jahren genutzt werden; in einigen EU-Ländern ist das dortige digitale Einwilligungsalter (bis 16 Jahre) maßgeblich. Du kannst dich mit E-Mail+Passwort, Google oder Apple anmelden. Du bist für Aktivität und Sicherheit deines Kontos verantwortlich und musst den Betreiber unverzüglich über unbefugte Nutzung informieren. Du kannst dein Konto jederzeit in den App-Einstellungen löschen." },
-        { "t": "§ 3 (Bezahltes Abo)", "b": "Der Dienst bietet ein Premium-Abo (Pro); Zahlungen werden über den App Store oder Google Play abgewickelt. Abos können sich gemäß den Richtlinien des jeweiligen Stores automatisch verlängern; Kündigungen und Erstattungen richten sich nach den Richtlinien und Verfahren des jeweiligen Stores. Der Betreiber erhebt und speichert keine Zahlungskartendaten. Das Löschen des Kontos kündigt kein Abo – kündige es direkt im Store. Die konkreten Abo-Vorteile (z. B. unbegrenztes Foto-Cloud-Backup) sind in der App beschrieben." },
-        { "t": "§ 4 (Eigentum an Inhalten)", "b": "Die Inhalte, die du im Dienst erfasst – Bewertungen, Notizen, Fotos und mehr – gehören dir. Der Betreiber verarbeitet sie nur in dem Umfang, der zur Bereitstellung des Dienstes erforderlich ist, etwa für Backup und Synchronisierung, und nutzt sie nicht für andere Zwecke." },
-        { "t": "§ 5 (Pflichten der Nutzer und verbotenes Verhalten)", "b": "Verboten sind Rechtsverstöße oder die Verletzung von Rechten Dritter, die Störung des Dienstes oder der unbefugte Zugriff auf Systeme sowie Reverse Engineering, Scraping oder der Missbrauch des Dienstes mit automatisierten Mitteln. Bei Verstößen kann der Betreiber die Nutzung einschränken." },
-        { "t": "§ 6 (Backups und Verantwortung für Daten)", "b": "Wenn du die App ohne Anmeldung lokal nutzt, existieren deine Daten nur auf deinem Gerät und können bei Verlust, Defekt oder Löschen der App nicht wiederhergestellt werden. Wenn du ein Backup benötigst, empfehlen wir die Anmeldung und die Nutzung der Synchronisierung." },
-        { "t": "§ 7 (Änderung oder Einstellung des Dienstes)", "b": "Der Betreiber kann den Dienst aus betrieblichen oder technischen Gründen ganz oder teilweise ändern oder einstellen; wesentliche Änderungen werden vorab angekündigt. Auch wenn der Dienst endet, bleiben lokale Daten auf deinem Gerät." },
-        { "t": "§ 8 (Haftungsbeschränkung)", "b": "Der Dienst wird „wie besehen“ bereitgestellt. Soweit gesetzlich zulässig, haftet der Betreiber nicht für indirekte oder Folgeschäden aus der Nutzung des Dienstes, ausgenommen Schäden durch Vorsatz oder grobe Fahrlässigkeit des Betreibers. Deine gesetzlichen Verbraucherrechte werden durch diesen Paragrafen nicht eingeschränkt." },
-        { "t": "§ 9 (Änderungen dieser Bedingungen)", "b": "Der Betreiber kann diese Bedingungen aktualisieren; Änderungen werden auf dieser Seite veröffentlicht, wesentliche Änderungen zusätzlich in der App angekündigt. Aktualisierte Bedingungen gelten ab Veröffentlichung; die weitere Nutzung des Dienstes gilt als Zustimmung." },
-        { "t": "§ 10 (Anwendbares Recht und Gerichtsstand)", "b": "Diese Bedingungen unterliegen dem Recht der Republik Korea; Streitigkeiten werden vor dem nach der koreanischen Zivilprozessordnung zuständigen Gericht geführt. Zwingende Verbraucherschutzvorschriften deines Wohnsitzlandes bleiben unberührt." },
-        { "t": "§ 11 (Kontakt)", "b": "Bei Fragen zu diesen Bedingungen wende dich an ssamoksoft@gmail.com." }
+        {
+          "t": "§ 1 (Der Dienst)",
+          "b": "Stelleaf ist ein persönlicher Archivdienst, um Restaurants, Bücher, Produkte und mehr mit Sternebewertungen und Notizen festzuhalten. Er ist local-first: Die Kernfunktionen kannst du ohne Anmeldung nutzen, Backup und geräteübergreifende Synchronisierung nur im angemeldeten Zustand. Der Betreiber kann die Funktionen des Dienstes im Laufe der Zeit verbessern oder ändern."
+        },
+        {
+          "t": "§ 2 (Konten und Altersanforderung)",
+          "b": "Der Dienst darf nur von Personen ab 14 Jahren genutzt werden; in einigen EU-Ländern ist das dortige digitale Einwilligungsalter (bis 16 Jahre) maßgeblich. Du kannst dich mit E-Mail+Passwort, Google oder Apple anmelden. Du bist für Aktivität und Sicherheit deines Kontos verantwortlich und musst den Betreiber unverzüglich über unbefugte Nutzung informieren. Du kannst dein Konto jederzeit in den App-Einstellungen löschen."
+        },
+        {
+          "t": "§ 3 (Bezahltes Abo)",
+          "b": "Der Dienst bietet ein Premium-Abo (Stelleaf Premium); Zahlungen werden über den App Store oder Google Play abgewickelt. Abos können sich gemäß den Richtlinien des jeweiligen Stores automatisch verlängern; Kündigungen und Erstattungen richten sich nach den Richtlinien und Verfahren des jeweiligen Stores. Der Betreiber erhebt und speichert keine Zahlungskartendaten. Das Löschen des Kontos kündigt kein Abo – kündige es direkt im Store. Die konkreten Abo-Vorteile (z. B. unbegrenztes Foto-Cloud-Backup) sind in der App beschrieben."
+        },
+        {
+          "t": "§ 4 (Eigentum an Inhalten)",
+          "b": "Die Inhalte, die du im Dienst erfasst – Bewertungen, Notizen, Fotos und mehr – gehören dir. Der Betreiber verarbeitet sie nur in dem Umfang, der zur Bereitstellung des Dienstes erforderlich ist, etwa für Backup und Synchronisierung, und nutzt sie nicht für andere Zwecke."
+        },
+        {
+          "t": "§ 5 (Pflichten der Nutzer und verbotenes Verhalten)",
+          "b": "Verboten sind Rechtsverstöße oder die Verletzung von Rechten Dritter, die Störung des Dienstes oder der unbefugte Zugriff auf Systeme sowie Reverse Engineering, Scraping oder der Missbrauch des Dienstes mit automatisierten Mitteln. Bei Verstößen kann der Betreiber die Nutzung einschränken."
+        },
+        {
+          "t": "§ 6 (Backups und Verantwortung für Daten)",
+          "b": "Wenn du die App ohne Anmeldung lokal nutzt, existieren deine Daten nur auf deinem Gerät und können bei Verlust, Defekt oder Löschen der App nicht wiederhergestellt werden. Wenn du ein Backup benötigst, empfehlen wir die Anmeldung und die Nutzung der Synchronisierung."
+        },
+        {
+          "t": "§ 7 (Änderung oder Einstellung des Dienstes)",
+          "b": "Der Betreiber kann den Dienst aus betrieblichen oder technischen Gründen ganz oder teilweise ändern oder einstellen; wesentliche Änderungen werden vorab angekündigt. Auch wenn der Dienst endet, bleiben lokale Daten auf deinem Gerät."
+        },
+        {
+          "t": "§ 8 (Haftungsbeschränkung)",
+          "b": "Der Dienst wird „wie besehen“ bereitgestellt. Soweit gesetzlich zulässig, haftet der Betreiber nicht für indirekte oder Folgeschäden aus der Nutzung des Dienstes, ausgenommen Schäden durch Vorsatz oder grobe Fahrlässigkeit des Betreibers. Deine gesetzlichen Verbraucherrechte werden durch diesen Paragrafen nicht eingeschränkt."
+        },
+        {
+          "t": "§ 9 (Änderungen dieser Bedingungen)",
+          "b": "Der Betreiber kann diese Bedingungen aktualisieren; Änderungen werden auf dieser Seite veröffentlicht, wesentliche Änderungen zusätzlich in der App angekündigt. Aktualisierte Bedingungen gelten ab Veröffentlichung; die weitere Nutzung des Dienstes gilt als Zustimmung."
+        },
+        {
+          "t": "§ 10 (Anwendbares Recht und Gerichtsstand)",
+          "b": "Diese Bedingungen unterliegen dem Recht der Republik Korea; Streitigkeiten werden vor dem nach der koreanischen Zivilprozessordnung zuständigen Gericht geführt. Zwingende Verbraucherschutzvorschriften deines Wohnsitzlandes bleiben unberührt."
+        },
+        {
+          "t": "§ 11 (Kontakt)",
+          "b": "Bei Fragen zu diesen Bedingungen wende dich an ssamoksoft@gmail.com."
+        }
       ]
     },
     "stelleaf_delete": {
       "title": "Stelleaf-Konto und Daten löschen",
-      "updated": "Zuletzt aktualisiert: 25. Juli 2026",
+      "updated": "20. September 2026",
       "applies": "Diese Seite erklärt, wie du dein Konto und deine Daten für die App „Stelleaf“ (별갈피) von SSAMOK SOFT löschst. Du kannst die Löschung per E-Mail beantragen, auch wenn du die App nicht installiert hast oder keinen Zugriff mehr darauf hast.",
       "sections": [
-        { "t": "Option 1 – In der App löschen (empfohlen, sofort)", "b": "Gehe in der Stelleaf-App zu Einstellungen → Konto löschen. Alle Serverdaten (alle Einträge, Fotodateien und das Konto selbst) werden unmittelbar und atomar gelöscht. Beim Löschen kannst du zwischen „nur Serverdaten löschen“ und „Serverdaten und Daten auf diesem Gerät löschen“ wählen." },
-        { "t": "Option 2 – Per E-Mail beantragen (ohne App)", "b": "Sende von der E-Mail-Adresse, mit der du dich registriert hast, eine Nachricht an ssamoksoft@gmail.com mit dem Betreff „Stelleaf-Konto: Löschantrag“. Nach der Identitätsprüfung wird der Antrag innerhalb von 7 Tagen bearbeitet." },
-        { "t": "Was gelöscht wird", "b": "Deine Kontodaten (E-Mail und Kennung des Anmeldeanbieters) sowie alle auf dem Server gespeicherten Einträge, Kategorien, Tags, Ranglisten, Einstellungen und Fotos werden gelöscht. Lokale Daten auf deinem Gerät bleiben erhalten oder werden gelöscht – je nach deiner Auswahl beim Löschen; das Deinstallieren der App entfernt lokale Daten ebenfalls." },
-        { "t": "Einzelne Löschungen und endgültige Vernichtung", "b": "Wenn du einzelne Einträge, Bewertungen oder Fotos löschst, werden sie zur Konsistenz der geräteübergreifenden Synchronisierung 30 Tage als gelöscht markiert (Soft Delete) aufbewahrt und danach endgültig vernichtet." },
-        { "t": "Hinweis zu Abos", "b": "Abos (Pro) sind von der Kontolöschung unabhängig. Wenn du ein aktives Abo hast, kündige es direkt im App Store oder bei Google Play – das Löschen des Kontos kündigt es nicht automatisch." },
-        { "t": "Gesetzliche Aufbewahrung", "b": "Zahlungsbezogene Aufzeichnungen, die nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften aufzubewahren sind, werden für die gesetzliche Dauer aufbewahrt und danach vernichtet." },
-        { "t": "Kontakt", "b": "Bei Fragen zur Löschung wende dich an ssamoksoft@gmail.com." }
+        {
+          "t": "Methode 1 — In der App löschen",
+          "b": "Unter Einstellungen > Konto löschen wählen Sie nur Serverdaten oder zusätzlich dieses Gerät. Fotobereinigung, RevenueCat-Anfrage und Konto-/Datenbanklöschung erfolgen nacheinander. Bei Netzwerk- oder Anbieterfehlern erneut versuchen. Gewählte Gerätedaten werden nach Serverbestätigung bereinigt."
+        },
+        {
+          "t": "Option 2 – Per E-Mail beantragen (ohne App)",
+          "b": "Sende von der E-Mail-Adresse, mit der du dich registriert hast, eine Nachricht an ssamoksoft@gmail.com mit dem Betreff „Stelleaf-Konto: Löschantrag“. Nach der Identitätsprüfung wird der Antrag innerhalb von 7 Tagen bearbeitet."
+        },
+        {
+          "t": "Was gelöscht wird",
+          "b": "Serverkonto, zugehörige Einträge, Einstellungen und Fotos werden gelöscht; die RevenueCat-Kundenlöschung wird angefordert. Gerätedaten können Sie behalten. Exporte und andere Geräte verwalten Sie getrennt. Deinstallation allein löscht keine Cloud-Daten und kündigt keine Abos. Bestätigungen und gesetzliche Aufzeichnungen folgen den unten genannten Fristen."
+        },
+        {
+          "t": "Einzelne Löschungen und endgültige Vernichtung",
+          "b": "Einzellöschung: Nach Synchronisierung entfernt die tägliche Serverbereinigung Inhalte wie Namen, Notizen, Bewertungen und Orte mehr als 30 Tage nach dem gespeicherten Löschzeitpunkt. Löschmarkierungen mit IDs, Beziehungen und Zeitangaben für die Synchronisierung werden nach 365 Tagen täglich bereinigt. Serverfotodateien werden separat bei der App-Synchronisierung entfernt; Offline-Nutzung oder Fehler können dies verzögern. Diese Fristen löschen nicht automatisch gelöschte Datensätze auf Ihrem Gerät. Löschbestätigung: Anfrage-/Nutzer-IDs und Zeitangaben zur Wiederholung werden bei der täglichen Bereinigung mehr als 30 Tage nach Abschluss entfernt. Unvollständige Anfragen bleiben zur Fortsetzung erhalten."
+        },
+        {
+          "t": "Hinweis zu Abos",
+          "b": "Abos (Stelleaf Premium) sind von der Kontolöschung unabhängig. Wenn du ein aktives Abo hast, kündige es direkt im App Store oder bei Google Play – das Löschen des Kontos kündigt es nicht automatisch."
+        },
+        {
+          "t": "Gesetzliche Aufbewahrung",
+          "b": "Zahlungsbezogene Aufzeichnungen, die nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften aufzubewahren sind, werden für die gesetzliche Dauer aufbewahrt und danach vernichtet."
+        },
+        {
+          "t": "Kontakt",
+          "b": "Bei Fragen zur Löschung wende dich an ssamoksoft@gmail.com."
+        }
       ]
     },
     "snuumo_privacy": {

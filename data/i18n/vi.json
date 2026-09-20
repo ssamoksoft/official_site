@@ -129,23 +129,120 @@
     },
     "stelleaf_privacy": {
       "title": "Chính sách quyền riêng tư của Stelleaf",
-      "updated": "Ngày có hiệu lực: 10 tháng 9 năm 2026",
-      "applies": "Chính sách này áp dụng cho ứng dụng di động “Stelleaf” (별갈피) do hộ kinh doanh SSAMOK SOFT (“Nhà vận hành”) cung cấp. Stelleaf là ứng dụng ưu tiên lưu trữ cục bộ: nếu bạn không đăng nhập, toàn bộ dữ liệu của bạn chỉ nằm trên thiết bị và không bao giờ được gửi đến máy chủ.",
+      "updated": "20 tháng 9 năm 2026",
+      "applies": "Stelleaf của SSAMOK SOFT ưu tiên lưu bản ghi và ảnh trên thiết bị.",
       "sections": [
-        { "t": "1. Thông tin bên kiểm soát dữ liệu", "b": "Hộ kinh doanh sau đây xử lý dữ liệu cá nhân với vai trò bên kiểm soát dữ liệu (theo nghĩa của GDPR).", "l": [ "Tên cơ sở: SSAMOK SOFT", "Chủ cơ sở: Dae-hoon Kang", "Phụ trách quyền riêng tư: Dae-hoon Kang", "Liên hệ: ssamoksoft@gmail.com" ] },
-        { "t": "2. Thiết kế ưu tiên cục bộ", "b": "Nếu bạn dùng ứng dụng mà không đăng nhập, toàn bộ dữ liệu gồm cả bản ghi và ảnh chỉ được lưu trên thiết bị của bạn và không có gì được gửi đến máy chủ. Việc đăng nhập là tùy chọn, và sao lưu cùng đồng bộ giữa các thiết bị chỉ hoạt động khi bạn đã đăng nhập." },
-        { "t": "3. Dữ liệu chúng tôi thu thập", "b": "Chỉ khi bạn đăng nhập để dùng sao lưu và đồng bộ, các dữ liệu sau mới được lưu trên máy chủ của chúng tôi (Supabase, vùng Seoul, Hàn Quốc).", "l": [ "Tài khoản: địa chỉ email, ID người dùng nội bộ và định danh nhà cung cấp đăng nhập — bạn chọn một trong email+mật khẩu, đăng nhập Google hoặc đăng nhập Apple (hạ tầng xác thực: Supabase Auth)", "Nội dung: danh mục, hạng mục (tên, ghi chú, mã vạch sản phẩm và tọa độ địa điểm mà chính bạn xác nhận bằng cách ghim trên bản đồ), bản ghi đánh giá (số sao, ghi chú, ngày, điểm chi tiết, thẻ tình huống), thẻ hạng mục, bảng xếp hạng, thiết lập phân tích sở thích, ảnh, cùng thời điểm tạo và sửa của từng dữ liệu", "Thanh toán: ID người dùng ứng dụng ở dạng bút danh, biên nhận mua hàng và thông tin thiết bị (do RevenueCat xử lý) — chúng tôi không bao giờ nhận thông tin thẻ thanh toán", "Bản đồ: ngay khi bạn mở khung bản đồ, SDK Naver Maps (Hàn Quốc) hoặc SDK Google Maps (các khu vực khác) gửi định danh thiết bị và vị trí gần đúng tới Naver/Google. Quyền vị trí chỉ dùng cho chức năng “đến vị trí của tôi”", "Tìm kiếm: chỉ từ khóa tìm kiếm, tọa độ, mã vạch hoặc ISBN được truyền đi. Tìm kiếm địa điểm (Naver Cloud), tìm kiếm sách (Kakao) và tra mã vạch thực phẩm (Bộ An toàn Thực phẩm và Dược phẩm Hàn Quốc) đi qua proxy máy chủ của Nhà vận hành, và các yêu cầu không chứa thông tin nhận dạng cá nhân. Các cơ sở dữ liệu công khai (Open Food Facts / Open Beauty Facts, OpenLibrary) được ứng dụng gọi trực tiếp và chỉ gửi mã vạch hoặc ISBN" ] },
-        { "t": "4. Ảnh và dữ liệu vị trí", "b": "Ảnh được mã hóa lại trên thiết bị của bạn ngay khi được đính kèm, và chỉ bản sao đã loại bỏ siêu dữ liệu EXIF (bao gồm GPS) được lưu và tải lên. GPS của ảnh gốc chỉ được đọc trong khoảnh khắc trên thiết bị để gợi ý địa điểm, và không bao giờ được lưu hay truyền đi. Tọa độ duy nhất được lưu trên máy chủ là tọa độ bạn đã xác nhận rõ ràng trên bản đồ. Sao lưu ảnh lên đám mây giới hạn 200 ảnh với gói miễn phí và không giới hạn với Pro; lưu trữ cục bộ không giới hạn ở cả hai." },
-        { "t": "5. Mục đích và căn cứ pháp lý", "b": "Mục đích và căn cứ pháp lý (Điều 6 GDPR) của từng hoạt động xử lý:", "l": [ "Quản lý tài khoản, sao lưu và đồng bộ giữa các thiết bị — thực hiện hợp đồng (GDPR 6(1)(b))", "Thanh toán và quản lý gói đăng ký trả phí — thực hiện hợp đồng (GDPR 6(1)(b))", "Tuân thủ nghĩa vụ pháp lý (ví dụ lưu giữ chứng từ thanh toán) — nghĩa vụ pháp lý (GDPR 6(1)(c))", "Hiện không có hoạt động xử lý nào dựa trên sự đồng ý riêng" ] },
-        { "t": "6. Bên xử lý và bên nhận dữ liệu", "b": "Để cung cấp dịch vụ, chúng tôi sử dụng các bên xử lý và bên nhận sau.", "l": [ "Supabase — cơ sở dữ liệu, xác thực, lưu trữ tệp và hàm máy chủ (Seoul, Hàn Quốc; vùng AWS ap-northeast-2)", "Naver Cloud — bản đồ và tìm kiếm địa điểm (Hàn Quốc)", "Kakao — tìm kiếm sách theo ISBN/tên (Hàn Quốc, qua proxy máy chủ)", "Bộ An toàn Thực phẩm và Dược phẩm Hàn Quốc — tra mã vạch thực phẩm (Hàn Quốc, qua proxy máy chủ)", "RevenueCat — quản lý gói đăng ký (Hoa Kỳ)", "Apple — đăng nhập và thanh toán (Hoa Kỳ)", "Google — đăng nhập, thanh toán và bản đồ (Hoa Kỳ)", "Open Food Facts / Open Beauty Facts, OpenLibrary — cơ sở dữ liệu công khai (chỉ gửi mã vạch hoặc ISBN; không có dữ liệu cá nhân)" ] },
-        { "t": "7. Chuyển dữ liệu ra nước ngoài", "b": "Kho dữ liệu chính (Supabase) đặt tại vùng Seoul, Hàn Quốc, nên bản ghi, ảnh và dữ liệu tài khoản của bạn được lưu trong nước và không chuyển ra nước ngoài. Việc chuyển dữ liệu ra nước ngoài chỉ xảy ra với các bên xử lý tại Hoa Kỳ dưới đây, dựa trên việc chuyển dữ liệu cần thiết để thực hiện hợp đồng và được công bố trong chính sách này (Điều 28-8 Luật Bảo vệ Thông tin Cá nhân Hàn Quốc). Theo GDPR, việc chuyển từ EEA sang Hàn Quốc dựa trên quyết định về mức bảo vệ tương xứng của EU đối với Hàn Quốc; việc chuyển sang Hoa Kỳ dựa trên chứng nhận EU-US Data Privacy Framework (DPF) đối với Google, và dựa trên hợp đồng xử lý dữ liệu có Điều khoản Hợp đồng Chuẩn (SCC) đối với Apple và RevenueCat.", "l": [ "RevenueCat (Hoa Kỳ) — dữ liệu: ID người dùng ứng dụng dạng bút danh, biên nhận mua hàng, thông tin thiết bị / mục đích: quản lý trạng thái gói đăng ký / thời hạn: trong thời gian cần thiết để quản lý gói đăng ký", "Apple (Hoa Kỳ) — dữ liệu: định danh đăng nhập, dữ liệu xử lý thanh toán / mục đích: đăng nhập Apple và mua hàng trong ứng dụng / thời hạn: theo chính sách của Apple", "Google (Hoa Kỳ) — dữ liệu: định danh đăng nhập, dữ liệu xử lý thanh toán, cùng định danh thiết bị và vị trí gần đúng khi dùng bản đồ / mục đích: đăng nhập Google, thanh toán và bản đồ / thời hạn: theo chính sách của Google" ] },
-        { "t": "8. Lưu giữ và xóa", "b": "Chúng tôi lưu giữ và xóa dữ liệu cá nhân như sau.", "l": [ "Tài khoản và dữ liệu trên máy chủ: khi bạn xóa tài khoản, toàn bộ dữ liệu trên máy chủ (tất cả bản ghi, tệp ảnh và chính tài khoản) được xóa ngay lập tức và theo nguyên tắc nguyên tử", "Xóa từng hạng mục, bản ghi hoặc ảnh: để giữ tính nhất quán khi đồng bộ giữa các thiết bị, dữ liệu đã xóa được giữ ở trạng thái đánh dấu xóa (soft delete) trong 30 ngày rồi bị xóa vĩnh viễn", "Lưu giữ theo luật: theo luật thương mại điện tử Hàn Quốc và các quy định liên quan, hồ sơ hợp đồng và rút lui được giữ 5 năm, hồ sơ thanh toán và cung cấp 5 năm, hồ sơ khiếu nại và tranh chấp của người tiêu dùng 3 năm, sau đó bị tiêu hủy" ] },
-        { "t": "9. Quyền của bạn", "b": "Bạn có thể thực hiện quyền truy cập, chỉnh sửa, xóa, hạn chế xử lý và chuyển dữ liệu. Quyền chuyển dữ liệu có thể thực hiện ngay trong ứng dụng — Cài đặt > Dữ liệu > Xuất bản ghi sẽ tải toàn bộ bản ghi và ảnh của bạn thành một tệp ZIP duy nhất, và ứng dụng cũng có thể khôi phục từ chính tệp đó. Với các yêu cầu khác, hãy gửi email tới ssamoksoft@gmail.com; chúng tôi phản hồi trong vòng một tháng kể từ khi nhận (GDPR Điều 12(3)). Nếu yêu cầu phức tạp, chúng tôi có thể gia hạn thêm hai tháng và sẽ thông báo lý do trong tháng đầu tiên. Người dùng tại EEA và Vương quốc Anh cũng có thể thực hiện quyền của mình qua đại diện nêu ở mục 10.", "l": [ "Tệp xuất chứa: danh mục, mục, bản ghi đánh giá, thẻ, bảng xếp hạng, cài đặt phân tích sở thích, ảnh, cùng thời điểm tạo và cập nhật của từng dữ liệu", "Tệp cũng chứa những bản ghi đã đánh dấu xóa nhưng chưa bị hủy hoàn toàn (trong vòng 30 ngày kể từ khi xóa)", "Tệp xuất khi đang đăng nhập sẽ ghi lại mã định danh tài khoản (UUID) của bạn", "Tệp xuất không được mã hóa — hãy cẩn thận không chia sẻ cho người khác", "Khiếu nại: cư dân EU có thể khiếu nại tới cơ quan giám sát quốc gia mình; tại Hàn Quốc là Privacy Infringement Report Centre (privacy.kr, 118)" ] },
-        { "t": "10. Đại diện tại EU và Vương quốc Anh", "b": "Đối với người dùng tại EU/EEA và Vương quốc Anh, chúng tôi đã chỉ định đại diện theo Điều 27 GDPR của EU và Điều 27 GDPR của Vương quốc Anh. Đại diện tại EU: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Đại diện tại Vương quốc Anh: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Bạn có thể liên hệ với đại diện của chúng tôi và thực hiện các quyền của mình qua https://app.prighter.com/portal/19708232400." },
-        { "t": "11. Trẻ em", "b": "Stelleaf chỉ dành cho người từ 14 tuổi trở lên (ở một số quốc gia EU là độ tuổi đồng ý áp dụng, tối đa 16 tuổi). Chúng tôi không cố ý thu thập dữ liệu cá nhân của trẻ dưới các độ tuổi này và sẽ xóa ngay nếu phát hiện." },
-        { "t": "12. Những điều chúng tôi không làm", "b": "Stelleaf không làm bất kỳ điều nào sau đây.", "l": [ "Không có quảng cáo và không thu thập định danh quảng cáo", "Không bán dữ liệu cá nhân", "Không lập hồ sơ hay ra quyết định tự động", "Không gửi thông điệp tiếp thị", "Không cố ý thu thập dữ liệu của trẻ dưới 14 tuổi" ] },
-        { "t": "13. Bảo mật", "b": "Chúng tôi áp dụng các biện pháp bảo vệ hợp lý gồm mã hóa khi truyền (HTTPS/TLS), kiểm soát truy cập và quyền tối thiểu, lưu trữ tại vùng trong nước (Seoul) và tối giản dữ liệu. Khóa API tìm kiếm chỉ nằm trên máy chủ và không bao giờ để lộ cho phía máy khách." },
-        { "t": "14. Thay đổi chính sách này", "b": "Nếu chính sách này thay đổi, chúng tôi sẽ đăng bản cập nhật trên trang này, và những thay đổi quan trọng cũng sẽ được thông báo trong ứng dụng. Chính sách sửa đổi có hiệu lực kể từ khi được đăng." }
+        {
+          "t": "1. Thông tin bên kiểm soát dữ liệu",
+          "b": "Hộ kinh doanh sau đây xử lý dữ liệu cá nhân với vai trò bên kiểm soát dữ liệu (theo nghĩa của GDPR).",
+          "l": [
+            "Tên cơ sở: SSAMOK SOFT",
+            "Chủ cơ sở: Dae-hoon Kang",
+            "Phụ trách quyền riêng tư: Dae-hoon Kang",
+            "Liên hệ: ssamoksoft@gmail.com"
+          ]
+        },
+        {
+          "t": "2. Thiết kế ưu tiên cục bộ",
+          "b": "Stelleaf của SSAMOK SOFT ưu tiên lưu bản ghi và ảnh trên thiết bị. Đăng nhập, sao lưu đám mây và đồng bộ là tùy chọn. Bản đồ, tìm kiếm, ảnh bìa và kiểm tra thuê bao vẫn có thể liên hệ dịch vụ bên ngoài trước khi đăng nhập. Ưu tiên cục bộ không có nghĩa là không truyền thông tin ra ngoài."
+        },
+        {
+          "t": "3. Dữ liệu chúng tôi thu thập",
+          "b": "Chúng tôi xử lý dữ liệu sau tùy theo tính năng sử dụng. Dữ liệu sao lưu và đồng bộ của tài khoản đăng nhập được lưu chủ yếu tại vùng Seoul, Hàn Quốc của Supabase.",
+          "l": [
+            "Tài khoản: địa chỉ email, ID người dùng nội bộ và định danh nhà cung cấp đăng nhập — bạn chọn một trong email+mật khẩu, đăng nhập Google hoặc đăng nhập Apple (hạ tầng xác thực: Supabase Auth)",
+            "Nội dung: danh mục, tên, ghi chú, mã vạch, tọa độ đã chọn, đánh giá, ngày, điểm chi tiết, thẻ bối cảnh, thẻ, bảng xếp hạng, thiết lập phân tích, ảnh và thời gian tạo/sửa",
+            "Thuê bao: RevenueCat nhận ID ứng dụng ẩn danh ngẫu nhiên trước đăng nhập, ID người dùng nội bộ sau đăng nhập, cùng trạng thái thuê bao, biên nhận hoặc mã mua hàng và thông tin ứng dụng/thiết bị. Chúng tôi không nhận số thẻ thanh toán.",
+            "Bản đồ: ưu tiên Naver tại Hàn Quốc; dùng Google Maps ở nơi khác hoặc khi Naver không khả dụng. Có thể xử lý yêu cầu bản đồ, vùng hiển thị, IP và dữ liệu thiết bị của SDK. Vị trí hiện tại chỉ được truy vấn khi bạn cấp quyền và sử dụng tính năng đó.",
+            "Tìm kiếm/ảnh: từ khóa, tọa độ, mã vạch, ISBN. Tìm địa điểm Naver, sách Kakao và thực phẩm MFDS đi qua hàm Supabase. Ứng dụng có thể kết nối trực tiếp Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh, đồng thời truyền IP và dữ liệu kỹ thuật. Yêu cầu máy chủ khi đăng nhập có thông tin xác thực; máy chủ tìm kiếm trung gian không chuyển thông tin này cho bên cung cấp tìm kiếm."
+          ]
+        },
+        {
+          "t": "4. Ảnh và dữ liệu vị trí",
+          "b": "Ảnh đính kèm được mã hóa lại trên thiết bị; lưu và sao lưu bản sao đã bỏ EXIF, kể cả GPS. Trên thiết bị hỗ trợ, GPS gốc có thể tạm dùng để gợi ý địa điểm. Chỉ tọa độ bạn chọn từ gợi ý hoặc xác nhận trên bản đồ mới được lưu. Tài khoản miễn phí có tối đa 200 ảnh đám mây; Stelleaf Premium không giới hạn số ảnh. Ứng dụng không giới hạn số ảnh cục bộ."
+        },
+        {
+          "t": "5. Mục đích và căn cứ pháp lý",
+          "b": "Mục đích và căn cứ pháp lý (Điều 6 GDPR) của từng hoạt động xử lý:",
+          "l": [
+            "Quản lý tài khoản, sao lưu và đồng bộ giữa các thiết bị — thực hiện hợp đồng (GDPR 6(1)(b))",
+            "Thanh toán và quản lý gói đăng ký trả phí — thực hiện hợp đồng (GDPR 6(1)(b))",
+            "Tuân thủ nghĩa vụ pháp lý (ví dụ lưu giữ chứng từ thanh toán) — nghĩa vụ pháp lý (GDPR 6(1)(c))",
+            "Hiện không có hoạt động xử lý nào dựa trên sự đồng ý riêng"
+          ]
+        },
+        {
+          "t": "6. Bên xử lý và bên nhận dữ liệu",
+          "b": "Để cung cấp dịch vụ, chúng tôi sử dụng các bên xử lý và bên nhận sau.",
+          "l": [
+            "Supabase — kho chính cho tài khoản, cơ sở dữ liệu và ảnh ở Seoul; các hàm tìm kiếm, xóa, kiểm tra thuê bao có thể chạy tại vùng toàn cầu gần người yêu cầu",
+            "Naver Cloud — bản đồ và tìm kiếm địa điểm (Hàn Quốc)",
+            "Kakao — tìm sách và gửi thư xác nhận/khôi phục qua Daum SMTP, xử lý địa chỉ nhận và nội dung gồm liên kết xác minh (Hàn Quốc)",
+            "Bộ An toàn Thực phẩm và Dược phẩm Hàn Quốc — tra mã vạch thực phẩm (Hàn Quốc, qua proxy máy chủ)",
+            "RevenueCat — quản lý gói đăng ký (Hoa Kỳ)",
+            "Apple — đăng nhập và thanh toán (Hoa Kỳ)",
+            "Google — đăng nhập, thanh toán và bản đồ (Hoa Kỳ)",
+            "Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh — yêu cầu mã vạch, ISBN, ảnh cùng dữ liệu kết nối như IP"
+          ]
+        },
+        {
+          "t": "7. Chuyển dữ liệu ra nước ngoài",
+          "b": "Kho dữ liệu chính ở Seoul không giới hạn mọi xử lý trong Hàn Quốc. Các tính năng trực tuyến dưới đây truyền thông tin cần thiết qua kết nối được mã hóa. Việc xử lý quốc tế áp dụng điều khoản xử lý của nhà cung cấp và biện pháp bảo vệ chuyển dữ liệu phù hợp. Bạn có thể ngừng tính năng liên quan hoặc liên hệ ssamoksoft@gmail.com để phản đối; khi đó tính năng có thể không sử dụng được.",
+          "l": [
+            "Supabase (pháp nhân Singapore): xác thực, tìm kiếm, ID dùng để xóa/kiểm tra thuê bao. Hàm có thể chạy ngoài Seoul; vùng và bên xử lý phụ tại liên kết dưới. Thời hạn tài khoản: mục 8; nhật ký vận hành: điều khoản nhà cung cấp. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
+            "RevenueCat (Hoa Kỳ): ID ẩn danh/tài khoản, giao dịch và thiết bị để quản lý thuê bao. Khi xóa tài khoản, chúng tôi yêu cầu xóa khách hàng liên kết; nhà cung cấp xử lý bất đồng bộ. https://www.revenuecat.com/privacy",
+            "Apple và Google (Hoa Kỳ và cơ sở toàn cầu): định danh/giao dịch của cách đăng nhập, thanh toán đã chọn; yêu cầu bản đồ, IP, thiết bị cho Google Maps, trong thời gian cần cho dịch vụ và nghĩa vụ pháp luật. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh: mã vạch, ISBN, địa chỉ ảnh và IP gửi trực tiếp đến máy chủ nước ngoài để tìm kiếm, phân phối nội dung và ghi nhật ký vận hành. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
+          ]
+        },
+        {
+          "t": "8. Lưu giữ và xóa",
+          "b": "Chúng tôi lưu giữ và xóa dữ liệu cá nhân như sau.",
+          "l": [
+            "Xóa tài khoản: dọn ảnh máy chủ, yêu cầu RevenueCat xóa khách hàng liên kết, rồi xóa tài khoản và bản ghi cơ sở dữ liệu. Đây là các bước tuần tự qua nhiều hệ thống, không phải một lần xóa nguyên tử. Lỗi cần thử lại. Ứng dụng chỉ dọn dữ liệu thiết bị đã chọn sau khi máy chủ xác nhận. RevenueCat xử lý bất đồng bộ; thuê bao cửa hàng và hồ sơ giao dịch theo luật là riêng biệt.",
+            "Xóa từng mục: sau đồng bộ, tác vụ hằng ngày xóa nội dung (tên, ghi chú, điểm, vị trí) quá 30 ngày kể từ thời điểm xóa ghi trên máy chủ. Các hàng đánh dấu còn giữ ID, liên kết và thời gian phục vụ đồng bộ được dọn hằng ngày sau 365 ngày. Tệp ảnh máy chủ được dọn riêng khi ứng dụng đồng bộ; ngoại tuyến hoặc lỗi có thể làm chậm. Những mốc này không tự động xóa bản ghi đã xóa còn trên thiết bị.",
+            "Xác nhận xóa: ID yêu cầu/người dùng và thời gian để xử lý phản hồi thất lạc hoặc thử lại được dọn hằng ngày khi quá 30 ngày từ lúc hoàn tất. Yêu cầu chưa xong được giữ để tiếp tục.",
+            "Lưu giữ theo luật: theo luật thương mại điện tử Hàn Quốc và các quy định liên quan, hồ sơ hợp đồng và rút lui được giữ 5 năm, hồ sơ thanh toán và cung cấp 5 năm, hồ sơ khiếu nại và tranh chấp của người tiêu dùng 3 năm, sau đó bị tiêu hủy"
+          ]
+        },
+        {
+          "t": "9. Quyền của bạn",
+          "b": "Bạn có thể yêu cầu truy cập, sửa, xóa, hạn chế xử lý và chuyển dữ liệu. Cài đặt > Dữ liệu > Xuất bản ghi tạo ZIP với bản ghi và ảnh thực có trên thiết bị này; không tải toàn bộ ảnh chỉ ở đám mây hay thiết bị khác. Liên hệ ssamoksoft@gmail.com. Thường trả lời trong một tháng; yêu cầu phức tạp có thể gia hạn hai tháng và báo lý do trong tháng đầu (GDPR Điều 12(3)). Người dùng EU/Anh cũng có thể liên hệ đại diện tại mục 10.",
+          "l": [
+            "Gồm danh mục, mục, đánh giá, thẻ, bảng, thiết lập phân tích, thời gian cục bộ và tệp ảnh chưa xóa thực có trên thiết bị.",
+            "Tệp cũng chứa những bản ghi đã đánh dấu xóa nhưng chưa bị hủy hoàn toàn — bản xuất đọc dữ liệu lưu trên thiết bị này, nên một bản ghi đã bị xóa nội dung trên máy chủ vẫn có thể được đưa vào nếu còn nằm trên thiết bị này",
+            "Tệp xuất khi đang đăng nhập sẽ ghi lại mã định danh tài khoản (UUID) của bạn",
+            "Tệp xuất không được mã hóa — hãy cẩn thận không chia sẻ cho người khác",
+            "Khiếu nại: cư dân EU có thể khiếu nại tới cơ quan giám sát quốc gia mình; tại Hàn Quốc là Privacy Infringement Report Centre (privacy.kr, 118)"
+          ]
+        },
+        {
+          "t": "10. Đại diện tại EU và Vương quốc Anh",
+          "b": "Đối với người dùng tại EU/EEA và Vương quốc Anh, chúng tôi đã chỉ định đại diện theo Điều 27 GDPR của EU và Điều 27 GDPR của Vương quốc Anh. Đại diện tại EU: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Đại diện tại Vương quốc Anh: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Bạn có thể liên hệ với đại diện của chúng tôi và thực hiện các quyền của mình qua https://app.prighter.com/portal/19708232400."
+        },
+        {
+          "t": "11. Trẻ em",
+          "b": "Stelleaf chỉ dành cho người từ 14 tuổi trở lên (ở một số quốc gia EU là độ tuổi đồng ý áp dụng, tối đa 16 tuổi). Chúng tôi không cố ý thu thập dữ liệu cá nhân của trẻ dưới các độ tuổi này và sẽ xóa ngay nếu phát hiện."
+        },
+        {
+          "t": "12. Những điều chúng tôi không làm",
+          "b": "Stelleaf không làm bất kỳ điều nào sau đây.",
+          "l": [
+            "Không có quảng cáo và không thu thập định danh quảng cáo",
+            "Không bán dữ liệu cá nhân",
+            "Lập hồ sơ quảng cáo hoặc quyết định tự động có tác động pháp lý hay đáng kể tương đương; thống kê sở thích cá nhân được tính trên thiết bị",
+            "Không gửi thông điệp tiếp thị",
+            "Không cố ý thu thập dữ liệu của trẻ dưới 14 tuổi"
+          ]
+        },
+        {
+          "t": "13. Bảo mật",
+          "b": "Áp dụng HTTPS/TLS, truy cập theo tài khoản, quyền tối thiểu và kho ảnh riêng tư. Khóa bí mật tìm kiếm/quản trị ở máy chủ. Khóa công khai bản đồ dùng cơ chế bảo vệ của nhà cung cấp như giới hạn ứng dụng."
+        },
+        {
+          "t": "14. Thay đổi chính sách này",
+          "b": "Nếu chính sách này thay đổi, chúng tôi sẽ đăng bản cập nhật trên trang này, và những thay đổi quan trọng cũng sẽ được thông báo trong ứng dụng. Chính sách sửa đổi có hiệu lực kể từ khi được đăng."
+        }
       ]
     },
     "stelleaf_terms": {
@@ -153,31 +250,85 @@
       "updated": "Ngày có hiệu lực: 25 tháng 7 năm 2026",
       "applies": "Các điều khoản này điều chỉnh việc bạn sử dụng ứng dụng di động “Stelleaf” (별갈피, “Dịch vụ”) do hộ kinh doanh SSAMOK SOFT (“Nhà vận hành”) cung cấp. Bằng việc sử dụng Dịch vụ, bạn đồng ý với các điều khoản này.",
       "sections": [
-        { "t": "Điều 1 (Dịch vụ)", "b": "Stelleaf là dịch vụ lưu trữ cá nhân để ghi lại nhà hàng, sách, sản phẩm và nhiều thứ khác bằng đánh giá sao và ghi chú. Dịch vụ ưu tiên cục bộ: bạn có thể dùng các tính năng chính mà không cần đăng nhập, còn sao lưu và đồng bộ giữa các thiết bị chỉ có khi đã đăng nhập. Nhà vận hành có thể cải tiến hoặc thay đổi các tính năng của Dịch vụ theo thời gian." },
-        { "t": "Điều 2 (Tài khoản và yêu cầu độ tuổi)", "b": "Dịch vụ chỉ dành cho người từ 14 tuổi trở lên; người dùng ở một số quốc gia EU phải đạt độ tuổi đồng ý số của quốc gia mình (tối đa 16 tuổi). Bạn có thể đăng nhập bằng email+mật khẩu, Google hoặc Apple. Bạn chịu trách nhiệm về hoạt động và bảo mật tài khoản của mình và phải thông báo ngay cho Nhà vận hành khi phát hiện việc sử dụng trái phép. Bạn có thể xóa tài khoản bất cứ lúc nào trong phần cài đặt của ứng dụng." },
-        { "t": "Điều 3 (Gói đăng ký trả phí)", "b": "Dịch vụ cung cấp gói đăng ký cao cấp (Pro); thanh toán được xử lý qua App Store hoặc Google Play. Gói đăng ký có thể tự động gia hạn theo chính sách của từng cửa hàng, và việc hủy cùng hoàn tiền tuân theo chính sách và quy trình của từng cửa hàng. Nhà vận hành không thu thập hoặc lưu trữ thông tin thẻ thanh toán. Xóa tài khoản không hủy gói đăng ký — hãy hủy trực tiếp tại cửa hàng. Các quyền lợi cụ thể của gói đăng ký (ví dụ sao lưu ảnh không giới hạn) được nêu trong ứng dụng." },
-        { "t": "Điều 4 (Quyền sở hữu nội dung)", "b": "Nội dung bạn ghi lại trong Dịch vụ — đánh giá, ghi chú, ảnh và các nội dung khác — thuộc về bạn. Nhà vận hành chỉ xử lý nội dung đó trong phạm vi cần thiết để cung cấp Dịch vụ, như sao lưu và đồng bộ, và không dùng cho bất kỳ mục đích nào khác." },
-        { "t": "Điều 5 (Nghĩa vụ của người dùng và hành vi bị cấm)", "b": "Nghiêm cấm vi phạm pháp luật hoặc xâm phạm quyền của người khác, gây rối Dịch vụ hoặc truy cập hệ thống trái phép, cũng như dịch ngược, thu thập dữ liệu tự động hoặc lạm dụng Dịch vụ bằng phương tiện tự động. Khi có vi phạm, Nhà vận hành có thể hạn chế việc sử dụng." },
-        { "t": "Điều 6 (Sao lưu và trách nhiệm về dữ liệu)", "b": "Nếu bạn dùng ứng dụng cục bộ mà không đăng nhập, dữ liệu của bạn chỉ tồn tại trên thiết bị nên không thể phục hồi nếu thiết bị bị mất, hỏng hoặc bạn xóa ứng dụng. Nếu cần sao lưu, chúng tôi khuyến nghị đăng nhập và dùng tính năng đồng bộ." },
-        { "t": "Điều 7 (Thay đổi hoặc ngừng Dịch vụ)", "b": "Nhà vận hành có thể thay đổi hoặc ngừng toàn bộ hay một phần Dịch vụ vì lý do vận hành hoặc kỹ thuật, và sẽ thông báo trước với các thay đổi quan trọng. Ngay cả khi Dịch vụ kết thúc, dữ liệu cục bộ vẫn còn trên thiết bị của bạn." },
-        { "t": "Điều 8 (Giới hạn trách nhiệm)", "b": "Dịch vụ được cung cấp “nguyên trạng”. Trong phạm vi pháp luật cho phép, Nhà vận hành không chịu trách nhiệm về thiệt hại gián tiếp hoặc phát sinh từ việc sử dụng Dịch vụ, trừ thiệt hại do lỗi cố ý hoặc sơ suất nghiêm trọng của Nhà vận hành. Các quyền của người tiêu dùng theo luật không bị giới hạn bởi điều này." },
-        { "t": "Điều 9 (Thay đổi điều khoản)", "b": "Nhà vận hành có thể cập nhật các điều khoản này; thay đổi sẽ được đăng trên trang này và những thay đổi quan trọng cũng được thông báo trong ứng dụng. Điều khoản cập nhật có hiệu lực khi được đăng, và việc tiếp tục sử dụng Dịch vụ được xem là chấp nhận." },
-        { "t": "Điều 10 (Luật áp dụng và thẩm quyền)", "b": "Các điều khoản này được điều chỉnh bởi pháp luật Đại Hàn Dân Quốc, và tranh chấp được đưa ra tòa án có thẩm quyền theo luật tố tụng dân sự Hàn Quốc. Các quy định bảo vệ người tiêu dùng mang tính bắt buộc của quốc gia bạn cư trú không bị ảnh hưởng." },
-        { "t": "Điều 11 (Liên hệ)", "b": "Nếu có câu hỏi về các điều khoản này, hãy liên hệ ssamoksoft@gmail.com." }
+        {
+          "t": "Điều 1 (Dịch vụ)",
+          "b": "Stelleaf là dịch vụ lưu trữ cá nhân để ghi lại nhà hàng, sách, sản phẩm và nhiều thứ khác bằng đánh giá sao và ghi chú. Dịch vụ ưu tiên cục bộ: bạn có thể dùng các tính năng chính mà không cần đăng nhập, còn sao lưu và đồng bộ giữa các thiết bị chỉ có khi đã đăng nhập. Nhà vận hành có thể cải tiến hoặc thay đổi các tính năng của Dịch vụ theo thời gian."
+        },
+        {
+          "t": "Điều 2 (Tài khoản và yêu cầu độ tuổi)",
+          "b": "Dịch vụ chỉ dành cho người từ 14 tuổi trở lên; người dùng ở một số quốc gia EU phải đạt độ tuổi đồng ý số của quốc gia mình (tối đa 16 tuổi). Bạn có thể đăng nhập bằng email+mật khẩu, Google hoặc Apple. Bạn chịu trách nhiệm về hoạt động và bảo mật tài khoản của mình và phải thông báo ngay cho Nhà vận hành khi phát hiện việc sử dụng trái phép. Bạn có thể xóa tài khoản bất cứ lúc nào trong phần cài đặt của ứng dụng."
+        },
+        {
+          "t": "Điều 3 (Gói đăng ký trả phí)",
+          "b": "Dịch vụ cung cấp gói đăng ký cao cấp (Stelleaf Premium); thanh toán được xử lý qua App Store hoặc Google Play. Gói đăng ký có thể tự động gia hạn theo chính sách của từng cửa hàng, và việc hủy cùng hoàn tiền tuân theo chính sách và quy trình của từng cửa hàng. Nhà vận hành không thu thập hoặc lưu trữ thông tin thẻ thanh toán. Xóa tài khoản không hủy gói đăng ký — hãy hủy trực tiếp tại cửa hàng. Các quyền lợi cụ thể của gói đăng ký (ví dụ sao lưu ảnh không giới hạn) được nêu trong ứng dụng."
+        },
+        {
+          "t": "Điều 4 (Quyền sở hữu nội dung)",
+          "b": "Nội dung bạn ghi lại trong Dịch vụ — đánh giá, ghi chú, ảnh và các nội dung khác — thuộc về bạn. Nhà vận hành chỉ xử lý nội dung đó trong phạm vi cần thiết để cung cấp Dịch vụ, như sao lưu và đồng bộ, và không dùng cho bất kỳ mục đích nào khác."
+        },
+        {
+          "t": "Điều 5 (Nghĩa vụ của người dùng và hành vi bị cấm)",
+          "b": "Nghiêm cấm vi phạm pháp luật hoặc xâm phạm quyền của người khác, gây rối Dịch vụ hoặc truy cập hệ thống trái phép, cũng như dịch ngược, thu thập dữ liệu tự động hoặc lạm dụng Dịch vụ bằng phương tiện tự động. Khi có vi phạm, Nhà vận hành có thể hạn chế việc sử dụng."
+        },
+        {
+          "t": "Điều 6 (Sao lưu và trách nhiệm về dữ liệu)",
+          "b": "Nếu bạn dùng ứng dụng cục bộ mà không đăng nhập, dữ liệu của bạn chỉ tồn tại trên thiết bị nên không thể phục hồi nếu thiết bị bị mất, hỏng hoặc bạn xóa ứng dụng. Nếu cần sao lưu, chúng tôi khuyến nghị đăng nhập và dùng tính năng đồng bộ."
+        },
+        {
+          "t": "Điều 7 (Thay đổi hoặc ngừng Dịch vụ)",
+          "b": "Nhà vận hành có thể thay đổi hoặc ngừng toàn bộ hay một phần Dịch vụ vì lý do vận hành hoặc kỹ thuật, và sẽ thông báo trước với các thay đổi quan trọng. Ngay cả khi Dịch vụ kết thúc, dữ liệu cục bộ vẫn còn trên thiết bị của bạn."
+        },
+        {
+          "t": "Điều 8 (Giới hạn trách nhiệm)",
+          "b": "Dịch vụ được cung cấp “nguyên trạng”. Trong phạm vi pháp luật cho phép, Nhà vận hành không chịu trách nhiệm về thiệt hại gián tiếp hoặc phát sinh từ việc sử dụng Dịch vụ, trừ thiệt hại do lỗi cố ý hoặc sơ suất nghiêm trọng của Nhà vận hành. Các quyền của người tiêu dùng theo luật không bị giới hạn bởi điều này."
+        },
+        {
+          "t": "Điều 9 (Thay đổi điều khoản)",
+          "b": "Nhà vận hành có thể cập nhật các điều khoản này; thay đổi sẽ được đăng trên trang này và những thay đổi quan trọng cũng được thông báo trong ứng dụng. Điều khoản cập nhật có hiệu lực khi được đăng, và việc tiếp tục sử dụng Dịch vụ được xem là chấp nhận."
+        },
+        {
+          "t": "Điều 10 (Luật áp dụng và thẩm quyền)",
+          "b": "Các điều khoản này được điều chỉnh bởi pháp luật Đại Hàn Dân Quốc, và tranh chấp được đưa ra tòa án có thẩm quyền theo luật tố tụng dân sự Hàn Quốc. Các quy định bảo vệ người tiêu dùng mang tính bắt buộc của quốc gia bạn cư trú không bị ảnh hưởng."
+        },
+        {
+          "t": "Điều 11 (Liên hệ)",
+          "b": "Nếu có câu hỏi về các điều khoản này, hãy liên hệ ssamoksoft@gmail.com."
+        }
       ]
     },
     "stelleaf_delete": {
       "title": "Xóa tài khoản và dữ liệu Stelleaf của bạn",
-      "updated": "Cập nhật lần cuối: 25 tháng 7 năm 2026",
+      "updated": "20 tháng 9 năm 2026",
       "applies": "Trang này giải thích cách xóa tài khoản và dữ liệu của bạn cho ứng dụng “Stelleaf” (별갈피) của SSAMOK SOFT. Bạn có thể yêu cầu xóa qua email ngay cả khi chưa cài ứng dụng hoặc không còn truy cập được.",
       "sections": [
-        { "t": "Cách 1 — Xóa trong ứng dụng (khuyến nghị, ngay lập tức)", "b": "Trong ứng dụng Stelleaf, vào Cài đặt → Xóa tài khoản. Toàn bộ dữ liệu trên máy chủ (tất cả bản ghi, tệp ảnh và chính tài khoản) được xóa ngay lập tức và theo nguyên tắc nguyên tử. Khi xóa, bạn có thể chọn giữa “chỉ xóa dữ liệu trên máy chủ” và “xóa dữ liệu trên máy chủ và trên thiết bị này”." },
-        { "t": "Cách 2 — Yêu cầu qua email (không cần ứng dụng)", "b": "Từ địa chỉ email bạn dùng để đăng ký, gửi thư đến ssamoksoft@gmail.com với tiêu đề “Yêu cầu xóa tài khoản Stelleaf”. Sau khi xác minh danh tính, yêu cầu được xử lý trong vòng 7 ngày." },
-        { "t": "Dữ liệu bị xóa", "b": "Thông tin tài khoản của bạn (email và định danh nhà cung cấp đăng nhập) cùng toàn bộ bản ghi, danh mục, thẻ, bảng xếp hạng, thiết lập và ảnh lưu trên máy chủ sẽ bị xóa. Dữ liệu cục bộ trên thiết bị được giữ lại hoặc xóa theo lựa chọn của bạn khi xóa tài khoản, và việc xóa ứng dụng cũng loại bỏ dữ liệu cục bộ." },
-        { "t": "Xóa từng mục và xóa vĩnh viễn", "b": "Khi bạn xóa từng hạng mục, bản ghi hoặc ảnh, chúng được giữ ở trạng thái đánh dấu xóa (soft delete) trong 30 ngày để giữ tính nhất quán khi đồng bộ giữa các thiết bị, sau đó bị xóa vĩnh viễn." },
-        { "t": "Về gói đăng ký", "b": "Gói đăng ký (Pro) tách biệt với việc xóa tài khoản. Nếu bạn có gói đăng ký đang hoạt động, hãy hủy trực tiếp trong App Store hoặc Google Play — xóa tài khoản không tự động hủy gói." },
-        { "t": "Lưu giữ theo luật", "b": "Các hồ sơ liên quan đến thanh toán phải lưu giữ theo luật thương mại điện tử Hàn Quốc và các quy định liên quan sẽ được giữ trong thời hạn luật định rồi tiêu hủy." },
-        { "t": "Liên hệ", "b": "Nếu có câu hỏi về việc xóa, hãy liên hệ ssamoksoft@gmail.com." }
+        {
+          "t": "Cách 1 — Xóa trong ứng dụng",
+          "b": "Tại Cài đặt > Xóa tài khoản, chọn chỉ máy chủ hoặc cả thiết bị này. Dọn ảnh, yêu cầu RevenueCat và xóa tài khoản/cơ sở dữ liệu diễn ra theo thứ tự. Hãy thử lại khi có lỗi mạng hay nhà cung cấp. Dữ liệu thiết bị đã chọn chỉ được dọn sau xác nhận máy chủ."
+        },
+        {
+          "t": "Cách 2 — Yêu cầu qua email (không cần ứng dụng)",
+          "b": "Từ địa chỉ email bạn dùng để đăng ký, gửi thư đến ssamoksoft@gmail.com với tiêu đề “Yêu cầu xóa tài khoản Stelleaf”. Sau khi xác minh danh tính, yêu cầu được xử lý trong vòng 7 ngày."
+        },
+        {
+          "t": "Dữ liệu bị xóa",
+          "b": "Xóa tài khoản máy chủ, bản ghi, thiết lập và ảnh liên quan, đồng thời yêu cầu RevenueCat xóa khách hàng. Bạn có thể giữ dữ liệu thiết bị. Tự quản lý tệp xuất và thiết bị khác. Gỡ ứng dụng không xóa đám mây hay hủy thuê bao. Xác nhận và hồ sơ bắt buộc tuân theo thời hạn bên dưới."
+        },
+        {
+          "t": "Xóa từng mục và xóa vĩnh viễn",
+          "b": "Xóa từng mục: sau đồng bộ, tác vụ hằng ngày xóa nội dung (tên, ghi chú, điểm, vị trí) quá 30 ngày kể từ thời điểm xóa ghi trên máy chủ. Các hàng đánh dấu còn giữ ID, liên kết và thời gian phục vụ đồng bộ được dọn hằng ngày sau 365 ngày. Tệp ảnh máy chủ được dọn riêng khi ứng dụng đồng bộ; ngoại tuyến hoặc lỗi có thể làm chậm. Những mốc này không tự động xóa bản ghi đã xóa còn trên thiết bị. Xác nhận xóa: ID yêu cầu/người dùng và thời gian để xử lý phản hồi thất lạc hoặc thử lại được dọn hằng ngày khi quá 30 ngày từ lúc hoàn tất. Yêu cầu chưa xong được giữ để tiếp tục."
+        },
+        {
+          "t": "Về gói đăng ký",
+          "b": "Gói đăng ký (Stelleaf Premium) tách biệt với việc xóa tài khoản. Nếu bạn có gói đăng ký đang hoạt động, hãy hủy trực tiếp trong App Store hoặc Google Play — xóa tài khoản không tự động hủy gói."
+        },
+        {
+          "t": "Lưu giữ theo luật",
+          "b": "Các hồ sơ liên quan đến thanh toán phải lưu giữ theo luật thương mại điện tử Hàn Quốc và các quy định liên quan sẽ được giữ trong thời hạn luật định rồi tiêu hủy."
+        },
+        {
+          "t": "Liên hệ",
+          "b": "Nếu có câu hỏi về việc xóa, hãy liên hệ ssamoksoft@gmail.com."
+        }
       ]
     },
     "snuumo_privacy": {
