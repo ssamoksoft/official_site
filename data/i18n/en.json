@@ -404,8 +404,8 @@
     },
     "snuumo_privacy": {
       "title": "Snuumo Privacy Policy",
-      "updated": "Announced: 2026-09-12 · Effective: 2026-09-12",
-      "applies": "The Service has only been tested before release and has not been provided to general users. These documents are effective from September 12, 2026 and apply to Service users from public launch. Earlier preparation documents are retained as history.\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
+      "updated": "Announced: 2026-10-02 · Effective: 2026-11-01",
+      "applies": "This revised policy applies from 2026-11-01. Until then, the previous policy preserved below applies:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=en\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
       "sections": [
         {
           "t": "1. Personal information collected and how it is collected",
@@ -422,7 +422,9 @@
             "Text recognition in photos (OCR) is processed on the device. ML Kit may send Google metadata such as image format/resolution, event timing, latency and errors for diagnostics and usage statistics. These statistics do not send the OCR photo or recognised text content.",
             "If a user enters a web address (URL) in a memo, the app connects directly to that website in order to generate a preview (in the course of which the user's IP address is transmitted to that website).",
             "The app accesses the device calendar and reminders only when you export a memo to them. Exported content is passed to the device app and is not sent to or stored on the Company server. The Company does not read your existing events or reminders (on Android, it only checks calendar identifiers so you can select a destination calendar).",
-            "The Android app is configured to exclude all app data from Android automatic cloud backups and device-to-device transfers. Snuumo account sync, Pro original photo storage and manual export are separate features. Before erasing your device or reinstalling the app, check the sync status and keep a separate copy of anything not yet synced using [Settings → Data and storage → Export my data]."
+            "The Android app is configured to exclude all app data from Android automatic cloud backups and device-to-device transfers. Snuumo account sync, Pro original photo storage and manual export are separate features. Before erasing your device or reinstalling the app, check the sync status and keep a separate copy of anything not yet synced using [Settings → Data and storage → Export my data].",
+            "Usage analytics (optional): Help improve Snuumo by sharing app launches, screen views and usage by memo type with Google Firebase Analytics. App usage duration and in-app purchase events may also be collected. App version, device, OS, language, an app-installation identifier and a region inferred from your connection IP may also be processed. We do not send memo content, photos, search terms, memo locations, account identifiers or contacts, or use this data for advertising. All features work if you decline. You can turn collection off anytime in Settings → Security and privacy.",
+            "Usage analytics is off by default and starts only after you separately agree on this device. Your choice is stored locally and is not synced to your account or other devices. Declining does not restrict features. This choice is separate from existing essential processing such as sign-in and memo sync."
           ]
         },
         {
@@ -451,7 +453,8 @@
             "Records the Company is legally required to preserve | The period set by the relevant law (for example, 5 years for records of contracts and exercise of the right of withdrawal under the Act on Consumer Protection in Electronic Commerce (전자상거래 등에서의 소비자보호에 관한 법률))",
             "Upon withdrawal, the local data on the device from which account deletion was carried out is also deleted, without a separate choice, and the local data on other devices logged in to the same account is deleted automatically the next time each such device connects.",
             "In other words, what withdrawal erases is the account, memos, photos, profile, share snapshots and the devices' local data, and records retained in our account and memo storage are the withdrawal-verification identifier (180 days), deletion job records (30 days) and legally required records in the table above. External subscription, connection and enquiry records are handled separately as described in section 4. The retained withdrawal-verification and deletion-job records contain no memo content, photos or location information.",
-            "Destruction is carried out by an unrecoverable method (permanent deletion from the database and storage)."
+            "Destruction is carried out by an unrecoverable method (permanent deletion from the database and storage).",
+            "Optional analytics retains event-level data for 2 months and user-level data for 14 months. New activity restarts the 14-month retention period for the user's identifier. Expired data is handled through Google's periodic deletion process. These settings do not set a deletion deadline for all standard aggregate reports."
           ]
         },
         {
@@ -485,7 +488,9 @@
             "Data is sent over the network when you sign in, sync, check subscriptions or use the relevant feature or website. Section 3 describes our retention. Provider operational, connection and transaction records follow their contracts and policies; their retention is not guaranteed to match our memo retention. Cancelling a store subscription and deleting a Snuumo account are separate actions.",
             "To object to transfers or external processing, or request deletion, contact support@ssamoksoft.com. Refusing essential authentication or server sync processing restricts account services. You can avoid optional features, and withdraw location consent and delete existing locations in settings.",
             "If on-device dictation is unavailable and you choose the alternative after the in-app notice, the audio described in section 1 may be sent to Apple, Google or the speech-recognition provider configured on your device. Provider, processing countries and retention depend on the device, language, settings and provider policy. You can type instead.",
-            "Link previews connect from your device to the linked website and preview-image server, disclosing your IP and request URL to those operators. Their policies apply."
+            "Link previews connect from your device to the linked website and preview-image server, disclosing your IP and request URL to those operators. Their policies apply.",
+            "Google LLC / Google Analytics processes optional statistics for the Company's usage analysis. Data is transmitted over the network while you use the app after consent and may be processed in the United States and countries where Google or its subprocessors operate facilities, separately from the Seoul region storing memos. Google's Data Processing Terms apply. Processing locations, subprocessors and safeguards are described in the official lists below. Contact: googlekrsupport@google.com. Google signals, advertising personalisation and additional data-sharing options are disabled.",
+            "Google Analytics: https://support.google.com/analytics/answer/7667196 · Google Data Processing Terms: https://business.safety.google/adsprocessorterms/ · Google subprocessors: https://business.safety.google/adssubprocessors/ · Google data centres: https://www.google.com/about/datacenters/locations/"
           ]
         },
         {
@@ -500,7 +505,8 @@
             "Users may at any time request access to, correction, deletion, suspension of processing or portability of their personal information, or withdraw their consent. Viewing, editing and deleting memos, and deleting the account, can be done directly in the app. Users can export the account's memos, notes and folders stored on this device and available attached photos as JSON and images in a ZIP through [Settings → Data and storage → Export my data] in the app. Some content may be missing if recent changes from another device have not yet synced or photos cannot be retrieved. Original photos are included only when you select the option to include originals and the files can be retrieved. Check the completion notice and snuumo_export.json inside the ZIP for the included photo counts (included) and the omission details (omitted). Separate snapshots created for share links are not included in the export. Other requests are handled if sent to the contact address below.",
             "Response deadline: the Company informs the user of the outcome within one month of receiving the request. Where the request is complex or there are many requests so that it cannot be handled within that period, the period may be extended by up to two further months; in that case the Company informs the user of the extension and the reasons for it within one month of receiving the request (GDPR Article 12(3)).",
             "The Service is not intended for persons under the age of 14 (including persons below a higher minimum age where the law of the user's country or region sets one).",
-            "Location use requires separate optional consent. Turning off [Settings → Security and privacy → Record memo location] pauses only new recording on this device. [Settings → Security and privacy → Withdraw consent and delete locations] erases stored locations, including those in the trash, and associated usage records while keeping memo text, photos, tasks and reminders. This device applies the change immediately; the server and other devices apply it when connected and synced. The app shows offline pending status. Export my data includes location-usage records available from the device and server; server connection failures are listed in the ZIP omission details. Access, correction and notice can also be requested at support@ssamoksoft.com."
+            "Location use requires separate optional consent. Turning off [Settings → Security and privacy → Record memo location] pauses only new recording on this device. [Settings → Security and privacy → Withdraw consent and delete locations] erases stored locations, including those in the trash, and associated usage records while keeping memo text, photos, tasks and reminders. This device applies the change immediately; the server and other devices apply it when connected and synced. The app shows offline pending status. Export my data includes location-usage records available from the device and server; server connection failures are listed in the ZIP omission details. Access, correction and notice can also be requested at support@ssamoksoft.com.",
+            "Withdrawing consent in Settings → Security and privacy → Usage analytics stops new collection and resets this device's Analytics data and identifiers. It does not retroactively delete existing server events or aggregate reports, nor does deleting a Snuumo account. We do not send Snuumo account identifiers to Analytics, so an email address alone may not identify past statistics. Contact support@ssamoksoft.com for access, deletion and other rights requests. You may decline or disable optional analytics and the related international processing while continuing to use other app features."
           ]
         },
         {
@@ -541,7 +547,7 @@
           "l": [
             "Where this policy is changed, the change is announced in an in-app notice or posted on the website from 7 days before it takes effect (30 days before, for material changes).",
             "Addenda",
-            "This policy takes effect on 2026-09-12 and applies to Service users from public launch.",
+            "Announced: 2026-10-02 · Effective: 2026-11-01",
             "Revision history 2026-07-25: first published 2026-09-11 (pre-release publication): added descriptions of the map service provider (Google Maps) and Company website hosting (GitHub Pages); disclosed the records that remain after withdrawal (withdrawal-verification identifier, 180 days; deletion job records, 30 days) and the deletion of local data on devices; specified the response deadline for users' rights requests (one month, extendable by up to two further months); added the EU/UK representative item (section 9) and the business information (section 8); and described possible platform-server dictation processing, Android system backup exclusion, external-provider processing and how to check export omissions 2026-09-12: finalised the pre-release documents before providing the Service to general users; aligned announcement and effective dates and preserved earlier preparation documents 2026-09-13: described password-reset email delivery and the data involved through our existing Daum Smartwork service"
           ]
         },
@@ -797,6 +803,159 @@
             "United Kingdom | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
             "Users in the EU/EEA and the United Kingdom can contact the representatives and exercise their rights through this portal, or contact the Company directly. They have the right to lodge a complaint with the supervisory authority in their country of residence."
           ]
+        }
+      ]
+    },
+    "snuumo_privacyPrevious": {
+      "title": "Snuumo Privacy Policy",
+      "updated": "Announced: 2026-09-12 · Effective: 2026-09-12",
+      "applies": "The Service has only been tested before release and has not been provided to general users. These documents are effective from September 12, 2026 and apply to Service users from public launch. Earlier preparation documents are retained as history.\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
+      "sections": [
+        {
+          "t": "1. Personal information collected and how it is collected",
+          "l": [
+            "Category | Items | Method",
+            "Account (required) | Email address and password (stored encrypted), or social login identifier (Google · Apple account identifier, email, provider-supplied name and profile-photo URL) | On sign-up",
+            "Content | Memo content (text and checklists), attached photos (compressed copies; for Pro, including originals), text recognised in photos (OCR), recognised dictation text that you save, link preview information, reminder times | When the user creates or attaches them (stored on the server for sync and backup purposes)",
+            "Location information | Coordinates and place names of memo locations and EXIF coordinates of attached iOS photos. Location metadata is removed from photo files before upload | Only after separate optional location-service consent and enabling Record memo location. Device location also requires OS permission; iOS photo EXIF is separate from OS location permission. Recording can be paused and consent withdrawn in settings",
+            "Location-usage records | Account identifier, use time, source, operation and related memo identifier; no actual coordinates, place names, text or photos | Automatically recorded during location processing under Location Information Act Article 16(2)",
+            "Location consent state | Current consent status, notice version, decision time and request identifiers | Processing consent and withdrawal and preventing replay of stale requests from other devices",
+            "Subscription information | Plan, status and expiry on the Company server; purchase history and receipts/purchase tokens verified and managed by RevenueCat | When checking subscriptions after login, subscribing to Pro or restoring purchases (payment means such as credit card details are handled by the store, such as Apple, and are not collected by the Company)",
+            "We do not track users for advertising or collect contacts. Google Sign-In, Maps and ML Kit SDKs may automatically process app/OS/device information, installation or SDK identifiers, feature events, errors, crashes and performance/usage information. RevenueCat processes subscription analytics and a country inferred from the IP address. The external services below explain this processing. Memo text and photo content are not used for advertising or behavioural analytics.",
+            "Dictation keeps audio on your device when supported by the device and current language. Only when on-device recognition is unavailable can you choose an alternative after the in-app notice, which may process audio on servers operated by Apple, Google or the speech service provider configured on your device. The Company does not upload or store original dictation audio on its servers. When you save the recognised text as a memo, it is stored on your device and stored and synchronised on the Company servers like other memo text. The provider's processing and retention of audio depend on its policies and your settings. You can type text directly without using dictation.",
+            "Text recognition in photos (OCR) is processed on the device. ML Kit may send Google metadata such as image format/resolution, event timing, latency and errors for diagnostics and usage statistics. These statistics do not send the OCR photo or recognised text content.",
+            "If a user enters a web address (URL) in a memo, the app connects directly to that website in order to generate a preview (in the course of which the user's IP address is transmitted to that website).",
+            "The app accesses the device calendar and reminders only when you export a memo to them. Exported content is passed to the device app and is not sent to or stored on the Company server. The Company does not read your existing events or reminders (on Android, it only checks calendar identifiers so you can select a destination calendar).",
+            "The Android app is configured to exclude all app data from Android automatic cloud backups and device-to-device transfers. Snuumo account sync, Pro original photo storage and manual export are separate features. Before erasing your device or reinstalling the app, check the sync status and keep a separate copy of anything not yet synced using [Settings → Data and storage → Export my data]."
+          ]
+        },
+        {
+          "t": "2. Purposes of use",
+          "l": [
+            "Creating, authenticating and managing accounts",
+            "Providing sync across devices, cloud backup (including Pro original backup) and the memo sharing feature",
+            "Location-based search (finding your memos by place name) and map display — locations recorded with memos are not used for any purpose other than this (Terms of Service, Article 10, Location-Based Services) https://www.ssamoksoft.com/privacy/snuumo/terms/",
+            "Verifying subscription status, providing paid features and reviewing subscription analytics",
+            "Responding to enquiries, giving service notices and maintaining/improving services using SDK diagnostics, performance and usage statistics"
+          ]
+        },
+        {
+          "t": "3. Retention periods and destruction",
+          "l": [
+            "Data | Retention period",
+            "All account data and content (memos, photos, profile, share snapshots) | Deleted without delay upon withdrawal of membership ([Settings → Security and privacy → Delete account] in the app). If the volume of data is large, the server's clean-up work continues afterwards; once completed, the data cannot be recovered",
+            "Memo location information | Deleted on permanent memo deletion, account deletion or withdrawal of location consent. Pausing recording alone does not erase existing locations",
+            "Location-usage records | Six months from the event on the device and at least six months from receipt/recording on the server, followed by expiry cleanup. Withdrawal deletes associated records without delay under Article 24(4); account deletion also deletes them",
+            "Location consent state and request identifiers | Retained while the account exists to enforce consent and prevent stale-device replays; deleted with the account. No coordinates, place names or memo text",
+            "Memos in the trash | Permanently deleted 30 days after being moved there",
+            "Share link snapshots | Expire and are deleted 30 days after creation (location information is not included in snapshots, and a snapshot can be deleted at any time before expiry from [Settings → Data and storage → My shared links] in the app)",
+            "Pro original backups (on subscription cancellation) | Retained for 90 days from the subscription expiry date (viewable and restorable), then deleted",
+            "Withdrawal-verification identifier (account identifier and withdrawal time) | Deleted 180 days after withdrawal. Used only to clean up the local data of another device that was still logged in but switched off, when that device connects again",
+            "Deletion job records (account identifier, share token, paths of files to be deleted) | Deleted 30 days after deletion is completed. Used only to check for missed deletions and to retry them",
+            "Records the Company is legally required to preserve | The period set by the relevant law (for example, 5 years for records of contracts and exercise of the right of withdrawal under the Act on Consumer Protection in Electronic Commerce (전자상거래 등에서의 소비자보호에 관한 법률))",
+            "Upon withdrawal, the local data on the device from which account deletion was carried out is also deleted, without a separate choice, and the local data on other devices logged in to the same account is deleted automatically the next time each such device connects.",
+            "In other words, what withdrawal erases is the account, memos, photos, profile, share snapshots and the devices' local data, and records retained in our account and memo storage are the withdrawal-verification identifier (180 days), deletion job records (30 days) and legally required records in the table above. External subscription, connection and enquiry records are handled separately as described in section 4. The retained withdrawal-verification and deletion-job records contain no memo content, photos or location information.",
+            "Destruction is carried out by an unrecoverable method (permanent deletion from the database and storage)."
+          ]
+        },
+        {
+          "t": "4. External services and international transfers",
+          "l": [
+            "We use the services below for authentication, sync, subscriptions and hosting. Supabase and RevenueCat process end-user data on our instructions. We also use Cloudflare as a processor for customer data handled for hosting. Their standard service terms incorporate data processing addenda (DPAs). Login, payment and map platforms, and providers independently handling website visitor information, also apply their own terms and privacy policies.",
+            "Provider | Entity / processing location | Purpose and role | Data involved",
+            "Supabase Pte. Ltd. | Singapore entity; primary data storage in South Korea (AWS Seoul ap-northeast-2). Support, operations and subprocessors may involve other countries | Processor for authentication, database and photo storage | Account, content, locations, location-usage records, consent state and subscription data in section 1, plus connection/request information. Excludes original dictation audio",
+            "Cloudflare, Inc. | US entity; global network | Processor for snuumo.com and share-link landing-page hosting, CDN and security | IP address, request URL (including the share token), time, browser and device information. Our memo database is not replicated to Cloudflare",
+            "RevenueCat, Inc. | AWS data centres in the United States. The DPA lists US service subprocessors and a Korean customer-support provider, as applicable to the services used | Processor for subscription verification, restoration, status and subscription analytics | Snuumo account identifier, product, purchase, receipt or purchase token, subscription status, app/OS/device information, last seen and country information. We do not set or send memo content, photos, audio or email addresses to RevenueCat",
+            "Apple Inc. / Google LLC and applicable regional platform entities | US and other countries under the platform policies | Platform processing for the social login or store purchase you choose | Authentication requests, app identifiers, IP/device information, Google Sign-In SDK diagnostics/usage information and product/transaction information. We receive login identifiers, email, authentication tokens, provider-supplied names/profile-photo URLs and subscription verification data, not platform passwords or card numbers",
+            "Apple, Google or the geocoding provider configured on the device | Countries depend on the platform and provider policy | Converting coordinates into place names for location tags | Memo-location coordinates and request information after location consent. We retain the returned place name and coordinates with the memo",
+            "Google LLC and the applicable Google Maps contracting entity | US and other countries under Google policies | Map display; the Maps contract treats the parties as separate independent controllers | Map areas, coordinates, IP address, SDK-specific identifiers, app/device information, pan/zoom events and error/crash/performance information. Google Maps Platform terms and the Google Privacy Policy apply",
+            "Google LLC (ML Kit) | US and other countries under Google policies | On-device photo text recognition; Google processing of SDK diagnostics, performance and usage statistics | Per-installation identifiers, app/device/OS information, latency, errors, API events and metadata such as input format/resolution. These statistics do not send the OCR photo or recognised text content",
+            "GitHub, Inc. and applicable regional entities | US and other countries under GitHub policies | GitHub Pages hosting for ssamoksoft.com; independent handling of visitor security information under GitHub policies | Visitor IP addresses are recorded and retained even without signing in. Time, page, browser and device information may also be processed. User memos and photos are not uploaded to the company website",
+            "Daum Co., Ltd. (Daum Smartwork) | South Korean entity providing the enquiry and password-reset email system; entity location is not a guarantee of all processing locations | Receipt and storage of enquiries sent to support@ssamoksoft.com and delivery of password-reset emails from that address | Enquiries: sender address/name, message and attachments. Password resets: recipient email address, subject, body and one-time recovery link. Both: email transmission information. New passwords are not emailed, and we do not replicate the memo/photo database into our support mailbox",
+            "Contacts, timing and retention",
+            "Provider and contact | Timing and method | Retention period or criteria",
+            "Supabase — privacy@supabase.com | Over the network when signing up, signing in, syncing, sharing, deleting or using other server functions | Company-managed accounts/content follow section 3. Operational/support records are processed as needed to provide services and meet legal obligations. If our Supabase agreement ends, the DPA provides a 30-day export period followed by deletion; this is not a 30-day delay for individual account deletion",
+            "RevenueCat — compliance@revenuecat.com | Over the network for subscription checks after login, purchases, restoration, renewals and other transaction events | As needed for subscription management, subject to our customer deletion instructions. On agreement termination, the DPA requires a return/deletion request within 30 days, subject to backup and legal retention exceptions. Cancelling a store subscription alone does not delete the RevenueCat customer record",
+            "Cloudflare — privacyquestions@cloudflare.com / rights requests sar@cloudflare.com | Over the network when visiting snuumo.com or a share-link landing page | As needed for hosting, delivery, security and legal obligations. The DPA provides for return/deletion when processing services end, subject to legal retention. Log retention can differ from the period visible in a dashboard",
+            "Apple — https://www.apple.com/legal/privacy/contact/ | Over the network when using chosen sign-in, purchase, geocoding or server dictation features | As needed for the relevant feature, transactions, security and legal obligations. Audio has separate feature-specific notices and device settings. Access and deletion requests can be made through Apple privacy channels",
+            "Google — googlekrsupport@google.com | Over the network when using sign-in, Maps or OCR SDKs and chosen purchase, geocoding or server dictation features | For periods determined by the relevant Google feature, settings and retention policy. Automatic deletion settings for account activity do not necessarily apply to every SDK diagnostic record",
+            "GitHub — dpo@github.com | Over the network when visiting our company site or legal pages | As needed for service/security, legal obligations, disputes and agreement enforcement. GitHub policies also govern Pages access records of visitors without GitHub accounts",
+            "Other device geocoding/speech providers and operators of links entered by users | Over the network when using the optional feature or requesting the linked page/preview image | Varies by provider and link. Consult the provider information in device settings or the linked website privacy/contact page",
+            "Daum — https://cs.daum.net/ (Daum Co., Ltd.) | Through email systems when you send an enquiry to support@ssamoksoft.com or request a Snuumo password-reset email | As needed to handle enquiries, deliver password-reset emails and meet legal retention requirements. Deletion from our inbox is separate from provider backup/security records; Daum terms and policies apply",
+            "For international outsourcing/storage necessary to enter into or perform our service contract, we rely on publication in this policy under Article 28-8(1)(3)(a) of the Korean Personal Information Protection Act. This ground is not a blanket basis for independent third-party disclosure or a provider's own analytics. Platform processing has its own feature notices, consents and applicable legal grounds. Where additional transfer safeguards are required for the EU, UK or other regions, we use applicable safeguards such as standard contractual clauses in the relevant DPA; these are separate from the Korean transfer basis.",
+            "The primary Supabase database and photo storage are in Seoul. Depending on invocation location, Edge Functions may execute in South Korea, Japan, India, Singapore, Australia, Canada, the United States, Germany, Switzerland, Ireland, the United Kingdom, France or Brazil. Support and subprocessing are not limited to Seoul. Cloudflare processes requests across its global network according to visitor location, routing and service configuration. The official region/network/subprocessor lists below describe possible processing scope; they do not mean every request is sent to every country.",
+            "Our company website serves its fonts and icons from the same site, without direct font/icon requests to Google Fonts or jsDelivr.",
+            "Supabase DPA ( https://supabase.com/legal/customer-resources/data-processing-addendum ) · RevenueCat DPA ( https://www.revenuecat.com/dpa ) · Cloudflare DPA ( https://www.cloudflare.com/cloudflare-customer-dpa/ ) · Apple Privacy ( https://www.apple.com/legal/privacy/ ) · Google Privacy ( https://policies.google.com/privacy ) · ML Kit Terms ( https://developers.google.com/ml-kit/terms ) · Google Maps Terms ( https://cloud.google.com/maps-platform/terms ) · GitHub Privacy ( https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ) · GitHub Pages ( https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection ) · Supabase regions ( https://supabase.com/docs/guides/functions/regional-invocation ) · Supabase subprocessors ( https://supabase.com/legal/customer-resources/subprocessor-list ) · Cloudflare network ( https://www.cloudflare.com/network/ ) · Cloudflare subprocessors ( https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/ ) · Cloudflare Korea addendum ( https://www.cloudflare.com/privacypolicy/southkorea-addendum/ ) · Google retention ( https://policies.google.com/technologies/retention ) · Daum Privacy ( https://policy.daum.net/policy/privacy )",
+            "Data is sent over the network when you sign in, sync, check subscriptions or use the relevant feature or website. Section 3 describes our retention. Provider operational, connection and transaction records follow their contracts and policies; their retention is not guaranteed to match our memo retention. Cancelling a store subscription and deleting a Snuumo account are separate actions.",
+            "To object to transfers or external processing, or request deletion, contact support@ssamoksoft.com. Refusing essential authentication or server sync processing restricts account services. You can avoid optional features, and withdraw location consent and delete existing locations in settings.",
+            "If on-device dictation is unavailable and you choose the alternative after the in-app notice, the audio described in section 1 may be sent to Apple, Google or the speech-recognition provider configured on your device. Provider, processing countries and retention depend on the device, language, settings and provider policy. You can type instead.",
+            "Link previews connect from your device to the linked website and preview-image server, disclosing your IP and request URL to those operators. Their policies apply."
+          ]
+        },
+        {
+          "t": "5. Provision to third parties",
+          "l": [
+            "We do not sell personal data or provide it for advertising. Section 4 distinguishes processing on our behalf from external platform features you choose. Other third-party disclosures require the necessary consent or a legal basis."
+          ]
+        },
+        {
+          "t": "6. Users' rights",
+          "l": [
+            "Users may at any time request access to, correction, deletion, suspension of processing or portability of their personal information, or withdraw their consent. Viewing, editing and deleting memos, and deleting the account, can be done directly in the app. Users can export the account's memos, notes and folders stored on this device and available attached photos as JSON and images in a ZIP through [Settings → Data and storage → Export my data] in the app. Some content may be missing if recent changes from another device have not yet synced or photos cannot be retrieved. Original photos are included only when you select the option to include originals and the files can be retrieved. Check the completion notice and snuumo_export.json inside the ZIP for the included photo counts (included) and the omission details (omitted). Separate snapshots created for share links are not included in the export. Other requests are handled if sent to the contact address below.",
+            "Response deadline: the Company informs the user of the outcome within one month of receiving the request. Where the request is complex or there are many requests so that it cannot be handled within that period, the period may be extended by up to two further months; in that case the Company informs the user of the extension and the reasons for it within one month of receiving the request (GDPR Article 12(3)).",
+            "The Service is not intended for persons under the age of 14 (including persons below a higher minimum age where the law of the user's country or region sets one).",
+            "Location use requires separate optional consent. Turning off [Settings → Security and privacy → Record memo location] pauses only new recording on this device. [Settings → Security and privacy → Withdraw consent and delete locations] erases stored locations, including those in the trash, and associated usage records while keeping memo text, photos, tasks and reminders. This device applies the change immediately; the server and other devices apply it when connected and synced. The app shows offline pending status. Export my data includes location-usage records available from the device and server; server connection failures are listed in the ZIP omission details. Access, correction and notice can also be requested at support@ssamoksoft.com."
+          ]
+        },
+        {
+          "t": "7. Security measures",
+          "l": [
+            "Encryption in transit (TLS) to Company authentication/sync servers and one-way encrypted storage of passwords",
+            "Per-account access control (a server policy under which only the user's own data is accessible, RLS)",
+            "No advertising tracking or advertising identifier collection; management of data needed to provide features",
+            "Minimisation of access privileges to personal information"
+          ]
+        },
+        {
+          "t": "8. Personal information protection officer and business information",
+          "l": [
+            "Personal information protection officer / location information manager: Daehoon Kang (강대훈) (Representative)",
+            "Contact: support@ssamoksoft.com",
+            "Trade name | SSAMOK SOFT (싸목소프트)",
+            "Representative | Daehoon Kang (강대훈)",
+            "Business address | 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+            "Email | support@ssamoksoft.com",
+            "Business registration number | 160-75-00256",
+            "Mail-order business report number | 2019-충북청주-1930",
+            "Reporting and counselling on infringement of personal information (Republic of Korea): Privacy Infringement Report Center (개인정보침해신고센터, privacy.kisa.or.kr, 118), Personal Information Dispute Mediation Committee (개인정보분쟁조정위원회, kopico.go.kr, 1833-6972)"
+          ]
+        },
+        {
+          "t": "9. EU and UK representatives (GDPR Article 27)",
+          "l": [
+            "The Company has appointed representatives pursuant to Article 27 of the EU GDPR and Article 27 of the UK GDPR.",
+            "Region | Representative | Address | Contact",
+            "EU | Prighter EU Rep GmbH | Schellinggasse 3/10, 1010 Vienna, Austria | https://app.prighter.com/portal/19708232400",
+            "United Kingdom | Prighter Ltd | 20 Mortlake High Street, London, SW14 8JN, United Kingdom | https://app.prighter.com/portal/19708232400",
+            "Users in the EU/EEA and the United Kingdom can contact the representatives and exercise their rights through this portal, or contact the Company directly. They have the right to lodge a complaint with the supervisory authority in their country of residence."
+          ]
+        },
+        {
+          "t": "10. Changes to this policy",
+          "l": [
+            "Where this policy is changed, the change is announced in an in-app notice or posted on the website from 7 days before it takes effect (30 days before, for material changes).",
+            "Addenda",
+            "This policy takes effect on 2026-09-12 and applies to Service users from public launch.",
+            "Revision history 2026-07-25: first published 2026-09-11 (pre-release publication): added descriptions of the map service provider (Google Maps) and Company website hosting (GitHub Pages); disclosed the records that remain after withdrawal (withdrawal-verification identifier, 180 days; deletion job records, 30 days) and the deletion of local data on devices; specified the response deadline for users' rights requests (one month, extendable by up to two further months); added the EU/UK representative item (section 9) and the business information (section 8); and described possible platform-server dictation processing, Android system backup exclusion, external-provider processing and how to check export omissions 2026-09-12: finalised the pre-release documents before providing the Service to general users; aligned announcement and effective dates and preserved earlier preparation documents 2026-09-13: described password-reset email delivery and the data involved through our existing Daum Smartwork service"
+          ]
+        },
+        {
+          "t": "Earlier preparation document",
+          "b": "Archived Korean preparation document, marked effective July 25, 2026: https://www.ssamoksoft.com/privacy/snuumo/archive/2026-07-25/"
+        },
+        {
+          "t": "September 11 pre-release document",
+          "b": "https://www.ssamoksoft.com/privacy/snuumo/archive/2026-09-11/"
         }
       ]
     }
