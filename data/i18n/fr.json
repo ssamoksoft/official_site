@@ -333,8 +333,8 @@
     },
     "snuumo_privacy": {
       "title": "Politique de confidentialité de Snuumo",
-      "updated": "Annonce : 2026-10-02 · Entrée en vigueur : 2026-11-01",
-      "applies": "Cette politique révisée s’applique à compter du 2026-11-01. Jusqu’à cette date, la politique précédente conservée ci-dessous s’applique :\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=fr\n\nCette politique a été rédigée en coréen. La présente traduction française de l’original https://www.ssamoksoft.com/privacy/snuumo/?lang=ko permet aux utilisateurs et examinateurs ne lisant pas le coréen d’en comprendre le même contenu.\n\nSSAMOK SOFT (싸목소프트, la « Société ») fournit l’application de notes « Snuumo » (le « Service ») et protège et traite les données personnelles comme indiqué ci-dessous, conformément à la loi coréenne sur la protection des informations personnelles (개인정보 보호법, PIPA) et aux autres lois applicables.",
+      "updated": "Annonce : 2026-10-02 · Entrée en vigueur : 2026-10-02",
+      "applies": "Cette politique révisée s’applique à compter du 2026-10-02. Jusqu’à cette date, la politique précédente conservée ci-dessous s’applique :\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=fr\n\nCette politique a été rédigée en coréen. La présente traduction française de l’original https://www.ssamoksoft.com/privacy/snuumo/?lang=ko permet aux utilisateurs et examinateurs ne lisant pas le coréen d’en comprendre le même contenu.\n\nSSAMOK SOFT (싸목소프트, la « Société ») fournit l’application de notes « Snuumo » (le « Service ») et protège et traite les données personnelles comme indiqué ci-dessous, conformément à la loi coréenne sur la protection des informations personnelles (개인정보 보호법, PIPA) et aux autres lois applicables.",
       "sections": [
         {
           "t": "1. Données collectées et modalités de collecte",
@@ -476,7 +476,7 @@
           "l": [
             "Une modification est annoncée dans l’application ou sur le site 7 jours avant sa prise d’effet, ou 30 jours pour une modification importante.",
             "Dispositions finales",
-            "Annonce : 2026-10-02 · Entrée en vigueur : 2026-11-01",
+            "Annonce : 2026-10-02 · Entrée en vigueur : 2026-10-02",
             "Historique : 2026-07-25, première publication. 2026-09-11 (avant lancement) : ajout de Google Maps et GitHub Pages ; précision des données post-clôture (identifiant de vérification, 180 jours ; tâches de suppression, 30 jours) et de l’effacement local ; réponse aux droits sous un mois, avec jusqu’à deux mois supplémentaires ; représentants UE/Royaume-Uni (section 9), informations professionnelles (section 8), dictée possible sur serveurs de plateformes, exclusion des sauvegardes système Android, traitements externes et vérification des omissions d’export. 2026-09-12 : finalisation avant ouverture au public, alignement des dates et conservation des documents préparatoires. 2026-09-13 : description des e-mails de réinitialisation et données traitées via le service Daum Smartwork existant."
           ]
         },

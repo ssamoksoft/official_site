@@ -404,8 +404,8 @@
     },
     "snuumo_privacy": {
       "title": "Snuumo Privacy Policy",
-      "updated": "Announced: 2026-10-02 · Effective: 2026-11-01",
-      "applies": "This revised policy applies from 2026-11-01. Until then, the previous policy preserved below applies:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=en\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
+      "updated": "Announced: 2026-10-02 · Effective: 2026-10-02",
+      "applies": "This revised policy applies from 2026-10-02. Until then, the previous policy preserved below applies:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=en\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
       "sections": [
         {
           "t": "1. Personal information collected and how it is collected",
@@ -547,7 +547,7 @@
           "l": [
             "Where this policy is changed, the change is announced in an in-app notice or posted on the website from 7 days before it takes effect (30 days before, for material changes).",
             "Addenda",
-            "Announced: 2026-10-02 · Effective: 2026-11-01",
+            "Announced: 2026-10-02 · Effective: 2026-10-02",
             "Revision history 2026-07-25: first published 2026-09-11 (pre-release publication): added descriptions of the map service provider (Google Maps) and Company website hosting (GitHub Pages); disclosed the records that remain after withdrawal (withdrawal-verification identifier, 180 days; deletion job records, 30 days) and the deletion of local data on devices; specified the response deadline for users' rights requests (one month, extendable by up to two further months); added the EU/UK representative item (section 9) and the business information (section 8); and described possible platform-server dictation processing, Android system backup exclusion, external-provider processing and how to check export omissions 2026-09-12: finalised the pre-release documents before providing the Service to general users; aligned announcement and effective dates and preserved earlier preparation documents 2026-09-13: described password-reset email delivery and the data involved through our existing Daum Smartwork service"
           ]
         },

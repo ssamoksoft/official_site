@@ -333,8 +333,8 @@
     },
     "snuumo_privacy": {
       "title": "Snuumo Gizlilik Politikası",
-      "updated": "Duyuru: 2026-10-02 · Yürürlük tarihi: 2026-11-01",
-      "applies": "Bu güncellenmiş politika 2026-11-01 tarihinden itibaren geçerlidir. O tarihe kadar aşağıda korunan önceki politika geçerlidir:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=tr\n\nBu Gizlilik Politikası başlangıçta Korece hazırlanmıştır. Bu Türkçe metin, Korece bilmeyen kullanıcıların ve inceleyenlerin aynı içeriği anlayabilmesi için https://www.ssamoksoft.com/privacy/snuumo/?lang=ko adresindeki Korece aslından çevrilmiştir.\n\nSSAMOK SOFT (싸목소프트) (\"Şirket\"), \"Snuumo\" not uygulamasını (\"Hizmet\") sunar ve Kişisel Bilgilerin Korunması Kanunu (개인정보 보호법, \"PIPA\") ile diğer geçerli mevzuata uygun olarak kullanıcıların kişisel verilerini aşağıda açıklandığı şekilde korur ve işler.",
+      "updated": "Duyuru: 2026-10-02 · Yürürlük tarihi: 2026-10-02",
+      "applies": "Bu güncellenmiş politika 2026-10-02 tarihinden itibaren geçerlidir. O tarihe kadar aşağıda korunan önceki politika geçerlidir:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=tr\n\nBu Gizlilik Politikası başlangıçta Korece hazırlanmıştır. Bu Türkçe metin, Korece bilmeyen kullanıcıların ve inceleyenlerin aynı içeriği anlayabilmesi için https://www.ssamoksoft.com/privacy/snuumo/?lang=ko adresindeki Korece aslından çevrilmiştir.\n\nSSAMOK SOFT (싸목소프트) (\"Şirket\"), \"Snuumo\" not uygulamasını (\"Hizmet\") sunar ve Kişisel Bilgilerin Korunması Kanunu (개인정보 보호법, \"PIPA\") ile diğer geçerli mevzuata uygun olarak kullanıcıların kişisel verilerini aşağıda açıklandığı şekilde korur ve işler.",
       "sections": [
         {
           "t": "1. Toplanan kişisel veriler ve toplama yöntemleri",
@@ -476,7 +476,7 @@
           "l": [
             "Bu politika değiştirildiğinde, değişiklik yürürlüğe girmeden 7 gün önce (önemli değişikliklerde 30 gün önce) uygulama içi bildirimle duyurulur veya web sitesinde yayımlanır.",
             "Ek hükümler",
-            "Duyuru: 2026-10-02 · Yürürlük tarihi: 2026-11-01",
+            "Duyuru: 2026-10-02 · Yürürlük tarihi: 2026-10-02",
             "Değişiklik geçmişi. 2026-07-25: ilk yayım. 2026-09-11 (yayımlama öncesi duyuru): harita hizmeti sağlayıcısı (Google Maps) ve Şirket web sitesi barındırması (GitHub Pages) açıklamaları eklendi; üyelik sonlandırıldıktan sonra kalan kayıtlar (üyelik sonlandırma doğrulama bilgisi: 180 gün; silme işi kayıtları: 30 gün) ve cihazlardaki yerel verilerin silinmesi açıklandı; kullanıcı hak talepleri için yanıt süresi (bir ay, en fazla iki ay daha uzatılabilir) belirtildi; AB/Birleşik Krallık temsilcileri (9. bölüm) ve işletme bilgileri (8. bölüm) eklendi; platform sunucularında olası dikte işleme, Android sistem yedeklemesinden hariç tutma, harici sağlayıcıların işlemesi ve dışa aktarımdaki eksiklerin nasıl kontrol edileceği açıklandı. 2026-09-12: Hizmet genel kullanıcılara sunulmadan önce belgeler son hâline getirildi; duyuru ve yürürlük tarihleri eşitlendi, önceki hazırlık belgeleri korundu. 2026-09-13: mevcut Daum Smartwork hizmetimiz üzerinden parola sıfırlama e-postalarının iletilmesi ve ilgili veriler açıklandı."
           ]
         },
