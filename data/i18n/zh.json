@@ -68,7 +68,7 @@
     "s_iap_title": "3. 应用内购买",
     "s_iap_body": "部分应用通过 App Store 和 Google Play 提供应用内购买。付款由各商店处理，我们不收集或存储支付卡信息。我们可能会处理收据和交易标识符等与购买相关的信息，用于购买验证和支持。",
     "s_thirdparty_title": "4. 第三方服务",
-    "s_thirdparty_body": "根据应用不同，我们使用：Google Firebase（身份验证、数据库、使用情况分析、崩溃分析）、Supabase（用于即将推出的应用的后端）、Google AdMob（广告投放与衡量），以及 App Store 和 Google Play（应用内购买处理）。仅在设备上存储数据的应用不会将数据传输到服务器。每个应用实际使用的服务列在该应用政策的“数据处理摘要”中。",
+    "s_thirdparty_body": "根据应用不同，我们使用：Google Firebase（身份验证、数据库、使用情况分析、崩溃分析）、Supabase（后端）、Google AdMob（广告投放与衡量），以及 App Store 和 Google Play（应用内购买处理）。仅在设备上存储数据的应用不会将数据传输到服务器。每个应用实际使用的服务列在该应用政策的“数据处理摘要”中。",
     "s_ads_title": "5. 广告",
     "s_ads_body": "部分应用可能通过 Google AdMob 展示广告。广告标识符及类似数据可能用于投放和衡量广告。你可以在设备设置中重置广告标识符或限制个性化广告。",
     "s_retention_title": "6. 数据保留与删除",
@@ -334,7 +334,7 @@
     "snuumo_privacy": {
       "title": "Snuumo 隐私政策",
       "updated": "公布日期：2026-10-02 · 生效日期：2026-10-02",
-      "applies": "本修订政策自2026-10-02起适用。在此之前，适用以下保留的原政策：\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=zh\n\n本政策原文为韩语。本简体中文版译自 https://www.ssamoksoft.com/privacy/snuumo/?lang=ko 的韩语原文，供不懂韩语的用户和审核人员理解相同内容。\n\nSSAMOK SOFT（싸목소프트，以下简称“公司”）提供备忘录应用“Snuumo”（以下简称“服务”），依照韩国《个人信息保护法》（개인정보 보호법，PIPA）及其他适用法律，按以下方式保护和处理个人信息。",
+      "applies": "Snuumo已在Google Play和App Store发布，现已向普通用户提供服务。\n\n本修订政策自2026-10-02起适用。在此之前，适用以下保留的原政策：\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=zh\n\n本政策原文为韩语。本简体中文版译自 https://www.ssamoksoft.com/privacy/snuumo/?lang=ko 的韩语原文，供不懂韩语的用户和审核人员理解相同内容。\n\nSSAMOK SOFT（싸목소프트，以下简称“公司”）提供备忘录应用“Snuumo”（以下简称“服务”），依照韩国《个人信息保护法》（개인정보 보호법，PIPA）及其他适用法律，按以下方式保护和处理个人信息。",
       "sections": [
         {
           "t": "1. 收集的个人信息及收集方式",

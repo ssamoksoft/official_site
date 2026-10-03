@@ -68,7 +68,7 @@
     "s_iap_title": "3. Compras no app",
     "s_iap_body": "Alguns apps oferecem compras no app pela App Store e Google Play. Os pagamentos são processados por cada loja; não coletamos nem armazenamos informações de cartão de pagamento. Podemos tratar informações relacionadas à compra, como recibos e identificadores de transação, para validação de compra e suporte.",
     "s_thirdparty_title": "4. Serviços de terceiros",
-    "s_thirdparty_body": "Dependendo do app, usamos: Google Firebase (autenticação, banco de dados, análise de uso e análise de falhas), Supabase (backend para apps futuros), Google AdMob (veiculação e mensuração de anúncios) e App Store e Google Play (processamento de compras no app). Os apps que armazenam dados apenas no seu dispositivo não os transmitem a um servidor. Os serviços que cada app realmente usa estão listados no resumo de tratamento de dados daquele app.",
+    "s_thirdparty_body": "Dependendo do app, usamos: Google Firebase (autenticação, banco de dados, análise de uso e análise de falhas), Supabase (backend), Google AdMob (veiculação e mensuração de anúncios) e App Store e Google Play (processamento de compras no app). Os apps que armazenam dados apenas no seu dispositivo não os transmitem a um servidor. Os serviços que cada app realmente usa estão listados no resumo de tratamento de dados daquele app.",
     "s_ads_title": "5. Publicidade",
     "s_ads_body": "Alguns apps podem exibir anúncios por meio do Google AdMob. Um identificador de publicidade e dados semelhantes podem ser usados para veicular e medir anúncios. Você pode redefinir o seu identificador de publicidade ou limitar a personalização de anúncios nas configurações do dispositivo.",
     "s_retention_title": "6. Retenção e exclusão de dados",
@@ -334,7 +334,7 @@
     "snuumo_privacy": {
       "title": "Política de Privacidade do Snuumo",
       "updated": "Publicação: 2026-10-02 · Vigência: 2026-10-02",
-      "applies": "Esta política revista aplica-se a partir de 2026-10-02. Até lá, aplica-se a política anterior preservada abaixo:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=pt\n\nEsta política foi redigida em coreano. A tradução portuguesa do original https://www.ssamoksoft.com/privacy/snuumo/?lang=ko permite que usuários e revisores que não leem coreano compreendam o mesmo conteúdo.\n\nA SSAMOK SOFT (싸목소프트, a «Empresa») oferece o aplicativo de notas «Snuumo» (o «Serviço») e protege e trata dados pessoais conforme abaixo, segundo a Lei coreana de Proteção de Informações Pessoais (개인정보 보호법, PIPA) e demais leis aplicáveis.",
+      "applies": "O Snuumo está disponível ao público no Google Play e na App Store.\n\nEsta política revista aplica-se a partir de 2026-10-02. Até lá, aplica-se a política anterior preservada abaixo:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=pt\n\nEsta política foi redigida em coreano. A tradução portuguesa do original https://www.ssamoksoft.com/privacy/snuumo/?lang=ko permite que usuários e revisores que não leem coreano compreendam o mesmo conteúdo.\n\nA SSAMOK SOFT (싸목소프트, a «Empresa») oferece o aplicativo de notas «Snuumo» (o «Serviço») e protege e trata dados pessoais conforme abaixo, segundo a Lei coreana de Proteção de Informações Pessoais (개인정보 보호법, PIPA) e demais leis aplicáveis.",
       "sections": [
         {
           "t": "1. Dados coletados e métodos",

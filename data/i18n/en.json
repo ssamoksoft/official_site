@@ -68,7 +68,7 @@
     "s_iap_title": "3. In-app purchases",
     "s_iap_body": "Some apps offer in-app purchases through the App Store and Google Play. Payments are handled by each store; we do not collect or store payment card information. We may process purchase-related information such as receipts and transaction identifiers for purchase validation and support.",
     "s_thirdparty_title": "4. Third-party services",
-    "s_thirdparty_body": "Depending on the app, we use: Google Firebase (authentication, database, usage analytics, crash analysis), Supabase (backend for upcoming apps), Google AdMob (ad delivery and measurement), and the App Store and Google Play (in-app purchase processing). Apps that store data only on your device do not transmit it to a server. The services each app actually uses are listed in that app's data-processing summary.",
+    "s_thirdparty_body": "Depending on the app, we use: Google Firebase (authentication, database, usage analytics, crash analysis), Supabase (backend), Google AdMob (ad delivery and measurement), and the App Store and Google Play (in-app purchase processing). Apps that store data only on your device do not transmit it to a server. The services each app actually uses are listed in that app's data-processing summary.",
     "s_ads_title": "5. Advertising",
     "s_ads_body": "Some apps may show ads through Google AdMob. An advertising identifier and similar data may be used to deliver and measure ads. You can reset your advertising identifier or limit ad personalization in your device settings.",
     "s_retention_title": "6. Data retention & deletion",
@@ -405,7 +405,7 @@
     "snuumo_privacy": {
       "title": "Snuumo Privacy Policy",
       "updated": "Announced: 2026-10-02 · Effective: 2026-10-02",
-      "applies": "This revised policy applies from 2026-10-02. Until then, the previous policy preserved below applies:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=en\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
+      "applies": "Snuumo is available to general users on Google Play and the App Store.\n\nThis revised policy applies from 2026-10-02. Until then, the previous policy preserved below applies:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=en\n\nThis Privacy Policy was originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content.\n\nSSAMOK SOFT (싸목소프트) (the \"Company\") provides the memo application \"Snuumo\" (the \"Service\") and protects and processes users' personal information as set out below, in accordance with the Personal Information Protection Act (개인정보 보호법, \"PIPA\") and other applicable laws.",
       "sections": [
         {
           "t": "1. Personal information collected and how it is collected",
@@ -564,7 +564,7 @@
     "snuumo_terms": {
       "title": "Snuumo Terms of Service",
       "updated": "Announced: 2026-09-12 · Effective: 2026-09-12",
-      "applies": "The Service has only been tested before release and has not been provided to general users. These documents are effective from September 12, 2026 and apply to Service users from public launch. Earlier preparation documents are retained as history.\n\nThese Terms were originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/terms/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content. Where a mandatory rule of the user's country of habitual residence provides greater protection, that rule prevails (Article 13).",
+      "applies": "Snuumo is available to general users on Google Play and the App Store. These documents are effective from September 12, 2026 and apply to Service users from public launch. Earlier preparation documents are retained as history.\n\nThese Terms were originally drafted in Korean. This English text is a translation of the Korean original at https://www.ssamoksoft.com/privacy/snuumo/terms/?lang=ko, provided so that users and reviewers who do not read Korean can understand the same content. Where a mandatory rule of the user's country of habitual residence provides greater protection, that rule prevails (Article 13).",
       "sections": [
         {
           "t": "Article 1 (Purpose)",

@@ -71,8 +71,9 @@ Edit **`data/apps.json`** only, then regenerate. Add a block to `apps`:
 
 `en, ko, ja, zh, zh_Hant, es, pt, de, fr, hi, id, ru, vi, tr, it, ar` — default `en`,
 Arabic renders right-to-left. Existing app documents retain their translations.
-Snuumo legal, deletion, support, and Impressum pages are available in Korean and English;
-other language choices display the English document with left-to-right text.
+Snuumo's privacy policy is available in all 16 languages. Its terms, deletion, support,
+and Impressum pages are available in Korean and English; other language choices
+display the English document with left-to-right text.
 
 - Copy lives in `data/i18n/<lang>.json`; any missing key falls back to `en.json`.
 - English is served by `/`; every other language also has a static page at `/<lang>/`
@@ -88,14 +89,19 @@ Custom per-app documents (`privacy.*`, `docs.*` keys in the i18n files) are rend
 shells that carry `data-privacy-app` or `data-legal-doc`. **Their URLs are referenced from
 app store listings and inside the apps — never change or remove them.**
 
-They are intentionally left out of `sitemap.xml` and have no pre-rendered language variants:
-they must stay reachable, but they name apps that have not launched yet, so there is no reason
-to invite indexing. For the same reason the generator skips `status: "coming_soon"` apps when
-pre-rendering the product grid — `app.js` still shows those cards to visitors.
+They are intentionally left out of `sitemap.xml` and have no pre-rendered language variants,
+but remain reachable through their existing URLs. The generator skips
+`status: "coming_soon"` apps when pre-rendering the product grid so unreleased apps
+are not promoted in search results — `app.js` still shows those cards to visitors.
+
+## Released apps
+
+Kairotique and Snuumo are available on both Google Play and the App Store. Their
+store links are maintained in `data/apps.json` and shown on their product cards.
 
 ## Snuumo pages
 
-Snuumo is listed as coming soon. Its public documents are under `/privacy/snuumo/`:
+Snuumo is listed as released. Its public documents are under `/privacy/snuumo/`:
 `terms/`, `delete-account/`, `support/`, `impressum/`, and the preserved policy
 `archive/2026-07-25/` and terms `archive/terms-2026-08-12/`. Support contact: **support@ssamoksoft.com**.
 The Snuumo document shells use same-origin assets and system fonts.

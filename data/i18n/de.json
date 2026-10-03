@@ -68,7 +68,7 @@
     "s_iap_title": "3. In-App-Käufe",
     "s_iap_body": "Einige Apps bieten In-App-Käufe über den App Store und Google Play an. Zahlungen werden vom jeweiligen Store abgewickelt; wir erheben oder speichern keine Zahlungskartendaten. Zur Kaufprüfung und zum Support können wir kaufbezogene Informationen wie Belege und Transaktions-IDs verarbeiten.",
     "s_thirdparty_title": "4. Dienste von Drittanbietern",
-    "s_thirdparty_body": "Je nach App verwenden wir: Google Firebase (Authentifizierung, Datenbank, Nutzungsanalyse und Absturzanalyse), Supabase (Backend für kommende Apps), Google AdMob (Auslieferung und Messung von Werbung) sowie App Store und Google Play (Abwicklung von In-App-Käufen). Apps, die Daten nur auf deinem Gerät speichern, übertragen sie nicht an einen Server. Welche Dienste eine App tatsächlich nutzt, ist in der Zusammenfassung der Datenverarbeitung der jeweiligen App aufgeführt.",
+    "s_thirdparty_body": "Je nach App verwenden wir: Google Firebase (Authentifizierung, Datenbank, Nutzungsanalyse und Absturzanalyse), Supabase (Backend), Google AdMob (Auslieferung und Messung von Werbung) sowie App Store und Google Play (Abwicklung von In-App-Käufen). Apps, die Daten nur auf deinem Gerät speichern, übertragen sie nicht an einen Server. Welche Dienste eine App tatsächlich nutzt, ist in der Zusammenfassung der Datenverarbeitung der jeweiligen App aufgeführt.",
     "s_ads_title": "5. Werbung",
     "s_ads_body": "Einige Apps können über Google AdMob Werbung anzeigen. Zur Auslieferung und Messung von Werbung können eine Werbe-ID und ähnliche Daten verwendet werden. Du kannst deine Werbe-ID zurücksetzen oder personalisierte Werbung in den Geräteeinstellungen einschränken.",
     "s_retention_title": "6. Aufbewahrung und Löschung von Daten",
@@ -334,7 +334,7 @@
     "snuumo_privacy": {
       "title": "Datenschutzerklärung von Snuumo",
       "updated": "Bekanntgemacht: 2026-10-02 · Gültig ab: 2026-10-02",
-      "applies": "Diese überarbeitete Richtlinie gilt ab 2026-10-02. Bis dahin gilt die nachfolgend archivierte bisherige Richtlinie:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=de\n\nDiese Erklärung wurde auf Koreanisch verfasst. Die deutsche Übersetzung des Originals https://www.ssamoksoft.com/privacy/snuumo/?lang=ko ermöglicht Nutzern und Prüfern ohne Koreanischkenntnisse das Verständnis desselben Inhalts.\n\nSSAMOK SOFT (싸목소프트, „Unternehmen“) stellt die Notiz-App „Snuumo“ („Dienst“) bereit und schützt und verarbeitet personenbezogene Daten wie nachfolgend beschrieben gemäß dem koreanischen Datenschutzgesetz (개인정보 보호법, PIPA) und anderen anwendbaren Gesetzen.",
+      "applies": "Snuumo ist für die Allgemeinheit bei Google Play und im App Store verfügbar.\n\nDiese überarbeitete Richtlinie gilt ab 2026-10-02. Bis dahin gilt die nachfolgend archivierte bisherige Richtlinie:\nhttps://www.ssamoksoft.com/privacy/snuumo/archive/before-analytics-2026-10-02/?lang=de\n\nDiese Erklärung wurde auf Koreanisch verfasst. Die deutsche Übersetzung des Originals https://www.ssamoksoft.com/privacy/snuumo/?lang=ko ermöglicht Nutzern und Prüfern ohne Koreanischkenntnisse das Verständnis desselben Inhalts.\n\nSSAMOK SOFT (싸목소프트, „Unternehmen“) stellt die Notiz-App „Snuumo“ („Dienst“) bereit und schützt und verarbeitet personenbezogene Daten wie nachfolgend beschrieben gemäß dem koreanischen Datenschutzgesetz (개인정보 보호법, PIPA) und anderen anwendbaren Gesetzen.",
       "sections": [
         {
           "t": "1. Erhobene Daten und Erhebung",

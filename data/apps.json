@@ -23,7 +23,7 @@
       "id": "kairotique",
       "category": "productivity",
       "accent": "#8B5CF6",
-      "status": "coming_soon",
+      "status": "released",
       "icon": "/assets/apps/kairotique.png",
       "links": {
         "play": "https://play.google.com/store/apps/details?id=com.ssamoksoft.kairotique",
@@ -78,9 +78,12 @@
       "id": "snuumo",
       "category": "productivity",
       "accent": "#7D9B76",
-      "status": "coming_soon",
+      "status": "released",
       "icon": null,
-      "links": {},
+      "links": {
+        "play": "https://play.google.com/store/apps/details?id=com.ssamoksoft.snuumo",
+        "appstore": "https://apps.apple.com/app/id6806026530"
+      },
       "privacy": {
         "backend": "supabase",
         "account": true,
