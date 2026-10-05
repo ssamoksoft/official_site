@@ -79,7 +79,7 @@
       "category": "productivity",
       "accent": "#7D9B76",
       "status": "released",
-      "icon": null,
+      "icon": "/assets/apps/snuumo.png",
       "links": {
         "play": "https://play.google.com/store/apps/details?id=com.ssamoksoft.snuumo",
         "appstore": "https://apps.apple.com/app/id6806026530"
