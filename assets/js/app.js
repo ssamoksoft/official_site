@@ -268,17 +268,18 @@ function renderChips() {
 }
 
 /* ---------- language switcher ---------- */
-// On the home page every language has its own URL, so the menu is built from real links:
+// Home and common privacy pages have fixed language URLs, so their menus use real links:
 // crawlers can follow them, and they can be opened in a new tab. Elsewhere there is nothing
 // to link to, so the menu stays a set of buttons that swap the text in place.
 // tools/build_lang_pages.py pre-renders this same markup so the links exist without JavaScript.
 function langMenuHTML() {
   const isHome = document.body.hasAttribute("data-home");
+  const isCommonPrivacy = document.body.hasAttribute("data-common-privacy");
   return LANGUAGES.map((l) => {
     const cur = l.code === currentLang ? ' aria-current="true"' : "";
     const inner = `<span>${l.label}</span><span class="lang__code">${langSlug(l.code)}</span>`;
-    const item = isHome
-      ? `<a class="lang__item" href="${langHref(l.code)}" hreflang="${langBcp(l.code)}" data-lang="${l.code}"${cur}>${inner}</a>`
+    const item = isHome || isCommonPrivacy
+      ? `<a class="lang__item" href="${isCommonPrivacy ? privacyHref(l.code) : langHref(l.code)}" hreflang="${langBcp(l.code)}" data-lang="${l.code}"${cur}>${inner}</a>`
       : `<button class="lang__item" data-lang="${l.code}"${cur}>${inner}</button>`;
     return `<li role="option">${item}</li>`;
   }).join("");
@@ -291,7 +292,7 @@ function buildLangMenu() {
     el.addEventListener("click", (e) => {
       const code = el.getAttribute("data-lang");
       closeLangMenu();
-      if (document.body.hasAttribute("data-home")) {
+      if (document.body.hasAttribute("data-home") || document.body.hasAttribute("data-common-privacy")) {
         if (code === currentLang) { e.preventDefault(); return; } // already here
         try { localStorage.setItem(STORAGE_KEY, code); } catch (err) {}
         return; // the <a> navigates on its own
@@ -321,6 +322,22 @@ function toggleLangMenu() {
 function langSlug(code) { return code.replace("_", "-"); }
 function langBcp(code) { return code === "zh" ? "zh-Hans" : langSlug(code); }
 function langHref(code) { return code === DEFAULT_LANG ? "/" : "/" + langSlug(code) + "/"; }
+function privacyHref(code) { return "/" + langSlug(code) + "/privacy/"; }
+function isCommonPrivacyPath(path) {
+  return path === "/privacy" || path === "/privacy/" ||
+    LANGUAGES.some((l) => path === privacyHref(l.code));
+}
+function updateCommonPrivacyCanonical() {
+  if (!document.body.hasAttribute("data-common-privacy")) return;
+  if (pageLang()) return; // Fixed language pages already declare their canonical in HTML.
+  let canonical = document.head.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement("link");
+    canonical.rel = "canonical";
+    document.head.appendChild(canonical);
+  }
+  canonical.href = "https://www.ssamoksoft.com" + privacyHref(currentLang);
+}
 function supportedLang(raw) {
   if (!raw) return null;
   const normalized = raw.replace("-", "_").toLowerCase();
@@ -337,6 +354,11 @@ function languageLink(href, code = currentLang) {
   let url;
   try { url = new URL(href, location.href); } catch (e) { return href; }
   if (url.origin !== location.origin) return href;
+  if (isCommonPrivacyPath(url.pathname)) {
+    url.pathname = privacyHref(code);
+    url.searchParams.delete("lang");
+    return url.pathname + url.search + url.hash;
+  }
   const home = LANGUAGES.some((l) => url.pathname === langHref(l.code));
   const legal = url.pathname === "/privacy" || url.pathname.startsWith("/privacy/");
   if (!home && !legal) return href;
@@ -368,9 +390,12 @@ function pageLang() {
   return c && LANGUAGES.some((l) => l.code === c) ? c : null;
 }
 function detectLang() {
+  // New common-policy URLs keep the language and canonical baked into their HTML.
+  // Existing /privacy/ and app-document URLs still honor ?lang= below.
+  const fixed = pageLang();
+  if (document.body.hasAttribute("data-common-privacy") && fixed) return fixed;
   const explicit = urlLang();
   if (explicit) return explicit;
-  const fixed = pageLang();
   if (fixed) return fixed;
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved && LANGUAGES.some((l) => l.code === saved)) return saved;
@@ -386,6 +411,9 @@ function detectLang() {
 }
 async function setLang(code, { persist = true } = {}) {
   currentLang = LANGUAGES.some((l) => l.code === code) ? code : DEFAULT_LANG;
+  // The compatible /privacy/?lang= entry keeps its URL and language behavior,
+  // but declares the matching static language page as its canonical immediately.
+  updateCommonPrivacyCanonical();
   try {
     strings = await loadJSON(`/data/i18n/${currentLang}.json`);
   } catch (e) {
@@ -406,6 +434,8 @@ async function setLang(code, { persist = true } = {}) {
   applyI18n();
   renderApps();
   renderPrivacy();
+  const privacyDescription = document.getElementById("privacy-description");
+  if (privacyDescription) privacyDescription.setAttribute("content", t("privacy.intro"));
   renderLegalDoc();
   preserveLinkLanguage();
   updateLangButton();

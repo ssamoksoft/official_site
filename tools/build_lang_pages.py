@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""Pre-render the home page in every supported language.
+"""Pre-render home and common privacy pages in every supported language.
 
-The site is a static, data-driven page: assets/js/app.js injects translated text
-from data/i18n/<lang>.json at runtime. Googlebot renders it in English, so no
-localized text ever reaches the index. This script bakes each language into its
-own crawlable page (/ko/, /ja/, …) while leaving the root page untouched as the
-English + auto-detecting entry point.
+The site runtime loads translated text from data/i18n/<lang>.json. This script
+bakes each language into its own crawlable HTML so indexing does not depend on
+JavaScript language detection. The root home page and /privacy/ remain
+auto-detecting entry points for existing links.
 
 Run it after changing copy in data/i18n/*.json or data/apps.json:
 
     python3 tools/build_lang_pages.py
 
-Output: <lang>/index.html for every non-English language, plus sitemap.xml.
+Output: localized home pages, <lang>/privacy/index.html (including en),
+the compatible /privacy/ entry point, and sitemap.xml.
 """
 
 import datetime
@@ -71,7 +71,7 @@ class Strings:
                     node = None
                     break
                 node = node[part]
-            if isinstance(node, str):
+            if isinstance(node, (str, list)):
                 return node
         return key
 
@@ -148,7 +148,11 @@ def render_apps(apps_data, lang, s):
     return "".join(out)
 
 
-def lang_menu_html(current):
+def privacy_href(code):
+    return f"/{code.replace('_', '-')}/privacy/"
+
+
+def lang_menu_html(current, privacy=False):
     """Mirror of langMenuHTML() in app.js for the home page (real links, not buttons).
 
     Baking these into the HTML gives every language page an inbound link that crawlers can
@@ -157,7 +161,7 @@ def lang_menu_html(current):
     """
     items = []
     for code, slug, bcp, label in LANGS:
-        href = "/" if not slug else f"/{slug}/"
+        href = privacy_href(code) if privacy else ("/" if not slug else f"/{slug}/")
         cur = ' aria-current="true"' if code == current else ""
         inner = f'<span>{esc(label)}</span><span class="lang__code">{esc(code.replace("_", "-"))}</span>'
         items.append(
@@ -167,10 +171,10 @@ def lang_menu_html(current):
     return "".join(items)
 
 
-def with_lang_menu(doc, current):
+def with_lang_menu(doc, current, privacy=False):
     return re.sub(
         r'(<ul class="lang__menu" id="lang-menu" role="listbox">).*?(</ul>)',
-        lambda m: m.group(1) + lang_menu_html(current) + m.group(2),
+        lambda m: m.group(1) + lang_menu_html(current, privacy) + m.group(2),
         doc,
         count=1,
         flags=re.S,
@@ -222,20 +226,86 @@ def build_page(template, lang, slug, bcp, label, s, apps_data):
     )
 
     doc = with_lang_menu(doc, lang)
+    # Only the common policy moves to a crawlable language URL. Store-linked
+    # /privacy/<app>/ documents keep their established destinations.
+    doc = doc.replace('href="/privacy/"', f'href="{privacy_href(lang)}"')
+    doc = doc.replace('href="/en/privacy/"', f'href="{privacy_href(lang)}"')
 
     # app.js expands {year} at runtime; bake it in so the token never shows without JS.
     doc = doc.replace("{year}", str(datetime.date.today().year))
     return doc
 
 
-def build_sitemap():
-    """Home pages only.
+def escape_and_link(value):
+    """Preserve the policy's existing text and clickable URLs (see app.js)."""
+    def link(match):
+        raw = match.group(0)
+        href = raw.rstrip(".,;:!?)]}")
+        return f'<a href="{href}" target="_blank" rel="noopener">{href}</a>' + raw[len(href):]
+    return re.sub(r"https?://[^\s<]+", link, esc(value))
 
-    The /privacy/** documents are deliberately left out. They must stay reachable —
+
+def privacy_body(s):
+    parts = [f'<h1>{esc(s.get("privacy.title"))}</h1>',
+             f'<p class="updated">{esc(s.get("privacy.updated"))}</p>',
+             f'<p class="applies">{esc(s.get("privacy.applies_common"))}</p>',
+             f'<p class="intro">{esc(s.get("privacy.intro"))}</p>']
+    for section in ("collect", "purpose", "iap", "thirdparty", "ads", "retention",
+                    "storage", "rights", "children", "contact", "representative", "changes", "business"):
+        prefix = f"privacy.s_{section}"
+        parts.append(f'<h2>{esc(s.get(prefix + "_title"))}</h2>')
+        body = s.get(prefix + "_body")
+        if body != prefix + "_body":
+            parts.append(f"<p>{escape_and_link(body)}</p>")
+        items = s.get(prefix + "_items")
+        if isinstance(items, list):
+            parts.append("<ul>" + "".join(f"<li>{escape_and_link(item)}</li>" for item in items) + "</ul>")
+    parts.append(f'<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> {esc(s.get("privacy.back"))}</a>')
+    return "\n".join(parts)
+
+
+def build_privacy_page(template, lang, bcp, label, s, legacy=False):
+    """Static language pages plus the existing auto-localized /privacy/ entry.
+
+    The legacy entry can show any language via ?lang= or saved preferences, so
+    app.js creates its canonical after selecting that language. Do not put a
+    conflicting English canonical in its source. Fixed pages have static canonicals.
+    """
+    direction = ' dir="rtl"' if lang in RTL else ""
+    doc = template.replace('<html lang="en">', f'<html lang="{bcp}"{direction}>', 1)
+    if not legacy:
+        doc = doc.replace('<body data-common-privacy>', f'<body data-common-privacy data-lang="{lang}">', 1)
+    doc = re.sub(r"<title>.*?</title>", lambda m: f'<title>{esc(s.get("privacy.title"))}</title>', doc, count=1)
+    doc = re.sub(r'(<meta name="description" id="privacy-description" content=")[^"]*(")',
+                 lambda m: m.group(1) + esc(s.get("privacy.intro")) + m.group(2), doc, count=1)
+    seo = [] if legacy else [f'<link rel="canonical" href="{SITE}{privacy_href(lang)}" />']
+    seo.append(f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/privacy/" />')
+    seo.extend(f'<link rel="alternate" hreflang="{other_bcp}" href="{SITE}{privacy_href(code)}" />'
+               for code, _, other_bcp, _ in LANGS)
+    doc = doc.replace('<!-- privacy-seo -->', "\n  ".join(seo), 1)
+    doc = doc.replace('<article class="container legal" id="privacy-root"></article>',
+                      '<article class="container legal" id="privacy-root">\n' + privacy_body(s) + '\n</article>', 1)
+    doc = re.sub(r'(<([\w]+)[^>]*\bdata-i18n="([^"]+)"[^>]*>).*?(</\2>)',
+                 lambda m: m.group(1) + esc(s.get(m.group(3))) + m.group(4), doc, flags=re.S)
+    doc = re.sub(r'(<span id="lang-current">).*?(</span>)',
+                 lambda m: m.group(1) + esc(label) + m.group(2), doc, count=1, flags=re.S)
+    doc = with_lang_menu(doc, lang, privacy=True)
+    home = "/" if lang == DEFAULT_LANG else f"/{lang.replace('_', '-')}/"
+    doc = doc.replace('href="/"', f'href="{home}"')
+    doc = doc.replace('href="/#', f'href="{home}#')
+    doc = doc.replace('href="/privacy/"', f'href="{privacy_href(lang)}"')
+    return doc.replace("{year}", str(datetime.date.today().year))
+
+
+def build_sitemap():
+    """Home pages and the common policy's fixed-language pages.
+
+    App-specific /privacy/** documents are deliberately left out. They stay reachable —
     app store listings and shipped apps link straight to them — but listing them here
     would actively invite indexing of pages naming apps that have not launched yet.
     """
     urls = [f"{SITE}/"] + [f"{SITE}/{slug}/" for _, slug, _, _ in LANGS if slug]
+    urls += [SITE + privacy_href(code) for code, _, _, _ in LANGS]
     body = "\n".join(f"  <url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
 
@@ -251,6 +321,7 @@ def main():
 
     # The root page is English, but it still needs the crawlable links to every other language.
     template = with_lang_menu(template, DEFAULT_LANG)
+    template = template.replace('href="/privacy/"', 'href="/en/privacy/"')
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
         f.write(template)
     print("  index.html            English (language links refreshed)")
@@ -268,9 +339,20 @@ def main():
         written += 1
         print(f"  {slug + '/index.html':22} {label}")
 
+    with open(os.path.join(ROOT, "tools/templates/privacy.html"), encoding="utf-8") as f:
+        privacy_template = f.read()
+    for lang, _, bcp, label in LANGS:
+        page = build_privacy_page(privacy_template, lang, bcp, label, Strings(lang, base))
+        outdir = os.path.join(ROOT, privacy_href(lang).strip("/"))
+        os.makedirs(outdir, exist_ok=True)
+        with open(os.path.join(outdir, "index.html"), "w", encoding="utf-8") as f:
+            f.write(page)
+    with open(os.path.join(ROOT, "privacy/index.html"), "w", encoding="utf-8") as f:
+        f.write(build_privacy_page(privacy_template, "en", "en", "English", Strings("en", base), legacy=True))
+
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(build_sitemap())
-    print(f"\n{written} language pages + sitemap.xml written")
+    print(f"\n{written} home pages + 16 privacy pages + /privacy/ entry + sitemap.xml written")
 
 
 if __name__ == "__main__":

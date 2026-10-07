@@ -78,8 +78,9 @@ display the English document with left-to-right text.
 - Copy lives in `data/i18n/<lang>.json`; any missing key falls back to `en.json`.
 - English is served by `/`; every other language also has a static page at `/<lang>/`
   (`/zh-Hant/` for `zh_Hant`), linked by `hreflang` and listed in `sitemap.xml`.
-- On the home page the switcher navigates between those URLs. Elsewhere it swaps text in
-  place. A supported `?lang=` query takes precedence without replacing a saved preference;
+- On home and common privacy pages the switcher navigates between language URLs.
+  App documents still swap text in place. On existing URLs, a supported `?lang=` query
+  takes precedence without replacing a saved preference;
   otherwise a static page declares `data-lang`, which overrides the saved preference.
   Internal document links preserve the current language.
 
@@ -89,8 +90,21 @@ Custom per-app documents (`privacy.*`, `docs.*` keys in the i18n files) are rend
 shells that carry `data-privacy-app` or `data-legal-doc`. **Their URLs are referenced from
 app store listings and inside the apps — never change or remove them.**
 
-They are intentionally left out of `sitemap.xml` and have no pre-rendered language variants,
-but remain reachable through their existing URLs. The generator skips
+App-specific documents are intentionally left out of `sitemap.xml` and retain their
+existing URLs and `?lang=` behavior, including the links registered in the stores.
+
+The **common policy** has pre-rendered pages at `/en/privacy/`, `/ko/privacy/`, etc.
+Each includes its translated body, a self-referencing canonical, reciprocal `hreflang`
+links, and a sitemap entry. These new fixed URLs always use their declared language,
+including when a conflicting query is present. `/privacy/` remains an auto-localized compatibility entry;
+it also retains `?lang=` and saved-language behavior, and its runtime creates one
+canonical pointing to the displayed language's static page. Its source intentionally
+omits an English canonical to avoid conflicting with an explicit language query.
+The English policy is present as a no-JavaScript fallback. The template lives in
+`tools/templates/privacy.html`; regenerate with `python3 tools/build_lang_pages.py`
+after changing the template, translations, or app data. Do not hand-edit generated pages.
+
+The generator skips
 `status: "coming_soon"` apps when pre-rendering the product grid so unreleased apps
 are not promoted in search results — `app.js` still shows those cards to visitors.
 
