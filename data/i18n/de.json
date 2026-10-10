@@ -129,7 +129,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Datenschutzerklärung",
-      "updated": "20. September 2026",
+      "updated": "2026-10-10",
       "applies": "Stelleaf von SSAMOK SOFT speichert Einträge und Fotos zuerst auf dem Gerät.",
       "sections": [
         {
@@ -144,7 +144,7 @@
         },
         {
           "t": "2. Local-first-Architektur",
-          "b": "Stelleaf von SSAMOK SOFT speichert Einträge und Fotos zuerst auf dem Gerät. Anmeldung, Cloud-Sicherung und Synchronisierung sind optional. Karten, Suche, Titelbilder und Abo-Prüfungen können bereits vor der Anmeldung externe Dienste kontaktieren. Vorrangige lokale Speicherung bedeutet nicht, dass keinerlei Informationen übertragen werden."
+          "b": "Stelleaf von SSAMOK SOFT speichert Einträge und Fotos zuerst auf dem Gerät. Anmeldung, Cloud-Sicherung und Synchronisierung sind optional. Karten, Suche, Titelbilder und Abo-Prüfungen können bereits vor der Anmeldung externe Dienste kontaktieren. Vorrangige lokale Speicherung bedeutet nicht, dass keinerlei Informationen übertragen werden. Bei kostenloser Nutzung können auch vor der Anmeldung Verbindungen zu Werbediensten entstehen. Nutzungsanalysen werden nur nach Ihrer gesonderten Einwilligung übertragen."
         },
         {
           "t": "3. Welche Daten wir erheben",
@@ -153,13 +153,15 @@
             "Konto: E-Mail-Adresse, interne Nutzer-ID und Kennung des Anmeldeanbieters – du wählst zwischen E-Mail+Passwort, Google-Anmeldung oder Apple-Anmeldung (Authentifizierungsinfrastruktur: Supabase Auth)",
             "Inhalte: Kategorien, Namen, Notizen, Barcodes und gewählte Koordinaten, Bewertungen, Daten, Detailpunkte, Kontext-Tags, Tags, Ranglisten, Analyse-Einstellungen, Fotos sowie Erstellungs-/Änderungszeiten",
             "Abos: RevenueCat erhält vor der Anmeldung eine zufällige anonyme App-ID, danach die interne Nutzer-ID sowie Abo-Status, Belege oder Kauf-Token und App-/Gerätedaten. Wir erhalten keine Kartennummern.",
-            "Karten: In Südkorea wird Naver bevorzugt, andernorts oder bei dessen Ausfall Google Maps. Kartenanfragen, sichtbarer Bereich, IP und SDK-Gerätedaten können verarbeitet werden. Der aktuelle Gerätestandort wird bei erteilter Berechtigung und Nutzung der Standortfunktion abgefragt.",
-            "Suche/Bilder: Suchbegriffe, Koordinaten, Barcodes und ISBN. Naver-Orts-, Kakao-Buch- und MFDS-Lebensmittelsuche laufen über Supabase-Funktionen. Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter können direkt kontaktiert werden; dabei werden auch IP und technische Daten übertragen. Angemeldete Serveranfragen enthalten Sitzungsdaten, die unser Suchproxy nicht an Suchanbieter weitergibt."
+            "Karten: iOS verwendet Apple Karten. Android verwendet in Südkorea Naver-Karten sowie Gebiets- und Ortssuche, im Ausland Google Maps sowie Gebiets- und Adresssuche. Anfragen, Kartenausschnitte, Suchbegriffe, IP und technische SDK-Daten können verarbeitet werden. Der aktuelle Gerätestandort wird nur bei erteilter Berechtigung und Nutzung der Standortfunktion abgefragt.",
+            "Suche/Bilder: Suchbegriffe, Koordinaten, Barcodes und ISBN. Naver-Orts-, Kakao-Buch- und MFDS-Lebensmittelsuche laufen über Supabase-Funktionen. Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter können direkt kontaktiert werden; dabei werden auch IP und technische Daten übertragen. Angemeldete Serveranfragen enthalten Sitzungsdaten, die unser Suchproxy nicht an Suchanbieter weitergibt.",
+            "Werbung: Kostenlose Nutzer können kleine native Google-AdMob-Anzeigen sehen. Für Auslieferung, Messung und Betrugsprävention kann das SDK aus der IP abgeleitete ungefähre Standorte, app-/gerätebezogene Kennungen, Anzeigenaufrufe und Interaktionen sowie App-, Geräte-, Leistungs- und Diagnosedaten verarbeiten. Eigene Aufzeichnungen, Notizen, Suchbegriffe, Fotos, Barcodes, genaue Koordinaten und Konto-IDs werden Werbeanfragen nicht beigefügt. Wir verwenden nicht personalisierte Anfragen. Die Android-Werbe-ID-Berechtigung wurde entfernt; unter iOS wird keine Tracking-Erlaubnis angefordert. Andere SDK-Kennungen und Messdaten können dennoch verarbeitet werden. Bei aktivem Premium werden keine Anzeigen angefordert oder angezeigt.",
+            "Nutzungsanalyse: Nur nach gesonderter Einwilligung verarbeitet Google Analytics for Firebase vordefinierte Funktionsereignisse (Bildschirme, Beginn/Speichern/Fehlschlag von Einträgen, Suche, Filter, Kartenansichten, Abo-Hinweise), App-Instanzkennungen sowie Geräte- und technische Daten. Inhalte, Titel, Notizen, Fotos, Suchbegriffe, genauer Standort, Barcodes, Konto-IDs und eigene Tag-Namen sind ausgeschlossen. Werbespeicherung, Werbenutzerdaten und Anzeigenpersonalisierung für Analytics werden nicht erlaubt."
           ]
         },
         {
           "t": "4. Fotos und Standortdaten",
-          "b": "Angehängte Fotos werden auf dem Gerät neu codiert und ohne EXIF einschließlich GPS gespeichert und gesichert. Auf unterstützten Geräten kann ursprüngliches GPS vorübergehend einen Ort vorschlagen. Nur von Ihnen ausgewählte oder auf der Karte bestätigte Koordinaten werden gespeichert. Kostenlose Konten erlauben 200 Cloud-Fotos, Stelleaf Premium unbegrenzt viele. Die App begrenzt die Anzahl lokaler Fotos nicht."
+          "b": "Angehängte Fotos werden auf dem Gerät neu codiert und ohne EXIF einschließlich GPS gespeichert und gesichert. Auf unterstützten Geräten kann ursprüngliches GPS vorübergehend einen Ort vorschlagen. Nur von Ihnen ausgewählte oder auf der Karte bestätigte Koordinaten werden gespeichert. Kostenlose Konten erlauben 100 Cloud-Fotos, Stelleaf Premium unbegrenzt viele. Die App begrenzt die Anzahl lokaler Fotos nicht. Kamerafotos werden standardmäßig der App angehängt. Zusätzliches Speichern in der Galerie ist über die Einstellungen oder einzeln in der Großansicht möglich. Berechtigungen werden bei Nutzung der Funktion angefragt. Einstellungen > Datenschutz > Berechtigungen zeigt Kamera-, Foto- und Standortzugriff und öffnet die Geräteeinstellungen."
         },
         {
           "t": "5. Zwecke und Rechtsgrundlagen",
@@ -168,7 +170,8 @@
             "Kontoverwaltung, Backup und geräteübergreifende Synchronisierung – Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)",
             "Zahlung und Verwaltung des bezahlten Abos – Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)",
             "Erfüllung rechtlicher Pflichten (z. B. Aufbewahrung von Zahlungsbelegen) – rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO)",
-            "Derzeit findet keine Verarbeitung auf Grundlage einer gesonderten Einwilligung statt"
+            "Optionale Nutzungsanalyse — Einwilligung. Ablehnung oder Abschalten unter Einstellungen > Datenschutz beeinträchtigt Aufzeichnen und Suchen nicht.",
+            "Werbeauslieferung, Messung und Betrugsprävention — erforderliche Auswahl und Einwilligung nach geltendem Recht und Google-Richtlinien. Im EWR, Vereinigten Königreich, der Schweiz und weiteren betroffenen Regionen prüft Google UMP die Auswahl. Anzeigen werden nur angefordert, wenn das SDK dies erlaubt. Bei Ablehnung gelten dessen Einwilligungs-/Limited-Ads-Regeln; die Aufzeichnungsfunktion bleibt verfügbar."
           ]
         },
         {
@@ -180,8 +183,8 @@
             "Kakao — Buchsuche und Bestätigungs-/Wiederherstellungsmails über Daum SMTP; Empfängeradresse und Inhalte einschließlich Bestätigungslinks (Südkorea)",
             "Koreanisches Ministerium für Lebensmittel- und Arzneimittelsicherheit – Lebensmittel-Barcode-Abfrage (Republik Korea, über Server-Proxy)",
             "RevenueCat – Aboverwaltung (USA)",
-            "Apple – Anmeldung und Zahlungen (USA)",
-            "Google – Anmeldung, Zahlungen und Karten (USA)",
+            "Apple — Anmeldung, Zahlungen, iOS-Karten sowie Orts-/Gebietssuche; funktionsbezogene Anfragen, Verbindungs- und technische Daten (USA und weltweite Standorte).",
+            "Google — Anmeldung, Zahlungen, Android-Karten im Ausland, AdMob-Werbung/Einwilligungsverwaltung und bei Einwilligung Firebase-Nutzungsanalyse (USA und weltweite Standorte).",
             "Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter — Barcode-, ISBN- und Bildanfragen sowie Verbindungsdaten wie IP-Adressen"
           ]
         },
@@ -191,7 +194,7 @@
           "l": [
             "Supabase (Unternehmen in Singapur): Authentifizierung, Suchanfragen und Nutzer-IDs für Löschung/Abo-Prüfung. Funktionen können außerhalb Seouls laufen; Regionen und Unterauftragnehmer siehe Links. Kontospeicherung: Abschnitt 8; Betriebsprotokolle: Anbieterbedingungen. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
             "RevenueCat (USA): anonyme/Konto-IDs, Kauf- und Gerätedaten für Abo-Verwaltung. Bei Kontolöschung fordern wir die Löschung des zugehörigen Kunden an; Verarbeitung erfolgt asynchron. https://www.revenuecat.com/privacy",
-            "Apple und Google (USA und globale Standorte): Kennungen/Transaktionen für gewählte Anmeldung oder Zahlung sowie Kartenanfragen, IP und Gerätedaten bei Google Maps. Verarbeitung solange für Dienste und gesetzliche Pflichten erforderlich. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Apple/Google: Kennungen und Transaktionen gewählter Anmelde-/Zahlungsfunktionen; Karten-/Suchanfragen sowie Verbindungs-/Technikdaten für Apple Karten unter iOS oder Google Maps im Ausland unter Android. Google verarbeitet außerdem die Werbe-, Einwilligungs- und optionalen Analysedaten aus Abschnitt 3, einschließlich IP, App-/Gerätekennungen, Anzeigeninteraktionen, Leistung und Diagnose, über verschlüsselte Verbindungen in den USA und weiteren globalen Einrichtungen. Die Speicherung richtet sich nach Erfordernissen für Dienste, Messung, Sicherheit und gesetzliche Pflichten sowie Anbieterrichtlinien. https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy · https://policies.google.com/technologies/ads · https://firebase.google.com/support/privacy",
             "Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter: Barcodes, ISBN, Bildadressen und IP werden bei Direktzugriff an ausländische Server für Suche, Auslieferung und Betriebsprotokolle übermittelt. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
           ]
         },
@@ -202,7 +205,8 @@
             "Kontolöschung: Serverfotos werden bereinigt, die RevenueCat-Kundenlöschung angefordert und anschließend Konto und Datenbankeinträge gelöscht. Das sind aufeinanderfolgende Schritte, keine atomare Gesamtlöschung. Fehler erfordern einen neuen Versuch. Gewählte Gerätedaten werden erst nach Serverbestätigung entfernt. RevenueCat verarbeitet die Löschung asynchron; Store-Abos und gesetzliche Transaktionsaufzeichnungen sind davon getrennt.",
             "Einzellöschung: Nach Synchronisierung entfernt die tägliche Serverbereinigung Inhalte wie Namen, Notizen, Bewertungen und Orte mehr als 30 Tage nach dem gespeicherten Löschzeitpunkt. Löschmarkierungen mit IDs, Beziehungen und Zeitangaben für die Synchronisierung werden nach 365 Tagen täglich bereinigt. Serverfotodateien werden separat bei der App-Synchronisierung entfernt; Offline-Nutzung oder Fehler können dies verzögern. Diese Fristen löschen nicht automatisch gelöschte Datensätze auf Ihrem Gerät.",
             "Löschbestätigung: Anfrage-/Nutzer-IDs und Zeitangaben zur Wiederholung werden bei der täglichen Bereinigung mehr als 30 Tage nach Abschluss entfernt. Unvollständige Anfragen bleiben zur Fortsetzung erhalten.",
-            "Gesetzliche Aufbewahrung: Nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften werden Aufzeichnungen zu Verträgen und Widerrufen 5 Jahre, zu Zahlungen und Leistungserbringung 5 Jahre und zu Verbraucherbeschwerden und Streitigkeiten 3 Jahre aufbewahrt und anschließend vernichtet"
+            "Gesetzliche Aufbewahrung: Nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften werden Aufzeichnungen zu Verträgen und Widerrufen 5 Jahre, zu Zahlungen und Leistungserbringung 5 Jahre und zu Verbraucherbeschwerden und Streitigkeiten 3 Jahre aufbewahrt und anschließend vernichtet",
+            "Das Abschalten der Analyse beendet zukünftige Erhebung und setzt die Analytics-Instanz auf dem Gerät zurück. Bereits an Google übermittelte Daten werden dadurch nicht sofort vollständig gelöscht. Serverseitige Aufbewahrung/Löschung folgt Anbietereinstellungen und -richtlinien. Datenschutzanfragen: ssamoksoft@gmail.com."
           ]
         },
         {
@@ -213,7 +217,8 @@
             "Er enthält auch Datensätze, die zur Löschung markiert, aber noch nicht endgültig gelöscht sind — der Export liest die auf diesem Gerät gespeicherten Daten, daher kann ein Datensatz enthalten sein, dessen Inhalt auf dem Server bereits gelöscht wurde, solange er auf diesem Gerät verbleibt",
             "Eine im angemeldeten Zustand exportierte Datei enthält deine Kontokennung (UUID)",
             "Die Exportdatei ist nicht verschlüsselt — gib sie nicht an Dritte weiter",
-            "Beschwerden: Personen in der EU können sich an ihre nationale Aufsichtsbehörde wenden; in Korea an das Privacy Infringement Report Centre (privacy.kr, 118)"
+            "Beschwerden: Personen in der EU können sich an ihre nationale Aufsichtsbehörde wenden; in Korea an das Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Die Nutzungsanalyse lässt sich unter Einstellungen > Datenschutz ändern. Wenn Google UMP es verlangt, bietet derselbe Bildschirm Werbedatenschutzoptionen. Geräteberechtigungen und Werbedatenschutzeinstellungen des Betriebssystems werden getrennt in den Geräteeinstellungen verwaltet."
           ]
         },
         {
@@ -228,9 +233,10 @@
           "t": "12. Was wir nicht tun",
           "b": "Stelleaf tut Folgendes nicht.",
           "l": [
-            "Keine Werbung und keine Erhebung von Werbe-IDs",
+            "Persönliche Aufzeichnungen werden nicht als öffentlicher Bewertungsdienst für andere Nutzer betrieben.",
+            "Persönliche Aufzeichnungsinhalte, Fotos, Suchbegriffe und genaue Standorte werden nicht als Inhalt von Werbeanfragen oder Analyseereignissen übermittelt.",
             "Kein Verkauf personenbezogener Daten",
-            "Werbeprofiling oder automatisierte Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung; persönliche Geschmacksstatistiken werden auf dem Gerät berechnet",
+            "Persönliche Geschmacksstatistiken werden auf dem Gerät berechnet; es gibt keine automatisierten Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung.",
             "Keine Marketingnachrichten",
             "Keine absichtliche Erhebung von Daten von Kindern unter 14 Jahren"
           ]

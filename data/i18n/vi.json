@@ -129,7 +129,7 @@
     },
     "stelleaf_privacy": {
       "title": "Chính sách quyền riêng tư của Stelleaf",
-      "updated": "20 tháng 9 năm 2026",
+      "updated": "2026-10-10",
       "applies": "Stelleaf của SSAMOK SOFT ưu tiên lưu bản ghi và ảnh trên thiết bị.",
       "sections": [
         {
@@ -144,7 +144,7 @@
         },
         {
           "t": "2. Thiết kế ưu tiên cục bộ",
-          "b": "Stelleaf của SSAMOK SOFT ưu tiên lưu bản ghi và ảnh trên thiết bị. Đăng nhập, sao lưu đám mây và đồng bộ là tùy chọn. Bản đồ, tìm kiếm, ảnh bìa và kiểm tra thuê bao vẫn có thể liên hệ dịch vụ bên ngoài trước khi đăng nhập. Ưu tiên cục bộ không có nghĩa là không truyền thông tin ra ngoài."
+          "b": "Stelleaf của SSAMOK SOFT ưu tiên lưu bản ghi và ảnh trên thiết bị. Đăng nhập, sao lưu đám mây và đồng bộ là tùy chọn. Bản đồ, tìm kiếm, ảnh bìa và kiểm tra thuê bao vẫn có thể liên hệ dịch vụ bên ngoài trước khi đăng nhập. Ưu tiên cục bộ không có nghĩa là không truyền thông tin ra ngoài. Người dùng miễn phí cũng có thể kết nối với dịch vụ quảng cáo trước khi đăng nhập. Dữ liệu phân tích sử dụng chỉ được gửi khi có sự đồng ý riêng của bạn."
         },
         {
           "t": "3. Dữ liệu chúng tôi thu thập",
@@ -153,13 +153,15 @@
             "Tài khoản: địa chỉ email, ID người dùng nội bộ và định danh nhà cung cấp đăng nhập — bạn chọn một trong email+mật khẩu, đăng nhập Google hoặc đăng nhập Apple (hạ tầng xác thực: Supabase Auth)",
             "Nội dung: danh mục, tên, ghi chú, mã vạch, tọa độ đã chọn, đánh giá, ngày, điểm chi tiết, thẻ bối cảnh, thẻ, bảng xếp hạng, thiết lập phân tích, ảnh và thời gian tạo/sửa",
             "Thuê bao: RevenueCat nhận ID ứng dụng ẩn danh ngẫu nhiên trước đăng nhập, ID người dùng nội bộ sau đăng nhập, cùng trạng thái thuê bao, biên nhận hoặc mã mua hàng và thông tin ứng dụng/thiết bị. Chúng tôi không nhận số thẻ thanh toán.",
-            "Bản đồ: ưu tiên Naver tại Hàn Quốc; dùng Google Maps ở nơi khác hoặc khi Naver không khả dụng. Có thể xử lý yêu cầu bản đồ, vùng hiển thị, IP và dữ liệu thiết bị của SDK. Vị trí hiện tại chỉ được truy vấn khi bạn cấp quyền và sử dụng tính năng đó.",
-            "Tìm kiếm/ảnh: từ khóa, tọa độ, mã vạch, ISBN. Tìm địa điểm Naver, sách Kakao và thực phẩm MFDS đi qua hàm Supabase. Ứng dụng có thể kết nối trực tiếp Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh, đồng thời truyền IP và dữ liệu kỹ thuật. Yêu cầu máy chủ khi đăng nhập có thông tin xác thực; máy chủ tìm kiếm trung gian không chuyển thông tin này cho bên cung cấp tìm kiếm."
+            "Bản đồ: iOS sử dụng Apple Maps. Android sử dụng bản đồ và tìm kiếm khu vực/địa điểm Naver tại Hàn Quốc, Google Maps cùng tìm kiếm khu vực/địa chỉ ở nước ngoài. Có thể xử lý yêu cầu, vùng hiển thị, từ khóa, IP và dữ liệu kỹ thuật SDK. Vị trí hiện tại chỉ được đọc khi bạn cấp quyền và dùng chức năng vị trí hiện tại.",
+            "Tìm kiếm/ảnh: từ khóa, tọa độ, mã vạch, ISBN. Tìm địa điểm Naver, sách Kakao và thực phẩm MFDS đi qua hàm Supabase. Ứng dụng có thể kết nối trực tiếp Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh, đồng thời truyền IP và dữ liệu kỹ thuật. Yêu cầu máy chủ khi đăng nhập có thông tin xác thực; máy chủ tìm kiếm trung gian không chuyển thông tin này cho bên cung cấp tìm kiếm.",
+            "Quảng cáo: người dùng miễn phí có thể thấy quảng cáo gốc cỡ nhỏ của Google AdMob. SDK có thể xử lý vị trí gần đúng suy ra từ IP, mã định danh phạm vi ứng dụng/thiết bị, lượt hiển thị và tương tác quảng cáo, thông tin ứng dụng/thiết bị, hiệu suất và chẩn đoán để phân phối, đo lường và chống gian lận. Chúng tôi không đưa bản ghi, ghi chú, từ khóa, ảnh, mã vạch, tọa độ chính xác hay ID tài khoản vào yêu cầu quảng cáo. Yêu cầu dùng chế độ không cá nhân hóa. Quyền ID quảng cáo Android đã bị loại bỏ và iOS không yêu cầu quyền theo dõi; mã định danh SDK khác và dữ liệu đo lường vẫn có thể được xử lý. Khi Premium còn hiệu lực, ứng dụng không yêu cầu hay hiển thị quảng cáo.",
+            "Phân tích sử dụng: chỉ khi có sự đồng ý riêng, Google Analytics for Firebase xử lý các sự kiện định sẵn (màn hình, bắt đầu/lưu/lỗi bản ghi, tìm kiếm, bộ lọc, bản đồ, giới thiệu đăng ký), mã định danh phiên bản ứng dụng và dữ liệu thiết bị/kỹ thuật. Không gồm nội dung, tiêu đề, ghi chú, ảnh, từ khóa, vị trí chính xác, mã vạch, ID tài khoản hoặc tên thẻ tự tạo. Không cho phép lưu trữ quảng cáo, dữ liệu người dùng quảng cáo và cá nhân hóa quảng cáo của Analytics."
           ]
         },
         {
           "t": "4. Ảnh và dữ liệu vị trí",
-          "b": "Ảnh đính kèm được mã hóa lại trên thiết bị; lưu và sao lưu bản sao đã bỏ EXIF, kể cả GPS. Trên thiết bị hỗ trợ, GPS gốc có thể tạm dùng để gợi ý địa điểm. Chỉ tọa độ bạn chọn từ gợi ý hoặc xác nhận trên bản đồ mới được lưu. Tài khoản miễn phí có tối đa 200 ảnh đám mây; Stelleaf Premium không giới hạn số ảnh. Ứng dụng không giới hạn số ảnh cục bộ."
+          "b": "Ảnh đính kèm được mã hóa lại trên thiết bị; lưu và sao lưu bản sao đã bỏ EXIF, kể cả GPS. Trên thiết bị hỗ trợ, GPS gốc có thể tạm dùng để gợi ý địa điểm. Chỉ tọa độ bạn chọn từ gợi ý hoặc xác nhận trên bản đồ mới được lưu. Tài khoản miễn phí có tối đa 100 ảnh đám mây; Stelleaf Premium không giới hạn số ảnh. Ứng dụng không giới hạn số ảnh cục bộ. Ảnh chụp mặc định được đính kèm vào ứng dụng. Có thể bật lưu thêm vào thư viện trong Cài đặt hoặc lưu từng ảnh ở chế độ xem lớn. Quyền được yêu cầu khi dùng chức năng. Cài đặt > Quyền riêng tư > Quyền truy cập hiển thị quyền máy ảnh, ảnh và vị trí, đồng thời mở cài đặt thiết bị."
         },
         {
           "t": "5. Mục đích và căn cứ pháp lý",
@@ -168,7 +170,8 @@
             "Quản lý tài khoản, sao lưu và đồng bộ giữa các thiết bị — thực hiện hợp đồng (GDPR 6(1)(b))",
             "Thanh toán và quản lý gói đăng ký trả phí — thực hiện hợp đồng (GDPR 6(1)(b))",
             "Tuân thủ nghĩa vụ pháp lý (ví dụ lưu giữ chứng từ thanh toán) — nghĩa vụ pháp lý (GDPR 6(1)(c))",
-            "Hiện không có hoạt động xử lý nào dựa trên sự đồng ý riêng"
+            "Phân tích sử dụng tùy chọn — sự đồng ý. Từ chối hoặc tắt trong Cài đặt > Quyền riêng tư không ngăn việc ghi lại và tìm kiếm.",
+            "Phân phối/đo lường quảng cáo và chống gian lận — lựa chọn và đồng ý theo luật áp dụng và chính sách Google. Tại EEA, Anh, Thụy Sĩ và các khu vực liên quan, Google UMP kiểm tra lựa chọn; chỉ yêu cầu quảng cáo khi SDK cho phép. Việc từ chối tuân theo quy tắc đồng ý/quảng cáo hạn chế của SDK, không chặn chức năng ghi lại."
           ]
         },
         {
@@ -180,8 +183,8 @@
             "Kakao — tìm sách và gửi thư xác nhận/khôi phục qua Daum SMTP, xử lý địa chỉ nhận và nội dung gồm liên kết xác minh (Hàn Quốc)",
             "Bộ An toàn Thực phẩm và Dược phẩm Hàn Quốc — tra mã vạch thực phẩm (Hàn Quốc, qua proxy máy chủ)",
             "RevenueCat — quản lý gói đăng ký (Hoa Kỳ)",
-            "Apple — đăng nhập và thanh toán (Hoa Kỳ)",
-            "Google — đăng nhập, thanh toán và bản đồ (Hoa Kỳ)",
+            "Apple — đăng nhập, thanh toán, bản đồ iOS và tìm kiếm địa điểm/khu vực; yêu cầu chức năng và dữ liệu kết nối/kỹ thuật (Hoa Kỳ và cơ sở toàn cầu).",
+            "Google — đăng nhập, thanh toán, bản đồ Android ở nước ngoài, quảng cáo/quản lý đồng ý AdMob, và phân tích Firebase khi đồng ý (Hoa Kỳ và cơ sở toàn cầu).",
             "Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh — yêu cầu mã vạch, ISBN, ảnh cùng dữ liệu kết nối như IP"
           ]
         },
@@ -191,7 +194,7 @@
           "l": [
             "Supabase (pháp nhân Singapore): xác thực, tìm kiếm, ID dùng để xóa/kiểm tra thuê bao. Hàm có thể chạy ngoài Seoul; vùng và bên xử lý phụ tại liên kết dưới. Thời hạn tài khoản: mục 8; nhật ký vận hành: điều khoản nhà cung cấp. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
             "RevenueCat (Hoa Kỳ): ID ẩn danh/tài khoản, giao dịch và thiết bị để quản lý thuê bao. Khi xóa tài khoản, chúng tôi yêu cầu xóa khách hàng liên kết; nhà cung cấp xử lý bất đồng bộ. https://www.revenuecat.com/privacy",
-            "Apple và Google (Hoa Kỳ và cơ sở toàn cầu): định danh/giao dịch của cách đăng nhập, thanh toán đã chọn; yêu cầu bản đồ, IP, thiết bị cho Google Maps, trong thời gian cần cho dịch vụ và nghĩa vụ pháp luật. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Apple/Google: mã định danh và giao dịch của chức năng đăng nhập/thanh toán đã chọn; yêu cầu bản đồ/tìm kiếm và dữ liệu kết nối/kỹ thuật của Apple Maps iOS hoặc Google Maps Android ở nước ngoài. Google còn xử lý dữ liệu quảng cáo, đồng ý và phân tích tùy chọn tại mục 3, gồm IP, mã định danh, tương tác quảng cáo, hiệu suất và chẩn đoán, qua kết nối mã hóa tại Hoa Kỳ và các cơ sở toàn cầu khác. Thời gian lưu theo nhu cầu dịch vụ, đo lường, bảo mật, nghĩa vụ pháp lý và chính sách nhà cung cấp. https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy · https://policies.google.com/technologies/ads · https://firebase.google.com/support/privacy",
             "Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh: mã vạch, ISBN, địa chỉ ảnh và IP gửi trực tiếp đến máy chủ nước ngoài để tìm kiếm, phân phối nội dung và ghi nhật ký vận hành. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
           ]
         },
@@ -202,7 +205,8 @@
             "Xóa tài khoản: dọn ảnh máy chủ, yêu cầu RevenueCat xóa khách hàng liên kết, rồi xóa tài khoản và bản ghi cơ sở dữ liệu. Đây là các bước tuần tự qua nhiều hệ thống, không phải một lần xóa nguyên tử. Lỗi cần thử lại. Ứng dụng chỉ dọn dữ liệu thiết bị đã chọn sau khi máy chủ xác nhận. RevenueCat xử lý bất đồng bộ; thuê bao cửa hàng và hồ sơ giao dịch theo luật là riêng biệt.",
             "Xóa từng mục: sau đồng bộ, tác vụ hằng ngày xóa nội dung (tên, ghi chú, điểm, vị trí) quá 30 ngày kể từ thời điểm xóa ghi trên máy chủ. Các hàng đánh dấu còn giữ ID, liên kết và thời gian phục vụ đồng bộ được dọn hằng ngày sau 365 ngày. Tệp ảnh máy chủ được dọn riêng khi ứng dụng đồng bộ; ngoại tuyến hoặc lỗi có thể làm chậm. Những mốc này không tự động xóa bản ghi đã xóa còn trên thiết bị.",
             "Xác nhận xóa: ID yêu cầu/người dùng và thời gian để xử lý phản hồi thất lạc hoặc thử lại được dọn hằng ngày khi quá 30 ngày từ lúc hoàn tất. Yêu cầu chưa xong được giữ để tiếp tục.",
-            "Lưu giữ theo luật: theo luật thương mại điện tử Hàn Quốc và các quy định liên quan, hồ sơ hợp đồng và rút lui được giữ 5 năm, hồ sơ thanh toán và cung cấp 5 năm, hồ sơ khiếu nại và tranh chấp của người tiêu dùng 3 năm, sau đó bị tiêu hủy"
+            "Lưu giữ theo luật: theo luật thương mại điện tử Hàn Quốc và các quy định liên quan, hồ sơ hợp đồng và rút lui được giữ 5 năm, hồ sơ thanh toán và cung cấp 5 năm, hồ sơ khiếu nại và tranh chấp của người tiêu dùng 3 năm, sau đó bị tiêu hủy",
+            "Tắt phân tích sẽ ngừng thu thập về sau và đặt lại phiên bản Analytics trên thiết bị. Không có nghĩa mọi dữ liệu đã gửi đến Google bị xóa ngay; lưu giữ/xóa trên máy chủ theo cấu hình và chính sách nhà cung cấp. Yêu cầu: ssamoksoft@gmail.com."
           ]
         },
         {
@@ -213,7 +217,8 @@
             "Tệp cũng chứa những bản ghi đã đánh dấu xóa nhưng chưa bị hủy hoàn toàn — bản xuất đọc dữ liệu lưu trên thiết bị này, nên một bản ghi đã bị xóa nội dung trên máy chủ vẫn có thể được đưa vào nếu còn nằm trên thiết bị này",
             "Tệp xuất khi đang đăng nhập sẽ ghi lại mã định danh tài khoản (UUID) của bạn",
             "Tệp xuất không được mã hóa — hãy cẩn thận không chia sẻ cho người khác",
-            "Khiếu nại: cư dân EU có thể khiếu nại tới cơ quan giám sát quốc gia mình; tại Hàn Quốc là Privacy Infringement Report Centre (privacy.kr, 118)"
+            "Khiếu nại: cư dân EU có thể khiếu nại tới cơ quan giám sát quốc gia mình; tại Hàn Quốc là Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Có thể đổi phân tích trong Cài đặt > Quyền riêng tư. Khi Google UMP yêu cầu, cùng màn hình sẽ có lựa chọn quyền riêng tư quảng cáo. Quyền thiết bị và lựa chọn quảng cáo của hệ điều hành được quản lý riêng trong cài đặt thiết bị."
           ]
         },
         {
@@ -228,9 +233,10 @@
           "t": "12. Những điều chúng tôi không làm",
           "b": "Stelleaf không làm bất kỳ điều nào sau đây.",
           "l": [
-            "Không có quảng cáo và không thu thập định danh quảng cáo",
+            "Không vận hành bản ghi cá nhân thành dịch vụ đánh giá công khai cho người dùng khác.",
+            "Không gửi nội dung bản ghi cá nhân, ảnh, từ khóa hay vị trí chính xác làm nội dung yêu cầu quảng cáo hoặc sự kiện phân tích.",
             "Không bán dữ liệu cá nhân",
-            "Lập hồ sơ quảng cáo hoặc quyết định tự động có tác động pháp lý hay đáng kể tương đương; thống kê sở thích cá nhân được tính trên thiết bị",
+            "Thống kê sở thích được tính trên thiết bị; không đưa ra quyết định tự động có tác động pháp lý hay tương tự đáng kể.",
             "Không gửi thông điệp tiếp thị",
             "Không cố ý thu thập dữ liệu của trẻ dưới 14 tuổi"
           ]

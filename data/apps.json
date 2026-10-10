@@ -124,7 +124,7 @@
       "privacy": {
         "backend": "supabase",
         "account": true,
-        "ads": false,
+        "ads": true,
         "iap": true
       },
       "docs": [

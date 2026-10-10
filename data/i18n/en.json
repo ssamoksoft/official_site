@@ -200,7 +200,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Privacy Policy",
-      "updated": "20 September 2026",
+      "updated": "2026-10-10",
       "applies": "Stelleaf by SSAMOK SOFT stores records and photos on your device first.",
       "sections": [
         {
@@ -215,7 +215,7 @@
         },
         {
           "t": "2. Local-first design",
-          "b": "Stelleaf by SSAMOK SOFT stores records and photos on your device first. Account sign-in and cloud backup/sync are optional. Maps, search, cover images and subscription checks can nevertheless contact external services before sign-in. Local-first does not mean that no information leaves the device."
+          "b": "Stelleaf by SSAMOK SOFT stores records and photos on your device first. Account sign-in and cloud backup/sync are optional. Maps, search, cover images and subscription checks can nevertheless contact external services before sign-in. Local-first does not mean that no information leaves the device. Free users may also contact advertising services before sign-in. App usage analytics are sent only with your separate consent."
         },
         {
           "t": "3. Data we collect",
@@ -224,13 +224,15 @@
             "Account: email address, internal user ID, and sign-in provider identifier — you choose one of email+password, Google sign-in, or Apple sign-in (authentication infrastructure: Supabase Auth)",
             "Content: categories, item names/notes/barcodes/selected location coordinates, ratings, dates, detailed scores, context tags, tags, ranking boards, analysis settings, photos and creation/modification times",
             "Subscriptions: RevenueCat receives a random anonymous app ID before sign-in and the internal user ID after sign-in, plus subscription status, receipts or purchase tokens, and app/device information. We do not receive payment card numbers.",
-            "Maps: Naver is preferred in South Korea; Google Maps is used elsewhere or when Naver is unavailable. Map requests, the viewed area, IP and SDK device information may be processed. The device's current location is requested when you allow permission and use the current-location feature.",
-            "Search/images: queries, coordinates, barcodes and ISBNs are processed. Naver place, Kakao book and MFDS food searches pass through Supabase functions. The app can directly contact Open Food Facts, Open Beauty Facts, OpenLibrary and image providers. Connections also disclose IP/technical information. Signed-in server requests contain account authentication; our search proxy does not forward that authentication to search providers."
+            "Maps: iOS uses Apple Maps. Android uses Naver maps and area/place searches in South Korea, and Google Maps with area/address searches abroad. Requests, viewed areas, queries, IP and SDK technical data may be processed. Your current device location is read only when you grant permission and use the current-location feature.",
+            "Search/images: queries, coordinates, barcodes and ISBNs are processed. Naver place, Kakao book and MFDS food searches pass through Supabase functions. The app can directly contact Open Food Facts, Open Beauty Facts, OpenLibrary and image providers. Connections also disclose IP/technical information. Signed-in server requests contain account authentication; our search proxy does not forward that authentication to search providers.",
+            "Advertising: free users may see small Google AdMob native ads. The SDK may process IP-derived approximate location, app/device-scoped identifiers, ad impressions and interactions, device/app information, performance and diagnostics for ad delivery, measurement and fraud prevention. We do not include personal records, notes, queries, photos, barcodes, precise coordinates or account IDs in ad requests. Requests use non-personalized settings. Android's advertising ID permission is removed and iOS does not request tracking permission; other SDK identifiers and measurement data may still be processed. While Premium is active, the app neither requests nor displays ads.",
+            "App usage analytics: only with your separate consent, Google Analytics for Firebase processes predefined feature events (such as screens, record creation/save/failure, search/filter/map views and subscription prompts), app-instance identifiers and device/technical data. Events exclude record contents, titles, notes, photos, queries, precise location, barcodes, account IDs and custom tag names. Analytics ad storage, ad user data and ad personalization signals are not permitted."
           ]
         },
         {
           "t": "4. Photos and location data",
-          "b": "Attached photos are re-encoded on-device; copies without EXIF, including GPS, are stored and backed up. On supported devices, original GPS can be used temporarily for a location suggestion. Only coordinates you select from a suggestion or confirm on the map are saved to a record. Cloud photos are limited to 200 for free accounts, with no photo-count limit for Stelleaf Premium. The app imposes no local photo-count limit."
+          "b": "Attached photos are re-encoded on-device; copies without EXIF, including GPS, are stored and backed up. On supported devices, original GPS can be used temporarily for a location suggestion. Only coordinates you select from a suggestion or confirm on the map are saved to a record. Cloud photos are limited to 100 for free accounts, with no photo-count limit for Stelleaf Premium. The app imposes no local photo-count limit. Camera photos are attached to the app by default. You may enable additional gallery saving in Settings or save individual photos in the enlarged viewer. Permissions are requested when using the feature. Settings > Privacy > Permissions shows camera, photo and location access and links to device settings."
         },
         {
           "t": "5. Purposes and legal bases",
@@ -239,7 +241,8 @@
             "Account management, backup, and cross-device sync — performance of a contract (GDPR 6(1)(b))",
             "Payment and management of the paid subscription — performance of a contract (GDPR 6(1)(b))",
             "Compliance with legal obligations (e.g. retention of payment records) — legal obligation (GDPR 6(1)(c))",
-            "There is currently no processing based on separate consent"
+            "Optional app usage analytics — consent. You can refuse or switch it off in Settings > Privacy without losing record or search features.",
+            "Ad delivery, measurement and fraud prevention — choices and consent where required by applicable law and Google policy. In regions such as the EEA, UK and Switzerland, Google UMP checks the user's choice; ads are requested only when the SDK permits. Refusal follows the SDK's consent/limited-ad rules and does not block recording."
           ]
         },
         {
@@ -251,8 +254,8 @@
             "Kakao — book search and Daum SMTP delivery of sign-up confirmation/password recovery emails, processing recipient addresses and email content such as verification links (South Korea)",
             "Korean Ministry of Food and Drug Safety — food barcode lookup (Republic of Korea, via server proxy)",
             "RevenueCat — subscription management (United States)",
-            "Apple — sign-in and payments (United States)",
-            "Google — sign-in, payments, and maps (United States)",
+            "Apple — sign-in, payments, iOS maps and place/area search; feature-specific requests and connection/technical data (United States and global facilities).",
+            "Google — sign-in, payments, Android maps abroad, AdMob ads/consent management and, if you consent, Firebase app usage analytics (United States and global facilities).",
             "Open Food Facts, Open Beauty Facts, OpenLibrary and image providers — barcode, ISBN and image requests, plus connection information such as IP addresses"
           ]
         },
@@ -262,7 +265,7 @@
           "l": [
             "Supabase (Singapore entity) — account authentication, search requests and user IDs for deletion/subscription checks; global function processing outside primary Seoul storage is possible. Regions/subprocessors: https://supabase.com/docs/guides/functions/regional-invocation and https://supabase.com/legal/customer-resources/subprocessor-list . Account retention follows section 8; operational logs follow provider terms.",
             "RevenueCat (United States) — anonymous/account app IDs, purchase and device information for subscription management. On account deletion we request erasure of the linked customer; processing is asynchronous. https://www.revenuecat.com/privacy",
-            "Apple and Google (United States and global facilities) — identifiers/transactions for the sign-in or payment feature you choose; map requests, IP/device information for Google Maps. Processing lasts as needed for those services and legal duties. https://www.apple.com/legal/privacy/ and https://policies.google.com/privacy",
+            "Apple/Google: identifiers and transactions for chosen sign-in/payment features; map/search requests and connection/technical data for Apple Maps on iOS or Google Maps abroad on Android. Google also processes the ad/consent and optional analytics data described in section 3, including IP, app/device identifiers, ad interactions, performance and diagnostics, over encrypted connections in the United States and other global facilities. Retention follows service, measurement, security and legal needs and provider policies. https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy · https://policies.google.com/technologies/ads · https://firebase.google.com/support/privacy",
             "Open Food Facts, Open Beauty Facts, OpenLibrary and image providers — direct requests disclose barcodes, ISBNs, image addresses and connection/IP information to overseas servers for search, content delivery and operational logs. https://world.openfoodfacts.org/privacy and https://archive.org/about/terms.php"
           ]
         },
@@ -273,7 +276,8 @@
             "Account deletion: we remove server photos, request erasure of the linked RevenueCat customer, then delete the account and database records. These are sequential operations across systems, not one atomic deletion. Failed steps require retry; the app clears the selected device data only after server confirmation. RevenueCat processes erasure asynchronously. Store subscriptions and statutory transaction records are separate.",
             "Individual deletion: once synced, daily server cleanup clears content (names, notes, scores, locations, etc.) more than 30 days after the recorded deletion time. Deleted rows retaining IDs, relationships and timestamps needed for sync are removed by daily cleanup after 365 days. Server photo files are cleaned separately during app sync and may be delayed by offline use or failure. These periods do not automatically erase deleted records on your device.",
             "Deletion confirmation: request/user IDs and timestamps used to recover lost responses or retries are removed by daily cleanup more than 30 days after completion. Incomplete requests remain so processing can resume.",
-            "Statutory retention: under the Korean e-commerce act and related laws, records of contracts and withdrawals are kept 5 years, payment and supply records 5 years, and consumer complaint/dispute records 3 years, then destroyed"
+            "Statutory retention: under the Korean e-commerce act and related laws, records of contracts and withdrawals are kept 5 years, payment and supply records 5 years, and consumer complaint/dispute records 3 years, then destroyed",
+            "Disabling analytics stops future collection and resets the on-device Analytics instance. This does not instantly erase all data already sent to Google; server retention/deletion follows provider settings and policies. Contact ssamoksoft@gmail.com for privacy requests."
           ]
         },
         {
@@ -284,7 +288,8 @@
             "It also contains records that are marked for deletion but not yet fully purged — the export reads the data stored on this device, so a record whose content has already been erased on the server may still be included if it remains on this device",
             "A file exported while signed in records your account identifier (UUID)",
             "The export file is not encrypted — take care not to share it with others",
-            "Complaints: EU residents may lodge a complaint with their national supervisory authority; in Korea, with the Privacy Infringement Report Centre (privacy.kr, 118)"
+            "Complaints: EU residents may lodge a complaint with their national supervisory authority; in Korea, with the Privacy Infringement Report Centre (privacy.kr, 118)",
+            "You can change app usage analytics in Settings > Privacy. When Google UMP requires it, the same screen offers advertising privacy choices. Device permissions and operating-system advertising privacy choices are managed separately in device settings."
           ]
         },
         {
@@ -299,9 +304,10 @@
           "t": "12. What we do not do",
           "b": "Stelleaf does not do any of the following.",
           "l": [
-            "No ads, and no collection of advertising identifiers",
+            "We do not operate your personal records as a public review service for other users.",
+            "We do not send personal record contents, photos, queries or precise location as the contents of ad requests or analytics events.",
             "No selling of personal data",
-            "Advertising profiling or automated decisions with legal or similarly significant effects — personal taste statistics are calculated on-device",
+            "Personal taste statistics are calculated on-device; we do not make automated decisions with legal or similarly significant effects.",
             "No marketing messages",
             "No intentional collection of data from children under 14"
           ]

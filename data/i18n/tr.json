@@ -129,7 +129,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Gizlilik Politikası",
-      "updated": "20 Eylül 2026",
+      "updated": "2026-10-10",
       "applies": "SSAMOK SOFT'un Stelleaf uygulaması kayıt ve fotoğrafları önce cihazda saklar.",
       "sections": [
         {
@@ -144,7 +144,7 @@
         },
         {
           "t": "2. Yerel öncelikli tasarım",
-          "b": "SSAMOK SOFT'un Stelleaf uygulaması kayıt ve fotoğrafları önce cihazda saklar. Giriş, bulut yedekleme ve eşitleme isteğe bağlıdır. Haritalar, arama, kapak görselleri ve abonelik kontrolleri girişten önce de dış hizmetlere bağlanabilir. Yerel öncelik, cihazdan hiçbir bilgi gönderilmediği anlamına gelmez."
+          "b": "SSAMOK SOFT'un Stelleaf uygulaması kayıt ve fotoğrafları önce cihazda saklar. Giriş, bulut yedekleme ve eşitleme isteğe bağlıdır. Haritalar, arama, kapak görselleri ve abonelik kontrolleri girişten önce de dış hizmetlere bağlanabilir. Yerel öncelik, cihazdan hiçbir bilgi gönderilmediği anlamına gelmez. Ücretsiz kullanıcılar oturum açmadan önce de reklam hizmetlerine bağlanabilir. Uygulama kullanım analizi yalnızca ayrı onayınızla gönderilir."
         },
         {
           "t": "3. Topladığımız veriler",
@@ -153,13 +153,15 @@
             "Hesap: e-posta adresi, dahili kullanıcı kimliği ve oturum açma sağlayıcısı tanımlayıcısı — e-posta+şifre, Google ile oturum açma veya Apple ile oturum açma seçeneklerinden birini seçersiniz (kimlik doğrulama altyapısı: Supabase Auth)",
             "İçerik: kategoriler, adlar, notlar, barkodlar ve seçilen koordinatlar, değerlendirmeler, tarihler, ayrıntılı puanlar, bağlam etiketleri, etiketler, sıralama panoları, analiz ayarları, fotoğraflar ve oluşturma/değiştirme zamanları",
             "Abonelik: RevenueCat girişten önce rastgele anonim uygulama kimliği, sonrasında dahili kullanıcı kimliği; ayrıca abonelik durumu, makbuz veya satın alma belirteci ve uygulama/cihaz bilgilerini alır. Kart numaralarını almayız.",
-            "Haritalar: Güney Kore'de Naver tercih edilir; başka yerlerde veya Naver kullanılamadığında Google Maps kullanılır. Harita istekleri, gösterilen alan, IP ve SDK cihaz bilgileri işlenebilir. Güncel cihaz konumu, izin verip ilgili özelliği kullandığınızda sorgulanır.",
-            "Arama/görseller: sorgu, koordinat, barkod ve ISBN işlenir. Naver yer, Kakao kitap ve MFDS gıda aramaları Supabase işlevlerinden geçer. Uygulama Open Food Facts, Open Beauty Facts, OpenLibrary ve görsel sağlayıcılara doğrudan bağlanabilir; IP ve teknik bilgiler de iletilir. Giriş yapılmış sunucu istekleri oturum bilgisi içerir; arama aracımız bunu arama sağlayıcısına aktarmaz."
+            "Haritalar: iOS, Apple Haritalar'ı kullanır. Android, Güney Kore'de Naver haritaları ve bölge/yer aramasını; yurt dışında Google Maps ile bölge/adres aramasını kullanır. İstekler, görünen alan, sorgular, IP ve SDK teknik verileri işlenebilir. Cihazın mevcut konumu yalnızca izin verip mevcut konum özelliğini kullandığınızda okunur.",
+            "Arama/görseller: sorgu, koordinat, barkod ve ISBN işlenir. Naver yer, Kakao kitap ve MFDS gıda aramaları Supabase işlevlerinden geçer. Uygulama Open Food Facts, Open Beauty Facts, OpenLibrary ve görsel sağlayıcılara doğrudan bağlanabilir; IP ve teknik bilgiler de iletilir. Giriş yapılmış sunucu istekleri oturum bilgisi içerir; arama aracımız bunu arama sağlayıcısına aktarmaz.",
+            "Reklam: ücretsiz kullanıcılar küçük Google AdMob yerel reklamları görebilir. SDK; reklam sunumu, ölçüm ve dolandırıcılık önleme için IP'den çıkarılan yaklaşık konumu, uygulama/cihaz kapsamlı tanımlayıcıları, reklam gösterimleri ve etkileşimlerini, uygulama/cihaz bilgilerini, performans ve tanı verilerini işleyebilir. Kişisel kayıt, not, sorgu, fotoğraf, barkod, kesin koordinat veya hesap kimliğini reklam isteğine eklemeyiz. Kişiselleştirilmemiş istekler kullanılır. Android reklam kimliği izni kaldırılmıştır ve iOS izleme izni istenmez; başka SDK tanımlayıcıları ve ölçüm verileri yine de işlenebilir. Premium etkin olduğunda reklam istenmez veya gösterilmez.",
+            "Kullanım analizi: yalnızca ayrı onayla Google Analytics for Firebase önceden belirlenmiş olayları (ekranlar, kayıt başlatma/kaydetme/hata, arama, filtre, harita, abonelik bildirimi), uygulama örneği tanımlayıcılarını ve cihaz/teknik verileri işler. İçerik, başlık, not, fotoğraf, sorgu, kesin konum, barkod, hesap kimliği ve özel etiket adları dışarıda tutulur. Analytics reklam depolaması, reklam kullanıcı verileri ve reklam kişiselleştirmesine izin verilmez."
           ]
         },
         {
           "t": "4. Fotoğraflar ve konum verileri",
-          "b": "Eklenen fotoğraflar cihazda yeniden kodlanır; GPS dahil EXIF içermeyen kopyalar saklanıp yedeklenir. Desteklenen cihazlarda özgün GPS geçici yer önerisi için kullanılabilir. Yalnızca seçtiğiniz öneri veya haritada onayladığınız koordinat kaydedilir. Ücretsiz hesapta 200 bulut fotoğrafı sınırı vardır; Stelleaf Premium'da sayı sınırı yoktur. Yerel fotoğraflara uygulama sayı sınırı koymaz."
+          "b": "Eklenen fotoğraflar cihazda yeniden kodlanır; GPS dahil EXIF içermeyen kopyalar saklanıp yedeklenir. Desteklenen cihazlarda özgün GPS geçici yer önerisi için kullanılabilir. Yalnızca seçtiğiniz öneri veya haritada onayladığınız koordinat kaydedilir. Ücretsiz hesapta 100 bulut fotoğrafı sınırı vardır; Stelleaf Premium'da sayı sınırı yoktur. Yerel fotoğraflara uygulama sayı sınırı koymaz. Kamera fotoğrafları varsayılan olarak uygulamaya eklenir. Ayarlardan galeriye ek kaydı açabilir veya büyütülmüş görüntüleyicide tek tek kaydedebilirsiniz. İzinler özellik kullanılırken istenir. Ayarlar > Gizlilik > İzinler kamera, fotoğraf ve konum erişimini gösterir ve cihaz ayarlarını açar."
         },
         {
           "t": "5. Amaçlar ve hukuki dayanaklar",
@@ -168,7 +170,8 @@
             "Hesap yönetimi, yedekleme ve cihazlar arası eşitleme — sözleşmenin ifası (GDPR 6(1)(b))",
             "Ücretli aboneliğin ödemesi ve yönetimi — sözleşmenin ifası (GDPR 6(1)(b))",
             "Yasal yükümlülüklere uyum (örneğin ödeme kayıtlarının saklanması) — hukuki yükümlülük (GDPR 6(1)(c))",
-            "Şu anda ayrı bir rızaya dayanan işleme bulunmamaktadır"
+            "İsteğe bağlı kullanım analizi — onay. Reddetmek veya Ayarlar > Gizlilik'ten kapatmak kayıt ve aramayı engellemez.",
+            "Reklam sunumu, ölçüm ve dolandırıcılık önleme — geçerli hukuk ve Google politikalarının gerektirdiği seçim ve onaylar. AEA, Birleşik Krallık, İsviçre ve ilgili bölgelerde Google UMP seçimi denetler; yalnızca SDK izin verirse reklam istenir. Ret, SDK'nın onay/sınırlı reklam kurallarına göre ele alınır ve kayıt özelliği engellenmez."
           ]
         },
         {
@@ -180,8 +183,8 @@
             "Kakao — kitap arama ve Daum SMTP ile kayıt onayı/parola kurtarma e-postaları; alıcı adresi ve doğrulama bağlantıları dahil içerik işlenir (Güney Kore)",
             "Kore Gıda ve İlaç Güvenliği Bakanlığı — gıda barkodu sorgulama (Kore Cumhuriyeti, sunucu proxy'si üzerinden)",
             "RevenueCat — abonelik yönetimi (Amerika Birleşik Devletleri)",
-            "Apple — oturum açma ve ödemeler (Amerika Birleşik Devletleri)",
-            "Google — oturum açma, ödemeler ve haritalar (Amerika Birleşik Devletleri)",
+            "Apple — giriş, ödeme, iOS haritaları ve yer/bölge araması; özellik istekleri ve bağlantı/teknik veriler (ABD ve küresel tesisler).",
+            "Google — giriş, ödeme, Android yurt dışı haritaları, AdMob reklam/onay yönetimi ve onay verilirse Firebase kullanım analizi (ABD ve küresel tesisler).",
             "Open Food Facts, Open Beauty Facts, OpenLibrary ve görsel sağlayıcıları — barkod, ISBN, görsel istekleri ve IP gibi bağlantı bilgileri"
           ]
         },
@@ -191,7 +194,7 @@
           "l": [
             "Supabase (Singapur kuruluşu): kimlik doğrulama, aramalar, silme/abonelik için kullanıcı kimlikleri. İşlevler Seul dışında çalışabilir; bölgeler ve alt işleyenler aşağıdaki bağlantılardadır. Hesap saklama süresi bölüm 8'e, işletim günlükleri sağlayıcı koşullarına tabidir. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
             "RevenueCat (ABD): abonelik yönetimi için anonim/hesap kimlikleri, satın alma ve cihaz bilgileri. Hesap silinince bağlı müşterinin silinmesini isteriz; sağlayıcı asenkron işler. https://www.revenuecat.com/privacy",
-            "Apple ve Google (ABD ve küresel tesisler): seçilen giriş/ödeme için kimlik ve işlem verileri, Google Maps için harita isteği, IP ve cihaz bilgileri; hizmet ve yasal yükümlülükler için gereken süre boyunca. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Apple/Google: seçilen giriş/ödeme özelliklerinin kimlik ve işlem bilgileri; iOS Apple Haritalar veya Android yurt dışı Google Maps için harita/arama istekleri ve bağlantı/teknik veriler. Google ayrıca 3. bölümdeki reklam, onay ve isteğe bağlı analiz verilerini (IP, tanımlayıcılar, reklam etkileşimleri, performans ve tanı dahil) şifreli bağlantılarla ABD ve diğer küresel tesislerde işler. Saklama; hizmet, ölçüm, güvenlik, yasal yükümlülük ihtiyaçları ve sağlayıcı politikalarına bağlıdır. https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy · https://policies.google.com/technologies/ads · https://firebase.google.com/support/privacy",
             "Open Food Facts, Open Beauty Facts, OpenLibrary ve görsel sağlayıcıları: doğrudan sorgularla barkod, ISBN, görsel adresi ve IP; arama, içerik dağıtımı ve işletim günlükleri için yurt dışı sunuculara gönderilir. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
           ]
         },
@@ -202,7 +205,8 @@
             "Hesap silme: sunucu fotoğraflarını temizler, RevenueCat müşteri silme isteğini gönderir, ardından hesap ve veritabanı kayıtlarını sileriz. Bunlar sıralı adımlardır; tek atomik işlem değildir. Hata olursa yeniden denemek gerekir. Uygulama seçilen cihaz verilerini sunucu onayından sonra temizler. RevenueCat işlemi asenkrondur; mağaza abonelikleri ve yasal işlem kayıtları ayrıdır.",
             "Tekil silme: eşitlemeden sonra, sunucuda kaydedilen silme zamanının üzerinden 30 gün geçen içerik (ad, not, puan, konum) günlük temizlikte kaldırılır. Eşitleme için kimlik, ilişki ve zaman bilgisi tutan silinmiş satırlar 365 gün sonrasındaki günlük temizlikte kaldırılır. Sunucu fotoğrafları uygulama eşitlemesinde ayrıca temizlenir; çevrimdışılık veya hata gecikmeye yol açabilir. Bu süreler cihazdaki silinmiş kayıtları otomatik temizlemez.",
             "Silme onayı: yanıt kaybı/yeniden deneme için istek ve kullanıcı kimlikleri ile zamanlar, tamamlanmadan 30 gün geçtikten sonraki günlük temizlikte kaldırılır. Tamamlanmayan istekler sürdürülebilmek için tutulur.",
-            "Yasal saklama: Kore e-ticaret kanunu ve ilgili mevzuat uyarınca sözleşme ve cayma kayıtları 5 yıl, ödeme ve tedarik kayıtları 5 yıl, tüketici şikâyet/uyuşmazlık kayıtları 3 yıl saklanır ve sonra yok edilir"
+            "Yasal saklama: Kore e-ticaret kanunu ve ilgili mevzuat uyarınca sözleşme ve cayma kayıtları 5 yıl, ödeme ve tedarik kayıtları 5 yıl, tüketici şikâyet/uyuşmazlık kayıtları 3 yıl saklanır ve sonra yok edilir",
+            "Analizi kapatmak gelecekteki toplamayı durdurur ve cihazdaki Analytics örneğini sıfırlar. Google'a gönderilmiş tüm verileri anında silmez; sunucudaki saklama/silme sağlayıcı ayarları ve politikalarına tabidir. Talepler: ssamoksoft@gmail.com."
           ]
         },
         {
@@ -213,7 +217,8 @@
             "Silinmek üzere işaretlenmiş ancak henüz tamamen yok edilmemiş kayıtları da içerir — dışa aktarma bu cihazda saklanan verileri okur; bu nedenle içeriği sunucuda çoktan silinmiş bir kayıt, bu cihazda duruyorsa dosyaya dahil olabilir",
             "Oturum açıkken dışa aktarılan dosya hesap tanımlayıcınızı (UUID) içerir",
             "Dışa aktarma dosyası şifrelenmez — üçüncü kişilerle paylaşmamaya dikkat edin",
-            "Şikâyet: AB'de yaşayanlar ülkelerindeki denetim makamına; Kore'de Privacy Infringement Report Centre'a (privacy.kr, 118) başvurabilir"
+            "Şikâyet: AB'de yaşayanlar ülkelerindeki denetim makamına; Kore'de Privacy Infringement Report Centre'a (privacy.kr, 118) başvurabilir",
+            "Kullanım analizini Ayarlar > Gizlilik'ten değiştirebilirsiniz. Google UMP gerektirdiğinde aynı ekranda reklam gizliliği seçenekleri bulunur. Cihaz izinleri ve işletim sisteminin reklam gizliliği seçimleri cihaz ayarlarında ayrıca yönetilir."
           ]
         },
         {
@@ -228,9 +233,10 @@
           "t": "12. Yapmadığımız şeyler",
           "b": "Stelleaf aşağıdakilerin hiçbirini yapmaz.",
           "l": [
-            "Reklam yok ve reklam tanımlayıcısı toplanmıyor",
+            "Kişisel kayıtları diğer kullanıcılara açık bir değerlendirme hizmeti olarak işletmeyiz.",
+            "Kişisel kayıt içerikleri, fotoğraflar, sorgular veya kesin konum reklam isteklerinin ya da analiz olaylarının içeriği olarak gönderilmez.",
             "Kişisel verilerin satışı yok",
-            "Reklam profillemesi veya hukuki ya da benzer ölçüde önemli etkisi olan otomatik kararlar; kişisel beğeni istatistikleri cihazda hesaplanır",
+            "Kişisel zevk istatistikleri cihazda hesaplanır; hukuki veya benzer ölçüde önemli etkili otomatik kararlar alınmaz.",
             "Pazarlama mesajı yok",
             "14 yaş altı çocukların verilerinin kasıtlı toplanması yok"
           ]

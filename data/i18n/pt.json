@@ -129,7 +129,7 @@
     },
     "stelleaf_privacy": {
       "title": "Política de Privacidade do Stelleaf",
-      "updated": "20 de setembro de 2026",
+      "updated": "2026-10-10",
       "applies": "O Stelleaf, da SSAMOK SOFT, salva primeiro registros e fotos no dispositivo.",
       "sections": [
         {
@@ -144,7 +144,7 @@
         },
         {
           "t": "2. Arquitetura local-first",
-          "b": "O Stelleaf, da SSAMOK SOFT, salva primeiro registros e fotos no dispositivo. Conta, backup na nuvem e sincronização são opcionais. Mapas, buscas, capas e verificações de assinatura podem acessar serviços externos antes do login. Priorizar dados locais não significa ausência de comunicação externa."
+          "b": "O Stelleaf, da SSAMOK SOFT, salva primeiro registros e fotos no dispositivo. Conta, backup na nuvem e sincronização são opcionais. Mapas, buscas, capas e verificações de assinatura podem acessar serviços externos antes do login. Priorizar dados locais não significa ausência de comunicação externa. Usuários gratuitos também podem se conectar a serviços de publicidade antes do login. Análises de uso só são enviadas com seu consentimento separado."
         },
         {
           "t": "3. Dados que coletamos",
@@ -153,13 +153,15 @@
             "Conta: endereço de e-mail, ID interno de usuário e identificador do provedor de login — você escolhe entre e-mail+senha, login com Google ou login com Apple (infraestrutura de autenticação: Supabase Auth)",
             "Conteúdo: categorias, nomes, notas, códigos de barras e coordenadas escolhidas, avaliações, datas, notas detalhadas, etiquetas de contexto, etiquetas, quadros de classificação, configurações de análise, fotos e horários de criação/alteração",
             "Assinaturas: o RevenueCat recebe um ID aleatório anônimo antes do login e o ID interno depois, além do estado da assinatura, recibos ou tokens de compra e dados do app/dispositivo. Não recebemos números de cartão.",
-            "Mapas: Naver é preferido na Coreia do Sul; Google Maps é usado em outros locais ou quando o Naver não está disponível. Podem ser tratados pedidos de mapa, área exibida, IP e dados do dispositivo do SDK. A posição atual é consultada quando há permissão e você usa essa função.",
-            "Buscas/imagens: consultas, coordenadas, códigos de barras e ISBN. Buscas de locais Naver, livros Kakao e alimentos MFDS passam por funções do Supabase. O app pode acessar diretamente Open Food Facts, Open Beauty Facts, OpenLibrary e fornecedores de imagens, enviando também IP e dados técnicos. Pedidos autenticados ao servidor contêm dados da sessão que nosso proxy não repassa ao fornecedor de busca."
+            "Mapas: iOS usa Mapas da Apple. Android usa mapas e buscas de áreas/locais da Naver na Coreia do Sul, e Google Maps com busca de áreas/endereços no exterior. Solicitações, área exibida, consultas, IP e dados técnicos do SDK podem ser tratados. A localização atual só é consultada quando você concede permissão e usa essa função.",
+            "Buscas/imagens: consultas, coordenadas, códigos de barras e ISBN. Buscas de locais Naver, livros Kakao e alimentos MFDS passam por funções do Supabase. O app pode acessar diretamente Open Food Facts, Open Beauty Facts, OpenLibrary e fornecedores de imagens, enviando também IP e dados técnicos. Pedidos autenticados ao servidor contêm dados da sessão que nosso proxy não repassa ao fornecedor de busca.",
+            "Publicidade: usuários gratuitos podem ver pequenos anúncios nativos do Google AdMob. Para exibir e medir anúncios e prevenir fraudes, o SDK pode tratar localização aproximada inferida do IP, identificadores de app/dispositivo, impressões e interações publicitárias, informações do app/dispositivo, desempenho e diagnóstico. Não incluímos registros, notas, consultas, fotos, códigos de barras, coordenadas precisas ou IDs de conta nas solicitações. Usamos anúncios não personalizados. A permissão de ID de publicidade do Android foi removida e não pedimos rastreamento no iOS; outros identificadores do SDK e dados de medição ainda podem ser tratados. Com Premium ativo, não solicitamos nem exibimos anúncios.",
+            "Análise de uso: somente com consentimento separado, Google Analytics for Firebase trata eventos predefinidos (telas, início/salvamento/falha de registros, buscas, filtros, mapas e avisos de assinatura), identificadores de instância e dados técnicos/do dispositivo. Excluímos conteúdos, títulos, notas, fotos, consultas, localização precisa, códigos de barras, IDs de conta e nomes de tags criadas pelo usuário. Armazenamento publicitário, dados de usuário para anúncios e personalização de anúncios do Analytics não são permitidos."
           ]
         },
         {
           "t": "4. Fotos e dados de localização",
-          "b": "Fotos anexadas são recodificadas no dispositivo e salvas sem EXIF, inclusive GPS. Em dispositivos compatíveis, o GPS original pode sugerir um local temporariamente. Só são salvas coordenadas que você selecionar ou confirmar no mapa. Contas gratuitas têm até 200 fotos na nuvem; Stelleaf Premium não limita a quantidade. O app não limita a quantidade de fotos locais."
+          "b": "Fotos anexadas são recodificadas no dispositivo e salvas sem EXIF, inclusive GPS. Em dispositivos compatíveis, o GPS original pode sugerir um local temporariamente. Só são salvas coordenadas que você selecionar ou confirmar no mapa. Contas gratuitas têm até 100 fotos na nuvem; Stelleaf Premium não limita a quantidade. O app não limita a quantidade de fotos locais. Fotos da câmera são anexadas ao app por padrão. É possível ativar salvamento adicional na galeria em Configurações ou salvar fotos individualmente na visualização ampliada. Permissões são solicitadas ao usar a função. Configurações > Privacidade > Permissões mostra acesso à câmera, fotos e localização e abre os ajustes do dispositivo."
         },
         {
           "t": "5. Finalidades e bases legais",
@@ -168,7 +170,8 @@
             "Gestão da conta, backup e sincronização entre dispositivos — execução de contrato (GDPR 6(1)(b))",
             "Pagamento e gestão da assinatura paga — execução de contrato (GDPR 6(1)(b))",
             "Cumprimento de obrigações legais (p. ex. retenção de registros de pagamento) — obrigação legal (GDPR 6(1)(c))",
-            "Atualmente não há tratamento baseado em consentimento separado"
+            "Análise de uso opcional — consentimento. Recusar ou desativar em Configurações > Privacidade não impede registrar ou pesquisar.",
+            "Publicidade, medição e prevenção de fraude — escolhas e consentimento exigidos pela lei aplicável e políticas do Google. No EEE, Reino Unido, Suíça e demais regiões pertinentes, Google UMP verifica a escolha; só solicitamos anúncios quando o SDK permite. A recusa segue suas regras de consentimento/anúncios limitados, sem bloquear registros."
           ]
         },
         {
@@ -180,8 +183,8 @@
             "Kakao — busca de livros e envio de confirmação/recuperação por Daum SMTP; processa destinatários e conteúdo, incluindo links de verificação (Coreia do Sul)",
             "Ministério de Segurança de Alimentos e Medicamentos da Coreia — consulta de código de barras de alimentos (República da Coreia, via proxy do servidor)",
             "RevenueCat — gestão de assinaturas (Estados Unidos)",
-            "Apple — login e pagamentos (Estados Unidos)",
-            "Google — login, pagamentos e mapas (Estados Unidos)",
+            "Apple — login, pagamentos, mapas iOS e busca de locais/áreas; solicitações e dados técnicos/de conexão (Estados Unidos e instalações globais).",
+            "Google — login, pagamentos, mapas Android no exterior, publicidade/consentimento AdMob e, com consentimento, análise Firebase (Estados Unidos e instalações globais).",
             "Open Food Facts, Open Beauty Facts, OpenLibrary e fornecedores de imagens — pedidos de códigos de barras, ISBN e imagens, além de dados de conexão como IP"
           ]
         },
@@ -191,7 +194,7 @@
           "l": [
             "Supabase (entidade de Singapura): autenticação, buscas e IDs para exclusão/assinaturas; funções podem operar fora de Seul. Regiões e subprocessadores nos links abaixo. Retenção da conta: seção 8; logs operacionais: termos do fornecedor. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
             "RevenueCat (Estados Unidos): IDs anônimos/de conta, compras e dispositivo para gerir assinaturas. Ao excluir a conta solicitamos apagar o cliente associado; o tratamento é assíncrono. https://www.revenuecat.com/privacy",
-            "Apple e Google (Estados Unidos e instalações globais): identificadores/transações para login ou pagamento escolhido, pedidos de mapa, IP e dispositivo no Google Maps, pelo período necessário aos serviços e obrigações legais. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Apple/Google: identificadores e transações das funções de login/pagamento escolhidas; consultas de mapas/busca e dados técnicos/de conexão para Mapas da Apple no iOS ou Google Maps no exterior no Android. Google também trata os dados de publicidade, consentimento e análise opcional da seção 3, incluindo IP, identificadores, interações publicitárias, desempenho e diagnóstico, por conexões criptografadas nos Estados Unidos e outras instalações globais. A retenção segue necessidades de serviço, medição, segurança e obrigações legais e as políticas dos fornecedores. https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy · https://policies.google.com/technologies/ads · https://firebase.google.com/support/privacy",
             "Open Food Facts, Open Beauty Facts, OpenLibrary e fornecedores de imagens: servidores no exterior recebem códigos de barras, ISBN, endereços de imagens e IP para consultas, entrega de conteúdo e logs operacionais. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
           ]
         },
@@ -202,7 +205,8 @@
             "Exclusão de conta: removemos fotos do servidor, pedimos a exclusão do cliente no RevenueCat e então apagamos conta e registros do banco. São etapas sequenciais, não uma exclusão atômica. Falhas exigem nova tentativa. O app só limpa os dados locais escolhidos após a confirmação do servidor. O RevenueCat processa a exclusão de forma assíncrona; assinaturas da loja e registros legais de transações são separados.",
             "Exclusão individual: após sincronizar, a limpeza diária apaga conteúdo (nomes, notas, pontuações, locais) mais de 30 dias após o horário de exclusão registrado no servidor. Linhas excluídas com IDs, relações e horários necessários à sincronização são removidas na limpeza diária após 365 dias. Fotos do servidor são limpas separadamente durante a sincronização; uso offline ou falhas podem atrasar isso. Esses prazos não apagam automaticamente os registros excluídos do dispositivo.",
             "Confirmação: IDs de pedido/usuário e horários para recuperar respostas ou repetir pedidos são removidos na limpeza diária mais de 30 dias após a conclusão. Pedidos incompletos permanecem para retomada.",
-            "Retenção legal: conforme a lei coreana de comércio eletrônico e normas relacionadas, registros de contratos e desistências são mantidos por 5 anos, registros de pagamento e fornecimento por 5 anos, e registros de reclamações e disputas de consumidores por 3 anos, sendo então destruídos"
+            "Retenção legal: conforme a lei coreana de comércio eletrônico e normas relacionadas, registros de contratos e desistências são mantidos por 5 anos, registros de pagamento e fornecimento por 5 anos, e registros de reclamações e disputas de consumidores por 3 anos, sendo então destruídos",
+            "Desativar a análise interrompe a coleta futura e redefine a instância do Analytics no dispositivo. Isso não apaga imediatamente todos os dados já enviados ao Google; retenção e exclusão no servidor seguem configurações e políticas do fornecedor. Solicitações: ssamoksoft@gmail.com."
           ]
         },
         {
@@ -213,7 +217,8 @@
             "Contém também registos marcados para eliminação mas ainda não destruídos por completo — a exportação lê os dados guardados neste dispositivo, pelo que um registo cujo conteúdo já foi apagado no servidor pode ser incluído se permanecer neste dispositivo",
             "Um ficheiro exportado com sessão iniciada regista o seu identificador de conta (UUID)",
             "O ficheiro de exportação não é encriptado — tenha cuidado para não o partilhar com terceiros",
-            "Reclamações: residentes na UE podem apresentar reclamação junto da sua autoridade de controlo nacional; na Coreia, junto do Privacy Infringement Report Centre (privacy.kr, 118)"
+            "Reclamações: residentes na UE podem apresentar reclamação junto da sua autoridade de controlo nacional; na Coreia, junto do Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Altere a análise em Configurações > Privacidade. Quando exigido pelo Google UMP, a mesma tela oferece escolhas de privacidade de anúncios. Permissões e opções publicitárias do sistema operacional são geridas separadamente nos ajustes do dispositivo."
           ]
         },
         {
@@ -228,9 +233,10 @@
           "t": "12. O que não fazemos",
           "b": "O Stelleaf não faz nada do seguinte.",
           "l": [
-            "Sem anúncios e sem coleta de identificadores de publicidade",
+            "Não utilizamos seus registros pessoais como serviço público de avaliações para outros usuários.",
+            "Não enviamos conteúdo de registros pessoais, fotos, consultas ou localização precisa como conteúdo de solicitações publicitárias ou eventos analíticos.",
             "Sem venda de dados pessoais",
-            "Perfilamento publicitário ou decisões automatizadas com efeitos legais ou igualmente significativos; estatísticas de gosto pessoal são calculadas no dispositivo",
+            "Estatísticas de preferências são calculadas no dispositivo; não tomamos decisões automatizadas com efeitos jurídicos ou igualmente significativos.",
             "Sem mensagens de marketing",
             "Sem coleta intencional de dados de crianças menores de 14 anos"
           ]

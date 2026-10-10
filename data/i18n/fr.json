@@ -129,7 +129,7 @@
     },
     "stelleaf_privacy": {
       "title": "Politique de confidentialité de Stelleaf",
-      "updated": "20 septembre 2026",
+      "updated": "2026-10-10",
       "applies": "Stelleaf, de SSAMOK SOFT, conserve d'abord les données et photos sur votre appareil.",
       "sections": [
         {
@@ -144,7 +144,7 @@
         },
         {
           "t": "2. Architecture local-first",
-          "b": "Stelleaf, de SSAMOK SOFT, conserve d'abord les données et photos sur votre appareil. Le compte, la sauvegarde cloud et la synchronisation sont facultatifs. Cartes, recherches, couvertures et vérifications d'abonnement peuvent contacter des services externes avant la connexion. La priorité au stockage local ne signifie donc pas l'absence de transmissions."
+          "b": "Stelleaf, de SSAMOK SOFT, conserve d'abord les données et photos sur votre appareil. Le compte, la sauvegarde cloud et la synchronisation sont facultatifs. Cartes, recherches, couvertures et vérifications d'abonnement peuvent contacter des services externes avant la connexion. La priorité au stockage local ne signifie donc pas l'absence de transmissions. Les utilisateurs gratuits peuvent aussi contacter des services publicitaires avant connexion. Les analyses d'utilisation ne sont transmises qu'avec votre consentement distinct."
         },
         {
           "t": "3. Données que nous collectons",
@@ -153,13 +153,15 @@
             "Compte : adresse e-mail, identifiant utilisateur interne et identifiant du fournisseur de connexion — vous choisissez entre e-mail+mot de passe, connexion Google ou connexion Apple (infrastructure d'authentification : Supabase Auth)",
             "Contenu : catégories, noms, notes, codes-barres et coordonnées choisies, évaluations, dates, scores détaillés, étiquettes contextuelles, étiquettes, classements, réglages d'analyse, photos et dates de création/modification",
             "Abonnements : RevenueCat reçoit un identifiant aléatoire anonyme avant la connexion, puis l'identifiant interne du compte, ainsi que l'état de l'abonnement, les reçus ou jetons d'achat et les informations sur l'app et l'appareil. Nous ne recevons pas de numéro de carte bancaire.",
-            "Cartes : Naver est privilégié en Corée du Sud ; Google Maps est utilisé ailleurs ou si Naver est indisponible. Requêtes, zone affichée, IP et informations du SDK sur l'appareil peuvent être traitées. La position actuelle est demandée lorsque vous autorisez et utilisez cette fonction.",
-            "Recherches et images : termes, coordonnées, codes-barres et ISBN. Les recherches Naver, Kakao et MFDS passent par les fonctions Supabase. L'app peut contacter directement Open Food Facts, Open Beauty Facts, OpenLibrary et les fournisseurs d'images, transmettant aussi IP et données techniques. Les requêtes authentifiées au serveur contiennent des données de session que notre proxy ne transmet pas aux fournisseurs de recherche."
+            "Cartes : iOS utilise Plans d'Apple. Android utilise les cartes et recherches de zones/lieux Naver en Corée du Sud, et Google Maps avec recherche de zones/adresses à l'étranger. Requêtes, zone affichée, termes de recherche, IP et données techniques du SDK peuvent être traités. La position actuelle de l'appareil n'est lue que lorsque vous accordez l'autorisation et utilisez cette fonction.",
+            "Recherches et images : termes, coordonnées, codes-barres et ISBN. Les recherches Naver, Kakao et MFDS passent par les fonctions Supabase. L'app peut contacter directement Open Food Facts, Open Beauty Facts, OpenLibrary et les fournisseurs d'images, transmettant aussi IP et données techniques. Les requêtes authentifiées au serveur contiennent des données de session que notre proxy ne transmet pas aux fournisseurs de recherche.",
+            "Publicité : les utilisateurs gratuits peuvent voir de petites annonces natives Google AdMob. Le SDK peut traiter une localisation approximative déduite de l'IP, des identifiants d'application/appareil, les impressions et interactions publicitaires, ainsi que des données d'application, d'appareil, de performance et de diagnostic pour diffuser/mesurer les annonces et prévenir la fraude. Nous n'incluons pas vos enregistrements, notes, recherches, photos, codes-barres, coordonnées précises ou identifiants de compte dans les requêtes publicitaires. Les annonces demandées sont non personnalisées. L'autorisation d'identifiant publicitaire Android est supprimée et iOS ne demande pas le suivi ; d'autres identifiants SDK et données de mesure peuvent néanmoins être traités. Premium actif n'entraîne aucune demande ni affichage d'annonce.",
+            "Analyse d'utilisation : uniquement avec consentement distinct, Google Analytics for Firebase traite des événements prédéfinis (écrans, début/enregistrement/échec de saisie, recherches, filtres, cartes, présentation d'abonnement), des identifiants d'instance et des données techniques/d'appareil. Contenus, titres, notes, photos, recherches, position précise, codes-barres, ID de compte et noms de tags personnels sont exclus. Le stockage publicitaire, les données utilisateur publicitaires et la personnalisation publicitaire d'Analytics ne sont pas autorisés."
           ]
         },
         {
           "t": "4. Photos et données de localisation",
-          "b": "Les photos jointes sont réencodées sur l'appareil ; des copies sans EXIF, GPS compris, sont stockées et sauvegardées. Sur les appareils compatibles, le GPS original peut servir temporairement à suggérer un lieu. Seules les coordonnées que vous sélectionnez ou confirmez sur la carte sont enregistrées. Le cloud est limité à 200 photos pour un compte gratuit, sans limite de nombre pour Stelleaf Premium. L'app ne limite pas le nombre de photos locales."
+          "b": "Les photos jointes sont réencodées sur l'appareil ; des copies sans EXIF, GPS compris, sont stockées et sauvegardées. Sur les appareils compatibles, le GPS original peut servir temporairement à suggérer un lieu. Seules les coordonnées que vous sélectionnez ou confirmez sur la carte sont enregistrées. Le cloud est limité à 100 photos pour un compte gratuit, sans limite de nombre pour Stelleaf Premium. L'app ne limite pas le nombre de photos locales. Les photos prises sont jointes à l'app par défaut. L'enregistrement supplémentaire dans la galerie peut être activé dans les paramètres ou effectué photo par photo dans la vue agrandie. Les autorisations sont demandées à l'utilisation de la fonction. Paramètres > Confidentialité > Autorisations affiche les accès caméra/photos/position et ouvre les réglages de l'appareil."
         },
         {
           "t": "5. Finalités et bases légales",
@@ -168,7 +170,8 @@
             "Gestion du compte, sauvegarde et synchronisation entre appareils — exécution d'un contrat (RGPD 6(1)(b))",
             "Paiement et gestion de l'abonnement payant — exécution d'un contrat (RGPD 6(1)(b))",
             "Respect d'obligations légales (p. ex. conservation des justificatifs de paiement) — obligation légale (RGPD 6(1)(c))",
-            "Aucun traitement fondé sur un consentement distinct n'est actuellement en place"
+            "Analyse d'utilisation facultative — consentement. Refuser ou désactiver dans Paramètres > Confidentialité ne bloque pas les enregistrements et recherches.",
+            "Diffusion, mesure publicitaire et prévention de la fraude — choix et consentement requis par la loi applicable et les règles Google. Dans l'EEE, au Royaume-Uni, en Suisse et dans les régions concernées, Google UMP vérifie le choix ; les annonces ne sont demandées que si le SDK l'autorise. Un refus suit ses règles de consentement/publicité limitée sans bloquer les enregistrements."
           ]
         },
         {
@@ -180,8 +183,8 @@
             "Kakao — recherche de livres et envoi des confirmations/récupérations par Daum SMTP ; traitement de l'adresse destinataire et du contenu, dont les liens de vérification (Corée du Sud)",
             "Ministère coréen de la Sécurité alimentaire et des Médicaments — consultation de codes-barres alimentaires (République de Corée, via le proxy serveur)",
             "RevenueCat — gestion des abonnements (États-Unis)",
-            "Apple — connexion et paiements (États-Unis)",
-            "Google — connexion, paiements et cartes (États-Unis)",
+            "Apple — connexion, paiements, cartes iOS et recherche de lieux/zones ; requêtes et données techniques/de connexion nécessaires (États-Unis et centres mondiaux).",
+            "Google — connexion, paiements, cartes Android à l'étranger, publicité/consentement AdMob et, avec consentement, analyse Firebase (États-Unis et centres mondiaux).",
             "Open Food Facts, Open Beauty Facts, OpenLibrary et fournisseurs d'images — requêtes de codes-barres, ISBN, images et données de connexion, dont l'IP"
           ]
         },
@@ -191,7 +194,7 @@
           "l": [
             "Supabase (entité de Singapour) : authentification, recherches et identifiants pour suppression/abonnements. Les fonctions peuvent s'exécuter hors de Séoul. Régions et sous-traitants ultérieurs : liens ci-dessous. Conservation des comptes : section 8 ; journaux techniques : conditions du prestataire. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
             "RevenueCat (États-Unis) : identifiants anonymes/de compte, achats et appareil pour gérer les abonnements. La suppression du compte déclenche une demande d'effacement du client associé, traitée de façon asynchrone. https://www.revenuecat.com/privacy",
-            "Apple et Google (États-Unis et sites mondiaux) : identifiants et transactions pour la connexion/le paiement choisis ; requêtes de cartes, IP et appareil pour Google Maps. Durée nécessaire aux services et obligations légales. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Apple/Google : identifiants et transactions des fonctions de connexion/paiement choisies ; requêtes cartographiques/recherches et données techniques/de connexion pour Plans iOS ou Google Maps à l'étranger sous Android. Google traite aussi les données de publicité, consentement et analyse facultative du point 3, notamment IP, identifiants, interactions publicitaires, performance et diagnostic, via des connexions chiffrées aux États-Unis et dans d'autres centres mondiaux. Conservation selon les besoins de service, mesure, sécurité et obligations légales ainsi que les politiques des fournisseurs. https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy · https://policies.google.com/technologies/ads · https://firebase.google.com/support/privacy",
             "Open Food Facts, Open Beauty Facts, OpenLibrary et fournisseurs d'images : codes-barres, ISBN, adresses d'images et IP envoyés directement à des serveurs étrangers pour recherche, diffusion de contenu et journaux techniques. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
           ]
         },
@@ -202,7 +205,8 @@
             "Suppression du compte : nettoyage des photos serveur, demande d'effacement du client RevenueCat, puis suppression du compte et des données de la base. Ces étapes successives ne constituent pas une suppression atomique. Un échec nécessite de réessayer. L'app ne nettoie les données locales choisies qu'après confirmation serveur. Le traitement RevenueCat est asynchrone ; abonnements des boutiques et archives légales des transactions sont distincts.",
             "Suppression individuelle : après synchronisation, le nettoyage quotidien efface le contenu (noms, notes, scores, lieux) plus de 30 jours après la date de suppression enregistrée au serveur. Les lignes conservant identifiants, relations et dates nécessaires à la synchronisation disparaissent au nettoyage quotidien après 365 jours. Les photos serveur sont nettoyées séparément pendant la synchronisation ; déconnexion ou échec peuvent retarder cette opération. Ces délais n'effacent pas automatiquement les enregistrements supprimés de votre appareil.",
             "Confirmation : identifiants de demande/utilisateur et dates permettant les nouvelles tentatives sont supprimés au nettoyage quotidien plus de 30 jours après la fin du traitement. Les demandes inachevées restent pour permettre leur reprise.",
-            "Conservation légale : conformément à la loi coréenne sur le commerce électronique et aux textes connexes, les enregistrements relatifs aux contrats et rétractations sont conservés 5 ans, ceux relatifs aux paiements et à la fourniture 5 ans, et ceux relatifs aux réclamations et litiges de consommateurs 3 ans, avant destruction"
+            "Conservation légale : conformément à la loi coréenne sur le commerce électronique et aux textes connexes, les enregistrements relatifs aux contrats et rétractations sont conservés 5 ans, ceux relatifs aux paiements et à la fourniture 5 ans, et ceux relatifs aux réclamations et litiges de consommateurs 3 ans, avant destruction",
+            "Désactiver l'analyse arrête les collectes futures et réinitialise l'instance Analytics de l'appareil. Cela n'efface pas immédiatement toutes les données déjà envoyées à Google ; conservation et suppression sur les serveurs suivent les paramètres et politiques du fournisseur. Demandes : ssamoksoft@gmail.com."
           ]
         },
         {
@@ -213,7 +217,8 @@
             "Il contient aussi les enregistrements marqués pour suppression mais pas encore définitivement effacés — l'export lit les données stockées sur cet appareil, de sorte qu'un enregistrement dont le contenu a déjà été effacé sur le serveur peut y figurer s'il subsiste sur cet appareil",
             "Un fichier exporté en étant connecté contient votre identifiant de compte (UUID)",
             "Le fichier d'export n'est pas chiffré — évitez de le partager avec des tiers",
-            "Réclamations : les personnes résidant dans l'UE peuvent saisir leur autorité de contrôle nationale ; en Corée, le Privacy Infringement Report Centre (privacy.kr, 118)"
+            "Réclamations : les personnes résidant dans l'UE peuvent saisir leur autorité de contrôle nationale ; en Corée, le Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Vous pouvez modifier l'analyse dans Paramètres > Confidentialité. Lorsque Google UMP l'exige, le même écran propose des choix de confidentialité publicitaire. Les autorisations et choix publicitaires du système d'exploitation se gèrent séparément dans les réglages de l'appareil."
           ]
         },
         {
@@ -228,9 +233,10 @@
           "t": "12. Ce que nous ne faisons pas",
           "b": "Stelleaf ne fait rien de ce qui suit.",
           "l": [
-            "Aucune publicité ni collecte d'identifiants publicitaires",
+            "Vos enregistrements personnels ne sont pas exploités comme un service d'avis publics pour d'autres utilisateurs.",
+            "Nous ne transmettons pas le contenu des enregistrements personnels, photos, recherches ou positions précises comme contenu de requêtes publicitaires ou d'événements analytiques.",
             "Aucune vente de données personnelles",
-            "Profilage publicitaire ou décisions automatisées ayant des effets juridiques ou comparables ; les statistiques de goûts personnels sont calculées sur l'appareil",
+            "Les statistiques de goûts sont calculées sur l'appareil ; aucune décision automatisée à effet juridique ou d'importance similaire n'est prise.",
             "Aucun message marketing",
             "Aucune collecte intentionnelle de données d'enfants de moins de 14 ans"
           ]

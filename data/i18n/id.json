@@ -129,7 +129,7 @@
     },
     "stelleaf_privacy": {
       "title": "Kebijakan Privasi Stelleaf",
-      "updated": "20 September 2026",
+      "updated": "2026-10-10",
       "applies": "Stelleaf dari SSAMOK SOFT menyimpan catatan dan foto di perangkat terlebih dahulu.",
       "sections": [
         {
@@ -144,7 +144,7 @@
         },
         {
           "t": "2. Desain local-first",
-          "b": "Stelleaf dari SSAMOK SOFT menyimpan catatan dan foto di perangkat terlebih dahulu. Login, cadangan cloud, dan sinkronisasi bersifat opsional. Peta, pencarian, sampul, dan pemeriksaan langganan tetap dapat menghubungi layanan luar sebelum login. Mengutamakan penyimpanan lokal bukan berarti tidak ada data yang dikirim keluar."
+          "b": "Stelleaf dari SSAMOK SOFT menyimpan catatan dan foto di perangkat terlebih dahulu. Login, cadangan cloud, dan sinkronisasi bersifat opsional. Peta, pencarian, sampul, dan pemeriksaan langganan tetap dapat menghubungi layanan luar sebelum login. Mengutamakan penyimpanan lokal bukan berarti tidak ada data yang dikirim keluar. Pengguna gratis juga dapat terhubung ke layanan iklan sebelum masuk. Analisis penggunaan aplikasi dikirim hanya dengan persetujuan terpisah Anda."
         },
         {
           "t": "3. Data yang kami kumpulkan",
@@ -153,13 +153,15 @@
             "Akun: alamat email, ID pengguna internal, dan pengidentifikasi penyedia masuk — Anda memilih salah satu dari email+kata sandi, masuk dengan Google, atau masuk dengan Apple (infrastruktur autentikasi: Supabase Auth)",
             "Konten: kategori, nama, catatan, kode batang, koordinat pilihan, penilaian, tanggal, skor terperinci, tag konteks, tag, papan peringkat, pengaturan analisis, foto, serta waktu pembuatan/perubahan",
             "Langganan: RevenueCat menerima ID aplikasi anonim acak sebelum login dan ID pengguna internal sesudahnya, beserta status langganan, tanda terima atau token pembelian, serta informasi aplikasi/perangkat. Kami tidak menerima nomor kartu pembayaran.",
-            "Peta: Naver diutamakan di Korea Selatan; Google Maps dipakai di tempat lain atau saat Naver tidak tersedia. Permintaan peta, area tampilan, IP, dan informasi perangkat SDK dapat diproses. Lokasi perangkat saat ini diminta ketika Anda memberi izin dan memakai fitur tersebut.",
-            "Pencarian/gambar: kata pencarian, koordinat, kode batang, dan ISBN. Pencarian tempat Naver, buku Kakao, dan pangan MFDS melalui fungsi Supabase. Aplikasi dapat langsung mengakses Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar, termasuk mengirim IP dan informasi teknis. Permintaan server saat login memuat autentikasi akun yang tidak diteruskan proksi kami kepada penyedia pencarian."
+            "Peta: iOS memakai Apple Maps. Android memakai peta dan pencarian wilayah/tempat Naver di Korea Selatan, serta Google Maps dan pencarian wilayah/alamat di luar Korea. Permintaan, area tampilan, kueri, IP, dan data teknis SDK dapat diproses. Lokasi perangkat saat ini dibaca hanya ketika Anda memberikan izin dan menggunakan fungsi lokasi saat ini.",
+            "Pencarian/gambar: kata pencarian, koordinat, kode batang, dan ISBN. Pencarian tempat Naver, buku Kakao, dan pangan MFDS melalui fungsi Supabase. Aplikasi dapat langsung mengakses Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar, termasuk mengirim IP dan informasi teknis. Permintaan server saat login memuat autentikasi akun yang tidak diteruskan proksi kami kepada penyedia pencarian.",
+            "Iklan: pengguna gratis dapat melihat iklan native kecil Google AdMob. Untuk penayangan, pengukuran, dan pencegahan penipuan, SDK dapat memproses perkiraan lokasi dari IP, pengenal lingkup aplikasi/perangkat, tayangan dan interaksi iklan, informasi aplikasi/perangkat, kinerja dan diagnostik. Kami tidak memasukkan catatan, memo, kueri, foto, kode batang, koordinat presisi atau ID akun ke permintaan iklan. Permintaan menggunakan pengaturan nonpersonalisasi. Izin ID iklan Android dihapus dan iOS tidak meminta izin pelacakan; pengenal SDK lain dan data pengukuran masih dapat diproses. Selama Premium aktif, iklan tidak diminta atau ditampilkan.",
+            "Analisis penggunaan: hanya dengan persetujuan terpisah, Google Analytics for Firebase memproses peristiwa fitur yang ditentukan sebelumnya (layar, mulai/simpan/gagal mencatat, pencarian, filter, peta, pemberitahuan langganan), pengenal instance aplikasi dan data perangkat/teknis. Isi, judul, memo, foto, kueri, lokasi presisi, kode batang, ID akun dan nama tag buatan sendiri tidak disertakan. Penyimpanan iklan, data pengguna iklan, dan personalisasi iklan Analytics tidak diizinkan."
           ]
         },
         {
           "t": "4. Foto dan data lokasi",
-          "b": "Foto lampiran dikodekan ulang di perangkat; salinan tanpa EXIF, termasuk GPS, disimpan dan dicadangkan. Pada perangkat yang mendukung, GPS asli dapat dipakai sementara untuk saran lokasi. Hanya koordinat yang Anda pilih atau konfirmasi di peta yang disimpan. Akun gratis dibatasi 200 foto cloud; Stelleaf Premium tidak membatasi jumlahnya. Aplikasi tidak membatasi jumlah foto lokal."
+          "b": "Foto lampiran dikodekan ulang di perangkat; salinan tanpa EXIF, termasuk GPS, disimpan dan dicadangkan. Pada perangkat yang mendukung, GPS asli dapat dipakai sementara untuk saran lokasi. Hanya koordinat yang Anda pilih atau konfirmasi di peta yang disimpan. Akun gratis dibatasi 100 foto cloud; Stelleaf Premium tidak membatasi jumlahnya. Aplikasi tidak membatasi jumlah foto lokal. Foto kamera secara default dilampirkan ke aplikasi. Penyimpanan tambahan ke galeri dapat diaktifkan di Pengaturan atau dilakukan satu per satu di penampil foto besar. Izin diminta saat fungsi digunakan. Pengaturan > Privasi > Izin menampilkan akses kamera, foto dan lokasi serta membuka pengaturan perangkat."
         },
         {
           "t": "5. Tujuan dan dasar hukum",
@@ -168,7 +170,8 @@
             "Pengelolaan akun, pencadangan, dan sinkronisasi antar perangkat — pelaksanaan kontrak (GDPR 6(1)(b))",
             "Pembayaran dan pengelolaan langganan berbayar — pelaksanaan kontrak (GDPR 6(1)(b))",
             "Kepatuhan terhadap kewajiban hukum (mis. penyimpanan catatan pembayaran) — kewajiban hukum (GDPR 6(1)(c))",
-            "Saat ini tidak ada pemrosesan berdasarkan persetujuan terpisah"
+            "Analisis penggunaan opsional — persetujuan. Menolak atau mematikannya di Pengaturan > Privasi tidak menghalangi pencatatan dan pencarian.",
+            "Penayangan/pengukuran iklan dan pencegahan penipuan — pilihan dan persetujuan sesuai hukum yang berlaku dan kebijakan Google. Di EEA, Inggris, Swiss dan wilayah terkait, Google UMP memeriksa pilihan; iklan diminta hanya jika SDK mengizinkan. Penolakan mengikuti aturan persetujuan/iklan terbatas SDK tanpa memblokir pencatatan."
           ]
         },
         {
@@ -180,8 +183,8 @@
             "Kakao — pencarian buku serta email konfirmasi/pemulihan lewat Daum SMTP, memproses alamat penerima dan isi termasuk tautan verifikasi (Korea Selatan)",
             "Kementerian Keamanan Pangan dan Obat Korea — pencarian barcode makanan (Republik Korea, melalui proxy server)",
             "RevenueCat — pengelolaan langganan (Amerika Serikat)",
-            "Apple — masuk dan pembayaran (Amerika Serikat)",
-            "Google — masuk, pembayaran, dan peta (Amerika Serikat)",
+            "Apple — masuk, pembayaran, peta iOS dan pencarian tempat/wilayah; permintaan fungsi serta data koneksi/teknis (Amerika Serikat dan fasilitas global).",
+            "Google — masuk, pembayaran, peta Android di luar Korea, iklan/pengelolaan persetujuan AdMob, dan analisis Firebase dengan persetujuan (Amerika Serikat dan fasilitas global).",
             "Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar — permintaan kode batang, ISBN, gambar, serta informasi koneksi seperti IP"
           ]
         },
@@ -191,7 +194,7 @@
           "l": [
             "Supabase (entitas Singapura): autentikasi, pencarian, dan ID pengguna untuk penghapusan/langganan. Fungsi dapat berjalan di luar Seoul; wilayah dan subpemroses ada di tautan berikut. Retensi akun: bagian 8; log operasional: ketentuan penyedia. https://supabase.com/docs/guides/functions/regional-invocation ; https://supabase.com/legal/customer-resources/subprocessor-list",
             "RevenueCat (Amerika Serikat): ID anonim/akun, pembelian, dan perangkat untuk mengelola langganan. Saat akun dihapus, kami meminta penghapusan pelanggan terkait; penyedia memprosesnya secara asinkron. https://www.revenuecat.com/privacy",
-            "Apple dan Google (Amerika Serikat dan fasilitas global): pengenal/transaksi untuk login atau pembayaran yang dipilih, serta permintaan peta, IP, dan perangkat untuk Google Maps, selama diperlukan bagi layanan dan kewajiban hukum. https://www.apple.com/legal/privacy/ ; https://policies.google.com/privacy",
+            "Apple/Google: pengenal dan transaksi fungsi masuk/pembayaran yang dipilih; permintaan peta/pencarian serta data koneksi/teknis untuk Apple Maps iOS atau Google Maps Android di luar Korea. Google juga memproses data iklan, persetujuan, dan analisis opsional pada bagian 3, termasuk IP, pengenal aplikasi/perangkat, interaksi iklan, kinerja dan diagnostik, melalui koneksi terenkripsi di Amerika Serikat dan fasilitas global lainnya. Retensi mengikuti kebutuhan layanan, pengukuran, keamanan, kewajiban hukum, serta kebijakan penyedia. https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy · https://policies.google.com/technologies/ads · https://firebase.google.com/support/privacy",
             "Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar: kode batang, ISBN, alamat gambar, dan IP dikirim langsung ke server luar negeri untuk pencarian, pengiriman konten, dan log operasional. https://world.openfoodfacts.org/privacy ; https://archive.org/about/terms.php"
           ]
         },
@@ -202,7 +205,8 @@
             "Penghapusan akun: membersihkan foto server, meminta penghapusan pelanggan RevenueCat, lalu menghapus akun dan catatan database. Ini urutan beberapa sistem, bukan satu penghapusan atomik. Kegagalan perlu dicoba ulang. Data perangkat yang dipilih baru dibersihkan setelah konfirmasi server. RevenueCat memproses secara asinkron; langganan toko dan catatan transaksi wajib disimpan secara terpisah.",
             "Penghapusan satuan: setelah sinkronisasi, pembersihan harian server menghapus isi (nama, catatan, skor, lokasi) lebih dari 30 hari setelah waktu penghapusan yang tercatat. Baris penanda berisi ID, relasi, dan waktu untuk sinkronisasi dibersihkan harian setelah 365 hari. Foto server dibersihkan terpisah saat sinkronisasi aplikasi; offline atau kegagalan dapat menundanya. Jangka waktu ini tidak otomatis menghapus catatan terhapus di perangkat.",
             "Konfirmasi: ID permintaan/pengguna dan waktu untuk respons hilang atau percobaan ulang dibersihkan harian lebih dari 30 hari setelah selesai. Permintaan belum selesai tetap disimpan agar dapat dilanjutkan.",
-            "Retensi menurut hukum: berdasarkan undang-undang e-commerce Korea dan peraturan terkait, catatan kontrak dan penarikan disimpan 5 tahun, catatan pembayaran dan penyediaan 5 tahun, serta catatan keluhan/sengketa konsumen 3 tahun, kemudian dimusnahkan"
+            "Retensi menurut hukum: berdasarkan undang-undang e-commerce Korea dan peraturan terkait, catatan kontrak dan penarikan disimpan 5 tahun, catatan pembayaran dan penyediaan 5 tahun, serta catatan keluhan/sengketa konsumen 3 tahun, kemudian dimusnahkan",
+            "Mematikan analisis menghentikan pengumpulan selanjutnya dan mereset instance Analytics di perangkat. Ini tidak langsung menghapus semua data yang telah dikirim ke Google; retensi/penghapusan server mengikuti pengaturan dan kebijakan penyedia. Permintaan: ssamoksoft@gmail.com."
           ]
         },
         {
@@ -213,7 +217,8 @@
             "Juga berisi catatan yang ditandai untuk dihapus tetapi belum dimusnahkan sepenuhnya — ekspor membaca data yang tersimpan di perangkat ini, sehingga catatan yang isinya sudah dimusnahkan di server tetap dapat ikut disertakan bila masih ada di perangkat ini",
             "Berkas yang diekspor saat masuk akun mencatat pengenal akun Anda (UUID)",
             "Berkas ekspor tidak dienkripsi — berhati-hatilah agar tidak membagikannya kepada pihak lain",
-            "Pengaduan: penduduk UE dapat mengadu ke otoritas pengawas negaranya; di Korea, ke Privacy Infringement Report Centre (privacy.kr, 118)"
+            "Pengaduan: penduduk UE dapat mengadu ke otoritas pengawas negaranya; di Korea, ke Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Ubah analisis di Pengaturan > Privasi. Jika diwajibkan Google UMP, layar yang sama menyediakan pilihan privasi iklan. Izin perangkat dan pilihan privasi iklan sistem operasi dikelola secara terpisah di pengaturan perangkat."
           ]
         },
         {
@@ -228,9 +233,10 @@
           "t": "12. Yang tidak kami lakukan",
           "b": "Stelleaf tidak melakukan hal-hal berikut.",
           "l": [
-            "Tidak ada iklan dan tidak ada pengumpulan pengidentifikasi iklan",
+            "Kami tidak menjalankan catatan pribadi sebagai layanan ulasan publik bagi pengguna lain.",
+            "Kami tidak mengirim isi catatan pribadi, foto, kueri atau lokasi presisi sebagai isi permintaan iklan atau peristiwa analisis.",
             "Tidak menjual data pribadi",
-            "Pembuatan profil iklan atau keputusan otomatis dengan dampak hukum atau serupa yang signifikan; statistik selera pribadi dihitung di perangkat",
+            "Statistik selera pribadi dihitung di perangkat; kami tidak membuat keputusan otomatis yang berdampak hukum atau sama signifikannya.",
             "Tidak ada pesan pemasaran",
             "Tidak ada pengumpulan data anak di bawah 14 tahun secara sengaja"
           ]
