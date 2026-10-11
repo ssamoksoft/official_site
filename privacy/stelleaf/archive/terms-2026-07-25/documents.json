@@ -1,0 +1,818 @@
+{
+  "zh": {
+    "title": "Stelleaf（별갈피）服务条款",
+    "updated": "生效日期：2026年7月25日",
+    "applies": "本条款约定你使用个体经营者 SSAMOK SOFT（以下称“运营方”）提供的移动应用“Stelleaf（별갈피）”（“本服务”）的条件。使用本服务即表示你同意本条款。",
+    "sections": [
+      {
+        "t": "第 1 条（本服务的内容）",
+        "b": "Stelleaf 是一款个人记录服务，用于以星级评分和备注记录并归档餐厅、图书、商品等。它采用本地优先设计：未登录也可使用核心功能，备份与跨设备同步仅在登录后提供。运营方可能会不断改进或变更本服务的功能。"
+      },
+      {
+        "t": "第 2 条（账户与年龄要求）",
+        "b": "本服务仅供 14 周岁及以上人士使用；部分欧盟国家的居民须达到该国的数字同意年龄（最高 16 周岁）。你可以选择电子邮件+密码、Google 或 Apple 登录。你对自己账户的活动与安全负责，若发现未经授权的使用应立即通知运营方。你可以随时在应用设置中注销账户。"
+      },
+      {
+        "t": "第 3 条（付费订阅）",
+        "b": "本服务提供高级（Stelleaf Premium）订阅，付款通过 App Store 或 Google Play 处理。订阅可能按各商店的政策自动续订，取消与退款遵循各商店的政策与流程。运营方不收集或存储支付卡信息。注销账户不等于取消订阅，请直接在商店中取消。订阅的具体权益（如无限照片云备份）将在应用内说明。"
+      },
+      {
+        "t": "第 4 条（内容所有权）",
+        "b": "你在本服务中记录的评分、备注、照片等内容归你所有。运营方仅在提供本服务（如备份与同步）所需的范围内处理该内容，不用于任何其他目的。"
+      },
+      {
+        "t": "第 5 条（用户义务与禁止行为）",
+        "b": "禁止违反法律或侵犯他人权利、干扰本服务的正常运行或未经授权访问系统，以及对本服务进行逆向工程、抓取或以自动化手段滥用。如有违反，运营方可采取限制使用等措施。"
+      },
+      {
+        "t": "第 6 条（备份与数据责任）",
+        "b": "若你未登录而仅在本地使用应用，数据仅存在于你的设备中，因此设备丢失、损坏或删除应用时无法恢复数据。如需备份，建议登录并使用同步功能。"
+      },
+      {
+        "t": "第 7 条（本服务的变更与终止）",
+        "b": "运营方可因运营或技术原因变更或终止本服务的全部或部分内容，重大变更将提前公告。即使本服务终止，设备中的本地数据仍会保留在你的设备上。"
+      },
+      {
+        "t": "第 8 条（责任限制）",
+        "b": "本服务按“现状”提供。在法律允许的范围内，运营方不对因使用本服务而产生的间接或附带损害承担责任，但因运营方故意或重大过失造成的损害除外。本条不限制消费者保护法赋予你的法定权利。"
+      },
+      {
+        "t": "第 9 条（条款的变更）",
+        "b": "运营方可更新本条款，变更将在本页面公布，重大变更也会在应用内公告。更新后的条款自公布时生效，继续使用本服务即视为接受变更。"
+      },
+      {
+        "t": "第 10 条（适用法律与管辖）",
+        "b": "本条款受大韩民国法律管辖，争议将向韩国民事诉讼法规定的有管辖权的法院提起。你所居住国家的强制性消费者保护规定不受影响。"
+      },
+      {
+        "t": "第 11 条（联系我们）",
+        "b": "有关本条款的问题，请联系 ssamoksoft@gmail.com。"
+      }
+    ]
+  },
+  "tr": {
+    "title": "Stelleaf Hizmet Şartları",
+    "updated": "Yürürlük tarihi: 25 Temmuz 2026",
+    "applies": "Bu şartlar, şahıs işletmesi SSAMOK SOFT (“İşletmeci”) tarafından sunulan “Stelleaf” (별갈피, “Hizmet”) mobil uygulamasını kullanımınızı düzenler. Hizmeti kullanarak bu şartları kabul etmiş olursunuz.",
+    "sections": [
+      {
+        "t": "Madde 1 (Hizmet)",
+        "b": "Stelleaf; restoranları, kitapları, ürünleri ve daha fazlasını yıldız puanları ve notlarla kaydetmeye yarayan kişisel bir arşivleme hizmetidir. Yerel önceliklidir: temel özellikleri oturum açmadan kullanabilirsiniz; yedekleme ve cihazlar arası eşitleme yalnızca oturum açıldığında sunulur. İşletmeci, Hizmetin özelliklerini zaman içinde geliştirebilir veya değiştirebilir."
+      },
+      {
+        "t": "Madde 2 (Hesaplar ve yaş koşulu)",
+        "b": "Hizmet yalnızca 14 yaş ve üzeri kişiler tarafından kullanılabilir; bazı AB ülkelerindeki kullanıcıların, ülkelerinin dijital rıza yaşını (16 yaşa kadar) karşılaması gerekir. E-posta+şifre, Google veya Apple ile oturum açabilirsiniz. Hesabınızdaki etkinlik ve güvenlikten siz sorumlusunuz ve yetkisiz kullanımı derhâl İşletmeci'ye bildirmelisiniz. Hesabınızı uygulama ayarlarından istediğiniz zaman silebilirsiniz."
+      },
+      {
+        "t": "Madde 3 (Ücretli abonelik)",
+        "b": "Hizmet, premium (Stelleaf Premium) abonelik sunar; ödemeler App Store veya Google Play üzerinden işlenir. Abonelikler her mağazanın politikasına göre otomatik yenilenebilir; iptal ve iadeler her mağazanın politika ve prosedürlerine tabidir. İşletmeci ödeme kartı bilgilerini toplamaz veya saklamaz. Hesabı silmek aboneliği iptal etmez — aboneliği doğrudan mağazadan iptal edin. Aboneliğin belirli avantajları (örneğin sınırsız fotoğraf bulut yedeklemesi) uygulama içinde açıklanır."
+      },
+      {
+        "t": "Madde 4 (İçerik sahipliği)",
+        "b": "Hizmette kaydettiğiniz içerik — değerlendirmeler, notlar, fotoğraflar ve diğerleri — size aittir. İşletmeci bu içeriği yalnızca Hizmeti sunmak için gereken ölçüde, örneğin yedekleme ve eşitleme amacıyla işler ve başka hiçbir amaçla kullanmaz."
+      },
+      {
+        "t": "Madde 5 (Kullanıcı yükümlülükleri ve yasaklı davranışlar)",
+        "b": "Yasaları ihlal etmek veya başkalarının haklarını çiğnemek, Hizmeti aksatmak veya sistemlere yetkisiz erişmek, ayrıca tersine mühendislik, veri kazıma veya otomatik araçlarla Hizmeti kötüye kullanmak yasaktır. İhlal durumunda İşletmeci kullanımı kısıtlayabilir."
+      },
+      {
+        "t": "Madde 6 (Yedekleme ve verilere ilişkin sorumluluk)",
+        "b": "Uygulamayı oturum açmadan yerel olarak kullanırsanız verileriniz yalnızca cihazınızda bulunur; bu nedenle cihaz kaybolur, bozulur veya uygulama silinirse veriler kurtarılamaz. Yedeklemeye ihtiyacınız varsa oturum açıp eşitlemeyi kullanmanızı öneririz."
+      },
+      {
+        "t": "Madde 7 (Hizmetin değiştirilmesi veya sona erdirilmesi)",
+        "b": "İşletmeci, operasyonel veya teknik nedenlerle Hizmetin tamamını veya bir kısmını değiştirebilir ya da sona erdirebilir; önemli değişiklikler önceden duyurulur. Hizmet sona erse bile yerel veriler cihazınızda kalır."
+      },
+      {
+        "t": "Madde 8 (Sorumluluğun sınırlandırılması)",
+        "b": "Hizmet “olduğu gibi” sunulur. Yasaların izin verdiği ölçüde İşletmeci, Hizmetin kullanımından doğan dolaylı veya arızi zararlardan sorumlu değildir; ancak İşletmeci'nin kastı veya ağır ihmalinden kaynaklanan zararlar bunun dışındadır. Tüketici olarak yasal haklarınız bu madde ile sınırlanmaz."
+      },
+      {
+        "t": "Madde 9 (Bu şartlardaki değişiklikler)",
+        "b": "İşletmeci bu şartları güncelleyebilir; değişiklikler bu sayfada yayımlanır ve önemli değişiklikler uygulama içinde de duyurulur. Güncellenen şartlar yayımlandığı anda yürürlüğe girer ve Hizmeti kullanmaya devam etmek kabul anlamına gelir."
+      },
+      {
+        "t": "Madde 10 (Geçerli hukuk ve yetkili mahkeme)",
+        "b": "Bu şartlar Kore Cumhuriyeti yasalarına tabidir ve uyuşmazlıklar Kore Hukuk Usulü Muhakemeleri Kanunu uyarınca yetkili mahkemeye götürülür. İkamet ettiğiniz ülkenin emredici tüketici korumaları etkilenmez."
+      },
+      {
+        "t": "Madde 11 (İletişim)",
+        "b": "Bu şartlarla ilgili sorular için ssamoksoft@gmail.com adresine yazın."
+      }
+    ]
+  },
+  "ja": {
+    "title": "Stelleaf（별갈피）利用規約",
+    "updated": "施行日: 2026年7月25日",
+    "applies": "本規約は、個人事業主 SSAMOK SOFT（以下「運営者」）が提供するモバイルアプリ「Stelleaf（별갈피）」（以下「本サービス」）の利用条件を定めるものです。本サービスを利用することで、本規約に同意したものとみなされます。",
+    "sections": [
+      {
+        "t": "第1条（本サービスの内容）",
+        "b": "Stelleaf は、飲食店・書籍・商品などを星評価とメモで記録・アーカイブする個人向け記録サービスです。ローカルファースト設計のため、ログインなしでも基本機能を利用でき、バックアップと端末間同期はログインした場合にのみ提供されます。運営者は本サービスの機能を継続的に改善または変更することがあります。"
+      },
+      {
+        "t": "第2条（アカウントおよび年齢要件）",
+        "b": "本サービスは満14歳以上の方のみ利用できます。EU の一部の国の居住者は、当該国の情報社会サービスに関する同意年齢（最大16歳）以上である必要があります。ログインはメール+パスワード、Google、Apple から選択できます。利用者は自身のアカウントの活動と安全管理に責任を負い、不正利用を認識した場合は直ちに運営者に通知するものとします。利用者はアプリ内の設定からいつでも退会できます。"
+      },
+      {
+        "t": "第3条（有料サブスクリプション）",
+        "b": "本サービスはプレミアム（Stelleaf Premium）サブスクリプションを提供し、決済は App Store または Google Play を通じて処理されます。サブスクリプションは各ストアのポリシーに従って自動更新される場合があり、解約と返金は各ストアのポリシーおよび手続きに従います。運営者は決済カード情報を収集・保存しません。アカウントの削除はサブスクリプションの解約に代わるものではないため、サブスクリプションはストアで直接解約する必要があります。サブスクリプションの具体的な特典（写真のクラウドバックアップ無制限など）はアプリ内で告知します。"
+      },
+      {
+        "t": "第4条（コンテンツの所有権）",
+        "b": "利用者が本サービスに記録した評価・メモ・写真などのコンテンツは利用者に帰属します。運営者はバックアップ・同期など本サービスの提供に必要な範囲でのみ当該コンテンツを処理し、他の目的には利用しません。"
+      },
+      {
+        "t": "第5条（利用者の義務および禁止行為）",
+        "b": "法令違反または他者の権利侵害、本サービスの正常な運営の妨害やシステムへの不正アクセス、本サービスのリバースエンジニアリング・スクレイピング・自動化手段による濫用は禁止されています。違反があった場合、運営者は利用制限などの措置を講じることがあります。"
+      },
+      {
+        "t": "第6条（バックアップとデータに関する責任）",
+        "b": "ログインせずローカル専用で利用する場合、データは端末内にのみ存在するため、端末の紛失・故障やアプリの削除時にデータを復元できません。バックアップが必要な場合は、ログインして同期機能を利用することを推奨します。"
+      },
+      {
+        "t": "第7条（本サービスの変更および中止）",
+        "b": "運営者は運営上・技術上の必要に応じて本サービスの全部または一部を変更または中止することがあり、重大な変更は事前に告知します。本サービスが終了しても、端末内のローカルデータは利用者の端末に残ります。"
+      },
+      {
+        "t": "第8条（責任の制限）",
+        "b": "本サービスは「現状有姿（as is）」で提供されます。法令が許容する範囲で、運営者は本サービスの利用により生じた間接的・付随的損害について責任を負いません。ただし、運営者の故意または重大な過失による損害はこの限りではなく、消費者保護法令上の利用者の権利は本条項によって制限されません。"
+      },
+      {
+        "t": "第9条（規約の変更）",
+        "b": "運営者は本規約を変更することがあり、変更時は本ページで告知し、重要な変更はアプリ内でも告知します。変更後の規約は掲載時点から適用され、変更後も本サービスを継続して利用した場合、変更に同意したものとみなされます。"
+      },
+      {
+        "t": "第10条（準拠法および管轄）",
+        "b": "本規約は大韓民国の法律に準拠して解釈され、紛争は大韓民国民事訴訟法上の管轄裁判所に提起します。ただし、利用者が居住する国の強行規定に基づく消費者の権利は侵害されません。"
+      },
+      {
+        "t": "第11条（お問い合わせ）",
+        "b": "本規約に関するお問い合わせは ssamoksoft@gmail.com までご連絡ください。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Stelleaf Nutzungsbedingungen",
+    "updated": "Gültig ab: 25. Juli 2026",
+    "applies": "Diese Bedingungen regeln die Nutzung der mobilen App „Stelleaf“ (별갈피, der „Dienst“) des Einzelunternehmens SSAMOK SOFT (der „Betreiber“). Mit der Nutzung des Dienstes stimmst du diesen Bedingungen zu.",
+    "sections": [
+      {
+        "t": "§ 1 (Der Dienst)",
+        "b": "Stelleaf ist ein persönlicher Archivdienst, um Restaurants, Bücher, Produkte und mehr mit Sternebewertungen und Notizen festzuhalten. Er ist local-first: Die Kernfunktionen kannst du ohne Anmeldung nutzen, Backup und geräteübergreifende Synchronisierung nur im angemeldeten Zustand. Der Betreiber kann die Funktionen des Dienstes im Laufe der Zeit verbessern oder ändern."
+      },
+      {
+        "t": "§ 2 (Konten und Altersanforderung)",
+        "b": "Der Dienst darf nur von Personen ab 14 Jahren genutzt werden; in einigen EU-Ländern ist das dortige digitale Einwilligungsalter (bis 16 Jahre) maßgeblich. Du kannst dich mit E-Mail+Passwort, Google oder Apple anmelden. Du bist für Aktivität und Sicherheit deines Kontos verantwortlich und musst den Betreiber unverzüglich über unbefugte Nutzung informieren. Du kannst dein Konto jederzeit in den App-Einstellungen löschen."
+      },
+      {
+        "t": "§ 3 (Bezahltes Abo)",
+        "b": "Der Dienst bietet ein Premium-Abo (Stelleaf Premium); Zahlungen werden über den App Store oder Google Play abgewickelt. Abos können sich gemäß den Richtlinien des jeweiligen Stores automatisch verlängern; Kündigungen und Erstattungen richten sich nach den Richtlinien und Verfahren des jeweiligen Stores. Der Betreiber erhebt und speichert keine Zahlungskartendaten. Das Löschen des Kontos kündigt kein Abo – kündige es direkt im Store. Die konkreten Abo-Vorteile (z. B. unbegrenztes Foto-Cloud-Backup) sind in der App beschrieben."
+      },
+      {
+        "t": "§ 4 (Eigentum an Inhalten)",
+        "b": "Die Inhalte, die du im Dienst erfasst – Bewertungen, Notizen, Fotos und mehr – gehören dir. Der Betreiber verarbeitet sie nur in dem Umfang, der zur Bereitstellung des Dienstes erforderlich ist, etwa für Backup und Synchronisierung, und nutzt sie nicht für andere Zwecke."
+      },
+      {
+        "t": "§ 5 (Pflichten der Nutzer und verbotenes Verhalten)",
+        "b": "Verboten sind Rechtsverstöße oder die Verletzung von Rechten Dritter, die Störung des Dienstes oder der unbefugte Zugriff auf Systeme sowie Reverse Engineering, Scraping oder der Missbrauch des Dienstes mit automatisierten Mitteln. Bei Verstößen kann der Betreiber die Nutzung einschränken."
+      },
+      {
+        "t": "§ 6 (Backups und Verantwortung für Daten)",
+        "b": "Wenn du die App ohne Anmeldung lokal nutzt, existieren deine Daten nur auf deinem Gerät und können bei Verlust, Defekt oder Löschen der App nicht wiederhergestellt werden. Wenn du ein Backup benötigst, empfehlen wir die Anmeldung und die Nutzung der Synchronisierung."
+      },
+      {
+        "t": "§ 7 (Änderung oder Einstellung des Dienstes)",
+        "b": "Der Betreiber kann den Dienst aus betrieblichen oder technischen Gründen ganz oder teilweise ändern oder einstellen; wesentliche Änderungen werden vorab angekündigt. Auch wenn der Dienst endet, bleiben lokale Daten auf deinem Gerät."
+      },
+      {
+        "t": "§ 8 (Haftungsbeschränkung)",
+        "b": "Der Dienst wird „wie besehen“ bereitgestellt. Soweit gesetzlich zulässig, haftet der Betreiber nicht für indirekte oder Folgeschäden aus der Nutzung des Dienstes, ausgenommen Schäden durch Vorsatz oder grobe Fahrlässigkeit des Betreibers. Deine gesetzlichen Verbraucherrechte werden durch diesen Paragrafen nicht eingeschränkt."
+      },
+      {
+        "t": "§ 9 (Änderungen dieser Bedingungen)",
+        "b": "Der Betreiber kann diese Bedingungen aktualisieren; Änderungen werden auf dieser Seite veröffentlicht, wesentliche Änderungen zusätzlich in der App angekündigt. Aktualisierte Bedingungen gelten ab Veröffentlichung; die weitere Nutzung des Dienstes gilt als Zustimmung."
+      },
+      {
+        "t": "§ 10 (Anwendbares Recht und Gerichtsstand)",
+        "b": "Diese Bedingungen unterliegen dem Recht der Republik Korea; Streitigkeiten werden vor dem nach der koreanischen Zivilprozessordnung zuständigen Gericht geführt. Zwingende Verbraucherschutzvorschriften deines Wohnsitzlandes bleiben unberührt."
+      },
+      {
+        "t": "§ 11 (Kontakt)",
+        "b": "Bei Fragen zu diesen Bedingungen wende dich an ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "ru": {
+    "title": "Условия использования Stelleaf",
+    "updated": "Дата вступления в силу: 25 июля 2026 г.",
+    "applies": "Настоящие условия регулируют использование мобильного приложения «Stelleaf» (별갈피, «Сервис»), предоставляемого индивидуальным предпринимателем SSAMOK SOFT («Оператор»). Используя Сервис, вы соглашаетесь с этими условиями.",
+    "sections": [
+      {
+        "t": "Статья 1 (Сервис)",
+        "b": "Stelleaf — сервис личного архива для записи ресторанов, книг, товаров и прочего с оценками в звёздах и заметками. Он работает с приоритетом локального хранения: основные функции доступны без входа в аккаунт, а резервное копирование и синхронизация между устройствами — только после входа. Оператор может со временем улучшать или изменять функции Сервиса."
+      },
+      {
+        "t": "Статья 2 (Аккаунты и возрастное требование)",
+        "b": "Сервисом могут пользоваться только лица от 14 лет; жители некоторых стран ЕС должны достичь установленного в их стране возраста цифрового согласия (до 16 лет). Вход возможен по эл. почте с паролем, через Google или Apple. Вы отвечаете за действия в своём аккаунте и его безопасность и должны незамедлительно сообщать Оператору о несанкционированном использовании. Вы можете удалить аккаунт в любое время в настройках приложения."
+      },
+      {
+        "t": "Статья 3 (Платная подписка)",
+        "b": "Сервис предлагает премиум-подписку (Stelleaf Premium); платежи обрабатываются через App Store или Google Play. Подписки могут продлеваться автоматически согласно политике соответствующего магазина, а отмена и возврат средств осуществляются по политикам и процедурам каждого магазина. Оператор не собирает и не хранит данные платёжных карт. Удаление аккаунта не отменяет подписку — отмените её напрямую в магазине. Конкретные преимущества подписки (например, неограниченное облачное резервное копирование фотографий) описаны в приложении."
+      },
+      {
+        "t": "Статья 4 (Права на контент)",
+        "b": "Контент, который вы вносите в Сервис, — оценки, заметки, фотографии и прочее — принадлежит вам. Оператор обрабатывает его только в объёме, необходимом для оказания Сервиса, например для резервного копирования и синхронизации, и не использует его для иных целей."
+      },
+      {
+        "t": "Статья 5 (Обязанности пользователя и запрещённые действия)",
+        "b": "Запрещены нарушение закона или прав третьих лиц, вмешательство в работу Сервиса или несанкционированный доступ к системам, а также обратная разработка, скрапинг и злоупотребление Сервисом с помощью автоматизированных средств. При нарушениях Оператор может ограничить использование."
+      },
+      {
+        "t": "Статья 6 (Резервные копии и ответственность за данные)",
+        "b": "Если вы используете приложение локально без входа в аккаунт, ваши данные существуют только на устройстве, поэтому их нельзя восстановить при потере или поломке устройства либо удалении приложения. Если вам нужна резервная копия, рекомендуем войти в аккаунт и использовать синхронизацию."
+      },
+      {
+        "t": "Статья 7 (Изменение или прекращение Сервиса)",
+        "b": "Оператор может изменить или прекратить работу Сервиса полностью или частично по операционным или техническим причинам, заранее уведомив о существенных изменениях. Даже если Сервис прекращает работу, локальные данные остаются на вашем устройстве."
+      },
+      {
+        "t": "Статья 8 (Ограничение ответственности)",
+        "b": "Сервис предоставляется «как есть». В пределах, допускаемых законом, Оператор не несёт ответственности за косвенные или сопутствующие убытки, возникшие из-за использования Сервиса, за исключением убытков, причинённых умыслом или грубой неосторожностью Оператора. Ваши законные права потребителя настоящей статьёй не ограничиваются."
+      },
+      {
+        "t": "Статья 9 (Изменение условий)",
+        "b": "Оператор может обновлять настоящие условия; изменения публикуются на этой странице, а о существенных изменениях сообщается также в приложении. Обновлённые условия вступают в силу с момента публикации, а продолжение использования Сервиса означает согласие с ними."
+      },
+      {
+        "t": "Статья 10 (Применимое право и подсудность)",
+        "b": "Настоящие условия регулируются законодательством Республики Корея, а споры рассматриваются компетентным судом согласно Гражданскому процессуальному закону Кореи. Императивные нормы защиты прав потребителей страны вашего проживания не затрагиваются."
+      },
+      {
+        "t": "Статья 11 (Контакты)",
+        "b": "По вопросам, связанным с настоящими условиями, пишите на ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "pt": {
+    "title": "Termos de Serviço do Stelleaf",
+    "updated": "Data de vigência: 25 de julho de 2026",
+    "applies": "Estes termos regem o uso do app móvel “Stelleaf” (별갈피, o “Serviço”) fornecido pelo empresário individual SSAMOK SOFT (o “Operador”). Ao usar o Serviço, você concorda com estes termos.",
+    "sections": [
+      {
+        "t": "Artigo 1 (O Serviço)",
+        "b": "O Stelleaf é um serviço de arquivamento pessoal para registrar restaurantes, livros, produtos e mais com avaliações por estrelas e notas. É local-first: você pode usar os recursos principais sem fazer login, e o backup e a sincronização entre dispositivos são oferecidos somente quando conectado. O Operador pode aprimorar ou alterar os recursos do Serviço ao longo do tempo."
+      },
+      {
+        "t": "Artigo 2 (Contas e idade mínima)",
+        "b": "O Serviço só pode ser usado por pessoas com 14 anos ou mais; residentes de alguns países da UE devem atingir a idade de consentimento digital do seu país (até 16 anos). Você pode fazer login com e-mail+senha, Google ou Apple. Você é responsável pela atividade e segurança da sua conta e deve notificar o Operador prontamente sobre qualquer uso não autorizado. Você pode excluir sua conta a qualquer momento nas configurações do app."
+      },
+      {
+        "t": "Artigo 3 (Assinatura paga)",
+        "b": "O Serviço oferece uma assinatura premium (Stelleaf Premium); os pagamentos são processados pela App Store ou pelo Google Play. As assinaturas podem ser renovadas automaticamente conforme a política de cada loja, e cancelamentos e reembolsos seguem as políticas e procedimentos de cada loja. O Operador não coleta nem armazena informações de cartão de pagamento. Excluir sua conta não cancela uma assinatura — cancele diretamente na loja. Os benefícios específicos da assinatura (p. ex. backup ilimitado de fotos) são descritos no app."
+      },
+      {
+        "t": "Artigo 4 (Propriedade do conteúdo)",
+        "b": "O conteúdo que você registra no Serviço — avaliações, notas, fotos e demais — pertence a você. O Operador o trata apenas na medida necessária para prestar o Serviço, como backup e sincronização, e não o utiliza para nenhuma outra finalidade."
+      },
+      {
+        "t": "Artigo 5 (Obrigações do usuário e condutas proibidas)",
+        "b": "É proibido violar a lei ou infringir direitos de terceiros, prejudicar o funcionamento do Serviço ou acessar sistemas sem autorização, bem como fazer engenharia reversa, raspagem de dados ou abuso do Serviço por meios automatizados. O Operador pode restringir o uso em caso de violação."
+      },
+      {
+        "t": "Artigo 6 (Backups e responsabilidade pelos dados)",
+        "b": "Se você usar o app localmente sem fazer login, seus dados existem apenas no seu dispositivo e não poderão ser recuperados se ele for perdido ou danificado ou se o app for excluído. Se precisar de backup, recomendamos fazer login e usar a sincronização."
+      },
+      {
+        "t": "Artigo 7 (Alterações ou descontinuação do Serviço)",
+        "b": "O Operador pode alterar ou descontinuar todo ou parte do Serviço por motivos operacionais ou técnicos, com aviso prévio para mudanças relevantes. Mesmo que o Serviço termine, os dados locais permanecem no seu dispositivo."
+      },
+      {
+        "t": "Artigo 8 (Limitação de responsabilidade)",
+        "b": "O Serviço é fornecido “no estado em que se encontra”. Na medida permitida por lei, o Operador não se responsabiliza por danos indiretos ou incidentais decorrentes do uso do Serviço, exceto por danos causados por dolo ou culpa grave do Operador. Seus direitos legais de consumidor não são limitados por este artigo."
+      },
+      {
+        "t": "Artigo 9 (Alterações destes termos)",
+        "b": "O Operador pode atualizar estes termos; as alterações serão publicadas nesta página e as relevantes também serão anunciadas no app. Os termos atualizados entram em vigor quando publicados, e o uso continuado do Serviço constitui aceitação."
+      },
+      {
+        "t": "Artigo 10 (Lei aplicável e foro)",
+        "b": "Estes termos são regidos pelas leis da República da Coreia, e as disputas serão levadas ao foro competente conforme a lei processual civil coreana. As proteções imperativas ao consumidor do seu país de residência não são afetadas."
+      },
+      {
+        "t": "Artigo 11 (Contato)",
+        "b": "Para dúvidas sobre estes termos, escreva para ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "en": {
+    "title": "Stelleaf Terms of Service",
+    "updated": "Effective date: July 25, 2026",
+    "applies": "These terms govern your use of the mobile app “Stelleaf” (별갈피, the “Service”) provided by the sole proprietorship SSAMOK SOFT (the “Operator”). By using the Service, you agree to these terms.",
+    "sections": [
+      {
+        "t": "Article 1 (The Service)",
+        "b": "Stelleaf is a personal archiving service for recording restaurants, books, products, and more with star ratings and notes. It is local-first: you can use its core features without signing in, and backup and cross-device sync are provided only when signed in. The Operator may improve or change the Service's features over time."
+      },
+      {
+        "t": "Article 2 (Accounts and age requirement)",
+        "b": "The Service may only be used by people aged 14 or older; residents of some EU countries must meet their country's digital consent age (up to 16). You may sign in with email+password, Google, or Apple. You are responsible for your account's activity and security and must notify the Operator promptly of any unauthorized use. You can delete your account at any time in the app's settings."
+      },
+      {
+        "t": "Article 3 (Paid subscription)",
+        "b": "The Service offers a premium (Stelleaf Premium) subscription; payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Operator does not collect or store payment card information. Deleting your account does not cancel a subscription — cancel it directly in the store. Specific subscription benefits (e.g. unlimited cloud photo backup) are described in the app."
+      },
+      {
+        "t": "Article 4 (Ownership of content)",
+        "b": "The content you record in the Service — ratings, notes, photos, and more — belongs to you. The Operator processes it only to the extent needed to provide the Service, such as backup and sync, and does not use it for any other purpose."
+      },
+      {
+        "t": "Article 5 (User obligations and prohibited conduct)",
+        "b": "Violating the law or infringing others' rights, disrupting the Service or accessing systems without authorization, and reverse engineering, scraping, or abusing the Service with automated means are prohibited. The Operator may restrict use in the event of violations."
+      },
+      {
+        "t": "Article 6 (Backups and responsibility for data)",
+        "b": "If you use the app locally without signing in, your data exists only on your device, so it cannot be recovered if the device is lost or broken or the app is deleted. If you need a backup, we recommend signing in and using sync."
+      },
+      {
+        "t": "Article 7 (Changes to or discontinuation of the Service)",
+        "b": "The Operator may change or discontinue all or part of the Service for operational or technical reasons, with prior notice for material changes. Even if the Service ends, local data remains on your device."
+      },
+      {
+        "t": "Article 8 (Limitation of liability)",
+        "b": "The Service is provided “as is.” To the extent permitted by law, the Operator is not liable for indirect or incidental damages arising from use of the Service, except for damages caused by the Operator's willful misconduct or gross negligence. Your statutory consumer rights are not limited by this article."
+      },
+      {
+        "t": "Article 9 (Changes to these terms)",
+        "b": "The Operator may update these terms; changes will be posted on this page and material changes will also be announced in the app. Updated terms take effect when posted, and continued use of the Service constitutes acceptance."
+      },
+      {
+        "t": "Article 10 (Governing law and jurisdiction)",
+        "b": "These terms are governed by the laws of the Republic of Korea, and disputes are brought before the competent court under the Korean Civil Procedure Act. Mandatory consumer protections of your country of residence are not affected."
+      },
+      {
+        "t": "Article 11 (Contact)",
+        "b": "For questions about these terms, contact ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "it": {
+    "title": "Termini di servizio di Stelleaf",
+    "updated": "Data di entrata in vigore: 25 luglio 2026",
+    "applies": "I presenti termini regolano l'uso dell'app mobile “Stelleaf” (별갈피, il “Servizio”) fornita dall'imprenditore individuale SSAMOK SOFT (l'“Operatore”). Utilizzando il Servizio accetti questi termini.",
+    "sections": [
+      {
+        "t": "Articolo 1 (Il Servizio)",
+        "b": "Stelleaf è un servizio di archiviazione personale per registrare ristoranti, libri, prodotti e altro con valutazioni a stelle e note. È local-first: puoi usare le funzioni principali senza accedere, mentre backup e sincronizzazione tra dispositivi sono disponibili solo dopo l'accesso. L'Operatore può migliorare o modificare le funzionalità del Servizio nel tempo."
+      },
+      {
+        "t": "Articolo 2 (Account ed età minima)",
+        "b": "Il Servizio può essere utilizzato solo da persone di almeno 14 anni; i residenti in alcuni Paesi dell'UE devono aver raggiunto l'età di consenso digitale del proprio Paese (fino a 16 anni). Puoi accedere con e-mail+password, Google o Apple. Sei responsabile dell'attività e della sicurezza del tuo account e devi informare tempestivamente l'Operatore di qualsiasi uso non autorizzato. Puoi eliminare il tuo account in qualsiasi momento nelle impostazioni dell'app."
+      },
+      {
+        "t": "Articolo 3 (Abbonamento a pagamento)",
+        "b": "Il Servizio offre un abbonamento premium (Stelleaf Premium); i pagamenti sono elaborati tramite App Store o Google Play. Gli abbonamenti possono rinnovarsi automaticamente secondo la politica di ciascuno store e cancellazioni e rimborsi seguono le politiche e le procedure di ciascuno store. L'Operatore non raccoglie né archivia informazioni sulle carte di pagamento. L'eliminazione dell'account non annulla un abbonamento: annullalo direttamente nello store. I benefici specifici dell'abbonamento (es. backup illimitato delle foto) sono descritti nell'app."
+      },
+      {
+        "t": "Articolo 4 (Proprietà dei contenuti)",
+        "b": "I contenuti che registri nel Servizio — valutazioni, note, foto e altro — appartengono a te. L'Operatore li tratta solo nella misura necessaria per fornire il Servizio, come backup e sincronizzazione, e non li utilizza per altre finalità."
+      },
+      {
+        "t": "Articolo 5 (Obblighi dell'utente e condotte vietate)",
+        "b": "È vietato violare la legge o i diritti altrui, ostacolare il Servizio o accedere ai sistemi senza autorizzazione, nonché effettuare reverse engineering, scraping o abusare del Servizio con mezzi automatizzati. In caso di violazione l'Operatore può limitare l'utilizzo."
+      },
+      {
+        "t": "Articolo 6 (Backup e responsabilità sui dati)",
+        "b": "Se usi l'app in locale senza accedere, i tuoi dati esistono solo sul tuo dispositivo e non potranno essere recuperati in caso di smarrimento, guasto o rimozione dell'app. Se hai bisogno di un backup, consigliamo di accedere e usare la sincronizzazione."
+      },
+      {
+        "t": "Articolo 7 (Modifiche o interruzione del Servizio)",
+        "b": "L'Operatore può modificare o interrompere in tutto o in parte il Servizio per motivi operativi o tecnici, con preavviso in caso di modifiche rilevanti. Anche se il Servizio termina, i dati locali rimangono sul tuo dispositivo."
+      },
+      {
+        "t": "Articolo 8 (Limitazione di responsabilità)",
+        "b": "Il Servizio è fornito “così com'è”. Nella misura consentita dalla legge, l'Operatore non è responsabile di danni indiretti o incidentali derivanti dall'uso del Servizio, salvo i danni causati da dolo o colpa grave dell'Operatore. I tuoi diritti legali di consumatore non sono limitati da questo articolo."
+      },
+      {
+        "t": "Articolo 9 (Modifiche ai presenti termini)",
+        "b": "L'Operatore può aggiornare i presenti termini; le modifiche saranno pubblicate in questa pagina e quelle rilevanti annunciate anche nell'app. I termini aggiornati hanno effetto dalla pubblicazione e l'uso continuato del Servizio ne costituisce accettazione."
+      },
+      {
+        "t": "Articolo 10 (Legge applicabile e foro competente)",
+        "b": "I presenti termini sono regolati dalle leggi della Repubblica di Corea e le controversie sono portate davanti al foro competente ai sensi del codice di procedura civile coreano. Le tutele imperative del consumatore del tuo Paese di residenza non sono pregiudicate."
+      },
+      {
+        "t": "Articolo 11 (Contatti)",
+        "b": "Per domande su questi termini, scrivi a ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "fr": {
+    "title": "Conditions d'utilisation de Stelleaf",
+    "updated": "Date d'entrée en vigueur : 25 juillet 2026",
+    "applies": "Les présentes conditions régissent votre utilisation de l'appli mobile « Stelleaf » (별갈피, le « Service ») fournie par l'entrepreneur individuel SSAMOK SOFT (l'« Exploitant »). En utilisant le Service, vous acceptez ces conditions.",
+    "sections": [
+      {
+        "t": "Article 1 (Le Service)",
+        "b": "Stelleaf est un service d'archivage personnel permettant de consigner restaurants, livres, produits et plus encore à l'aide de notes en étoiles et de commentaires. Il est local-first : vous pouvez utiliser ses fonctions principales sans vous connecter, et la sauvegarde et la synchronisation entre appareils ne sont proposées qu'une fois connecté. L'Exploitant peut améliorer ou modifier les fonctionnalités du Service au fil du temps."
+      },
+      {
+        "t": "Article 2 (Comptes et âge minimum)",
+        "b": "Le Service ne peut être utilisé que par des personnes âgées de 14 ans ou plus ; les résidents de certains pays de l'UE doivent avoir atteint l'âge de consentement numérique de leur pays (jusqu'à 16 ans). Vous pouvez vous connecter avec e-mail+mot de passe, Google ou Apple. Vous êtes responsable de l'activité et de la sécurité de votre compte et devez signaler sans délai à l'Exploitant toute utilisation non autorisée. Vous pouvez supprimer votre compte à tout moment dans les réglages de l'appli."
+      },
+      {
+        "t": "Article 3 (Abonnement payant)",
+        "b": "Le Service propose un abonnement premium (Stelleaf Premium) ; les paiements sont traités via l'App Store ou Google Play. Les abonnements peuvent se renouveler automatiquement selon la politique de chaque boutique, et les résiliations et remboursements suivent les politiques et procédures de chaque boutique. L'Exploitant ne collecte ni ne stocke d'informations de carte bancaire. Supprimer votre compte ne résilie pas un abonnement : résiliez-le directement dans la boutique. Les avantages précis de l'abonnement (p. ex. sauvegarde illimitée des photos) sont décrits dans l'appli."
+      },
+      {
+        "t": "Article 4 (Propriété du contenu)",
+        "b": "Le contenu que vous consignez dans le Service — évaluations, commentaires, photos, etc. — vous appartient. L'Exploitant ne le traite que dans la mesure nécessaire à la fourniture du Service, telle que la sauvegarde et la synchronisation, et ne l'utilise à aucune autre fin."
+      },
+      {
+        "t": "Article 5 (Obligations de l'utilisateur et comportements interdits)",
+        "b": "Sont interdits : enfreindre la loi ou porter atteinte aux droits d'autrui, perturber le Service ou accéder aux systèmes sans autorisation, ainsi que la rétro-ingénierie, l'extraction de données ou l'abus du Service par des moyens automatisés. L'Exploitant peut restreindre l'utilisation en cas de violation."
+      },
+      {
+        "t": "Article 6 (Sauvegardes et responsabilité des données)",
+        "b": "Si vous utilisez l'appli en local sans vous connecter, vos données n'existent que sur votre appareil et ne pourront pas être récupérées en cas de perte, de panne ou de suppression de l'appli. Si vous avez besoin d'une sauvegarde, nous vous recommandons de vous connecter et d'utiliser la synchronisation."
+      },
+      {
+        "t": "Article 7 (Modification ou arrêt du Service)",
+        "b": "L'Exploitant peut modifier ou interrompre tout ou partie du Service pour des raisons opérationnelles ou techniques, avec un préavis en cas de changement important. Même si le Service prend fin, les données locales restent sur votre appareil."
+      },
+      {
+        "t": "Article 8 (Limitation de responsabilité)",
+        "b": "Le Service est fourni « en l'état ». Dans la mesure permise par la loi, l'Exploitant n'est pas responsable des dommages indirects ou accessoires résultant de l'utilisation du Service, sauf en cas de faute intentionnelle ou de négligence grave de l'Exploitant. Vos droits légaux de consommateur ne sont pas limités par cet article."
+      },
+      {
+        "t": "Article 9 (Modification des présentes conditions)",
+        "b": "L'Exploitant peut mettre à jour ces conditions ; les modifications seront publiées sur cette page et les changements importants seront également annoncés dans l'appli. Les conditions mises à jour prennent effet dès leur publication, et la poursuite de l'utilisation du Service vaut acceptation."
+      },
+      {
+        "t": "Article 10 (Droit applicable et juridiction)",
+        "b": "Les présentes conditions sont régies par le droit de la République de Corée, et les litiges sont portés devant la juridiction compétente au titre du code de procédure civile coréen. Les protections impératives des consommateurs de votre pays de résidence ne sont pas affectées."
+      },
+      {
+        "t": "Article 11 (Contact)",
+        "b": "Pour toute question sur ces conditions, contactez ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "hi": {
+    "title": "Stelleaf (별갈피) सेवा की शर्तें",
+    "updated": "प्रभावी तिथि: 25 जुलाई 2026",
+    "applies": "ये शर्तें एकल स्वामित्व व्यवसाय SSAMOK SOFT (“संचालक”) द्वारा प्रदान किए गए मोबाइल ऐप “Stelleaf (별갈피)” (“सेवा”) के आपके उपयोग को नियंत्रित करती हैं। सेवा का उपयोग करके आप इन शर्तों से सहमत होते हैं।",
+    "sections": [
+      {
+        "t": "अनुच्छेद 1 (सेवा)",
+        "b": "Stelleaf एक व्यक्तिगत संग्रह सेवा है जिसमें आप रेस्टोरेंट, पुस्तकें, उत्पाद आदि को स्टार रेटिंग और नोट्स के साथ रिकॉर्ड करते हैं। यह लोकल-फर्स्ट है: आप साइन इन किए बिना मुख्य सुविधाएँ उपयोग कर सकते हैं, और बैकअप तथा डिवाइसों के बीच सिंक केवल साइन इन करने पर उपलब्ध होते हैं। संचालक समय के साथ सेवा की सुविधाओं में सुधार या बदलाव कर सकता है।"
+      },
+      {
+        "t": "अनुच्छेद 2 (खाते और आयु आवश्यकता)",
+        "b": "सेवा का उपयोग केवल 14 वर्ष या अधिक आयु के व्यक्ति कर सकते हैं; कुछ EU देशों के निवासियों को अपने देश की डिजिटल सहमति आयु (16 वर्ष तक) पूरी करनी होगी। आप ईमेल+पासवर्ड, Google या Apple से साइन इन कर सकते हैं। आप अपने खाते की गतिविधि और सुरक्षा के लिए ज़िम्मेदार हैं और किसी अनधिकृत उपयोग की सूचना तुरंत संचालक को देनी होगी। आप ऐप की सेटिंग्स में कभी भी अपना खाता हटा सकते हैं।"
+      },
+      {
+        "t": "अनुच्छेद 3 (सशुल्क सदस्यता)",
+        "b": "सेवा प्रीमियम (Stelleaf Premium) सदस्यता प्रदान करती है; भुगतान App Store या Google Play के माध्यम से संसाधित होते हैं। सदस्यता प्रत्येक स्टोर की नीति के अनुसार अपने आप नवीनीकृत हो सकती है, और रद्दीकरण तथा धनवापसी प्रत्येक स्टोर की नीतियों और प्रक्रियाओं के अनुसार होती है। संचालक भुगतान कार्ड की जानकारी एकत्र या संग्रहीत नहीं करता। खाता हटाने से सदस्यता रद्द नहीं होती — उसे सीधे स्टोर में रद्द करें। सदस्यता के विशिष्ट लाभ (जैसे असीमित फ़ोटो क्लाउड बैकअप) ऐप में बताए गए हैं।"
+      },
+      {
+        "t": "अनुच्छेद 4 (सामग्री का स्वामित्व)",
+        "b": "सेवा में आपके द्वारा दर्ज सामग्री — रेटिंग, नोट्स, फ़ोटो इत्यादि — आपकी है। संचालक इसे केवल सेवा प्रदान करने के लिए आवश्यक सीमा तक, जैसे बैकअप और सिंक, संसाधित करता है और किसी अन्य उद्देश्य के लिए उपयोग नहीं करता।"
+      },
+      {
+        "t": "अनुच्छेद 5 (उपयोगकर्ता के दायित्व और निषिद्ध आचरण)",
+        "b": "कानून का उल्लंघन या दूसरों के अधिकारों का हनन, सेवा में बाधा डालना या बिना अनुमति सिस्टम तक पहुँचना, तथा रिवर्स इंजीनियरिंग, स्क्रैपिंग या स्वचालित साधनों से सेवा का दुरुपयोग निषिद्ध है। उल्लंघन पर संचालक उपयोग सीमित कर सकता है।"
+      },
+      {
+        "t": "अनुच्छेद 6 (बैकअप और डेटा की ज़िम्मेदारी)",
+        "b": "यदि आप साइन इन किए बिना ऐप का स्थानीय उपयोग करते हैं, तो आपका डेटा केवल आपके डिवाइस पर होता है, इसलिए डिवाइस खोने, खराब होने या ऐप हटाने पर उसे पुनर्प्राप्त नहीं किया जा सकता। यदि आपको बैकअप चाहिए, तो साइन इन करके सिंक सुविधा का उपयोग करने की सलाह दी जाती है।"
+      },
+      {
+        "t": "अनुच्छेद 7 (सेवा में बदलाव या बंद करना)",
+        "b": "संचालक परिचालन या तकनीकी कारणों से सेवा के पूरे या किसी हिस्से को बदल या बंद कर सकता है; महत्वपूर्ण बदलावों की पूर्व सूचना दी जाएगी। सेवा समाप्त होने पर भी स्थानीय डेटा आपके डिवाइस पर रहता है।"
+      },
+      {
+        "t": "अनुच्छेद 8 (दायित्व की सीमा)",
+        "b": "सेवा “जैसी है” आधार पर प्रदान की जाती है। कानून द्वारा अनुमत सीमा तक, संचालक सेवा के उपयोग से उत्पन्न अप्रत्यक्ष या आनुषंगिक क्षति के लिए उत्तरदायी नहीं है, सिवाय संचालक की जानबूझकर की गई गलती या घोर लापरवाही से हुई क्षति के। इस अनुच्छेद से आपके वैधानिक उपभोक्ता अधिकार सीमित नहीं होते।"
+      },
+      {
+        "t": "अनुच्छेद 9 (इन शर्तों में बदलाव)",
+        "b": "संचालक इन शर्तों को अद्यतन कर सकता है; परिवर्तन इस पेज पर प्रकाशित किए जाएँगे और महत्वपूर्ण परिवर्तनों की घोषणा ऐप में भी की जाएगी। अद्यतन शर्तें प्रकाशन के समय से प्रभावी होती हैं, और सेवा का निरंतर उपयोग स्वीकृति माना जाता है।"
+      },
+      {
+        "t": "अनुच्छेद 10 (शासकीय कानून और क्षेत्राधिकार)",
+        "b": "ये शर्तें कोरिया गणराज्य के कानूनों द्वारा शासित हैं, और विवाद कोरियाई सिविल प्रक्रिया अधिनियम के अनुसार सक्षम न्यायालय में लाए जाएँगे। आपके निवास देश के अनिवार्य उपभोक्ता संरक्षण प्रभावित नहीं होते।"
+      },
+      {
+        "t": "अनुच्छेद 11 (संपर्क)",
+        "b": "इन शर्तों से संबंधित प्रश्नों के लिए ssamoksoft@gmail.com पर संपर्क करें।"
+      }
+    ]
+  },
+  "ko": {
+    "title": "별갈피(Stelleaf) 이용약관",
+    "updated": "시행일: 2026년 7월 25일",
+    "applies": "본 약관은 개인사업자 SSAMOK SOFT(이하 '운영자')가 제공하는 모바일 앱 「별갈피(Stelleaf)」(이하 '서비스')의 이용 조건을 정합니다. 서비스를 이용하면 본 약관에 동의한 것으로 봅니다.",
+    "sections": [
+      {
+        "t": "제1조 (서비스의 내용)",
+        "b": "별갈피는 맛집·책·상품 등을 별점과 메모로 기록·아카이빙하는 개인 기록 서비스입니다. 로컬 우선 구조로 로그인 없이도 기본 기능을 사용할 수 있으며, 로그인한 경우에만 백업과 기기 간 동기화가 제공됩니다. 운영자는 서비스의 기능을 지속적으로 개선하거나 변경할 수 있습니다."
+      },
+      {
+        "t": "제2조 (계정 및 연령 기준)",
+        "b": "서비스는 만 14세 이상만 이용할 수 있으며, EU 일부 국가 거주자는 해당국의 정보사회서비스 동의 연령(최대 만 16세) 이상이어야 합니다. 로그인은 이메일+비밀번호, Google, Apple 중 선택할 수 있습니다. 이용자는 자신의 계정 활동과 보안에 대한 책임이 있으며, 무단 사용을 인지하면 즉시 운영자에게 알려야 합니다. 이용자는 앱 내 설정에서 언제든지 탈퇴할 수 있습니다."
+      },
+      {
+        "t": "제3조 (유료 구독)",
+        "b": "서비스는 프리미엄(Stelleaf Premium) 구독을 제공하며, 결제는 App Store 또는 Google Play를 통해 처리됩니다. 구독은 각 스토어의 정책에 따라 자동 갱신될 수 있으며, 해지와 환불은 각 스토어의 정책과 절차를 따릅니다. 운영자는 결제 카드 정보를 수집·저장하지 않습니다. 계정 삭제는 구독 해지를 대신하지 않으므로 구독은 스토어에서 직접 해지해야 합니다. 구독 혜택의 구체적 내용(예: 사진 클라우드 백업 무제한)은 앱 내에 고지합니다."
+      },
+      {
+        "t": "제4조 (콘텐츠의 소유권)",
+        "b": "이용자가 서비스에 기록한 평가·메모·사진 등 콘텐츠는 이용자의 소유입니다. 운영자는 백업·동기화 등 서비스 제공에 필요한 범위에서만 해당 콘텐츠를 처리하며, 다른 목적으로 이용하지 않습니다."
+      },
+      {
+        "t": "제5조 (이용자의 의무 및 금지행위)",
+        "b": "법령을 위반하거나 타인의 권리를 침해하는 행위, 서비스의 정상적인 운영을 방해하거나 시스템에 무단으로 접근하는 행위, 서비스를 역설계·크롤링하거나 자동화 수단으로 남용하는 행위는 금지됩니다. 위반 시 운영자는 이용 제한 등의 조치를 취할 수 있습니다."
+      },
+      {
+        "t": "제6조 (백업과 데이터에 대한 책임)",
+        "b": "로그인하지 않고 로컬 전용으로 사용하는 경우 데이터는 기기에만 존재하므로, 기기 분실·고장·앱 삭제 시 데이터를 복구할 수 없습니다. 백업이 필요한 경우 로그인 후 동기화 기능을 사용할 것을 권장합니다."
+      },
+      {
+        "t": "제7조 (서비스의 변경 및 중단)",
+        "b": "운영자는 운영상·기술상 필요에 따라 서비스의 전부 또는 일부를 변경하거나 중단할 수 있으며, 중대한 변경은 사전에 고지합니다. 서비스가 종료되더라도 기기 내 로컬 데이터는 이용자의 기기에 남습니다."
+      },
+      {
+        "t": "제8조 (책임의 제한)",
+        "b": "서비스는 '있는 그대로(as is)' 제공됩니다. 법령이 허용하는 범위에서 운영자는 서비스 이용으로 발생한 간접적·부수적 손해에 대해 책임을 지지 않습니다. 다만 운영자의 고의 또는 중대한 과실로 인한 손해는 예외로 하며, 소비자 보호 법령상 이용자의 권리는 본 조항으로 제한되지 않습니다."
+      },
+      {
+        "t": "제9조 (약관의 변경)",
+        "b": "운영자는 본 약관을 변경할 수 있으며, 변경 시 본 페이지를 통해 고지하고 중요한 변경은 앱 내에도 고지합니다. 변경된 약관은 게시 시점부터 적용되며, 변경 후 서비스를 계속 이용하면 변경에 동의한 것으로 봅니다."
+      },
+      {
+        "t": "제10조 (준거법 및 관할)",
+        "b": "본 약관은 대한민국 법률에 따라 해석되며, 분쟁은 민사소송법상 관할 법원에 제기합니다. 다만 이용자가 거주하는 국가의 강행규정에 따른 소비자 권리는 침해되지 않습니다."
+      },
+      {
+        "t": "제11조 (문의)",
+        "b": "약관에 관한 문의는 ssamoksoft@gmail.com로 연락해 주세요."
+      }
+    ]
+  },
+  "vi": {
+    "title": "Điều khoản dịch vụ Stelleaf",
+    "updated": "Ngày có hiệu lực: 25 tháng 7 năm 2026",
+    "applies": "Các điều khoản này điều chỉnh việc bạn sử dụng ứng dụng di động “Stelleaf” (별갈피, “Dịch vụ”) do hộ kinh doanh SSAMOK SOFT (“Nhà vận hành”) cung cấp. Bằng việc sử dụng Dịch vụ, bạn đồng ý với các điều khoản này.",
+    "sections": [
+      {
+        "t": "Điều 1 (Dịch vụ)",
+        "b": "Stelleaf là dịch vụ lưu trữ cá nhân để ghi lại nhà hàng, sách, sản phẩm và nhiều thứ khác bằng đánh giá sao và ghi chú. Dịch vụ ưu tiên cục bộ: bạn có thể dùng các tính năng chính mà không cần đăng nhập, còn sao lưu và đồng bộ giữa các thiết bị chỉ có khi đã đăng nhập. Nhà vận hành có thể cải tiến hoặc thay đổi các tính năng của Dịch vụ theo thời gian."
+      },
+      {
+        "t": "Điều 2 (Tài khoản và yêu cầu độ tuổi)",
+        "b": "Dịch vụ chỉ dành cho người từ 14 tuổi trở lên; người dùng ở một số quốc gia EU phải đạt độ tuổi đồng ý số của quốc gia mình (tối đa 16 tuổi). Bạn có thể đăng nhập bằng email+mật khẩu, Google hoặc Apple. Bạn chịu trách nhiệm về hoạt động và bảo mật tài khoản của mình và phải thông báo ngay cho Nhà vận hành khi phát hiện việc sử dụng trái phép. Bạn có thể xóa tài khoản bất cứ lúc nào trong phần cài đặt của ứng dụng."
+      },
+      {
+        "t": "Điều 3 (Gói đăng ký trả phí)",
+        "b": "Dịch vụ cung cấp gói đăng ký cao cấp (Stelleaf Premium); thanh toán được xử lý qua App Store hoặc Google Play. Gói đăng ký có thể tự động gia hạn theo chính sách của từng cửa hàng, và việc hủy cùng hoàn tiền tuân theo chính sách và quy trình của từng cửa hàng. Nhà vận hành không thu thập hoặc lưu trữ thông tin thẻ thanh toán. Xóa tài khoản không hủy gói đăng ký — hãy hủy trực tiếp tại cửa hàng. Các quyền lợi cụ thể của gói đăng ký (ví dụ sao lưu ảnh không giới hạn) được nêu trong ứng dụng."
+      },
+      {
+        "t": "Điều 4 (Quyền sở hữu nội dung)",
+        "b": "Nội dung bạn ghi lại trong Dịch vụ — đánh giá, ghi chú, ảnh và các nội dung khác — thuộc về bạn. Nhà vận hành chỉ xử lý nội dung đó trong phạm vi cần thiết để cung cấp Dịch vụ, như sao lưu và đồng bộ, và không dùng cho bất kỳ mục đích nào khác."
+      },
+      {
+        "t": "Điều 5 (Nghĩa vụ của người dùng và hành vi bị cấm)",
+        "b": "Nghiêm cấm vi phạm pháp luật hoặc xâm phạm quyền của người khác, gây rối Dịch vụ hoặc truy cập hệ thống trái phép, cũng như dịch ngược, thu thập dữ liệu tự động hoặc lạm dụng Dịch vụ bằng phương tiện tự động. Khi có vi phạm, Nhà vận hành có thể hạn chế việc sử dụng."
+      },
+      {
+        "t": "Điều 6 (Sao lưu và trách nhiệm về dữ liệu)",
+        "b": "Nếu bạn dùng ứng dụng cục bộ mà không đăng nhập, dữ liệu của bạn chỉ tồn tại trên thiết bị nên không thể phục hồi nếu thiết bị bị mất, hỏng hoặc bạn xóa ứng dụng. Nếu cần sao lưu, chúng tôi khuyến nghị đăng nhập và dùng tính năng đồng bộ."
+      },
+      {
+        "t": "Điều 7 (Thay đổi hoặc ngừng Dịch vụ)",
+        "b": "Nhà vận hành có thể thay đổi hoặc ngừng toàn bộ hay một phần Dịch vụ vì lý do vận hành hoặc kỹ thuật, và sẽ thông báo trước với các thay đổi quan trọng. Ngay cả khi Dịch vụ kết thúc, dữ liệu cục bộ vẫn còn trên thiết bị của bạn."
+      },
+      {
+        "t": "Điều 8 (Giới hạn trách nhiệm)",
+        "b": "Dịch vụ được cung cấp “nguyên trạng”. Trong phạm vi pháp luật cho phép, Nhà vận hành không chịu trách nhiệm về thiệt hại gián tiếp hoặc phát sinh từ việc sử dụng Dịch vụ, trừ thiệt hại do lỗi cố ý hoặc sơ suất nghiêm trọng của Nhà vận hành. Các quyền của người tiêu dùng theo luật không bị giới hạn bởi điều này."
+      },
+      {
+        "t": "Điều 9 (Thay đổi điều khoản)",
+        "b": "Nhà vận hành có thể cập nhật các điều khoản này; thay đổi sẽ được đăng trên trang này và những thay đổi quan trọng cũng được thông báo trong ứng dụng. Điều khoản cập nhật có hiệu lực khi được đăng, và việc tiếp tục sử dụng Dịch vụ được xem là chấp nhận."
+      },
+      {
+        "t": "Điều 10 (Luật áp dụng và thẩm quyền)",
+        "b": "Các điều khoản này được điều chỉnh bởi pháp luật Đại Hàn Dân Quốc, và tranh chấp được đưa ra tòa án có thẩm quyền theo luật tố tụng dân sự Hàn Quốc. Các quy định bảo vệ người tiêu dùng mang tính bắt buộc của quốc gia bạn cư trú không bị ảnh hưởng."
+      },
+      {
+        "t": "Điều 11 (Liên hệ)",
+        "b": "Nếu có câu hỏi về các điều khoản này, hãy liên hệ ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "zh_Hant": {
+    "title": "Stelleaf（별갈피）服務條款",
+    "updated": "生效日期：2026年7月25日",
+    "applies": "本條款約定你使用個人事業者 SSAMOK SOFT（以下稱「營運方」）提供的行動應用程式「Stelleaf（별갈피）」（「本服務」）的條件。使用本服務即表示你同意本條款。",
+    "sections": [
+      {
+        "t": "第 1 條（本服務的內容）",
+        "b": "Stelleaf 是一款個人記錄服務，用於以星級評分和備註記錄並歸檔餐廳、圖書、商品等。它採用本機優先設計：未登入也可使用核心功能，備份與跨裝置同步僅在登入後提供。營運方可能會持續改進或變更本服務的功能。"
+      },
+      {
+        "t": "第 2 條（帳戶與年齡要求）",
+        "b": "本服務僅供 14 歲及以上人士使用；部分歐盟國家的居民須達到該國的數位同意年齡（最高 16 歲）。你可以選擇電子郵件+密碼、Google 或 Apple 登入。你對自己帳戶的活動與安全負責，若發現未經授權的使用應立即通知營運方。你可以隨時在應用程式設定中註銷帳戶。"
+      },
+      {
+        "t": "第 3 條（付費訂閱）",
+        "b": "本服務提供進階（Stelleaf Premium）訂閱，付款透過 App Store 或 Google Play 處理。訂閱可能依各商店的政策自動續訂，取消與退款遵循各商店的政策與流程。營運方不收集或儲存付款卡資訊。註銷帳戶不等於取消訂閱，請直接在商店中取消。訂閱的具體權益（如無限照片雲端備份）將在應用程式內說明。"
+      },
+      {
+        "t": "第 4 條（內容所有權）",
+        "b": "你在本服務中記錄的評分、備註、照片等內容歸你所有。營運方僅在提供本服務（如備份與同步）所需的範圍內處理該內容，不用於任何其他目的。"
+      },
+      {
+        "t": "第 5 條（使用者義務與禁止行為）",
+        "b": "禁止違反法律或侵害他人權利、干擾本服務的正常運作或未經授權存取系統，以及對本服務進行逆向工程、擷取或以自動化手段濫用。如有違反，營運方可採取限制使用等措施。"
+      },
+      {
+        "t": "第 6 條（備份與資料責任）",
+        "b": "若你未登入而僅在本機使用應用程式，資料僅存在於你的裝置中，因此裝置遺失、損壞或刪除應用程式時無法復原資料。如需備份，建議登入並使用同步功能。"
+      },
+      {
+        "t": "第 7 條（本服務的變更與終止）",
+        "b": "營運方可因營運或技術原因變更或終止本服務的全部或部分內容，重大變更將提前公告。即使本服務終止，裝置中的本機資料仍會保留在你的裝置上。"
+      },
+      {
+        "t": "第 8 條（責任限制）",
+        "b": "本服務按「現狀」提供。在法律允許的範圍內，營運方不對因使用本服務而產生的間接或附帶損害承擔責任，但因營運方故意或重大過失造成的損害除外。本條不限制消費者保護法賦予你的法定權利。"
+      },
+      {
+        "t": "第 9 條（條款的變更）",
+        "b": "營運方可更新本條款，變更將在本頁面公布，重大變更也會在應用程式內公告。更新後的條款自公布時生效，繼續使用本服務即視為接受變更。"
+      },
+      {
+        "t": "第 10 條（適用法律與管轄）",
+        "b": "本條款受大韓民國法律管轄，爭議將向韓國民事訴訟法規定的有管轄權法院提起。你所居住國家的強制性消費者保護規定不受影響。"
+      },
+      {
+        "t": "第 11 條（聯絡我們）",
+        "b": "有關本條款的問題，請聯絡 ssamoksoft@gmail.com。"
+      }
+    ]
+  },
+  "id": {
+    "title": "Ketentuan Layanan Stelleaf",
+    "updated": "Tanggal berlaku: 25 Juli 2026",
+    "applies": "Ketentuan ini mengatur penggunaan aplikasi seluler “Stelleaf” (별갈피, “Layanan”) yang disediakan oleh usaha perseorangan SSAMOK SOFT (“Operator”). Dengan menggunakan Layanan, Anda menyetujui ketentuan ini.",
+    "sections": [
+      {
+        "t": "Pasal 1 (Layanan)",
+        "b": "Stelleaf adalah layanan pengarsipan pribadi untuk mencatat restoran, buku, produk, dan lainnya dengan penilaian bintang serta catatan. Layanan bersifat local-first: Anda dapat menggunakan fitur utamanya tanpa masuk, sedangkan pencadangan dan sinkronisasi antar perangkat hanya tersedia setelah masuk. Operator dapat meningkatkan atau mengubah fitur Layanan dari waktu ke waktu."
+      },
+      {
+        "t": "Pasal 2 (Akun dan batas usia)",
+        "b": "Layanan hanya boleh digunakan oleh orang berusia 14 tahun atau lebih; penduduk sebagian negara UE harus memenuhi usia persetujuan digital negaranya (hingga 16 tahun). Anda dapat masuk dengan email+kata sandi, Google, atau Apple. Anda bertanggung jawab atas aktivitas dan keamanan akun Anda dan harus segera memberi tahu Operator jika ada penggunaan tanpa izin. Anda dapat menghapus akun kapan saja di pengaturan aplikasi."
+      },
+      {
+        "t": "Pasal 3 (Langganan berbayar)",
+        "b": "Layanan menawarkan langganan premium (Stelleaf Premium); pembayaran diproses melalui App Store atau Google Play. Langganan dapat diperpanjang otomatis sesuai kebijakan masing-masing toko, dan pembatalan serta pengembalian dana mengikuti kebijakan dan prosedur masing-masing toko. Operator tidak mengumpulkan atau menyimpan informasi kartu pembayaran. Menghapus akun tidak membatalkan langganan — batalkan langsung di toko. Manfaat langganan yang spesifik (mis. pencadangan foto tanpa batas) dijelaskan di dalam aplikasi."
+      },
+      {
+        "t": "Pasal 4 (Kepemilikan konten)",
+        "b": "Konten yang Anda catat di Layanan — penilaian, catatan, foto, dan lainnya — adalah milik Anda. Operator memprosesnya hanya sejauh diperlukan untuk menyediakan Layanan, seperti pencadangan dan sinkronisasi, dan tidak menggunakannya untuk tujuan lain."
+      },
+      {
+        "t": "Pasal 5 (Kewajiban pengguna dan perilaku yang dilarang)",
+        "b": "Dilarang melanggar hukum atau hak orang lain, mengganggu Layanan atau mengakses sistem tanpa izin, serta melakukan rekayasa balik, scraping, atau menyalahgunakan Layanan dengan sarana otomatis. Operator dapat membatasi penggunaan jika terjadi pelanggaran."
+      },
+      {
+        "t": "Pasal 6 (Pencadangan dan tanggung jawab atas data)",
+        "b": "Jika Anda menggunakan aplikasi secara lokal tanpa masuk, data Anda hanya ada di perangkat Anda sehingga tidak dapat dipulihkan jika perangkat hilang atau rusak atau aplikasi dihapus. Jika Anda memerlukan pencadangan, kami menyarankan untuk masuk dan menggunakan sinkronisasi."
+      },
+      {
+        "t": "Pasal 7 (Perubahan atau penghentian Layanan)",
+        "b": "Operator dapat mengubah atau menghentikan seluruh atau sebagian Layanan karena alasan operasional atau teknis, dengan pemberitahuan sebelumnya untuk perubahan penting. Meskipun Layanan berakhir, data lokal tetap ada di perangkat Anda."
+      },
+      {
+        "t": "Pasal 8 (Batasan tanggung jawab)",
+        "b": "Layanan disediakan “sebagaimana adanya”. Sejauh diizinkan hukum, Operator tidak bertanggung jawab atas kerugian tidak langsung atau insidental akibat penggunaan Layanan, kecuali kerugian karena kesengajaan atau kelalaian berat Operator. Hak konsumen Anda menurut hukum tidak dibatasi oleh pasal ini."
+      },
+      {
+        "t": "Pasal 9 (Perubahan ketentuan ini)",
+        "b": "Operator dapat memperbarui ketentuan ini; perubahan akan dipublikasikan di halaman ini dan perubahan penting juga diumumkan di aplikasi. Ketentuan yang diperbarui berlaku sejak dipublikasikan, dan penggunaan Layanan yang berkelanjutan dianggap sebagai persetujuan."
+      },
+      {
+        "t": "Pasal 10 (Hukum yang berlaku dan yurisdiksi)",
+        "b": "Ketentuan ini diatur oleh hukum Republik Korea, dan sengketa diajukan ke pengadilan yang berwenang menurut hukum acara perdata Korea. Perlindungan konsumen yang bersifat wajib di negara tempat Anda tinggal tidak terpengaruh."
+      },
+      {
+        "t": "Pasal 11 (Kontak)",
+        "b": "Untuk pertanyaan tentang ketentuan ini, hubungi ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "es": {
+    "title": "Términos del servicio de Stelleaf",
+    "updated": "Fecha de entrada en vigor: 25 de julio de 2026",
+    "applies": "Estos términos rigen el uso de la app móvil «Stelleaf» (별갈피, el «Servicio») proporcionada por el empresario individual SSAMOK SOFT (el «Operador»). Al usar el Servicio, aceptas estos términos.",
+    "sections": [
+      {
+        "t": "Artículo 1 (El Servicio)",
+        "b": "Stelleaf es un servicio de archivo personal para registrar restaurantes, libros, productos y más con valoraciones por estrellas y notas. Es local-first: puedes usar sus funciones principales sin iniciar sesión, y la copia de seguridad y la sincronización entre dispositivos se ofrecen solo al iniciar sesión. El Operador puede mejorar o cambiar las funciones del Servicio con el tiempo."
+      },
+      {
+        "t": "Artículo 2 (Cuentas y edad mínima)",
+        "b": "El Servicio solo puede ser utilizado por personas de 14 años o más; los residentes de algunos países de la UE deben alcanzar la edad de consentimiento digital de su país (hasta 16 años). Puedes iniciar sesión con correo+contraseña, Google o Apple. Eres responsable de la actividad y la seguridad de tu cuenta y debes notificar al Operador cualquier uso no autorizado sin demora. Puedes eliminar tu cuenta en cualquier momento en los ajustes de la app."
+      },
+      {
+        "t": "Artículo 3 (Suscripción de pago)",
+        "b": "El Servicio ofrece una suscripción premium (Stelleaf Premium); los pagos se procesan a través del App Store o Google Play. Las suscripciones pueden renovarse automáticamente según la política de cada tienda, y las cancelaciones y reembolsos siguen las políticas y procedimientos de cada tienda. El Operador no recopila ni almacena información de tarjetas de pago. Eliminar tu cuenta no cancela una suscripción: cancélala directamente en la tienda. Las ventajas concretas de la suscripción (p. ej. copia de seguridad de fotos ilimitada) se describen en la app."
+      },
+      {
+        "t": "Artículo 4 (Propiedad del contenido)",
+        "b": "El contenido que registras en el Servicio —valoraciones, notas, fotos y demás— te pertenece. El Operador lo trata únicamente en la medida necesaria para prestar el Servicio, como la copia de seguridad y la sincronización, y no lo utiliza para ningún otro fin."
+      },
+      {
+        "t": "Artículo 5 (Obligaciones del usuario y conductas prohibidas)",
+        "b": "Está prohibido infringir la ley o los derechos de terceros, perturbar el Servicio o acceder a los sistemas sin autorización, así como realizar ingeniería inversa, extraer datos o abusar del Servicio con medios automatizados. El Operador puede restringir el uso en caso de infracción."
+      },
+      {
+        "t": "Artículo 6 (Copias de seguridad y responsabilidad sobre los datos)",
+        "b": "Si usas la app localmente sin iniciar sesión, tus datos existen únicamente en tu dispositivo, por lo que no podrán recuperarse si lo pierdes, se avería o eliminas la app. Si necesitas una copia de seguridad, te recomendamos iniciar sesión y usar la sincronización."
+      },
+      {
+        "t": "Artículo 7 (Cambios o interrupción del Servicio)",
+        "b": "El Operador puede cambiar o interrumpir total o parcialmente el Servicio por motivos operativos o técnicos, con aviso previo en caso de cambios importantes. Aunque el Servicio finalice, los datos locales permanecen en tu dispositivo."
+      },
+      {
+        "t": "Artículo 8 (Limitación de responsabilidad)",
+        "b": "El Servicio se ofrece «tal cual». En la medida permitida por la ley, el Operador no responde por daños indirectos o incidentales derivados del uso del Servicio, salvo los causados por dolo o negligencia grave del Operador. Tus derechos legales como consumidor no quedan limitados por este artículo."
+      },
+      {
+        "t": "Artículo 9 (Cambios en estos términos)",
+        "b": "El Operador puede actualizar estos términos; los cambios se publicarán en esta página y los importantes se anunciarán también en la app. Los términos actualizados entran en vigor al publicarse, y el uso continuado del Servicio constituye su aceptación."
+      },
+      {
+        "t": "Artículo 10 (Ley aplicable y jurisdicción)",
+        "b": "Estos términos se rigen por las leyes de la República de Corea, y las controversias se plantearán ante el tribunal competente según la Ley de Procedimiento Civil coreana. No se afectan las protecciones imperativas del consumidor de tu país de residencia."
+      },
+      {
+        "t": "Artículo 11 (Contacto)",
+        "b": "Para preguntas sobre estos términos, escribe a ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "ar": {
+    "title": "شروط خدمة Stelleaf",
+    "updated": "تاريخ السريان: 25 يوليو 2026",
+    "applies": "تنظّم هذه الشروط استخدامك لتطبيق الهاتف المحمول «Stelleaf» (별갈피، «الخدمة») الذي تقدّمه المؤسسة الفردية SSAMOK SOFT («المشغّل»). وباستخدامك الخدمة فإنك توافق على هذه الشروط.",
+    "sections": [
+      {
+        "t": "المادة 1 (الخدمة)",
+        "b": "Stelleaf خدمة أرشفة شخصية لتسجيل المطاعم والكتب والمنتجات وغيرها بتقييمات نجمية وملاحظات. وهي تعتمد التخزين المحلي أولًا: يمكنك استخدام ميزاتها الأساسية دون تسجيل الدخول، ولا يُتاح النسخ الاحتياطي والمزامنة بين الأجهزة إلا بعد تسجيل الدخول. ويجوز للمشغّل تحسين ميزات الخدمة أو تغييرها بمرور الوقت."
+      },
+      {
+        "t": "المادة 2 (الحسابات وشرط العمر)",
+        "b": "لا يمكن استخدام الخدمة إلا لمن بلغ 14 عامًا أو أكثر؛ وعلى المقيمين في بعض دول الاتحاد الأوروبي بلوغ سن الموافقة الرقمية في بلدهم (حتى 16 عامًا). ويمكنك تسجيل الدخول بالبريد الإلكتروني مع كلمة المرور أو عبر Google أو Apple. وأنت مسؤول عن النشاط على حسابك وعن أمانه، وعليك إبلاغ المشغّل فورًا بأي استخدام غير مصرّح به. ويمكنك حذف حسابك في أي وقت من إعدادات التطبيق."
+      },
+      {
+        "t": "المادة 3 (الاشتراك المدفوع)",
+        "b": "توفّر الخدمة اشتراكًا مميزًا (Stelleaf Premium)؛ وتُعالَج المدفوعات عبر App Store أو Google Play. وقد تتجدد الاشتراكات تلقائيًا وفق سياسة كل متجر، ويخضع الإلغاء والاسترداد لسياسات كل متجر وإجراءاته. ولا يجمع المشغّل معلومات بطاقات الدفع ولا يخزّنها. وحذف حسابك لا يلغي الاشتراك — ألغِه مباشرة من المتجر. وتُوضَّح مزايا الاشتراك المحددة (مثل النسخ الاحتياطي السحابي غير المحدود للصور) داخل التطبيق."
+      },
+      {
+        "t": "المادة 4 (ملكية المحتوى)",
+        "b": "المحتوى الذي تسجّله في الخدمة — التقييمات والملاحظات والصور وغيرها — يخصّك. ويعالجه المشغّل فقط بالقدر اللازم لتقديم الخدمة، مثل النسخ الاحتياطي والمزامنة، ولا يستخدمه لأي غرض آخر."
+      },
+      {
+        "t": "المادة 5 (التزامات المستخدم والسلوك المحظور)",
+        "b": "يُحظَر انتهاك القانون أو التعدي على حقوق الآخرين، وتعطيل الخدمة أو الوصول إلى الأنظمة دون تصريح، وكذلك الهندسة العكسية أو كشط البيانات أو إساءة استخدام الخدمة بوسائل آلية. وعند المخالفة يجوز للمشغّل تقييد الاستخدام."
+      },
+      {
+        "t": "المادة 6 (النسخ الاحتياطي والمسؤولية عن البيانات)",
+        "b": "إذا استخدمت التطبيق محليًا دون تسجيل الدخول، فإن بياناتك توجد على جهازك فقط، ولذلك لا يمكن استعادتها إذا فُقد الجهاز أو تعطّل أو حُذف التطبيق. وإذا احتجت إلى نسخة احتياطية، فنوصي بتسجيل الدخول واستخدام المزامنة."
+      },
+      {
+        "t": "المادة 7 (تغيير الخدمة أو إيقافها)",
+        "b": "يجوز للمشغّل تغيير الخدمة كلها أو جزء منها أو إيقافها لأسباب تشغيلية أو تقنية، مع إشعار مسبق بالتغييرات الجوهرية. وحتى إذا انتهت الخدمة، تبقى البيانات المحلية على جهازك."
+      },
+      {
+        "t": "المادة 8 (حدود المسؤولية)",
+        "b": "تُقدَّم الخدمة «كما هي». وفي الحدود التي يسمح بها القانون، لا يتحمل المشغّل المسؤولية عن الأضرار غير المباشرة أو العرضية الناشئة عن استخدام الخدمة، باستثناء الأضرار الناجمة عن تعمّد المشغّل أو إهماله الجسيم. ولا تحدّ هذه المادة من حقوقك القانونية كمستهلك."
+      },
+      {
+        "t": "المادة 9 (تعديل هذه الشروط)",
+        "b": "يجوز للمشغّل تحديث هذه الشروط؛ وستُنشَر التغييرات على هذه الصفحة كما تُعلَن التغييرات الجوهرية داخل التطبيق. وتسري الشروط المحدَّثة فور نشرها، ويُعَد الاستمرار في استخدام الخدمة قبولًا بها."
+      },
+      {
+        "t": "المادة 10 (القانون الواجب التطبيق والاختصاص القضائي)",
+        "b": "تخضع هذه الشروط لقوانين جمهورية كوريا، وتُرفَع النزاعات إلى المحكمة المختصة وفق قانون المرافعات المدنية الكوري. ولا تتأثر حماية المستهلك الإلزامية في بلد إقامتك."
+      },
+      {
+        "t": "المادة 11 (التواصل)",
+        "b": "للاستفسارات المتعلقة بهذه الشروط، اكتب إلى ssamoksoft@gmail.com."
+      }
+    ]
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "zh": {
+    "title": "删除你的 Stelleaf（별갈피）账户与数据",
+    "updated": "2026年9月20日",
+    "applies": "本页说明如何删除 SSAMOK SOFT提供的应用“Stelleaf（별갈피）”的账户与数据。即使你尚未安装应用或无法再访问应用，也可以通过电子邮件请求删除。",
+    "sections": [
+      {
+        "t": "方法 1 — 在应用中删除",
+        "b": "在设置 > 删除账户中选择仅删除服务器，或同时删除服务器与本设备资料。依次进行照片清理、RevenueCat 删除请求、账户及数据库删除。如遇网络或提供方错误，请重试。确认服务器完成后，应用才清理所选设备资料。"
+      },
+      {
+        "t": "方式 2 — 通过电子邮件请求（无需应用）",
+        "b": "使用注册时的电子邮件地址，向 ssamoksoft@gmail.com 发送主题为“Stelleaf 账户删除请求”的邮件。身份验证后，将在 7 天内处理。"
+      },
+      {
+        "t": "删除的数据",
+        "b": "删除服务器账户、关联记录、设置及照片，并请求 RevenueCat 删除客户信息。可选择保留设备资料。另行导出的文件及其他设备资料需自行管理。仅卸载应用不会删除服务器资料或取消订阅。完成确认记录及法定记录依下述保存规则处理。"
+      },
+      {
+        "t": "单项删除与永久清除周期",
+        "b": "单项删除：同步到服务器后，按服务器记载的删除时间，每日清理已超过 30 天的内容（名称、备注、评分、位置等）。保留同步所需 ID、关联关系、时间等信息的删除标记行，在 365 天后的每日清理中移除。服务器照片在应用同步时另行清理，可能因离线或失败而延迟。这些期限不表示设备上的已删除记录也会自动清除。 删除完成确认：用于丢失响应与重试确认的请求 ID、用户 ID 和时间，在完成超过 30 天后的每日清理中移除。未完成请求予以保留，以便继续处理。"
+      },
+      {
+        "t": "关于订阅",
+        "b": "订阅（Stelleaf Premium）与账户删除是分开的。如有有效订阅，请直接在 App Store 或 Google Play 中取消 — 删除账户不会自动取消订阅。"
+      },
+      {
+        "t": "法定保留",
+        "b": "依据韩国电子商务法等相关法律须保留的支付相关记录，将在法定期限届满后销毁。"
+      },
+      {
+        "t": "联系我们",
+        "b": "有关删除的问题，请联系 ssamoksoft@gmail.com。"
+      }
+    ]
+  },
+  "tr": {
+    "title": "Stelleaf hesabınızı ve verilerinizi silin",
+    "updated": "20 Eylül 2026",
+    "applies": "Bu sayfa, SSAMOK SOFT tarafından sunulan “Stelleaf” (별갈피) uygulamasında hesabınızı ve verilerinizi nasıl sileceğinizi açıklar. Uygulamayı kurmamış olsanız veya artık erişemiyor olsanız bile e-posta ile silme talebinde bulunabilirsiniz.",
+    "sections": [
+      {
+        "t": "Yöntem 1 — Uygulamada silme",
+        "b": "Ayarlar > Hesabı sil altında yalnız sunucuyu veya sunucu ile bu cihazı seçin. Fotoğraf temizleme, RevenueCat isteği ve hesap/veritabanı silme sırayla yapılır. Ağ veya sağlayıcı hatasında yeniden deneyin. Seçilen cihaz verileri sunucu onayından sonra temizlenir."
+      },
+      {
+        "t": "Yöntem 2 — E-posta ile talep edin (uygulama gerekmez)",
+        "b": "Kayıt olurken kullandığınız e-posta adresinden, “Stelleaf hesap silme talebi” konusuyla ssamoksoft@gmail.com adresine bir e-posta gönderin. Kimlik doğrulamasının ardından talebiniz 7 gün içinde işleme alınır."
+      },
+      {
+        "t": "Silinen veriler",
+        "b": "Sunucu hesabı, bağlı kayıtlar, ayarlar ve fotoğraflar silinir; RevenueCat müşteri silme isteği gönderilir. Cihaz verilerini tutabilirsiniz. Dışa aktarılan dosyaları ve diğer cihazları ayrıca yönetin. Uygulamayı kaldırmak bulutu silmez, aboneliği iptal etmez. Onay ve yasal kayıtlar aşağıdaki süreleri izler."
+      },
+      {
+        "t": "Tek tek silmeler ve kalıcı yok etme",
+        "b": "Tekil silme: eşitlemeden sonra, sunucuda kaydedilen silme zamanının üzerinden 30 gün geçen içerik (ad, not, puan, konum) günlük temizlikte kaldırılır. Eşitleme için kimlik, ilişki ve zaman bilgisi tutan silinmiş satırlar 365 gün sonrasındaki günlük temizlikte kaldırılır. Sunucu fotoğrafları uygulama eşitlemesinde ayrıca temizlenir; çevrimdışılık veya hata gecikmeye yol açabilir. Bu süreler cihazdaki silinmiş kayıtları otomatik temizlemez. Silme onayı: yanıt kaybı/yeniden deneme için istek ve kullanıcı kimlikleri ile zamanlar, tamamlanmadan 30 gün geçtikten sonraki günlük temizlikte kaldırılır. Tamamlanmayan istekler sürdürülebilmek için tutulur."
+      },
+      {
+        "t": "Abonelikler hakkında",
+        "b": "Abonelikler (Stelleaf Premium) hesap silme işleminden ayrıdır. Etkin bir aboneliğiniz varsa doğrudan App Store veya Google Play üzerinden iptal edin — hesabı silmek aboneliği otomatik olarak iptal etmez."
+      },
+      {
+        "t": "Yasal saklama",
+        "b": "Kore e-ticaret kanunu ve ilgili mevzuat uyarınca saklanması gereken ödemeye ilişkin kayıtlar, yasal süre boyunca saklanır ve ardından yok edilir."
+      },
+      {
+        "t": "İletişim",
+        "b": "Silme ile ilgili sorular için ssamoksoft@gmail.com adresine yazın."
+      }
+    ]
+  },
+  "ja": {
+    "title": "Stelleaf（별갈피）アカウント・データ削除のご案内",
+    "updated": "2026年9月20日",
+    "applies": "本ページでは、SSAMOK SOFTが提供するアプリ「Stelleaf（별갈피）」のアカウントおよびデータの削除方法をご案内します。アプリをインストールしていない場合やアプリにアクセスできない場合でも、メールで削除を依頼できます。",
+    "sections": [
+      {
+        "t": "方法1 — アプリで削除",
+        "b": "設定 > 退会で、サーバーのみ、またはサーバーとこの端末の両方の削除を選べます。写真整理、RevenueCatへの削除依頼、アカウント・DB削除の順に処理します。通信・提供者のエラー時は再試行してください。サーバー完了を確認した後、選択した端末データを整理します。"
+      },
+      {
+        "t": "方法 2 — メールで依頼（アプリ不要）",
+        "b": "登録に使用したメールアドレスから、件名「Stelleaf アカウント削除依頼」で ssamoksoft@gmail.com 宛にメールをお送りください。本人確認後、7日以内に処理されます。"
+      },
+      {
+        "t": "削除されるデータ",
+        "b": "サーバーのアカウント・関連記録・設定・写真を削除し、RevenueCatの顧客削除を依頼します。端末データは選択により残せます。書き出したファイルや他の端末の資料はご自身で管理してください。アンインストールだけではサーバー削除や購読解約は行われません。完了確認記録と法定記録は以下の保存基準に従います。"
+      },
+      {
+        "t": "個別削除と完全消去の周期",
+        "b": "個別削除：サーバーへの同期後、記録された削除時刻から30日を過ぎた内容（名前・メモ・点数・位置等）を毎日の整理で消去します。同期に必要なID・関連付け・時刻等の削除済み行は365日後の毎日の整理で削除します。サーバー写真の整理はアプリ同期中に別途行い、オフラインや失敗で遅れる場合があります。この期間は端末の削除済み記録を自動消去する期限ではありません。 退会完了確認：応答消失や再試行の確認用の要求ID・ユーザーID・時刻は完了から30日を過ぎた毎日の整理で削除します。未完了の要求は再開のため保持します。"
+      },
+      {
+        "t": "サブスクリプションに関する注意",
+        "b": "サブスクリプション（Stelleaf Premium）はアカウントの削除とは別です。契約中のサブスクリプションがある場合は、App Store または Google Play で直接解約してください。アカウントを削除してもサブスクリプションは自動的に解約されません。"
+      },
+      {
+        "t": "法令上の保存",
+        "b": "韓国の電子商取引法などに基づき保存義務のある決済関連の記録は、法定期間の保存後に破棄されます。"
+      },
+      {
+        "t": "お問い合わせ",
+        "b": "削除に関するお問い合わせは ssamoksoft@gmail.com までご連絡ください。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Stelleaf-Konto und Daten löschen",
+    "updated": "20. September 2026",
+    "applies": "Diese Seite erklärt, wie du dein Konto und deine Daten für die App „Stelleaf“ (별갈피) von SSAMOK SOFT löschst. Du kannst die Löschung per E-Mail beantragen, auch wenn du die App nicht installiert hast oder keinen Zugriff mehr darauf hast.",
+    "sections": [
+      {
+        "t": "Methode 1 — In der App löschen",
+        "b": "Unter Einstellungen > Konto löschen wählen Sie nur Serverdaten oder zusätzlich dieses Gerät. Fotobereinigung, RevenueCat-Anfrage und Konto-/Datenbanklöschung erfolgen nacheinander. Bei Netzwerk- oder Anbieterfehlern erneut versuchen. Gewählte Gerätedaten werden nach Serverbestätigung bereinigt."
+      },
+      {
+        "t": "Option 2 – Per E-Mail beantragen (ohne App)",
+        "b": "Sende von der E-Mail-Adresse, mit der du dich registriert hast, eine Nachricht an ssamoksoft@gmail.com mit dem Betreff „Stelleaf-Konto: Löschantrag“. Nach der Identitätsprüfung wird der Antrag innerhalb von 7 Tagen bearbeitet."
+      },
+      {
+        "t": "Was gelöscht wird",
+        "b": "Serverkonto, zugehörige Einträge, Einstellungen und Fotos werden gelöscht; die RevenueCat-Kundenlöschung wird angefordert. Gerätedaten können Sie behalten. Exporte und andere Geräte verwalten Sie getrennt. Deinstallation allein löscht keine Cloud-Daten und kündigt keine Abos. Bestätigungen und gesetzliche Aufzeichnungen folgen den unten genannten Fristen."
+      },
+      {
+        "t": "Einzelne Löschungen und endgültige Vernichtung",
+        "b": "Einzellöschung: Nach Synchronisierung entfernt die tägliche Serverbereinigung Inhalte wie Namen, Notizen, Bewertungen und Orte mehr als 30 Tage nach dem gespeicherten Löschzeitpunkt. Löschmarkierungen mit IDs, Beziehungen und Zeitangaben für die Synchronisierung werden nach 365 Tagen täglich bereinigt. Serverfotodateien werden separat bei der App-Synchronisierung entfernt; Offline-Nutzung oder Fehler können dies verzögern. Diese Fristen löschen nicht automatisch gelöschte Datensätze auf Ihrem Gerät. Löschbestätigung: Anfrage-/Nutzer-IDs und Zeitangaben zur Wiederholung werden bei der täglichen Bereinigung mehr als 30 Tage nach Abschluss entfernt. Unvollständige Anfragen bleiben zur Fortsetzung erhalten."
+      },
+      {
+        "t": "Hinweis zu Abos",
+        "b": "Abos (Stelleaf Premium) sind von der Kontolöschung unabhängig. Wenn du ein aktives Abo hast, kündige es direkt im App Store oder bei Google Play – das Löschen des Kontos kündigt es nicht automatisch."
+      },
+      {
+        "t": "Gesetzliche Aufbewahrung",
+        "b": "Zahlungsbezogene Aufzeichnungen, die nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften aufzubewahren sind, werden für die gesetzliche Dauer aufbewahrt und danach vernichtet."
+      },
+      {
+        "t": "Kontakt",
+        "b": "Bei Fragen zur Löschung wende dich an ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "ru": {
+    "title": "Удаление аккаунта и данных Stelleaf",
+    "updated": "20 сентября 2026 г.",
+    "applies": "На этой странице описано, как удалить аккаунт и данные приложения «Stelleaf» (별갈피) от SSAMOK SOFT. Запросить удаление по эл. почте можно даже без установленного приложения или при отсутствии доступа к нему.",
+    "sections": [
+      {
+        "t": "Способ 1 — Удаление в приложении",
+        "b": "В Настройки > Удалить аккаунт выберите только сервер или сервер вместе с этим устройством. Очистка фото, запрос RevenueCat и удаление аккаунта/БД выполняются последовательно. При сетевой ошибке или ошибке поставщика повторите попытку. Выбранные локальные данные очищаются после подтверждения сервера."
+      },
+      {
+        "t": "Способ 2 — запрос по эл. почте (приложение не требуется)",
+        "b": "С адреса эл. почты, использованного при регистрации, отправьте письмо на ssamoksoft@gmail.com с темой «Запрос на удаление аккаунта Stelleaf». После проверки личности запрос обрабатывается в течение 7 дней."
+      },
+      {
+        "t": "Что удаляется",
+        "b": "Удаляются серверный аккаунт, связанные записи, настройки и фото; запрашивается удаление клиента RevenueCat. Данные устройства можно сохранить. Экспортами и другими устройствами управляйте отдельно. Удаление приложения не стирает облако и не отменяет подписки. Подтверждения и обязательные записи хранятся по правилам ниже."
+      },
+      {
+        "t": "Удаление отдельных элементов и окончательное уничтожение",
+        "b": "Отдельное удаление: после синхронизации ежедневная очистка стирает содержимое (имена, заметки, оценки, места) спустя более 30 дней от записанного на сервере времени удаления. Строки с ID, связями и временем для синхронизации убираются ежедневной очисткой после 365 дней. Серверные фото очищаются отдельно при синхронизации приложения; отсутствие сети и ошибки могут вызвать задержку. Эти сроки не стирают автоматически удалённые записи на устройстве. Подтверждение удаления: ID запроса/пользователя и время для восстановления ответа и повторов удаляются ежедневной очисткой спустя более 30 дней после завершения. Незавершённые запросы остаются для продолжения."
+      },
+      {
+        "t": "О подписках",
+        "b": "Подписки (Stelleaf Premium) не связаны с удалением аккаунта. Если у вас есть активная подписка, отмените её напрямую в App Store или Google Play — удаление аккаунта не отменяет её автоматически."
+      },
+      {
+        "t": "Хранение по закону",
+        "b": "Платёжные записи, которые необходимо хранить согласно Закону Кореи об электронной торговле и связанным нормам, хранятся в течение установленного законом срока, а затем уничтожаются."
+      },
+      {
+        "t": "Контакты",
+        "b": "По вопросам удаления пишите на ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "pt": {
+    "title": "Excluir sua conta e dados do Stelleaf",
+    "updated": "20 de setembro de 2026",
+    "applies": "Esta página explica como excluir sua conta e seus dados do app “Stelleaf” (별갈피) de SSAMOK SOFT. Você pode solicitar a exclusão por e-mail mesmo que não tenha instalado o app ou não consiga mais acessá-lo.",
+    "sections": [
+      {
+        "t": "Opção 1 — Excluir pelo app",
+        "b": "Em Configurações > Excluir conta, escolha excluir só o servidor ou também este dispositivo. Limpeza das fotos, pedido ao RevenueCat e exclusão da conta/banco são sequenciais. Tente novamente em caso de falha de rede ou fornecedor. Os dados locais escolhidos são limpos após confirmação do servidor."
+      },
+      {
+        "t": "Opção 2 — Solicitar por e-mail (sem o app)",
+        "b": "A partir do endereço de e-mail usado no cadastro, envie uma mensagem para ssamoksoft@gmail.com com o assunto “Solicitação de exclusão de conta do Stelleaf”. Após a verificação de identidade, a solicitação é processada em até 7 dias."
+      },
+      {
+        "t": "O que é excluído",
+        "b": "Excluímos conta do servidor, registros, configurações e fotos associados e solicitamos apagar o cliente RevenueCat. Você pode manter dados locais. Gerencie separadamente arquivos exportados e outros dispositivos. Desinstalar não apaga a nuvem nem cancela assinaturas. Confirmações e registros legais seguem a retenção abaixo."
+      },
+      {
+        "t": "Exclusões individuais e apagamento permanente",
+        "b": "Exclusão individual: após sincronizar, a limpeza diária apaga conteúdo (nomes, notas, pontuações, locais) mais de 30 dias após o horário de exclusão registrado no servidor. Linhas excluídas com IDs, relações e horários necessários à sincronização são removidas na limpeza diária após 365 dias. Fotos do servidor são limpas separadamente durante a sincronização; uso offline ou falhas podem atrasar isso. Esses prazos não apagam automaticamente os registros excluídos do dispositivo. Confirmação: IDs de pedido/usuário e horários para recuperar respostas ou repetir pedidos são removidos na limpeza diária mais de 30 dias após a conclusão. Pedidos incompletos permanecem para retomada."
+      },
+      {
+        "t": "Sobre assinaturas",
+        "b": "As assinaturas (Stelleaf Premium) são independentes da exclusão da conta. Se você tiver uma assinatura ativa, cancele-a diretamente na App Store ou no Google Play — excluir a conta não a cancela automaticamente."
+      },
+      {
+        "t": "Retenção legal",
+        "b": "Registros relacionados a pagamento que devem ser retidos conforme a lei coreana de comércio eletrônico e normas relacionadas são mantidos pelo prazo legal e depois destruídos."
+      },
+      {
+        "t": "Contato",
+        "b": "Para dúvidas sobre a exclusão, escreva para ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "en": {
+    "title": "Delete your Stelleaf account and data",
+    "updated": "20 September 2026",
+    "applies": "This page explains how to delete your account and data for the app “Stelleaf” (별갈피) by SSAMOK SOFT. You can request deletion by email even if you have not installed the app or can no longer access it.",
+    "sections": [
+      {
+        "t": "Option 1 — Delete in the app",
+        "b": "In Settings > Delete account, choose server-only deletion or deletion of both server and this device's data. Photo cleanup, the RevenueCat erasure request, and account/database deletion run in sequence. Retry if a network or provider error occurs. The app clears the chosen device data after confirming server completion."
+      },
+      {
+        "t": "Option 2 — Request by email (no app required)",
+        "b": "From the email address you signed up with, send a message to ssamoksoft@gmail.com with the subject “Stelleaf account deletion request”. After identity verification, your request is processed within 7 days."
+      },
+      {
+        "t": "What gets deleted",
+        "b": "We delete the server account, linked records, settings and photos, and request RevenueCat customer erasure. You may retain device data with the server-only option. Manage separately exported files and data remaining on other devices yourself. Uninstalling alone does not delete server data or cancel subscriptions. Confirmation records and statutory records follow the retention rules below."
+      },
+      {
+        "t": "Individual deletions and permanent erasure",
+        "b": "Individual deletion: once synced, daily server cleanup clears content (names, notes, scores, locations, etc.) more than 30 days after the recorded deletion time. Deleted rows retaining IDs, relationships and timestamps needed for sync are removed by daily cleanup after 365 days. Server photo files are cleaned separately during app sync and may be delayed by offline use or failure. These periods do not automatically erase deleted records on your device. Deletion confirmation: request/user IDs and timestamps used to recover lost responses or retries are removed by daily cleanup more than 30 days after completion. Incomplete requests remain so processing can resume."
+      },
+      {
+        "t": "About subscriptions",
+        "b": "Subscriptions (Stelleaf Premium) are separate from account deletion. If you have an active subscription, cancel it directly in the App Store or Google Play — deleting your account does not cancel it automatically."
+      },
+      {
+        "t": "Statutory retention",
+        "b": "Payment-related records that must be retained under the Korean e-commerce act and related laws are kept for the statutory period and then destroyed."
+      },
+      {
+        "t": "Contact",
+        "b": "For questions about deletion, contact ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "it": {
+    "title": "Elimina il tuo account e i dati di Stelleaf",
+    "updated": "20 settembre 2026",
+    "applies": "Questa pagina spiega come eliminare il tuo account e i tuoi dati per l'app “Stelleaf” (별갈피) di SSAMOK SOFT. Puoi richiedere l'eliminazione via e-mail anche se non hai installato l'app o non riesci più ad accedervi.",
+    "sections": [
+      {
+        "t": "Metodo 1 — Elimina nell'app",
+        "b": "In Impostazioni > Elimina account scegli solo il server o anche questo dispositivo. Pulizia foto, richiesta RevenueCat e cancellazione account/database sono sequenziali. Riprova in caso di errore di rete o del fornitore. I dati locali scelti vengono eliminati dopo conferma server."
+      },
+      {
+        "t": "Opzione 2 — Richiedi via e-mail (senza l'app)",
+        "b": "Dall'indirizzo e-mail usato per la registrazione, invia un messaggio a ssamoksoft@gmail.com con oggetto “Richiesta di eliminazione account Stelleaf”. Dopo la verifica dell'identità, la richiesta viene elaborata entro 7 giorni."
+      },
+      {
+        "t": "Cosa viene eliminato",
+        "b": "Eliminiamo account server, dati, impostazioni e foto associati e chiediamo di eliminare il cliente RevenueCat. Puoi mantenere i dati locali. Gestisci separatamente esportazioni e altri dispositivi. Disinstallare non elimina il cloud né disdice abbonamenti. Conferme e registri legali seguono i termini sotto indicati."
+      },
+      {
+        "t": "Eliminazioni singole ed erasure definitiva",
+        "b": "Eliminazioni singole: dopo la sincronizzazione, la pulizia giornaliera cancella contenuti (nomi, note, punteggi, luoghi) oltre 30 giorni dalla data di eliminazione registrata sul server. Le righe con ID, relazioni e date necessarie alla sincronizzazione vengono rimosse nella pulizia giornaliera dopo 365 giorni. I file fotografici server sono puliti separatamente durante la sincronizzazione; offline o errori possono ritardarla. Questi termini non cancellano automaticamente i record eliminati sul dispositivo. Conferme: ID di richiesta/utente e date per verificare nuovi tentativi vengono rimossi nella pulizia giornaliera oltre 30 giorni dal completamento. Le richieste incomplete restano per poter riprendere."
+      },
+      {
+        "t": "Informazioni sugli abbonamenti",
+        "b": "Gli abbonamenti (Stelleaf Premium) sono indipendenti dall'eliminazione dell'account. Se hai un abbonamento attivo, annullalo direttamente su App Store o Google Play: eliminare l'account non lo annulla automaticamente."
+      },
+      {
+        "t": "Conservazione per obbligo di legge",
+        "b": "I registri relativi ai pagamenti che devono essere conservati ai sensi della legge coreana sul commercio elettronico e delle norme correlate sono conservati per il periodo previsto dalla legge e poi distrutti."
+      },
+      {
+        "t": "Contatti",
+        "b": "Per domande sull'eliminazione, scrivi a ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "fr": {
+    "title": "Supprimer votre compte et vos données Stelleaf",
+    "updated": "20 septembre 2026",
+    "applies": "Cette page explique comment supprimer votre compte et vos données pour l'appli « Stelleaf » (별갈피) de SSAMOK SOFT. Vous pouvez demander la suppression par e-mail même si vous n'avez pas installé l'appli ou si vous n'y avez plus accès.",
+    "sections": [
+      {
+        "t": "Méthode 1 — Supprimer dans l'app",
+        "b": "Réglages > Supprimer le compte permet de supprimer uniquement les données serveur ou aussi celles de cet appareil. Photos, demande RevenueCat et suppression du compte/base sont traitées successivement. Réessayez en cas d'erreur réseau ou fournisseur. Les données locales choisies sont nettoyées après confirmation serveur."
+      },
+      {
+        "t": "Option 2 — Demander par e-mail (sans l'appli)",
+        "b": "Depuis l'adresse e-mail utilisée à l'inscription, envoyez un message à ssamoksoft@gmail.com avec l'objet « Demande de suppression de compte Stelleaf ». Après vérification d'identité, la demande est traitée sous 7 jours."
+      },
+      {
+        "t": "Ce qui est supprimé",
+        "b": "Le compte serveur, ses données, réglages et photos sont supprimés et l'effacement du client RevenueCat est demandé. Vous pouvez conserver les données locales. Gérez séparément les exports et autres appareils. Désinstaller ne supprime pas le cloud et ne résilie pas les abonnements. Les confirmations et archives légales suivent les règles ci-dessous."
+      },
+      {
+        "t": "Suppressions individuelles et effacement définitif",
+        "b": "Suppression individuelle : après synchronisation, le nettoyage quotidien efface le contenu (noms, notes, scores, lieux) plus de 30 jours après la date de suppression enregistrée au serveur. Les lignes conservant identifiants, relations et dates nécessaires à la synchronisation disparaissent au nettoyage quotidien après 365 jours. Les photos serveur sont nettoyées séparément pendant la synchronisation ; déconnexion ou échec peuvent retarder cette opération. Ces délais n'effacent pas automatiquement les enregistrements supprimés de votre appareil. Confirmation : identifiants de demande/utilisateur et dates permettant les nouvelles tentatives sont supprimés au nettoyage quotidien plus de 30 jours après la fin du traitement. Les demandes inachevées restent pour permettre leur reprise."
+      },
+      {
+        "t": "À propos des abonnements",
+        "b": "Les abonnements (Stelleaf Premium) sont indépendants de la suppression du compte. Si vous avez un abonnement actif, résiliez-le directement dans l'App Store ou Google Play — supprimer votre compte ne le résilie pas automatiquement."
+      },
+      {
+        "t": "Conservation légale",
+        "b": "Les enregistrements liés aux paiements devant être conservés au titre de la loi coréenne sur le commerce électronique et des textes connexes sont conservés pendant la durée légale, puis détruits."
+      },
+      {
+        "t": "Contact",
+        "b": "Pour toute question sur la suppression, contactez ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "hi": {
+    "title": "अपना Stelleaf (별갈피) खाता और डेटा हटाएँ",
+    "updated": "20 सितंबर 2026",
+    "applies": "यह पेज बताता है कि SSAMOK SOFT के ऐप “Stelleaf (별갈피)” का खाता और डेटा कैसे हटाया जाए। यदि आपने ऐप इंस्टॉल नहीं किया है या उस तक पहुँच नहीं है, तब भी आप ईमेल द्वारा हटाने का अनुरोध कर सकते हैं।",
+    "sections": [
+      {
+        "t": "तरीका 1 — ऐप में हटाएँ",
+        "b": "सेटिंग > खाता हटाएँ में केवल सर्वर या सर्वर और इस डिवाइस दोनों को चुनें। फ़ोटो सफ़ाई, RevenueCat अनुरोध और खाता/डेटाबेस विलोपन क्रम से होते हैं। नेटवर्क या प्रदाता त्रुटि पर फिर कोशिश करें। सर्वर की पुष्टि के बाद चुना हुआ स्थानीय डेटा साफ़ होता है।"
+      },
+      {
+        "t": "तरीका 2 — ईमेल से अनुरोध करें (ऐप आवश्यक नहीं)",
+        "b": "पंजीकरण में उपयोग किए गए ईमेल पते से ssamoksoft@gmail.com पर “Stelleaf खाता हटाने का अनुरोध” विषय के साथ संदेश भेजें। पहचान सत्यापन के बाद, अनुरोध 7 दिनों के भीतर संसाधित किया जाता है।"
+      },
+      {
+        "t": "क्या हटाया जाता है",
+        "b": "सर्वर खाता, जुड़े रिकॉर्ड, सेटिंग और फ़ोटो हटते हैं तथा RevenueCat ग्राहक हटाने का अनुरोध होता है। आप डिवाइस डेटा रख सकते हैं। निर्यात फ़ाइलें और दूसरे डिवाइस अलग सँभालें। ऐप अनइंस्टॉल करने से क्लाउड नहीं मिटता और सदस्यता रद्द नहीं होती। पुष्टि और कानूनी रिकॉर्ड नीचे की अवधि का पालन करते हैं।"
+      },
+      {
+        "t": "व्यक्तिगत विलोपन और स्थायी मिटाना",
+        "b": "अलग रिकॉर्ड हटाना: सिंक होने के बाद, सर्वर में दर्ज हटाने के समय से 30 दिन से अधिक पुराने विषय (नाम, नोट, अंक, स्थान) दैनिक सफ़ाई में मिटते हैं। सिंक के लिए ID, संबंध और समय रखने वाली हटाई गई पंक्तियाँ 365 दिन बाद की दैनिक सफ़ाई में हटती हैं। सर्वर फ़ोटो ऐप सिंक के दौरान अलग साफ़ होती हैं; ऑफ़लाइन या त्रुटि से देरी हो सकती है। ये अवधि डिवाइस के हटाए रिकॉर्ड अपने-आप नहीं मिटाती। हटाने की पुष्टि: खोए उत्तर और दोबारा प्रयास के लिए अनुरोध/उपयोगकर्ता ID व समय, पूरा होने के 30 दिन बाद की दैनिक सफ़ाई में हटते हैं। अधूरे अनुरोध आगे जारी रखने के लिए रहते हैं।"
+      },
+      {
+        "t": "सदस्यता के बारे में",
+        "b": "सदस्यता (Stelleaf Premium) खाता हटाने से अलग है। यदि आपकी सक्रिय सदस्यता है, तो उसे सीधे App Store या Google Play में रद्द करें — खाता हटाने से वह अपने आप रद्द नहीं होती।"
+      },
+      {
+        "t": "कानूनी अवधारण",
+        "b": "कोरिया के ई-कॉमर्स अधिनियम और संबंधित कानूनों के अनुसार जिन भुगतान-संबंधी रिकॉर्ड को रखना आवश्यक है, उन्हें वैधानिक अवधि तक रखा जाता है और उसके बाद नष्ट कर दिया जाता है।"
+      },
+      {
+        "t": "संपर्क",
+        "b": "हटाने से संबंधित प्रश्नों के लिए ssamoksoft@gmail.com पर संपर्क करें।"
+      }
+    ]
+  },
+  "ko": {
+    "title": "별갈피(Stelleaf) 계정·데이터 삭제 안내",
+    "updated": "2026년 9월 20일",
+    "applies": "본 안내는 SSAMOK SOFT가 제공하는 앱 「별갈피(Stelleaf)」의 계정 및 데이터 삭제 방법을 설명합니다. 앱을 설치하지 않았거나 앱에 접근할 수 없어도 이메일로 삭제를 요청할 수 있습니다.",
+    "sections": [
+      {
+        "t": "방법 1 — 앱에서 직접 삭제",
+        "b": "설정 → 회원탈퇴에서 서버만 삭제하거나 서버와 이 기기의 자료를 함께 삭제하도록 선택할 수 있습니다. 사진 정리·RevenueCat 고객 삭제 요청·계정 및 DB 삭제가 순서대로 진행됩니다. 네트워크나 제공자 오류가 나면 다시 시도해 주세요. 앱은 서버 완료를 확인한 뒤 선택한 기기 자료를 정리합니다."
+      },
+      {
+        "t": "방법 2 — 이메일로 요청 (앱 설치 불필요)",
+        "b": "가입에 사용한 이메일 주소로 ssamoksoft@gmail.com에 제목 '별갈피(Stelleaf) 계정 삭제 요청'으로 메일을 보내주세요. 본인 확인 후 7일 이내에 처리됩니다."
+      },
+      {
+        "t": "삭제되는 데이터",
+        "b": "서버 계정과 연결된 기록·설정·사진을 삭제하고 RevenueCat 고객 정보 삭제를 요청합니다. 기기 자료는 탈퇴 시 선택에 따라 남길 수 있습니다. 별도로 내보낸 파일·다른 기기에 남은 자료는 직접 관리해야 하며 앱 삭제만으로 서버 자료나 구독이 삭제·해지되지는 않습니다. 완료 확인 기록과 법정 보존 자료는 아래 기준을 따릅니다."
+      },
+      {
+        "t": "개별 삭제와 완전 파기 주기",
+        "b": "개별 삭제: 삭제 사실이 서버에 동기화되면 서버에 기록된 삭제 시각을 기준으로 30일이 지난 내용(이름·메모·점수·위치 등)을 일일 정리에서 비웁니다. 동기화에 필요한 식별자·연결정보·시각 등이 남은 삭제 표시 행은 365일 후 일일 정리에서 지웁니다. 서버 사진 파일 정리는 앱의 동기화 중 별도로 수행되므로 오프라인·실패로 지연될 수 있습니다. 이 기간이 기기의 삭제 기록까지 자동으로 지우는 기한은 아닙니다. 탈퇴 완료 확인: 응답 유실·재시도 확인용 요청 ID·사용자 ID·시각은 완료 후 30일이 지난 일일 정리에서 삭제합니다. 미완료 요청은 처리 재개를 위해 유지됩니다."
+      },
+      {
+        "t": "구독 관련 유의사항",
+        "b": "구독(Stelleaf Premium)은 계정 삭제와 별개입니다. 결제 중인 구독이 있다면 App Store 또는 Google Play에서 직접 해지해 주세요. 계정을 삭제해도 구독이 자동으로 해지되지 않습니다."
+      },
+      {
+        "t": "법령상 보존",
+        "b": "전자상거래법 등 관계 법령에 따라 보존 의무가 있는 결제 관련 기록은 해당 법정 기간 동안 보존된 후 파기됩니다."
+      },
+      {
+        "t": "문의",
+        "b": "삭제 처리에 관한 문의는 ssamoksoft@gmail.com로 연락해 주세요."
+      }
+    ]
+  },
+  "vi": {
+    "title": "Xóa tài khoản và dữ liệu Stelleaf của bạn",
+    "updated": "20 tháng 9 năm 2026",
+    "applies": "Trang này giải thích cách xóa tài khoản và dữ liệu của bạn cho ứng dụng “Stelleaf” (별갈피) của SSAMOK SOFT. Bạn có thể yêu cầu xóa qua email ngay cả khi chưa cài ứng dụng hoặc không còn truy cập được.",
+    "sections": [
+      {
+        "t": "Cách 1 — Xóa trong ứng dụng",
+        "b": "Tại Cài đặt > Xóa tài khoản, chọn chỉ máy chủ hoặc cả thiết bị này. Dọn ảnh, yêu cầu RevenueCat và xóa tài khoản/cơ sở dữ liệu diễn ra theo thứ tự. Hãy thử lại khi có lỗi mạng hay nhà cung cấp. Dữ liệu thiết bị đã chọn chỉ được dọn sau xác nhận máy chủ."
+      },
+      {
+        "t": "Cách 2 — Yêu cầu qua email (không cần ứng dụng)",
+        "b": "Từ địa chỉ email bạn dùng để đăng ký, gửi thư đến ssamoksoft@gmail.com với tiêu đề “Yêu cầu xóa tài khoản Stelleaf”. Sau khi xác minh danh tính, yêu cầu được xử lý trong vòng 7 ngày."
+      },
+      {
+        "t": "Dữ liệu bị xóa",
+        "b": "Xóa tài khoản máy chủ, bản ghi, thiết lập và ảnh liên quan, đồng thời yêu cầu RevenueCat xóa khách hàng. Bạn có thể giữ dữ liệu thiết bị. Tự quản lý tệp xuất và thiết bị khác. Gỡ ứng dụng không xóa đám mây hay hủy thuê bao. Xác nhận và hồ sơ bắt buộc tuân theo thời hạn bên dưới."
+      },
+      {
+        "t": "Xóa từng mục và xóa vĩnh viễn",
+        "b": "Xóa từng mục: sau đồng bộ, tác vụ hằng ngày xóa nội dung (tên, ghi chú, điểm, vị trí) quá 30 ngày kể từ thời điểm xóa ghi trên máy chủ. Các hàng đánh dấu còn giữ ID, liên kết và thời gian phục vụ đồng bộ được dọn hằng ngày sau 365 ngày. Tệp ảnh máy chủ được dọn riêng khi ứng dụng đồng bộ; ngoại tuyến hoặc lỗi có thể làm chậm. Những mốc này không tự động xóa bản ghi đã xóa còn trên thiết bị. Xác nhận xóa: ID yêu cầu/người dùng và thời gian để xử lý phản hồi thất lạc hoặc thử lại được dọn hằng ngày khi quá 30 ngày từ lúc hoàn tất. Yêu cầu chưa xong được giữ để tiếp tục."
+      },
+      {
+        "t": "Về gói đăng ký",
+        "b": "Gói đăng ký (Stelleaf Premium) tách biệt với việc xóa tài khoản. Nếu bạn có gói đăng ký đang hoạt động, hãy hủy trực tiếp trong App Store hoặc Google Play — xóa tài khoản không tự động hủy gói."
+      },
+      {
+        "t": "Lưu giữ theo luật",
+        "b": "Các hồ sơ liên quan đến thanh toán phải lưu giữ theo luật thương mại điện tử Hàn Quốc và các quy định liên quan sẽ được giữ trong thời hạn luật định rồi tiêu hủy."
+      },
+      {
+        "t": "Liên hệ",
+        "b": "Nếu có câu hỏi về việc xóa, hãy liên hệ ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "zh_Hant": {
+    "title": "刪除你的 Stelleaf（별갈피）帳戶與資料",
+    "updated": "2026年9月20日",
+    "applies": "本頁說明如何刪除 SSAMOK SOFT提供的應用程式「Stelleaf（별갈피）」的帳戶與資料。即使你尚未安裝應用程式或無法再存取應用程式，也可以透過電子郵件要求刪除。",
+    "sections": [
+      {
+        "t": "方法 1 — 在應用程式內刪除",
+        "b": "在設定 > 刪除帳戶選擇僅刪除伺服器，或一併刪除伺服器與本裝置資料。依序清理照片、提出 RevenueCat 刪除請求、刪除帳戶及資料庫。如遇網路或提供者錯誤，請重試。確認伺服器完成後，才清理選定的裝置資料。"
+      },
+      {
+        "t": "方式 2 — 透過電子郵件要求（無需應用程式）",
+        "b": "使用註冊時的電子郵件地址，向 ssamoksoft@gmail.com 寄送主旨為「Stelleaf 帳戶刪除要求」的郵件。身分驗證後，將在 7 天內處理。"
+      },
+      {
+        "t": "刪除的資料",
+        "b": "刪除伺服器帳戶、關聯紀錄、設定和照片，並請求 RevenueCat 刪除客戶資訊。可選擇保留裝置資料。另行匯出的檔案及其他裝置資料需自行管理。僅移除應用程式不會刪除伺服器資料或取消訂閱。完成確認紀錄及法定紀錄依下述保存規則處理。"
+      },
+      {
+        "t": "單項刪除與永久清除週期",
+        "b": "個別刪除：同步至伺服器後，依伺服器記載的刪除時間，在每日清理中清除超過 30 天的內容（名稱、備註、評分、位置等）。保留同步所需 ID、關聯、時間等資訊的刪除標記列，在 365 天後的每日清理中移除。伺服器照片在應用程式同步時另行清理，可能因離線或失敗而延遲。這些期限並不表示裝置內的已刪除紀錄也會自動清除。 刪除完成確認：用於回應遺失及重試確認的要求 ID、使用者 ID、時間，在完成超過 30 天後的每日清理中移除。未完成要求會保留以便繼續處理。"
+      },
+      {
+        "t": "關於訂閱",
+        "b": "訂閱（Stelleaf Premium）與帳戶刪除是分開的。如有有效訂閱，請直接在 App Store 或 Google Play 中取消 — 刪除帳戶不會自動取消訂閱。"
+      },
+      {
+        "t": "法定保留",
+        "b": "依據韓國電子商務法等相關法律須保留的付款相關記錄，將在法定期限屆滿後銷毀。"
+      },
+      {
+        "t": "聯絡我們",
+        "b": "有關刪除的問題，請聯絡 ssamoksoft@gmail.com。"
+      }
+    ]
+  },
+  "id": {
+    "title": "Hapus akun dan data Stelleaf Anda",
+    "updated": "20 September 2026",
+    "applies": "Halaman ini menjelaskan cara menghapus akun dan data Anda untuk aplikasi “Stelleaf” (별갈피) dari SSAMOK SOFT. Anda dapat mengajukan penghapusan melalui email meskipun belum memasang aplikasi atau tidak dapat lagi mengaksesnya.",
+    "sections": [
+      {
+        "t": "Cara 1 — Hapus melalui aplikasi",
+        "b": "Di Pengaturan > Hapus akun, pilih hanya server atau sekaligus perangkat ini. Pembersihan foto, permintaan RevenueCat, dan penghapusan akun/database dilakukan berurutan. Coba lagi saat ada kesalahan jaringan atau penyedia. Data perangkat yang dipilih dibersihkan setelah konfirmasi server."
+      },
+      {
+        "t": "Cara 2 — Ajukan lewat email (tanpa aplikasi)",
+        "b": "Dari alamat email yang Anda gunakan saat mendaftar, kirim pesan ke ssamoksoft@gmail.com dengan subjek “Permintaan penghapusan akun Stelleaf”. Setelah verifikasi identitas, permintaan diproses dalam waktu 7 hari."
+      },
+      {
+        "t": "Apa yang dihapus",
+        "b": "Akun server, catatan, pengaturan, dan foto terkait dihapus, serta penghapusan pelanggan RevenueCat diminta. Anda dapat mempertahankan data perangkat. Kelola ekspor dan perangkat lain secara terpisah. Menghapus aplikasi tidak menghapus cloud atau membatalkan langganan. Konfirmasi dan catatan wajib mengikuti retensi di bawah."
+      },
+      {
+        "t": "Penghapusan per item dan penghapusan permanen",
+        "b": "Penghapusan satuan: setelah sinkronisasi, pembersihan harian server menghapus isi (nama, catatan, skor, lokasi) lebih dari 30 hari setelah waktu penghapusan yang tercatat. Baris penanda berisi ID, relasi, dan waktu untuk sinkronisasi dibersihkan harian setelah 365 hari. Foto server dibersihkan terpisah saat sinkronisasi aplikasi; offline atau kegagalan dapat menundanya. Jangka waktu ini tidak otomatis menghapus catatan terhapus di perangkat. Konfirmasi: ID permintaan/pengguna dan waktu untuk respons hilang atau percobaan ulang dibersihkan harian lebih dari 30 hari setelah selesai. Permintaan belum selesai tetap disimpan agar dapat dilanjutkan."
+      },
+      {
+        "t": "Tentang langganan",
+        "b": "Langganan (Stelleaf Premium) terpisah dari penghapusan akun. Jika Anda memiliki langganan aktif, batalkan langsung di App Store atau Google Play — menghapus akun tidak otomatis membatalkannya."
+      },
+      {
+        "t": "Retensi menurut hukum",
+        "b": "Catatan terkait pembayaran yang wajib disimpan menurut undang-undang e-commerce Korea dan peraturan terkait disimpan selama periode wajib lalu dimusnahkan."
+      },
+      {
+        "t": "Kontak",
+        "b": "Untuk pertanyaan tentang penghapusan, hubungi ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "es": {
+    "title": "Eliminar tu cuenta y datos de Stelleaf",
+    "updated": "20 de septiembre de 2026",
+    "applies": "Esta página explica cómo eliminar tu cuenta y tus datos de la app «Stelleaf» (별갈피) de SSAMOK SOFT. Puedes solicitar la eliminación por correo electrónico incluso si no has instalado la app o ya no puedes acceder a ella.",
+    "sections": [
+      {
+        "t": "Opción 1 — Eliminar desde la app",
+        "b": "En Ajustes > Eliminar cuenta elija borrar solo el servidor o también este dispositivo. Se limpian las fotos, se solicita el borrado en RevenueCat y se elimina la cuenta/base de datos, por orden. Reintente ante errores de red o del proveedor. Los datos locales elegidos se borran tras confirmar el servidor."
+      },
+      {
+        "t": "Opción 2 — Solicitarlo por correo (sin la app)",
+        "b": "Desde la dirección de correo con la que te registraste, envía un mensaje a ssamoksoft@gmail.com con el asunto «Solicitud de eliminación de cuenta de Stelleaf». Tras verificar tu identidad, la solicitud se procesa en un plazo de 7 días."
+      },
+      {
+        "t": "Qué se elimina",
+        "b": "Se eliminan la cuenta del servidor, registros, ajustes y fotos asociados, y se solicita borrar el cliente de RevenueCat. Puede conservar los datos del dispositivo. Gestione por separado archivos exportados y datos de otros dispositivos. Desinstalar no borra la nube ni cancela suscripciones. Las confirmaciones y registros legales siguen los plazos indicados abajo."
+      },
+      {
+        "t": "Eliminaciones individuales y borrado permanente",
+        "b": "Eliminaciones individuales: tras sincronizar, la limpieza diaria elimina contenido (nombres, notas, puntuaciones, ubicaciones) con más de 30 días desde la fecha de borrado registrada en el servidor. Las filas que conservan ID, relaciones y fechas para sincronizar se eliminan en la limpieza diaria después de 365 días. Las fotos del servidor se limpian aparte durante la sincronización y pueden demorarse por desconexión o fallos. Estos plazos no borran automáticamente los registros locales eliminados. Confirmación: los ID de solicitud y usuario y las fechas para reintentos se eliminan en la limpieza diaria más de 30 días después de completarse. Las solicitudes pendientes se conservan para continuar."
+      },
+      {
+        "t": "Sobre las suscripciones",
+        "b": "Las suscripciones (Stelleaf Premium) son independientes de la eliminación de la cuenta. Si tienes una suscripción activa, cancélala directamente en el App Store o Google Play: eliminar la cuenta no la cancela automáticamente."
+      },
+      {
+        "t": "Conservación legal",
+        "b": "Los registros relacionados con pagos que deben conservarse conforme a la ley coreana de comercio electrónico y normas relacionadas se conservan durante el plazo legal y después se destruyen."
+      },
+      {
+        "t": "Contacto",
+        "b": "Para preguntas sobre la eliminación, escribe a ssamoksoft@gmail.com."
+      }
+    ]
+  },
+  "ar": {
+    "title": "حذف حسابك وبياناتك في Stelleaf",
+    "updated": "20 سبتمبر 2026",
+    "applies": "توضح هذه الصفحة كيفية حذف حسابك وبياناتك في تطبيق «Stelleaf» (별갈피) من SSAMOK SOFT. ويمكنك طلب الحذف عبر البريد الإلكتروني حتى إن لم تكن قد ثبّت التطبيق أو لم تتمكن من الوصول إليه.",
+    "sections": [
+      {
+        "t": "الطريقة 1 — الحذف من التطبيق",
+        "b": "في الإعدادات > حذف الحساب، اختر الخادم فقط أو الخادم وهذا الجهاز. يجري تنظيف الصور وطلب RevenueCat وحذف الحساب وقاعدة البيانات بالتتابع. أعد المحاولة عند خطأ الشبكة أو المزوّد. تُنظف بيانات الجهاز المختارة بعد تأكيد الخادم."
+      },
+      {
+        "t": "الطريقة 2 — الطلب عبر البريد الإلكتروني (دون الحاجة إلى التطبيق)",
+        "b": "من عنوان البريد الإلكتروني الذي سجّلت به، أرسل رسالة إلى ssamoksoft@gmail.com بعنوان «طلب حذف حساب Stelleaf». وبعد التحقق من الهوية، يُعالَج الطلب خلال 7 أيام."
+      },
+      {
+        "t": "ما الذي يُحذَف",
+        "b": "نحذف حساب الخادم وسجلاته وإعداداته وصوره المرتبطة، ونطلب محو عميل RevenueCat. يمكنك الاحتفاظ ببيانات الجهاز. أدِر الملفات المصدّرة والأجهزة الأخرى بصورة منفصلة. إزالة التطبيق لا تحذف السحابة ولا تلغي الاشتراك. تخضع سجلات التأكيد والسجلات القانونية لقواعد الاحتفاظ أدناه."
+      },
+      {
+        "t": "الحذف الفردي والمحو النهائي",
+        "b": "الحذف الفردي: بعد المزامنة، يزيل التنظيف اليومي المحتوى مثل الأسماء والملاحظات والتقييمات والمواقع بعد مرور أكثر من 30 يوماً من وقت الحذف المسجل في الخادم. تُزال صفوف علامات الحذف التي تحتفظ بالمعرّفات والعلاقات والأوقات اللازمة للمزامنة في التنظيف اليومي بعد 365 يوماً. تُنظف ملفات صور الخادم منفصلة أثناء مزامنة التطبيق؛ وقد يتأخر ذلك دون اتصال أو عند الفشل. لا تمحو هذه المدد تلقائياً السجلات المحذوفة الموجودة على جهازك. تأكيد الحذف: تُزال معرّفات الطلب والمستخدم والأوقات المستخدمة لاستعادة الردود وإعادة المحاولة في التنظيف اليومي بعد أكثر من 30 يوماً من الاكتمال. تبقى الطلبات غير المكتملة لإتاحة استئنافها."
+      },
+      {
+        "t": "بخصوص الاشتراكات",
+        "b": "الاشتراكات (Stelleaf Premium) منفصلة عن حذف الحساب. إذا كان لديك اشتراك نشط، فألغِه مباشرة في App Store أو Google Play — حذف الحساب لا يلغيه تلقائيًا."
+      },
+      {
+        "t": "الاحتفاظ القانوني",
+        "b": "تُحفَظ السجلات المتعلقة بالدفع التي يلزم الاحتفاظ بها بموجب قانون التجارة الإلكترونية الكوري والقوانين ذات الصلة للمدة القانونية ثم تُدمَّر."
+      },
+      {
+        "t": "التواصل",
+        "b": "للاستفسارات المتعلقة بالحذف، اكتب إلى ssamoksoft@gmail.com."
+      }
+    ]
+  }
+}

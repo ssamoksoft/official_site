@@ -47,8 +47,8 @@
   },
   "privacy": {
     "title": "Política de privacidad",
-    "updated": "Fecha de entrada en vigor: 7 de septiembre de 2026",
-    "applies_common": "Esta política se aplica a todas las apps de SSAMOK SOFT y a este sitio web.",
+    "updated": "Fecha de entrada en vigor: 2026-10-11",
+    "applies_common": "Esta política se aplica a todas las apps de SSAMOK SOFT y a este sitio web. Si una app tiene su propia política de privacidad y guía de eliminación, esos documentos prevalecen para sus datos, procedimientos y plazos.",
     "applies_app": "Esta política se aplica a {app}.",
     "intro": "SSAMOK SOFT («nosotros») explica cómo tratamos la información en nuestras apps y en este sitio web. Como nuestras apps son distintas, la página de cada app incluye un resumen del tratamiento de datos específico de esa app.",
     "summary_title": "Resumen del tratamiento de datos",
@@ -72,9 +72,9 @@
     "s_ads_title": "5. Publicidad",
     "s_ads_body": "Algunas apps pueden mostrar anuncios a través de Google AdMob. Puede usarse un identificador de publicidad y datos similares para publicar y medir los anuncios. Puedes restablecer tu identificador de publicidad o limitar la personalización de anuncios en los ajustes de tu dispositivo.",
     "s_retention_title": "6. Conservación y eliminación de datos",
-    "s_retention_body": "Conservamos tu información personal mientras tu cuenta esté activa. La eliminación de cuenta solicitada dentro de una app surte efecto de inmediato; las solicitudes de eliminación recibidas por correo (ssamoksoft@gmail.com) se procesan en un plazo de 30 días tras verificar la identidad, y te comunicamos el resultado. La información que deba conservarse conforme a la ley aplicable se conserva durante el periodo exigido. En algunas apps, los registros de denuncias se borran automáticamente 90 días después de su recepción, y las identidades afectadas se eliminan antes si se elimina la cuenta correspondiente; las copias incluidas en las copias de seguridad de recuperación ante desastres expiran con el ciclo de conservación de dichas copias. Los datos de la app almacenados solo en tu dispositivo se eliminan al desinstalar la app.",
+    "s_retention_body": "Conservamos tu información personal mientras tu cuenta esté activa. Una solicitud de eliminación en la app inicia el proceso; su finalización y los reintentos siguen la guía de eliminación de la app. Salvo que allí se indique otro plazo, las solicitudes de eliminación recibidas por correo (ssamoksoft@gmail.com) se procesan en un plazo de 30 días tras verificar la identidad, y te comunicamos el resultado. La información que deba conservarse conforme a la ley aplicable se conserva durante el periodo exigido. En algunas apps, los registros de denuncias se borran automáticamente 90 días después de su recepción, y las identidades afectadas se eliminan antes si se elimina la cuenta correspondiente; las copias incluidas en las copias de seguridad de recuperación ante desastres expiran con el ciclo de conservación de dichas copias. Los datos de la app almacenados solo en tu dispositivo se eliminan al desinstalar la app.",
     "s_storage_title": "7. Almacenamiento y seguridad",
-    "s_storage_body": "Según la app, los datos se almacenan en la nube de Google Firebase o Supabase, o solo en tu dispositivo. En el caso de los datos almacenados en la nube, las contraseñas y la información sensible se cifran, y mantenemos auditorías internas trimestrales, controles de acceso, registros de acceso conservados durante al menos seis meses y sistemas de prevención y detección de intrusiones.",
+    "s_storage_body": "Según la app, los datos se guardan en el dispositivo o se procesan mediante servicios en la nube como Firebase o Supabase. Usamos HTTPS/TLS para las comunicaciones con la nube y limitamos el acceso a las cuentas y los permisos administrativos. Stelleaf utiliza almacenamiento de fotos no público y controles de acceso a los datos por cuenta; las claves secretas de administración permanecen en el servidor. Las medidas concretas se describen en la política de privacidad de cada app.",
     "s_rights_title": "8. Tus derechos",
     "s_rights_body": "Puedes solicitar acceder, corregir, eliminar o suspender el tratamiento de tu información personal, y también puedes usar los controles de privacidad que ofrecen App Store y Google Play.",
     "s_children_title": "9. Menores",
@@ -84,16 +84,28 @@
     "s_representative_title": "11. Representantes en la UE y el Reino Unido",
     "s_representative_body": "Para los usuarios de la UE/EEE y del Reino Unido, hemos designado representantes conforme al artículo 27 del RGPD de la UE y al artículo 27 del RGPD del Reino Unido. Representante en la UE: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Representante en el Reino Unido: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Puedes contactar con nuestros representantes y ejercer tus derechos a través de https://app.prighter.com/portal/19708232400.",
     "s_changes_title": "12. Cambios en esta política",
-    "s_changes_body": "Si esta política cambia, publicaremos la actualización en esta página, y la política revisada entrará en vigor en el momento de su publicación.",
+    "s_changes_body": "Anunciamos con antelación los cambios y su fecha de entrada en vigor en esta página y conservamos las versiones anteriores. Los cambios importantes en tus derechos, obligaciones o el tratamiento de datos personales también se anuncian en la app antes de aplicarse. Si la ley exige un consentimiento separado, lo obtenemos antes de aplicar el cambio; seguir usando el servicio no lo sustituye.",
     "s_business_title": "Información de la empresa",
-    "s_business_items": ["Nombre comercial: SSAMOK SOFT (싸목소프트)", "Representante: Dae hoon Kang", "Dirección de la empresa: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Correo electrónico: ssamoksoft@gmail.com", "Número de registro de la empresa: 160-75-00256", "Número de registro de comercio electrónico: 2019-충북청주-1930", "Responsable de privacidad: Dae hoon Kang (ssamoksoft@gmail.com)", "Proveedor de hosting: Google LLC (Firebase) · GitHub, Inc.", "Los datos de registro de la empresa pueden verificarse en Hometax, el portal del Servicio Nacional de Impuestos de Corea (www.hometax.go.kr), utilizando el número de registro indicado arriba."],
+    "s_business_items": [
+      "Nombre comercial: SSAMOK SOFT (싸목소프트)",
+      "Representante: Dae hoon Kang",
+      "Dirección de la empresa: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+      "Correo electrónico: ssamoksoft@gmail.com",
+      "Número de registro de la empresa: 160-75-00256",
+      "Número de registro de comercio electrónico: 2019-충북청주-1930",
+      "Responsable de privacidad: Dae hoon Kang (ssamoksoft@gmail.com)",
+      "Proveedor de hosting: Google LLC (Firebase) · GitHub, Inc.",
+      "Los datos de registro de la empresa pueden verificarse en Hometax, el portal del Servicio Nacional de Impuestos de Corea (www.hometax.go.kr), utilizando el número de registro indicado arriba."
+    ],
     "back": "Volver al inicio",
     "link_terms": "Términos del servicio",
     "link_delete": "Eliminar tu cuenta",
     "sum_extra_social": "Inicia sesión con Google o Apple (recopila correo electrónico, nombre visible y apodo).",
     "sum_extra_fcm": "Usa un token de dispositivo FCM para enviar notificaciones push.",
     "sum_extra_revenuecat": "La información de suscripciones y compras se procesa a través de RevenueCat.",
-    "sum_extra_inapp_delete": "Puedes eliminar tu cuenta al instante desde Ajustes → Eliminar cuenta en la app; tus registros en salas compartidas se anonimizan."
+    "sum_extra_inapp_delete": "Puedes eliminar tu cuenta al instante desde Ajustes → Eliminar cuenta en la app; tus registros en salas compartidas se anonimizan.",
+    "previous_label": "Versión anterior · 2026-09-07",
+    "previous_url": "/privacy/archive/2026-09-07/es.html"
   },
   "docs": {
     "kairotique_delete": {
@@ -129,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Política de privacidad de Stelleaf",
-      "updated": "2026-10-10",
+      "updated": "Fecha de entrada en vigor: 2026-10-11",
       "applies": "Stelleaf, de SSAMOK SOFT, guarda primero los registros y fotos en el dispositivo.",
       "sections": [
         {
@@ -153,7 +165,7 @@
             "Cuenta: dirección de correo electrónico, ID interno de usuario e identificador del proveedor de inicio de sesión — eliges entre correo+contraseña, inicio de sesión con Google o con Apple (infraestructura de autenticación: Supabase Auth)",
             "Contenido: categorías, nombres, notas, códigos de barras y coordenadas elegidas, valoraciones, fechas, puntuaciones detalladas, etiquetas contextuales, etiquetas, clasificaciones, ajustes de análisis, fotos y fechas de creación/modificación",
             "Suscripciones: RevenueCat recibe un ID aleatorio anónimo antes del inicio de sesión y el ID interno después, además del estado de suscripción, recibos o tokens de compra e información de la app y el dispositivo. No recibimos números de tarjeta.",
-            "Mapas: iOS utiliza Mapas de Apple. Android utiliza mapas y búsquedas de zonas y lugares de Naver en Corea del Sur, y Google Maps con búsqueda de zonas y direcciones en el extranjero. Pueden tratarse solicitudes, área visible, consultas, IP y datos técnicos del SDK. La ubicación actual del dispositivo solo se consulta al conceder permiso y usar la función de ubicación actual.",
+            "Mapas: iOS utiliza Mapas de Apple. Android utiliza mapas y búsquedas de zonas y lugares de Naver en Corea del Sur, y Google Maps con búsqueda de zonas y direcciones en el extranjero. Pueden tratarse solicitudes, área visible, consultas, IP y datos técnicos del SDK. Si has concedido permiso de ubicación, usamos tu ubicación actual para mostrar los alrededores al abrir un mapa por primera vez o cuando utilizas la función de ubicación actual.",
             "Búsquedas e imágenes: consultas, coordenadas, códigos de barras e ISBN. Las búsquedas de lugares de Naver, libros de Kakao y alimentos de MFDS pasan por funciones de Supabase. La app puede acceder directamente a Open Food Facts, Open Beauty Facts, OpenLibrary y proveedores de imágenes, enviando también IP y datos técnicos. Las solicitudes autenticadas al servidor incluyen credenciales de sesión que nuestro proxy no reenvía al proveedor de búsqueda.",
             "Publicidad: los usuarios gratuitos pueden ver anuncios nativos pequeños de Google AdMob. El SDK puede tratar ubicación aproximada inferida de la IP, identificadores de aplicación/dispositivo, impresiones e interacciones publicitarias, información de aplicación/dispositivo, rendimiento y diagnóstico para ofrecer y medir anuncios y prevenir fraudes. No incluimos registros, notas, consultas, fotos, códigos de barras, coordenadas precisas ni ID de cuenta en las solicitudes. Usamos anuncios no personalizados. Se ha eliminado el permiso de ID publicitario de Android y no se solicita permiso de seguimiento en iOS; aun así pueden tratarse otros identificadores del SDK y datos de medición. Con Premium activo no se solicitan ni muestran anuncios.",
             "Análisis de uso: solo con consentimiento separado, Google Analytics for Firebase trata eventos de funciones predefinidos (pantallas, inicio/guardado/error de registros, búsqueda, filtros, mapas y avisos de suscripción), identificadores de instancia y datos técnicos/del dispositivo. Se excluyen contenidos, títulos, notas, fotos, consultas, ubicación precisa, códigos de barras, ID de cuenta y nombres de etiquetas propias. No se permiten el almacenamiento publicitario, los datos de usuario para publicidad ni la personalización publicitaria de Analytics."
@@ -217,7 +229,7 @@
             "También contiene registros marcados para su eliminación pero aún no destruidos por completo — la exportación lee los datos almacenados en este dispositivo, por lo que un registro cuyo contenido ya se haya borrado en el servidor puede incluirse si permanece en este dispositivo",
             "Un archivo exportado con la sesión iniciada incluye tu identificador de cuenta (UUID)",
             "El archivo de exportación no está cifrado — ten cuidado de no compartirlo con terceros",
-            "Reclamaciones: quienes residen en la UE pueden reclamar ante su autoridad de control nacional; en Corea, ante el Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Reclamaciones: quienes residen en la UE pueden reclamar ante su autoridad de control nacional; en Corea, ante el Privacy Infringement Report Centre (https://privacy.kisa.or.kr/, 118)",
             "Puede cambiar los análisis en Ajustes > Privacidad. Cuando Google UMP lo exija, la misma pantalla ofrecerá opciones de privacidad publicitaria. Los permisos del dispositivo y las opciones publicitarias del sistema operativo se gestionan por separado en los ajustes del dispositivo."
           ]
         },
@@ -247,13 +259,23 @@
         },
         {
           "t": "14. Cambios en esta política",
-          "b": "Si esta política cambia, publicaremos la actualización en esta página y los cambios importantes se anunciarán también en la app. La política revisada entra en vigor al publicarse."
+          "b": "Anunciamos con antelación los cambios y su fecha de entrada en vigor en esta página y conservamos las versiones anteriores. Los cambios importantes en tus derechos, obligaciones o el tratamiento de datos personales también se anuncian en la app antes de aplicarse. Si la ley exige un consentimiento separado, lo obtenemos antes de aplicar el cambio; seguir usando el servicio no lo sustituye."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Versión anterior · 2026-10-10",
+          "href": "/privacy/stelleaf/archive/2026-10-10/es.html"
+        },
+        {
+          "label": "Versión anterior · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/2026-09-20/es.html"
         }
       ]
     },
     "stelleaf_terms": {
       "title": "Términos del servicio de Stelleaf",
-      "updated": "Fecha de entrada en vigor: 25 de julio de 2026",
+      "updated": "Fecha de entrada en vigor: 2026-10-11",
       "applies": "Estos términos rigen el uso de la app móvil «Stelleaf» (별갈피, el «Servicio») proporcionada por el empresario individual SSAMOK SOFT (el «Operador»). Al usar el Servicio, aceptas estos términos.",
       "sections": [
         {
@@ -266,7 +288,7 @@
         },
         {
           "t": "Artículo 3 (Suscripción de pago)",
-          "b": "El Servicio ofrece una suscripción premium (Stelleaf Premium); los pagos se procesan a través del App Store o Google Play. Las suscripciones pueden renovarse automáticamente según la política de cada tienda, y las cancelaciones y reembolsos siguen las políticas y procedimientos de cada tienda. El Operador no recopila ni almacena información de tarjetas de pago. Eliminar tu cuenta no cancela una suscripción: cancélala directamente en la tienda. Las ventajas concretas de la suscripción (p. ej. copia de seguridad de fotos ilimitada) se describen en la app."
+          "b": "El Servicio ofrece una suscripción premium (Stelleaf Premium); los pagos se procesan a través del App Store o Google Play. Las suscripciones pueden renovarse automáticamente según la política de cada tienda, y las cancelaciones y reembolsos siguen las políticas y procedimientos de cada tienda. El Operador no recopila ni almacena información de tarjetas de pago. Eliminar tu cuenta no cancela una suscripción: cancélala directamente en la tienda. Las ventajas concretas de la suscripción (p. ej. copia de seguridad de fotos ilimitada) se describen en la app. Las cuentas gratuitas pueden respaldar hasta 100 fotos en la nube. Stelleaf Premium ofrece eliminación de anuncios, respaldo de fotos en la nube sin límite de cantidad y perfiles de gustos. La app no limita la cantidad de fotos locales. Los precios y períodos de facturación de las suscripciones mensuales y anuales se muestran antes de comprar. Las suscripciones se renuevan automáticamente salvo cancelación. Al cancelar la renovación, los beneficios se mantienen durante el período ya pagado."
         },
         {
           "t": "Artículo 4 (Propiedad del contenido)",
@@ -290,7 +312,7 @@
         },
         {
           "t": "Artículo 9 (Cambios en estos términos)",
-          "b": "El Operador puede actualizar estos términos; los cambios se publicarán en esta página y los importantes se anunciarán también en la app. Los términos actualizados entran en vigor al publicarse, y el uso continuado del Servicio constituye su aceptación."
+          "b": "Anunciamos con antelación los cambios y su fecha de entrada en vigor en esta página y conservamos las versiones anteriores. Los cambios importantes en tus derechos, obligaciones o el tratamiento de datos personales también se anuncian en la app antes de aplicarse. Si la ley exige un consentimiento separado, lo obtenemos antes de aplicar el cambio; seguir usando el servicio no lo sustituye."
         },
         {
           "t": "Artículo 10 (Ley aplicable y jurisdicción)",
@@ -300,11 +322,17 @@
           "t": "Artículo 11 (Contacto)",
           "b": "Para preguntas sobre estos términos, escribe a ssamoksoft@gmail.com."
         }
+      ],
+      "previous": [
+        {
+          "label": "Versión anterior · 2026-07-25",
+          "href": "/privacy/stelleaf/archive/terms-2026-07-25/es.html"
+        }
       ]
     },
     "stelleaf_delete": {
       "title": "Eliminar tu cuenta y datos de Stelleaf",
-      "updated": "20 de septiembre de 2026",
+      "updated": "Fecha de entrada en vigor: 2026-10-11",
       "applies": "Esta página explica cómo eliminar tu cuenta y tus datos de la app «Stelleaf» (별갈피) de SSAMOK SOFT. Puedes solicitar la eliminación por correo electrónico incluso si no has instalado la app o ya no puedes acceder a ella.",
       "sections": [
         {
@@ -334,6 +362,12 @@
         {
           "t": "Contacto",
           "b": "Para preguntas sobre la eliminación, escribe a ssamoksoft@gmail.com."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Versión anterior · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/delete-2026-09-20/es.html"
         }
       ]
     },

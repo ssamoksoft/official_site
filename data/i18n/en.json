@@ -47,8 +47,8 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "updated": "Effective date: September 7, 2026",
-    "applies_common": "This policy applies to all SSAMOK SOFT apps and this website.",
+    "updated": "Effective date: 2026-10-11",
+    "applies_common": "This policy applies to all SSAMOK SOFT apps and this website. Where an app has its own privacy policy and deletion guide, those documents take precedence for that app's data, procedures and time limits.",
     "applies_app": "This policy applies to {app}.",
     "intro": "SSAMOK SOFT (\"we\", \"us\") explains how we handle information across our apps and this website. Because our apps differ, each app's page includes a data-processing summary specific to that app.",
     "summary_title": "Data processing summary",
@@ -72,9 +72,9 @@
     "s_ads_title": "5. Advertising",
     "s_ads_body": "Some apps may show ads through Google AdMob. An advertising identifier and similar data may be used to deliver and measure ads. You can reset your advertising identifier or limit ad personalization in your device settings.",
     "s_retention_title": "6. Data retention & deletion",
-    "s_retention_body": "We retain your personal information while your account remains active. Account deletion requested inside an app takes effect immediately; deletion requests received by email (ssamoksoft@gmail.com) are processed within 30 days after identity verification, and we reply with the result. Information that must be kept under applicable law is retained for the required period. In some apps, report records are deleted automatically 90 days after receipt, and the identities concerned are removed earlier if the related account is deleted; copies in disaster-recovery backups expire with the backup retention cycle. App data stored only on your device is deleted when you delete the app.",
+    "s_retention_body": "We retain your personal information while your account remains active. An in-app deletion request starts processing; completion and retries follow the app's deletion guide. Unless a different period is specified there, deletion requests received by email (ssamoksoft@gmail.com) are processed within 30 days after identity verification, and we reply with the result. Information that must be kept under applicable law is retained for the required period. In some apps, report records are deleted automatically 90 days after receipt, and the identities concerned are removed earlier if the related account is deleted; copies in disaster-recovery backups expire with the backup retention cycle. App data stored only on your device is deleted when you delete the app.",
     "s_storage_title": "7. Storage & security",
-    "s_storage_body": "Depending on the app, data is stored in the Google Firebase or Supabase cloud, or only on your device. For cloud-stored data, passwords and sensitive information are encrypted, and we maintain quarterly self-audits, access controls, access logs kept for at least six months, and intrusion prevention and detection systems.",
+    "s_storage_body": "Depending on the app, data is stored on the device or processed through cloud services such as Firebase or Supabase. We use HTTPS/TLS for cloud communications and restrict account access and administrative permissions. Stelleaf uses private photo storage and account-based data access controls, with secret administration keys held on the server. Each app's privacy policy describes its specific safeguards.",
     "s_rights_title": "8. Your rights",
     "s_rights_body": "You may request to access, correct, delete, or suspend the processing of your personal information, and you can also use the privacy controls provided by the App Store and Google Play.",
     "s_children_title": "9. Children",
@@ -84,7 +84,7 @@
     "s_representative_title": "11. EU & UK representative",
     "s_representative_body": "For users in the EU/EEA and the United Kingdom, we have appointed representatives pursuant to Article 27 of the EU GDPR and Article 27 of the UK GDPR. EU representative: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. UK representative: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. You can contact our representatives and exercise your rights via https://app.prighter.com/portal/19708232400.",
     "s_changes_title": "12. Changes to this policy",
-    "s_changes_body": "If this policy changes, we will post the update on this page, and the revised policy takes effect when posted.",
+    "s_changes_body": "We announce changes and their effective date on this page in advance and retain previous versions. Material changes to your rights, obligations or personal-data processing are also announced in the app before they apply. Where the law requires separate consent, we obtain that consent before applying the change; continued use alone does not replace it.",
     "s_business_title": "Business information",
     "s_business_items": [
       "Trade name: SSAMOK SOFT (싸목소프트)",
@@ -103,7 +103,9 @@
     "sum_extra_social": "Signs you in with Google or Apple (collects email, display name, and nickname).",
     "sum_extra_fcm": "Uses an FCM device token to deliver push notifications.",
     "sum_extra_revenuecat": "Processes subscription and purchase information via RevenueCat.",
-    "sum_extra_inapp_delete": "You can delete your account immediately via Settings → Delete account in the app; your records in shared rooms are anonymized."
+    "sum_extra_inapp_delete": "You can delete your account immediately via Settings → Delete account in the app; your records in shared rooms are anonymized.",
+    "previous_label": "Previous version · 2026-09-07",
+    "previous_url": "/privacy/archive/2026-09-07/en.html"
   },
   "docs": {
     "kairotique_delete": {
@@ -200,7 +202,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Privacy Policy",
-      "updated": "2026-10-10",
+      "updated": "Effective date: 2026-10-11",
       "applies": "Stelleaf by SSAMOK SOFT stores records and photos on your device first.",
       "sections": [
         {
@@ -224,7 +226,7 @@
             "Account: email address, internal user ID, and sign-in provider identifier — you choose one of email+password, Google sign-in, or Apple sign-in (authentication infrastructure: Supabase Auth)",
             "Content: categories, item names/notes/barcodes/selected location coordinates, ratings, dates, detailed scores, context tags, tags, ranking boards, analysis settings, photos and creation/modification times",
             "Subscriptions: RevenueCat receives a random anonymous app ID before sign-in and the internal user ID after sign-in, plus subscription status, receipts or purchase tokens, and app/device information. We do not receive payment card numbers.",
-            "Maps: iOS uses Apple Maps. Android uses Naver maps and area/place searches in South Korea, and Google Maps with area/address searches abroad. Requests, viewed areas, queries, IP and SDK technical data may be processed. Your current device location is read only when you grant permission and use the current-location feature.",
+            "Maps: iOS uses Apple Maps. Android uses Naver maps and area/place searches in South Korea, and Google Maps with area/address searches abroad. Requests, viewed areas, queries, IP and SDK technical data may be processed. If you have granted location permission, we use your current location to show your surroundings when a map first opens or when you use the current-location feature.",
             "Search/images: queries, coordinates, barcodes and ISBNs are processed. Naver place, Kakao book and MFDS food searches pass through Supabase functions. The app can directly contact Open Food Facts, Open Beauty Facts, OpenLibrary and image providers. Connections also disclose IP/technical information. Signed-in server requests contain account authentication; our search proxy does not forward that authentication to search providers.",
             "Advertising: free users may see small Google AdMob native ads. The SDK may process IP-derived approximate location, app/device-scoped identifiers, ad impressions and interactions, device/app information, performance and diagnostics for ad delivery, measurement and fraud prevention. We do not include personal records, notes, queries, photos, barcodes, precise coordinates or account IDs in ad requests. Requests use non-personalized settings. Android's advertising ID permission is removed and iOS does not request tracking permission; other SDK identifiers and measurement data may still be processed. While Premium is active, the app neither requests nor displays ads.",
             "App usage analytics: only with your separate consent, Google Analytics for Firebase processes predefined feature events (such as screens, record creation/save/failure, search/filter/map views and subscription prompts), app-instance identifiers and device/technical data. Events exclude record contents, titles, notes, photos, queries, precise location, barcodes, account IDs and custom tag names. Analytics ad storage, ad user data and ad personalization signals are not permitted."
@@ -288,7 +290,7 @@
             "It also contains records that are marked for deletion but not yet fully purged — the export reads the data stored on this device, so a record whose content has already been erased on the server may still be included if it remains on this device",
             "A file exported while signed in records your account identifier (UUID)",
             "The export file is not encrypted — take care not to share it with others",
-            "Complaints: EU residents may lodge a complaint with their national supervisory authority; in Korea, with the Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Complaints: EU residents may lodge a complaint with their national supervisory authority; in Korea, with the Privacy Infringement Report Centre (https://privacy.kisa.or.kr/, 118)",
             "You can change app usage analytics in Settings > Privacy. When Google UMP requires it, the same screen offers advertising privacy choices. Device permissions and operating-system advertising privacy choices are managed separately in device settings."
           ]
         },
@@ -318,13 +320,23 @@
         },
         {
           "t": "14. Changes to this policy",
-          "b": "If this policy changes, we will post the update on this page, and material changes will also be announced in the app. The revised policy takes effect when posted."
+          "b": "We announce changes and their effective date on this page in advance and retain previous versions. Material changes to your rights, obligations or personal-data processing are also announced in the app before they apply. Where the law requires separate consent, we obtain that consent before applying the change; continued use alone does not replace it."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Previous version · 2026-10-10",
+          "href": "/privacy/stelleaf/archive/2026-10-10/en.html"
+        },
+        {
+          "label": "Previous version · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/2026-09-20/en.html"
         }
       ]
     },
     "stelleaf_terms": {
       "title": "Stelleaf Terms of Service",
-      "updated": "Effective date: July 25, 2026",
+      "updated": "Effective date: 2026-10-11",
       "applies": "These terms govern your use of the mobile app “Stelleaf” (별갈피, the “Service”) provided by the sole proprietorship SSAMOK SOFT (the “Operator”). By using the Service, you agree to these terms.",
       "sections": [
         {
@@ -337,7 +349,7 @@
         },
         {
           "t": "Article 3 (Paid subscription)",
-          "b": "The Service offers a premium (Stelleaf Premium) subscription; payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Operator does not collect or store payment card information. Deleting your account does not cancel a subscription — cancel it directly in the store. Specific subscription benefits (e.g. unlimited cloud photo backup) are described in the app."
+          "b": "The Service offers a premium (Stelleaf Premium) subscription; payments are processed through the App Store or Google Play. Subscriptions may auto-renew under each store's policy, and cancellations and refunds follow each store's policies and procedures. The Operator does not collect or store payment card information. Deleting your account does not cancel a subscription — cancel it directly in the store. Specific subscription benefits (e.g. unlimited cloud photo backup) are described in the app. Free accounts can back up up to 100 photos to the cloud. Stelleaf Premium provides ad removal, cloud photo backup without a photo-count limit, and taste profiles. The app imposes no local photo-count limit. Prices and billing periods for monthly and annual subscriptions are shown before purchase. Subscriptions renew automatically unless cancelled. Cancelling renewal leaves benefits available for the period already paid for."
         },
         {
           "t": "Article 4 (Ownership of content)",
@@ -361,7 +373,7 @@
         },
         {
           "t": "Article 9 (Changes to these terms)",
-          "b": "The Operator may update these terms; changes will be posted on this page and material changes will also be announced in the app. Updated terms take effect when posted, and continued use of the Service constitutes acceptance."
+          "b": "We announce changes and their effective date on this page in advance and retain previous versions. Material changes to your rights, obligations or personal-data processing are also announced in the app before they apply. Where the law requires separate consent, we obtain that consent before applying the change; continued use alone does not replace it."
         },
         {
           "t": "Article 10 (Governing law and jurisdiction)",
@@ -371,11 +383,17 @@
           "t": "Article 11 (Contact)",
           "b": "For questions about these terms, contact ssamoksoft@gmail.com."
         }
+      ],
+      "previous": [
+        {
+          "label": "Previous version · 2026-07-25",
+          "href": "/privacy/stelleaf/archive/terms-2026-07-25/en.html"
+        }
       ]
     },
     "stelleaf_delete": {
       "title": "Delete your Stelleaf account and data",
-      "updated": "20 September 2026",
+      "updated": "Effective date: 2026-10-11",
       "applies": "This page explains how to delete your account and data for the app “Stelleaf” (별갈피) by SSAMOK SOFT. You can request deletion by email even if you have not installed the app or can no longer access it.",
       "sections": [
         {
@@ -405,6 +423,12 @@
         {
           "t": "Contact",
           "b": "For questions about deletion, contact ssamoksoft@gmail.com."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Previous version · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/delete-2026-09-20/en.html"
         }
       ]
     },

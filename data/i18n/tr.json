@@ -47,8 +47,8 @@
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "updated": "Yürürlük tarihi: 7 Eylül 2026",
-    "applies_common": "Bu politika, tüm SSAMOK SOFT uygulamaları ve bu web sitesi için geçerlidir.",
+    "updated": "Yürürlük tarihi: 2026-10-11",
+    "applies_common": "Bu politika, tüm SSAMOK SOFT uygulamaları ve bu web sitesi için geçerlidir. Bir uygulamanın kendi gizlilik politikası ve silme kılavuzu varsa, o uygulamanın verileri, işlemleri ve süreleri için bu belgeler önceliklidir.",
     "applies_app": "Bu politika {app} için geçerlidir.",
     "intro": "SSAMOK SOFT (\"biz\"), uygulamalarımızda ve bu web sitesinde bilgileri nasıl işlediğimizi açıklar. Uygulamalarımız farklılık gösterdiğinden, her uygulamanın sayfasında o uygulamaya özgü bir veri işleme özeti bulunur.",
     "summary_title": "Veri işleme özeti",
@@ -72,9 +72,9 @@
     "s_ads_title": "5. Reklam",
     "s_ads_body": "Bazı uygulamalar Google AdMob aracılığıyla reklam gösterebilir. Reklamları yayınlamak ve ölçmek için bir reklam tanımlayıcısı ve benzeri veriler kullanılabilir. Cihaz ayarlarınızdan reklam tanımlayıcınızı sıfırlayabilir veya reklam kişiselleştirmesini sınırlayabilirsiniz.",
     "s_retention_title": "6. Verilerin saklanması ve silinmesi",
-    "s_retention_body": "Kişisel bilgilerinizi, hesabınız etkin olduğu sürece saklarız. Uygulama içinden yapılan hesap silme talebi anında yürürlüğe girer; e-posta ile (ssamoksoft@gmail.com) alınan silme talepleri, kimlik doğrulamasının ardından 30 gün içinde işleme alınır ve sonucu size bildiririz. Yasa gereği saklanması zorunlu bilgiler, öngörülen süre boyunca saklanır. Bazı uygulamalarda şikayet kayıtları, alındıkları tarihten 90 gün sonra otomatik olarak silinir ve ilgili hesap silinirse söz konusu kimlik bilgileri daha erken kaldırılır; felaket kurtarma yedeklerindeki kopyalar, yedek saklama döngüsüyle birlikte sona erer. Yalnızca cihazınızda saklanan uygulama verileri, uygulamayı sildiğinizde silinir.",
+    "s_retention_body": "Kişisel bilgilerinizi, hesabınız etkin olduğu sürece saklarız. Uygulama içi silme talebi işlemi başlatır; tamamlanma ve yeniden denemeler uygulamanın silme kılavuzuna göre yürütülür. Kılavuzda farklı bir süre belirtilmedikçe, e-posta ile (ssamoksoft@gmail.com) alınan silme talepleri, kimlik doğrulamasının ardından 30 gün içinde işleme alınır ve sonucu size bildiririz. Yasa gereği saklanması zorunlu bilgiler, öngörülen süre boyunca saklanır. Bazı uygulamalarda şikayet kayıtları, alındıkları tarihten 90 gün sonra otomatik olarak silinir ve ilgili hesap silinirse söz konusu kimlik bilgileri daha erken kaldırılır; felaket kurtarma yedeklerindeki kopyalar, yedek saklama döngüsüyle birlikte sona erer. Yalnızca cihazınızda saklanan uygulama verileri, uygulamayı sildiğinizde silinir.",
     "s_storage_title": "7. Depolama ve güvenlik",
-    "s_storage_body": "Uygulamaya bağlı olarak veriler Google Firebase veya Supabase bulutunda ya da yalnızca cihazınızda saklanır. Bulutta saklanan veriler için parolalar ve hassas bilgiler şifrelenir; üç ayda bir iç denetimler, erişim kontrolleri, en az altı ay saklanan erişim günlükleri ve saldırı önleme ile tespit sistemleri yürütürüz.",
+    "s_storage_body": "Uygulamaya göre veriler cihazda saklanır veya Firebase ya da Supabase gibi bulut hizmetleriyle işlenir. Bulut iletişiminde HTTPS/TLS kullanır, hesap erişimini ve yönetici yetkilerini sınırlarız. Stelleaf, herkese açık olmayan fotoğraf depolaması ve hesap bazlı veri erişim kontrolleri kullanır; gizli yönetim anahtarları sunucuda tutulur. Her uygulamanın özel koruma önlemleri kendi gizlilik politikasında açıklanır.",
     "s_rights_title": "8. Haklarınız",
     "s_rights_body": "Kişisel bilgilerinize erişim, düzeltme, silme veya işlenmesinin durdurulmasını talep edebilir; ayrıca App Store ve Google Play tarafından sunulan gizlilik denetimlerini kullanabilirsiniz.",
     "s_children_title": "9. Çocuklar",
@@ -84,16 +84,28 @@
     "s_representative_title": "11. AB ve Birleşik Krallık temsilcisi",
     "s_representative_body": "AB/AEA ve Birleşik Krallık'taki kullanıcılar için, AB GDPR'nin 27. maddesi ve Birleşik Krallık GDPR'nin 27. maddesi uyarınca temsilciler atadık. AB temsilcisi: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Birleşik Krallık temsilcisi: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Temsilcilerimizle iletişime geçmek ve haklarınızı kullanmak için https://app.prighter.com/portal/19708232400 adresini kullanabilirsiniz.",
     "s_changes_title": "12. Bu politikadaki değişiklikler",
-    "s_changes_body": "Bu politika değişirse, güncellemeyi bu sayfada yayımlarız ve gözden geçirilmiş politika yayımlandığı anda yürürlüğe girer.",
+    "s_changes_body": "Değişiklikleri ve yürürlük tarihini bu sayfada önceden duyurur, önceki sürümleri saklarız. Haklarınız, yükümlülükleriniz veya kişisel verilerin işlenmesiyle ilgili önemli değişiklikler, uygulanmadan önce uygulamada da duyurulur. Yasaların ayrı onay gerektirdiği değişikliklerde, uygulamadan önce bu onayı alırız; yalnızca kullanmaya devam etmek bu onayın yerine geçmez.",
     "s_business_title": "İşletme bilgileri",
-    "s_business_items": ["Ticaret unvanı: SSAMOK SOFT (싸목소프트)", "Temsilci: Dae hoon Kang", "İşletme adresi: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "E-posta: ssamoksoft@gmail.com", "İşletme kayıt numarası: 160-75-00256", "E-ticaret kayıt numarası: 2019-충북청주-1930", "Gizlilik sorumlusu: Dae hoon Kang (ssamoksoft@gmail.com)", "Hosting sağlayıcısı: Google LLC (Firebase) · GitHub, Inc.", "İşletme kayıt bilgileri, yukarıdaki işletme kayıt numarası kullanılarak Kore Ulusal Vergi İdaresinin Hometax portalında (www.hometax.go.kr) doğrulanabilir."],
+    "s_business_items": [
+      "Ticaret unvanı: SSAMOK SOFT (싸목소프트)",
+      "Temsilci: Dae hoon Kang",
+      "İşletme adresi: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+      "E-posta: ssamoksoft@gmail.com",
+      "İşletme kayıt numarası: 160-75-00256",
+      "E-ticaret kayıt numarası: 2019-충북청주-1930",
+      "Gizlilik sorumlusu: Dae hoon Kang (ssamoksoft@gmail.com)",
+      "Hosting sağlayıcısı: Google LLC (Firebase) · GitHub, Inc.",
+      "İşletme kayıt bilgileri, yukarıdaki işletme kayıt numarası kullanılarak Kore Ulusal Vergi İdaresinin Hometax portalında (www.hometax.go.kr) doğrulanabilir."
+    ],
     "back": "Ana sayfaya dön",
     "link_terms": "Hizmet Şartları",
     "link_delete": "Hesabınızı silin",
     "sum_extra_social": "Google veya Apple ile oturum açar (e-posta, görünen ad ve takma ad toplar).",
     "sum_extra_fcm": "Anlık bildirimler için bir FCM cihaz belirteci kullanır.",
     "sum_extra_revenuecat": "Abonelik ve satın alma bilgileri RevenueCat aracılığıyla işlenir.",
-    "sum_extra_inapp_delete": "Uygulamada Ayarlar → Hesabı sil ile hesabınızı anında silebilirsiniz; paylaşılan odalardaki kayıtlarınız anonimleştirilir."
+    "sum_extra_inapp_delete": "Uygulamada Ayarlar → Hesabı sil ile hesabınızı anında silebilirsiniz; paylaşılan odalardaki kayıtlarınız anonimleştirilir.",
+    "previous_label": "Önceki sürüm · 2026-09-07",
+    "previous_url": "/privacy/archive/2026-09-07/tr.html"
   },
   "docs": {
     "kairotique_delete": {
@@ -129,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Gizlilik Politikası",
-      "updated": "2026-10-10",
+      "updated": "Yürürlük tarihi: 2026-10-11",
       "applies": "SSAMOK SOFT'un Stelleaf uygulaması kayıt ve fotoğrafları önce cihazda saklar.",
       "sections": [
         {
@@ -153,7 +165,7 @@
             "Hesap: e-posta adresi, dahili kullanıcı kimliği ve oturum açma sağlayıcısı tanımlayıcısı — e-posta+şifre, Google ile oturum açma veya Apple ile oturum açma seçeneklerinden birini seçersiniz (kimlik doğrulama altyapısı: Supabase Auth)",
             "İçerik: kategoriler, adlar, notlar, barkodlar ve seçilen koordinatlar, değerlendirmeler, tarihler, ayrıntılı puanlar, bağlam etiketleri, etiketler, sıralama panoları, analiz ayarları, fotoğraflar ve oluşturma/değiştirme zamanları",
             "Abonelik: RevenueCat girişten önce rastgele anonim uygulama kimliği, sonrasında dahili kullanıcı kimliği; ayrıca abonelik durumu, makbuz veya satın alma belirteci ve uygulama/cihaz bilgilerini alır. Kart numaralarını almayız.",
-            "Haritalar: iOS, Apple Haritalar'ı kullanır. Android, Güney Kore'de Naver haritaları ve bölge/yer aramasını; yurt dışında Google Maps ile bölge/adres aramasını kullanır. İstekler, görünen alan, sorgular, IP ve SDK teknik verileri işlenebilir. Cihazın mevcut konumu yalnızca izin verip mevcut konum özelliğini kullandığınızda okunur.",
+            "Haritalar: iOS, Apple Haritalar'ı kullanır. Android, Güney Kore'de Naver haritaları ve bölge/yer aramasını; yurt dışında Google Maps ile bölge/adres aramasını kullanır. İstekler, görünen alan, sorgular, IP ve SDK teknik verileri işlenebilir. Konum izni verdiyseniz, haritayı ilk açtığınızda çevrenizi göstermek veya mevcut konum özelliğini kullandığınızda konumunuzu belirlemek için mevcut konumunuzu kullanırız.",
             "Arama/görseller: sorgu, koordinat, barkod ve ISBN işlenir. Naver yer, Kakao kitap ve MFDS gıda aramaları Supabase işlevlerinden geçer. Uygulama Open Food Facts, Open Beauty Facts, OpenLibrary ve görsel sağlayıcılara doğrudan bağlanabilir; IP ve teknik bilgiler de iletilir. Giriş yapılmış sunucu istekleri oturum bilgisi içerir; arama aracımız bunu arama sağlayıcısına aktarmaz.",
             "Reklam: ücretsiz kullanıcılar küçük Google AdMob yerel reklamları görebilir. SDK; reklam sunumu, ölçüm ve dolandırıcılık önleme için IP'den çıkarılan yaklaşık konumu, uygulama/cihaz kapsamlı tanımlayıcıları, reklam gösterimleri ve etkileşimlerini, uygulama/cihaz bilgilerini, performans ve tanı verilerini işleyebilir. Kişisel kayıt, not, sorgu, fotoğraf, barkod, kesin koordinat veya hesap kimliğini reklam isteğine eklemeyiz. Kişiselleştirilmemiş istekler kullanılır. Android reklam kimliği izni kaldırılmıştır ve iOS izleme izni istenmez; başka SDK tanımlayıcıları ve ölçüm verileri yine de işlenebilir. Premium etkin olduğunda reklam istenmez veya gösterilmez.",
             "Kullanım analizi: yalnızca ayrı onayla Google Analytics for Firebase önceden belirlenmiş olayları (ekranlar, kayıt başlatma/kaydetme/hata, arama, filtre, harita, abonelik bildirimi), uygulama örneği tanımlayıcılarını ve cihaz/teknik verileri işler. İçerik, başlık, not, fotoğraf, sorgu, kesin konum, barkod, hesap kimliği ve özel etiket adları dışarıda tutulur. Analytics reklam depolaması, reklam kullanıcı verileri ve reklam kişiselleştirmesine izin verilmez."
@@ -217,7 +229,7 @@
             "Silinmek üzere işaretlenmiş ancak henüz tamamen yok edilmemiş kayıtları da içerir — dışa aktarma bu cihazda saklanan verileri okur; bu nedenle içeriği sunucuda çoktan silinmiş bir kayıt, bu cihazda duruyorsa dosyaya dahil olabilir",
             "Oturum açıkken dışa aktarılan dosya hesap tanımlayıcınızı (UUID) içerir",
             "Dışa aktarma dosyası şifrelenmez — üçüncü kişilerle paylaşmamaya dikkat edin",
-            "Şikâyet: AB'de yaşayanlar ülkelerindeki denetim makamına; Kore'de Privacy Infringement Report Centre'a (privacy.kr, 118) başvurabilir",
+            "Şikâyet: AB'de yaşayanlar ülkelerindeki denetim makamına; Kore'de Privacy Infringement Report Centre'a (https://privacy.kisa.or.kr/, 118) başvurabilir",
             "Kullanım analizini Ayarlar > Gizlilik'ten değiştirebilirsiniz. Google UMP gerektirdiğinde aynı ekranda reklam gizliliği seçenekleri bulunur. Cihaz izinleri ve işletim sisteminin reklam gizliliği seçimleri cihaz ayarlarında ayrıca yönetilir."
           ]
         },
@@ -247,13 +259,23 @@
         },
         {
           "t": "14. Bu politikadaki değişiklikler",
-          "b": "Bu politika değişirse güncellemeyi bu sayfada yayımlarız ve önemli değişiklikleri uygulama içinde de duyururuz. Gözden geçirilmiş politika yayımlandığı anda yürürlüğe girer."
+          "b": "Değişiklikleri ve yürürlük tarihini bu sayfada önceden duyurur, önceki sürümleri saklarız. Haklarınız, yükümlülükleriniz veya kişisel verilerin işlenmesiyle ilgili önemli değişiklikler, uygulanmadan önce uygulamada da duyurulur. Yasaların ayrı onay gerektirdiği değişikliklerde, uygulamadan önce bu onayı alırız; yalnızca kullanmaya devam etmek bu onayın yerine geçmez."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Önceki sürüm · 2026-10-10",
+          "href": "/privacy/stelleaf/archive/2026-10-10/tr.html"
+        },
+        {
+          "label": "Önceki sürüm · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/2026-09-20/tr.html"
         }
       ]
     },
     "stelleaf_terms": {
       "title": "Stelleaf Hizmet Şartları",
-      "updated": "Yürürlük tarihi: 25 Temmuz 2026",
+      "updated": "Yürürlük tarihi: 2026-10-11",
       "applies": "Bu şartlar, şahıs işletmesi SSAMOK SOFT (“İşletmeci”) tarafından sunulan “Stelleaf” (별갈피, “Hizmet”) mobil uygulamasını kullanımınızı düzenler. Hizmeti kullanarak bu şartları kabul etmiş olursunuz.",
       "sections": [
         {
@@ -266,7 +288,7 @@
         },
         {
           "t": "Madde 3 (Ücretli abonelik)",
-          "b": "Hizmet, premium (Stelleaf Premium) abonelik sunar; ödemeler App Store veya Google Play üzerinden işlenir. Abonelikler her mağazanın politikasına göre otomatik yenilenebilir; iptal ve iadeler her mağazanın politika ve prosedürlerine tabidir. İşletmeci ödeme kartı bilgilerini toplamaz veya saklamaz. Hesabı silmek aboneliği iptal etmez — aboneliği doğrudan mağazadan iptal edin. Aboneliğin belirli avantajları (örneğin sınırsız fotoğraf bulut yedeklemesi) uygulama içinde açıklanır."
+          "b": "Hizmet, premium (Stelleaf Premium) abonelik sunar; ödemeler App Store veya Google Play üzerinden işlenir. Abonelikler her mağazanın politikasına göre otomatik yenilenebilir; iptal ve iadeler her mağazanın politika ve prosedürlerine tabidir. İşletmeci ödeme kartı bilgilerini toplamaz veya saklamaz. Hesabı silmek aboneliği iptal etmez — aboneliği doğrudan mağazadan iptal edin. Aboneliğin belirli avantajları (örneğin sınırsız fotoğraf bulut yedeklemesi) uygulama içinde açıklanır. Ücretsiz hesaplar buluta en fazla 100 fotoğraf yedekleyebilir. Stelleaf Premium reklamsız kullanım, fotoğraf sayısı sınırı olmadan bulut yedekleme ve zevk profilleri sunar. Uygulama, cihazdaki fotoğraf sayısını sınırlamaz. Aylık ve yıllık aboneliklerin fiyatları ve faturalandırma dönemleri satın almadan önce gösterilir. Abonelikler iptal edilmedikçe otomatik yenilenir. Yenilemeyi iptal ettikten sonra ödenmiş dönem boyunca avantajlar devam eder."
         },
         {
           "t": "Madde 4 (İçerik sahipliği)",
@@ -290,7 +312,7 @@
         },
         {
           "t": "Madde 9 (Bu şartlardaki değişiklikler)",
-          "b": "İşletmeci bu şartları güncelleyebilir; değişiklikler bu sayfada yayımlanır ve önemli değişiklikler uygulama içinde de duyurulur. Güncellenen şartlar yayımlandığı anda yürürlüğe girer ve Hizmeti kullanmaya devam etmek kabul anlamına gelir."
+          "b": "Değişiklikleri ve yürürlük tarihini bu sayfada önceden duyurur, önceki sürümleri saklarız. Haklarınız, yükümlülükleriniz veya kişisel verilerin işlenmesiyle ilgili önemli değişiklikler, uygulanmadan önce uygulamada da duyurulur. Yasaların ayrı onay gerektirdiği değişikliklerde, uygulamadan önce bu onayı alırız; yalnızca kullanmaya devam etmek bu onayın yerine geçmez."
         },
         {
           "t": "Madde 10 (Geçerli hukuk ve yetkili mahkeme)",
@@ -300,11 +322,17 @@
           "t": "Madde 11 (İletişim)",
           "b": "Bu şartlarla ilgili sorular için ssamoksoft@gmail.com adresine yazın."
         }
+      ],
+      "previous": [
+        {
+          "label": "Önceki sürüm · 2026-07-25",
+          "href": "/privacy/stelleaf/archive/terms-2026-07-25/tr.html"
+        }
       ]
     },
     "stelleaf_delete": {
       "title": "Stelleaf hesabınızı ve verilerinizi silin",
-      "updated": "20 Eylül 2026",
+      "updated": "Yürürlük tarihi: 2026-10-11",
       "applies": "Bu sayfa, SSAMOK SOFT tarafından sunulan “Stelleaf” (별갈피) uygulamasında hesabınızı ve verilerinizi nasıl sileceğinizi açıklar. Uygulamayı kurmamış olsanız veya artık erişemiyor olsanız bile e-posta ile silme talebinde bulunabilirsiniz.",
       "sections": [
         {
@@ -334,6 +362,12 @@
         {
           "t": "İletişim",
           "b": "Silme ile ilgili sorular için ssamoksoft@gmail.com adresine yazın."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Önceki sürüm · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/delete-2026-09-20/tr.html"
         }
       ]
     },

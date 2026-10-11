@@ -78,8 +78,8 @@ display the English document with left-to-right text.
 - Copy lives in `data/i18n/<lang>.json`; any missing key falls back to `en.json`.
 - English is served by `/`; every other language also has a static page at `/<lang>/`
   (`/zh-Hant/` for `zh_Hant`), linked by `hreflang` and listed in `sitemap.xml`.
-- On home and common privacy pages the switcher navigates between language URLs.
-  App documents still swap text in place. On existing URLs, a supported `?lang=` query
+- On home, common privacy and Stelleaf legal pages the switcher navigates between
+  language URLs. Other app documents still swap text in place. On existing URLs, a supported `?lang=` query
   takes precedence without replacing a saved preference;
   otherwise a static page declares `data-lang`, which overrides the saved preference.
   Internal document links preserve the current language.
@@ -92,6 +92,22 @@ app store listings and inside the apps — never change or remove them.**
 
 App-specific documents are intentionally left out of `sitemap.xml` and retain their
 existing URLs and `?lang=` behavior, including the links registered in the stores.
+
+Stelleaf's three existing URLs contain an English HTML fallback. Each also has
+16 fully rendered translations (`ko.html`, `en.html`, `zh_Hant.html`, etc.) in the
+same directory. These fixed pages retain their declared language, even without
+JavaScript or when translation requests fail. Existing `?lang=` URLs remain valid.
+Templates live in `tools/templates/stelleaf-*.html`; `build_lang_pages.py` also
+runs `build_stelleaf_legal.py`. Do not edit generated HTML directly.
+
+The 2026-10-11 clarification preserves the 7-day Stelleaf email-deletion deadline,
+explains app-policy precedence and map initialization, corrects the KISA link,
+and spells out plan benefits and change notices. Security wording describes
+verified controls without promising an unverified quarterly audit or six-month
+log retention. Previous editions are immutable `documents.json` snapshots with
+static translations under `privacy/archive/2026-09-07/` and Stelleaf's
+`archive/2026-10-10/`, `archive/terms-2026-07-25/`, `archive/delete-2026-09-20/`.
+The earlier Stelleaf `archive/2026-09-20/` is also retained.
 
 The **common policy** has pre-rendered pages at `/en/privacy/`, `/ko/privacy/`, etc.
 Each includes its translated body, a self-referencing canonical, reciprocal `hreflang`

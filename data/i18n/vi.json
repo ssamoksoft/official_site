@@ -47,8 +47,8 @@
   },
   "privacy": {
     "title": "Chính sách quyền riêng tư",
-    "updated": "Ngày có hiệu lực: 7 tháng 9 năm 2026",
-    "applies_common": "Chính sách này áp dụng cho tất cả ứng dụng của SSAMOK SOFT và trang web này.",
+    "updated": "Ngày có hiệu lực: 2026-10-11",
+    "applies_common": "Chính sách này áp dụng cho tất cả ứng dụng của SSAMOK SOFT và trang web này. Nếu ứng dụng có chính sách quyền riêng tư và hướng dẫn xóa riêng, các tài liệu đó được ưu tiên áp dụng cho dữ liệu, quy trình và thời hạn của ứng dụng đó.",
     "applies_app": "Chính sách này áp dụng cho {app}.",
     "intro": "SSAMOK SOFT (\"chúng tôi\") giải thích cách chúng tôi xử lý thông tin trong các ứng dụng và trên trang web này. Vì các ứng dụng của chúng tôi khác nhau, trang của mỗi ứng dụng đều có phần tóm tắt xử lý dữ liệu riêng cho ứng dụng đó.",
     "summary_title": "Tóm tắt xử lý dữ liệu",
@@ -72,9 +72,9 @@
     "s_ads_title": "5. Quảng cáo",
     "s_ads_body": "Một số ứng dụng có thể hiển thị quảng cáo qua Google AdMob. Mã nhận dạng quảng cáo và dữ liệu tương tự có thể được sử dụng để phân phối và đo lường quảng cáo. Bạn có thể đặt lại mã nhận dạng quảng cáo hoặc giới hạn cá nhân hóa quảng cáo trong cài đặt thiết bị.",
     "s_retention_title": "6. Lưu giữ và xóa dữ liệu",
-    "s_retention_body": "Chúng tôi lưu giữ thông tin cá nhân trong thời gian tài khoản của bạn còn hoạt động. Yêu cầu xóa tài khoản được thực hiện trong ứng dụng có hiệu lực ngay lập tức; yêu cầu xóa gửi qua email (ssamoksoft@gmail.com) được xử lý trong vòng 30 ngày sau khi xác minh danh tính, và chúng tôi sẽ phản hồi kết quả. Thông tin bắt buộc phải lưu giữ theo pháp luật hiện hành sẽ được lưu trong thời hạn luật định. Ở một số ứng dụng, hồ sơ báo cáo sẽ tự động bị xóa sau 90 ngày kể từ khi tiếp nhận, và nếu tài khoản liên quan bị xóa, thông tin danh tính tương ứng sẽ được gỡ bỏ sớm hơn; các bản sao trong bản sao lưu khôi phục sau thảm họa sẽ hết hạn theo chu kỳ lưu giữ bản sao lưu. Dữ liệu ứng dụng chỉ lưu trên thiết bị của bạn sẽ bị xóa khi bạn gỡ cài đặt ứng dụng.",
+    "s_retention_body": "Chúng tôi lưu giữ thông tin cá nhân trong thời gian tài khoản của bạn còn hoạt động. Yêu cầu xóa trong ứng dụng bắt đầu quá trình xử lý; việc hoàn tất và thử lại tuân theo hướng dẫn xóa của ứng dụng. Nếu hướng dẫn không nêu thời hạn khác, yêu cầu xóa gửi qua email (ssamoksoft@gmail.com) được xử lý trong vòng 30 ngày sau khi xác minh danh tính, và chúng tôi sẽ phản hồi kết quả. Thông tin bắt buộc phải lưu giữ theo pháp luật hiện hành sẽ được lưu trong thời hạn luật định. Ở một số ứng dụng, hồ sơ báo cáo sẽ tự động bị xóa sau 90 ngày kể từ khi tiếp nhận, và nếu tài khoản liên quan bị xóa, thông tin danh tính tương ứng sẽ được gỡ bỏ sớm hơn; các bản sao trong bản sao lưu khôi phục sau thảm họa sẽ hết hạn theo chu kỳ lưu giữ bản sao lưu. Dữ liệu ứng dụng chỉ lưu trên thiết bị của bạn sẽ bị xóa khi bạn gỡ cài đặt ứng dụng.",
     "s_storage_title": "7. Lưu trữ và bảo mật",
-    "s_storage_body": "Tùy theo ứng dụng, dữ liệu được lưu trữ trên đám mây Google Firebase hoặc Supabase, hoặc chỉ trên thiết bị của bạn. Đối với dữ liệu lưu trên đám mây, mật khẩu và thông tin nhạy cảm được mã hóa, và chúng tôi duy trì kiểm tra nội bộ hằng quý, kiểm soát truy cập, lưu nhật ký truy cập ít nhất sáu tháng, cùng các hệ thống ngăn chặn và phát hiện xâm nhập.",
+    "s_storage_body": "Tùy ứng dụng, dữ liệu được lưu trên thiết bị hoặc xử lý qua dịch vụ đám mây như Firebase hay Supabase. Chúng tôi dùng HTTPS/TLS cho kết nối đám mây và giới hạn quyền truy cập tài khoản, quyền quản trị. Stelleaf sử dụng kho ảnh không công khai và kiểm soát truy cập dữ liệu theo tài khoản; khóa quản trị bí mật được giữ trên máy chủ. Biện pháp bảo vệ cụ thể được nêu trong chính sách quyền riêng tư của từng ứng dụng.",
     "s_rights_title": "8. Quyền của bạn",
     "s_rights_body": "Bạn có thể yêu cầu truy cập, chỉnh sửa, xóa hoặc tạm dừng xử lý thông tin cá nhân của mình, và cũng có thể sử dụng các tùy chọn quyền riêng tư do App Store và Google Play cung cấp.",
     "s_children_title": "9. Trẻ em",
@@ -84,16 +84,28 @@
     "s_representative_title": "11. Đại diện tại EU và Vương quốc Anh",
     "s_representative_body": "Đối với người dùng tại EU/EEA và Vương quốc Anh, chúng tôi đã chỉ định đại diện theo Điều 27 GDPR của EU và Điều 27 GDPR của Vương quốc Anh. Đại diện tại EU: Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Đại diện tại Vương quốc Anh: Prighter Ltd, 20 Mortlake High Street, London, SW14 8JN, United Kingdom. Bạn có thể liên hệ với đại diện của chúng tôi và thực hiện các quyền của mình qua https://app.prighter.com/portal/19708232400.",
     "s_changes_title": "12. Thay đổi chính sách này",
-    "s_changes_body": "Nếu chính sách này thay đổi, chúng tôi sẽ đăng bản cập nhật trên trang này, và chính sách sửa đổi có hiệu lực kể từ khi được đăng.",
+    "s_changes_body": "Chúng tôi thông báo trước trên trang này về nội dung thay đổi và ngày có hiệu lực, đồng thời lưu các phiên bản trước. Những thay đổi quan trọng về quyền, nghĩa vụ của bạn hoặc việc xử lý dữ liệu cá nhân cũng được thông báo trong ứng dụng trước khi áp dụng. Khi pháp luật yêu cầu sự đồng ý riêng, chúng tôi sẽ xin sự đồng ý đó trước khi áp dụng thay đổi; việc tiếp tục sử dụng không thay thế cho sự đồng ý này.",
     "s_business_title": "Thông tin doanh nghiệp",
-    "s_business_items": ["Tên cơ sở: SSAMOK SOFT (싸목소프트)", "Người đại diện: Dae hoon Kang", "Địa chỉ kinh doanh: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea", "Email: ssamoksoft@gmail.com", "Số đăng ký kinh doanh: 160-75-00256", "Số đăng ký kinh doanh thương mại điện tử: 2019-충북청주-1930", "Người phụ trách quyền riêng tư: Dae hoon Kang (ssamoksoft@gmail.com)", "Nhà cung cấp hosting: Google LLC (Firebase) · GitHub, Inc.", "Có thể tra cứu thông tin đăng ký kinh doanh tại Hometax của Tổng cục Thuế Hàn Quốc (www.hometax.go.kr) bằng số đăng ký kinh doanh nêu trên."],
+    "s_business_items": [
+      "Tên cơ sở: SSAMOK SOFT (싸목소프트)",
+      "Người đại diện: Dae hoon Kang",
+      "Địa chỉ kinh doanh: 62-20 Tabyeonwolgok-gil, Gangnae-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28171, Republic of Korea",
+      "Email: ssamoksoft@gmail.com",
+      "Số đăng ký kinh doanh: 160-75-00256",
+      "Số đăng ký kinh doanh thương mại điện tử: 2019-충북청주-1930",
+      "Người phụ trách quyền riêng tư: Dae hoon Kang (ssamoksoft@gmail.com)",
+      "Nhà cung cấp hosting: Google LLC (Firebase) · GitHub, Inc.",
+      "Có thể tra cứu thông tin đăng ký kinh doanh tại Hometax của Tổng cục Thuế Hàn Quốc (www.hometax.go.kr) bằng số đăng ký kinh doanh nêu trên."
+    ],
     "back": "Về trang chủ",
     "link_terms": "Điều khoản dịch vụ",
     "link_delete": "Xóa tài khoản của bạn",
     "sum_extra_social": "Đăng nhập bằng Google hoặc Apple (thu thập email, tên hiển thị và biệt danh).",
     "sum_extra_fcm": "Sử dụng mã thông báo thiết bị FCM để gửi thông báo đẩy.",
     "sum_extra_revenuecat": "Thông tin đăng ký và mua hàng được xử lý qua RevenueCat.",
-    "sum_extra_inapp_delete": "Bạn có thể xóa tài khoản ngay lập tức qua Cài đặt → Xóa tài khoản trong ứng dụng; bản ghi của bạn trong các phòng chia sẻ sẽ được ẩn danh."
+    "sum_extra_inapp_delete": "Bạn có thể xóa tài khoản ngay lập tức qua Cài đặt → Xóa tài khoản trong ứng dụng; bản ghi của bạn trong các phòng chia sẻ sẽ được ẩn danh.",
+    "previous_label": "Phiên bản trước · 2026-09-07",
+    "previous_url": "/privacy/archive/2026-09-07/vi.html"
   },
   "docs": {
     "kairotique_delete": {
@@ -129,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Chính sách quyền riêng tư của Stelleaf",
-      "updated": "2026-10-10",
+      "updated": "Ngày có hiệu lực: 2026-10-11",
       "applies": "Stelleaf của SSAMOK SOFT ưu tiên lưu bản ghi và ảnh trên thiết bị.",
       "sections": [
         {
@@ -153,7 +165,7 @@
             "Tài khoản: địa chỉ email, ID người dùng nội bộ và định danh nhà cung cấp đăng nhập — bạn chọn một trong email+mật khẩu, đăng nhập Google hoặc đăng nhập Apple (hạ tầng xác thực: Supabase Auth)",
             "Nội dung: danh mục, tên, ghi chú, mã vạch, tọa độ đã chọn, đánh giá, ngày, điểm chi tiết, thẻ bối cảnh, thẻ, bảng xếp hạng, thiết lập phân tích, ảnh và thời gian tạo/sửa",
             "Thuê bao: RevenueCat nhận ID ứng dụng ẩn danh ngẫu nhiên trước đăng nhập, ID người dùng nội bộ sau đăng nhập, cùng trạng thái thuê bao, biên nhận hoặc mã mua hàng và thông tin ứng dụng/thiết bị. Chúng tôi không nhận số thẻ thanh toán.",
-            "Bản đồ: iOS sử dụng Apple Maps. Android sử dụng bản đồ và tìm kiếm khu vực/địa điểm Naver tại Hàn Quốc, Google Maps cùng tìm kiếm khu vực/địa chỉ ở nước ngoài. Có thể xử lý yêu cầu, vùng hiển thị, từ khóa, IP và dữ liệu kỹ thuật SDK. Vị trí hiện tại chỉ được đọc khi bạn cấp quyền và dùng chức năng vị trí hiện tại.",
+            "Bản đồ: iOS sử dụng Apple Maps. Android sử dụng bản đồ và tìm kiếm khu vực/địa điểm Naver tại Hàn Quốc, Google Maps cùng tìm kiếm khu vực/địa chỉ ở nước ngoài. Có thể xử lý yêu cầu, vùng hiển thị, từ khóa, IP và dữ liệu kỹ thuật SDK. Nếu bạn đã cấp quyền vị trí, chúng tôi sử dụng vị trí hiện tại để hiển thị khu vực xung quanh khi mở bản đồ lần đầu hoặc khi bạn sử dụng chức năng vị trí hiện tại.",
             "Tìm kiếm/ảnh: từ khóa, tọa độ, mã vạch, ISBN. Tìm địa điểm Naver, sách Kakao và thực phẩm MFDS đi qua hàm Supabase. Ứng dụng có thể kết nối trực tiếp Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh, đồng thời truyền IP và dữ liệu kỹ thuật. Yêu cầu máy chủ khi đăng nhập có thông tin xác thực; máy chủ tìm kiếm trung gian không chuyển thông tin này cho bên cung cấp tìm kiếm.",
             "Quảng cáo: người dùng miễn phí có thể thấy quảng cáo gốc cỡ nhỏ của Google AdMob. SDK có thể xử lý vị trí gần đúng suy ra từ IP, mã định danh phạm vi ứng dụng/thiết bị, lượt hiển thị và tương tác quảng cáo, thông tin ứng dụng/thiết bị, hiệu suất và chẩn đoán để phân phối, đo lường và chống gian lận. Chúng tôi không đưa bản ghi, ghi chú, từ khóa, ảnh, mã vạch, tọa độ chính xác hay ID tài khoản vào yêu cầu quảng cáo. Yêu cầu dùng chế độ không cá nhân hóa. Quyền ID quảng cáo Android đã bị loại bỏ và iOS không yêu cầu quyền theo dõi; mã định danh SDK khác và dữ liệu đo lường vẫn có thể được xử lý. Khi Premium còn hiệu lực, ứng dụng không yêu cầu hay hiển thị quảng cáo.",
             "Phân tích sử dụng: chỉ khi có sự đồng ý riêng, Google Analytics for Firebase xử lý các sự kiện định sẵn (màn hình, bắt đầu/lưu/lỗi bản ghi, tìm kiếm, bộ lọc, bản đồ, giới thiệu đăng ký), mã định danh phiên bản ứng dụng và dữ liệu thiết bị/kỹ thuật. Không gồm nội dung, tiêu đề, ghi chú, ảnh, từ khóa, vị trí chính xác, mã vạch, ID tài khoản hoặc tên thẻ tự tạo. Không cho phép lưu trữ quảng cáo, dữ liệu người dùng quảng cáo và cá nhân hóa quảng cáo của Analytics."
@@ -217,7 +229,7 @@
             "Tệp cũng chứa những bản ghi đã đánh dấu xóa nhưng chưa bị hủy hoàn toàn — bản xuất đọc dữ liệu lưu trên thiết bị này, nên một bản ghi đã bị xóa nội dung trên máy chủ vẫn có thể được đưa vào nếu còn nằm trên thiết bị này",
             "Tệp xuất khi đang đăng nhập sẽ ghi lại mã định danh tài khoản (UUID) của bạn",
             "Tệp xuất không được mã hóa — hãy cẩn thận không chia sẻ cho người khác",
-            "Khiếu nại: cư dân EU có thể khiếu nại tới cơ quan giám sát quốc gia mình; tại Hàn Quốc là Privacy Infringement Report Centre (privacy.kr, 118)",
+            "Khiếu nại: cư dân EU có thể khiếu nại tới cơ quan giám sát quốc gia mình; tại Hàn Quốc là Privacy Infringement Report Centre (https://privacy.kisa.or.kr/, 118)",
             "Có thể đổi phân tích trong Cài đặt > Quyền riêng tư. Khi Google UMP yêu cầu, cùng màn hình sẽ có lựa chọn quyền riêng tư quảng cáo. Quyền thiết bị và lựa chọn quảng cáo của hệ điều hành được quản lý riêng trong cài đặt thiết bị."
           ]
         },
@@ -247,13 +259,23 @@
         },
         {
           "t": "14. Thay đổi chính sách này",
-          "b": "Nếu chính sách này thay đổi, chúng tôi sẽ đăng bản cập nhật trên trang này, và những thay đổi quan trọng cũng sẽ được thông báo trong ứng dụng. Chính sách sửa đổi có hiệu lực kể từ khi được đăng."
+          "b": "Chúng tôi thông báo trước trên trang này về nội dung thay đổi và ngày có hiệu lực, đồng thời lưu các phiên bản trước. Những thay đổi quan trọng về quyền, nghĩa vụ của bạn hoặc việc xử lý dữ liệu cá nhân cũng được thông báo trong ứng dụng trước khi áp dụng. Khi pháp luật yêu cầu sự đồng ý riêng, chúng tôi sẽ xin sự đồng ý đó trước khi áp dụng thay đổi; việc tiếp tục sử dụng không thay thế cho sự đồng ý này."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Phiên bản trước · 2026-10-10",
+          "href": "/privacy/stelleaf/archive/2026-10-10/vi.html"
+        },
+        {
+          "label": "Phiên bản trước · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/2026-09-20/vi.html"
         }
       ]
     },
     "stelleaf_terms": {
       "title": "Điều khoản dịch vụ Stelleaf",
-      "updated": "Ngày có hiệu lực: 25 tháng 7 năm 2026",
+      "updated": "Ngày có hiệu lực: 2026-10-11",
       "applies": "Các điều khoản này điều chỉnh việc bạn sử dụng ứng dụng di động “Stelleaf” (별갈피, “Dịch vụ”) do hộ kinh doanh SSAMOK SOFT (“Nhà vận hành”) cung cấp. Bằng việc sử dụng Dịch vụ, bạn đồng ý với các điều khoản này.",
       "sections": [
         {
@@ -266,7 +288,7 @@
         },
         {
           "t": "Điều 3 (Gói đăng ký trả phí)",
-          "b": "Dịch vụ cung cấp gói đăng ký cao cấp (Stelleaf Premium); thanh toán được xử lý qua App Store hoặc Google Play. Gói đăng ký có thể tự động gia hạn theo chính sách của từng cửa hàng, và việc hủy cùng hoàn tiền tuân theo chính sách và quy trình của từng cửa hàng. Nhà vận hành không thu thập hoặc lưu trữ thông tin thẻ thanh toán. Xóa tài khoản không hủy gói đăng ký — hãy hủy trực tiếp tại cửa hàng. Các quyền lợi cụ thể của gói đăng ký (ví dụ sao lưu ảnh không giới hạn) được nêu trong ứng dụng."
+          "b": "Dịch vụ cung cấp gói đăng ký cao cấp (Stelleaf Premium); thanh toán được xử lý qua App Store hoặc Google Play. Gói đăng ký có thể tự động gia hạn theo chính sách của từng cửa hàng, và việc hủy cùng hoàn tiền tuân theo chính sách và quy trình của từng cửa hàng. Nhà vận hành không thu thập hoặc lưu trữ thông tin thẻ thanh toán. Xóa tài khoản không hủy gói đăng ký — hãy hủy trực tiếp tại cửa hàng. Các quyền lợi cụ thể của gói đăng ký (ví dụ sao lưu ảnh không giới hạn) được nêu trong ứng dụng. Tài khoản miễn phí có thể sao lưu tối đa 100 ảnh lên đám mây. Stelleaf Premium cung cấp tính năng loại bỏ quảng cáo, sao lưu ảnh lên đám mây không giới hạn số lượng và hồ sơ sở thích. Ứng dụng không giới hạn số ảnh lưu trên thiết bị. Giá và chu kỳ thanh toán của gói tháng, gói năm được hiển thị trước khi mua. Gói đăng ký tự động gia hạn trừ khi bị hủy. Khi hủy gia hạn, quyền lợi vẫn được duy trì trong thời gian đã thanh toán."
         },
         {
           "t": "Điều 4 (Quyền sở hữu nội dung)",
@@ -290,7 +312,7 @@
         },
         {
           "t": "Điều 9 (Thay đổi điều khoản)",
-          "b": "Nhà vận hành có thể cập nhật các điều khoản này; thay đổi sẽ được đăng trên trang này và những thay đổi quan trọng cũng được thông báo trong ứng dụng. Điều khoản cập nhật có hiệu lực khi được đăng, và việc tiếp tục sử dụng Dịch vụ được xem là chấp nhận."
+          "b": "Chúng tôi thông báo trước trên trang này về nội dung thay đổi và ngày có hiệu lực, đồng thời lưu các phiên bản trước. Những thay đổi quan trọng về quyền, nghĩa vụ của bạn hoặc việc xử lý dữ liệu cá nhân cũng được thông báo trong ứng dụng trước khi áp dụng. Khi pháp luật yêu cầu sự đồng ý riêng, chúng tôi sẽ xin sự đồng ý đó trước khi áp dụng thay đổi; việc tiếp tục sử dụng không thay thế cho sự đồng ý này."
         },
         {
           "t": "Điều 10 (Luật áp dụng và thẩm quyền)",
@@ -300,11 +322,17 @@
           "t": "Điều 11 (Liên hệ)",
           "b": "Nếu có câu hỏi về các điều khoản này, hãy liên hệ ssamoksoft@gmail.com."
         }
+      ],
+      "previous": [
+        {
+          "label": "Phiên bản trước · 2026-07-25",
+          "href": "/privacy/stelleaf/archive/terms-2026-07-25/vi.html"
+        }
       ]
     },
     "stelleaf_delete": {
       "title": "Xóa tài khoản và dữ liệu Stelleaf của bạn",
-      "updated": "20 tháng 9 năm 2026",
+      "updated": "Ngày có hiệu lực: 2026-10-11",
       "applies": "Trang này giải thích cách xóa tài khoản và dữ liệu của bạn cho ứng dụng “Stelleaf” (별갈피) của SSAMOK SOFT. Bạn có thể yêu cầu xóa qua email ngay cả khi chưa cài ứng dụng hoặc không còn truy cập được.",
       "sections": [
         {
@@ -334,6 +362,12 @@
         {
           "t": "Liên hệ",
           "b": "Nếu có câu hỏi về việc xóa, hãy liên hệ ssamoksoft@gmail.com."
+        }
+      ],
+      "previous": [
+        {
+          "label": "Phiên bản trước · 2026-09-20",
+          "href": "/privacy/stelleaf/archive/delete-2026-09-20/vi.html"
         }
       ]
     },

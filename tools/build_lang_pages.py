@@ -260,6 +260,9 @@ def privacy_body(s):
         items = s.get(prefix + "_items")
         if isinstance(items, list):
             parts.append("<ul>" + "".join(f"<li>{escape_and_link(item)}</li>" for item in items) + "</ul>")
+    previous = s.get("privacy.previous_url")
+    if previous != "privacy.previous_url":
+        parts.append(f'<div class="doc-links"><a href="{esc(previous)}" data-fixed-lang="true">{esc(s.get("privacy.previous_label"))}</a></div>')
     parts.append(f'<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> {esc(s.get("privacy.back"))}</a>')
     return "\n".join(parts)
 
@@ -353,6 +356,8 @@ def main():
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(build_sitemap())
     print(f"\n{written} home pages + 16 privacy pages + /privacy/ entry + sitemap.xml written")
+    from build_stelleaf_legal import build_stelleaf
+    build_stelleaf()
 
 
 if __name__ == "__main__":

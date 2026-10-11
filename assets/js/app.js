@@ -210,7 +210,14 @@ function renderPrivacy() {
     summary +
     body +
     docLinks +
+    (!app && t("privacy.previous_url").startsWith("/privacy/archive/")
+      ? `<div class="doc-links"><a href="${escapeHTML(t("privacy.previous_url"))}" data-fixed-lang="true">${escapeHTML(t("privacy.previous_label"))}</a></div>` : "") +
     `<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
+}
+
+function stelleafDocHref(kind, code = currentLang) {
+  const path = { privacy: "", terms: "terms/", delete: "delete-account/" }[kind];
+  return `/privacy/stelleaf/${path}${code}.html`;
 }
 
 /* ---------- generic legal document page (terms, account deletion, ...) ---------- */
@@ -226,7 +233,7 @@ function renderLegalDoc() {
   const appId = docId.slice(0, docId.lastIndexOf("_"));
   const cur = docId.slice(docId.lastIndexOf("_") + 1);
   let navigationAttrs = "";
-  if (appId === "snuumo") {
+  if (appId === "snuumo" || appId === "stelleaf") {
     const documentLang = strings === fallback || getPath(strings, "docs." + docId) === undefined
       ? DEFAULT_LANG : currentLang;
     root.setAttribute("lang", langBcp(documentLang));
@@ -244,6 +251,9 @@ function renderLegalDoc() {
     support: [`/privacy/${appId}/support/`, supportLinkLabel(appId)],
     impressum: [`/privacy/${appId}/impressum/`, "Impressum"],
   };
+  if (appId === "stelleaf") {
+    ["privacy", "terms", "delete"].forEach((kind) => { linkDefs[kind][0] = stelleafDocHref(kind); });
+  }
   const parts = available.filter((k) => k !== cur && linkDefs[k]).map((k) => `<a href="${linkDefs[k][0]}">${escapeHTML(linkDefs[k][1])}</a>`);
 
   const sectionHTML = (s) =>
@@ -256,6 +266,8 @@ function renderLegalDoc() {
     `<p class="updated">${escapeHTML(d.updated)}</p>` +
     `<p class="applies">${escapeAndLink(d.applies)}</p>` +
     (d.sections || []).map(sectionHTML).join("") +
+    (Array.isArray(d.previous) ? `<div class="doc-links">${d.previous.map((p) =>
+      `<a href="${escapeHTML(p.href)}" data-fixed-lang="true">${escapeHTML(p.label)}</a>`).join("")}</div>` : "") +
     `<div class="doc-links"${navigationAttrs}>${parts.join("")}</div>` +
     `<a class="back" href="/"${navigationAttrs}><i class="ti ti-arrow-left" aria-hidden="true"></i> ${escapeHTML(t("privacy.back"))}</a>`;
 }
@@ -275,11 +287,13 @@ function renderChips() {
 function langMenuHTML() {
   const isHome = document.body.hasAttribute("data-home");
   const isCommonPrivacy = document.body.hasAttribute("data-common-privacy");
+  const docId = document.body.getAttribute("data-legal-doc") || "";
+  const isStelleaf = docId.startsWith("stelleaf_");
   return LANGUAGES.map((l) => {
     const cur = l.code === currentLang ? ' aria-current="true"' : "";
     const inner = `<span>${l.label}</span><span class="lang__code">${langSlug(l.code)}</span>`;
-    const item = isHome || isCommonPrivacy
-      ? `<a class="lang__item" href="${isCommonPrivacy ? privacyHref(l.code) : langHref(l.code)}" hreflang="${langBcp(l.code)}" data-lang="${l.code}"${cur}>${inner}</a>`
+    const item = isHome || isCommonPrivacy || isStelleaf
+      ? `<a class="lang__item" href="${isStelleaf ? stelleafDocHref(docId.slice(9), l.code) : isCommonPrivacy ? privacyHref(l.code) : langHref(l.code)}" hreflang="${langBcp(l.code)}" data-lang="${l.code}"${cur}>${inner}</a>`
       : `<button class="lang__item" data-lang="${l.code}"${cur}>${inner}</button>`;
     return `<li role="option">${item}</li>`;
   }).join("");
@@ -292,7 +306,8 @@ function buildLangMenu() {
     el.addEventListener("click", (e) => {
       const code = el.getAttribute("data-lang");
       closeLangMenu();
-      if (document.body.hasAttribute("data-home") || document.body.hasAttribute("data-common-privacy")) {
+      if (document.body.hasAttribute("data-home") || document.body.hasAttribute("data-common-privacy") ||
+          (document.body.getAttribute("data-legal-doc") || "").startsWith("stelleaf_")) {
         if (code === currentLang) { e.preventDefault(); return; } // already here
         try { localStorage.setItem(STORAGE_KEY, code); } catch (err) {}
         return; // the <a> navigates on its own
@@ -368,6 +383,11 @@ function languageLink(href, code = currentLang) {
 }
 function preserveLinkLanguage() {
   const docId = document.body.getAttribute("data-legal-doc") || "";
+  if (docId.startsWith("stelleaf_")) {
+    document.querySelectorAll('a[data-i18n="footer.links.privacy"]').forEach((a) => {
+      a.setAttribute("href", stelleafDocHref("privacy"));
+    });
+  }
   if (docId.startsWith("snuumo_") || document.body.getAttribute("data-privacy-app") === "snuumo") {
     document.querySelectorAll('a[data-i18n="footer.links.privacy"]').forEach((a) => {
       a.setAttribute("href", "/privacy/snuumo/");
@@ -393,7 +413,7 @@ function detectLang() {
   // New common-policy URLs keep the language and canonical baked into their HTML.
   // Existing /privacy/ and app-document URLs still honor ?lang= below.
   const fixed = pageLang();
-  if (document.body.hasAttribute("data-common-privacy") && fixed) return fixed;
+  if ((document.body.hasAttribute("data-common-privacy") || document.body.hasAttribute("data-legal-static")) && fixed) return fixed;
   const explicit = urlLang();
   if (explicit) return explicit;
   if (fixed) return fixed;
@@ -418,10 +438,14 @@ async function setLang(code, { persist = true } = {}) {
     strings = await loadJSON(`/data/i18n/${currentLang}.json`);
   } catch (e) {
     console.warn("i18n load failed, falling back to English:", e);
+    // A failed JSON request must not overwrite readable, pre-rendered legal
+    // text with missing keys or a different language. The static links work.
+    const legal = document.querySelector("#legal-root, #privacy-root");
+    if (legal && legal.querySelector("h1")) return;
     strings = fallback;
   }
   if (persist) {
-    localStorage.setItem(STORAGE_KEY, currentLang);
+    try { localStorage.setItem(STORAGE_KEY, currentLang); } catch (e) {}
     // A manual switch supersedes the incoming query too, so reload keeps it.
     if (urlLang() !== null) {
       const url = new URL(location.href);
