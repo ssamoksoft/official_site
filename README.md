@@ -109,6 +109,11 @@ static translations under `privacy/archive/2026-09-07/` and Stelleaf's
 `archive/2026-10-10/`, `archive/terms-2026-07-25/`, `archive/delete-2026-09-20/`.
 The earlier Stelleaf `archive/2026-09-20/` is also retained.
 
+The 2026-10-15 Stelleaf privacy update describes optional Crashlytics error
+analysis, report contents, unsent report deletion and consent withdrawal in all
+16 languages. The outgoing 2026-10-11 policy is preserved in
+`privacy/stelleaf/archive/2026-10-11/` as a complete multilingual snapshot.
+
 ### Version history
 
 Every privacy policy, terms page and account-deletion guide shows its latest

@@ -141,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Kebijakan Privasi Stelleaf",
-      "updated": "Tanggal berlaku: 2026-10-11",
+      "updated": "Tanggal berlaku: 2026-10-15",
       "applies": "Stelleaf dari SSAMOK SOFT menyimpan catatan dan foto di perangkat terlebih dahulu.",
       "sections": [
         {
@@ -168,7 +168,8 @@
             "Peta: iOS memakai Apple Maps. Android memakai peta dan pencarian wilayah/tempat Naver di Korea Selatan, serta Google Maps dan pencarian wilayah/alamat di luar Korea. Permintaan, area tampilan, kueri, IP, dan data teknis SDK dapat diproses. Jika Anda sudah memberikan izin lokasi, kami menggunakan lokasi saat ini untuk menampilkan area sekitar saat peta pertama kali dibuka atau saat Anda menggunakan fitur lokasi saat ini.",
             "Pencarian/gambar: kata pencarian, koordinat, kode batang, dan ISBN. Pencarian tempat Naver, buku Kakao, dan pangan MFDS melalui fungsi Supabase. Aplikasi dapat langsung mengakses Open Food Facts, Open Beauty Facts, OpenLibrary, dan penyedia gambar, termasuk mengirim IP dan informasi teknis. Permintaan server saat login memuat autentikasi akun yang tidak diteruskan proksi kami kepada penyedia pencarian.",
             "Iklan: pengguna gratis dapat melihat iklan native kecil Google AdMob. Untuk penayangan, pengukuran, dan pencegahan penipuan, SDK dapat memproses perkiraan lokasi dari IP, pengenal lingkup aplikasi/perangkat, tayangan dan interaksi iklan, informasi aplikasi/perangkat, kinerja dan diagnostik. Kami tidak memasukkan catatan, memo, kueri, foto, kode batang, koordinat presisi atau ID akun ke permintaan iklan. Permintaan menggunakan pengaturan nonpersonalisasi. Izin ID iklan Android dihapus dan iOS tidak meminta izin pelacakan; pengenal SDK lain dan data pengukuran masih dapat diproses. Selama Premium aktif, iklan tidak diminta atau ditampilkan.",
-            "Analisis penggunaan: hanya dengan persetujuan terpisah, Google Analytics for Firebase memproses peristiwa fitur yang ditentukan sebelumnya (layar, mulai/simpan/gagal mencatat, pencarian, filter, peta, pemberitahuan langganan), pengenal instance aplikasi dan data perangkat/teknis. Isi, judul, memo, foto, kueri, lokasi presisi, kode batang, ID akun dan nama tag buatan sendiri tidak disertakan. Penyimpanan iklan, data pengguna iklan, dan personalisasi iklan Analytics tidak diizinkan."
+            "Analisis penggunaan: hanya dengan persetujuan terpisah, Google Analytics for Firebase memproses peristiwa fitur yang ditentukan sebelumnya (layar, mulai/simpan/gagal mencatat, pencarian, filter, peta, pemberitahuan langganan), pengenal instance aplikasi dan data perangkat/teknis. Isi, judul, memo, foto, kueri, lokasi presisi, kode batang, ID akun dan nama tag buatan sendiri tidak disertakan. Penyimpanan iklan, data pengguna iklan, dan personalisasi iklan Analytics tidak diizinkan.",
+            "Analisis kesalahan opsional: jika Anda setuju membantu meningkatkan aplikasi, kami menggunakan Firebase Crashlytics. Google menerima jenis dan jejak tumpukan crash serta kesalahan yang ditangani, keadaan aplikasi saat kesalahan terjadi, versi aplikasi, model ponsel, versi sistem operasi, serta pengenal instalasi dan sesi untuk menganalisis kesalahan. Peristiwa penggunaan yang telah ditentukan dapat membantu memahami tindakan sebelum kesalahan. Aplikasi tidak melampirkan isi catatan, judul, memo, foto, kata pencarian, lokasi persis, kode batang, ID akun, nama tag buatan sendiri, atau pesan kesalahan asli ke laporan. Semua fitur tetap tersedia tanpa persetujuan, dan opsi ini dapat dimatikan kapan saja di Pengaturan > Privasi."
           ]
         },
         {
@@ -218,7 +219,8 @@
             "Penghapusan satuan: setelah sinkronisasi, pembersihan harian server menghapus isi (nama, catatan, skor, lokasi) lebih dari 30 hari setelah waktu penghapusan yang tercatat. Baris penanda berisi ID, relasi, dan waktu untuk sinkronisasi dibersihkan harian setelah 365 hari. Foto server dibersihkan terpisah saat sinkronisasi aplikasi; offline atau kegagalan dapat menundanya. Jangka waktu ini tidak otomatis menghapus catatan terhapus di perangkat.",
             "Konfirmasi: ID permintaan/pengguna dan waktu untuk respons hilang atau percobaan ulang dibersihkan harian lebih dari 30 hari setelah selesai. Permintaan belum selesai tetap disimpan agar dapat dilanjutkan.",
             "Retensi menurut hukum: berdasarkan undang-undang e-commerce Korea dan peraturan terkait, catatan kontrak dan penarikan disimpan 5 tahun, catatan pembayaran dan penyediaan 5 tahun, serta catatan keluhan/sengketa konsumen 3 tahun, kemudian dimusnahkan",
-            "Mematikan analisis menghentikan pengumpulan selanjutnya dan mereset instance Analytics di perangkat. Ini tidak langsung menghapus semua data yang telah dikirim ke Google; retensi/penghapusan server mengikuti pengaturan dan kebijakan penyedia. Permintaan: ssamoksoft@gmail.com."
+            "Mematikan analisis menghentikan pengumpulan selanjutnya dan mereset instance Analytics di perangkat. Ini tidak langsung menghapus semua data yang telah dikirim ke Google; retensi/penghapusan server mengikuti pengaturan dan kebijakan penyedia. Permintaan: ssamoksoft@gmail.com.",
+            "Crashlytics: laporan crash native dapat tetap tersimpan di ponsel meskipun pengiriman dimatikan. Aplikasi meminta penghapusan laporan yang belum terkirim saat dimulai tanpa persetujuan, sebelum persetujuan baru, dan saat persetujuan ditarik. Penghentian pengiriman dan penghapusan berjalan secara asinkron, serta tidak langsung menghapus data yang sudah dikirim. Penyimpanan dan penghapusannya mengikuti kebijakan Google Firebase. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -263,6 +265,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Versi sebelumnya · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/id.html"
+        },
         {
           "label": "Versi sebelumnya · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/id.html"

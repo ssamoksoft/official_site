@@ -141,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Politique de confidentialité de Stelleaf",
-      "updated": "Date d'effet: 2026-10-11",
+      "updated": "Date d'effet: 2026-10-15",
       "applies": "Stelleaf, de SSAMOK SOFT, conserve d'abord les données et photos sur votre appareil.",
       "sections": [
         {
@@ -168,7 +168,8 @@
             "Cartes : iOS utilise Plans d'Apple. Android utilise les cartes et recherches de zones/lieux Naver en Corée du Sud, et Google Maps avec recherche de zones/adresses à l'étranger. Requêtes, zone affichée, termes de recherche, IP et données techniques du SDK peuvent être traités. Si vous avez autorisé la localisation, nous utilisons votre position actuelle pour afficher les environs à la première ouverture d'une carte ou lorsque vous utilisez la fonction de position actuelle.",
             "Recherches et images : termes, coordonnées, codes-barres et ISBN. Les recherches Naver, Kakao et MFDS passent par les fonctions Supabase. L'app peut contacter directement Open Food Facts, Open Beauty Facts, OpenLibrary et les fournisseurs d'images, transmettant aussi IP et données techniques. Les requêtes authentifiées au serveur contiennent des données de session que notre proxy ne transmet pas aux fournisseurs de recherche.",
             "Publicité : les utilisateurs gratuits peuvent voir de petites annonces natives Google AdMob. Le SDK peut traiter une localisation approximative déduite de l'IP, des identifiants d'application/appareil, les impressions et interactions publicitaires, ainsi que des données d'application, d'appareil, de performance et de diagnostic pour diffuser/mesurer les annonces et prévenir la fraude. Nous n'incluons pas vos enregistrements, notes, recherches, photos, codes-barres, coordonnées précises ou identifiants de compte dans les requêtes publicitaires. Les annonces demandées sont non personnalisées. L'autorisation d'identifiant publicitaire Android est supprimée et iOS ne demande pas le suivi ; d'autres identifiants SDK et données de mesure peuvent néanmoins être traités. Premium actif n'entraîne aucune demande ni affichage d'annonce.",
-            "Analyse d'utilisation : uniquement avec consentement distinct, Google Analytics for Firebase traite des événements prédéfinis (écrans, début/enregistrement/échec de saisie, recherches, filtres, cartes, présentation d'abonnement), des identifiants d'instance et des données techniques/d'appareil. Contenus, titres, notes, photos, recherches, position précise, codes-barres, ID de compte et noms de tags personnels sont exclus. Le stockage publicitaire, les données utilisateur publicitaires et la personnalisation publicitaire d'Analytics ne sont pas autorisés."
+            "Analyse d'utilisation : uniquement avec consentement distinct, Google Analytics for Firebase traite des événements prédéfinis (écrans, début/enregistrement/échec de saisie, recherches, filtres, cartes, présentation d'abonnement), des identifiants d'instance et des données techniques/d'appareil. Contenus, titres, notes, photos, recherches, position précise, codes-barres, ID de compte et noms de tags personnels sont exclus. Le stockage publicitaire, les données utilisateur publicitaires et la personnalisation publicitaire d'Analytics ne sont pas autorisés.",
+            "Analyse facultative des erreurs : avec votre accord pour aider à améliorer l’app, nous utilisons Firebase Crashlytics. Google reçoit les types et traces de pile des plantages et erreurs gérées, l’état de l’app au moment de l’erreur, sa version, le modèle du téléphone, la version du système d’exploitation et les identifiants d’installation et de session pour analyser les erreurs. Des événements d’utilisation prédéfinis peuvent aider à comprendre les actions précédant une erreur. L’app ne joint aux rapports ni contenu des enregistrements, titres, notes, photos, termes de recherche, position exacte, codes-barres, identifiants de compte, noms d’étiquettes personnalisées, ni messages d’erreur d’origine. Toutes les fonctionnalités restent disponibles sans accord, et vous pouvez désactiver cette option à tout moment dans Réglages > Confidentialité."
           ]
         },
         {
@@ -218,7 +219,8 @@
             "Suppression individuelle : après synchronisation, le nettoyage quotidien efface le contenu (noms, notes, scores, lieux) plus de 30 jours après la date de suppression enregistrée au serveur. Les lignes conservant identifiants, relations et dates nécessaires à la synchronisation disparaissent au nettoyage quotidien après 365 jours. Les photos serveur sont nettoyées séparément pendant la synchronisation ; déconnexion ou échec peuvent retarder cette opération. Ces délais n'effacent pas automatiquement les enregistrements supprimés de votre appareil.",
             "Confirmation : identifiants de demande/utilisateur et dates permettant les nouvelles tentatives sont supprimés au nettoyage quotidien plus de 30 jours après la fin du traitement. Les demandes inachevées restent pour permettre leur reprise.",
             "Conservation légale : conformément à la loi coréenne sur le commerce électronique et aux textes connexes, les enregistrements relatifs aux contrats et rétractations sont conservés 5 ans, ceux relatifs aux paiements et à la fourniture 5 ans, et ceux relatifs aux réclamations et litiges de consommateurs 3 ans, avant destruction",
-            "Désactiver l'analyse arrête les collectes futures et réinitialise l'instance Analytics de l'appareil. Cela n'efface pas immédiatement toutes les données déjà envoyées à Google ; conservation et suppression sur les serveurs suivent les paramètres et politiques du fournisseur. Demandes : ssamoksoft@gmail.com."
+            "Désactiver l'analyse arrête les collectes futures et réinitialise l'instance Analytics de l'appareil. Cela n'efface pas immédiatement toutes les données déjà envoyées à Google ; conservation et suppression sur les serveurs suivent les paramètres et politiques du fournisseur. Demandes : ssamoksoft@gmail.com.",
+            "Crashlytics : des rapports de plantages natifs peuvent rester sur le téléphone même si l’envoi est désactivé. L’app demande la suppression des rapports non envoyés au démarrage sans accord, avant un nouvel accord et lors de son retrait. L’arrêt de l’envoi et la suppression sont asynchrones et n’effacent pas immédiatement les données déjà transmises. Leur conservation et leur suppression suivent les règles de Google Firebase. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -263,6 +265,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Version précédente · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/fr.html"
+        },
         {
           "label": "Version précédente · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/fr.html"

@@ -91,11 +91,14 @@ def render_archive(directory, kind=None):
             title = old['title']
         links = ' · '.join(f'<a href="{code}.html" hreflang="{bcp}">{esc(label)}</a>' for code,_,bcp,label in LANGS)
         current_label = new['docs']['stelleaf_'+kind]['title'] if kind else new['privacy']['title']
+        current_doc = new['docs']['stelleaf_'+kind] if kind else new['privacy']
+        current_date = re.search(r'\d{4}-\d{2}-\d{2}', current_doc['updated'])
+        date_label = ' · ' + current_date[0] if current_date else ''
         page = (f'<!doctype html><html lang="{bcp}" dir="{direction}"><head><meta charset="utf-8">'
                 '<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">'
                 f'<title>{esc(title)} — {directory.name}</title><link rel="stylesheet" href="/assets/css/styles.css"></head>'
                 f'<body><main class="container legal"><nav class="doc-links">{links}</nav>{content}'
-                f'<p><a href="{current}">{esc(current_label)} · 2026-10-11</a></p></main></body></html>\n')
+                f'<p><a href="{current}">{esc(current_label)}{date_label}</a></p></main></body></html>\n')
         (directory / f'{lang}.html').write_text(page)
         if lang == 'en':
             (directory / 'index.html').write_text(page)

@@ -202,7 +202,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Privacy Policy",
-      "updated": "Effective date: 2026-10-11",
+      "updated": "Effective date: 2026-10-15",
       "applies": "Stelleaf by SSAMOK SOFT stores records and photos on your device first.",
       "sections": [
         {
@@ -229,7 +229,8 @@
             "Maps: iOS uses Apple Maps. Android uses Naver maps and area/place searches in South Korea, and Google Maps with area/address searches abroad. Requests, viewed areas, queries, IP and SDK technical data may be processed. If you have granted location permission, we use your current location to show your surroundings when a map first opens or when you use the current-location feature.",
             "Search/images: queries, coordinates, barcodes and ISBNs are processed. Naver place, Kakao book and MFDS food searches pass through Supabase functions. The app can directly contact Open Food Facts, Open Beauty Facts, OpenLibrary and image providers. Connections also disclose IP/technical information. Signed-in server requests contain account authentication; our search proxy does not forward that authentication to search providers.",
             "Advertising: free users may see small Google AdMob native ads. The SDK may process IP-derived approximate location, app/device-scoped identifiers, ad impressions and interactions, device/app information, performance and diagnostics for ad delivery, measurement and fraud prevention. We do not include personal records, notes, queries, photos, barcodes, precise coordinates or account IDs in ad requests. Requests use non-personalized settings. Android's advertising ID permission is removed and iOS does not request tracking permission; other SDK identifiers and measurement data may still be processed. While Premium is active, the app neither requests nor displays ads.",
-            "App usage analytics: only with your separate consent, Google Analytics for Firebase processes predefined feature events (such as screens, record creation/save/failure, search/filter/map views and subscription prompts), app-instance identifiers and device/technical data. Events exclude record contents, titles, notes, photos, queries, precise location, barcodes, account IDs and custom tag names. Analytics ad storage, ad user data and ad personalization signals are not permitted."
+            "App usage analytics: only with your separate consent, Google Analytics for Firebase processes predefined feature events (such as screens, record creation/save/failure, search/filter/map views and subscription prompts), app-instance identifiers and device/technical data. Events exclude record contents, titles, notes, photos, queries, precise location, barcodes, account IDs and custom tag names. Analytics ad storage, ad user data and ad personalization signals are not permitted.",
+            "Optional error analysis: with your consent to help improve the app, we use Firebase Crashlytics. Google receives crash and handled-error types and stack traces, app state at the time of an error, app version, phone model, operating system version, and installation/session identifiers to analyze errors. Predefined feature events may help identify actions before an error. The app does not attach record contents, titles, notes, photos, search terms, precise location, barcodes, account IDs, custom tag names or original error messages to reports. All features remain available without consent, and you can turn this off anytime in Settings > Privacy."
           ]
         },
         {
@@ -279,7 +280,8 @@
             "Individual deletion: once synced, daily server cleanup clears content (names, notes, scores, locations, etc.) more than 30 days after the recorded deletion time. Deleted rows retaining IDs, relationships and timestamps needed for sync are removed by daily cleanup after 365 days. Server photo files are cleaned separately during app sync and may be delayed by offline use or failure. These periods do not automatically erase deleted records on your device.",
             "Deletion confirmation: request/user IDs and timestamps used to recover lost responses or retries are removed by daily cleanup more than 30 days after completion. Incomplete requests remain so processing can resume.",
             "Statutory retention: under the Korean e-commerce act and related laws, records of contracts and withdrawals are kept 5 years, payment and supply records 5 years, and consumer complaint/dispute records 3 years, then destroyed",
-            "Disabling analytics stops future collection and resets the on-device Analytics instance. This does not instantly erase all data already sent to Google; server retention/deletion follows provider settings and policies. Contact ssamoksoft@gmail.com for privacy requests."
+            "Disabling analytics stops future collection and resets the on-device Analytics instance. This does not instantly erase all data already sent to Google; server retention/deletion follows provider settings and policies. Contact ssamoksoft@gmail.com for privacy requests.",
+            "Crashlytics: native crash reports may remain on the phone even with sending disabled. The app requests deletion of unsent reports when starting without consent, before new consent, and when consent is withdrawn. Disabling sending and deleting reports are asynchronous; they do not immediately erase data already sent. Retention and deletion of transmitted data follow Google Firebase policies. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -324,6 +326,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Previous version · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/en.html"
+        },
         {
           "label": "Previous version · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/en.html"

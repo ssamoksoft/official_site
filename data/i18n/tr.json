@@ -141,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Gizlilik Politikası",
-      "updated": "Yürürlük tarihi: 2026-10-11",
+      "updated": "Yürürlük tarihi: 2026-10-15",
       "applies": "SSAMOK SOFT'un Stelleaf uygulaması kayıt ve fotoğrafları önce cihazda saklar.",
       "sections": [
         {
@@ -168,7 +168,8 @@
             "Haritalar: iOS, Apple Haritalar'ı kullanır. Android, Güney Kore'de Naver haritaları ve bölge/yer aramasını; yurt dışında Google Maps ile bölge/adres aramasını kullanır. İstekler, görünen alan, sorgular, IP ve SDK teknik verileri işlenebilir. Konum izni verdiyseniz, haritayı ilk açtığınızda çevrenizi göstermek veya mevcut konum özelliğini kullandığınızda konumunuzu belirlemek için mevcut konumunuzu kullanırız.",
             "Arama/görseller: sorgu, koordinat, barkod ve ISBN işlenir. Naver yer, Kakao kitap ve MFDS gıda aramaları Supabase işlevlerinden geçer. Uygulama Open Food Facts, Open Beauty Facts, OpenLibrary ve görsel sağlayıcılara doğrudan bağlanabilir; IP ve teknik bilgiler de iletilir. Giriş yapılmış sunucu istekleri oturum bilgisi içerir; arama aracımız bunu arama sağlayıcısına aktarmaz.",
             "Reklam: ücretsiz kullanıcılar küçük Google AdMob yerel reklamları görebilir. SDK; reklam sunumu, ölçüm ve dolandırıcılık önleme için IP'den çıkarılan yaklaşık konumu, uygulama/cihaz kapsamlı tanımlayıcıları, reklam gösterimleri ve etkileşimlerini, uygulama/cihaz bilgilerini, performans ve tanı verilerini işleyebilir. Kişisel kayıt, not, sorgu, fotoğraf, barkod, kesin koordinat veya hesap kimliğini reklam isteğine eklemeyiz. Kişiselleştirilmemiş istekler kullanılır. Android reklam kimliği izni kaldırılmıştır ve iOS izleme izni istenmez; başka SDK tanımlayıcıları ve ölçüm verileri yine de işlenebilir. Premium etkin olduğunda reklam istenmez veya gösterilmez.",
-            "Kullanım analizi: yalnızca ayrı onayla Google Analytics for Firebase önceden belirlenmiş olayları (ekranlar, kayıt başlatma/kaydetme/hata, arama, filtre, harita, abonelik bildirimi), uygulama örneği tanımlayıcılarını ve cihaz/teknik verileri işler. İçerik, başlık, not, fotoğraf, sorgu, kesin konum, barkod, hesap kimliği ve özel etiket adları dışarıda tutulur. Analytics reklam depolaması, reklam kullanıcı verileri ve reklam kişiselleştirmesine izin verilmez."
+            "Kullanım analizi: yalnızca ayrı onayla Google Analytics for Firebase önceden belirlenmiş olayları (ekranlar, kayıt başlatma/kaydetme/hata, arama, filtre, harita, abonelik bildirimi), uygulama örneği tanımlayıcılarını ve cihaz/teknik verileri işler. İçerik, başlık, not, fotoğraf, sorgu, kesin konum, barkod, hesap kimliği ve özel etiket adları dışarıda tutulur. Analytics reklam depolaması, reklam kullanıcı verileri ve reklam kişiselleştirmesine izin verilmez.",
+            "İsteğe bağlı hata analizi: uygulamayı iyileştirmeye katkıda bulunmayı kabul ederseniz Firebase Crashlytics kullanırız. Hataları analiz etmek için Google’a çökme ve yakalanan hataların türleri ve yığın izleri, hata anındaki uygulama durumu, uygulama sürümü, telefon modeli, işletim sistemi sürümü, kurulum ve oturum tanımlayıcıları gönderilir. Önceden belirlenmiş kullanım olayları, hatadan önceki işlemleri anlamaya yardımcı olabilir. Uygulama raporlara kayıt içeriği, başlıklar, notlar, fotoğraflar, arama sözcükleri, kesin konum, barkodlar, hesap kimlikleri, özel etiket adları veya orijinal hata mesajları eklemez. Onay vermeden de tüm özellikler kullanılabilir; bu seçeneği Ayarlar > Gizlilik bölümünden istediğiniz zaman kapatabilirsiniz."
           ]
         },
         {
@@ -218,7 +219,8 @@
             "Tekil silme: eşitlemeden sonra, sunucuda kaydedilen silme zamanının üzerinden 30 gün geçen içerik (ad, not, puan, konum) günlük temizlikte kaldırılır. Eşitleme için kimlik, ilişki ve zaman bilgisi tutan silinmiş satırlar 365 gün sonrasındaki günlük temizlikte kaldırılır. Sunucu fotoğrafları uygulama eşitlemesinde ayrıca temizlenir; çevrimdışılık veya hata gecikmeye yol açabilir. Bu süreler cihazdaki silinmiş kayıtları otomatik temizlemez.",
             "Silme onayı: yanıt kaybı/yeniden deneme için istek ve kullanıcı kimlikleri ile zamanlar, tamamlanmadan 30 gün geçtikten sonraki günlük temizlikte kaldırılır. Tamamlanmayan istekler sürdürülebilmek için tutulur.",
             "Yasal saklama: Kore e-ticaret kanunu ve ilgili mevzuat uyarınca sözleşme ve cayma kayıtları 5 yıl, ödeme ve tedarik kayıtları 5 yıl, tüketici şikâyet/uyuşmazlık kayıtları 3 yıl saklanır ve sonra yok edilir",
-            "Analizi kapatmak gelecekteki toplamayı durdurur ve cihazdaki Analytics örneğini sıfırlar. Google'a gönderilmiş tüm verileri anında silmez; sunucudaki saklama/silme sağlayıcı ayarları ve politikalarına tabidir. Talepler: ssamoksoft@gmail.com."
+            "Analizi kapatmak gelecekteki toplamayı durdurur ve cihazdaki Analytics örneğini sıfırlar. Google'a gönderilmiş tüm verileri anında silmez; sunucudaki saklama/silme sağlayıcı ayarları ve politikalarına tabidir. Talepler: ssamoksoft@gmail.com.",
+            "Crashlytics: gönderim kapalıyken bile yerel çökme raporları telefonda kalabilir. Uygulama, onay olmadan başlatıldığında, yeniden onay verilmeden önce ve onay geri çekildiğinde gönderilmemiş raporların silinmesini ister. Gönderimin durdurulması ve silme işlemleri eşzamansızdır; önceden gönderilmiş veriler hemen silinmez. Gönderilen verilerin saklanması ve silinmesi Google Firebase politikalarına tabidir. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -263,6 +265,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Önceki sürüm · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/tr.html"
+        },
         {
           "label": "Önceki sürüm · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/tr.html"

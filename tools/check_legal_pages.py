@@ -44,13 +44,15 @@ def check_body(text, document):
 
 def main():
     checked = 0
+    registry = json.loads((ROOT/'data/legal-history.json').read_text())
     for lang,_,bcp,_ in LANGS:
         data = json.loads((ROOT/f'data/i18n/{lang}.json').read_text())
         assert isinstance(data['footer']['links']['privacy'], str)
         assert '2026-10-11' in data['privacy']['updated']
         for kind,directory in KINDS.items():
             doc = data['docs']['stelleaf_'+kind]
-            assert '2026-10-11' in doc['updated']
+            effective_date = registry['documents']['stelleaf_'+kind]['versions'][0]['date']
+            assert effective_date in doc['updated']
             if kind == 'privacy':
                 assert 'https://privacy.kisa.or.kr/' in json.dumps(doc,ensure_ascii=False)
                 assert 'privacy.kr' not in json.dumps(doc,ensure_ascii=False)

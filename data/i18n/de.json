@@ -141,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Stelleaf Datenschutzerklärung",
-      "updated": "Gültig ab: 2026-10-11",
+      "updated": "Gültig ab: 2026-10-15",
       "applies": "Stelleaf von SSAMOK SOFT speichert Einträge und Fotos zuerst auf dem Gerät.",
       "sections": [
         {
@@ -168,7 +168,8 @@
             "Karten: iOS verwendet Apple Karten. Android verwendet in Südkorea Naver-Karten sowie Gebiets- und Ortssuche, im Ausland Google Maps sowie Gebiets- und Adresssuche. Anfragen, Kartenausschnitte, Suchbegriffe, IP und technische SDK-Daten können verarbeitet werden. Wenn du die Standortberechtigung erteilt hast, verwenden wir deinen aktuellen Standort, um beim ersten Öffnen einer Karte deine Umgebung anzuzeigen oder wenn du die Standortfunktion nutzt.",
             "Suche/Bilder: Suchbegriffe, Koordinaten, Barcodes und ISBN. Naver-Orts-, Kakao-Buch- und MFDS-Lebensmittelsuche laufen über Supabase-Funktionen. Open Food Facts, Open Beauty Facts, OpenLibrary und Bildanbieter können direkt kontaktiert werden; dabei werden auch IP und technische Daten übertragen. Angemeldete Serveranfragen enthalten Sitzungsdaten, die unser Suchproxy nicht an Suchanbieter weitergibt.",
             "Werbung: Kostenlose Nutzer können kleine native Google-AdMob-Anzeigen sehen. Für Auslieferung, Messung und Betrugsprävention kann das SDK aus der IP abgeleitete ungefähre Standorte, app-/gerätebezogene Kennungen, Anzeigenaufrufe und Interaktionen sowie App-, Geräte-, Leistungs- und Diagnosedaten verarbeiten. Eigene Aufzeichnungen, Notizen, Suchbegriffe, Fotos, Barcodes, genaue Koordinaten und Konto-IDs werden Werbeanfragen nicht beigefügt. Wir verwenden nicht personalisierte Anfragen. Die Android-Werbe-ID-Berechtigung wurde entfernt; unter iOS wird keine Tracking-Erlaubnis angefordert. Andere SDK-Kennungen und Messdaten können dennoch verarbeitet werden. Bei aktivem Premium werden keine Anzeigen angefordert oder angezeigt.",
-            "Nutzungsanalyse: Nur nach gesonderter Einwilligung verarbeitet Google Analytics for Firebase vordefinierte Funktionsereignisse (Bildschirme, Beginn/Speichern/Fehlschlag von Einträgen, Suche, Filter, Kartenansichten, Abo-Hinweise), App-Instanzkennungen sowie Geräte- und technische Daten. Inhalte, Titel, Notizen, Fotos, Suchbegriffe, genauer Standort, Barcodes, Konto-IDs und eigene Tag-Namen sind ausgeschlossen. Werbespeicherung, Werbenutzerdaten und Anzeigenpersonalisierung für Analytics werden nicht erlaubt."
+            "Nutzungsanalyse: Nur nach gesonderter Einwilligung verarbeitet Google Analytics for Firebase vordefinierte Funktionsereignisse (Bildschirme, Beginn/Speichern/Fehlschlag von Einträgen, Suche, Filter, Kartenansichten, Abo-Hinweise), App-Instanzkennungen sowie Geräte- und technische Daten. Inhalte, Titel, Notizen, Fotos, Suchbegriffe, genauer Standort, Barcodes, Konto-IDs und eigene Tag-Namen sind ausgeschlossen. Werbespeicherung, Werbenutzerdaten und Anzeigenpersonalisierung für Analytics werden nicht erlaubt.",
+            "Optionale Fehleranalyse: Wenn du der Mithilfe bei der App-Verbesserung zustimmst, verwenden wir Firebase Crashlytics. Google erhält zur Fehleranalyse Typen und Stacktraces von Abstürzen und abgefangenen Fehlern, den App-Zustand beim Fehler, die App-Version, das Handymodell, die Betriebssystemversion sowie Installations- und Sitzungskennungen. Vordefinierte Nutzungsereignisse können helfen, die Schritte vor einem Fehler nachzuvollziehen. Die App fügt Berichten keine Eintragsinhalte, Titel, Notizen, Fotos, Suchbegriffe, genauen Standorte, Barcodes, Konto-IDs, eigenen Tag-Namen oder ursprünglichen Fehlermeldungen hinzu. Alle Funktionen bleiben ohne Zustimmung verfügbar. Unter Einstellungen > Datenschutz kannst du die Option jederzeit ausschalten."
           ]
         },
         {
@@ -218,7 +219,8 @@
             "Einzellöschung: Nach Synchronisierung entfernt die tägliche Serverbereinigung Inhalte wie Namen, Notizen, Bewertungen und Orte mehr als 30 Tage nach dem gespeicherten Löschzeitpunkt. Löschmarkierungen mit IDs, Beziehungen und Zeitangaben für die Synchronisierung werden nach 365 Tagen täglich bereinigt. Serverfotodateien werden separat bei der App-Synchronisierung entfernt; Offline-Nutzung oder Fehler können dies verzögern. Diese Fristen löschen nicht automatisch gelöschte Datensätze auf Ihrem Gerät.",
             "Löschbestätigung: Anfrage-/Nutzer-IDs und Zeitangaben zur Wiederholung werden bei der täglichen Bereinigung mehr als 30 Tage nach Abschluss entfernt. Unvollständige Anfragen bleiben zur Fortsetzung erhalten.",
             "Gesetzliche Aufbewahrung: Nach dem koreanischen E-Commerce-Gesetz und verwandten Vorschriften werden Aufzeichnungen zu Verträgen und Widerrufen 5 Jahre, zu Zahlungen und Leistungserbringung 5 Jahre und zu Verbraucherbeschwerden und Streitigkeiten 3 Jahre aufbewahrt und anschließend vernichtet",
-            "Das Abschalten der Analyse beendet zukünftige Erhebung und setzt die Analytics-Instanz auf dem Gerät zurück. Bereits an Google übermittelte Daten werden dadurch nicht sofort vollständig gelöscht. Serverseitige Aufbewahrung/Löschung folgt Anbietereinstellungen und -richtlinien. Datenschutzanfragen: ssamoksoft@gmail.com."
+            "Das Abschalten der Analyse beendet zukünftige Erhebung und setzt die Analytics-Instanz auf dem Gerät zurück. Bereits an Google übermittelte Daten werden dadurch nicht sofort vollständig gelöscht. Serverseitige Aufbewahrung/Löschung folgt Anbietereinstellungen und -richtlinien. Datenschutzanfragen: ssamoksoft@gmail.com.",
+            "Crashlytics: Native Absturzberichte können auch bei deaktiviertem Versand auf dem Handy verbleiben. Die App fordert das Löschen ungesendeter Berichte beim Start ohne Zustimmung, vor einer neuen Zustimmung und beim Widerruf an. Das Abschalten und Löschen erfolgt asynchron und löscht bereits gesendete Daten nicht sofort. Für deren Speicherung und Löschung gelten die Richtlinien von Google Firebase. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -263,6 +265,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Frühere Fassung · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/de.html"
+        },
         {
           "label": "Frühere Fassung · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/de.html"

@@ -141,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Chính sách quyền riêng tư của Stelleaf",
-      "updated": "Ngày có hiệu lực: 2026-10-11",
+      "updated": "Ngày có hiệu lực: 2026-10-15",
       "applies": "Stelleaf của SSAMOK SOFT ưu tiên lưu bản ghi và ảnh trên thiết bị.",
       "sections": [
         {
@@ -168,7 +168,8 @@
             "Bản đồ: iOS sử dụng Apple Maps. Android sử dụng bản đồ và tìm kiếm khu vực/địa điểm Naver tại Hàn Quốc, Google Maps cùng tìm kiếm khu vực/địa chỉ ở nước ngoài. Có thể xử lý yêu cầu, vùng hiển thị, từ khóa, IP và dữ liệu kỹ thuật SDK. Nếu bạn đã cấp quyền vị trí, chúng tôi sử dụng vị trí hiện tại để hiển thị khu vực xung quanh khi mở bản đồ lần đầu hoặc khi bạn sử dụng chức năng vị trí hiện tại.",
             "Tìm kiếm/ảnh: từ khóa, tọa độ, mã vạch, ISBN. Tìm địa điểm Naver, sách Kakao và thực phẩm MFDS đi qua hàm Supabase. Ứng dụng có thể kết nối trực tiếp Open Food Facts, Open Beauty Facts, OpenLibrary và nhà cung cấp ảnh, đồng thời truyền IP và dữ liệu kỹ thuật. Yêu cầu máy chủ khi đăng nhập có thông tin xác thực; máy chủ tìm kiếm trung gian không chuyển thông tin này cho bên cung cấp tìm kiếm.",
             "Quảng cáo: người dùng miễn phí có thể thấy quảng cáo gốc cỡ nhỏ của Google AdMob. SDK có thể xử lý vị trí gần đúng suy ra từ IP, mã định danh phạm vi ứng dụng/thiết bị, lượt hiển thị và tương tác quảng cáo, thông tin ứng dụng/thiết bị, hiệu suất và chẩn đoán để phân phối, đo lường và chống gian lận. Chúng tôi không đưa bản ghi, ghi chú, từ khóa, ảnh, mã vạch, tọa độ chính xác hay ID tài khoản vào yêu cầu quảng cáo. Yêu cầu dùng chế độ không cá nhân hóa. Quyền ID quảng cáo Android đã bị loại bỏ và iOS không yêu cầu quyền theo dõi; mã định danh SDK khác và dữ liệu đo lường vẫn có thể được xử lý. Khi Premium còn hiệu lực, ứng dụng không yêu cầu hay hiển thị quảng cáo.",
-            "Phân tích sử dụng: chỉ khi có sự đồng ý riêng, Google Analytics for Firebase xử lý các sự kiện định sẵn (màn hình, bắt đầu/lưu/lỗi bản ghi, tìm kiếm, bộ lọc, bản đồ, giới thiệu đăng ký), mã định danh phiên bản ứng dụng và dữ liệu thiết bị/kỹ thuật. Không gồm nội dung, tiêu đề, ghi chú, ảnh, từ khóa, vị trí chính xác, mã vạch, ID tài khoản hoặc tên thẻ tự tạo. Không cho phép lưu trữ quảng cáo, dữ liệu người dùng quảng cáo và cá nhân hóa quảng cáo của Analytics."
+            "Phân tích sử dụng: chỉ khi có sự đồng ý riêng, Google Analytics for Firebase xử lý các sự kiện định sẵn (màn hình, bắt đầu/lưu/lỗi bản ghi, tìm kiếm, bộ lọc, bản đồ, giới thiệu đăng ký), mã định danh phiên bản ứng dụng và dữ liệu thiết bị/kỹ thuật. Không gồm nội dung, tiêu đề, ghi chú, ảnh, từ khóa, vị trí chính xác, mã vạch, ID tài khoản hoặc tên thẻ tự tạo. Không cho phép lưu trữ quảng cáo, dữ liệu người dùng quảng cáo và cá nhân hóa quảng cáo của Analytics.",
+            "Phân tích lỗi không bắt buộc: khi bạn đồng ý giúp cải thiện ứng dụng, chúng tôi sử dụng Firebase Crashlytics. Google nhận loại lỗi và dấu vết ngăn xếp của sự cố và lỗi đã được xử lý, trạng thái ứng dụng lúc xảy ra lỗi, phiên bản ứng dụng, mẫu điện thoại, phiên bản hệ điều hành cùng mã định danh bản cài đặt và phiên để phân tích lỗi. Các sự kiện sử dụng được định sẵn có thể giúp xác định thao tác trước khi lỗi xảy ra. Ứng dụng không đính kèm nội dung ghi chép, tiêu đề, ghi chú, ảnh, từ khóa tìm kiếm, vị trí chính xác, mã vạch, ID tài khoản, tên thẻ tự tạo hoặc thông báo lỗi gốc vào báo cáo. Mọi tính năng vẫn dùng được nếu không đồng ý và bạn có thể tắt bất cứ lúc nào trong Cài đặt > Quyền riêng tư."
           ]
         },
         {
@@ -218,7 +219,8 @@
             "Xóa từng mục: sau đồng bộ, tác vụ hằng ngày xóa nội dung (tên, ghi chú, điểm, vị trí) quá 30 ngày kể từ thời điểm xóa ghi trên máy chủ. Các hàng đánh dấu còn giữ ID, liên kết và thời gian phục vụ đồng bộ được dọn hằng ngày sau 365 ngày. Tệp ảnh máy chủ được dọn riêng khi ứng dụng đồng bộ; ngoại tuyến hoặc lỗi có thể làm chậm. Những mốc này không tự động xóa bản ghi đã xóa còn trên thiết bị.",
             "Xác nhận xóa: ID yêu cầu/người dùng và thời gian để xử lý phản hồi thất lạc hoặc thử lại được dọn hằng ngày khi quá 30 ngày từ lúc hoàn tất. Yêu cầu chưa xong được giữ để tiếp tục.",
             "Lưu giữ theo luật: theo luật thương mại điện tử Hàn Quốc và các quy định liên quan, hồ sơ hợp đồng và rút lui được giữ 5 năm, hồ sơ thanh toán và cung cấp 5 năm, hồ sơ khiếu nại và tranh chấp của người tiêu dùng 3 năm, sau đó bị tiêu hủy",
-            "Tắt phân tích sẽ ngừng thu thập về sau và đặt lại phiên bản Analytics trên thiết bị. Không có nghĩa mọi dữ liệu đã gửi đến Google bị xóa ngay; lưu giữ/xóa trên máy chủ theo cấu hình và chính sách nhà cung cấp. Yêu cầu: ssamoksoft@gmail.com."
+            "Tắt phân tích sẽ ngừng thu thập về sau và đặt lại phiên bản Analytics trên thiết bị. Không có nghĩa mọi dữ liệu đã gửi đến Google bị xóa ngay; lưu giữ/xóa trên máy chủ theo cấu hình và chính sách nhà cung cấp. Yêu cầu: ssamoksoft@gmail.com.",
+            "Crashlytics: báo cáo sự cố native có thể còn trên điện thoại dù đã tắt gửi. Ứng dụng yêu cầu xóa báo cáo chưa gửi khi khởi động mà chưa có sự đồng ý, trước khi đồng ý lại và khi rút lại sự đồng ý. Việc ngừng gửi và xóa diễn ra bất đồng bộ, không xóa ngay dữ liệu đã gửi. Việc lưu giữ và xóa dữ liệu đã gửi tuân theo chính sách Google Firebase. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -263,6 +265,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Phiên bản trước · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/vi.html"
+        },
         {
           "label": "Phiên bản trước · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/vi.html"

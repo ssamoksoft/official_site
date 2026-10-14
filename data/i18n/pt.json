@@ -141,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Política de Privacidade do Stelleaf",
-      "updated": "Data de vigência: 2026-10-11",
+      "updated": "Data de vigência: 2026-10-15",
       "applies": "O Stelleaf, da SSAMOK SOFT, salva primeiro registros e fotos no dispositivo.",
       "sections": [
         {
@@ -168,7 +168,8 @@
             "Mapas: iOS usa Mapas da Apple. Android usa mapas e buscas de áreas/locais da Naver na Coreia do Sul, e Google Maps com busca de áreas/endereços no exterior. Solicitações, área exibida, consultas, IP e dados técnicos do SDK podem ser tratados. Se você concedeu permissão de localização, usamos sua localização atual para mostrar os arredores ao abrir um mapa pela primeira vez ou quando você usa a função de localização atual.",
             "Buscas/imagens: consultas, coordenadas, códigos de barras e ISBN. Buscas de locais Naver, livros Kakao e alimentos MFDS passam por funções do Supabase. O app pode acessar diretamente Open Food Facts, Open Beauty Facts, OpenLibrary e fornecedores de imagens, enviando também IP e dados técnicos. Pedidos autenticados ao servidor contêm dados da sessão que nosso proxy não repassa ao fornecedor de busca.",
             "Publicidade: usuários gratuitos podem ver pequenos anúncios nativos do Google AdMob. Para exibir e medir anúncios e prevenir fraudes, o SDK pode tratar localização aproximada inferida do IP, identificadores de app/dispositivo, impressões e interações publicitárias, informações do app/dispositivo, desempenho e diagnóstico. Não incluímos registros, notas, consultas, fotos, códigos de barras, coordenadas precisas ou IDs de conta nas solicitações. Usamos anúncios não personalizados. A permissão de ID de publicidade do Android foi removida e não pedimos rastreamento no iOS; outros identificadores do SDK e dados de medição ainda podem ser tratados. Com Premium ativo, não solicitamos nem exibimos anúncios.",
-            "Análise de uso: somente com consentimento separado, Google Analytics for Firebase trata eventos predefinidos (telas, início/salvamento/falha de registros, buscas, filtros, mapas e avisos de assinatura), identificadores de instância e dados técnicos/do dispositivo. Excluímos conteúdos, títulos, notas, fotos, consultas, localização precisa, códigos de barras, IDs de conta e nomes de tags criadas pelo usuário. Armazenamento publicitário, dados de usuário para anúncios e personalização de anúncios do Analytics não são permitidos."
+            "Análise de uso: somente com consentimento separado, Google Analytics for Firebase trata eventos predefinidos (telas, início/salvamento/falha de registros, buscas, filtros, mapas e avisos de assinatura), identificadores de instância e dados técnicos/do dispositivo. Excluímos conteúdos, títulos, notas, fotos, consultas, localização precisa, códigos de barras, IDs de conta e nomes de tags criadas pelo usuário. Armazenamento publicitário, dados de usuário para anúncios e personalização de anúncios do Analytics não são permitidos.",
+            "Análise opcional de erros: com seu consentimento para ajudar a melhorar o app, usamos o Firebase Crashlytics. O Google recebe tipos e rastros de pilha de falhas e erros tratados, o estado do app no momento do erro, a versão do app, o modelo do celular, a versão do sistema operacional e identificadores de instalação e sessão para analisar erros. Eventos de uso predefinidos podem ajudar a identificar ações anteriores ao erro. O app não anexa conteúdo de registros, títulos, notas, fotos, termos de pesquisa, localização exata, códigos de barras, IDs de conta, nomes de tags personalizadas ou mensagens de erro originais. Todas as funções continuam disponíveis sem consentimento, e você pode desativar a opção a qualquer momento em Configurações > Privacidade."
           ]
         },
         {
@@ -218,7 +219,8 @@
             "Exclusão individual: após sincronizar, a limpeza diária apaga conteúdo (nomes, notas, pontuações, locais) mais de 30 dias após o horário de exclusão registrado no servidor. Linhas excluídas com IDs, relações e horários necessários à sincronização são removidas na limpeza diária após 365 dias. Fotos do servidor são limpas separadamente durante a sincronização; uso offline ou falhas podem atrasar isso. Esses prazos não apagam automaticamente os registros excluídos do dispositivo.",
             "Confirmação: IDs de pedido/usuário e horários para recuperar respostas ou repetir pedidos são removidos na limpeza diária mais de 30 dias após a conclusão. Pedidos incompletos permanecem para retomada.",
             "Retenção legal: conforme a lei coreana de comércio eletrônico e normas relacionadas, registros de contratos e desistências são mantidos por 5 anos, registros de pagamento e fornecimento por 5 anos, e registros de reclamações e disputas de consumidores por 3 anos, sendo então destruídos",
-            "Desativar a análise interrompe a coleta futura e redefine a instância do Analytics no dispositivo. Isso não apaga imediatamente todos os dados já enviados ao Google; retenção e exclusão no servidor seguem configurações e políticas do fornecedor. Solicitações: ssamoksoft@gmail.com."
+            "Desativar a análise interrompe a coleta futura e redefine a instância do Analytics no dispositivo. Isso não apaga imediatamente todos os dados já enviados ao Google; retenção e exclusão no servidor seguem configurações e políticas do fornecedor. Solicitações: ssamoksoft@gmail.com.",
+            "Crashlytics: relatórios de falhas nativas podem permanecer no celular mesmo com o envio desativado. O app solicita a exclusão dos relatórios não enviados ao iniciar sem consentimento, antes de um novo consentimento e quando ele é retirado. A desativação e a exclusão são assíncronas e não apagam imediatamente dados já enviados. A retenção e a exclusão desses dados seguem as políticas do Google Firebase. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -263,6 +265,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Versão anterior · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/pt.html"
+        },
         {
           "label": "Versão anterior · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/pt.html"

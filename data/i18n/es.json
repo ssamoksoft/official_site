@@ -141,7 +141,7 @@
     },
     "stelleaf_privacy": {
       "title": "Política de privacidad de Stelleaf",
-      "updated": "Fecha de entrada en vigor: 2026-10-11",
+      "updated": "Fecha de entrada en vigor: 2026-10-15",
       "applies": "Stelleaf, de SSAMOK SOFT, guarda primero los registros y fotos en el dispositivo.",
       "sections": [
         {
@@ -168,7 +168,8 @@
             "Mapas: iOS utiliza Mapas de Apple. Android utiliza mapas y búsquedas de zonas y lugares de Naver en Corea del Sur, y Google Maps con búsqueda de zonas y direcciones en el extranjero. Pueden tratarse solicitudes, área visible, consultas, IP y datos técnicos del SDK. Si has concedido permiso de ubicación, usamos tu ubicación actual para mostrar los alrededores al abrir un mapa por primera vez o cuando utilizas la función de ubicación actual.",
             "Búsquedas e imágenes: consultas, coordenadas, códigos de barras e ISBN. Las búsquedas de lugares de Naver, libros de Kakao y alimentos de MFDS pasan por funciones de Supabase. La app puede acceder directamente a Open Food Facts, Open Beauty Facts, OpenLibrary y proveedores de imágenes, enviando también IP y datos técnicos. Las solicitudes autenticadas al servidor incluyen credenciales de sesión que nuestro proxy no reenvía al proveedor de búsqueda.",
             "Publicidad: los usuarios gratuitos pueden ver anuncios nativos pequeños de Google AdMob. El SDK puede tratar ubicación aproximada inferida de la IP, identificadores de aplicación/dispositivo, impresiones e interacciones publicitarias, información de aplicación/dispositivo, rendimiento y diagnóstico para ofrecer y medir anuncios y prevenir fraudes. No incluimos registros, notas, consultas, fotos, códigos de barras, coordenadas precisas ni ID de cuenta en las solicitudes. Usamos anuncios no personalizados. Se ha eliminado el permiso de ID publicitario de Android y no se solicita permiso de seguimiento en iOS; aun así pueden tratarse otros identificadores del SDK y datos de medición. Con Premium activo no se solicitan ni muestran anuncios.",
-            "Análisis de uso: solo con consentimiento separado, Google Analytics for Firebase trata eventos de funciones predefinidos (pantallas, inicio/guardado/error de registros, búsqueda, filtros, mapas y avisos de suscripción), identificadores de instancia y datos técnicos/del dispositivo. Se excluyen contenidos, títulos, notas, fotos, consultas, ubicación precisa, códigos de barras, ID de cuenta y nombres de etiquetas propias. No se permiten el almacenamiento publicitario, los datos de usuario para publicidad ni la personalización publicitaria de Analytics."
+            "Análisis de uso: solo con consentimiento separado, Google Analytics for Firebase trata eventos de funciones predefinidos (pantallas, inicio/guardado/error de registros, búsqueda, filtros, mapas y avisos de suscripción), identificadores de instancia y datos técnicos/del dispositivo. Se excluyen contenidos, títulos, notas, fotos, consultas, ubicación precisa, códigos de barras, ID de cuenta y nombres de etiquetas propias. No se permiten el almacenamiento publicitario, los datos de usuario para publicidad ni la personalización publicitaria de Analytics.",
+            "Análisis de errores opcional: si aceptas ayudar a mejorar la app, utilizamos Firebase Crashlytics. Google recibe los tipos y las trazas de los fallos y errores gestionados, el estado de la app cuando ocurre un error, la versión de la app, el modelo del teléfono, la versión del sistema operativo y los identificadores de instalación y sesión para analizar los errores. Los eventos de uso predefinidos pueden ayudar a conocer las acciones previas a un error. La app no adjunta contenido de registros, títulos, notas, fotos, términos de búsqueda, ubicación exacta, códigos de barras, identificadores de cuenta, nombres de etiquetas personalizadas ni mensajes de error originales. Todas las funciones están disponibles sin aceptar y puedes desactivarlo cuando quieras en Ajustes > Privacidad."
           ]
         },
         {
@@ -218,7 +219,8 @@
             "Eliminaciones individuales: tras sincronizar, la limpieza diaria elimina contenido (nombres, notas, puntuaciones, ubicaciones) con más de 30 días desde la fecha de borrado registrada en el servidor. Las filas que conservan ID, relaciones y fechas para sincronizar se eliminan en la limpieza diaria después de 365 días. Las fotos del servidor se limpian aparte durante la sincronización y pueden demorarse por desconexión o fallos. Estos plazos no borran automáticamente los registros locales eliminados.",
             "Confirmación: los ID de solicitud y usuario y las fechas para reintentos se eliminan en la limpieza diaria más de 30 días después de completarse. Las solicitudes pendientes se conservan para continuar.",
             "Conservación legal: conforme a la ley coreana de comercio electrónico y normas relacionadas, los registros de contratos y desistimientos se conservan 5 años, los de pagos y suministro 5 años, y los de reclamaciones y litigios de consumidores 3 años, tras lo cual se destruyen",
-            "Desactivar los análisis detiene la recogida futura y restablece la instancia de Analytics del dispositivo. No borra de inmediato todos los datos enviados a Google; la conservación y eliminación en servidores dependen de la configuración y políticas del proveedor. Solicitudes: ssamoksoft@gmail.com."
+            "Desactivar los análisis detiene la recogida futura y restablece la instancia de Analytics del dispositivo. No borra de inmediato todos los datos enviados a Google; la conservación y eliminación en servidores dependen de la configuración y políticas del proveedor. Solicitudes: ssamoksoft@gmail.com.",
+            "Crashlytics: los informes de fallos nativos pueden permanecer en el teléfono aunque se desactive su envío. La app solicita eliminar los informes pendientes al iniciarse sin consentimiento, antes de obtener un nuevo consentimiento y cuando este se retira. La desactivación y la eliminación son asíncronas y no borran de inmediato los datos ya enviados. Su conservación y eliminación siguen las políticas de Google Firebase. https://firebase.google.com/support/privacy"
           ]
         },
         {
@@ -263,6 +265,10 @@
         }
       ],
       "previous": [
+        {
+          "label": "Versión anterior · 2026-10-11",
+          "href": "/privacy/stelleaf/archive/2026-10-11/es.html"
+        },
         {
           "label": "Versión anterior · 2026-10-10",
           "href": "/privacy/stelleaf/archive/2026-10-10/es.html"
