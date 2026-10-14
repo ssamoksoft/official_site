@@ -406,14 +406,26 @@
       "versions": [
         {
           "id": "current",
-          "date": "2026-10-02",
+          "date": "2026-10-15",
           "dateKind": "effective",
           "url": "/privacy/snuumo/?lang={lang}",
+          "summary": {
+            "ko": "선택형 Crashlytics 오류 진단의 수집 항목, 보관 기간, 동의 및 철회 절차를 반영했습니다.",
+            "en": "Added optional Crashlytics diagnostics, report contents, retention, consent and withdrawal procedures."
+          },
+          "status": "current"
+        },
+        {
+          "id": "before-crashlytics-2026-10-15",
+          "date": "2026-10-02",
+          "dateKind": "effective",
+          "url": "/privacy/snuumo/archive/before-crashlytics-2026-10-15/{lang}.html",
           "summary": {
             "ko": "분석 도구 도입에 관한 개인정보 처리 내용을 반영했습니다.",
             "en": "Updated the policy to describe analytics processing."
           },
-          "status": "current"
+          "status": "previous",
+          "snapshot": "privacy/snuumo/archive/before-crashlytics-2026-10-15"
         },
         {
           "id": "before-analytics-2026-10-02",
