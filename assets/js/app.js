@@ -167,6 +167,11 @@ function renderLegalHistory(docId) {
   const historyDoc = legalHistoryData.documents[docId];
   if (!historyDoc) return '';
   const labels = legalHistoryData.labels[currentLang] || legalHistoryData.labels.en;
+  const current = historyDoc.versions.find((v) => v.status === 'current');
+  const summaryDate = current.date
+    ? `${escapeHTML(labels[current.dateKind])}: <time datetime="${escapeHTML(current.date)}">${escapeHTML(current.date)}</time>`
+    : escapeHTML(labels.current);
+  const chevron = '<svg class="legal-history__chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const url = (v) => v.url.replaceAll('{lang}', currentLang).replaceAll('{slug}', langSlug(currentLang));
   const entries = historyDoc.versions.map((v) => {
     const date = v.date
@@ -179,7 +184,7 @@ function renderLegalHistory(docId) {
       : `<a href="${escapeHTML(url(v))}" data-fixed-lang="true">${escapeHTML(labels.read)}</a>`;
     return `<li class="legal-history__entry${v.status === 'current' ? ' is-current' : ''}"><div class="legal-history__meta"><span class="legal-history__status">${escapeHTML(labels[v.status])}</span><span>${date}</span></div><p lang="${summaryLang}" dir="${summaryLang === 'ar' ? 'rtl' : 'ltr'}">${escapeHTML(v.summary[summaryLang])}</p>${languages}${link}</li>`;
   }).join('');
-  return `<aside class="legal-history" lang="${langBcp(currentLang)}" dir="${isRTL() ? 'rtl' : 'ltr'}" data-history-doc="${escapeHTML(docId)}"><details><summary>${escapeHTML(labels.title)} <span class="legal-history__count">${historyDoc.versions.length}</span></summary><ol>${entries}</ol>${historyDoc.versions.length === 1 ? `<p class="legal-history__empty">${escapeHTML(labels.empty)}</p>` : ''}</details></aside>`;
+  return `<aside class="legal-history" lang="${langBcp(currentLang)}" dir="${isRTL() ? 'rtl' : 'ltr'}" data-history-doc="${escapeHTML(docId)}" data-history-current="true"><details><summary><span>${summaryDate}</span>${chevron}</summary><ol>${entries}</ol>${historyDoc.versions.length === 1 ? `<p class="legal-history__empty">${escapeHTML(labels.empty)}</p>` : ''}</details></aside>`;
 }
 
 /* ---------- privacy page ---------- */

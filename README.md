@@ -111,8 +111,10 @@ The earlier Stelleaf `archive/2026-09-20/` is also retained.
 
 ### Version history
 
-Every privacy policy, terms page and account-deletion guide has a collapsible
-**Version history** near its title. Archived pages show a notice, a link to the
+Every privacy policy, terms page and account-deletion guide shows its latest
+effective date and a chevron near its title. Clicking the date expands version
+history; it is collapsed initially. Documents without a confirmed effective date
+use their stated document date or a current-version label. Archived pages show a notice, a link to the
 current version, and navigation to other editions. History works without JavaScript;
 the existing live language switcher refreshes its labels and links too.
 

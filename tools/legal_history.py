@@ -29,11 +29,15 @@ def render_history(registry, doc_id, lang, viewing='current'):
     labels = registry['labels'].get(lang, registry['labels']['en'])
     current = next(v for v in document['versions'] if v['status'] == 'current')
     bcp = 'zh-Hans' if lang == 'zh' else lang.replace('_', '-')
-    result = [START, f'<aside class="legal-history" lang="{bcp}" dir="{"rtl" if lang == "ar" else "ltr"}" data-history-doc="{doc_id}">']
+    is_current = 'true' if viewing == current['id'] else 'false'
+    summary_date = (f'{esc(labels[current["dateKind"]])}: <time datetime="{current["date"]}">{current["date"]}</time>'
+                    if current['date'] else esc(labels['current']))
+    chevron = '<svg class="legal-history__chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+    result = [START, f'<aside class="legal-history" lang="{bcp}" dir="{"rtl" if lang == "ar" else "ltr"}" data-history-doc="{doc_id}" data-history-current="{is_current}">']
     if viewing != current['id']:
         result.append(f'<p class="legal-history__notice">{esc(labels["notice"])} '
                       f'<a href="{esc(version_url(current, lang))}" data-fixed-lang="true">{esc(labels["latest"])}</a></p>')
-    result.append(f'<details><summary>{esc(labels["title"])} <span class="legal-history__count">{len(document["versions"])}</span></summary><ol>')
+    result.append(f'<details><summary><span>{summary_date}</span>{chevron}</summary><ol>')
     for version in document['versions']:
         selected = version['id'] == viewing
         status = labels[version['status']]
