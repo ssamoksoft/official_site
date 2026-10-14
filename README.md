@@ -109,6 +109,46 @@ static translations under `privacy/archive/2026-09-07/` and Stelleaf's
 `archive/2026-10-10/`, `archive/terms-2026-07-25/`, `archive/delete-2026-09-20/`.
 The earlier Stelleaf `archive/2026-09-20/` is also retained.
 
+### Version history
+
+Every privacy policy, terms page and account-deletion guide has a collapsible
+**Version history** near its title. Archived pages show a notice, a link to the
+current version, and navigation to other editions. History works without JavaScript;
+the existing live language switcher refreshes its labels and links too.
+
+`data/legal-history.json` is the navigation registry for all 15 documents. It holds
+the current URL, dated archive URLs, date type, publication status, available
+archive languages, and short summaries. UI labels cover all 16 languages; summaries
+fall back to explicitly marked English where a translation is unavailable.
+Pre-release documents are labeled separately. Do not infer an effective date from
+a folder name, fabricate a missing edition, or reuse a common-policy archive as if
+it included an app's historical processing summary.
+
+When revising a document:
+
+1. **Before editing live copy**, preserve the outgoing full text and all available
+   translations under a new, stable archive URL. Existing archive text and
+   `documents.json` snapshots must not be overwritten.
+2. Move the outgoing version's date and summary into a new registry entry with a
+   stable `id`, an archive `url`, and `status: "previous"`. Keep exactly one first
+   entry with `id: "current"`, updating its date and summary. Use `dateKind:
+   "document"` for a document date that is not a confirmed effective date, and
+   `date: null` if no date is stated. Use `status: "prelaunch"` for preparation copies.
+   URL templates accept `{lang}` (such as `zh_Hant`) and `{slug}` (`zh-Hant`).
+3. Regenerate with `python3 tools/build_lang_pages.py`. Its final stage,
+   `tools/legal_history.py`, adds navigation to current and archived HTML without
+   changing archived legal text. Do not run a partial generator as the final build.
+4. Run `python3 tools/check_legal_pages.py` and
+   `python3 tools/check_legal_history.py` to check content and edition links.
+
+The pre-analytics Snuumo policy is now frozen in
+`privacy/snuumo/archive/before-analytics-2026-10-02/documents.json` and 16 static
+translations. Its registry entry uses `snapshot` to generate HTML from that file;
+the old `?lang=` entry still selects the corresponding frozen translation. The
+legacy `docs.snuumo_privacyPrevious` translation keys are no longer its content
+source. A `snapshot` directory contains a language-to-document mapping with the
+same `title`, `updated`, `applies`, and `sections` schema as other custom documents.
+
 The **common policy** has pre-rendered pages at `/en/privacy/`, `/ko/privacy/`, etc.
 Each includes its translated body, a self-referencing canonical, reciprocal `hreflang`
 links, and a sitemap entry. These new fixed URLs always use their declared language,

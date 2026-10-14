@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "labels": {
+    "en": {
+      "title": "Version history",
+      "current": "Current version",
+      "previous": "Previous version",
+      "prelaunch": "Pre-release document",
+      "viewing": "You are viewing this version",
+      "read": "Read full document",
+      "effective": "Effective date",
+      "document": "Document date",
+      "undated": "Date not specified",
+      "empty": "No earlier versions are registered.",
+      "notice": "This is a preserved document. Refer to the current version for the latest terms.",
+      "latest": "View current version",
+      "languages": "Document languages"
+    },
+    "ko": {
+      "title": "변경 이력",
+      "current": "현재 버전",
+      "previous": "이전 버전",
+      "prelaunch": "출시 전 준비 문서",
+      "viewing": "현재 보고 있는 버전",
+      "read": "전문 보기",
+      "effective": "시행일",
+      "document": "문서 날짜",
+      "undated": "날짜 미기재",
+      "empty": "등록된 이전 버전이 없습니다.",
+      "notice": "보존된 이전 문서입니다. 현재 적용되는 내용은 최신 버전에서 확인하세요.",
+      "latest": "최신 버전 보기",
+      "languages": "문서 언어"
+    },
+    "ja": {
+      "title": "変更履歴",
+      "current": "現行版",
+      "previous": "旧版",
+      "prelaunch": "公開前の準備文書",
+      "viewing": "閲覧中の版",
+      "read": "全文を見る",
+      "effective": "施行日",
+      "document": "文書の日付",
+      "undated": "日付の記載なし",
+      "empty": "以前の版は登録されていません。",
+      "notice": "保存された過去の文書です。最新の内容は現行版をご確認ください。",
+      "latest": "現行版を見る",
+      "languages": "文書の言語"
+    },
+    "zh": {
+      "title": "版本历史",
+      "current": "当前版本",
+      "previous": "历史版本",
+      "prelaunch": "发布前文档",
+      "viewing": "正在查看的版本",
+      "read": "查看全文",
+      "effective": "生效日期",
+      "document": "文档日期",
+      "undated": "未注明日期",
+      "empty": "尚未登记历史版本。",
+      "notice": "这是保留的历史文档。最新内容请查看当前版本。",
+      "latest": "查看当前版本",
+      "languages": "文档语言"
+    },
+    "zh_Hant": {
+      "title": "版本歷史",
+      "current": "目前版本",
+      "previous": "歷史版本",
+      "prelaunch": "發布前文件",
+      "viewing": "正在檢視的版本",
+      "read": "檢視全文",
+      "effective": "生效日期",
+      "document": "文件日期",
+      "undated": "未註明日期",
+      "empty": "尚未登錄歷史版本。",
+      "notice": "這是保留的歷史文件。最新內容請查看目前版本。",
+      "latest": "檢視目前版本",
+      "languages": "文件語言"
+    },
+    "es": {
+      "title": "Historial de versiones",
+      "current": "Versión actual",
+      "previous": "Versión anterior",
+      "prelaunch": "Documento previo al lanzamiento",
+      "viewing": "Estás viendo esta versión",
+      "read": "Leer documento completo",
+      "effective": "Fecha de entrada en vigor",
+      "document": "Fecha del documento",
+      "undated": "Fecha no indicada",
+      "empty": "No hay versiones anteriores registradas.",
+      "notice": "Este es un documento histórico. Consulta la versión actual para conocer las condiciones vigentes.",
+      "latest": "Ver versión actual",
+      "languages": "Idiomas del documento"
+    },
+    "pt": {
+      "title": "Histórico de versões",
+      "current": "Versão atual",
+      "previous": "Versão anterior",
+      "prelaunch": "Documento anterior ao lançamento",
+      "viewing": "Você está vendo esta versão",
+      "read": "Ler documento completo",
+      "effective": "Data de vigência",
+      "document": "Data do documento",
+      "undated": "Data não informada",
+      "empty": "Não há versões anteriores registradas.",
+      "notice": "Este é um documento preservado. Consulte a versão atual para ver as condições vigentes.",
+      "latest": "Ver versão atual",
+      "languages": "Idiomas do documento"
+    },
+    "de": {
+      "title": "Versionsverlauf",
+      "current": "Aktuelle Fassung",
+      "previous": "Frühere Fassung",
+      "prelaunch": "Dokument vor Veröffentlichung",
+      "viewing": "Sie sehen diese Fassung",
+      "read": "Vollständiges Dokument lesen",
+      "effective": "Gültig ab",
+      "document": "Dokumentdatum",
+      "undated": "Datum nicht angegeben",
+      "empty": "Keine früheren Fassungen registriert.",
+      "notice": "Dies ist ein archiviertes Dokument. Die geltenden Bedingungen finden Sie in der aktuellen Fassung.",
+      "latest": "Aktuelle Fassung ansehen",
+      "languages": "Dokumentsprachen"
+    },
+    "fr": {
+      "title": "Historique des versions",
+      "current": "Version actuelle",
+      "previous": "Version précédente",
+      "prelaunch": "Document avant lancement",
+      "viewing": "Vous consultez cette version",
+      "read": "Lire le document complet",
+      "effective": "Date d’entrée en vigueur",
+      "document": "Date du document",
+      "undated": "Date non précisée",
+      "empty": "Aucune version antérieure n’est enregistrée.",
+      "notice": "Ce document est archivé. Consultez la version actuelle pour les conditions en vigueur.",
+      "latest": "Voir la version actuelle",
+      "languages": "Langues du document"
+    },
+    "hi": {
+      "title": "संस्करण इतिहास",
+      "current": "वर्तमान संस्करण",
+      "previous": "पिछला संस्करण",
+      "prelaunch": "लॉन्च से पहले का दस्तावेज़",
+      "viewing": "आप यह संस्करण देख रहे हैं",
+      "read": "पूरा दस्तावेज़ पढ़ें",
+      "effective": "प्रभावी तिथि",
+      "document": "दस्तावेज़ की तिथि",
+      "undated": "तिथि निर्दिष्ट नहीं है",
+      "empty": "कोई पिछला संस्करण दर्ज नहीं है।",
+      "notice": "यह एक संग्रहित दस्तावेज़ है। नवीनतम शर्तों के लिए वर्तमान संस्करण देखें।",
+      "latest": "वर्तमान संस्करण देखें",
+      "languages": "दस्तावेज़ की भाषाएँ"
+    },
+    "id": {
+      "title": "Riwayat versi",
+      "current": "Versi saat ini",
+      "previous": "Versi sebelumnya",
+      "prelaunch": "Dokumen sebelum peluncuran",
+      "viewing": "Anda sedang melihat versi ini",
+      "read": "Baca dokumen lengkap",
+      "effective": "Tanggal berlaku",
+      "document": "Tanggal dokumen",
+      "undated": "Tanggal tidak dicantumkan",
+      "empty": "Belum ada versi sebelumnya yang terdaftar.",
+      "notice": "Ini adalah dokumen arsip. Lihat versi saat ini untuk ketentuan terbaru.",
+      "latest": "Lihat versi saat ini",
+      "languages": "Bahasa dokumen"
+    },
+    "ru": {
+      "title": "История версий",
+      "current": "Текущая версия",
+      "previous": "Предыдущая версия",
+      "prelaunch": "Документ до запуска",
+      "viewing": "Вы просматриваете эту версию",
+      "read": "Читать полный документ",
+      "effective": "Дата вступления в силу",
+      "document": "Дата документа",
+      "undated": "Дата не указана",
+      "empty": "Предыдущие версии не зарегистрированы.",
+      "notice": "Это архивный документ. Актуальные условия приведены в текущей версии.",
+      "latest": "Открыть текущую версию",
+      "languages": "Языки документа"
+    },
+    "vi": {
+      "title": "Lịch sử phiên bản",
+      "current": "Phiên bản hiện tại",
+      "previous": "Phiên bản trước",
+      "prelaunch": "Tài liệu trước khi ra mắt",
+      "viewing": "Bạn đang xem phiên bản này",
+      "read": "Xem toàn văn",
+      "effective": "Ngày có hiệu lực",
+      "document": "Ngày tài liệu",
+      "undated": "Chưa ghi ngày",
+      "empty": "Chưa có phiên bản trước được ghi nhận.",
+      "notice": "Đây là tài liệu lưu trữ. Vui lòng xem phiên bản hiện tại để biết nội dung mới nhất.",
+      "latest": "Xem phiên bản hiện tại",
+      "languages": "Ngôn ngữ tài liệu"
+    },
+    "tr": {
+      "title": "Sürüm geçmişi",
+      "current": "Güncel sürüm",
+      "previous": "Önceki sürüm",
+      "prelaunch": "Yayın öncesi belge",
+      "viewing": "Bu sürümü görüntülüyorsunuz",
+      "read": "Belgenin tamamını oku",
+      "effective": "Yürürlük tarihi",
+      "document": "Belge tarihi",
+      "undated": "Tarih belirtilmemiş",
+      "empty": "Kayıtlı önceki sürüm yok.",
+      "notice": "Bu, arşivlenmiş bir belgedir. Güncel koşullar için güncel sürüme bakın.",
+      "latest": "Güncel sürümü görüntüle",
+      "languages": "Belge dilleri"
+    },
+    "it": {
+      "title": "Cronologia delle versioni",
+      "current": "Versione attuale",
+      "previous": "Versione precedente",
+      "prelaunch": "Documento precedente al lancio",
+      "viewing": "Stai visualizzando questa versione",
+      "read": "Leggi il documento completo",
+      "effective": "Data di entrata in vigore",
+      "document": "Data del documento",
+      "undated": "Data non indicata",
+      "empty": "Non sono registrate versioni precedenti.",
+      "notice": "Questo è un documento archiviato. Consulta la versione attuale per le condizioni vigenti.",
+      "latest": "Visualizza la versione attuale",
+      "languages": "Lingue del documento"
+    },
+    "ar": {
+      "title": "سجل الإصدارات",
+      "current": "الإصدار الحالي",
+      "previous": "إصدار سابق",
+      "prelaunch": "وثيقة ما قبل الإطلاق",
+      "viewing": "أنت تعرض هذا الإصدار",
+      "read": "قراءة الوثيقة كاملة",
+      "effective": "تاريخ السريان",
+      "document": "تاريخ الوثيقة",
+      "undated": "التاريخ غير محدد",
+      "empty": "لا توجد إصدارات سابقة مسجلة.",
+      "notice": "هذه وثيقة محفوظة. راجع الإصدار الحالي للاطلاع على أحدث الشروط.",
+      "latest": "عرض الإصدار الحالي",
+      "languages": "لغات الوثيقة"
+    }
+  },
+  "documents": {
+    "common_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/{slug}/privacy/",
+          "summary": {
+            "ko": "앱별 방침의 우선 적용, 삭제 처리와 보안 조치 설명을 명확히 했습니다.",
+            "en": "Clarified app-policy precedence, deletion handling and security measures."
+          },
+          "status": "current"
+        },
+        {
+          "id": "2026-09-07",
+          "date": "2026-09-07",
+          "dateKind": "effective",
+          "url": "/privacy/archive/2026-09-07/{lang}.html",
+          "summary": {
+            "ko": "2026년 9월 7일 시행 공통 개인정보 처리방침 보존본입니다.",
+            "en": "Preserved common privacy policy effective September 7, 2026."
+          },
+          "status": "previous"
+        }
+      ]
+    },
+    "stelleaf_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/stelleaf/{lang}.html",
+          "summary": {
+            "ko": "광고·선택형 분석, 플랫폼별 지도, 사진 보관 한도와 권한 안내를 반영하고 삭제·보안·권리 안내를 명확히 했습니다.",
+            "en": "Describes ads, optional analytics, platform-specific maps, photo limits and permissions; clarifies deletion, security and rights information."
+          },
+          "status": "current"
+        },
+        {
+          "id": "2026-10-10",
+          "date": "2026-10-10",
+          "dateKind": "document",
+          "url": "/privacy/stelleaf/archive/2026-10-10/{lang}.html",
+          "summary": {
+            "ko": "이전에 게시된 문서의 전문을 보존했습니다.",
+            "en": "Full text of the previously published document is preserved."
+          },
+          "status": "previous"
+        },
+        {
+          "id": "2026-09-20",
+          "date": "2026-09-20",
+          "dateKind": "document",
+          "url": "/privacy/stelleaf/archive/2026-09-20/{lang}.html",
+          "summary": {
+            "ko": "2026년 9월 20일 문서 보존본입니다.",
+            "en": "Preserved document dated September 20, 2026."
+          },
+          "status": "previous"
+        }
+      ]
+    },
+    "stelleaf_terms": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/stelleaf/terms/{lang}.html",
+          "summary": {
+            "ko": "무료·유료 요금제의 사진 한도와 광고 제공, 요금제 혜택 및 약관 변경 안내를 구체화했습니다.",
+            "en": "Clarified free and paid photo limits, advertising, plan benefits and notices of changes to the terms."
+          },
+          "status": "current"
+        },
+        {
+          "id": "2026-07-25",
+          "date": "2026-07-25",
+          "dateKind": "effective",
+          "url": "/privacy/stelleaf/archive/terms-2026-07-25/{lang}.html",
+          "summary": {
+            "ko": "이전에 게시된 문서의 전문을 보존했습니다.",
+            "en": "Full text of the previously published document is preserved."
+          },
+          "status": "previous"
+        }
+      ]
+    },
+    "stelleaf_delete": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/stelleaf/delete-account/{lang}.html",
+          "summary": {
+            "ko": "이메일 삭제 요청의 7일 처리 기한과 삭제 절차를 명확히 했습니다.",
+            "en": "Clarified the seven-day email deletion deadline and deletion procedures."
+          },
+          "status": "current"
+        },
+        {
+          "id": "2026-09-20",
+          "date": "2026-09-20",
+          "dateKind": "document",
+          "url": "/privacy/stelleaf/archive/delete-2026-09-20/{lang}.html",
+          "summary": {
+            "ko": "이전에 게시된 문서의 전문을 보존했습니다.",
+            "en": "Full text of the previously published document is preserved."
+          },
+          "status": "previous"
+        }
+      ]
+    },
+    "snuumo_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-02",
+          "dateKind": "effective",
+          "url": "/privacy/snuumo/?lang={lang}",
+          "summary": {
+            "ko": "분석 도구 도입에 관한 개인정보 처리 내용을 반영했습니다.",
+            "en": "Updated the policy to describe analytics processing."
+          },
+          "status": "current"
+        },
+        {
+          "id": "before-analytics-2026-10-02",
+          "date": "2026-09-12",
+          "dateKind": "effective",
+          "url": "/privacy/snuumo/archive/before-analytics-2026-10-02/{lang}.html",
+          "summary": {
+            "ko": "분석 도구 도입 전 방침 보존본입니다. 9월 13일 메일 발송 관련 보완 내용을 포함합니다.",
+            "en": "Preserved policy before analytics, including the September 13 email-delivery clarification."
+          },
+          "status": "previous",
+          "snapshot": "privacy/snuumo/archive/before-analytics-2026-10-02"
+        },
+        {
+          "id": "2026-09-11",
+          "date": "2026-09-11",
+          "dateKind": "document",
+          "url": "/privacy/snuumo/archive/2026-09-11/",
+          "summary": {
+            "ko": "출시 전 공개한 준비 문서입니다. 당시의 예정 시행일을 포함한 원문을 보존합니다.",
+            "en": "Pre-release document; original wording, including the proposed effective date, is preserved."
+          },
+          "status": "prelaunch",
+          "languages": [
+            "ko",
+            "en"
+          ]
+        },
+        {
+          "id": "2026-07-25",
+          "date": "2026-07-25",
+          "dateKind": "document",
+          "url": "/privacy/snuumo/archive/2026-07-25/",
+          "summary": {
+            "ko": "최초 한국어 준비 문서입니다. 문서에 기재된 날짜를 표시합니다.",
+            "en": "Initial Korean preparation document, listed by its stated document date."
+          },
+          "status": "prelaunch",
+          "languages": [
+            "ko"
+          ]
+        }
+      ]
+    },
+    "snuumo_terms": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-09-12",
+          "dateKind": "effective",
+          "url": "/privacy/snuumo/terms/?lang={lang}",
+          "summary": {
+            "ko": "일반 이용자 제공 전 문서를 정리하고 공고일과 시행일을 일치시켰습니다.",
+            "en": "Finalized the document before public availability and aligned the announcement and effective dates."
+          },
+          "status": "current"
+        },
+        {
+          "id": "2026-09-11",
+          "date": "2026-09-11",
+          "dateKind": "document",
+          "url": "/privacy/snuumo/archive/terms-2026-09-11/",
+          "summary": {
+            "ko": "출시 전 공개한 준비 약관입니다. 당시의 예정 시행일을 포함한 원문을 보존합니다.",
+            "en": "Pre-release terms; original wording, including the proposed effective date, is preserved."
+          },
+          "status": "prelaunch",
+          "languages": [
+            "ko",
+            "en"
+          ]
+        },
+        {
+          "id": "2026-08-12",
+          "date": "2026-08-12",
+          "dateKind": "document",
+          "url": "/privacy/snuumo/archive/terms-2026-08-12/",
+          "summary": {
+            "ko": "무료 플랜 한도를 사진 장수로 표시한 한국어 준비 약관입니다.",
+            "en": "Korean preparation terms expressing the free-plan limit as a photo count."
+          },
+          "status": "prelaunch",
+          "languages": [
+            "ko"
+          ]
+        }
+      ]
+    },
+    "kairotique_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/kairotique/?lang={lang}",
+          "summary": {
+            "ko": "현재 공통 방침과 앱별 처리 요약입니다. 과거 앱별 전문 보존본은 등록되어 있지 않습니다.",
+            "en": "Current common policy and app-specific processing summary. No earlier app-specific full document is registered."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "stopwatcha_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/stopwatcha/?lang={lang}",
+          "summary": {
+            "ko": "현재 공통 방침과 앱별 처리 요약입니다. 과거 앱별 전문 보존본은 등록되어 있지 않습니다.",
+            "en": "Current common policy and app-specific processing summary. No earlier app-specific full document is registered."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "about-my-time_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/about-my-time/?lang={lang}",
+          "summary": {
+            "ko": "현재 공통 방침과 앱별 처리 요약입니다. 과거 앱별 전문 보존본은 등록되어 있지 않습니다.",
+            "en": "Current common policy and app-specific processing summary. No earlier app-specific full document is registered."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "m17_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/m17/?lang={lang}",
+          "summary": {
+            "ko": "현재 공통 방침과 앱별 처리 요약입니다. 과거 앱별 전문 보존본은 등록되어 있지 않습니다.",
+            "en": "Current common policy and app-specific processing summary. No earlier app-specific full document is registered."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "about-couples_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/about-couples/?lang={lang}",
+          "summary": {
+            "ko": "현재 공통 방침과 앱별 처리 요약입니다. 과거 앱별 전문 보존본은 등록되어 있지 않습니다.",
+            "en": "Current common policy and app-specific processing summary. No earlier app-specific full document is registered."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "imincloud_privacy": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-10-11",
+          "dateKind": "effective",
+          "url": "/privacy/imincloud/?lang={lang}",
+          "summary": {
+            "ko": "현재 공통 방침과 앱별 처리 요약입니다. 과거 앱별 전문 보존본은 등록되어 있지 않습니다.",
+            "en": "Current common policy and app-specific processing summary. No earlier app-specific full document is registered."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "kairotique_terms": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-09-07",
+          "dateKind": "effective",
+          "url": "/privacy/kairotique/terms/?lang={lang}",
+          "summary": {
+            "ko": "현재 게시된 문서입니다.",
+            "en": "Currently published document."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "kairotique_delete": {
+      "versions": [
+        {
+          "id": "current",
+          "date": "2026-09-07",
+          "dateKind": "document",
+          "url": "/privacy/kairotique/delete-account/?lang={lang}",
+          "summary": {
+            "ko": "현재 게시된 문서입니다.",
+            "en": "Currently published document."
+          },
+          "status": "current"
+        }
+      ]
+    },
+    "snuumo_delete": {
+      "versions": [
+        {
+          "id": "current",
+          "date": null,
+          "dateKind": "document",
+          "url": "/privacy/snuumo/delete-account/?lang={lang}",
+          "summary": {
+            "ko": "현재 게시된 문서입니다.",
+            "en": "Currently published document."
+          },
+          "status": "current"
+        }
+      ]
+    }
+  }
+}

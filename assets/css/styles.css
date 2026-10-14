@@ -190,7 +190,7 @@ a { color: inherit; text-decoration: none; }
 .contact p { color: var(--text-dim); max-width: 52ch; margin: 14px auto 28px; }
 
 /* ---------- Legal / privacy ---------- */
-.legal { max-width: 760px; padding: 56px 0 80px; }
+.legal { max-width: 760px; padding: 56px 24px 80px; }
 .legal h1 { font-size: clamp(30px, 5vw, 44px); margin-bottom: 8px; }
 .legal .updated { color: var(--text-mute); font-size: 14px; margin-bottom: 6px; }
 .legal .applies { color: var(--text); font-weight: 500; margin: 0 0 18px; }

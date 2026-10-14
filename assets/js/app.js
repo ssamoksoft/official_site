@@ -28,6 +28,7 @@ let strings = {};      // strings for the active language
 let fallback = {};     // English strings, always loaded as a safety net
 let appsData = { defaultLang: DEFAULT_LANG, apps: [] };
 let currentLang = DEFAULT_LANG;
+let legalHistoryData = null;
 
 /* ---------- helpers ---------- */
 function getPath(obj, path) {
@@ -158,6 +159,29 @@ function escapeAndLink(s) {
   });
 }
 
+/* ---------- legal version navigation ---------- */
+function renderLegalHistory(docId) {
+  const root = document.querySelector('#legal-root, #privacy-root');
+  // Preserve the pre-rendered navigation if its independent metadata request fails.
+  if (!legalHistoryData) return root?.querySelector('.legal-history')?.outerHTML || '';
+  const historyDoc = legalHistoryData.documents[docId];
+  if (!historyDoc) return '';
+  const labels = legalHistoryData.labels[currentLang] || legalHistoryData.labels.en;
+  const url = (v) => v.url.replaceAll('{lang}', currentLang).replaceAll('{slug}', langSlug(currentLang));
+  const entries = historyDoc.versions.map((v) => {
+    const date = v.date
+      ? `${escapeHTML(labels[v.dateKind])} · <time datetime="${escapeHTML(v.date)}">${escapeHTML(v.date)}</time>`
+      : escapeHTML(labels.undated);
+    const summaryLang = v.summary[currentLang] ? currentLang : 'en';
+    const languages = v.languages ? `<p class="legal-history__languages">${escapeHTML(labels.languages)}: ${v.languages.map((code) => escapeHTML(LANGUAGES.find((l) => l.code === code)?.label || code)).join(', ')}</p>` : '';
+    const link = v.status === 'current'
+      ? `<span class="legal-history__viewing" aria-current="true">${escapeHTML(labels.viewing)}</span>`
+      : `<a href="${escapeHTML(url(v))}" data-fixed-lang="true">${escapeHTML(labels.read)}</a>`;
+    return `<li class="legal-history__entry${v.status === 'current' ? ' is-current' : ''}"><div class="legal-history__meta"><span class="legal-history__status">${escapeHTML(labels[v.status])}</span><span>${date}</span></div><p lang="${summaryLang}" dir="${summaryLang === 'ar' ? 'rtl' : 'ltr'}">${escapeHTML(v.summary[summaryLang])}</p>${languages}${link}</li>`;
+  }).join('');
+  return `<aside class="legal-history" lang="${langBcp(currentLang)}" dir="${isRTL() ? 'rtl' : 'ltr'}" data-history-doc="${escapeHTML(docId)}"><details><summary>${escapeHTML(labels.title)} <span class="legal-history__count">${historyDoc.versions.length}</span></summary><ol>${entries}</ol>${historyDoc.versions.length === 1 ? `<p class="legal-history__empty">${escapeHTML(labels.empty)}</p>` : ''}</details></aside>`;
+}
+
 /* ---------- privacy page ---------- */
 function renderPrivacy() {
   const root = document.getElementById("privacy-root");
@@ -204,6 +228,7 @@ function renderPrivacy() {
 
   root.innerHTML =
     `<h1>${escapeHTML(t("privacy.title"))}</h1>` +
+    renderLegalHistory(app ? app.id + '_privacy' : 'common_privacy') +
     `<p class="updated">${escapeHTML(t("privacy.updated"))}</p>` +
     `<p class="applies">${escapeHTML(applies)}</p>` +
     `<p class="intro">${escapeHTML(t("privacy.intro"))}</p>` +
@@ -263,6 +288,7 @@ function renderLegalDoc() {
 
   root.innerHTML =
     `<h1>${escapeHTML(d.title)}</h1>` +
+    renderLegalHistory(docId) +
     `<p class="updated">${escapeHTML(d.updated)}</p>` +
     `<p class="applies">${escapeAndLink(d.applies)}</p>` +
     (d.sections || []).map(sectionHTML).join("") +
@@ -470,6 +496,10 @@ async function init() {
   // English is always loaded as the fallback layer.
   try { fallback = await loadJSON(`/data/i18n/${DEFAULT_LANG}.json`); } catch (e) { console.warn(e); }
   try { appsData = await loadJSON("/data/apps.json"); } catch (e) { console.warn("apps.json load failed:", e); }
+  if (document.querySelector('#legal-root, #privacy-root')) {
+    try { legalHistoryData = await loadJSON('/data/legal-history.json'); }
+    catch (e) { console.warn('Legal history load failed; keeping static navigation:', e); }
+  }
 
   renderChips();
   currentLang = detectLang();

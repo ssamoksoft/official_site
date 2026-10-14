@@ -245,7 +245,7 @@ def escape_and_link(value):
     return re.sub(r"https?://[^\s<]+", link, esc(value))
 
 
-def privacy_body(s):
+def privacy_body(s, *, include_previous=True):
     parts = [f'<h1>{esc(s.get("privacy.title"))}</h1>',
              f'<p class="updated">{esc(s.get("privacy.updated"))}</p>',
              f'<p class="applies">{esc(s.get("privacy.applies_common"))}</p>',
@@ -261,7 +261,7 @@ def privacy_body(s):
         if isinstance(items, list):
             parts.append("<ul>" + "".join(f"<li>{escape_and_link(item)}</li>" for item in items) + "</ul>")
     previous = s.get("privacy.previous_url")
-    if previous != "privacy.previous_url":
+    if include_previous and previous != "privacy.previous_url":
         parts.append(f'<div class="doc-links"><a href="{esc(previous)}" data-fixed-lang="true">{esc(s.get("privacy.previous_label"))}</a></div>')
     parts.append(f'<a class="back" href="/"><i class="ti ti-arrow-left" aria-hidden="true"></i> {esc(s.get("privacy.back"))}</a>')
     return "\n".join(parts)
@@ -358,6 +358,8 @@ def main():
     print(f"\n{written} home pages + 16 privacy pages + /privacy/ entry + sitemap.xml written")
     from build_stelleaf_legal import build_stelleaf
     build_stelleaf()
+    from legal_history import build_history
+    build_history()
 
 
 if __name__ == "__main__":
